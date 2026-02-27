@@ -25,7 +25,7 @@ Download APKs from Google Play Store. Automatically merges split APKs (App Bundl
 ### Quick Install
 
 ```bash
-git clone <repo-url> gplay-downloader
+git clone <repo-url> gplay-apk-downloader
 cd gplay-apk-downloader
 ./setup.sh
 ```
