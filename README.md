@@ -8,7 +8,7 @@ Download APKs from Google Play Store. Automatically merges split APKs (App Bundl
 - Automatic split APK merging using [APKEditor](https://github.com/REAndroid/APKEditor)
 - 23 device profiles with automatic rotation for reliable downloads
 - Architecture support: ARM64 (modern phones) and ARMv7 (older phones)
-- Web UI with real-time download progress
+- Modern dark web UI with real-time download progress and streaming activity log
 - CLI tool with JSON output for scripting and automation
 - Apps without splits preserve original signature
 - Merged APKs are signed with debug keystore
@@ -61,9 +61,10 @@ PORT=8080 ./start-server.sh   # Use a custom port
 If port 5000 is already in use, the script will prompt for an alternate port interactively. In non-interactive mode (e.g., systemd, cron), set the `PORT` env var instead.
 
 **Production mode** (default):
-- Gunicorn with gevent async workers (CPU cores x 2 + 1)
+- Gunicorn with gevent async workers (capped at 8 workers)
 - Handles concurrent users with connection pooling
 - Disk-based temp storage (2GB limit, 10min TTL)
+- Configurable CORS and log level via environment variables
 - Runs in background via `nohup`
 
 **Development mode** (`dev`):
@@ -88,6 +89,7 @@ Open http://localhost:5000 in your browser.
    - Checked: Single installable APK (re-signed with debug key)
    - Unchecked: ZIP with base + split APKs (original signatures)
 4. **Click Download** - real-time progress shows token attempts, download, merge, and signing steps
+5. **Activity Log** - collapsible terminal-style panel streams all operations in real time (auto-opens on download)
 
 > **Signature Warning**: Merged APKs are re-signed with a debug key and will NOT receive automatic updates from Google Play. Apps without splits keep their original signature.
 
@@ -317,6 +319,7 @@ After=network.target
 Type=simple
 User=$USER
 WorkingDirectory=$(pwd)
+Environment=CORS_ORIGINS=https://yourdomain.com
 ExecStart=$(pwd)/.venv/bin/gunicorn --bind 0.0.0.0:5000 --workers 2 server:app
 Restart=on-failure
 RestartSec=5
@@ -416,6 +419,16 @@ gplay-apk-downloader/
 
 ## Configuration
 
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `CORS_ORIGINS` | `*` (all origins) | Comma-separated allowed origins (e.g., `https://yourdomain.com`) |
+| `LOG_LEVEL` | `INFO` | Logging level (`DEBUG`, `INFO`, `WARNING`, `ERROR`) |
+| `PORT` | `5000` | Server port (used by `start-server.sh`) |
+
+Set these in your systemd service file or shell environment.
+
 ### Server Limits (server.py)
 
 | Setting | Value | Description |
@@ -434,7 +447,7 @@ gplay-apk-downloader/
 | Setting | Value | Description |
 |---------|-------|-------------|
 | `worker_class` | `gevent` | Async workers for SSE streaming |
-| `workers` | CPU cores x 2 + 1 | Automatic worker scaling |
+| `workers` | min(CPU cores x 2 + 1, 8) | Automatic worker scaling (capped at 8) |
 | `worker_connections` | 1000 | Max connections per worker |
 | `timeout` | 300s | Request timeout |
 | `keepalive` | 65s | Keep-alive for SSE connections |
@@ -446,6 +459,16 @@ gplay-apk-downloader/
 |------|-------------|
 | `~/.gplay-auth.json` | ARM64 auth token cache |
 | `~/.gplay-auth-armv7.json` | ARMv7 auth token cache |
+
+---
+
+## Security
+
+- **CORS**: Defaults to allowing all origins (`*`). For production, set `CORS_ORIGINS` to your domain
+- **Filename sanitization**: All Content-Disposition headers are sanitized against path traversal and header injection
+- **Logging**: Production defaults to `INFO` level — no auth tokens logged. Set `LOG_LEVEL=DEBUG` only for development
+- **No authentication**: API endpoints are open by default. Use a reverse proxy (nginx) to add auth if needed
+- **HTTPS**: Not built-in — deploy behind a reverse proxy with TLS termination
 
 ---
 

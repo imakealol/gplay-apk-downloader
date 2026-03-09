@@ -39,15 +39,14 @@ def get_scraper():
     return _scraper_local.scraper
 
 
-# Legacy compatibility (in case anything still references this directly)
-SCRAPER = None  # Use get_scraper() instead
-
-# Configure logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+# Configure logging (INFO in production, DEBUG via env)
+_log_level = os.environ.get('LOG_LEVEL', 'INFO').upper()
+logging.basicConfig(level=getattr(logging, _log_level, logging.INFO), format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app)
+_cors_origins = os.environ.get('CORS_ORIGINS', '*')
+CORS(app, origins=_cors_origins.split(',') if _cors_origins != '*' else '*')
 
 # Import gpapi protobuf
 try:
@@ -280,6 +279,8 @@ def sign_apk(apk_bytes):
         logger.warning("apksigner not found, returning unsigned APK")
         return apk_bytes
 
+    tmp_in_path = None
+    tmp_out_path = None
     try:
         with tempfile.NamedTemporaryFile(suffix='.apk', delete=False) as tmp_in:
             tmp_in.write(apk_bytes)
@@ -316,7 +317,7 @@ def sign_apk(apk_bytes):
         for path in [tmp_in_path, tmp_out_path]:
             try:
                 os.unlink(path)
-            except:
+            except Exception:
                 pass
 
 
@@ -330,6 +331,14 @@ def format_size(bytes_size):
         size /= 1024
         i += 1
     return f'{size:.2f} {units[i]}'
+
+
+def sanitize_filename(name):
+    """Sanitize a filename for use in Content-Disposition headers."""
+    name = name.replace('/', '_').replace('\\', '_').replace('\0', '')
+    name = re.sub(r'[\r\n"]', '', name)
+    name = os.path.basename(name)
+    return name or 'download.apk'
 
 
 def get_cached_auth(arch='arm64-v8a'):
@@ -369,7 +378,7 @@ def save_cached_auth(auth_data, arch='arm64-v8a'):
         if tmp_file.exists():
             try:
                 tmp_file.unlink()
-            except:
+            except Exception:
                 pass
         return False
 
@@ -422,7 +431,7 @@ def get_auth_from_request():
             auth_data = json.loads(base64.b64decode(token).decode('utf-8'))
             if auth_data.get('authToken'):
                 return auth_data
-        except:
+        except Exception:
             pass
     return None
 
@@ -1103,7 +1112,7 @@ def download(pkg, split_index=None):
         return Response(
             generate(),
             content_type='application/vnd.android.package-archive',
-            headers={'Content-Disposition': f'attachment; filename="{filename}"'}
+            headers={'Content-Disposition': f'attachment; filename="{sanitize_filename(filename)}"'}
         )
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -1264,14 +1273,17 @@ def cleanup_temp_apks():
                             logger.warning(f"Failed to clean temp file: {e}")
 
             # Also clean orphaned files not in registry
-            if TEMP_APK_DIR.exists():
-                for f in TEMP_APK_DIR.iterdir():
-                    if f.is_file() and f.stat().st_mtime < now - TEMP_APK_TTL:
+            try:
+                if TEMP_APK_DIR.exists():
+                    for f in TEMP_APK_DIR.iterdir():
                         try:
-                            f.unlink()
-                            logger.debug(f"Cleaned orphaned temp file: {f.name}")
-                        except:
+                            if f.is_file() and f.stat().st_mtime < now - TEMP_APK_TTL:
+                                f.unlink()
+                                logger.debug(f"Cleaned orphaned temp file: {f.name}")
+                        except Exception:
                             pass
+            except Exception as e:
+                logger.warning(f"Orphaned file cleanup error: {e}")
 
         except Exception as e:
             logger.error(f"Cleanup error: {e}")
@@ -1323,7 +1335,7 @@ def get_temp_apk(file_id):
             if meta['path'].exists():
                 try:
                     meta['path'].unlink()
-                except:
+                except Exception:
                     pass
             return None
         return meta.copy()
@@ -1349,7 +1361,7 @@ def consume_temp_apk(file_id):
                 try:
                     filename = meta_path.read_text().strip()
                     meta_path.unlink()  # Clean up meta file
-                except:
+                except Exception:
                     pass
             meta = {
                 'path': file_path,
@@ -1378,10 +1390,6 @@ def _warm_connection_pool():
         logger.debug(f"Connection warming failed (non-critical): {e}")
 
 _warm_connection_pool()
-
-
-# Legacy compatibility (in case anything still references this)
-TEMP_APKS = {}
 
 
 @app.route('/api/download-merged-stream/<path:pkg>')
@@ -1417,7 +1425,7 @@ def download_merged_stream(pkg):
                     info = get_download_info(pkg, cached)
                     if 'error' not in info:
                         auth_data = cached
-                except:
+                except Exception:
                     pass
 
             if not auth_data:
@@ -1554,18 +1562,19 @@ def download_temp(file_id):
                         break
                     yield chunk
         finally:
-            # Clean up file after streaming
-            try:
-                meta['path'].unlink()
-                logger.debug(f"Cleaned up temp file after download: {file_id}")
-            except Exception as e:
-                logger.warning(f"Failed to clean temp file after download: {e}")
+            # Clean up APK and meta file after streaming
+            for p in [meta['path'], Path(str(meta['path']).replace('.apk', '.meta'))]:
+                try:
+                    p.unlink(missing_ok=True)
+                except Exception as e:
+                    logger.warning(f"Failed to clean temp file after download: {e}")
+            logger.debug(f"Cleaned up temp files after download: {file_id}")
 
     return Response(
         generate_and_cleanup(),
         content_type='application/vnd.android.package-archive',
         headers={
-            'Content-Disposition': f'attachment; filename="{meta["filename"]}"',
+            'Content-Disposition': f'attachment; filename="{sanitize_filename(meta["filename"])}"',
             'Content-Length': str(meta['size'])
         }
     )
@@ -1593,7 +1602,7 @@ def download_merged(pkg):
             info = get_download_info(pkg, cached)
             if 'error' not in info:
                 auth_data = cached
-        except:
+        except Exception:
             pass
 
     # If cached didn't work, try new tokens with exponential backoff
@@ -1655,7 +1664,7 @@ def download_merged(pkg):
             return Response(
                 base_apk,
                 content_type='application/vnd.android.package-archive',
-                headers={'Content-Disposition': f'attachment; filename="{info["filename"]}"'}
+                headers={'Content-Disposition': f'attachment; filename="{sanitize_filename(info["filename"])}"'}
             )
 
         # Download all splits in parallel
@@ -1681,7 +1690,7 @@ def download_merged(pkg):
         return Response(
             signed_apk,
             content_type='application/vnd.android.package-archive',
-            headers={'Content-Disposition': f'attachment; filename="{merged_filename}"'}
+            headers={'Content-Disposition': f'attachment; filename="{sanitize_filename(merged_filename)}"'}
         )
 
     except Exception as e:

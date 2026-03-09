@@ -6,7 +6,7 @@ import multiprocessing
 # Worker configuration
 # gevent provides async workers that handle SSE streaming well
 worker_class = 'gevent'
-workers = multiprocessing.cpu_count() * 2 + 1
+workers = min(multiprocessing.cpu_count() * 2 + 1, 8)
 worker_connections = 1000
 
 # Timeout for long-running requests (APK downloads/merges can take time)

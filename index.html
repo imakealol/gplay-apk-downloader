@@ -3,122 +3,931 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="#1a1a2e">
+  <meta name="theme-color" content="#0a0a0a">
   <title>GPlay Downloader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <style>
+    :root {
+      --bg-primary: #0a0a0a;
+      --bg-card: #111113;
+      --bg-card-hover: #161618;
+      --bg-input: #0e0e10;
+      --bg-elevated: #1a1a1e;
+      --border: #222228;
+      --border-focus: #3d3d44;
+      --text-primary: #e4e4e7;
+      --text-secondary: #71717a;
+      --text-tertiary: #52525b;
+      --accent: #2563eb;
+      --accent-dim: #1d4ed8;
+      --accent-glow: rgba(37, 99, 235, 0.15);
+      --accent-glow-strong: rgba(37, 99, 235, 0.3);
+      --success: #4ade80;
+      --success-bg: rgba(74, 222, 128, 0.08);
+      --error: #f87171;
+      --error-bg: rgba(248, 113, 113, 0.08);
+      --info: #60a5fa;
+      --info-bg: rgba(96, 165, 250, 0.08);
+      --radius: 10px;
+      --radius-lg: 14px;
+      --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #1a1a2e; color: #eee;
-      min-height: 100vh; padding: 16px;
+      font-family: var(--font-sans);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    .container { max-width: 600px; margin: 0 auto; }
-    h1 { text-align: center; margin-bottom: 24px; color: #00d9ff; font-size: clamp(1.5rem, 5vw, 2rem); }
-    .card { background: #16213e; border-radius: 16px; padding: 20px; margin-bottom: 16px; }
-    .card h2 { margin-bottom: 12px; color: #00d9ff; font-size: 1.1em; }
-    .status { display: inline-block; padding: 6px 14px; border-radius: 20px; font-size: 0.85em; }
-    .status.ok { background: #0a3d2a; color: #4ade80; }
-    .status.err { background: #3d0a0a; color: #f87171; }
+
+    /* Subtle noise texture */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      opacity: 0.025;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 200px 200px;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Top glow accent line */
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent) 30%, var(--accent) 70%, transparent);
+      opacity: 0.4;
+      z-index: 100;
+    }
+
+    .wrapper {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-dim);
+      background: var(--accent-glow);
+      border: 1px solid rgba(163, 230, 53, 0.15);
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+
+    .header-badge svg {
+      width: 13px;
+      height: 13px;
+    }
+
+    .header h1 {
+      font-family: var(--font-mono);
+      font-size: clamp(1.6rem, 5vw, 2rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    .header h1 span {
+      color: var(--accent);
+    }
+
+    .header p {
+      margin-top: 8px;
+      color: var(--text-tertiary);
+      font-size: 13px;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-bottom: 16px;
+      transition: border-color var(--transition);
+    }
+
+    .card:hover {
+      border-color: var(--border-focus);
+    }
+
+    .card-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-label svg {
+      width: 14px;
+      height: 14px;
+      color: var(--text-tertiary);
+    }
+
+    /* Form Controls */
     input[type="text"] {
-      width: 100%; padding: 14px 16px; border: 2px solid #0f3460; border-radius: 12px;
-      background: #0f3460; color: #fff; font-size: 16px; margin-bottom: 12px;
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg-input);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 12px;
+      transition: border-color var(--transition), box-shadow var(--transition);
+      outline: none;
     }
-    input:focus { outline: none; border-color: #00d9ff; background: #0f3460; }
-    input:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px #0f3460 inset !important; -webkit-text-fill-color: #fff !important; }
+
+    input[type="text"]::placeholder {
+      color: var(--text-tertiary);
+      font-family: var(--font-mono);
+    }
+
+    input[type="text"]:focus {
+      border-color: var(--accent-dim);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px var(--bg-input) inset !important;
+      -webkit-text-fill-color: var(--text-primary) !important;
+    }
+
+    select {
+      padding: 10px 12px;
+      border-radius: var(--radius);
+      background: var(--bg-input);
+      color: var(--text-primary);
+      border: 1px solid var(--border);
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 500;
+      flex: 1;
+      min-width: 150px;
+      outline: none;
+      cursor: pointer;
+      transition: border-color var(--transition);
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2371717a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      padding-right: 32px;
+    }
+
+    select:focus {
+      border-color: var(--accent-dim);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    /* Checkbox */
+    .checkbox-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .checkbox-wrap input[type="checkbox"] {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid var(--border-focus);
+      border-radius: 4px;
+      background: var(--bg-input);
+      cursor: pointer;
+      position: relative;
+      transition: all var(--transition);
+      flex-shrink: 0;
+    }
+
+    .checkbox-wrap input[type="checkbox"]:checked {
+      background: var(--accent-dim);
+      border-color: var(--accent-dim);
+    }
+
+    .checkbox-wrap input[type="checkbox"]:checked::after {
+      content: '';
+      position: absolute;
+      left: 4.5px;
+      top: 1.5px;
+      width: 5px;
+      height: 8px;
+      border: solid var(--bg-primary);
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+
+    .checkbox-wrap span {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .options-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .note {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      font-family: var(--font-mono);
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.02);
+      border-radius: var(--radius);
+      border-left: 2px solid var(--border);
+    }
+
+    /* Buttons */
     button {
-      padding: 14px 24px; border: none; border-radius: 12px; background: #00d9ff;
-      color: #000; font-weight: 600; font-size: 15px; cursor: pointer;
+      padding: 10px 20px;
+      border: 1px solid transparent;
+      border-radius: var(--radius);
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all var(--transition);
+      outline: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
     }
-    button:hover { background: #00b8d9; }
-    button:disabled { background: #444; color: #888; cursor: not-allowed; }
-    button.sec { background: #0f3460; color: #fff; }
-    .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
-    .btn-row button { flex: 1; min-width: 100px; }
-    .results { margin-top: 16px; }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dim);
+      border-color: var(--accent-dim);
+      box-shadow: 0 0 20px var(--accent-glow);
+    }
+
+    .btn-primary:active {
+      transform: scale(0.98);
+    }
+
+    .btn-secondary {
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      border-color: var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-focus);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-secondary);
+      border-color: transparent;
+      padding: 8px 14px;
+    }
+
+    .btn-ghost:hover {
+      color: var(--text-primary);
+      background: rgba(255,255,255,0.04);
+    }
+
+    button:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-row button {
+      flex: 1;
+    }
+
+    /* Results */
+    .results {
+      margin-top: 16px;
+    }
+
+    /* App Item */
     .app-item {
-      display: flex; align-items: center; padding: 16px; background: #0f3460;
-      border-radius: 12px; margin-bottom: 12px; gap: 12px; flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      padding: 14px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 10px;
+      gap: 12px;
+      flex-wrap: wrap;
+      transition: border-color var(--transition), background var(--transition);
     }
-    .app-icon { width: 48px; height: 48px; border-radius: 10px; object-fit: cover; background: #1a1a2e; flex-shrink: 0; }
-    .app-info { flex: 1; min-width: 150px; }
-    .app-info h3 { font-size: 1em; margin-bottom: 4px; }
-    .app-info .pkg { font-size: 0.8em; color: #888; word-break: break-all; }
-    .msg { padding: 14px 16px; border-radius: 12px; margin-bottom: 12px; }
-    .msg.err { background: #3d0a0a; color: #f87171; }
-    .msg.ok { background: #0a3d2a; color: #4ade80; }
-    .msg.info { background: #0a2a3d; color: #60a5fa; }
-    .loading { text-align: center; padding: 24px; color: #888; }
-    .spin { display: inline-block; width: 20px; height: 20px; border: 2px solid #333;
-      border-top-color: #00d9ff; border-radius: 50%; animation: spin 1s linear infinite;
-      margin-right: 10px; vertical-align: middle; }
+
+    .app-item:hover {
+      border-color: var(--border-focus);
+      background: var(--bg-card-hover);
+    }
+
+    .app-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      object-fit: cover;
+      background: var(--bg-primary);
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
+
+    .app-info {
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .app-info h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 3px;
+      color: var(--text-primary);
+    }
+
+    .app-info .pkg {
+      font-size: 12px;
+      font-family: var(--font-mono);
+      color: var(--text-tertiary);
+      word-break: break-all;
+    }
+
+    .app-actions {
+      display: flex;
+      gap: 6px;
+    }
+
+    /* Messages */
+    .msg {
+      padding: 12px 14px;
+      border-radius: var(--radius);
+      margin-bottom: 10px;
+      font-size: 13px;
+      line-height: 1.5;
+      border: 1px solid;
+    }
+
+    .msg.err {
+      background: var(--error-bg);
+      color: var(--error);
+      border-color: rgba(248, 113, 113, 0.15);
+    }
+
+    .msg.ok {
+      background: var(--success-bg);
+      color: var(--success);
+      border-color: rgba(74, 222, 128, 0.15);
+    }
+
+    .msg.info {
+      background: var(--info-bg);
+      color: var(--info);
+      border-color: rgba(96, 165, 250, 0.12);
+    }
+
+    .msg strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .msg small {
+      opacity: 0.7;
+    }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-secondary);
+      font-size: 13px;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
     @keyframes spin { to { transform: rotate(360deg); } }
-    .app-actions { display: flex; gap: 8px; }
-    .progress { width: 100%; height: 8px; background: #0f3460; border-radius: 4px; margin-top: 10px; }
-    .progress-bar { height: 100%; background: #00d9ff; border-radius: 4px; transition: width 0.3s; }
+
+    /* Progress Bar */
+    .progress {
+      width: 100%;
+      height: 4px;
+      background: var(--bg-primary);
+      border-radius: 2px;
+      margin-top: 10px;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-dim), var(--accent));
+      border-radius: 2px;
+      transition: width 0.3s ease;
+      position: relative;
+    }
+
+    .progress-bar::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      animation: shimmer 1.5s infinite;
+    }
+
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    /* Indeterminate progress */
+    .progress-indeterminate .progress-bar {
+      width: 40% !important;
+      animation: indeterminate 1.2s ease-in-out infinite;
+    }
+
+    @keyframes indeterminate {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(350%); }
+    }
+
     a { text-decoration: none; }
     a button { width: 100%; }
-    @media (max-width: 480px) { .app-actions { width: 100%; } .app-actions button { flex: 1; } }
+
+    /* Divider */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 8px 0 20px;
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer p {
+      font-size: 11px;
+      font-family: var(--font-mono);
+      color: var(--text-tertiary);
+      letter-spacing: 0.02em;
+    }
+
+    .footer-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 10px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-glow);
+      transition: all var(--transition);
+    }
+
+    .footer-link:hover {
+      color: var(--text-primary);
+      border-color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .footer-link svg {
+      opacity: 0.7;
+      transition: opacity var(--transition);
+    }
+
+    .footer-link:hover svg {
+      opacity: 1;
+    }
+
+    /* Log Panel */
+    .log-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      margin-bottom: 16px;
+      overflow: hidden;
+      transition: border-color var(--transition);
+    }
+
+    .log-panel:hover {
+      border-color: var(--border-focus);
+    }
+
+    .log-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      cursor: pointer;
+      user-select: none;
+      transition: background var(--transition);
+    }
+
+    .log-header:hover {
+      background: rgba(255,255,255,0.02);
+    }
+
+    .log-header-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .log-header .card-label {
+      margin-bottom: 0;
+    }
+
+    .log-badge {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: var(--accent-glow);
+      color: var(--accent-dim);
+      min-width: 20px;
+      text-align: center;
+      transition: all var(--transition);
+    }
+
+    .log-badge.empty {
+      background: rgba(255,255,255,0.04);
+      color: var(--text-tertiary);
+    }
+
+    .log-toggle {
+      width: 20px;
+      height: 20px;
+      color: var(--text-tertiary);
+      transition: transform 0.2s ease;
+    }
+
+    .log-panel.open .log-toggle {
+      transform: rotate(180deg);
+    }
+
+    .log-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .log-panel.open .log-body {
+      max-height: 400px;
+    }
+
+    .log-scroll {
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 0 16px 12px;
+      scroll-behavior: smooth;
+    }
+
+    .log-scroll::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .log-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .log-scroll::-webkit-scrollbar-thumb {
+      background: var(--border-focus);
+      border-radius: 2px;
+    }
+
+    .log-entry {
+      display: flex;
+      gap: 8px;
+      padding: 4px 0;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      line-height: 1.5;
+      animation: logSlide 0.2s ease;
+      border-bottom: 1px solid rgba(255,255,255,0.02);
+    }
+
+    .log-entry:last-child {
+      border-bottom: none;
+    }
+
+    @keyframes logSlide {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .log-time {
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      opacity: 0.6;
+    }
+
+    .log-icon {
+      flex-shrink: 0;
+      width: 14px;
+      text-align: center;
+    }
+
+    .log-icon.info { color: var(--info); }
+    .log-icon.ok { color: var(--success); }
+    .log-icon.err { color: var(--error); }
+    .log-icon.warn { color: #fbbf24; }
+    .log-icon.dl { color: var(--accent); }
+
+    .log-msg {
+      color: var(--text-secondary);
+      word-break: break-word;
+    }
+
+    .log-empty {
+      padding: 16px 0;
+      text-align: center;
+      color: var(--text-tertiary);
+      font-family: var(--font-mono);
+      font-size: 11px;
+    }
+
+    .log-actions {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 16px 8px;
+    }
+
+    .log-clear-btn {
+      font-family: var(--font-mono) !important;
+      font-size: 10px !important;
+      padding: 4px 8px !important;
+      color: var(--text-tertiary) !important;
+      border: none !important;
+    }
+
+    /* Pulsing dot for active operations */
+    .log-active-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 480px) {
+      .wrapper { padding: 24px 16px 40px; }
+      .app-actions { width: 100%; }
+      .app-actions button { flex: 1; }
+      .btn-row button { padding: 10px 12px; font-size: 12px; }
+      .log-scroll { max-height: 200px; }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>GPlay Downloader</h1>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        APK Downloader
+      </div>
+      <h1>G<span>Play</span></h1>
+      <p>Download APKs directly from Google Play Store</p>
+    </header>
+
+    <!-- Download Card -->
     <div class="card">
-      <h2>Direct Download</h2>
-      <input type="text" id="pkg-input" placeholder="com.example.app">
-      <div style="display:flex;gap:10px;margin-bottom:12px;flex-wrap:wrap;align-items:center">
-        <select id="arch-select" style="padding:10px;border-radius:8px;background:#0f3460;color:#fff;border:2px solid #0f3460;flex:1;min-width:150px">
-          <option value="arm64-v8a">ARM64 (modern phones)</option>
-          <option value="armeabi-v7a">ARMv7 (older phones)</option>
+      <div class="card-label">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+        Direct Download
+      </div>
+      <input type="text" id="pkg-input" placeholder="com.example.app" spellcheck="false" autocomplete="off">
+      <div class="options-row">
+        <select id="arch-select">
+          <option value="arm64-v8a">ARM64 (modern)</option>
+          <option value="armeabi-v7a">ARMv7 (legacy)</option>
         </select>
-        <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
-          <input type="checkbox" id="merge-apks" checked style="width:18px;height:18px">
-          <span>Merge to single APK</span>
+        <label class="checkbox-wrap">
+          <input type="checkbox" id="merge-apks" checked>
+          <span>Merge splits</span>
         </label>
       </div>
-      <div style="font-size:0.75em;color:#888;margin-bottom:12px;line-height:1.4">
-        Note: Merged APKs are re-signed with a debug key and will not receive automatic updates from Google Play. Apps without splits are downloaded with their original signature.
-      </div>
+      <div class="note">Merged APKs are re-signed with a debug key. Apps without splits keep their original signature.</div>
       <div class="btn-row">
-        <button class="sec" onclick="getInfo()">Get Info</button>
-        <button onclick="download()">Download</button>
+        <button class="btn-secondary" onclick="getInfo()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          Info
+        </button>
+        <button class="btn-primary" onclick="download()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download
+        </button>
       </div>
       <div id="info-result" class="results"></div>
     </div>
+
+    <!-- Log Panel -->
+    <div class="log-panel" id="log-panel">
+      <div class="log-header" onclick="toggleLog()">
+        <div class="log-header-left">
+          <div class="card-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            Activity Log
+          </div>
+          <span class="log-badge empty" id="log-badge">0</span>
+          <div class="log-active-dot" id="log-dot" style="display:none"></div>
+        </div>
+        <svg class="log-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+      <div class="log-body">
+        <div class="log-actions">
+          <button class="log-clear-btn btn-ghost" onclick="event.stopPropagation();clearLog()">clear</button>
+        </div>
+        <div class="log-scroll" id="log-scroll">
+          <div class="log-empty" id="log-empty">No activity yet</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Card -->
     <div class="card">
-      <h2>Search Apps</h2>
-      <input type="text" id="search-q" placeholder="Search apps" onkeypress="if(event.key==='Enter')search()">
-      <div class="btn-row"><button onclick="search()">Search</button></div>
+      <div class="card-label">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        Search
+      </div>
+      <input type="text" id="search-q" placeholder="Search the Play Store..." onkeypress="if(event.key==='Enter')search()">
+      <div class="btn-row">
+        <button class="btn-primary" onclick="search()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Search
+        </button>
+      </div>
       <div id="search-results" class="results"></div>
     </div>
+
+    <footer class="footer">
+      <p>Uses Aurora Store token dispenser for anonymous auth</p>
+      <a href="https://github.com/alltechdev/gplay-apk-downloader" target="_blank" rel="noopener" class="footer-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        alltechdev/gplay-apk-downloader
+      </a>
+    </footer>
   </div>
+
   <script>
     const $ = s => document.querySelector(s);
 
-    // Global state - track ALL EventSources
     let downloadEventSource = null;
     let mergeEventSource = null;
     let currentDownloadInfo = null;
+    let logCount = 0;
+    let logActive = false;
 
-    // Clear ALL download state
-    function clearDownloadState() {
-      if (downloadEventSource) {
-        downloadEventSource.close();
-        downloadEventSource = null;
-      }
-      if (mergeEventSource) {
-        mergeEventSource.close();
-        mergeEventSource = null;
-      }
-      currentDownloadInfo = null;
+    // --- SSE timeout helper ---
+    const SSE_TIMEOUT = 300000; // 5 minutes
+    function resetSseTimeout(cb, prev) {
+      if (prev) clearTimeout(prev.id);
+      return { id: setTimeout(cb, SSE_TIMEOUT), cb: cb };
     }
 
-    // Clear download info and stop any ongoing download when architecture changes
+    // --- Log system ---
+    const LOG_ICONS = {
+      info: '\u2022', ok: '\u2713', err: '\u2717', warn: '\u25B3', dl: '\u2193'
+    };
+
+    function log(msg, type = 'info') {
+      const scroll = $('#log-scroll');
+      const empty = $('#log-empty');
+      if (empty) empty.remove();
+
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      const now = new Date();
+      const time = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      entry.innerHTML = '<span class="log-time">' + time + '</span>' +
+        '<span class="log-icon ' + type + '">' + (LOG_ICONS[type] || LOG_ICONS.info) + '</span>' +
+        '<span class="log-msg">' + esc(msg) + '</span>';
+      scroll.appendChild(entry);
+      scroll.scrollTop = scroll.scrollHeight;
+
+      logCount++;
+      const badge = $('#log-badge');
+      badge.textContent = logCount;
+      badge.classList.remove('empty');
+    }
+
+    function setLogActive(active) {
+      logActive = active;
+      $('#log-dot').style.display = active ? 'block' : 'none';
+    }
+
+    function clearLog() {
+      const scroll = $('#log-scroll');
+      scroll.innerHTML = '<div class="log-empty" id="log-empty">No activity yet</div>';
+      logCount = 0;
+      const badge = $('#log-badge');
+      badge.textContent = '0';
+      badge.classList.add('empty');
+      setLogActive(false);
+    }
+
+    function toggleLog() {
+      $('#log-panel').classList.toggle('open');
+    }
+
+    function clearDownloadState() {
+      if (downloadEventSource) { downloadEventSource.close(); downloadEventSource = null; }
+      if (mergeEventSource) { mergeEventSource.close(); mergeEventSource = null; }
+      currentDownloadInfo = null;
+      setLogActive(false);
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
       $('#arch-select').addEventListener('change', () => {
         clearDownloadState();
         $('#info-result').innerHTML = '';
+        log('Architecture changed to ' + $('#arch-select').value, 'info');
       });
     });
 
@@ -126,18 +935,26 @@
       const q = $('#search-q').value.trim();
       if (!q) return;
       const el = $('#search-results');
-      el.innerHTML = '<div class="loading"><span class="spin"></span>Searching...</div>';
+      el.innerHTML = '<div class="loading fade-in"><span class="spinner"></span>Searching...</div>';
+      log('Searching for "' + q + '"...', 'info');
       try {
         const d = await fetch('/api/search?q=' + encodeURIComponent(q)).then(r => r.json());
-        if (d.error) { el.innerHTML = '<div class="msg err">' + d.error + '</div>'; return; }
-        if (!d.results?.length) { el.innerHTML = '<div class="msg info">No results</div>'; return; }
+        if (d.error) { el.innerHTML = '<div class="msg err fade-in">' + d.error + '</div>'; log('Search error: ' + d.error, 'err'); return; }
+        if (!d.results?.length) { el.innerHTML = '<div class="msg info fade-in">No results found</div>'; log('No results for "' + q + '"', 'warn'); return; }
+        log('Found ' + d.results.length + ' results for "' + q + '"', 'ok');
         el.innerHTML = d.results.map(a =>
-          '<div class="app-item">' +
-          (a.icon ? '<img class="app-icon" src="' + a.icon + '" alt="">' : '') +
-          '<div class="app-info"><h3>' + (a.title || a.package) + '</h3><div class="pkg">' + a.package + '</div></div>' +
-          '<div class="app-actions"><button onclick="dl(\'' + a.package + '\')">Download</button></div></div>'
+          '<div class="app-item fade-in">' +
+          (a.icon ? '<img class="app-icon" src="' + a.icon + '" alt="" loading="lazy">' : '') +
+          '<div class="app-info"><h3>' + esc(a.title || a.package) + '</h3><div class="pkg">' + esc(a.package) + '</div></div>' +
+          '<div class="app-actions"><button class="btn-primary" onclick="dl(\'' + esc(a.package) + '\')">Download</button></div></div>'
         ).join('');
-      } catch(e) { el.innerHTML = '<div class="msg err">' + e + '</div>'; }
+      } catch(e) { el.innerHTML = '<div class="msg err fade-in">' + esc(String(e)) + '</div>'; log('Search failed: ' + e, 'err'); }
+    }
+
+    function esc(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
     }
 
     function sel(pkg) { $('#pkg-input').value = pkg; getInfo(); }
@@ -146,156 +963,187 @@
       const pkg = $('#pkg-input').value.trim();
       if (!pkg) return;
       const el = $('#info-result');
-      el.innerHTML = '<div class="loading"><span class="spin"></span>Getting info...</div>';
+      el.innerHTML = '<div class="loading fade-in"><span class="spinner"></span>Fetching app info...</div>';
+      log('Fetching info for ' + pkg, 'info');
       try {
         const d = await fetch('/api/info/' + encodeURIComponent(pkg)).then(r => r.json());
-        if (d.error) { el.innerHTML = '<div class="msg err">' + d.error + '</div>'; return; }
-        el.innerHTML = '<div class="app-item"><div class="app-info"><h3>' + d.title + '</h3><div class="pkg">' + d.package + '</div><div class="pkg">by ' + d.developer + '</div></div><div class="app-actions"><button onclick="dl(\'' + d.package + '\')">Download</button></div></div>';
-      } catch(e) { el.innerHTML = '<div class="msg err">' + e + '</div>'; }
+        if (d.error) { el.innerHTML = '<div class="msg err fade-in">' + esc(d.error) + '</div>'; log('Info error: ' + d.error, 'err'); return; }
+        log('Got info: ' + d.title + ' by ' + d.developer, 'ok');
+        el.innerHTML = '<div class="app-item fade-in"><div class="app-info"><h3>' + esc(d.title) + '</h3><div class="pkg">' + esc(d.package) + '</div><div class="pkg" style="margin-top:2px">by ' + esc(d.developer) + '</div></div><div class="app-actions"><button class="btn-primary" onclick="dl(\'' + esc(d.package) + '\')">Download</button></div></div>';
+      } catch(e) { el.innerHTML = '<div class="msg err fade-in">' + esc(String(e)) + '</div>'; log('Info failed: ' + e, 'err'); }
     }
 
     function download() {
       const pkg = $('#pkg-input').value.trim();
-      if (!pkg) { alert('Enter package name'); return; }
+      if (!pkg) return;
       dl(pkg);
     }
 
     function stopDownload() {
       clearDownloadState();
-      $('#info-result').innerHTML = '<div class="msg info">Download cancelled</div>';
+      $('#info-result').innerHTML = '<div class="msg info fade-in">Download cancelled</div>';
+      log('Download cancelled by user', 'warn');
     }
 
     async function dl(pkg) {
-      // Clear ALL state before starting a new download
       clearDownloadState();
       $('#info-result').innerHTML = '';
-
       const el = $('#info-result');
-      // Read arch fresh from dropdown EVERY time
       const arch = $('#arch-select').value;
       const shouldMerge = $('#merge-apks').checked;
+      const archLabel = arch === 'arm64-v8a' ? 'ARM64' : 'ARMv7';
 
-      console.log('dl() called with pkg=' + pkg + ', arch=' + arch);
+      // Open log panel automatically
+      if (!$('#log-panel').classList.contains('open')) toggleLog();
+      setLogActive(true);
+      log('Starting download for ' + pkg + ' (' + archLabel + ')', 'dl');
 
-      el.innerHTML = '<div class="loading"><span class="spin"></span>Preparing (' + arch + ')...<br><button class="sec" onclick="stopDownload()" style="margin-top:10px">Stop</button></div>';
+      el.innerHTML = '<div class="msg info fade-in"><span class="spinner"></span>Preparing download (' + archLabel + ')...' +
+        '<div style="margin-top:8px"><button class="btn-ghost" onclick="stopDownload()">Cancel</button></div>' +
+        '<div class="progress progress-indeterminate" style="margin-top:8px"><div class="progress-bar"></div></div></div>';
 
-      // Use streaming endpoint that tries unlimited tokens, with arch parameter and cache buster
       const cacheBuster = Date.now();
       const url = '/api/download-info-stream/' + encodeURIComponent(pkg) + '?arch=' + arch + '&_=' + cacheBuster;
-      console.log('EventSource URL: ' + url);
+      log('Connecting to token stream...', 'info');
       downloadEventSource = new EventSource(url);
 
+      // Auto-timeout after 5 min of no messages
+      let dlTimeout = resetSseTimeout(function() {
+        if (downloadEventSource) {
+          downloadEventSource.close(); downloadEventSource = null;
+          setLogActive(false);
+          log('Token acquisition timed out (5 min no response)', 'err');
+          el.innerHTML = '<div class="msg err fade-in">Timed out. Please try again.</div>';
+        }
+      });
+
       downloadEventSource.onmessage = function(event) {
+        dlTimeout = resetSseTimeout(dlTimeout.cb, dlTimeout);
         const d = JSON.parse(event.data);
 
         if (d.type === 'progress') {
-          el.innerHTML = '<div class="msg info"><span class="spin"></span>' + d.message +
-            '<br><small>Attempt #' + d.attempt + ' (will keep trying until success)</small>' +
-            '<br><button class="sec" onclick="stopDownload()" style="margin-top:10px">Stop</button></div>';
+          log('Token attempt #' + d.attempt + ': ' + d.message, 'info');
+          el.innerHTML = '<div class="msg info fade-in"><span class="spinner"></span>' + esc(d.message) +
+            '<div style="margin-top:4px;font-size:11px;opacity:0.6;font-family:var(--font-mono)">Attempt #' + d.attempt + '</div>' +
+            '<div style="margin-top:8px"><button class="btn-ghost" onclick="stopDownload()">Cancel</button></div>' +
+            '<div class="progress progress-indeterminate" style="margin-top:8px"><div class="progress-bar"></div></div></div>';
         } else if (d.type === 'success') {
           downloadEventSource.close();
           downloadEventSource = null;
-
+          setLogActive(false);
           currentDownloadInfo = { pkg, arch, ...d };
           const hasSplits = d.splits?.length > 0;
           const totalFiles = 1 + (d.splits?.length || 0);
-
-          const archLabel = arch === 'arm64-v8a' ? 'ARM64' : 'ARMv7';
-          // Show which splits were returned to verify correct arch
           const splitNames = d.splits ? d.splits.map(s => s.name).join(', ') : 'none';
-          console.log('Received splits: ' + splitNames);
 
-          let html = '<div class="msg ok"><strong>' + d.title + '</strong><br>Version: ' + d.version + ' | ' + archLabel + '<br>Size: ' + d.size;
-          html += '<br><small>Found working token after ' + d.attempt + ' attempts</small>';
+          log('Token acquired after ' + d.attempt + ' attempts', 'ok');
+          log('App: ' + d.title + ' v' + d.version + ' (' + d.size + ')', 'ok');
+          if (hasSplits) log('Split APKs: ' + splitNames, 'info');
+          log('Ready to download' + (hasSplits && shouldMerge ? ' (will merge ' + totalFiles + ' splits)' : ''), 'ok');
+
+          let html = '<div class="msg ok fade-in"><strong>' + esc(d.title) + '</strong><br>v' + esc(d.version) + ' &middot; ' + archLabel + ' &middot; ' + esc(d.size);
           if (hasSplits) {
-            html += '<br><strong>' + totalFiles + ' APK files</strong>: ' + splitNames;
+            html += '<br><span style="font-family:var(--font-mono);font-size:11px;opacity:0.7">' + totalFiles + ' files: ' + esc(splitNames) + '</span>';
           }
           html += '</div>';
 
-          html += '<div class="app-item"><div class="app-info">';
-
+          html += '<div class="app-item fade-in"><div class="app-info">';
           if (hasSplits && shouldMerge) {
-            html += '<h3>Download Merged APK</h3>';
-            html += '<div class="pkg">Single installable APK (merged from ' + totalFiles + ' files)</div>';
+            html += '<h3>Merged APK</h3><div class="pkg">Single installable APK from ' + totalFiles + ' splits</div>';
           } else if (hasSplits) {
-            html += '<h3>Download All (' + totalFiles + ' APKs as ZIP)</h3>';
-            html += '<div class="pkg">Includes base APK and all splits</div>';
+            html += '<h3>All APKs (' + totalFiles + ')</h3><div class="pkg">Base + splits bundled as ZIP</div>';
           } else {
-            html += '<h3>Download APK</h3>';
-            html += '<div class="pkg">' + d.filename + '</div>';
+            html += '<h3>Download APK</h3><div class="pkg">' + esc(d.filename) + '</div>';
           }
           html += '</div><div class="app-actions">';
-
           if (hasSplits && shouldMerge) {
-            html += '<button onclick="downloadMerged(\'' + pkg + '\')">Download Merged APK</button>';
+            html += '<button class="btn-primary" onclick="downloadMerged(\'' + esc(pkg) + '\')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download</button>';
           } else if (hasSplits) {
-            html += '<button onclick="downloadAll()">Download ZIP</button>';
+            html += '<button class="btn-primary" onclick="downloadAll()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download ZIP</button>';
           } else {
-            html += '<a href="' + d.downloadUrl + '" download="' + d.filename + '"><button>Download</button></a>';
+            html += '<a href="' + d.downloadUrl + '" download="' + esc(d.filename) + '"><button class="btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download</button></a>';
           }
-          html += '</div></div>';
-
-          html += '<div id="download-progress"></div>';
+          html += '</div></div><div id="download-progress"></div>';
           el.innerHTML = html;
         }
       };
 
-      downloadEventSource.onerror = function(e) {
+      downloadEventSource.onerror = function() {
+        clearTimeout(dlTimeout.id);
         downloadEventSource.close();
         downloadEventSource = null;
-        el.innerHTML = '<div class="msg err">Connection error. Please try again.</div>';
+        setLogActive(false);
+        log('Connection lost during token acquisition', 'err');
+        el.innerHTML = '<div class="msg err fade-in">Connection lost. Please try again.</div>';
       };
     }
 
     function downloadMerged(pkg) {
-      // Close any existing merge EventSource
-      if (mergeEventSource) {
-        mergeEventSource.close();
-        mergeEventSource = null;
-      }
-
-      // Read arch fresh from dropdown EVERY time
+      if (mergeEventSource) { mergeEventSource.close(); mergeEventSource = null; }
       const arch = $('#arch-select').value;
-      console.log('downloadMerged() called with pkg=' + pkg + ', arch=' + arch);
-
+      const archLabel = arch === 'arm64-v8a' ? 'ARM64' : 'ARMv7';
       const progressEl = $('#download-progress');
-      progressEl.innerHTML = '<div class="msg info"><span class="spin"></span>Starting merge (' + arch + ')...</div>';
+      setLogActive(true);
+      log('Starting download & merge for ' + pkg + ' (' + archLabel + ')', 'dl');
+      progressEl.innerHTML = '<div class="msg info fade-in"><span class="spinner"></span>Starting merge (' + archLabel + ')...<div class="progress progress-indeterminate" style="margin-top:8px"><div class="progress-bar"></div></div></div>';
 
       const cacheBuster = Date.now();
       const url = '/api/download-merged-stream/' + encodeURIComponent(pkg) + '?arch=' + arch + '&_=' + cacheBuster;
-      console.log('Merge EventSource URL: ' + url);
       mergeEventSource = new EventSource(url);
 
-      mergeEventSource.onmessage = function(event) {
-        const d = JSON.parse(event.data);
+      // Auto-timeout after 5 min of no messages
+      let mergeTimeout = resetSseTimeout(function() {
+        if (mergeEventSource) {
+          mergeEventSource.close(); mergeEventSource = null;
+          setLogActive(false);
+          log('Merge operation timed out (5 min no response)', 'err');
+          progressEl.innerHTML = '<div class="msg err fade-in">Timed out. Please try again.</div>';
+        }
+      });
 
+      mergeEventSource.onmessage = function(event) {
+        mergeTimeout = resetSseTimeout(mergeTimeout.cb, mergeTimeout);
+        const d = JSON.parse(event.data);
         if (d.type === 'progress') {
+          let pctText = '';
           let pct = '';
           if (d.current && d.total) {
-            pct = '<div class="progress" style="margin-top:8px"><div class="progress-bar" style="width:' + Math.round((d.current/d.total)*100) + '%"></div></div>';
+            const pctVal = Math.round((d.current / d.total) * 100);
+            pctText = ' (' + pctVal + '%)';
+            pct = '<div class="progress" style="margin-top:8px"><div class="progress-bar" style="width:' + pctVal + '%"></div></div>';
+          } else {
+            pct = '<div class="progress progress-indeterminate" style="margin-top:8px"><div class="progress-bar"></div></div>';
           }
-          progressEl.innerHTML = '<div class="msg info"><span class="spin"></span>' + d.message + pct + '</div>';
+          log(d.message + pctText, 'dl');
+          progressEl.innerHTML = '<div class="msg info fade-in"><span class="spinner"></span>' + esc(d.message) + pct + '</div>';
         } else if (d.type === 'success') {
           mergeEventSource.close();
           mergeEventSource = null;
+          setLogActive(false);
           if (d.original) {
-            progressEl.innerHTML = '<div class="msg ok">Download complete! (original signature preserved)</div>';
+            log('Download complete - original signature preserved', 'ok');
+            progressEl.innerHTML = '<div class="msg ok fade-in">Download complete &mdash; original signature preserved</div>';
           } else {
-            progressEl.innerHTML = '<div class="msg ok">Merge complete! Starting download...</div>';
+            log('Merge complete - triggering download', 'ok');
+            progressEl.innerHTML = '<div class="msg ok fade-in">Merge complete &mdash; starting download...</div>';
           }
-          // Trigger download
           window.location.href = '/api/download-temp/' + d.download_id;
         } else if (d.type === 'error') {
           mergeEventSource.close();
           mergeEventSource = null;
-          progressEl.innerHTML = '<div class="msg err">Error: ' + d.message + '</div>';
+          setLogActive(false);
+          log('Merge error: ' + d.message, 'err');
+          progressEl.innerHTML = '<div class="msg err fade-in">' + esc(d.message) + '</div>';
         }
       };
 
       mergeEventSource.onerror = function() {
+        clearTimeout(mergeTimeout.id);
         mergeEventSource.close();
         mergeEventSource = null;
-        progressEl.innerHTML = '<div class="msg err">Connection error. Please try again.</div>';
+        setLogActive(false);
+        log('Connection lost during merge', 'err');
+        progressEl.innerHTML = '<div class="msg err fade-in">Connection lost. Please try again.</div>';
       };
     }
 
@@ -306,48 +1154,43 @@
       const totalFiles = 1 + splits.length;
       let downloaded = 0;
 
-      progressEl.innerHTML = '<div class="msg info">Downloading... <span id="dl-status">0/' + totalFiles + '</span></div><div class="progress"><div class="progress-bar" id="dl-bar" style="width:0%"></div></div>';
+      setLogActive(true);
+      log('Starting ZIP download (' + totalFiles + ' files)', 'dl');
+      progressEl.innerHTML = '<div class="msg info fade-in"><span class="spinner"></span>Downloading <span id="dl-status">0/' + totalFiles + '</span><div class="progress" style="margin-top:8px"><div class="progress-bar" id="dl-bar" style="width:0%"></div></div></div>';
 
       try {
         const zip = new JSZip();
 
-        // Try direct download first, fall back to proxy
         async function fetchFile(directUrl, proxyUrl) {
           try {
-            // Try direct first
             const resp = await fetch(directUrl);
             if (resp.ok) return resp.blob();
-          } catch(e) {
-            console.log('Direct download failed, using proxy:', e);
-          }
-          // Fall back to proxy
+          } catch(e) { /* fall through */ }
           const resp = await fetch(proxyUrl);
           if (!resp.ok) throw new Error('Download failed');
           return resp.blob();
         }
 
-        // Download base APK
+        log('Downloading base APK: ' + filename, 'dl');
         const baseBlob = await fetchFile(downloadUrl, '/download/' + encodeURIComponent(pkg));
         zip.file(filename, baseBlob);
         downloaded++;
         updateProgress(downloaded, totalFiles);
+        log('Base APK downloaded (' + downloaded + '/' + totalFiles + ')', 'ok');
 
-        // Download splits
         for (let i = 0; i < splits.length; i++) {
-          const splitBlob = await fetchFile(
-            splits[i].downloadUrl,
-            '/download/' + encodeURIComponent(pkg) + '/' + i
-          );
+          log('Downloading split: ' + splits[i].filename, 'dl');
+          const splitBlob = await fetchFile(splits[i].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + i);
           zip.file(splits[i].filename, splitBlob);
           downloaded++;
           updateProgress(downloaded, totalFiles);
+          log('Split downloaded (' + downloaded + '/' + totalFiles + ')', 'ok');
         }
 
-        // Generate ZIP
-        progressEl.innerHTML = '<div class="msg info">Creating ZIP...</div>';
+        log('Creating ZIP archive...', 'info');
+        progressEl.innerHTML = '<div class="msg info fade-in"><span class="spinner"></span>Creating ZIP...</div>';
         const zipBlob = await zip.generateAsync({ type: 'blob' });
 
-        // Download ZIP
         const url = URL.createObjectURL(zipBlob);
         const a = document.createElement('a');
         a.href = url;
@@ -357,9 +1200,13 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
 
-        progressEl.innerHTML = '<div class="msg ok">Download complete!</div>';
+        setLogActive(false);
+        log('ZIP download complete: ' + pkg + '-' + versionCode + '.zip', 'ok');
+        progressEl.innerHTML = '<div class="msg ok fade-in">Download complete</div>';
       } catch(e) {
-        progressEl.innerHTML = '<div class="msg err">Error: ' + e.message + '</div>';
+        setLogActive(false);
+        log('Download failed: ' + e.message, 'err');
+        progressEl.innerHTML = '<div class="msg err fade-in">' + esc(e.message) + '</div>';
       }
     }
 
@@ -370,7 +1217,6 @@
       if (statusEl) statusEl.textContent = current + '/' + total;
       if (barEl) barEl.style.width = pct + '%';
     }
-
   </script>
 </body>
 </html>
