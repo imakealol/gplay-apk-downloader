@@ -9,6 +9,9 @@ Download APKs from Google Play Store. Automatically merges split APKs (App Bundl
 - 23 device profiles with automatic rotation for reliable downloads
 - Architecture support: ARM64 (modern phones) and ARMv7 (older phones)
 - Modern dark web UI with real-time download progress and streaming activity log
+- WebUSB ADB support — install APKs directly to a connected Android device from the browser (Chrome/Edge)
+- Split APK direct install via ADB sessions — no merging needed, original signatures preserved
+- Persistent download counter displayed in the UI
 - CLI tool with JSON output for scripting and automation
 - Apps without splits preserve original signature
 - Merged APKs are signed with debug keystore
@@ -90,8 +93,26 @@ Open http://localhost:5000 in your browser.
    - Unchecked: ZIP with base + split APKs (original signatures)
 4. **Click Download** - real-time progress shows token attempts, download, merge, and signing steps
 5. **Activity Log** - collapsible terminal-style panel streams all operations in real time (auto-opens on download)
+6. **Install to Device** (optional) - connect an Android device via USB to install APKs directly from the browser
 
 > **Signature Warning**: Merged APKs are re-signed with a debug key and will NOT receive automatic updates from Google Play. Apps without splits keep their original signature.
+
+### WebUSB ADB (Chrome/Edge only)
+
+Connect an Android device via USB to install APKs directly without downloading to your computer first.
+
+**Requirements:**
+- Chrome or Edge browser (WebUSB is not supported in Firefox/Safari)
+- HTTPS or localhost
+- USB debugging enabled on the Android device (Settings → Developer Options → USB Debugging)
+
+**How it works:**
+1. Plug in your Android device via USB
+2. Click **Connect Device** in the web UI
+3. Select your device in the browser's USB picker and tap **Allow** on the phone
+4. After fetching download info, click **Install to Device**
+
+For apps with split APKs, the tool uses Android's session-based install (`pm install-create`/`pm install-write`/`pm install-commit`) to install all splits directly — no merging needed, original signatures preserved. The merge checkbox is automatically disabled when a device is connected.
 
 ### View Logs / Stop Server
 
@@ -250,6 +271,7 @@ The web server exposes these REST and SSE endpoints:
 | `/` | GET | Web UI |
 | `/health` | GET | Health check (system status, disk usage, worker info) |
 | `/api/stats` | GET | Download counter (total APKs downloaded) |
+| `/api/stats/increment` | POST | Increment download counter (rate-limited, for client-side installs) |
 
 ### Authentication
 
