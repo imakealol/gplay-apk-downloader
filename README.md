@@ -249,6 +249,7 @@ The web server exposes these REST and SSE endpoints:
 |----------|--------|-------------|
 | `/` | GET | Web UI |
 | `/health` | GET | Health check (system status, disk usage, worker info) |
+| `/api/stats` | GET | Download counter (total APKs downloaded) |
 
 ### Authentication
 
@@ -459,6 +460,7 @@ Set these in your systemd service file or shell environment.
 |------|-------------|
 | `~/.gplay-auth.json` | ARM64 auth token cache |
 | `~/.gplay-auth-armv7.json` | ARMv7 auth token cache |
+| `~/.gplay-download-count` | Persistent download counter |
 
 ---
 
