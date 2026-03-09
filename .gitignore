@@ -6,3 +6,5 @@ __pycache__/
 *.log
 nohup.out
 analysis/
+server.log
+profile_test_results.json

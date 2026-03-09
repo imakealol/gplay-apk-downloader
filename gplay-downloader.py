@@ -52,45 +52,15 @@ DELIVERY_URL = f"{FDFE_URL}/delivery"
 DETAILS_URL = f"{FDFE_URL}/details"
 SEARCH_URL = f"{FDFE_URL}/search"
 
-# Default device properties (Pixel 7a)
-DEFAULT_DEVICE = {
-    'UserReadableName': 'Google Pixel 7a',
-    'Build.HARDWARE': 'lynx',
-    'Build.RADIO': 'unknown',
-    'Build.FINGERPRINT': 'google/lynx/lynx:14/UQ1A.231205.015/11084887:user/release-keys',
-    'Build.BRAND': 'google',
-    'Build.DEVICE': 'lynx',
-    'Build.VERSION.SDK_INT': '34',
-    'Build.VERSION.RELEASE': '14',
-    'Build.MODEL': 'Pixel 7a',
-    'Build.MANUFACTURER': 'Google',
-    'Build.PRODUCT': 'lynx',
-    'Build.ID': 'UQ1A.231205.015',
-    'Build.BOOTLOADER': 'lynx-1.0-9716681',
-    'TouchScreen': '3',
-    'Keyboard': '1',
-    'Navigation': '1',
-    'ScreenLayout': '2',
-    'HasHardKeyboard': 'false',
-    'HasFiveWayNavigation': 'false',
-    'Screen.Density': '420',
-    'Screen.Width': '1080',
-    'Screen.Height': '2400',
-    'Platforms': 'arm64-v8a,armeabi-v7a,armeabi',
-    'Features': 'android.hardware.sensor.proximity,android.hardware.touchscreen,android.hardware.wifi,android.hardware.camera,android.hardware.bluetooth',
-    'Locales': 'en_US,en_GB',
-    'SharedLibraries': 'android.ext.shared,org.apache.http.legacy',
-    'GL.Version': '196610',
-    'GL.Extensions': 'GL_OES_EGL_image',
-    'Client': 'android-google',
-    'GSF.version': '223616055',
-    'Vending.version': '84122900',
-    'Vending.versionString': '41.2.29-23 [0] [PR] 639844241',
-    'Roaming': 'mobile-notroaming',
-    'TimeZone': 'America/New_York',
-    'CellOperator': '310',
-    'SimOperator': '38',
-}
+# Import device profiles from centralized module
+from device_profiles import (
+    ARM64_PROFILES, ARMV7_PROFILES,
+    DEFAULT_ARM64_PROFILE, DEFAULT_ARMV7_PROFILE,
+    get_profile, get_all_profiles, get_priority_profiles,
+)
+
+# Default device profile (Galaxy S25 Ultra - newest, works with banking apps)
+DEFAULT_DEVICE = DEFAULT_ARM64_PROFILE
 
 AUTH_FILE = Path.home() / ".gplay-auth.json"
 SCRIPT_DIR = Path(__file__).parent
@@ -177,7 +147,7 @@ def format_size(size_bytes):
 
 
 def get_dispenser_auth(dispenser_url=None):
-    """Get anonymous authentication from dispenser."""
+    """Get anonymous authentication from dispenser with profile fallback."""
     url = dispenser_url or DISPENSER_URLS[0]
     print(f"Authenticating via dispenser: {url}")
 
@@ -189,14 +159,26 @@ def get_dispenser_auth(dispenser_url=None):
         'Content-Type': 'application/json',
     }
 
-    try:
-        response = scraper.post(url, json=DEFAULT_DEVICE, headers=headers, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        return data
-    except Exception as e:
-        print(f"Error: Failed to authenticate: {e}")
-        return None
+    # Try priority-ordered profiles (most reliable first)
+    priority_arm64 = get_priority_profiles('arm64')
+    priority_armv7 = get_priority_profiles('armv7')
+    all_profiles = priority_arm64 + priority_armv7
+
+    for profile_name, profile in all_profiles:
+        try:
+            response = scraper.post(url, json=profile, headers=headers, timeout=30)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('authToken'):
+                    print(f"  Using profile: {profile.get('UserReadableName', profile_name)}")
+                    return data
+            # Profile rejected, try next
+        except Exception as e:
+            continue
+
+    # If all profiles failed, print error
+    print("Error: All profiles failed to authenticate")
+    return None
 
 
 def save_auth(auth_data):
@@ -219,23 +201,41 @@ def load_auth():
         return None
 
 
-def get_auth_headers(auth):
-    """Build headers for Google Play API requests."""
+def get_auth_headers(auth, accept_language='en-US'):
+    """
+    Build headers for Google Play API requests.
+    Enhanced with additional headers from Aurora Store for better compatibility.
+    """
     device_info = auth.get('deviceInfoProvider', {})
+    locale = accept_language.replace('-', '_')
 
-    return {
+    headers = {
         'Authorization': f"Bearer {auth.get('authToken')}",
-        'User-Agent': device_info.get('userAgentString', 'Android-Finsky/41.2.29-23'),
+        'User-Agent': device_info.get('userAgentString', 'Android-Finsky/41.2.29-23 [0] [PR] 639844241 (api=3,versionCode=84122900,sdk=34,device=lynx,hardware=lynx,product=lynx,platformVersionRelease=14,model=Pixel%207a,buildId=UQ1A.231205.015,isWideScreen=0,supportedAbis=arm64-v8a;armeabi-v7a;armeabi)'),
         'X-DFE-Device-Id': auth.get('gsfId', ''),
-        'Accept-Language': 'en-US',
+        'Accept-Language': accept_language,
         'X-DFE-Encoded-Targets': 'CAESN/qigQYC2AMBFfUbyA7SM5Ij/CvfBoIDgxXrBPsDlQUdMfOLAfoFrwEHgAcBrQYhoA0cGt4MKK0Y2gI',
+        'X-DFE-Phenotype': 'H4sIAAAAAAAAAB3OO3KjMAAA0KRNuWXukBkBQkAJ2MhgAZb5u2GCwQZbCH_EJ77QHmgvtDtbv-Z9_H63zXXU0NVPB1odlyGy7751Q3CitlPDvFd8lxhz3tpNmz7P92CFw73zdHU2Ie0Ad2kmR8lxhiErTFLt3RPGfJQHSDy7Clw10bg8kqf2owLokN4SecJTLoSwBnzQSd652_MOf2d1vKBNVedzg4ciPoLz2mQ8efGAgYeLou-l-PXn_7Sna1MfhHuySxt-4esulEDp8Sbq54CPPKjpANW-lkU2IZ0F92LBI-ukCKSptqeq1eXU96LD9nZfhKHdtjSWwJqUm_2r6pMHOxk01saVanmNopjX3YxQafC4iC6T55aRbC8nTI98AF_kItIQAJb5EQxnKTO7TZDWnr01HVPxelb9A2OWX6poidMWl16K54kcu_jhXw-JSBQkVcD_fPsLSZu6joIBAAA',
         'X-DFE-Client-Id': 'am-android-google',
         'X-DFE-Network-Type': '4',
         'X-DFE-Content-Filters': '',
         'X-Limit-Ad-Tracking-Enabled': 'false',
+        'X-Ad-Id': '',
+        'X-DFE-UserLanguages': locale,
+        'X-DFE-Request-Params': 'timeoutMs=4000',
         'X-DFE-Cookie': auth.get('dfeCookie', ''),
         'X-DFE-No-Prefetch': 'true',
     }
+
+    # Add optional tokens if available in auth data
+    if auth.get('deviceCheckInConsistencyToken'):
+        headers['X-DFE-Device-Checkin-Consistency-Token'] = auth['deviceCheckInConsistencyToken']
+    if auth.get('deviceConfigToken'):
+        headers['X-DFE-Device-Config-Token'] = auth['deviceConfigToken']
+    if device_info.get('mccMnc'):
+        headers['X-DFE-MCCMNC'] = device_info['mccMnc']
+
+    return headers
 
 
 def api_request(auth, url, params=None, method='GET'):
@@ -276,7 +276,15 @@ def cmd_search(args):
     if not auth:
         return 1
 
-    print(f"Searching for: {args.query}")
+    if not getattr(args, 'json', False):
+        print(f"Searching for: {args.query}")
+
+    result = {
+        'success': False,
+        'query': args.query,
+        'results': [],
+        'error': None
+    }
 
     # Use web search as fallback (more reliable)
     try:
@@ -286,7 +294,11 @@ def cmd_search(args):
         response = scraper.get(search_url, timeout=30)
 
         if response.status_code != 200:
-            print(f"Search failed with status {response.status_code}")
+            result['error'] = f"Search failed with status {response.status_code}"
+            if args.json:
+                print(json.dumps(result, indent=2))
+            else:
+                print(result['error'])
             return 1
 
         # Parse basic info from HTML (limited but works without protobuf)
@@ -303,10 +315,6 @@ def cmd_search(args):
             if package_matches:
                 matches = [(pkg, pkg) for pkg in set(package_matches)]
 
-        if not matches:
-            print("No results found (try 'gplay info <package>' directly)")
-            return 0
-
         seen = set()
         count = 0
         for package, title in matches:
@@ -314,13 +322,31 @@ def cmd_search(args):
                 seen.add(package)
                 count += 1
                 display_title = title.strip() if title.strip() else package
-                print(f"{count}. {display_title}")
-                print(f"   Package: {package}")
-                print()
+                result['results'].append({
+                    'package': package,
+                    'title': display_title
+                })
+
+        result['success'] = True
+
+        if args.json:
+            print(json.dumps(result, indent=2))
+        else:
+            if not result['results']:
+                print("No results found (try 'gplay info <package>' directly)")
+            else:
+                for i, app in enumerate(result['results'], 1):
+                    print(f"{i}. {app['title']}")
+                    print(f"   Package: {app['package']}")
+                    print()
 
         return 0
     except Exception as e:
-        print(f"Search error: {e}")
+        result['error'] = str(e)
+        if args.json:
+            print(json.dumps(result, indent=2))
+        else:
+            print(f"Search error: {e}")
         return 1
 
 
@@ -330,7 +356,19 @@ def cmd_info(args):
     if not auth:
         return 1
 
-    print(f"Fetching info for: {args.package}")
+    if not getattr(args, 'json', False):
+        print(f"Fetching info for: {args.package}")
+
+    result = {
+        'success': False,
+        'package': args.package,
+        'title': None,
+        'developer': None,
+        'rating': None,
+        'downloads': None,
+        'play_store_url': f"https://play.google.com/store/apps/details?id={args.package}",
+        'error': None
+    }
 
     try:
         # Use web scraping for app details (more reliable)
@@ -340,11 +378,19 @@ def cmd_info(args):
         response = scraper.get(url, timeout=30)
 
         if response.status_code == 404:
-            print("App not found.")
+            result['error'] = "App not found"
+            if args.json:
+                print(json.dumps(result, indent=2))
+            else:
+                print("App not found.")
             return 1
 
         if response.status_code != 200:
-            print(f"Failed to fetch app info: {response.status_code}")
+            result['error'] = f"HTTP {response.status_code}"
+            if args.json:
+                print(json.dumps(result, indent=2))
+            else:
+                print(f"Failed to fetch app info: {response.status_code}")
             return 1
 
         import re
@@ -354,33 +400,42 @@ def cmd_info(args):
 
         # Title
         title_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html)
-        title = title_match.group(1) if title_match else args.package
+        result['title'] = title_match.group(1) if title_match else args.package
 
         # Developer
         dev_match = re.search(r'<a[^>]*href="/store/apps/developer[^"]*"[^>]*>([^<]+)</a>', html)
-        developer = dev_match.group(1) if dev_match else "Unknown"
+        result['developer'] = dev_match.group(1) if dev_match else "Unknown"
 
         # Rating
         rating_match = re.search(r'(\d+\.\d+)\s*star', html, re.IGNORECASE)
-        rating = rating_match.group(1) if rating_match else "N/A"
+        result['rating'] = rating_match.group(1) if rating_match else None
 
         # Downloads
         downloads_match = re.search(r'>(\d+[KMB+,\d]*)\s*downloads<', html, re.IGNORECASE)
         if not downloads_match:
             downloads_match = re.search(r'>([\d,]+\+?)\s*Downloads<', html)
-        downloads = downloads_match.group(1) if downloads_match else "N/A"
+        result['downloads'] = downloads_match.group(1) if downloads_match else None
 
-        print(f"Name: {title}")
-        print(f"Package: {args.package}")
-        print(f"Developer: {developer}")
-        print(f"Rating: {rating}")
-        print(f"Downloads: {downloads}")
-        print()
-        print(f"Play Store URL: https://play.google.com/store/apps/details?id={args.package}")
+        result['success'] = True
+
+        if args.json:
+            print(json.dumps(result, indent=2))
+        else:
+            print(f"Name: {result['title']}")
+            print(f"Package: {args.package}")
+            print(f"Developer: {result['developer']}")
+            print(f"Rating: {result['rating'] or 'N/A'}")
+            print(f"Downloads: {result['downloads'] or 'N/A'}")
+            print()
+            print(f"Play Store URL: {result['play_store_url']}")
 
         return 0
     except Exception as e:
-        print(f"Error fetching info: {e}")
+        result['error'] = str(e)
+        if args.json:
+            print(json.dumps(result, indent=2))
+        else:
+            print(f"Error fetching info: {e}")
         return 1
 
 
@@ -571,6 +626,365 @@ def cmd_download(args):
         return 1
 
 
+def cmd_check_version(args):
+    """Check app version without downloading (protobuf API with HTML fallback)."""
+    auth = load_auth()
+    if not auth:
+        return 1
+
+    package = args.package
+    result = {
+        'success': False,
+        'package': package,
+        'title': None,
+        'version': None,
+        'version_code': None,
+        'error': None
+    }
+
+    # Try protobuf API with retries
+    try:
+        from gpapi import googleplay_pb2
+
+        for attempt in range(3):
+            if attempt > 0:
+                print(f"Retry {attempt + 1}/3...", file=sys.stderr)
+                import time
+                time.sleep(2)
+
+            headers = get_auth_headers(auth)
+            headers['Content-Type'] = 'application/x-protobuf'
+            headers['Accept'] = 'application/x-protobuf'
+
+            response = requests.get(f"{DETAILS_URL}?doc={package}", headers=headers, timeout=30)
+
+            if response.status_code == 404:
+                result['error'] = f'App not found: {package}'
+                break
+
+            if response.status_code != 200:
+                result['error'] = f'HTTP {response.status_code}'
+                continue
+
+            details_response = googleplay_pb2.ResponseWrapper()
+            details_response.ParseFromString(response.content)
+
+            if not details_response.payload.detailsResponse.docV2.docid:
+                result['error'] = 'App not found or not available'
+                continue
+
+            app = details_response.payload.detailsResponse.docV2
+            app_details = app.details.appDetails
+
+            if app_details.versionCode and app_details.versionString:
+                result['success'] = True
+                result['title'] = app.title
+                result['version'] = app_details.versionString
+                result['version_code'] = app_details.versionCode
+                break
+
+    except ImportError:
+        pass  # Fall through to HTML fallback
+
+    # HTML fallback if protobuf failed
+    if not result['success']:
+        try:
+            scraper = cloudscraper.create_scraper()
+            url = f"https://play.google.com/store/apps/details?id={package}&hl=en&gl=US"
+            response = scraper.get(url, timeout=30)
+
+            if response.status_code == 404:
+                result['error'] = f'App not found: {package}'
+            elif response.status_code == 200:
+                html = response.text
+                import re
+
+                # Extract title
+                title_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html)
+                if title_match:
+                    result['title'] = title_match.group(1).strip()
+
+                # Extract version
+                version_patterns = [
+                    r'\[\[\["(\d+\.\d+[^"]*)"',
+                    r'"softwareVersion"\s*:\s*"([^"]+)"',
+                ]
+                for pattern in version_patterns:
+                    match = re.search(pattern, html)
+                    if match:
+                        ver = match.group(1).strip()
+                        if re.match(r'^\d+\.', ver) and len(ver) < 50:
+                            result['version'] = ver
+                            result['success'] = True
+                            break
+        except Exception as e:
+            result['error'] = str(e)
+
+    # Output
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        if result['success']:
+            print(f"Package: {package}")
+            print(f"Title: {result['title']}")
+            print(f"Version: {result['version']}")
+            if result['version_code']:
+                print(f"Version Code: {result['version_code']}")
+        else:
+            print(f"Error: {result.get('error', 'Unknown error')}")
+
+    return 0 if result['success'] else 1
+
+
+def cmd_list_splits(args):
+    """List available splits for an app."""
+    auth = load_auth()
+    if not auth:
+        return 1
+
+    package = args.package
+    result = {
+        'success': False,
+        'package': package,
+        'title': None,
+        'version': None,
+        'version_code': None,
+        'splits': [],
+        'language_splits': [],
+        'error': None
+    }
+
+    try:
+        from gpapi import googleplay_pb2
+        import re
+
+        headers = get_auth_headers(auth)
+        headers['Content-Type'] = 'application/x-protobuf'
+        headers['Accept'] = 'application/x-protobuf'
+
+        response = requests.get(f"{DETAILS_URL}?doc={package}", headers=headers, timeout=30)
+
+        if response.status_code != 200:
+            result['error'] = f'HTTP {response.status_code}'
+        else:
+            details_response = googleplay_pb2.ResponseWrapper()
+            details_response.ParseFromString(response.content)
+
+            if not details_response.payload.detailsResponse.docV2.docid:
+                result['error'] = 'App not found'
+            else:
+                app = details_response.payload.detailsResponse.docV2
+                app_details = app.details.appDetails
+
+                result['title'] = app.title
+                result['version'] = app_details.versionString
+                result['version_code'] = app_details.versionCode
+
+                # Extract splits from file list
+                all_splits = set()
+                for file_meta in app_details.file:
+                    try:
+                        if file_meta.splitId:
+                            all_splits.add(file_meta.splitId)
+                    except:
+                        pass  # Field may not exist
+
+                # Also check dependencies.splitApks
+                try:
+                    if app_details.dependencies and app_details.dependencies.splitApks:
+                        for split_name in app_details.dependencies.splitApks:
+                            if split_name:
+                                all_splits.add(split_name)
+                except:
+                    pass  # Field may not exist
+
+                result['splits'] = sorted(list(all_splits))
+
+                # Filter for language splits
+                lang_pattern = re.compile(r'^config\.([a-z]{2}(_[A-Z]{2})?)$')
+                result['language_splits'] = [s for s in result['splits'] if lang_pattern.match(s)]
+                result['success'] = True
+
+    except ImportError:
+        result['error'] = 'gpapi library required'
+    except Exception as e:
+        result['error'] = str(e)
+
+    # Output
+    if args.json:
+        print(json.dumps(result, indent=2))
+    else:
+        if result['success']:
+            print(f"Package: {package}")
+            print(f"Title: {result['title']}")
+            print(f"Version: {result['version']} ({result['version_code']})")
+            print(f"\nSplits ({len(result['splits'])}):")
+            for s in result['splits']:
+                print(f"  - {s}")
+            if result['language_splits']:
+                print(f"\nLanguage splits: {', '.join(result['language_splits'])}")
+        else:
+            print(f"Error: {result.get('error', 'Unknown error')}")
+
+    return 0 if result['success'] else 1
+
+
+def cmd_download_both_arch(args):
+    """Download APK for both ARM64 and ARMv7 architectures."""
+    import time
+
+    package = args.package
+    base_output = Path(args.output)
+    results = {'arm64': None, 'armv7': None}
+
+    for arch in ['arm64', 'armv7']:
+        print(f"\n{'='*50}")
+        print(f"Downloading for {arch.upper()}")
+        print('='*50)
+
+        # Create arch-specific output dir
+        arch_output = base_output / arch
+        arch_output.mkdir(parents=True, exist_ok=True)
+
+        # Create a modified args object
+        class ArchArgs:
+            pass
+        arch_args = ArchArgs()
+        arch_args.package = package
+        arch_args.output = str(arch_output)
+        arch_args.version = args.version
+        arch_args.arch = arch
+        arch_args.merge = args.merge
+
+        result = cmd_download(arch_args)
+        results[arch] = result
+
+        # Small delay between downloads
+        if arch == 'arm64':
+            time.sleep(2)
+
+    # Summary
+    print(f"\n{'='*50}")
+    print("SUMMARY")
+    print('='*50)
+    for arch, result in results.items():
+        status = "SUCCESS" if result == 0 else "FAILED"
+        print(f"  {arch}: {status}")
+
+    return 0 if all(r == 0 for r in results.values()) else 1
+
+
+def cmd_download_all_locales(args):
+    """Download APK with all language splits."""
+    import time
+
+    auth = load_auth()
+    if not auth:
+        return 1
+
+    package = args.package
+    output_dir = Path(args.output)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Language headers to try
+    LANGUAGE_HEADERS = [
+        ('en', 'en-US,en;q=0.9'),
+        ('he', 'he-IL,he;q=0.9,iw;q=0.8,en;q=0.7'),
+        ('fr', 'fr-FR,fr;q=0.9,en;q=0.7'),
+    ]
+
+    # First do normal download
+    print("Downloading base APK and default splits...")
+    result = cmd_download(args)
+    if result != 0:
+        return result
+
+    # Now try to get additional language splits
+    try:
+        from gpapi import googleplay_pb2
+        import re
+
+        # Get version code from details
+        headers = get_auth_headers(auth)
+        headers['Content-Type'] = 'application/x-protobuf'
+        headers['Accept'] = 'application/x-protobuf'
+
+        response = requests.get(f"{DETAILS_URL}?doc={package}", headers=headers, timeout=30)
+        if response.status_code != 200:
+            print("Could not get version info for additional splits")
+            return 0
+
+        details_response = googleplay_pb2.ResponseWrapper()
+        details_response.ParseFromString(response.content)
+        app = details_response.payload.detailsResponse.docV2
+        version_code = app.details.appDetails.versionCode
+
+        lang_pattern = re.compile(r'^config\.([a-z]{2}(_[A-Z]{2})?)$')
+        downloaded_splits = set()
+
+        # Check what we already have
+        for f in output_dir.iterdir():
+            if f.name.startswith(f"{package}.config.") and f.name.endswith('.apk'):
+                split_name = f.name.replace(f"{package}.", '').replace('.apk', '')
+                downloaded_splits.add(split_name)
+
+        # Try each language
+        for lang_code, accept_lang in LANGUAGE_HEADERS:
+            expected = f"config.{lang_code}"
+            if expected in downloaded_splits:
+                print(f"Already have {expected}, skipping")
+                continue
+
+            print(f"\nFetching {expected} split...")
+            time.sleep(2)
+
+            try:
+                lang_headers = get_auth_headers(auth, accept_language=accept_lang)
+                lang_headers['Content-Type'] = 'application/x-protobuf'
+                lang_headers['Accept'] = 'application/x-protobuf'
+
+                delivery_url = f"{DELIVERY_URL}?doc={package}&ot=1&vc={version_code}"
+                delivery_response = requests.get(delivery_url, headers=lang_headers, timeout=30)
+
+                if delivery_response.status_code != 200:
+                    print(f"  Failed: HTTP {delivery_response.status_code}")
+                    continue
+
+                delivery_wrapper = googleplay_pb2.ResponseWrapper()
+                delivery_wrapper.ParseFromString(delivery_response.content)
+                delivery_data = delivery_wrapper.payload.deliveryResponse.appDeliveryData
+
+                # Look for language splits
+                for split in delivery_data.split:
+                    if lang_pattern.match(split.name) and split.name not in downloaded_splits:
+                        split_filepath = output_dir / f"{package}.{split.name}.apk"
+
+                        download_headers = {}
+                        for cookie in delivery_data.downloadAuthCookie:
+                            download_headers['Cookie'] = f"{cookie.name}={cookie.value}"
+
+                        dl_response = requests.get(split.downloadUrl, headers=download_headers, stream=True, timeout=300)
+                        if dl_response.status_code == 200:
+                            with open(split_filepath, 'wb') as f:
+                                for chunk in dl_response.iter_content(chunk_size=8192):
+                                    if chunk:
+                                        f.write(chunk)
+
+                            if split_filepath.exists() and split_filepath.stat().st_size > 0:
+                                downloaded_splits.add(split.name)
+                                print(f"  Downloaded: {split.name}")
+
+            except Exception as e:
+                print(f"  Error: {e}")
+
+        print(f"\nTotal language splits: {len([s for s in downloaded_splits if lang_pattern.match(s)])}")
+
+    except ImportError:
+        print("gpapi library required for language split downloads")
+
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Download APKs from Google Play Store',
@@ -580,12 +994,20 @@ Examples:
   %(prog)s auth                              # Authenticate (anonymous)
   %(prog)s search "whatsapp"                 # Search for apps
   %(prog)s info com.whatsapp                 # Get app details
+  %(prog)s check-version com.whatsapp        # Check version without downloading
+  %(prog)s list-splits com.whatsapp          # List available splits
   %(prog)s download com.whatsapp             # Download APK (arm64)
   %(prog)s download com.app -a armv7         # Download for older phones
   %(prog)s download com.app -m               # Download and merge splits
-  %(prog)s download com.app -m -a armv7      # Merge for armv7
+  %(prog)s download com.app --both-arch      # Download ARM64 + ARMv7
+  %(prog)s download com.app --all-locales    # Download all language splits
+  %(prog)s info com.whatsapp --json          # JSON output for scripting
         """
     )
+
+    # Global --json flag
+    parser.add_argument('--json', action='store_true',
+                        help='Output results as JSON (for scripting)')
 
     subparsers = parser.add_subparsers(dest='command', required=True)
 
@@ -597,10 +1019,22 @@ Examples:
     search_parser = subparsers.add_parser('search', help='Search for apps')
     search_parser.add_argument('query', help='Search query')
     search_parser.add_argument('-l', '--limit', type=int, default=10, help='Max results')
+    search_parser.add_argument('--json', action='store_true', help='Output as JSON')
 
     # Info command
     info_parser = subparsers.add_parser('info', help='Get app details')
     info_parser.add_argument('package', help='Package name (e.g., com.whatsapp)')
+    info_parser.add_argument('--json', action='store_true', help='Output as JSON')
+
+    # Check-version command
+    check_version_parser = subparsers.add_parser('check-version', help='Check app version (no download)')
+    check_version_parser.add_argument('package', help='Package name (e.g., com.whatsapp)')
+    check_version_parser.add_argument('--json', action='store_true', help='Output as JSON')
+
+    # List-splits command
+    list_splits_parser = subparsers.add_parser('list-splits', help='List available splits for an app')
+    list_splits_parser.add_argument('package', help='Package name (e.g., com.whatsapp)')
+    list_splits_parser.add_argument('--json', action='store_true', help='Output as JSON')
 
     # Download command
     download_parser = subparsers.add_parser('download', help='Download APK')
@@ -611,14 +1045,27 @@ Examples:
                                 help='Architecture: arm64 (default) or armv7')
     download_parser.add_argument('-m', '--merge', action='store_true',
                                 help='Merge split APKs into single installable APK')
+    download_parser.add_argument('--both-arch', action='store_true',
+                                help='Download for both ARM64 and ARMv7')
+    download_parser.add_argument('--all-locales', action='store_true',
+                                help='Download all language splits (en, he, fr)')
 
     args = parser.parse_args()
+
+    # Handle download subcommand variants
+    if args.command == 'download':
+        if args.both_arch:
+            return cmd_download_both_arch(args)
+        elif args.all_locales:
+            return cmd_download_all_locales(args)
 
     commands = {
         'auth': cmd_auth,
         'search': cmd_search,
         'info': cmd_info,
         'download': cmd_download,
+        'check-version': cmd_check_version,
+        'list-splits': cmd_list_splits,
     }
 
     return commands[args.command](args)

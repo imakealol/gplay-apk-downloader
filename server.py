@@ -89,97 +89,55 @@ def file_lock(file_path, exclusive=True):
             fcntl.flock(lock_fd, fcntl.LOCK_UN)
             lock_fd.close()
 
-# Device profile for ARM64 (modern 64-bit phones)
-DEVICE_ARM64 = {
-    'UserReadableName': 'Google Pixel 7a',
-    'Build.HARDWARE': 'lynx',
-    'Build.RADIO': 'unknown',
-    'Build.FINGERPRINT': 'google/lynx/lynx:14/UQ1A.231205.015/11084887:user/release-keys',
-    'Build.BRAND': 'google',
-    'Build.DEVICE': 'lynx',
-    'Build.VERSION.SDK_INT': '34',
-    'Build.VERSION.RELEASE': '14',
-    'Build.MODEL': 'Pixel 7a',
-    'Build.MANUFACTURER': 'Google',
-    'Build.PRODUCT': 'lynx',
-    'Build.ID': 'UQ1A.231205.015',
-    'Build.BOOTLOADER': 'lynx-1.0-9716681',
-    'TouchScreen': '3',
-    'Keyboard': '1',
-    'Navigation': '1',
-    'ScreenLayout': '2',
-    'HasHardKeyboard': 'false',
-    'HasFiveWayNavigation': 'false',
-    'Screen.Density': '420',
-    'Screen.Width': '1080',
-    'Screen.Height': '2400',
-    'Platforms': 'arm64-v8a,armeabi-v7a,armeabi',
-    'Features': 'android.hardware.sensor.proximity,android.hardware.touchscreen,android.hardware.wifi,android.hardware.camera,android.hardware.bluetooth',
-    'Locales': 'en_US,en_GB',
-    'SharedLibraries': 'android.ext.shared,org.apache.http.legacy',
-    'GL.Version': '196610',
-    'GL.Extensions': 'GL_OES_EGL_image',
-    'Client': 'android-google',
-    'GSF.version': '223616055',
-    'Vending.version': '84122900',
-    'Vending.versionString': '41.2.29-23 [0] [PR] 639844241',
-    'Roaming': 'mobile-notroaming',
-    'TimeZone': 'America/New_York',
-    'CellOperator': '310',
-    'SimOperator': '38',
-}
+# Import device profiles from centralized module
+from device_profiles import (
+    ARM64_PROFILES, ARMV7_PROFILES,
+    DEFAULT_ARM64_PROFILE, DEFAULT_ARMV7_PROFILE,
+    get_profile, get_all_profiles, get_priority_profiles,
+)
 
-# Device profile for ARMv7 (older 32-bit phones) - Samsung Galaxy J7
-DEVICE_ARMV7 = {
-    'UserReadableName': 'Samsung Galaxy J7',
-    'Build.HARDWARE': 'samsungexynos7870',
-    'Build.RADIO': 'unknown',
-    'Build.FINGERPRINT': 'samsung/j7xeltexx/j7xelte:8.1.0/M1AJQ/J710FXXU6CSH1:user/release-keys',
-    'Build.BRAND': 'samsung',
-    'Build.DEVICE': 'j7xelte',
-    'Build.VERSION.SDK_INT': '27',
-    'Build.VERSION.RELEASE': '8.1.0',
-    'Build.MODEL': 'SM-J710F',
-    'Build.MANUFACTURER': 'samsung',
-    'Build.PRODUCT': 'j7xeltexx',
-    'Build.ID': 'M1AJQ',
-    'Build.BOOTLOADER': 'J710FXXU6CSH1',
-    'TouchScreen': '3',
-    'Keyboard': '1',
-    'Navigation': '1',
-    'ScreenLayout': '2',
-    'HasHardKeyboard': 'false',
-    'HasFiveWayNavigation': 'false',
-    'Screen.Density': '320',
-    'Screen.Width': '720',
-    'Screen.Height': '1280',
-    'Platforms': 'armeabi-v7a,armeabi',
-    'Features': 'android.hardware.sensor.proximity,android.hardware.touchscreen,android.hardware.wifi,android.hardware.camera,android.hardware.bluetooth',
-    'Locales': 'en_US,en_GB',
-    'SharedLibraries': 'android.ext.shared,org.apache.http.legacy',
-    'GL.Version': '196609',
-    'GL.Extensions': 'GL_OES_EGL_image',
-    'Client': 'android-google',
-    'GSF.version': '203615037',
-    'Vending.version': '82041300',
-    'Vending.versionString': '20.4.13-all [0] [PR] 312295870',
-    'Roaming': 'mobile-notroaming',
-    'TimeZone': 'America/New_York',
-    'CellOperator': '310',
-    'SimOperator': '38',
-}
-
-# Default for backward compatibility
+# Legacy aliases for backward compatibility
+DEVICE_ARM64 = DEFAULT_ARM64_PROFILE
+DEVICE_ARMV7 = DEFAULT_ARMV7_PROFILE
 DEFAULT_DEVICE = DEVICE_ARM64
 
 SUPPORTED_ARCHS = ['arm64-v8a', 'armeabi-v7a']
 
 
-def get_device_config(arch='arm64-v8a'):
-    """Get device config for a specific architecture."""
+def get_device_config(arch='arm64-v8a', profile_index=0):
+    """Get device config for a specific architecture.
+
+    Args:
+        arch: 'arm64-v8a' or 'armeabi-v7a'
+        profile_index: Index into the profile list (for fallback rotation)
+
+    Returns:
+        Device profile dict
+    """
     if arch == 'armeabi-v7a':
-        return DEVICE_ARMV7.copy()
-    return DEVICE_ARM64.copy()
+        profiles = ARMV7_PROFILES
+    else:
+        profiles = ARM64_PROFILES
+
+    # Use modulo to wrap around if index exceeds list length
+    idx = profile_index % len(profiles)
+    return profiles[idx][1].copy()
+
+
+def get_priority_device_configs(arch='arm64-v8a'):
+    """Get priority-ordered list of device profiles for an architecture.
+
+    Returns profiles sorted by reliability (best first), with remaining
+    profiles appended after.
+
+    Args:
+        arch: 'arm64-v8a' or 'armeabi-v7a'
+
+    Returns:
+        List of (profile_key, profile_dict) tuples
+    """
+    internal_arch = 'armv7' if arch == 'armeabi-v7a' else 'arm64'
+    return get_priority_profiles(internal_arch)
 
 
 def merge_apks(base_apk_bytes, split_apks_bytes_list):
@@ -469,21 +427,41 @@ def get_auth_from_request():
     return None
 
 
-def get_auth_headers(auth):
+def get_auth_headers(auth, accept_language='en-US'):
+    """
+    Build headers for Google Play API requests.
+    Enhanced with additional headers from Aurora Store for better compatibility.
+    """
     device_info = auth.get('deviceInfoProvider', {})
-    return {
+    locale = accept_language.replace('-', '_')
+
+    headers = {
         'Authorization': f"Bearer {auth.get('authToken', '')}",
-        'User-Agent': device_info.get('userAgentString', 'Android-Finsky/41.2.29-23'),
+        'User-Agent': device_info.get('userAgentString', 'Android-Finsky/41.2.29-23 [0] [PR] 639844241 (api=3,versionCode=84122900,sdk=34,device=lynx,hardware=lynx,product=lynx,platformVersionRelease=14,model=Pixel%207a,buildId=UQ1A.231205.015,isWideScreen=0,supportedAbis=arm64-v8a;armeabi-v7a;armeabi)'),
         'X-DFE-Device-Id': auth.get('gsfId', ''),
-        'Accept-Language': 'en-US',
+        'Accept-Language': accept_language,
         'X-DFE-Encoded-Targets': 'CAESN/qigQYC2AMBFfUbyA7SM5Ij/CvfBoIDgxXrBPsDlQUdMfOLAfoFrwEHgAcBrQYhoA0cGt4MKK0Y2gI',
+        'X-DFE-Phenotype': 'H4sIAAAAAAAAAB3OO3KjMAAA0KRNuWXukBkBQkAJ2MhgAZb5u2GCwQZbCH_EJ77QHmgvtDtbv-Z9_H63zXXU0NVPB1odlyGy7751Q3CitlPDvFd8lxhz3tpNmz7P92CFw73zdHU2Ie0Ad2kmR8lxhiErTFLt3RPGfJQHSDy7Clw10bg8kqf2owLokN4SecJTLoSwBnzQSd652_MOf2d1vKBNVedzg4ciPoLz2mQ8efGAgYeLou-l-PXn_7Sna1MfhHuySxt-4esulEDp8Sbq54CPPKjpANW-lkU2IZ0F92LBI-ukCKSptqeq1eXU96LD9nZfhKHdtjSWwJqUm_2r6pMHOxk01saVanmNopjX3YxQafC4iC6T55aRbC8nTI98AF_kItIQAJb5EQxnKTO7TZDWnr01HVPxelb9A2OWX6poidMWl16K54kcu_jhXw-JSBQkVcD_fPsLSZu6joIBAAA',
         'X-DFE-Client-Id': 'am-android-google',
         'X-DFE-Network-Type': '4',
         'X-DFE-Content-Filters': '',
         'X-Limit-Ad-Tracking-Enabled': 'false',
+        'X-Ad-Id': '',
+        'X-DFE-UserLanguages': locale,
+        'X-DFE-Request-Params': 'timeoutMs=4000',
         'X-DFE-Cookie': auth.get('dfeCookie', ''),
         'X-DFE-No-Prefetch': 'true',
     }
+
+    # Add optional tokens if available in auth data
+    if auth.get('deviceCheckInConsistencyToken'):
+        headers['X-DFE-Device-Checkin-Consistency-Token'] = auth['deviceCheckInConsistencyToken']
+    if auth.get('deviceConfigToken'):
+        headers['X-DFE-Device-Config-Token'] = auth['deviceConfigToken']
+    if device_info.get('mccMnc'):
+        headers['X-DFE-MCCMNC'] = device_info['mccMnc']
+
+    return headers
 
 
 def get_download_info(pkg, auth):
@@ -685,6 +663,11 @@ def auth_stream():
             return
 
         attempt = 0
+        # Get priority-ordered profiles for rotation
+        profiles = get_priority_device_configs('arm64-v8a')
+        profile_count = len(profiles)
+        max_attempts = profile_count * MAX_PROFILE_CYCLES
+
         while True:
             # Check timeout
             if time.time() - start_time > SSE_MAX_DURATION:
@@ -693,9 +676,18 @@ def auth_stream():
 
             attempt += 1
 
-            # Send progress update
-            yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Trying token #{attempt}...'})}\n\n"
+            if attempt > max_attempts:
+                yield f"data: {json.dumps({'type': 'error', 'message': f'Failed after trying all {profile_count} profiles {MAX_PROFILE_CYCLES} times'})}\n\n"
+                return
 
+            # Rotate through profiles
+            profile_key, profile = profiles[(attempt - 1) % profile_count]
+            profile_name = profile.get('UserReadableName', profile_key)
+
+            # Send progress update
+            yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Trying token #{attempt} ({profile_name})...'})}\n\n"
+
+            scraper = None
             try:
                 scraper = cloudscraper.create_scraper()  # Fresh scraper each attempt
                 response = scraper.post(
@@ -704,31 +696,31 @@ def auth_stream():
                         'User-Agent': 'com.aurora.store-4.6.1-70',
                         'Content-Type': 'application/json',
                     },
-                    json=DEFAULT_DEVICE,
+                    json=profile,
                     timeout=(5, 30)
                 )
 
                 if not response.ok:
-                    logger.warning(f"Dispenser returned {response.status_code}, attempt {attempt}")
-                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - dispenser error ({response.status_code})'})}\n\n"
+                    logger.warning(f"Dispenser returned {response.status_code}, attempt {attempt} ({profile_name})")
+                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - dispenser error ({response.status_code})'})}\n\n"
                     time.sleep(1)
                     continue
 
                 auth_data = response.json()
 
                 # Send validation progress
-                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - validating...'})}\n\n"
+                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - validating...'})}\n\n"
 
                 # Test with strict validation (Chase) - this ensures token works for all apps
                 if test_auth_token(auth_data, strict=True):
                     # Save the working token
                     save_cached_auth(auth_data)
-                    logger.info(f"Token #{attempt} validated with Chase and saved")
+                    logger.info(f"Token #{attempt} ({profile_name}) validated with Chase and saved")
                     yield f"data: {json.dumps({'type': 'success', 'authData': auth_data, 'cached': False, 'attempt': attempt})}\n\n"
                     return
                 else:
-                    logger.warning(f"Token #{attempt} failed Chase validation")
-                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - failed validation, retrying...'})}\n\n"
+                    logger.warning(f"Token #{attempt} ({profile_name}) failed Chase validation")
+                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - failed validation, retrying...'})}\n\n"
 
             except requests.exceptions.ConnectionError as e:
                 logger.warning(f"Connection error on auth attempt {attempt}: {e}")
@@ -742,6 +734,9 @@ def auth_stream():
                 logger.warning(f"Auth attempt {attempt} failed: {e}")
                 yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - error: {str(e)[:50]}'})}\n\n"
                 time.sleep(get_backoff_delay(attempt, base=0.5))
+            finally:
+                if scraper:
+                    scraper.close()
 
     return Response(
         generate(),
@@ -931,11 +926,15 @@ def download_info_stream(pkg):
     arch = request.args.get('arch', 'arm64-v8a')
     if arch not in SUPPORTED_ARCHS:
         arch = 'arm64-v8a'
-    device_config = get_device_config(arch)
+
+    # Get priority-ordered profiles for this architecture
+    profiles = get_priority_device_configs(arch)
+    profile_count = len(profiles)
 
     def generate():
         start_time = time.time()
         attempt = 0
+        max_attempts = profile_count * MAX_PROFILE_CYCLES
 
         # Try cached token for this architecture
         cached = get_cached_auth(arch)
@@ -976,10 +975,19 @@ def download_info_stream(pkg):
 
             attempt += 1
 
-            yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Trying token #{attempt}...'})}\n\n"
+            if attempt > max_attempts:
+                yield f"data: {json.dumps({'type': 'error', 'message': f'Failed after trying all {profile_count} profiles {MAX_PROFILE_CYCLES} times'})}\n\n"
+                return
 
+            # Rotate through profiles
+            profile_key, profile = profiles[(attempt - 1) % profile_count]
+            profile_name = profile.get('UserReadableName', profile_key)
+
+            yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Trying token #{attempt} ({profile_name})...'})}\n\n"
+
+            scraper = None
             try:
-                # Get a fresh token from dispenser with arch-specific config
+                # Get a fresh token from dispenser with profile rotation
                 scraper = cloudscraper.create_scraper()  # Fresh scraper each attempt
                 response = scraper.post(
                     DISPENSER_URL,
@@ -987,33 +995,33 @@ def download_info_stream(pkg):
                         'User-Agent': 'com.aurora.store-4.6.1-70',
                         'Content-Type': 'application/json',
                     },
-                    json=device_config,
+                    json=profile,
                     timeout=(5, 30)
                 )
 
                 if not response.ok:
-                    logger.warning(f"Dispenser returned {response.status_code}, attempt {attempt}")
-                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - dispenser error ({response.status_code})'})}\n\n"
+                    logger.warning(f"Dispenser returned {response.status_code}, attempt {attempt} ({profile_name})")
+                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - dispenser error ({response.status_code})'})}\n\n"
                     time.sleep(1)
                     continue
 
                 auth_data = response.json()
 
-                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - getting download info...'})}\n\n"
+                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - getting download info...'})}\n\n"
 
                 # Try to get download info with this token
                 info = get_download_info(pkg, auth_data)
 
                 if 'error' in info:
                     error_msg = info['error'][:50]
-                    logger.warning(f"Token #{attempt} failed for {pkg}: {info['error']}")
-                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - {error_msg}'})}\n\n"
+                    logger.warning(f"Token #{attempt} ({profile_name}) failed for {pkg}: {info['error']}")
+                    yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - {error_msg}'})}\n\n"
                     time.sleep(0.5)
                     continue
 
                 # Success! Save the working token for this arch and return info
                 save_cached_auth(auth_data, arch)
-                logger.info(f"Token #{attempt} worked for {pkg}")
+                logger.info(f"Token #{attempt} ({profile_name}) worked for {pkg}")
 
                 result = {
                     'type': 'success',
@@ -1046,6 +1054,9 @@ def download_info_stream(pkg):
                 logger.warning(f"Download info attempt {attempt} failed: {e}")
                 yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - error: {str(e)[:50]}'})}\n\n"
                 time.sleep(get_backoff_delay(attempt, base=0.5))
+            finally:
+                if scraper:
+                    scraper.close()
 
     return Response(
         generate(),
@@ -1125,6 +1136,7 @@ merge_semaphore = threading.Semaphore(MAX_CONCURRENT_MERGES)
 
 # SSE timeout protection (prevents infinite connection holding)
 SSE_MAX_DURATION = 300  # 5 minutes max for any SSE stream
+MAX_PROFILE_CYCLES = 3  # Max times to cycle through all profiles before giving up
 
 # Search cache (reduces latency for repeated queries)
 SEARCH_CACHE = {}  # {query: (results, timestamp)}
@@ -1380,7 +1392,10 @@ def download_merged_stream(pkg):
     arch = request.args.get('arch', 'arm64-v8a')
     if arch not in SUPPORTED_ARCHS:
         arch = 'arm64-v8a'
-    device_config = get_device_config(arch)
+
+    # Get priority-ordered profiles for this architecture
+    profiles = get_priority_device_configs(arch)
+    profile_count = len(profiles)
 
     def generate():
         # Try to acquire a download slot (prevents resource exhaustion)
@@ -1407,8 +1422,13 @@ def download_merged_stream(pkg):
 
             if not auth_data:
                 scraper = get_scraper()  # Reuse scraper across attempts
-                for attempt in range(50):
-                    yield f"data: {json.dumps({'type': 'progress', 'step': 'auth', 'message': f'Trying token #{attempt+1}...'})}\n\n"
+                max_attempts = profile_count * MAX_PROFILE_CYCLES
+                for attempt in range(max_attempts):
+                    # Rotate through profiles
+                    profile_key, profile = profiles[attempt % profile_count]
+                    profile_name = profile.get('UserReadableName', profile_key)
+
+                    yield f"data: {json.dumps({'type': 'progress', 'step': 'auth', 'message': f'Trying token #{attempt+1} ({profile_name})...'})}\n\n"
                     try:
                         response = scraper.post(
                             DISPENSER_URL,
@@ -1416,7 +1436,7 @@ def download_merged_stream(pkg):
                                 'User-Agent': 'com.aurora.store-4.6.1-70',
                                 'Content-Type': 'application/json',
                             },
-                            json=device_config,
+                            json=profile,
                             timeout=(5, 30)
                         )
 
@@ -1429,6 +1449,7 @@ def download_merged_stream(pkg):
 
                         if 'error' not in info:
                             save_cached_auth(auth_data, arch)
+                            logger.info(f"Token #{attempt+1} ({profile_name}) worked for {pkg}")
                             break
                         else:
                             auth_data = None

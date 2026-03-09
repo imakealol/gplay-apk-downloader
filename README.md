@@ -6,9 +6,10 @@ Download APKs from Google Play Store. Automatically merges split APKs (App Bundl
 
 - Download any free app from Google Play
 - Automatic split APK merging using [APKEditor](https://github.com/REAndroid/APKEditor)
+- 23 device profiles with automatic rotation for reliable downloads
 - Architecture support: ARM64 (modern phones) and ARMv7 (older phones)
 - Web UI with real-time download progress
-- CLI tool for scripting and automation
+- CLI tool with JSON output for scripting and automation
 - Apps without splits preserve original signature
 - Merged APKs are signed with debug keystore
 
@@ -38,12 +39,12 @@ sudo apt-get install -y openjdk-17-jre-headless apksigner python3 python3-venv p
 ```
 
 The setup script will:
-1. Check for required dependencies
-2. Create Python virtual environment
-3. Install Python packages
+1. Check for required system dependencies
+2. Create Python virtual environment (`.venv/`)
+3. Install Python packages from `requirements.txt`
 4. Download APKEditor.jar
-5. Create debug keystore for signing
-6. Generate wrapper scripts
+5. Create debug keystore for signing (`~/.android/debug.keystore`)
+6. Generate wrapper scripts (`gplay`, `start-server.sh`)
 
 ---
 
@@ -52,53 +53,49 @@ The setup script will:
 ### Starting the Server
 
 ```bash
-./start-server.sh           # Production mode (gunicorn + gevent)
-./start-server.sh dev       # Development mode (Flask debug server)
+./start-server.sh             # Production mode (gunicorn + gevent)
+./start-server.sh dev         # Development mode (Flask debug server)
+PORT=8080 ./start-server.sh   # Use a custom port
 ```
 
-The server runs in the background on port 5000. Open http://localhost:5000 in your browser.
+If port 5000 is already in use, the script will prompt for an alternate port interactively. In non-interactive mode (e.g., systemd, cron), set the `PORT` env var instead.
 
 **Production mode** (default):
-- Gunicorn with gevent async workers (CPU cores × 2 + 1)
-- Handles 100+ concurrent users
+- Gunicorn with gevent async workers (CPU cores x 2 + 1)
+- Handles concurrent users with connection pooling
 - Disk-based temp storage (2GB limit, 10min TTL)
-- Connection pooling and rate limiting
+- Runs in background via `nohup`
 
-**Development mode**:
+**Development mode** (`dev`):
 - Single-threaded Flask server with debug output
 - Auto-reload on code changes
+- Runs in foreground
 
 Features:
-- **Kill existing**: Automatically kills any existing server on port 5000
-- **Background**: Runs detached from terminal (survives terminal close)
-- **Logging**: Outputs to `server.log` (auto-rotated after 12 hours)
-- **Health check**: GET `/health` for monitoring
+- **Logging**: Outputs to `server.log` (rotated after 12 hours, old logs kept 7 days)
+- **Health check**: `GET /health` for monitoring
+- **Concurrency limits**: Max 10 concurrent downloads, 3 concurrent merges
 
 ### Using the Web UI
 
-1. **Enter package name** (e.g., `com.google.android.youtube`)
+Open http://localhost:5000 in your browser.
+
+1. **Enter package name** (e.g., `com.google.android.youtube`) or use the search box
 2. **Select architecture**:
    - ARM64 - Modern phones (2016+)
    - ARMv7 - Older phones
 3. **Choose merge option**:
-   - Checked: Single installable APK (re-signed)
-   - Unchecked: ZIP with base + split APKs
-4. **Click Download**
-
-### Important Notes
+   - Checked: Single installable APK (re-signed with debug key)
+   - Unchecked: ZIP with base + split APKs (original signatures)
+4. **Click Download** - real-time progress shows token attempts, download, merge, and signing steps
 
 > **Signature Warning**: Merged APKs are re-signed with a debug key and will NOT receive automatic updates from Google Play. Apps without splits keep their original signature.
 
-### View Logs
+### View Logs / Stop Server
 
 ```bash
-tail -f server.log
-```
-
-### Stop Server
-
-```bash
-kill $(lsof -ti:5000)
+tail -f server.log              # View logs
+kill $(lsof -ti:5000)           # Stop server
 ```
 
 ---
@@ -111,6 +108,7 @@ Authenticate to get an anonymous token:
 
 ```bash
 ./gplay auth
+./gplay auth -d https://custom-dispenser.example.com  # Use custom dispenser
 ```
 
 Token is saved to `~/.gplay-auth.json` and shared between CLI and web server.
@@ -121,14 +119,34 @@ Token is saved to `~/.gplay-auth.json` and shared between CLI and web server.
 
 ```bash
 ./gplay search "youtube"
-./gplay search "file manager" -l 20    # Show 20 results
+./gplay search "file manager" -l 20    # Show up to 20 results
+./gplay search "spotify" --json        # JSON output for scripting
 ```
 
 #### Get App Info
 
 ```bash
 ./gplay info com.google.android.youtube
+./gplay info com.whatsapp --json
 ```
+
+#### Check App Version (without downloading)
+
+```bash
+./gplay check-version com.whatsapp
+./gplay check-version com.whatsapp --json
+```
+
+Uses protobuf API with HTML fallback to get the version string and version code.
+
+#### List Available Splits
+
+```bash
+./gplay list-splits com.whatsapp
+./gplay list-splits com.whatsapp --json
+```
+
+Shows all available split APKs including language splits.
 
 #### Download APK
 
@@ -136,76 +154,133 @@ Token is saved to `~/.gplay-auth.json` and shared between CLI and web server.
 # Basic download (ARM64 is default)
 ./gplay download com.google.android.youtube
 
-# Explicit ARM64 (modern phones)
+# Download for ARM64 (modern phones)
 ./gplay download com.google.android.youtube -a arm64
 
-# ARMv7 (older phones)
+# Download for ARMv7 (older phones)
 ./gplay download com.google.android.youtube -a armv7
 
 # Download and merge splits into single APK
 ./gplay download com.google.android.youtube -m
 
-# ARM64 merged
-./gplay download com.google.android.youtube -m -a arm64
-
-# ARMv7 merged
+# Merge for ARMv7
 ./gplay download com.google.android.youtube -m -a armv7
 
-# Full example: merge, armv7, custom output dir
-./gplay download com.google.android.youtube -m -a armv7 -o ~/apks/
+# Download for both architectures at once
+./gplay download com.google.android.youtube --both-arch
+
+# Download all language splits (en, he, fr)
+./gplay download com.google.android.youtube --all-locales
+
+# Custom output directory
+./gplay download com.google.android.youtube -m -o ~/apks/
+
+# Download specific version code
+./gplay download com.google.android.youtube -v 1234567
 ```
 
-### CLI Options
+### CLI Options Reference
+
+#### Global
 
 | Option | Description |
 |--------|-------------|
-| `-a`, `--arch` | Architecture: `arm64` (default) or `armv7` |
-| `-m`, `--merge` | Merge split APKs into single installable APK |
-| `-o`, `--output` | Output directory (default: current directory) |
-| `-v`, `--version` | Download specific version code |
+| `--json` | Output results as JSON (for scripting) |
 
-### Examples
+#### `auth`
+
+| Option | Description |
+|--------|-------------|
+| `-d`, `--dispenser` | Custom dispenser URL |
+
+#### `search`
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `query` | (required) | Search query |
+| `-l`, `--limit` | 10 | Max results |
+| `--json` | | JSON output |
+
+#### `info`, `check-version`, `list-splits`
+
+| Option | Description |
+|--------|-------------|
+| `package` | Package name (required) |
+| `--json` | JSON output |
+
+#### `download`
+
+| Option | Default | Description |
+|--------|---------|-------------|
+| `package` | (required) | Package name |
+| `-a`, `--arch` | `arm64` | Architecture: `arm64` or `armv7` |
+| `-m`, `--merge` | off | Merge split APKs into single installable APK |
+| `-o`, `--output` | `.` | Output directory |
+| `-v`, `--version` | latest | Download specific version code |
+| `--both-arch` | | Download for both ARM64 and ARMv7 |
+| `--all-locales` | | Download all language splits (en, he, fr) |
+
+### Scripting Examples
 
 ```bash
-# Download YouTube, merge splits, ARM64 (default)
-./gplay download com.google.android.youtube -m
+# Get version as JSON and parse with jq
+./gplay check-version com.whatsapp --json | jq '.version'
 
-# Download YouTube, merge splits, explicit ARM64
-./gplay download com.google.android.youtube -m -a arm64
+# Search and get package names
+./gplay search "banking" --json | jq -r '.results[].package'
 
-# Download Instagram for older phone (ARMv7)
-./gplay download com.instagram.android -m -a armv7
-
-# Download to specific folder
-./gplay download com.whatsapp -m -o ~/Downloads/
-
-# Download without merge (keeps splits separate)
-./gplay download com.google.android.youtube -a arm64
-
-# Search and download
-./gplay search "spotify"
-./gplay download com.spotify.music -m -a arm64
+# Download multiple apps
+for pkg in com.whatsapp com.spotify.music; do
+  ./gplay download "$pkg" -m
+done
 ```
 
 ---
 
 ## API Endpoints
 
-The web server exposes these REST endpoints:
+The web server exposes these REST and SSE endpoints:
+
+### Core
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/` | GET | Web UI |
-| `/health` | GET | Health check (returns system status) |
-| `/api/search?q=<query>` | GET | Search apps |
+| `/health` | GET | Health check (system status, disk usage, worker info) |
+
+### Authentication
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/auth` | POST | Get/validate cached auth token |
+| `/api/auth/stream` | GET | SSE: acquire token with profile rotation |
+| `/api/auth/status` | GET | Check if authenticated |
+
+### Search & Info
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/search?q=<query>` | GET | Search apps (cached 6 hours) |
 | `/api/info/<package>` | GET | Get app details |
-| `/api/download-info-stream/<package>` | GET | SSE stream for download info |
-| `/api/download-merged-stream/<package>` | GET | SSE stream for merged download |
-| `/api/download-temp/<id>` | GET | Download temporary merged APK |
+
+### Downloads
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/download-info/<package>` | GET | Get download URLs (requires auth header) |
+| `/api/download-info-stream/<package>` | GET | SSE: get download info with auto token rotation |
+| `/api/download-merged-stream/<package>` | GET | SSE: download + merge + sign with progress |
+| `/api/download-merged/<package>` | GET | Non-streaming fallback for download + merge |
+| `/api/download-temp/<id>` | GET | Download temporary merged APK (auto-cleanup) |
+| `/download/<package>` | GET | Proxy download for base APK |
+| `/download/<package>/<split_index>` | GET | Proxy download for specific split |
 
 ### Query Parameters
 
-- `arch`: Architecture (`arm64-v8a` or `armeabi-v7a`)
+| Parameter | Values | Default | Used By |
+|-----------|--------|---------|---------|
+| `arch` | `arm64-v8a`, `armeabi-v7a` | `arm64-v8a` | download-info-stream, download-merged-stream |
+| `q` | search string | (required) | search |
 
 ### Example API Usage
 
@@ -216,8 +291,14 @@ curl "http://localhost:5000/api/search?q=youtube"
 # Get info
 curl "http://localhost:5000/api/info/com.google.android.youtube"
 
-# Download merged APK (streams progress via SSE)
+# Download merged APK for ARM64 (streams progress via SSE)
 curl "http://localhost:5000/api/download-merged-stream/com.google.android.youtube?arch=arm64-v8a"
+
+# Download merged APK for ARMv7
+curl "http://localhost:5000/api/download-merged-stream/com.google.android.youtube?arch=armeabi-v7a"
+
+# Health check
+curl "http://localhost:5000/health"
 ```
 
 ---
@@ -236,8 +317,9 @@ After=network.target
 Type=simple
 User=$USER
 WorkingDirectory=$(pwd)
-ExecStart=$(pwd)/start-server.sh
+ExecStart=$(pwd)/.venv/bin/gunicorn --bind 0.0.0.0:5000 --workers 2 server:app
 Restart=on-failure
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
@@ -251,48 +333,119 @@ sudo systemctl start gplay
 ### Service Commands
 
 ```bash
-sudo systemctl status gplay    # Check status
-sudo systemctl restart gplay   # Restart
-sudo systemctl stop gplay      # Stop
-journalctl -u gplay -f         # View logs
+sudo systemctl status gplay      # Check status
+sudo systemctl restart gplay     # Restart
+sudo systemctl stop gplay        # Stop
+journalctl -u gplay -f           # View logs
+```
+
+---
+
+## Device Profiles
+
+The tool includes 23 device profiles from Aurora Store, used to authenticate with Google Play's anonymous token dispenser. Profiles are rotated automatically during token acquisition to maximize compatibility with restricted apps (e.g., banking apps like Chase).
+
+### How It Works
+
+- Profiles are stored in `profiles/*.properties` and loaded by `device_profiles.py`
+- Each profile represents a real Android device (Pixel 9a, Galaxy S25 Ultra, Xperia 5, etc.)
+- Profiles are sorted by reliability — the most reliable ones are tried first
+- The server cycles through all profiles up to 3 times before giving up
+- A built-in fallback profile (Pixel 4a) is used if the `profiles/` directory is missing
+
+### Priority Order
+
+**ARM64** (19 profiles): Pixel 9a, Samsung F34, Xperia 5, Oppo R17, and others
+**ARMv7** (4 profiles): Samsung J5 Prime, Samsung A13 5G, Realme 5 Pro, BRAVIA VU2
+
+### Testing Profiles
+
+```bash
+python3 test_profiles.py    # Test all profiles against restricted apps
+```
+
+### Listing Profiles
+
+```bash
+python3 device_profiles.py  # Print all available profiles
 ```
 
 ---
 
 ## How It Works
 
-1. **Authentication**: Uses Aurora Store's anonymous token dispenser
-2. **Download**: Fetches base APK + config splits from Google Play CDN
-3. **Merge**: Combines splits using APKEditor (proper resource table merging)
-4. **Sign**: Signs merged APK with debug keystore via apksigner
-5. **Deliver**: Returns single installable APK
+1. **Authentication**: Gets anonymous token from Aurora Store's dispenser, rotating through device profiles for reliability
+2. **Details**: Fetches app metadata (version, size, splits) via Google Play's protobuf API
+3. **Purchase**: "Purchases" the free app to get download authorization
+4. **Download**: Fetches base APK + config splits from Google Play CDN
+5. **Merge**: Combines splits using APKEditor (proper resource table merging)
+6. **Sign**: Signs merged APK with debug keystore via apksigner
+7. **Deliver**: Returns single installable APK
 
 ### Split APKs Explained
 
 Modern Android apps use App Bundles which split into:
 - **Base APK**: Core app code and resources
-- **Config splits**: Device-specific resources (density, language, ABI)
+- **Config splits**: Device-specific resources (screen density, language, CPU architecture)
 
-This tool merges them back into a universal APK that works on any device.
+This tool merges them back into a universal APK that works on any device of the target architecture.
 
 ---
 
 ## File Structure
 
 ```
-gplay-downloader/
-├── server.py           # Flask web server
-├── gunicorn.conf.py    # Production server config
-├── index.html          # Web UI
-├── gplay-downloader.py # CLI tool
-├── gplay               # CLI wrapper script
-├── start-server.sh     # Server startup script
-├── setup.sh            # Installation script
-├── APKEditor.jar       # Split APK merger
-├── requirements.txt    # Python dependencies
-├── server.log          # Server logs (generated)
-└── .venv/              # Python virtual environment (generated)
+gplay-apk-downloader/
+├── server.py            # Flask web server with SSE endpoints
+├── gplay-downloader.py  # CLI tool
+├── gplay                # CLI wrapper script (sources venv)
+├── device_profiles.py   # Device profile loader and priority ordering
+├── profiles/            # 23 Aurora Store device profiles (.properties)
+├── test_profiles.py     # Profile testing utility
+├── index.html           # Web UI
+├── gunicorn.conf.py     # Gunicorn production config
+├── start-server.sh      # Server startup script (dev/production)
+├── setup.sh             # Installation script
+├── requirements.txt     # Python dependencies
+├── APKEditor.jar        # Split APK merger (downloaded by setup)
+├── server.log           # Server logs (generated, auto-rotated)
+└── .venv/               # Python virtual environment (generated)
 ```
+
+---
+
+## Configuration
+
+### Server Limits (server.py)
+
+| Setting | Value | Description |
+|---------|-------|-------------|
+| `MAX_CONCURRENT_DOWNLOADS` | 10 | Parallel download slots |
+| `MAX_CONCURRENT_MERGES` | 3 | Parallel merge operations |
+| `SSE_MAX_DURATION` | 300s (5 min) | Max time for any SSE stream |
+| `MAX_PROFILE_CYCLES` | 3 | Max times to cycle through all profiles |
+| `TEMP_APK_TTL` | 600s (10 min) | Temp file lifetime before cleanup |
+| `MAX_TEMP_STORAGE_MB` | 2048 (2 GB) | Max disk space for temp APKs |
+| `SEARCH_CACHE_TTL` | 21600s (6 hr) | Search result cache lifetime |
+| `DOWNLOAD_QUEUE_TIMEOUT` | 30s | Wait time for a free download slot |
+
+### Gunicorn Config (gunicorn.conf.py)
+
+| Setting | Value | Description |
+|---------|-------|-------------|
+| `worker_class` | `gevent` | Async workers for SSE streaming |
+| `workers` | CPU cores x 2 + 1 | Automatic worker scaling |
+| `worker_connections` | 1000 | Max connections per worker |
+| `timeout` | 300s | Request timeout |
+| `keepalive` | 65s | Keep-alive for SSE connections |
+| `bind` | `0.0.0.0:5000` | Default listen address |
+
+### Auth Cache Files
+
+| File | Description |
+|------|-------------|
+| `~/.gplay-auth.json` | ARM64 auth token cache |
+| `~/.gplay-auth-armv7.json` | ARMv7 auth token cache |
 
 ---
 
@@ -310,16 +463,19 @@ Check if port 5000 is in use:
 lsof -i:5000
 kill $(lsof -ti:5000)  # Kill existing process
 ```
+Or use a different port: `PORT=8080 ./start-server.sh`
 
 ### DNS errors on VPS
 Some VPS providers block Google CDN. Try:
 ```bash
-# Use Google DNS
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
 ```
 
 ### Download fails repeatedly
-Tokens from the dispenser have varying quality. The tool automatically retries with new tokens until success.
+The tool automatically rotates through device profiles when acquiring tokens. Some apps (especially banking apps) only work with specific profiles. If all profiles fail after 3 cycles, try again later — the dispenser may be rate-limited (HTTP 429).
+
+### App returns versionCode=0
+The token's device profile isn't compatible with this app. The server will automatically try the next profile in the rotation.
 
 ---
 
