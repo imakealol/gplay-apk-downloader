@@ -556,11 +556,17 @@ Set these in your systemd service file or shell environment.
 
 ## Security
 
+- **Content-Security-Policy**: Enforcing CSP restricts scripts, styles, fonts, images, and connections to explicitly allowed origins
+- **Security headers**: X-Content-Type-Options, X-Frame-Options (DENY), Referrer-Policy, Permissions-Policy (no camera/mic/geo)
+- **Reverse proxy support**: ProxyFix middleware ensures correct client IP detection behind Cloudflare/nginx
+- **Rate limiting**: Search API is limited to 10 requests/minute per IP; stats increment is limited to 1 request/second per IP
+- **Request body limits**: 1MB max request body enforced at both Flask and gunicorn levels
 - **CORS**: Defaults to same-origin only (no cross-origin requests). Set `CORS_ORIGINS` to allow specific external domains
 - **Input validation**: Package names are validated against Android naming rules; temp file IDs are validated as strict UUIDs
 - **XSS protection**: All user-controlled data is escaped before DOM insertion, including single quotes in JS contexts
 - **Auth tokens**: Server-side only — auth tokens are never sent to the frontend
 - **Filename sanitization**: All Content-Disposition headers are sanitized against path traversal and header injection
+- **Auth file permissions**: Cached auth tokens are written with 600 permissions (owner read/write only)
 - **Download counter**: Uses file-level locking for safe concurrent access across gunicorn workers
 - **Logging**: Production defaults to `INFO` level — no auth tokens logged. Set `LOG_LEVEL=DEBUG` only for development
 - **No authentication**: API endpoints are open by default. Use a reverse proxy (nginx) to add auth if needed
