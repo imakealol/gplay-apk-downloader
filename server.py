@@ -45,8 +45,18 @@ logging.basicConfig(level=getattr(logging, _log_level, logging.INFO), format='%(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-_cors_origins = os.environ.get('CORS_ORIGINS', '*')
-CORS(app, origins=_cors_origins.split(',') if _cors_origins != '*' else '*')
+_cors_origins = os.environ.get('CORS_ORIGINS', '')
+if _cors_origins:
+    CORS(app, origins=_cors_origins.split(','))
+
+
+@app.after_request
+def set_security_headers(response):
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    response.headers['X-Frame-Options'] = 'DENY'
+    response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+    return response
+
 
 # Import gpapi protobuf
 try:
@@ -339,6 +349,22 @@ def sanitize_filename(name):
     name = re.sub(r'[\r\n"]', '', name)
     name = os.path.basename(name)
     return name or 'download.apk'
+
+
+# Valid Android package name: segments of [a-zA-Z][a-zA-Z0-9_]* separated by dots, max 255 chars
+_PKG_RE = re.compile(r'^[a-zA-Z][a-zA-Z0-9_]*(\.[a-zA-Z][a-zA-Z0-9_]*)+$')
+
+
+def validate_package_name(pkg):
+    """Return True if pkg is a valid Android package name."""
+    return bool(pkg and len(pkg) <= 255 and _PKG_RE.match(pkg))
+
+
+def _require_valid_pkg(pkg):
+    """Return a 400 JSON response if pkg is invalid, else None."""
+    if not validate_package_name(pkg):
+        return jsonify({'error': 'Invalid package name'}), 400
+    return None
 
 
 def get_cached_auth(arch='arm64-v8a'):
@@ -634,9 +660,10 @@ def health_check():
         return jsonify(status), code
 
     except Exception as e:
+        logger.error(f"Health check failed: {e}")
         return jsonify({
             'status': 'error',
-            'error': str(e)
+            'error': 'Health check failed'
         }), 500
 
 
@@ -646,6 +673,8 @@ def stats():
     return jsonify({'downloads': get_download_count()})
 
 
+# Per-worker rate limit cache; each gunicorn worker tracks independently.
+# Worst case: a client hits different workers and bypasses the 10s cooldown.
 _last_increment = {}
 
 @app.route('/api/stats/increment', methods=['POST'])
@@ -666,13 +695,13 @@ def auth():
     cached = get_cached_auth()
     if cached and test_auth_token(cached, strict=True):
         logger.info("Using existing valid cached token (passed Chase test)")
-        return jsonify({'success': True, 'authData': cached, 'cached': True})
+        return jsonify({'success': True, 'authenticated': True, 'cached': True})
 
     # If we have a cached token that at least works for simple apps, use it
     # but warn that some apps may not work
     if cached and test_auth_token(cached, strict=False):
         logger.warning("Cached token works for simple apps (may have limited functionality)")
-        return jsonify({'success': True, 'authData': cached, 'cached': True, 'warning': 'Token may not work for all apps'})
+        return jsonify({'success': True, 'authenticated': True, 'cached': True, 'warning': 'Token may not work for all apps'})
 
     return jsonify({'error': 'No valid cached token. Use the streaming auth endpoint.'}), 400
 
@@ -681,14 +710,13 @@ def auth():
 def auth_stream():
     """SSE endpoint that tries tokens with timeout protection."""
     def generate():
-        import time
-        start_time = time.time()
+        start_time = time_module.time()
 
         # First check if we have a valid cached token
         cached = get_cached_auth()
         if cached and test_auth_token(cached, strict=True):
             logger.info("Using existing valid cached token (passed Chase test)")
-            yield f"data: {json.dumps({'type': 'success', 'authData': cached, 'cached': True, 'attempt': 0})}\n\n"
+            yield f"data: {json.dumps({'type': 'success', 'authenticated': True, 'cached': True, 'attempt': 0})}\n\n"
             return
 
         attempt = 0
@@ -699,7 +727,7 @@ def auth_stream():
 
         while True:
             # Check timeout
-            if time.time() - start_time > SSE_MAX_DURATION:
+            if time_module.time() - start_time > SSE_MAX_DURATION:
                 yield f"data: {json.dumps({'type': 'error', 'message': 'Timeout - please try again'})}\n\n"
                 return
 
@@ -732,7 +760,7 @@ def auth_stream():
                 if not response.ok:
                     logger.warning(f"Dispenser returned {response.status_code}, attempt {attempt} ({profile_name})")
                     yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - dispenser error ({response.status_code})'})}\n\n"
-                    time.sleep(1)
+                    time_module.sleep(1)
                     continue
 
                 auth_data = response.json()
@@ -745,7 +773,7 @@ def auth_stream():
                     # Save the working token
                     save_cached_auth(auth_data)
                     logger.info(f"Token #{attempt} ({profile_name}) validated with Chase and saved")
-                    yield f"data: {json.dumps({'type': 'success', 'authData': auth_data, 'cached': False, 'attempt': attempt})}\n\n"
+                    yield f"data: {json.dumps({'type': 'success', 'authenticated': True, 'cached': False, 'attempt': attempt})}\n\n"
                     return
                 else:
                     logger.warning(f"Token #{attempt} ({profile_name}) failed Chase validation")
@@ -754,15 +782,15 @@ def auth_stream():
             except requests.exceptions.ConnectionError as e:
                 logger.warning(f"Connection error on auth attempt {attempt}: {e}")
                 yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - retrying connection...'})}\n\n"
-                time.sleep(get_backoff_delay(attempt, base=2.0))
+                time_module.sleep(get_backoff_delay(attempt, base=2.0))
             except requests.exceptions.Timeout as e:
                 logger.warning(f"Timeout on auth attempt {attempt}: {e}")
                 yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - request timeout, retrying...'})}\n\n"
-                time.sleep(get_backoff_delay(attempt))
+                time_module.sleep(get_backoff_delay(attempt))
             except Exception as e:
                 logger.warning(f"Auth attempt {attempt} failed: {e}")
-                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - error: {str(e)[:50]}'})}\n\n"
-                time.sleep(get_backoff_delay(attempt, base=0.5))
+                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - retrying...'})}\n\n"
+                time_module.sleep(get_backoff_delay(attempt, base=0.5))
             finally:
                 if scraper:
                     scraper.close()
@@ -887,11 +915,15 @@ def search():
         cache_search(normalized_query, final_results)
         return jsonify({'results': final_results})
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Search failed for '{query}': {e}")
+        return jsonify({'error': 'Search failed, please try again'}), 500
 
 
 @app.route('/api/info/<path:pkg>')
 def info(pkg):
+    err = _require_valid_pkg(pkg)
+    if err:
+        return err
     try:
         response = get_scraper().get(
             f'https://play.google.com/store/apps/details?id={pkg}&hl=en',
@@ -913,11 +945,15 @@ def info(pkg):
             'playStoreUrl': f'https://play.google.com/store/apps/details?id={pkg}'
         })
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Info lookup failed for {pkg}: {e}")
+        return jsonify({'error': 'Failed to get app info'}), 500
 
 
 @app.route('/api/download-info/<path:pkg>')
 def download_info(pkg):
+    err = _require_valid_pkg(pkg)
+    if err:
+        return err
     auth = get_auth_from_request()
     if not auth:
         return jsonify({'error': 'Not authenticated'}), 401
@@ -943,13 +979,16 @@ def download_info(pkg):
             } for s in info['splits']]
         })
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Download info failed for {pkg}: {e}")
+        return jsonify({'error': 'Failed to get download info'}), 500
 
 
 @app.route('/api/download-info-stream/<path:pkg>')
 def download_info_stream(pkg):
     """SSE endpoint that tries tokens until download URL is obtained (with timeout protection)."""
-    import time
+    err = _require_valid_pkg(pkg)
+    if err:
+        return err
 
     # Get architecture from query parameter
     arch = request.args.get('arch', 'arm64-v8a')
@@ -961,7 +1000,7 @@ def download_info_stream(pkg):
     profile_count = len(profiles)
 
     def generate():
-        start_time = time.time()
+        start_time = time_module.time()
         attempt = 0
         max_attempts = profile_count * MAX_PROFILE_CYCLES
 
@@ -994,11 +1033,12 @@ def download_info_stream(pkg):
                 else:
                     yield f"data: {json.dumps({'type': 'progress', 'attempt': 0, 'message': 'Cached token failed, trying new tokens...'})}\n\n"
             except Exception as e:
-                yield f"data: {json.dumps({'type': 'progress', 'attempt': 0, 'message': f'Cached token error: {str(e)[:30]}'})}\n\n"
+                logger.warning(f"Cached token error for {pkg}: {e}")
+                yield f"data: {json.dumps({'type': 'progress', 'attempt': 0, 'message': 'Cached token error, trying new tokens...'})}\n\n"
 
         while True:
             # Check timeout
-            if time.time() - start_time > SSE_MAX_DURATION:
+            if time_module.time() - start_time > SSE_MAX_DURATION:
                 yield f"data: {json.dumps({'type': 'error', 'message': 'Timeout - please try again'})}\n\n"
                 return
 
@@ -1031,7 +1071,7 @@ def download_info_stream(pkg):
                 if not response.ok:
                     logger.warning(f"Dispenser returned {response.status_code}, attempt {attempt} ({profile_name})")
                     yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - dispenser error ({response.status_code})'})}\n\n"
-                    time.sleep(1)
+                    time_module.sleep(1)
                     continue
 
                 auth_data = response.json()
@@ -1045,7 +1085,7 @@ def download_info_stream(pkg):
                     error_msg = info['error'][:50]
                     logger.warning(f"Token #{attempt} ({profile_name}) failed for {pkg}: {info['error']}")
                     yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} ({profile_name}) - {error_msg}'})}\n\n"
-                    time.sleep(0.5)
+                    time_module.sleep(0.5)
                     continue
 
                 # Success! Save the working token for this arch and return info
@@ -1074,15 +1114,15 @@ def download_info_stream(pkg):
             except requests.exceptions.ConnectionError as e:
                 logger.warning(f"Connection error on attempt {attempt}: {e}")
                 yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - retrying connection...'})}\n\n"
-                time.sleep(get_backoff_delay(attempt, base=2.0))
+                time_module.sleep(get_backoff_delay(attempt, base=2.0))
             except requests.exceptions.Timeout as e:
                 logger.warning(f"Timeout on attempt {attempt}: {e}")
                 yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - request timeout, retrying...'})}\n\n"
-                time.sleep(get_backoff_delay(attempt))
+                time_module.sleep(get_backoff_delay(attempt))
             except Exception as e:
                 logger.warning(f"Download info attempt {attempt} failed: {e}")
-                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - error: {str(e)[:50]}'})}\n\n"
-                time.sleep(get_backoff_delay(attempt, base=0.5))
+                yield f"data: {json.dumps({'type': 'progress', 'attempt': attempt, 'message': f'Token #{attempt} - retrying...'})}\n\n"
+                time_module.sleep(get_backoff_delay(attempt, base=0.5))
             finally:
                 if scraper:
                     scraper.close()
@@ -1102,6 +1142,9 @@ def download_info_stream(pkg):
 @app.route('/download/<path:pkg>/<int:split_index>')
 def download(pkg, split_index=None):
     """Proxy download for when direct download fails."""
+    err = _require_valid_pkg(pkg)
+    if err:
+        return err
     auth = get_auth_from_request()
     if not auth:
         return jsonify({'error': 'Not authenticated'}), 401
@@ -1135,7 +1178,8 @@ def download(pkg, split_index=None):
             headers={'Content-Disposition': f'attachment; filename="{sanitize_filename(filename)}"'}
         )
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Proxy download failed for {pkg}: {e}")
+        return jsonify({'error': 'Download failed'}), 500
 
 
 import tempfile
@@ -1146,26 +1190,30 @@ import uuid
 # =============================================================================
 
 DOWNLOAD_COUNTER_FILE = Path.home() / '.gplay-download-count'
-_counter_lock = threading.Lock()
 
 
 def get_download_count():
     """Read the current download count."""
     try:
-        return int(DOWNLOAD_COUNTER_FILE.read_text().strip())
+        with file_lock(DOWNLOAD_COUNTER_FILE, exclusive=False):
+            return int(DOWNLOAD_COUNTER_FILE.read_text().strip())
     except Exception:
         return 0
 
 
 def increment_download_count():
-    """Atomically increment the download counter."""
-    with _counter_lock:
-        count = get_download_count() + 1
-        try:
+    """Atomically increment the download counter (safe across gunicorn workers)."""
+    try:
+        with file_lock(DOWNLOAD_COUNTER_FILE, exclusive=True):
+            try:
+                count = int(DOWNLOAD_COUNTER_FILE.read_text().strip()) + 1
+            except Exception:
+                count = 1
             DOWNLOAD_COUNTER_FILE.write_text(str(count))
-        except Exception as e:
-            logger.warning(f"Failed to update download counter: {e}")
-        return count
+            return count
+    except Exception as e:
+        logger.warning(f"Failed to update download counter: {e}")
+        return get_download_count()
 
 
 # =============================================================================
@@ -1178,7 +1226,8 @@ TEMP_APK_TTL = 600  # 10 minutes
 MAX_TEMP_STORAGE_MB = 2048  # 2GB max temp storage
 TEMP_APK_DIR.mkdir(exist_ok=True)
 
-# Registry for temp files (lightweight - just metadata, not file content)
+# Per-worker registry for temp files (lightweight metadata only).
+# Cross-worker access is handled by disk fallback in consume_temp_apk().
 TEMP_APK_REGISTRY = {}  # {file_id: {'path': Path, 'filename': str, 'created': float, 'size': int}}
 TEMP_APK_LOCK = threading.Lock()
 
@@ -1194,7 +1243,8 @@ merge_semaphore = threading.Semaphore(MAX_CONCURRENT_MERGES)
 SSE_MAX_DURATION = 300  # 5 minutes max for any SSE stream
 MAX_PROFILE_CYCLES = 3  # Max times to cycle through all profiles before giving up
 
-# Search cache (reduces latency for repeated queries)
+# Per-worker search cache (reduces latency for repeated queries).
+# Each gunicorn worker maintains its own cache; duplicate fetches across workers are acceptable.
 SEARCH_CACHE = {}  # {query: (results, timestamp)}
 SEARCH_CACHE_TTL = 21600  # 6 hours - search results rarely change
 SEARCH_CACHE_LOCK = threading.Lock()
@@ -1220,14 +1270,18 @@ def get_cached_search(query):
 
 def cache_search(query, results):
     """Cache search results with TTL."""
+    now = time_module.time()
     with SEARCH_CACHE_LOCK:
-        # Limit cache size to prevent memory bloat
+        # Purge expired entries first
+        expired = [k for k, (_, ts) in SEARCH_CACHE.items() if now - ts >= SEARCH_CACHE_TTL]
+        for k in expired:
+            del SEARCH_CACHE[k]
+        # If still over limit, remove oldest entries
         if len(SEARCH_CACHE) > 1000:
-            # Remove oldest 100 entries
             oldest = sorted(SEARCH_CACHE.items(), key=lambda x: x[1][1])[:100]
             for k, _ in oldest:
                 del SEARCH_CACHE[k]
-        SEARCH_CACHE[query] = (results, time_module.time())
+        SEARCH_CACHE[query] = (results, now)
 
 
 def get_backoff_delay(attempt, base=1.0, max_delay=30.0):
@@ -1388,12 +1442,24 @@ def get_temp_apk(file_id):
         return meta.copy()
 
 
+def _is_valid_file_id(file_id):
+    """Validate file_id is a strict UUID to prevent path traversal."""
+    try:
+        uuid.UUID(file_id)
+        return True
+    except (ValueError, AttributeError):
+        return False
+
+
 def consume_temp_apk(file_id):
     """Get and remove temp APK from registry (one-time download).
 
     With multiple gunicorn workers, the registry may not have the entry
     if a different worker saved the file. Fall back to disk check.
     """
+    if not _is_valid_file_id(file_id):
+        return None
+
     with TEMP_APK_LOCK:
         meta = TEMP_APK_REGISTRY.pop(file_id, None)
 
@@ -1401,6 +1467,10 @@ def consume_temp_apk(file_id):
     if not meta:
         file_path = TEMP_APK_DIR / f"{file_id}.apk"
         meta_path = TEMP_APK_DIR / f"{file_id}.meta"
+        # Defense-in-depth: verify path didn't escape temp dir
+        if file_path.resolve().parent != TEMP_APK_DIR.resolve():
+            logger.warning(f"Path traversal attempt blocked: {file_id}")
+            return None
         if file_path.exists():
             # Try to read original filename from metadata file
             filename = f"{file_id}.apk"
@@ -1442,7 +1512,9 @@ _warm_connection_pool()
 @app.route('/api/download-merged-stream/<path:pkg>')
 def download_merged_stream(pkg):
     """SSE endpoint that downloads, merges, signs APKs with progress updates."""
-    import time
+    err = _require_valid_pkg(pkg)
+    if err:
+        return err
 
     arch = request.args.get('arch', 'arm64-v8a')
     if arch not in SUPPORTED_ARCHS:
@@ -1496,7 +1568,7 @@ def download_merged_stream(pkg):
                         )
 
                         if not response.ok:
-                            time.sleep(get_backoff_delay(attempt))
+                            time_module.sleep(get_backoff_delay(attempt))
                             continue
 
                         auth_data = response.json()
@@ -1508,14 +1580,14 @@ def download_merged_stream(pkg):
                             break
                         else:
                             auth_data = None
-                            time.sleep(0.5)
+                            time_module.sleep(0.5)
 
                     except requests.exceptions.ConnectionError as e:
-                        time.sleep(get_backoff_delay(attempt, base=2.0))
+                        time_module.sleep(get_backoff_delay(attempt, base=2.0))
                     except requests.exceptions.Timeout as e:
-                        time.sleep(get_backoff_delay(attempt))
+                        time_module.sleep(get_backoff_delay(attempt))
                     except Exception as e:
-                        time.sleep(get_backoff_delay(attempt, base=0.5))
+                        time_module.sleep(get_backoff_delay(attempt, base=0.5))
 
             if not info or 'error' in info:
                 yield f"data: {json.dumps({'type': 'error', 'message': 'Failed to get download info'})}\n\n"
@@ -1543,7 +1615,8 @@ def download_merged_stream(pkg):
                         count = increment_download_count()
                         yield f"data: {json.dumps({'type': 'success', 'download_id': file_id, 'filename': info['filename'], 'original': True, 'downloads': count})}\n\n"
                     except MemoryError as e:
-                        yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
+                        logger.warning(f"Temp storage error for {pkg}: {e}")
+                        yield f"data: {json.dumps({'type': 'error', 'message': 'Server storage full, try again later'})}\n\n"
                     return
 
                 # Download splits in parallel for faster downloads
@@ -1551,7 +1624,8 @@ def download_merged_stream(pkg):
                 try:
                     splits_data = download_splits_parallel(splits, headers)
                 except Exception as e:
-                    yield f"data: {json.dumps({'type': 'error', 'message': f'Failed to download splits: {str(e)}'})}\n\n"
+                    logger.error(f"Failed to download splits for {pkg}: {e}")
+                    yield f"data: {json.dumps({'type': 'error', 'message': 'Failed to download split APKs'})}\n\n"
                     return
 
                 # Acquire merge slot (limited to prevent CPU exhaustion)
@@ -1573,12 +1647,14 @@ def download_merged_stream(pkg):
                         count = increment_download_count()
                         yield f"data: {json.dumps({'type': 'success', 'download_id': file_id, 'filename': merged_filename, 'downloads': count})}\n\n"
                     except MemoryError as e:
-                        yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
+                        logger.warning(f"Temp storage error for {pkg}: {e}")
+                        yield f"data: {json.dumps({'type': 'error', 'message': 'Server storage full, try again later'})}\n\n"
                 finally:
                     merge_semaphore.release()
 
             except Exception as e:
-                yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
+                logger.error(f"Download/merge failed for {pkg}: {e}")
+                yield f"data: {json.dumps({'type': 'error', 'message': 'Download failed, please try again'})}\n\n"
 
         finally:
             download_semaphore.release()
@@ -1597,14 +1673,21 @@ def download_merged_stream(pkg):
 @app.route('/api/download-temp/<file_id>')
 def download_temp(file_id):
     """Download a temporary merged APK (streams from disk)."""
+    if not _is_valid_file_id(file_id):
+        return jsonify({'error': 'Invalid file ID'}), 400
+
     meta = consume_temp_apk(file_id)
-    if not meta or not meta['path'].exists():
+    if not meta:
         return jsonify({'error': 'File not found or expired'}), 404
 
     def generate_and_cleanup():
         """Stream file from disk and clean up after."""
         try:
-            with open(meta['path'], 'rb') as f:
+            try:
+                f = open(meta['path'], 'rb')
+            except FileNotFoundError:
+                return
+            with f:
                 while True:
                     chunk = f.read(65536)  # 64KB chunks
                     if not chunk:
@@ -1632,14 +1715,14 @@ def download_temp(file_id):
 @app.route('/api/download-merged/<path:pkg>')
 def download_merged(pkg):
     """Download and merge all APKs into a single installable APK (non-streaming fallback)."""
-    import time
+    err = _require_valid_pkg(pkg)
+    if err:
+        return err
 
     # Get architecture from query parameter
     arch = request.args.get('arch', 'arm64-v8a')
     if arch not in SUPPORTED_ARCHS:
         arch = 'arm64-v8a'
-    device_config = get_device_config(arch)
-
     # Try to get a working token and download info
     auth_data = None
     info = None
@@ -1654,10 +1737,14 @@ def download_merged(pkg):
         except Exception:
             pass
 
-    # If cached didn't work, try new tokens with exponential backoff
+    # If cached didn't work, try new tokens with profile rotation
     if not auth_data:
+        profiles = get_priority_device_configs(arch)
+        profile_count = len(profiles)
+        max_attempts = profile_count * MAX_PROFILE_CYCLES
         scraper = get_scraper()  # Reuse scraper across attempts
-        for attempt in range(100):
+        for attempt in range(max_attempts):
+            profile_key, profile = profiles[attempt % profile_count]
             try:
                 response = scraper.post(
                     DISPENSER_URL,
@@ -1665,12 +1752,12 @@ def download_merged(pkg):
                         'User-Agent': 'com.aurora.store-4.6.1-70',
                         'Content-Type': 'application/json',
                     },
-                    json=device_config,
+                    json=profile,
                     timeout=(5, 30)
                 )
 
                 if not response.ok:
-                    time.sleep(get_backoff_delay(attempt))
+                    time_module.sleep(get_backoff_delay(attempt))
                     continue
 
                 auth_data = response.json()
@@ -1681,17 +1768,17 @@ def download_merged(pkg):
                     break
                 else:
                     auth_data = None
-                    time.sleep(get_backoff_delay(attempt, base=0.5))
+                    time_module.sleep(get_backoff_delay(attempt, base=0.5))
 
             except requests.exceptions.ConnectionError as e:
                 logger.warning(f"Connection error on attempt {attempt}: {e}")
-                time.sleep(get_backoff_delay(attempt, base=2.0))
+                time_module.sleep(get_backoff_delay(attempt, base=2.0))
             except requests.exceptions.Timeout as e:
                 logger.warning(f"Timeout on attempt {attempt}: {e}")
-                time.sleep(get_backoff_delay(attempt))
+                time_module.sleep(get_backoff_delay(attempt))
             except Exception as e:
                 logger.warning(f"Merge download attempt {attempt} failed: {e}")
-                time.sleep(get_backoff_delay(attempt, base=0.5))
+                time_module.sleep(get_backoff_delay(attempt, base=0.5))
 
     if not info or 'error' in info:
         return jsonify({'error': 'Failed to get download info after multiple attempts'}), 500
@@ -1743,12 +1830,11 @@ def download_merged(pkg):
         )
 
     except Exception as e:
-        logger.error(f"Merge download failed: {e}")
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Merge download failed for {pkg}: {e}")
+        return jsonify({'error': 'Download failed, please try again'}), 500
 
 
 if __name__ == '__main__':
-    import os
 
     debug = os.environ.get('FLASK_DEBUG', 'false').lower() == 'true'
     host = os.environ.get('HOST', '0.0.0.0')
