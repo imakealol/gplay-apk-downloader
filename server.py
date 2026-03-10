@@ -61,6 +61,20 @@ def set_security_headers(response):
     response.headers['X-Frame-Options'] = 'DENY'
     response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
     response.headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
+    csp = '; '.join([
+        "default-src 'self'",
+        "script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net",
+        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+        "font-src 'self' https://fonts.gstatic.com",
+        "img-src 'self' data: https://play-lh.googleusercontent.com",
+        "connect-src 'self' https://*.google.com https://*.googleapis.com https://*.googleusercontent.com https://*.ggpht.com",
+        "frame-src 'self'",
+        "object-src 'none'",
+        "base-uri 'self'",
+        "form-action 'self'",
+        "worker-src 'self' blob:",
+    ])
+    response.headers['Content-Security-Policy-Report-Only'] = csp
     return response
 
 
@@ -1486,42 +1500,59 @@ def _is_valid_file_id(file_id):
 
 
 def consume_temp_apk(file_id):
-    """Get and remove temp APK from registry (one-time download).
+    """Get temp APK metadata for serving. Does NOT delete — cleanup thread handles that.
 
     With multiple gunicorn workers, the registry may not have the entry
     if a different worker saved the file. Fall back to disk check.
+    Files persist until the cleanup thread removes them after TEMP_APK_TTL,
+    allowing Cloudflare retries and Android download manager to complete.
     """
     if not _is_valid_file_id(file_id):
         return None
 
     with TEMP_APK_LOCK:
-        meta = TEMP_APK_REGISTRY.pop(file_id, None)
+        meta = TEMP_APK_REGISTRY.get(file_id)
+        if meta:
+            if time_module.time() - meta['created'] > TEMP_APK_TTL:
+                TEMP_APK_REGISTRY.pop(file_id, None)
+                return None
+            return meta.copy()
 
     # If not in registry (different worker saved it), check disk directly
-    if not meta:
-        file_path = TEMP_APK_DIR / f"{file_id}.apk"
-        meta_path = TEMP_APK_DIR / f"{file_id}.meta"
-        # Defense-in-depth: verify path didn't escape temp dir
-        if file_path.resolve().parent != TEMP_APK_DIR.resolve():
-            logger.warning(f"Path traversal attempt blocked: {file_id}")
+    file_path = TEMP_APK_DIR / f"{file_id}.apk"
+    meta_path = TEMP_APK_DIR / f"{file_id}.meta"
+    # Defense-in-depth: verify path didn't escape temp dir
+    if file_path.resolve().parent != TEMP_APK_DIR.resolve():
+        logger.warning(f"Path traversal attempt blocked: {file_id}")
+        return None
+    if file_path.exists():
+        # Check TTL on disk file
+        try:
+            mtime = file_path.stat().st_mtime
+            if time_module.time() - mtime > TEMP_APK_TTL:
+                return None
+        except OSError:
             return None
-        if file_path.exists():
-            # Try to read original filename from metadata file
-            filename = f"{file_id}.apk"
-            if meta_path.exists():
-                try:
-                    filename = meta_path.read_text().strip()
-                    meta_path.unlink()  # Clean up meta file
-                except Exception:
-                    pass
-            meta = {
-                'path': file_path,
-                'filename': filename,
-                'created': file_path.stat().st_mtime,
-                'size': file_path.stat().st_size
-            }
+        # Try to read original filename from metadata file
+        filename = f"{file_id}.apk"
+        if meta_path.exists():
+            try:
+                filename = meta_path.read_text().strip()
+            except Exception:
+                pass
+        try:
+            size = file_path.stat().st_size
+        except OSError:
+            return None
+        meta = {
+            'path': file_path,
+            'filename': filename,
+            'created': mtime,
+            'size': size
+        }
+        return meta
 
-    return meta
+    return None
 
 
 # Start cleanup thread (daemon so it dies when main process exits)
@@ -1738,30 +1769,21 @@ def download_temp(file_id):
     if not meta:
         return jsonify({'error': 'File not found or expired'}), 404
 
-    def generate_and_cleanup():
-        """Stream file from disk and clean up after."""
+    def generate():
+        """Stream file from disk. Cleanup is handled by the cleanup thread."""
         try:
-            try:
-                f = open(meta['path'], 'rb')
-            except FileNotFoundError:
-                return
-            with f:
-                while True:
-                    chunk = f.read(65536)  # 64KB chunks
-                    if not chunk:
-                        break
-                    yield chunk
-        finally:
-            # Clean up APK and meta file after streaming
-            for p in [meta['path'], Path(str(meta['path']).replace('.apk', '.meta'))]:
-                try:
-                    p.unlink(missing_ok=True)
-                except Exception as e:
-                    logger.warning(f"Failed to clean temp file after download: {e}")
-            logger.debug(f"Cleaned up temp files after download: {file_id}")
+            f = open(meta['path'], 'rb')
+        except FileNotFoundError:
+            return
+        with f:
+            while True:
+                chunk = f.read(65536)  # 64KB chunks
+                if not chunk:
+                    break
+                yield chunk
 
     return Response(
-        generate_and_cleanup(),
+        generate(),
         content_type='application/vnd.android.package-archive',
         headers={
             'Content-Disposition': f'attachment; filename="{sanitize_filename(meta["filename"])}"',
