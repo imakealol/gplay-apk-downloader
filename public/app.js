@@ -456,7 +456,7 @@
       const action = useAdb ? 'Restoring' : 'Downloading';
       log(action + ' ' + packages.length + ' apps' + (useAdb ? ' to ' + (adbDeviceInfo?.model || 'device') : '') + '...', 'dl');
 
-      let succeeded = 0, failed = 0;
+      let succeeded = 0, failed = 0, failedPkgs = [];
 
       for (let i = 0; i < packages.length; i++) {
         // Check abort flag
@@ -550,6 +550,7 @@
           succeeded++;
         } catch (e) {
           failed++;
+          failedPkgs.push(pkg);
           log(pkg + ' failed: ' + e.message, 'err');
         }
       }
@@ -560,7 +561,8 @@
       if (abortedCount > 0) summary += ', ' + abortedCount + ' skipped';
       const doneLabel = useAdb ? 'Restore' : 'Download';
       log(doneLabel + ' complete: ' + summary, succeeded > 0 ? 'ok' : 'err');
-      resultEl.innerHTML = '<div class="msg ' + (failed === 0 ? 'ok' : 'err') + ' fade-in">' + doneLabel + ' complete: ' + summary + '</div>';
+      let failedHtml = failedPkgs.length > 0 ? '<div style="margin-top:6px;font-size:12px;color:var(--text-secondary)">Failed: ' + failedPkgs.map(esc).join(', ') + '</div>' : '';
+      resultEl.innerHTML = '<div class="msg ' + (failed === 0 ? 'ok' : 'err') + ' fade-in">' + doneLabel + ' complete: ' + summary + failedHtml + '</div>';
       refreshCounter();
     }
 
