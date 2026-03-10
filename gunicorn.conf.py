@@ -30,6 +30,7 @@ proc_name = 'gplay-downloader'
 # Security - request limits
 limit_request_line = 4096
 limit_request_fields = 100
+limit_request_body = 1048576  # 1MB - matches Flask MAX_CONTENT_LENGTH
 
 # Keep-alive for SSE connections
 keepalive = 65

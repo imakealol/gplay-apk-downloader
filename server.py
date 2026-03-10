@@ -45,6 +45,11 @@ logging.basicConfig(level=getattr(logging, _log_level, logging.INFO), format='%(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='public', static_url_path='')
+app.config['MAX_CONTENT_LENGTH'] = 1 * 1024 * 1024  # 1MB max request body
+
+from werkzeug.middleware.proxy_fix import ProxyFix
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
+
 _cors_origins = os.environ.get('CORS_ORIGINS', '')
 if _cors_origins:
     CORS(app, origins=_cors_origins.split(','))
@@ -55,6 +60,21 @@ def set_security_headers(response):
     response.headers['X-Content-Type-Options'] = 'nosniff'
     response.headers['X-Frame-Options'] = 'DENY'
     response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+    response.headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
+    csp = '; '.join([
+        "default-src 'self'",
+        "script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net",
+        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+        "font-src 'self' https://fonts.gstatic.com",
+        "img-src 'self' data: https://play-lh.googleusercontent.com",
+        "connect-src 'self' https://*.google.com https://*.googleapis.com https://*.googleusercontent.com https://*.ggpht.com",
+        "frame-src 'self'",
+        "object-src 'none'",
+        "base-uri 'self'",
+        "form-action 'self'",
+        "worker-src 'self' blob:",
+    ])
+    response.headers['Content-Security-Policy'] = csp
     return response
 
 
@@ -394,6 +414,7 @@ def save_cached_auth(auth_data, arch='arm64-v8a'):
         with file_lock(cache_file, exclusive=True):  # Exclusive lock for writes
             # Write to temp file first (atomic write pattern)
             tmp_file.write_text(json.dumps(auth_data, indent=2))
+            os.chmod(str(tmp_file), 0o600)  # Restrict permissions before rename
             # Atomic rename
             tmp_file.replace(cache_file)
         logger.info(f"Auth saved to: {cache_file}")
@@ -673,8 +694,9 @@ def stats():
     return jsonify({'downloads': get_download_count()})
 
 
-# Per-worker rate limit cache; each gunicorn worker tracks independently.
-# Worst case: a client hits different workers and bypasses the 10s cooldown.
+# Per-worker rate limit cache; with ProxyFix, request.remote_addr is now the
+# real client IP (via Cloudflare's X-Forwarded-For). Each gunicorn worker
+# tracks independently; worst case is N workers allow N increments in 10s.
 _last_increment = {}
 
 @app.route('/api/stats/increment', methods=['POST'])
@@ -685,6 +707,11 @@ def stats_increment():
     if ip in _last_increment and now - _last_increment[ip] < 10:
         return jsonify({'downloads': get_download_count()}), 429
     _last_increment[ip] = now
+    # Periodic cleanup: remove stale entries to prevent unbounded growth
+    if len(_last_increment) > 1000:
+        stale = [k for k, v in _last_increment.items() if now - v > 60]
+        for k in stale:
+            del _last_increment[k]
     count = increment_download_count()
     return jsonify({'downloads': count})
 
@@ -812,11 +839,31 @@ def auth_status():
     return jsonify({'authenticated': bool(auth and auth.get('authToken'))})
 
 
+_search_rate = {}  # {ip: [timestamps]}
+SEARCH_RATE_LIMIT = 10  # max searches per minute per IP
+SEARCH_RATE_WINDOW = 60  # seconds
+
 @app.route('/api/search')
 def search():
     query = request.args.get('q', '')
     if not query:
         return jsonify({'error': 'Query required'}), 400
+    if len(query) > 200:
+        return jsonify({'error': 'Query too long (max 200 characters)'}), 400
+
+    # Per-IP search rate limit
+    ip = request.remote_addr
+    now = time_module.time()
+    timestamps = [t for t in _search_rate.get(ip, []) if now - t < SEARCH_RATE_WINDOW]
+    if len(timestamps) >= SEARCH_RATE_LIMIT:
+        return jsonify({'error': 'Too many searches, please wait'}), 429
+    timestamps.append(now)
+    _search_rate[ip] = timestamps
+    # Periodic cleanup
+    if len(_search_rate) > 5000:
+        stale_ips = [k for k, v in _search_rate.items() if not any(now - t < SEARCH_RATE_WINDOW for t in v)]
+        for k in stale_ips:
+            del _search_rate[k]
 
     # Normalize query for better cache hits
     normalized_query = normalize_search_query(query)
@@ -828,7 +875,8 @@ def search():
 
     try:
         response = get_scraper().get(
-            f'https://play.google.com/store/search?q={query}&c=apps',
+            'https://play.google.com/store/search',
+            params={'q': query, 'c': 'apps'},
             timeout=(5, 10)
         )
         html = response.text
@@ -1452,42 +1500,59 @@ def _is_valid_file_id(file_id):
 
 
 def consume_temp_apk(file_id):
-    """Get and remove temp APK from registry (one-time download).
+    """Get temp APK metadata for serving. Does NOT delete — cleanup thread handles that.
 
     With multiple gunicorn workers, the registry may not have the entry
     if a different worker saved the file. Fall back to disk check.
+    Files persist until the cleanup thread removes them after TEMP_APK_TTL,
+    allowing Cloudflare retries and Android download manager to complete.
     """
     if not _is_valid_file_id(file_id):
         return None
 
     with TEMP_APK_LOCK:
-        meta = TEMP_APK_REGISTRY.pop(file_id, None)
+        meta = TEMP_APK_REGISTRY.get(file_id)
+        if meta:
+            if time_module.time() - meta['created'] > TEMP_APK_TTL:
+                TEMP_APK_REGISTRY.pop(file_id, None)
+                return None
+            return meta.copy()
 
     # If not in registry (different worker saved it), check disk directly
-    if not meta:
-        file_path = TEMP_APK_DIR / f"{file_id}.apk"
-        meta_path = TEMP_APK_DIR / f"{file_id}.meta"
-        # Defense-in-depth: verify path didn't escape temp dir
-        if file_path.resolve().parent != TEMP_APK_DIR.resolve():
-            logger.warning(f"Path traversal attempt blocked: {file_id}")
+    file_path = TEMP_APK_DIR / f"{file_id}.apk"
+    meta_path = TEMP_APK_DIR / f"{file_id}.meta"
+    # Defense-in-depth: verify path didn't escape temp dir
+    if file_path.resolve().parent != TEMP_APK_DIR.resolve():
+        logger.warning(f"Path traversal attempt blocked: {file_id}")
+        return None
+    if file_path.exists():
+        # Check TTL on disk file
+        try:
+            mtime = file_path.stat().st_mtime
+            if time_module.time() - mtime > TEMP_APK_TTL:
+                return None
+        except OSError:
             return None
-        if file_path.exists():
-            # Try to read original filename from metadata file
-            filename = f"{file_id}.apk"
-            if meta_path.exists():
-                try:
-                    filename = meta_path.read_text().strip()
-                    meta_path.unlink()  # Clean up meta file
-                except Exception:
-                    pass
-            meta = {
-                'path': file_path,
-                'filename': filename,
-                'created': file_path.stat().st_mtime,
-                'size': file_path.stat().st_size
-            }
+        # Try to read original filename from metadata file
+        filename = f"{file_id}.apk"
+        if meta_path.exists():
+            try:
+                filename = meta_path.read_text().strip()
+            except Exception:
+                pass
+        try:
+            size = file_path.stat().st_size
+        except OSError:
+            return None
+        meta = {
+            'path': file_path,
+            'filename': filename,
+            'created': mtime,
+            'size': size
+        }
+        return meta
 
-    return meta
+    return None
 
 
 # Start cleanup thread (daemon so it dies when main process exits)
@@ -1507,6 +1572,30 @@ def _warm_connection_pool():
         logger.debug(f"Connection warming failed (non-critical): {e}")
 
 _warm_connection_pool()
+
+# APKEditor.jar integrity check (warning-only)
+APKEDITOR_EXPECTED_SHA256 = os.environ.get('APKEDITOR_SHA256', '')
+
+def _verify_apkeditor():
+    jar_path = os.path.join(os.path.dirname(__file__), 'APKEditor.jar')
+    if not os.path.exists(jar_path):
+        logger.warning("APKEditor.jar not found")
+        return
+    if not APKEDITOR_EXPECTED_SHA256:
+        logger.info("APKEDITOR_SHA256 not set, skipping integrity check")
+        return
+    import hashlib
+    h = hashlib.sha256()
+    with open(jar_path, 'rb') as f:
+        for chunk in iter(lambda: f.read(65536), b''):
+            h.update(chunk)
+    actual = h.hexdigest()
+    if actual != APKEDITOR_EXPECTED_SHA256:
+        logger.warning(f"APKEditor.jar SHA256 mismatch! Expected {APKEDITOR_EXPECTED_SHA256}, got {actual}")
+    else:
+        logger.info("APKEditor.jar integrity verified")
+
+_verify_apkeditor()
 
 
 @app.route('/api/download-merged-stream/<path:pkg>')
@@ -1680,30 +1769,21 @@ def download_temp(file_id):
     if not meta:
         return jsonify({'error': 'File not found or expired'}), 404
 
-    def generate_and_cleanup():
-        """Stream file from disk and clean up after."""
+    def generate():
+        """Stream file from disk. Cleanup is handled by the cleanup thread."""
         try:
-            try:
-                f = open(meta['path'], 'rb')
-            except FileNotFoundError:
-                return
-            with f:
-                while True:
-                    chunk = f.read(65536)  # 64KB chunks
-                    if not chunk:
-                        break
-                    yield chunk
-        finally:
-            # Clean up APK and meta file after streaming
-            for p in [meta['path'], Path(str(meta['path']).replace('.apk', '.meta'))]:
-                try:
-                    p.unlink(missing_ok=True)
-                except Exception as e:
-                    logger.warning(f"Failed to clean temp file after download: {e}")
-            logger.debug(f"Cleaned up temp files after download: {file_id}")
+            f = open(meta['path'], 'rb')
+        except FileNotFoundError:
+            return
+        with f:
+            while True:
+                chunk = f.read(65536)  # 64KB chunks
+                if not chunk:
+                    break
+                yield chunk
 
     return Response(
-        generate_and_cleanup(),
+        generate(),
         content_type='application/vnd.android.package-archive',
         headers={
             'Content-Disposition': f'attachment; filename="{sanitize_filename(meta["filename"])}"',
