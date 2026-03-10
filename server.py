@@ -45,6 +45,11 @@ logging.basicConfig(level=getattr(logging, _log_level, logging.INFO), format='%(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='public', static_url_path='')
+app.config['MAX_CONTENT_LENGTH'] = 1 * 1024 * 1024  # 1MB max request body
+
+from werkzeug.middleware.proxy_fix import ProxyFix
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
+
 _cors_origins = os.environ.get('CORS_ORIGINS', '')
 if _cors_origins:
     CORS(app, origins=_cors_origins.split(','))
@@ -55,6 +60,7 @@ def set_security_headers(response):
     response.headers['X-Content-Type-Options'] = 'nosniff'
     response.headers['X-Frame-Options'] = 'DENY'
     response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+    response.headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
     return response
 
 
@@ -394,6 +400,7 @@ def save_cached_auth(auth_data, arch='arm64-v8a'):
         with file_lock(cache_file, exclusive=True):  # Exclusive lock for writes
             # Write to temp file first (atomic write pattern)
             tmp_file.write_text(json.dumps(auth_data, indent=2))
+            os.chmod(str(tmp_file), 0o600)  # Restrict permissions before rename
             # Atomic rename
             tmp_file.replace(cache_file)
         logger.info(f"Auth saved to: {cache_file}")
@@ -673,8 +680,9 @@ def stats():
     return jsonify({'downloads': get_download_count()})
 
 
-# Per-worker rate limit cache; each gunicorn worker tracks independently.
-# Worst case: a client hits different workers and bypasses the 10s cooldown.
+# Per-worker rate limit cache; with ProxyFix, request.remote_addr is now the
+# real client IP (via Cloudflare's X-Forwarded-For). Each gunicorn worker
+# tracks independently; worst case is N workers allow N increments in 10s.
 _last_increment = {}
 
 @app.route('/api/stats/increment', methods=['POST'])
@@ -685,6 +693,11 @@ def stats_increment():
     if ip in _last_increment and now - _last_increment[ip] < 10:
         return jsonify({'downloads': get_download_count()}), 429
     _last_increment[ip] = now
+    # Periodic cleanup: remove stale entries to prevent unbounded growth
+    if len(_last_increment) > 1000:
+        stale = [k for k, v in _last_increment.items() if now - v > 60]
+        for k in stale:
+            del _last_increment[k]
     count = increment_download_count()
     return jsonify({'downloads': count})
 
@@ -812,11 +825,31 @@ def auth_status():
     return jsonify({'authenticated': bool(auth and auth.get('authToken'))})
 
 
+_search_rate = {}  # {ip: [timestamps]}
+SEARCH_RATE_LIMIT = 10  # max searches per minute per IP
+SEARCH_RATE_WINDOW = 60  # seconds
+
 @app.route('/api/search')
 def search():
     query = request.args.get('q', '')
     if not query:
         return jsonify({'error': 'Query required'}), 400
+    if len(query) > 200:
+        return jsonify({'error': 'Query too long (max 200 characters)'}), 400
+
+    # Per-IP search rate limit
+    ip = request.remote_addr
+    now = time_module.time()
+    timestamps = [t for t in _search_rate.get(ip, []) if now - t < SEARCH_RATE_WINDOW]
+    if len(timestamps) >= SEARCH_RATE_LIMIT:
+        return jsonify({'error': 'Too many searches, please wait'}), 429
+    timestamps.append(now)
+    _search_rate[ip] = timestamps
+    # Periodic cleanup
+    if len(_search_rate) > 5000:
+        stale_ips = [k for k, v in _search_rate.items() if not any(now - t < SEARCH_RATE_WINDOW for t in v)]
+        for k in stale_ips:
+            del _search_rate[k]
 
     # Normalize query for better cache hits
     normalized_query = normalize_search_query(query)
@@ -828,7 +861,8 @@ def search():
 
     try:
         response = get_scraper().get(
-            f'https://play.google.com/store/search?q={query}&c=apps',
+            'https://play.google.com/store/search',
+            params={'q': query, 'c': 'apps'},
             timeout=(5, 10)
         )
         html = response.text
@@ -1507,6 +1541,30 @@ def _warm_connection_pool():
         logger.debug(f"Connection warming failed (non-critical): {e}")
 
 _warm_connection_pool()
+
+# APKEditor.jar integrity check (warning-only)
+APKEDITOR_EXPECTED_SHA256 = os.environ.get('APKEDITOR_SHA256', '')
+
+def _verify_apkeditor():
+    jar_path = os.path.join(os.path.dirname(__file__), 'APKEditor.jar')
+    if not os.path.exists(jar_path):
+        logger.warning("APKEditor.jar not found")
+        return
+    if not APKEDITOR_EXPECTED_SHA256:
+        logger.info("APKEDITOR_SHA256 not set, skipping integrity check")
+        return
+    import hashlib
+    h = hashlib.sha256()
+    with open(jar_path, 'rb') as f:
+        for chunk in iter(lambda: f.read(65536), b''):
+            h.update(chunk)
+    actual = h.hexdigest()
+    if actual != APKEDITOR_EXPECTED_SHA256:
+        logger.warning(f"APKEditor.jar SHA256 mismatch! Expected {APKEDITOR_EXPECTED_SHA256}, got {actual}")
+    else:
+        logger.info("APKEditor.jar integrity verified")
+
+_verify_apkeditor()
 
 
 @app.route('/api/download-merged-stream/<path:pkg>')
