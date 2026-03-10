@@ -74,7 +74,7 @@ def set_security_headers(response):
         "form-action 'self'",
         "worker-src 'self' blob:",
     ])
-    response.headers['Content-Security-Policy-Report-Only'] = csp
+    response.headers['Content-Security-Policy'] = csp
     return response
 
 
