@@ -635,10 +635,44 @@ def get_download_info(pkg, auth):
         return {'error': f'Failed to parse delivery data: {str(e)}'}
 
 
+SITE_URL = os.environ.get('SITE_URL', '').rstrip('/')
+
+
 # Routes
 @app.route('/')
 def index():
-    return send_file('public/index.html')
+    with open(os.path.join(app.static_folder, 'index.html'), 'r') as f:
+        html = f.read()
+    if SITE_URL:
+        html = html.replace('__SITE_URL__', SITE_URL)
+    else:
+        # Strip SEO tags that need a domain
+        import re
+        html = re.sub(r'<link rel="canonical"[^>]*>\n?', '', html)
+        html = re.sub(r'<meta property="og:url"[^>]*>\n?', '', html)
+        html = re.sub(r'<meta property="og:image"[^>]*>\n?', '', html)
+        html = re.sub(r'<meta name="twitter:image"[^>]*>\n?', '', html)
+    return Response(html, content_type='text/html')
+
+
+@app.route('/robots.txt')
+def robots():
+    with open(os.path.join(app.static_folder, 'robots.txt'), 'r') as f:
+        txt = f.read()
+    if SITE_URL:
+        txt = txt.replace('__SITE_URL__', SITE_URL)
+    else:
+        txt = txt.replace('Sitemap: __SITE_URL__/sitemap.xml\n', '')
+    return Response(txt, content_type='text/plain')
+
+
+@app.route('/sitemap.xml')
+def sitemap():
+    if not SITE_URL:
+        return Response('', status=404)
+    with open(os.path.join(app.static_folder, 'sitemap.xml'), 'r') as f:
+        xml = f.read().replace('__SITE_URL__', SITE_URL)
+    return Response(xml, content_type='application/xml')
 
 
 @app.route('/health')
