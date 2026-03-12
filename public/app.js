@@ -249,7 +249,7 @@
 
         // Download base
         log('Downloading base APK: ' + filename, 'dl');
-        const baseBlob = await fetchApkFile(downloadUrl, '/download/' + encodeURIComponent(pkg));
+        const baseBlob = await fetchApkFile(downloadUrl, '/download/' + encodeURIComponent(pkg) + '?arch=' + encodeURIComponent($('#arch-select').value));
         apks.push({ blob: baseBlob, name: filename, size: baseBlob.size });
         downloaded++;
         updateInstallProgress(downloaded, totalFiles, 'download');
@@ -258,7 +258,7 @@
         // Download splits
         for (let i = 0; i < (splits || []).length; i++) {
           log('Downloading split: ' + splits[i].filename, 'dl');
-          const splitBlob = await fetchApkFile(splits[i].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + i);
+          const splitBlob = await fetchApkFile(splits[i].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + i + '?arch=' + encodeURIComponent($('#arch-select').value));
           apks.push({ blob: splitBlob, name: splits[i].filename, size: splitBlob.size });
           downloaded++;
           updateInstallProgress(downloaded, totalFiles, 'download');
@@ -504,12 +504,12 @@
             const apks = [];
 
             log('  Downloading base APK...', 'dl');
-            const baseBlob = await fetchApkFile(dlInfo.downloadUrl, '/download/' + encodeURIComponent(pkg));
+            const baseBlob = await fetchApkFile(dlInfo.downloadUrl, '/download/' + encodeURIComponent(pkg) + '?arch=' + encodeURIComponent($('#arch-select').value));
             apks.push({ blob: baseBlob, name: dlInfo.filename, size: baseBlob.size });
 
             for (let j = 0; j < (dlInfo.splits || []).length; j++) {
               log('  Downloading split: ' + dlInfo.splits[j].filename + '...', 'dl');
-              const splitBlob = await fetchApkFile(dlInfo.splits[j].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + j);
+              const splitBlob = await fetchApkFile(dlInfo.splits[j].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + j + '?arch=' + encodeURIComponent($('#arch-select').value));
               apks.push({ blob: splitBlob, name: dlInfo.splits[j].filename, size: splitBlob.size });
             }
 
@@ -708,7 +708,7 @@
           } else if (hasSplits) {
             html += '<button class="btn-primary" onclick="downloadAll()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download ZIP</button>';
           } else {
-            html += '<a href="/download/' + encodeURIComponent(pkg) + '"><button class="btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download</button></a>';
+            html += '<a href="/download/' + encodeURIComponent(pkg) + '?arch=' + encodeURIComponent(arch) + '"><button class="btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download</button></a>';
           }
           if (window.adbManager?.connected) {
             html += '<button class="btn-install" onclick="installToDevice()">' +
@@ -815,7 +815,7 @@
         const zip = new JSZip();
 
         log('Downloading base APK: ' + filename, 'dl');
-        const baseBlob = await fetchApkFile(downloadUrl, '/download/' + encodeURIComponent(pkg));
+        const baseBlob = await fetchApkFile(downloadUrl, '/download/' + encodeURIComponent(pkg) + '?arch=' + encodeURIComponent($('#arch-select').value));
         zip.file(filename, baseBlob);
         downloaded++;
         updateProgress(downloaded, totalFiles);
@@ -823,7 +823,7 @@
 
         for (let i = 0; i < splits.length; i++) {
           log('Downloading split: ' + splits[i].filename, 'dl');
-          const splitBlob = await fetchApkFile(splits[i].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + i);
+          const splitBlob = await fetchApkFile(splits[i].downloadUrl, '/download/' + encodeURIComponent(pkg) + '/' + i + '?arch=' + encodeURIComponent($('#arch-select').value));
           zip.file(splits[i].filename, splitBlob);
           downloaded++;
           updateProgress(downloaded, totalFiles);

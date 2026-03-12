@@ -464,9 +464,9 @@ def test_auth_token(auth, strict=False):
         return False
 
 
-def get_auth_from_request():
+def get_auth_from_request(arch='arm64-v8a'):
     # Always prefer cached CLI auth since AuroraOSS dispenser tokens have limited permissions
-    cached = get_cached_auth()
+    cached = get_cached_auth(arch)
     if cached:
         return cached
 
@@ -1235,7 +1235,10 @@ def download(pkg, split_index=None):
     err = _require_valid_pkg(pkg)
     if err:
         return err
-    auth = get_auth_from_request()
+    arch = request.args.get('arch', 'arm64-v8a')
+    if arch not in SUPPORTED_ARCHS:
+        arch = 'arm64-v8a'
+    auth = get_auth_from_request(arch)
     if not auth:
         return jsonify({'error': 'Not authenticated'}), 401
 
