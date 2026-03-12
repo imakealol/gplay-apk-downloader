@@ -63,11 +63,11 @@ def set_security_headers(response):
     response.headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
     csp = '; '.join([
         "default-src 'self'",
-        "script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net",
+        f"script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net{_ANALYTICS_ORIGIN}",
         "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
         "font-src 'self' https://fonts.gstatic.com",
         "img-src 'self' data: https://play-lh.googleusercontent.com",
-        "connect-src 'self' https://*.google.com https://*.googleapis.com https://*.googleusercontent.com https://*.ggpht.com",
+        f"connect-src 'self' https://*.google.com https://*.googleapis.com https://*.googleusercontent.com https://*.ggpht.com{_ANALYTICS_ORIGIN}",
         "frame-src 'self'",
         "object-src 'none'",
         "base-uri 'self'",
@@ -636,6 +636,12 @@ def get_download_info(pkg, auth):
 
 
 SITE_URL = os.environ.get('SITE_URL', '').rstrip('/')
+UMAMI_SCRIPT = os.environ.get('UMAMI_SCRIPT', '')
+_ANALYTICS_ORIGIN = ''
+if UMAMI_SCRIPT:
+    _m = re.search(r'src="(https?://[^"/]+)', UMAMI_SCRIPT)
+    if _m:
+        _ANALYTICS_ORIGIN = ' ' + _m.group(1)
 
 
 # Routes
@@ -652,6 +658,8 @@ def index():
         html = re.sub(r'<meta property="og:url"[^>]*>\n?', '', html)
         html = re.sub(r'<meta property="og:image"[^>]*>\n?', '', html)
         html = re.sub(r'<meta name="twitter:image"[^>]*>\n?', '', html)
+    if UMAMI_SCRIPT:
+        html = html.replace('</head>', f'  {UMAMI_SCRIPT}\n</head>')
     return Response(html, content_type='text/html')
 
 

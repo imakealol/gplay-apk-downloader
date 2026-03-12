@@ -517,6 +517,8 @@ gplay-apk-downloader/
 | `CORS_ORIGINS` | (same-origin only) | Comma-separated allowed origins (e.g., `https://yourdomain.com`). Unset = no cross-origin requests allowed |
 | `LOG_LEVEL` | `INFO` | Logging level (`DEBUG`, `INFO`, `WARNING`, `ERROR`) |
 | `PORT` | `5000` | Server port (used by `start-server.sh`) |
+| `SITE_URL` | (none) | Site URL for SEO meta tags (e.g., `https://apkdl.example.com`). Unset = SEO tags stripped |
+| `UMAMI_SCRIPT` | (none) | Full `<script>` tag for Umami analytics. Unset = no analytics |
 
 Set these in your systemd service file or shell environment.
 
@@ -571,6 +573,7 @@ Set these in your systemd service file or shell environment.
 - **Logging**: Production defaults to `INFO` level — no auth tokens logged. Set `LOG_LEVEL=DEBUG` only for development
 - **No authentication**: API endpoints are open by default. Use a reverse proxy (nginx) to add auth if needed
 - **HTTPS**: Not built-in — deploy behind a reverse proxy with TLS termination
+- **Analytics**: The hosted instance at apkdl.dietdroid.com uses [Umami](https://umami.is) to track anonymous page visits (no cookies, no personal data). Self-hosted deployments do not include any analytics unless you configure the `UMAMI_SCRIPT` environment variable
 
 ---
 
