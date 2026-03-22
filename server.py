@@ -1041,6 +1041,16 @@ def search():
         final_results = results[:5]
         # Cache the results for future requests
         cache_search(normalized_query, final_results)
+
+        # Trigger catalog enrichment for all search results
+        if not _DISABLE_APP_PAGES:
+            try:
+                from app_pages import on_download_success
+                for r in final_results:
+                    on_download_success(r['package'], r.get('title', r['package']), r.get('icon'))
+            except Exception:
+                pass
+
         return jsonify({'results': final_results})
     except Exception as e:
         logger.error(f"Search failed for '{query}': {e}")
@@ -1052,6 +1062,15 @@ def info(pkg):
     err = _require_valid_pkg(pkg)
     if err:
         return err
+
+    # Trigger catalog enrichment early
+    if not _DISABLE_APP_PAGES:
+        try:
+            from app_pages import on_download_success
+            on_download_success(pkg, pkg)
+        except Exception:
+            pass
+
     try:
         response = get_scraper().get(
             f'https://play.google.com/store/apps/details?id={pkg}&hl=en',
@@ -1082,6 +1101,15 @@ def download_info(pkg):
     err = _require_valid_pkg(pkg)
     if err:
         return err
+
+    # Trigger catalog enrichment early, before download attempt
+    if not _DISABLE_APP_PAGES:
+        try:
+            from app_pages import on_download_success
+            on_download_success(pkg, pkg)
+        except Exception:
+            pass
+
     auth = get_auth_from_request()
     if not auth:
         return jsonify({'error': 'Not authenticated'}), 401
@@ -1117,6 +1145,14 @@ def download_info_stream(pkg):
     err = _require_valid_pkg(pkg)
     if err:
         return err
+
+    # Trigger catalog enrichment early, before download attempt
+    if not _DISABLE_APP_PAGES:
+        try:
+            from app_pages import on_download_success
+            on_download_success(pkg, pkg)
+        except Exception:
+            pass
 
     # Get architecture from query parameter
     arch = request.args.get('arch', 'arm64-v8a')
@@ -1157,12 +1193,6 @@ def download_info_stream(pkg):
                         } for s in info['splits']]
                     }
                     yield f"data: {json.dumps(result)}\n\n"
-                    if not _DISABLE_APP_PAGES:
-                        try:
-                            from app_pages import on_download_success
-                            on_download_success(pkg, info['title'])
-                        except Exception:
-                            pass
                     return
                 else:
                     yield f"data: {json.dumps({'type': 'progress', 'attempt': 0, 'message': 'Cached token failed, trying new tokens...'})}\n\n"
@@ -1243,11 +1273,6 @@ def download_info_stream(pkg):
                     } for s in info['splits']]
                 }
                 yield f"data: {json.dumps(result)}\n\n"
-                try:
-                    from app_pages import on_download_success
-                    on_download_success(pkg, info['title'])
-                except Exception:
-                    pass
                 return
 
             except requests.exceptions.ConnectionError as e:
@@ -1698,6 +1723,14 @@ def download_merged_stream(pkg):
     err = _require_valid_pkg(pkg)
     if err:
         return err
+
+    # Trigger catalog enrichment early, before download attempt
+    if not _DISABLE_APP_PAGES:
+        try:
+            from app_pages import on_download_success
+            on_download_success(pkg, pkg)
+        except Exception:
+            pass
 
     arch = request.args.get('arch', 'arm64-v8a')
     if arch not in SUPPORTED_ARCHS:

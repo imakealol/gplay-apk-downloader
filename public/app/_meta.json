@@ -3382,5 +3382,23 @@
     "package": "com.bible.studycommentary",
     "description": "Hebrew Bible Study Translation - The #1 app for authentic Jewish Bible study with Rabbi Ari AI chatbot. Study the complete jewish bible with Hebrew dictionary / bible dictionary for prayers & blessing daily or for research specific verse. Best alternative to Christian Bible apps for Jewish perspectives. \n\nJewish texts with commentary & translation. Features Rabbi Ari AI - ask any Judaism question! Perfect for Jews deepening Torah knowledge, Christians seeking Old Testament Jewish perspectives, converting to Judaism, or learning Biblical Hebrew.\n\n\ud83d\udcd6 COMPLETE HEBREW BIBLE with side-by-side translation\n- Original Hebrew Bible with translations in English, Spanish, French, Portuguese, German, Italian, Polish, Korean & Russian\n- Torah, Prophets, Writings\n- Unique Blue Player (audio) \u2013 switch bet",
     "icon": "/icons/com.bible.studycommentary.png"
+  },
+  "com.weather.Weather": {
+    "title": "The Weather Channel - Radar",
+    "package": "com.weather.Weather",
+    "description": "The Weather Channel is the World's Most Accurate Forecaster*. Prepare for rain, storm, and allergy season with our local rain radar and real-time notifications to keep you informed and safe. Get the latest forecasts alongside storm tracker features that help prepare for storms and heavy rain. Get storm warnings and severe weather alerts for rain, snow, and more. The Weather Channel provides everything you need to stay one step ahead \u2013 real-time alerts, 24-hour future radar, hourly rain tracker, storm radar news, and local weather forecast.\n\nGet live storm maps, rain radar updates, accurate local weather alerts, allergy tracker, and activities forecasts in a complete weather app. Get severe weather alerts for heavy rain, snow and more thanks to reliable storm radar features. The Weather Cha",
+    "icon": "/icons/com.weather.Weather.png"
+  },
+  "com.accuweather.android": {
+    "title": "AccuWeather: Weather Radar",
+    "package": "com.accuweather.android",
+    "description": "Download AccuWeather\u00ae, The Most Trusted Weather App. Get real-time weather alerts and hyperlocal weather updates with proven Superior Accuracy\u2122. Access live radar, weather forecasts, and our severe weather tracker features, helping you make the best decisions and stay more informed. \n\nBe best prepared with real-time weather alerts that keep you better informed of winter storms, snow forecasts and cold temperatures. Whether it is tornadoes, snow or ice, flooding rains, mudslides, high winds, extreme heat or cold, polluted air, or any other major weather event, AccuWeather is the best. \n\nUnlock WinterCast\u00ae and receive hourly snowfall totals, amount probability, maps, total snow accumulation and more to help you stay best prepared for winter weather.\n\nAccuWeather\u2019s live radar, and storm warni",
+    "icon": "/icons/com.accuweather.android.png"
+  },
+  "com.google.android.apps.weather": {
+    "title": "Weather",
+    "package": "com.google.android.apps.weather",
+    "description": "Get the latest forecast with Pixel\u2019s exclusive weather app. You can also:\n  \u2022 See AI-generated overviews of the weather with helpful tips\n  \u2022 Easily track weather in multiple locations\n  \u2022 Get up-to-the-minute precipitation forecasts\n  \u2022 See a precipitation map\n  \u2022 Receive severe weather warnings\n  \u2022 Enjoy AI generated weather backgrounds\n  \u2022 Customize your experience\n  \u2022 Set alarms to wake up to a weather forecast\n  \u2022 See personal weather insights for plans affected by the weather within the next 10 days\n\n  Feature availability may vary depending on your region, language, and device.",
+    "icon": "/icons/com.google.android.apps.weather.png"
   }
 }
