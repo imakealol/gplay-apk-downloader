@@ -3400,5 +3400,503 @@
     "package": "com.google.android.apps.weather",
     "description": "Get the latest forecast with Pixel\u2019s exclusive weather app. You can also:\n  \u2022 See AI-generated overviews of the weather with helpful tips\n  \u2022 Easily track weather in multiple locations\n  \u2022 Get up-to-the-minute precipitation forecasts\n  \u2022 See a precipitation map\n  \u2022 Receive severe weather warnings\n  \u2022 Enjoy AI generated weather backgrounds\n  \u2022 Customize your experience\n  \u2022 Set alarms to wake up to a weather forecast\n  \u2022 See personal weather insights for plans affected by the weather within the next 10 days\n\n  Feature availability may vary depending on your region, language, and device.",
     "icon": "/icons/com.google.android.apps.weather.png"
+  },
+  "com.voicechat.live.group": {
+    "title": "YoHo: Group Voice Chat Room",
+    "package": "com.voicechat.live.group",
+    "description": "\ud83d\udc4bWelcome to YoHo\ud83d\udc4b \n There is a big party for you right now. YoHo has combined the most popular games with the most fluent voice chat system already. Don't you wanna make friends? Here, now you can make friends every minute!\n\n \ud83c\udfae Gaming Room, Chat Party \ud83c\udfae\nYou can play multiple games while chatting in voice chat rooms. YoHo now has more games than ever. Like Ludo(\u0644\u0648\u062f\u0648), Uno, and Dominoes(\u0627\u0644\u062f\u0648\u0645\u064a\u0646\u0648), arcade fishing game, you name it! Have more fun with friends from all over the world.\n\n\ud83d\udc6bPrivate Chat, More Secrets\ud83d\udc6b\nThere is a significant upgrade in the private chat room. Your potential new friends will be randomly generated as a list for you, and now you can record your voice. Tap the icons that you are interested in, listen to his/her voice and directly say hi to them without any barriers. You ",
+    "icon": "/icons/com.voicechat.live.group.jpg"
+  },
+  "com.kinkey.vgo": {
+    "title": "ViYa - Group Voice Chat Rooms",
+    "package": "com.kinkey.vgo",
+    "description": "ViYa is a group voice chat room & online entertainment community. You can make new friends all over the world, enjoy chat and playing together!\n\nParty with friends with no distance:\nGroup voice talk with friends no matter where they are, broadcast your favorite musics inside the room, sing karaokes together, and play a range of games directly in group chat.\n \nMake new friends easily:\nYou can join thousands of activities and meet new friends from nearby or all around the world.\n \nLet's get the party started and have fun at ViYa now!\n\n\nFEATURES:\n\n[Totally Free]\ud83d\ude04\nEnjoy high-quality voice chat, and all features in ViYa are totally FREE.\n \n[Real-time Social]\ud83d\udc44\nKeeping in touch with your friends and make new friends has never been easier!\n \n[Lively Party] \ud83e\udd73\nDisco, play music, birthday party, anni",
+    "icon": "/icons/com.kinkey.vgo.png"
+  },
+  "com.snowcorp.vita": {
+    "title": "VITA - Video Editor & Maker",
+    "package": "com.snowcorp.vita",
+    "description": "VITA is a simple & easy video editing app with all features you need for videography!\nStart creating amazing videos with all the high-quality features in VITA.\n\n- Export videos in full HD quality.\n- Speed up & add slow motion with the video speed option.\n- Add video transitions to make your videos look more cinematic.\n- Make aesthetic videos with dreamy glitch, glitter, and bling effects.\n- Apply filters to your videos for color grading.\n- Select songs from the music library to enrich your videos.\n- Create your own vlogs with quick and easy video templates.\n- Use pre-made fonts and animated texts & customize with strokes, shadows, and colors.\n- Collage and overlay videos with PIP to make clone videos.",
+    "icon": "/icons/com.snowcorp.vita.png"
+  },
+  "com.xparty.androidapp": {
+    "title": "Xena - Group Voice Party",
+    "package": "com.xparty.androidapp",
+    "description": "\"Xena \u2013 Your Ultimate Social Playground! \n\n[1]CHAT\uff1aJoin the Party! \nStep into Xena  and experience an instant connection with a lively community that fits your vibe! Chat in real time with friends who share your interests in endless, electrifying chat rooms.\n\n[2]PARTY\uff1aDive into Endless Fun!\nDiscover over 1,000+ custom-made party chat rooms tailored to every interest in Xena! Whether you want to chill, connect, or create your unique vibe, we give you endless ways to make each moment unforgettable. Join or create your room for FREE\u2014your social adventure starts in Xena now!\n\n[3]PK\uff1aEngage in Team Battles! \nUnleash your competitive spirit with Xena's thrilling PK battles! Team up, compete, and climb the popularity charts as you engage in intense and fun-filled Xena's party rooms. The games are ",
+    "icon": "/icons/com.xparty.androidapp.png"
+  },
+  "com.nebula.mahjongtile": {
+    "title": "Mahjong Blast",
+    "package": "com.nebula.mahjongtile",
+    "description": "\u2615\ufe0f Enjoy a classic mahjong solitaire game designed to be fully playable offline, built around traditional mahjong tiles and clear, readable board layouts. As one of the free puzzle games for adults who value calm and structured play, this offline mahjong game follows familiar Chinese mahjong rules combined with simple tile matching mechanics, making it ideal for daily relaxation anytime without internet or WiFi.\n\n\ud83c\udc04 Classic Mahjong Tiles and Solitaire Gameplay\nAt its core, this is a traditional mahjong solitaire experience. Match two free mahjong tiles, remove pairs, and gradually clear the board. Inspired by classic mahjong tile layouts, every board is designed for clarity, focus, and easy reading\u2014perfect for players who enjoy classic mahjong games and thoughtful board play.\n\n\ud83c\udfae Tile Matchi",
+    "icon": "/icons/com.nebula.mahjongtile.png"
+  },
+  "com.venmo": {
+    "title": "Venmo",
+    "package": "com.venmo",
+    "description": "Venmo is the fast, safe, social way to pay and get paid. Join over 90+ million people who use the Venmo app today\n\u00a0\nSEND AND RECEIVE MONEY\nPay and get paid for anything from your share of rent to a gift. Add a note to each payment to share and connect with friends\n\nSPLIT A REQUEST AMONG MULTIPLE VENMO FRIENDS\nYou can now send a payment request to multiple Venmo friends at once and customize the amount each person owes\n\u00a0\nGET REWARDED WITH THE VENMO CREDIT CARD\nEarn up to 3% cash back on your eligible top spend category\u00b9 \u2014we\u2019ll do the math. Split card purchases with Venmo friends, and shop everywhere Visa\u00ae credit cards are accepted\u2014online, in-store, worldwide\u00b2\n\nBUY CRYPTO WITH AS LITTLE AS $1\nBuy, hold, and sell cryptocurrency right on the Venmo app. New to crypto? Learn more with in-app res",
+    "icon": "/icons/com.venmo.webp"
+  },
+  "com.vama.app.prod": {
+    "title": "Vama",
+    "package": "com.vama.app.prod",
+    "description": "Explore the future of communication and finance with Vama \u2013 a cutting-edge app that seamlessly integrates instant messaging and secure payments, incorporating the latest in Fintech technology.\n\nINSTANT MESSAGING: Vama offers the fastest messaging and payments app available in the market.\n\nPAYMENTS: Experience the convenience of frictionless payments within your chat conversations on Vama. Through our integrated payment feature, effortlessly send and receive money directly in the app, streamlining financial transactions while maintaining the security of your conversations and transactions in one secure place. Enjoy the ease of settling bills, splitting expenses, or making instant payments\u2014all within the familiar and user-friendly interface\n\nMULTI-DEVICE SYNC: Access your chats seamlessly fr",
+    "icon": "/icons/com.vama.app.prod.png"
+  },
+  "com.hoag.nona": {
+    "title": "Nona",
+    "package": "com.hoag.nona",
+    "description": "Comprehensive support at every step of motherhood journey. Get real-time responses and have a direct connection with your care team in which you feel safe to ask any questions you may have in mind.\n \nKey Features: \n\u2022\tChat with your Nona Care Team\n\u2022\tOn-demand postpartum experts & Lactation Consultants\n\u2022\tPrepare a list of questions for your upcoming appointments with the help of the Care Team\n\u2022\tEasily access wellness services and classes (in-person, virtual, or on-demand) along your motherhood journey\n\u2022\tReceive recommended and tailored content based on your unique needs",
+    "icon": "/icons/com.hoag.nona.png"
+  },
+  "com.vinitadating.app": {
+    "title": "Vinita - South Asian Dating",
+    "package": "com.vinitadating.app",
+    "description": "Are you tired of being nagged by your relatives about your dating life? Do you want to find someone who shares your South Asian culture and values? If so, you need Vinita - the new name in town for South Asian dating.\n\nHOW WE WORK OUR MAGIC\nIn the desi community especially, singles are often criticized by relatives and parents. Vinita is on a mission to put your dating life back into your own hands! Our app enables you to take up the driver's seat.\n\n* We\u2019re a \u2018smart\u2019 app... meaning the more you swipe, the better we can understand what you\u2019re into.\n\n* Our interface is designed to grant you a flawless swiping experience so you can focus on the choice at hand.\n\n* Our profile features allow you to recognize potential attributes fast with every swipe. We\u2019re free to download & use!\n\nMESSAGE FROM",
+    "icon": "/icons/com.vinitadating.app.png"
+  },
+  "com.itorah.app": {
+    "title": "iTorah: Watch, Listen & Stream",
+    "package": "com.itorah.app",
+    "description": "Explore a wide assortment of Torah classes from renowned Rabbis and leaders of the Syrian Jewish community. Available wherever you are, iTorah brings learning to your fingertips.\n\nKey Features:\n\n\n\n\n\t\u2022\tFollow Speakers: Stay updated on the latest classes from speakers like Rabbi Eli Mansour, Rabbi Joey Haber, and Rabbi Meyer Yedid.\n\t\u2022\tOffline Listening: Download classes for convenient access on-the-go.\n\t\u2022\tLive Streaming: Experience the vibrancy of Torah classes in real-time.\n\t\u2022\tCurated Series: Engage with popular series like 'Living Emunah,' 'Daily Halacha,' and 'Weekly Inspire.'\n\t\u2022\tPersonalized Playlists: Tailor your learning with customizable playlists.\n\t\u2022\tContinue Listening: Seamlessly resume your learning, right where you left off.\n\t\u2022\tEasy Search Functionality: Effortlessly find topics, ",
+    "icon": "/icons/com.itorah.app.png"
+  },
+  "com.activehours": {
+    "title": "EarnIn: Why Wait for Payday?",
+    "package": "com.activehours",
+    "description": "EarnIn empowers you to take control of your personal finances with our original same-day payday app(^), featuring our cash advance service, overdraft help, and credit score monitoring.\n\nYour Daily Cash Advance, Up to $150 a Day \nUse Cash Out to access up to $150/day from your earnings and up to $1,000 per pay period(1). Get your money in your bank account in minutes for a small fee, or enjoy our no-cost option in 1-3 business days. Gain control of your payday and access the money you've earned as you work with EarnIn.\n\nYour Money, Without the Fees\nEnjoy the freedom of access with no interest, no credit check, and no mandatory fees. We provide a smarter path to your money than traditional payday loans or cash advances. Tipping is always optional and helps support our community(*).\n\nAccess W",
+    "icon": "/icons/com.activehours.png"
+  },
+  "com.westernunion.android.mtapp": {
+    "title": "Western Union Send Money Now",
+    "package": "com.westernunion.android.mtapp",
+    "description": "Send money quickly and securely with Western Union\u00ae, a trusted global brand for over 170 years with over 150 million customers. Transfer money to bank accounts, mobile wallets, or for cash pickup in minutes across 200 + countries and territories in over 130 currencies.  \n\n0 transfer fee* on your first online money transfer to a bank account or mobile wallet with Western Union\u00ae app. Send money internationally 24/7 with secure, trusted, and fast transfers, and benefit from simplified recurring transfers plus quick estimation of fees and exchange rates.  \n\nSend money, track money transfers, review exchange rates, use secure login with Face/Touch ID, and find agent locations near you - all on the go with the Western Union\u00ae international money transfer app, backed by 24/7 customer service. \n\nWE",
+    "icon": "/icons/com.westernunion.android.mtapp.png"
+  },
+  "com.miui.calculator": {
+    "title": "Calculator",
+    "package": "com.miui.calculator",
+    "description": "Welcome to the most popular Android Calculator. It is compatible with Samsung, Oppo, Vivo, Realme, OnePlus and of course, Xiaomi.\n\nIt will do the math for you. All-in-one calculator for you.\nRegular, scientific, and mortgage calculators, as well as currency and unit converters and much more, are all here in one place. \n\n1. Basic calculator: Edit history and view previous results in the regular calculator.\n2. Scientific calculator: Find trigonometric functions, logarithms, and more additional features in the scientific calculator.\n3. Currency converter: Daily updated exchange rates in the universal currency converter.\n4. Loan/Mortgage calculator: Know the exact amount of the next instalment with the loan/mortgage calculator.\n5. Converters: Freely convert units of length, area, volume, speed",
+    "icon": "/icons/com.miui.calculator.png"
+  },
+  "com.calculator.hideu": {
+    "title": "HideU: Calculator Lock",
+    "package": "com.calculator.hideu",
+    "description": "HideU allows you to hide all types of files, including photos, videos and other items in hidden space with calculator password protection. It also provides you with other useful functions, including notes, video player, camera, etc. You can use HideU as a private parallel space in your phone.\nYour files will be secretly stored in HideU and can only be accessed by entering a digital PIN.\nDisguised as a secret calculator, HideU is a stunning free video vault, photo gallery lock, audio protector and privacy guard for your personal information and media files.\n\nMain Features:\n\ud83d\udcf7 Hide photos & videos\nSecret media files will be stored in HideU and will not be shown in any other photo album, gallery or file manager. Keep others away from your private photos, videos, movies in safe media files vaul",
+    "icon": "/icons/com.calculator.hideu.png"
+  },
+  "com.digitalchemy.calculator.freedecimal": {
+    "title": "Calculator Plus with History",
+    "package": "com.digitalchemy.calculator.freedecimal",
+    "description": "Calculator Plus is your basic calculator app for Android. The Calculator is designed for everyday math, school, budgeting, shopping, or business calculations. Solve daily number tasks quickly \u2014 split bills, calculate discounts, or check totals. This easy calculator is your choice for fast, accurate results.\n\nWhat are Core Basic Calculator App Functions?\n\nEasy Calculator App for Daily Needs \nAdd, subtract, multiply, divide and use essential math functions with precision. Calculate monthly expenses, track bills, manage your personal budget, or solve quick math problems \u2014 the basic calculator functions give you instant results.\n\nCalculator with Big Buttons and Large Display for Error-Free Input\nSee numbers clearly on a large screen and tap confidently with oversized buttons. This layout reduc",
+    "icon": "/icons/com.digitalchemy.calculator.freedecimal.jpg"
+  },
+  "com.google.android.apps.fitness": {
+    "title": "Google Fit: Activity Tracking",
+    "package": "com.google.android.apps.fitness",
+    "description": "Get to a healthier and more active life with the new Google Fit!\n\nIt's hard to know how much or what kind of activity you need to stay healthy. That's why Google Fit collaborated with the World Health Organization (WHO) and the American Heart Association (AHA) to bring you Heart Points, an activity goal that can help improve your health.\n\nActivities that get your heart pumping harder have tremendous health benefits for your heart and mind. You'll earn one Heart Point for each minute of moderate activity like picking up the pace when walking your dog, and double points for more intense activities like running. It takes just 30-minutes of brisk walking five days a week to reach the AHA and WHO's recommended amount of physical activity shown to reduce the risk of heart disease, improve sleep,",
+    "icon": "/icons/com.google.android.apps.fitness.png"
+  },
+  "com.myfitnesspal.android": {
+    "title": "MyFitnessPal: Calorie Counter",
+    "package": "com.myfitnesspal.android",
+    "description": "Achieve your nutrition, calorie, macro, and fitness goals with MyFitnessPal. MyFitnessPal is an AI-powered, comprehensive food and fitness tracker, with everything you need to reach your goals. Macros, calories, food, and workouts \u2013 track it all in one place.\n\nCreate personalized goals, change your habits with fitness and food, and track your water intake. Download our AI-powered health and nutrition app, and start your free Premium trial today. With MyFitnessPal, you have access to exclusive food inspiration, intermittent fasting tracker, fitness logging tools, expert guidance, and a calorie tracker. You\u2019ll soon discover why MyFitnessPal is the #1 nutrition and food tracking app in the U.S. and has been featured in the New York Times, Forbes, the Today Show, and U.S. News & World Report.\n",
+    "icon": "/icons/com.myfitnesspal.android.webp"
+  },
+  "com.planetfitness": {
+    "title": "Planet Fitness",
+    "package": "com.planetfitness",
+    "description": "Welcome to the Planet Fitness App: The Gym in Your Pocket!\nDid you know the PF App has tons of free features everyone? It\u2019s not just Planet Fitness members that can enjoy what the PF App has to offer! We believe fitness should be accessible for all, which is why non-members have access to a huge library of on-demand digital workouts, helpful exercise tutorials for extra guidance, and activity tracking to celebrate wins. You can even sign up for your membership in the PF App without visiting your local club.\n\nPlus, we have exclusive features for all of our amazing Planet Fitness members like discounts on top brands you love, up to 3 free months through the PF Refer-a-Friend Program**, a Crowd Meter to pick the best time to visit, easy digital check-ins and more! \n \nDIGITAL WORKOUTS: FREE FI",
+    "icon": "/icons/com.planetfitness.png"
+  },
+  "com.sec.android.app.shealth": {
+    "title": "Samsung Health",
+    "package": "com.sec.android.app.shealth",
+    "description": "Start healthy habits for yourself with Samsung Health.\n\nSamsung Health has various features to help you manage your health. As the app allows you to automatically record many activities, creating a healthy lifestyle is easier and simpler than ever.\n\nCheck various health records on the home screen. Easily add and edit the items that you want to manage such as daily steps and activity time.\n\nRecord and manage your fitness activities, such as running, cycling, swimming, etc. Also, Galaxy Watch wearables user can now exercise more effectively through Life Fitness, Technogym and Corehealth.\n\nCreate healthy eating habits by recording your daily meals and snacks with Samsung Health.\n\nWork hard and always maintain your best condition with Samsung Health. Set goals that work for your own level, and",
+    "icon": "/icons/com.sec.android.app.shealth.png"
+  },
+  "com.mta.mobileapp": {
+    "title": "MTA TrainTime",
+    "package": "com.mta.mobileapp",
+    "description": "The TrainTime app provides a one-stop shop for Long Island Rail Road and Metro-North Railroad customers, where riders can buy and use tickets, plan their trips, track their trains, and more.\n\n\u2022 Buy tickets with Google Pay or credit/debit card. Split payment between two cards.\n\u2022 Plan trips with departure times and transfer details before you travel. You can also search for two origin and/or two destination stations at once.\n\u2022 Save your frequent trains for easy access\n\u2022 Share trips with family and friends so they know when to expect you\n\u2022 Follow your trip with real-time GPS tracking, updated every few seconds\n\u2022 See the layout of your train and how crowded each car is\n\u2022 Chat with a customer service representative for either LIRR or Metro-North within the app",
+    "icon": "/icons/com.mta.mobileapp.png"
+  },
+  "com.nyctrans.it": {
+    "title": "MyTransit NYC Subway & Bus MTA",
+    "package": "com.nyctrans.it",
+    "description": "NEW YORK\u2019S MOST ACCURATE TRANSIT APP\nMyTransit is the most reliable NYC Subway, Bus, LIRR Long Island, Metro-North and MTA transit tracker app with maps, live arrival times, schedules, directions, and alerts. \n\n4.7 Stars - Top rated NYC transit app\n\nMyTransit is New York City\u2019s transit app with popular features like NYC Subway Map, MTA Bus Time, Train Time for LIRR Long Island Railroad and Metro North, and other features not found in MYmta app. The Subway section includes NYC maps, MTA Subway Time, schedules, directions and alerts so you never miss a beat. Our Bus features include NYC Bus Time, route maps, and MTA bus tracker for all boroughs of New York City with Manhattan, Brooklyn, Bronx, Queens, and Staten Island. Rail section covers MTA\u2019s New York railroads Metro-North and Long Island",
+    "icon": "/icons/com.nyctrans.it.png"
+  },
+  "com.thetransitapp.droid": {
+    "title": "Transit - Subway & Bus Times",
+    "package": "com.thetransitapp.droid",
+    "description": "Transit makes it easy to get around your city. No more waiting. No more guessing when your ride will arrive \u2013 our app helps you travel by public transit in 1,000+ cities. With live departure times and real-time vehicle tracking, you\u2019ll always know EXACTLY when your bus or train is coming. With Transit, you can get anywhere without needing a car:\n\n\u2022 Plan the fastest route from A to B on public transportation\n\u2022 Quickly compare options like bike + rail or bus + subway\n\u2022 Get instant alerts about delays and disruptions\n\u2022 Save your favorite destinations and lines \u2013 then plan trips in just one tap!\n\nHERE\u2019S WHAT THEY\u2019RE SAYING\n\u201cGives you the best route to where you want to go\u201d - New York Times\n\u201cYou won't realize how much time you can save planning until you use this app\u201d - LA Times\n\u201cKiller app\u201d - ",
+    "icon": "/icons/com.thetransitapp.droid.png"
+  },
+  "com.turnstile": {
+    "title": "Turnstile - NYC MTA Subway",
+    "package": "com.turnstile",
+    "description": "Embark on a seamless journey through the heart of NYC with Turnstile - your ultimate subway companion. Designed with a clear, intuitive user interface, Turnstile ensures you're always equipped with the latest, most accurate subway information at your fingertips. Oh also, no ads.\n\n- Real-Time Updates: Stay ahead with live updates. Whether it's a delay, an unexpected service change, or a quick route alteration, Turnstile keeps you informed in real-time.\n\n- Nearby stops: See up to 5 nearby subway stops when you share your location, strategize which stop and train is best for you.\n\n- User-Centric Design: Experience an app crafted for efficiency and simplicity. As a New Yorker myself, I wanted to ensure that Turnstile delivers crucial information swiftly, without the clutter of ads or unnecessa",
+    "icon": "/icons/com.turnstile.png"
+  },
+  "info.mta.mymta": {
+    "title": "The Official MTA App",
+    "package": "info.mta.mymta",
+    "description": "The official all-in-one-app for MTA\u2019s subways, buses, and commuter railroads (Long Island Rail Road and Metro-North).\n\n\u2022 A map-based interface that simplifies trip planning and makes getting around a breeze.\n\u2022 Reliable real-time information from the MTA, with a new Status tab to quickly see on any service issues.\n\u2022 Wondering where your bus is? Track it on the map in real-time and never miss a ride again.\n\u2022 Easily save your frequently used lines, stops, and stations, and access them quickly for a hassle-free commute.\n\u2022 Stay informed of any trip changes with optional alerts that notify you of delays or disruptions.\n\u2022 Enjoy personalized smart alerts that learn your preferred trips and proactively check for service changes before you leave.\n\u2022 Check live departures and service status across the",
+    "icon": "/icons/info.mta.mymta.png"
+  },
+  "com.deidentification.studio": {
+    "title": "D-ID: AI Video Generator",
+    "package": "com.deidentification.studio",
+    "description": "D-ID\u2019s Creative Reality\u2122 studio AI video generator mobile app lets you create AI videos of digital people from a single image quickly, and easily from your phone. With endless creativity, the power of D-ID\u2019s flagship AI video generator desktop studio is now in your hands. \n\nCreate captivating videos featuring talking avatars, as your AI videos spring to life in seconds. Whether capturing a moment of inspiration or working on a project, quickly and simply generate AI videos featuring digital people\u2014all from your mobile device. It\u2019s the ultimate tool for creating engaging, personalized content, wherever you are.\nAll it takes is an idea, and here, you harness the full might of the AI video generator to create a one-of-a-kind video, complete with a customized avatar.\n\nThe app's versatility is ",
+    "icon": "/icons/com.deidentification.studio.png"
+  },
+  "com.didiglobal.passenger": {
+    "title": "DiDi Rider: Affordable rides",
+    "package": "com.didiglobal.passenger",
+    "description": "Do you need a ride? Or are you craving for a pizza? Ride wherever you want or order food delivery with DiDi, the world's largest mobility app and professional food delivery platform! Order a car in just three taps and travel more relaxed a comfortable. Order delicious food from your favorite restaurants with fast delivery. Download the app and enjoy our special discounts!\n\nDownload the DiDi Rider app now and guarantee a quality, economical and safe private transport service. You can also enjoy great food anytime, anywhere. Order your favorite pizza, hamburger and tacos. A complete app to make your day easier.\n\n\ud83d\ude96 DiDi offers these services: \ud83d\ude96\nDiDi Express: cheap and safe trip with a qualified driver.\nDiDi Economy: cheaper travel, but with the same quality as the DiDi Express.\nDiDi Taxi: req",
+    "icon": "/icons/com.didiglobal.passenger.jpg"
+  },
+  "com.saltypandastudios.frontime": {
+    "title": "Simply Plural",
+    "package": "com.saltypandastudios.frontime",
+    "description": "\u2139\ufe0f  Simply Plural is an app designed for plurals/systems who want to keep track of their members and optionally share those details with their friends. The app also includes functionality to vote per member on decisions within the system.\n\n\ud83d\udcc8 See your front history in a handy graph that shows every person who fronted.\n\n\ud83d\udee1\ufe0f We designed the app privacy-first and any data that is not explicitly set to shared by you will not be shared with anyone.\n\n\ud83e\uddbd The app is built with accessibility in mind and comes with high contrast mode and dark mode for both dark and bright mode. In addition, you can scale up and down the font size. If you have any accessibility concerns we are very interested in listening.\n\n\ud83e\udd1d In addition, we added the possibility to share who's front and to allow specific people or syst",
+    "icon": "/icons/com.saltypandastudios.frontime.png"
+  },
+  "com.mikelbaly.dididoit": {
+    "title": "Did I do it? - Task reminder",
+    "package": "com.mikelbaly.dididoit",
+    "description": "Did I Do It? - Task Reminder & Widget\n\nStay on top of your daily habits and tasks with \"Did I Do It? - Task Reminder & Widget\" - the ultimate task reminder app with customizable home screen widgets!\n\n\ud83d\udd14 Key Features:\n\u2022 Create personalized task reminders\n\u2022 Add beautiful widgets to your home screen\n\u2022 Set custom notification schedules\n\u2022 Daily reset option for recurring tasks\n\u2022 Multiple theme options to match your style\n\n\ud83d\udcf1 Home Screen Widgets:\nEasily track your progress with our eye-catching widgets. A quick glance at your home screen will show you if you've completed your tasks for the day.\n\n\u23f0 Flexible Reminders:\nSet notifications at specific times or intervals to keep you on track. Never forget an important task again!\n\n\ud83c\udfa8 Customizable Themes:\nChoose from a variety of themes to personalize you",
+    "icon": "/icons/com.mikelbaly.dididoit.png"
+  },
+  "com.duckduckgo.mobile.android": {
+    "title": "DuckDuckGo, Duck.ai, & VPN",
+    "package": "com.duckduckgo.mobile.android",
+    "description": "At DuckDuckGo, we believe the best way to protect your personal information from hackers, scammers, and privacy-invasive companies is to stop it from being collected at all. That's why millions of people choose DuckDuckGo over Chrome and other browsers to search and browse online. Our built-in search engine is like Google but never tracks your searches. Our browsing protections, such as ad tracker blocking and cookie blocking, help stop other companies from collecting your data. While our optional integrated AI features, Search Assist and Duck.ai, are private and never use your data to train AI. Oh, and our browser is free \u2014 we make money from privacy-respecting search ads, not by exploiting your data. Take back control of your personal information with the browser designed for data protec",
+    "icon": "/icons/com.duckduckgo.mobile.android.png"
+  },
+  "com.appzone.chatbotai": {
+    "title": "Chat AI for DeepSeek R1",
+    "package": "com.appzone.chatbotai",
+    "description": "Chat AI, developed on DeepSeek, OpenAI's API, GPT 5, GPT 5-mini, Gemini, Claude, Llama & Grok, is created to provide smart AI solutions that fit your needs & goals.\n\nThe latest GPT 5.4, GPT 5.4-mini, Gemini 3 Pro, Claude 4 series (including Claude 4 Sonnet), and updated DeepSeek V3.2 have been included. Support for Llama 4 is also available. Advanced DeepSeek V3.2 features a major boost in reasoning performance & smarter tool-use capabilities.\n\nPowered by cutting-edge AI models like GPT 5, GPT 5-mini, DeepSeek V3, DeepSeek R1, GPT 4o, GPT 4o-mini, Gemini 3 Pro, Claude 4 Sonnet and Grok 4, this AI Assistant helps with everything \u2013 from performing operator tasks and identifying objects to answering complex questions and generating creative content.\n\nBuilt on advanced AI technologies includin",
+    "icon": "/icons/com.appzone.chatbotai.png"
+  },
+  "com.grabtaxi.passenger": {
+    "title": "Grab - Taxi & Food Delivery",
+    "package": "com.grabtaxi.passenger",
+    "description": "Grab is #1 all-in-one taxi, ride hailing, transport, express grocery shopping and food delivery app in Southeast Asia \n\n\ud83c\udfc3In a rush? We\u2019ll get you where you\u2019re going in style. Find a taxi, carpool, or hire a car! \n\ud83c\udf54 Satisfy your cravings: order food delivery from your favourite restaurants \n\ud83d\udecd\ufe0f Had a long day? Save yourself a trip to the store with grocery delivery \n\ud83d\udcb8 No wallet needed: use Grab to pay for shopping across the city \n\nAll in one simple, convenient app. Whatever you need, from food delivery to a last-minute taxi, Grab has you covered. \n\n\ud83d\ude95 Taxi, cab, and transport services for any budget (and occasion!) \u2b50\ufe0f \n\nRide taxis in comfort: Get affordable, upfront fixed rates with JustGrab or GrabTaxi \u2013 wherever you\u2019re going.\n\nDiscover seamless city travel in the ultimate taxi app for book",
+    "icon": "/icons/com.grabtaxi.passenger.png"
+  },
+  "com.flipkart.android": {
+    "title": "Flipkart Online Shopping App",
+    "package": "com.flipkart.android",
+    "description": "Flipkart brings you the thrill of discovery with a treasure trove of products\u2014mobiles, fashion, electronics, home appliances, groceries, and more. It's your one-stop shop with amazing discounts, SuperCoins on every purchase, and fun rewards! A new addition is Flipkart Minutes, where you get everything you need delivered in just 10 minutes! All wrapped in one app built for your ultimate convenience. Explore it all in your language\n\nTop reasons to download:\n1\ufe0f\u20e30\ufe0f\u20e3\u231b \ud83d\udecd\ufe0f Flipkart Minutes: Forgot to grab the groceries? Need a last-minute gift? Prepping for a party? Or just realized you\u2019re out of your favorite snacks? Flipkart Minutes delivers everything you need & want in just 10 minutes! From the freshest fruits & veggies to the latest gadgets daily essentials & more\u2014we've got it all at UNBEATA",
+    "icon": "/icons/com.flipkart.android.png"
+  },
+  "com.tbig.playerpro": {
+    "title": "PlayerPro Music Player (Pro)",
+    "package": "com.tbig.playerpro",
+    "description": "This app is an advanced music and video player for Android devices.\n\nPlayerPro features a beautiful, fast and intuitive interface, alongside powerful audio configuration options. In addition, there is a choice of several free plugins to complement it: Skins, DSP Pack...\n\nNote: PlayerPro Music Player (Pro) is a standalone app. You should uninstall the PlayerPro Music Player (Free) version if you have previously installed it.\n\nKEY FEATURES:\n\n\u2022 Browse and play your music in many different ways: by albums, artists, album artists, composers, genres, playlists, folders, or songs.\n\n\u2022 Browse and play your videos.\n\n\u2022 Browse and listen to radios from all around the world.\n\n\u2022 Listen to your music while driving thanks to Android Auto.\n\n\u2022 Stream your music, videos and radios to your TV or any Chromecas",
+    "icon": "/icons/com.tbig.playerpro.png"
+  },
+  "com.justwatch.justwatch": {
+    "title": "JustWatch - Streaming Guide",
+    "package": "com.justwatch.justwatch",
+    "description": "JustWatch is the ultimate streaming guide for movies and TV shows.\n\nJustWatch is the easiest way to browse through the wide selection of movies or TV shows out there, to see if they are available for streaming at any of your favorite video services.\n\n100% legal offers\nCheck the legal offers available for movies or TV shows, whether you want to watch them on streaming services or at the cinema. We list all offers for 85+ streaming services.\n\nWhat's on Netflix?\nEasily find where to stream movies and TV shows online amongst 85+ legal video services in the United States, including Netflix, Amazon Prime Video, Max, Disney+, Hulu and Peacock.\n\nKids Movies and TV shows\nWorried about what your kids can watch online? We've added age ratings (G, PG, PG-13, R and NC-17) to help you select the best an",
+    "icon": "/icons/com.justwatch.justwatch.png"
+  },
+  "org.courville.nova": {
+    "title": "NOVA Video Player",
+    "package": "org.courville.nova",
+    "description": "Nova is an opeN sOurce Video plAyer designed for tablets, phones and AndroidTV devices.available at https://github.com/nova-video-player/aos-AVP\n\nUniversal player:  \n- Play videos from your computer, server (FTP, SFTP, WebDAV), NAS (SMB, UPnP)\n- Play videos from external USB storage \n- Videos from all sources integrated in a unified multimedia collection\n- Automatic online retrieval of movie and TV show descriptions with posters and backdrops\n- Integrated subtitle download\n\nBest player:\n- Hardware accelerated video decoding for most devices and video formats\n- Multi-audio tracks and mutli-subtitles support\n- Supported file formats: MKV, MP4, AVI, WMV, FLV, etc.\n- Supported subtitle file types: SRT, SUB, ASS, SMI, etc.\n\nTV friendly:\n- Dedicated \u201cleanback\u201d user interface for Android TV\n- AC3",
+    "icon": "/icons/org.courville.nova.png"
+  },
+  "net.gadm.tv": {
+    "title": "stc tv",
+    "package": "net.gadm.tv",
+    "description": "stc tv is an entertainment streaming service that offers the latest and greatest movies, TV shows, documentaries, kids\u2019 programs, and more from top partners, including discovery+, Cartoon Network, & more. \n\nYou can watch exclusives and originals that cannot be found anywhere else, plus popular live TV channels from regional & international networks. \n\n \nWatch as much as you want, whenever you want, anywhere you are. \n\n\nWhat you\u2019ll enjoy with your stc tv Premium subscription: \n\n30-days free trial for a limited time!\n\nAd-free for uninterrupted viewing \n\nUnlimited access to exclusive content and our entire TV channels lineup. \n\nUp to 4K video quality on select titles. \n\nUp to 14 days of rewind TV \n\nStream from multiple devices, and up to 4 devices at the same time. \n\nDownload and watch offlin",
+    "icon": "/icons/net.gadm.tv.png"
+  },
+  "net.mbc.shahidTV": {
+    "title": "MBC Shahid",
+    "package": "net.mbc.shahidTV",
+    "description": "Welcome to MBC Shahid \u2013 Your Ultimate Entertainment Destination \n\nDive into the world of endless entertainment with MBC Shahid, the leading platform for the best Arabic Originals, exclusive series, blockbuster movies, live TV, sports, and so much more. Whether you\u2019re watching for free or subscribing to one of MBC Shahid\u2019s packages, you\u2019ll gain unlimited access to a world of premium content tailored just for you. \n\nWhy Choose MBC Shahid? \n\n1. Exclusive Arabic Originals \n\nEnjoy the finest Arabic Original productions available exclusively on MBC Shahid. From gripping dramas to captivating comedies, we bring you stories that resonate with your heart. \n\n2. Live Sports in HD \n\nCatch the thrill of local and international sports and tournaments, all in stunning HD (available in MENA only). \n\n3. Un",
+    "icon": "/icons/net.mbc.shahidTV.png"
+  },
+  "com.google.android.apps.subscriptions.red": {
+    "title": "Google One",
+    "package": "com.google.android.apps.subscriptions.red",
+    "description": "The Google One app lets you automatically back up your phone and manage your Google cloud storage.\n  \u2022 Automatically back up the important things on your phone, like photos, contacts and messages using your 15 GB of storage that comes with every Google account. If you break, lose or upgrade your phone, you can restore everything to your new Android device.\n  \u2022 Manage your existing Google account storage across Google Drive, Gmail and Google Photos.\n\n  Upgrade to a Google One membership to get even more:\n  \u2022 Get as much storage as you need for your important memories, projects and digital files. Choose the plan that works best for you.",
+    "icon": "/icons/com.google.android.apps.subscriptions.red.png"
+  },
+  "com.idz.firstgrade.math.kids.games": {
+    "title": "Grade 1 Math Games For Kids",
+    "package": "com.idz.firstgrade.math.kids.games",
+    "description": "'1st Grade Math Games For Kids' is a math learning program for first graders. Based on the curriculum followed by teachers worldwide, it teaches the basic math concepts in an easy, fun and engaging way.\n\nLearn first-grade levels math concepts such as Numbers, Counting, Comparison, Time Telling and more. With over 30+ games and songs, it reinforces the basic math skills to kids.\n\nKids will not only love to learn math but it will also boost their confidence in the subject. It will help them to score high and get ahead of others.\n\nMaths concepts of the first-grade level are:\nCounting: Count numbers from 1 to 100 with catchy songs and games.\nComparison: Learn comparison concepts like Odd and Even numbers, Greater than and Less than.\nAddition: Add a single digit number to another number.\nSubtra",
+    "icon": "/icons/com.idz.firstgrade.math.kids.games.png"
+  },
+  "com.freedom.android": {
+    "title": "1% Club",
+    "package": "com.freedom.android",
+    "description": "Becoming financially independent is not for everyone. But if you\u2019re serious about your money, you\u2019ve found your app.\n\nWelcome to the 1% Club.\n\nIt is India's ONLY app that will help you become Financially Independent.\nWhether you\u2019re a first-time investor or planning early retirement, we give you the right tools  you need:\n----\nAcademy \u2013 Learn Finance from THE BEST in India\n\nWhy learn from random blogs when you can learn from India\u2019s most loved finance creators and experts?\n\nRetire Early (FIRE) blueprint by Sharan Hegde.\n\nStock Market Mastery by Shashank Udupa.\n\nCredit Card Hacks that save lakhs by Aly Hajiani\n\nSmart Insurance Planning by Abhishek Singh\n\nTax Planning Hacks that your CA doesn\u2019t want you to know by CA Nitesh\n\nReal estate, Car buying hacks & more.\n\nCrash course your money in ju",
+    "icon": "/icons/com.freedom.android.png"
+  },
+  "com.cem.idle1": {
+    "title": "Idle Game 1",
+    "package": "com.cem.idle1",
+    "description": "Idle Game 1 is aimed and specifically designed for experienced incremental game players with special emphasis on random upgrades.\n\nAccording to random prestige bonus given in each round; the player should decide optimizations, different strategies and various adjustments unlike other Idle Games.\n\nThis mechanic leads to a different story for each player as random boosts can upgrade colors in infinite number of ways. Give it time and you will appreciate how tactical a prestige game can be.\n\nPlay responsibly and good luck!\n\nNotes from the developer: \n * Prestige cheats are not random, you'll able to select color & boost type.\n * Prestige cheats are single use items meant to carry you forward in the game. More info at: https://idle1.com/cheats.html\n * Please don't damage your screens by leavin",
+    "icon": "/icons/com.cem.idle1.png"
+  },
+  "com.gojek.app": {
+    "title": "Gojek - Food & Transportation",
+    "package": "com.gojek.app",
+    "description": "Save more with Gojek, enjoy affordable and reliable services for all your daily needs.\n\nGojek is a super-app that\u2019s here to help you navigate your daily life easily and affordably. From going places to having your favorite meals delivered to you, you can get it all done with Gojek! \n\nHere\u2019s all the uber cool services you can find~\n\nNeed to go somewhere quickly? Try GoRide to take you there, or GoCar for extra comfort on the way.\n\nCraving something tasty to share with loved ones? No worries, just explore unlimited options on GoFood with affordable prices.\n\nTrust GoSend for all your deliveries, and have your items delivered ASAP with on-time guarantee plus insurance for your peace of mind.\n\nSay goodbye to the hassle of grocery shopping, let GoMart help you shop and have it delivered to your ",
+    "icon": "/icons/com.gojek.app.png"
+  },
+  "com.lazada.android": {
+    "title": "Lazada Birthday Sale",
+    "package": "com.lazada.android",
+    "description": "Celebrate with us! \u2014 The Lazada Birthday Sale!\n\nGet exclusive discounts up to 90% off! Limited-time price drops on LazFlash, your favorite brands on sale on LazMall, the trendiest items on LazBeauty, and enjoy FREE shipping! Starting at March 24 at 8pm until March 27.\n\nShop now and save more with limited-time deals and offers!\n\nFeatured updates:\n\ud83d\ude9a Free Shipping for All\n\ud83d\udcb8 Exclusive LazMall Offers\n\u26a1 Limited-time LazFlash Deals\n\nWhat are you waiting for? Download the Lazada App and start shopping for the best quality deals at amazing prices! Grab your essential and favorite items with exclusive deals to make the most out of your purchase! \n\n\n AUTHENTICITY GUARANTEED \nLazMall \u2013 Lazada's flagship offering for branded products ensure genuine and authentic brands \u2013 sold by brands on Lazada throug",
+    "icon": "/icons/com.lazada.android.png"
+  },
+  "com.expressvpn.vpn": {
+    "title": "ExpressVPN: VPN Fast & Secure",
+    "package": "com.expressvpn.vpn",
+    "description": "ExpressVPN has servers in 105 countries, spread across 170+ server locations worldwide, with a free trial for 7 days! Enjoy a free trial that lets you test speed and security with confidence. ExpressVPN include many states in the USA, for streaming live sports. Never miss faster connections and stable speed.\nDownload ExpressVPN \u2013 Fast & Private iPhone & Android VPN App\nThe top-rated best VPN for secure browsing and streaming, ExpressVPN\u2019s advanced encryption keeps your data secure on any network, whether public Wi-Fi or at home. Hide your online activity and stay secure everywhere.\nExperience blazing-speed, military-grade VPN protection. ExpressVPN is your best VPN and reliable iPhone & Android VPN solution for private internet access, streaming, and browsing. Hide your IP and stay secure ",
+    "icon": "/icons/com.expressvpn.vpn.webp"
+  },
+  "com.juphoon.justalk": {
+    "title": "JusTalk - Video Chat & Calls",
+    "package": "com.juphoon.justalk",
+    "description": "JusTalk is a FREE, powerful app for voice and video calls and instant messaging. It aims to provide users with a high-quality, secure, and convenient experience for communication through voice and video calls and messaging. JusTalk offers a variety of rich features for individuals, families, and professionals to meet their communication needs. Users can connect with family, friends, and colleagues worldwide, breaking the limitations of geographical distances. It is a convenient way to interact, communicate, and share with loved ones.\n\nWHY USE JUSTALK:\nFree & High-Quality Voice and Video Calls\nJusTalk supports ultra-high-definition voice and video calls with low-latency communication channels. This ensures clear communication with family and friends, enhancing natural interactions and detai",
+    "icon": "/icons/com.juphoon.justalk.png"
+  },
+  "com.carnival.android": {
+    "title": "Carnival HUB",
+    "package": "com.carnival.android",
+    "description": "As you prepare for your vacation, download the ultimate cruise app! Available on all Carnival ships.\n\nUse the Carnival HUB app to share your cruise countdown with friends, then explore and book shore excursions, spa treatments, drink packages and more (restricted for adults). When the time comes, you may also check-in and obtain your boarding documents.\n\nAs you board your ship, connect to Carnival\u2019s Wi-Fi to view what\u2019s happening, weather, dining menus and more! Onboard internet purchase is NOT required to use the Carnival HUB app.\n\nBefore your cruise:\n\u2022   Load up on excursions, drink packages, spa treatments and more (restricted for adults)\n\u2022   Check-in and prepare your boarding documents\n\u2022   Share your cruise countdown with friends and family\n(At this time, guests on Australian sailings ",
+    "icon": "/icons/com.carnival.android.png"
+  },
+  "com.polarisindustries.slingshot": {
+    "title": "Slingshot\u00ae",
+    "package": "com.polarisindustries.slingshot",
+    "description": "Own your adventure with greater confidence and peace of mind, putting you in the driver seat with access to vehicle and riding details at your fingertips.  Information you need when you need it to more easily tackle powersports ownership.  Download now and plan your first trip!\n\nMy Garage:\nView your vehicle service history\nStay on top of your maintenance schedules and receive reminders\nEasily schedule your RideReady service appointments\n\nRides & Community:\nPlan your ultimate ride using snap to trail routing and on/offline maps\nNavigate during your ride with Group Ride, waypoints, and tracking\nRelive and share your ride with 3D flyover of your tracked ride\n\nShopping & Support:\nFind your gear & accessories to elevate your ride\nEasily get your questions answered at the Help Center\n\nUnleash th",
+    "icon": "/icons/com.polarisindustries.slingshot.png"
+  },
+  "com.ericknamukolo.chillhub": {
+    "title": "Chill Hub",
+    "package": "com.ericknamukolo.chillhub",
+    "description": "Chill Hub is a mobile application that allows you to browse, search & download high - quality movies for FREE.\n\nDisclaimer\n\u2022 Chill Hub is not an official torrent app\n\u2022 This app uses the APIs provided by the YTS website itself and is not associated with YTS\n\u2022 All videos are provided by the public third-party media service https://yts.am/\n\u2022 All trademarks and copyrights belong to their respective owners and are\nused here under the terms of Fair Use and the Digital Millennium Copyrights Act (DMCA) *",
+    "icon": "/icons/com.ericknamukolo.chillhub.png"
+  },
+  "com.rumble.battles": {
+    "title": "Rumble: Stream & Watch Videos",
+    "package": "com.rumble.battles",
+    "description": "Welcome to Rumble: The Future of Video & Live Streaming \ud83d\ude80\n\n Tired of censorship and restrictive algorithms, or looking for a true YouTube alternative? Rumble is the freedom-first video-sharing platform built for creators and viewers who believe in free speech and an open Internet.\n Here you can watch live streams, share videos, and even monetize your content, all without the influence of Big Tech. Rumble is a real alternative media platform where your voice truly matters.\n\n\ud83d\udcac WHAT OUR USERS SAY ABOUT RUMBLE\n\u2b50\ufe0f \"Rumble is true free speech and an absolutely amazing source for true news.\"\n\u2b50\ufe0f \"Great alternative for YouTube!\"\n\u2b50\ufe0f \"This is the App that America needed as an answer to YouTube\u2019s corporate control & censorship!\"\n\u2b50\ufe0f \"Rumble beats YouTube! So many diverse opinions in one place.\"\n\u2b50\ufe0f \"I'm",
+    "icon": "/icons/com.rumble.battles.png"
+  },
+  "com.github.tvlauncher.appmainwallpaper": {
+    "title": "TV Launcher",
+    "package": "com.github.tvlauncher.appmainwallpaper",
+    "description": "Smart TV launcher.\nVery useful TV Launcher, simple and easy to use.",
+    "icon": "/icons/com.github.tvlauncher.appmainwallpaper.png"
+  },
+  "com.bite.chillchat": {
+    "title": "ChillChat - Live Chat & Game",
+    "package": "com.bite.chillchat",
+    "description": "ChillChat is a LIVE social community where games and good times connect. Jump into voice rooms, challenge players in fun party games, and just chill. ChillChat is a fun place for you to share your skills and hang out with a great community.\n\nFeatures:\n\ud83c\udfae Gaming & Party Rooms:\n-\u00a0Have fun in group party rooms and play a variety of games with others. Join the excitement and connect with fellow gaming enthusiasts!\n\n\ud83e\udd33\ud83c\udffb Live Streaming:\n-\u00a0Go live to share your gameplay, your talents, or just hang out with your followers. Start your wonderful journey now!\n\n\ud83c\udf81 Gifts:\n-\u00a0Discover various gift themes and send cool surprises to your favorite creators and players!\n\nDownload ChillChat now and join the fun!",
+    "icon": "/icons/com.bite.chillchat.png"
+  },
+  "com.developer_scriptsector.Chilldate": {
+    "title": "Chilldate",
+    "package": "com.developer_scriptsector.Chilldate",
+    "description": "Chilldate is a casual dating app that helps people connect and chat in a relaxed and friendly environment.\n\nWith a simple interface, you can quickly create a profile, explore other users nearby, and start conversations with people who match your vibe. Whether you\u2019re looking for new friends or something more, Chilldate makes it easy to break the ice.\n\nKey features:\n\u2013 Easy and quick sign-up\n\u2013 Discover new people in your area\n\u2013 Real-time chat and message notifications\n\u2013 Profile customization\n\nThis version is currently under testing and may contain experimental features. We welcome your feedback to help us improve!",
+    "icon": "/icons/com.developer_scriptsector.Chilldate.png"
+  },
+  "com.chilll.app": {
+    "title": "Chilll.com",
+    "package": "com.chilll.app",
+    "description": "This app is a platform which allows users to do live interaction with the experts and get their problem solved.",
+    "icon": "/icons/com.chilll.app.png"
+  },
+  "com.tritrc.ichill": {
+    "title": "iChill",
+    "package": "com.tritrc.ichill",
+    "description": "Are you feeling stressed, not quite yourself, or worried about a loved one? iChill is here to help. iChill teaches six wellness skills from the Trauma Resiliency Model (TRM)\u00ae and Community Resiliency Model (CRM)\u00ae to help you manage sensations associated with trauma and stress, enhancing your well-being.\n\nBased on the biology of the human nervous system, iChill helps us understand and regulate our body's natural rhythms. When in harmony, our nervous system aids in navigating life's challenges, helping us make sound decisions for ourselves and our community. This balanced state is called the Resilient Zone or \"Okay Zone.\"\n\nStressful events can bump us into the High Zone (anxious, uptight) or Low Zone (numb, disconnected). iChill helps us return to our Okay Zone, restoring balance. Regular pr",
+    "icon": "/icons/com.tritrc.ichill.png"
+  },
+  "com.snapchat.android": {
+    "title": "Snapchat",
+    "package": "com.snapchat.android",
+    "description": "Snapchat is a fast and fun way to share the moment with your friends and family \ud83d\udc7b\n\nSNAP \n\u2022 Snapchat opens right to the Camera \u2014 just tap to take a photo, or press and hold for video.\n\u2022 Express yourself with Lenses, Filters, Bitmoji and more! \n\u2022 Try out new Lenses daily created by the Snapchat community!\n\nCHAT \n\u2022 Stay in touch with friends through live messaging, or share your day with Group Stories.\n\u2022 Video Chat with up to 16 friends at once \u2014 you can even use Lenses and Filters when chatting!\n\u2022 Express yourself with Friendmojis \u2014 exclusive Bitmoji made just for you and a friend.\n\nSTORIES\n\u2022 Watch friends' Stories to see their day unfold.\n\u2022 See Stories from the Snapchat community that are based on your interests.\n\u2022 Discover breaking news and exclusive Original Shows.\n\nSPOTLIGHT\n\u2022 Spotlight ",
+    "icon": "/icons/com.snapchat.android.png"
+  },
+  "com.aa.android": {
+    "title": "American Airlines",
+    "package": "com.aa.android",
+    "description": "With the American Airlines app, you\u2019re covered with the information you need exactly when you need it. Need a mobile boarding pass? Wondering where the closest Admirals Club\u00ae lounge is located? All of this info, and more, is available at your fingertips. \n\n-Dynamic home screen: Knows where you are in your travel journey and gives you easy access to the right tools at the right time.\n\n-Mobile boarding pass: Check in for your trip and retrieve your mobile boarding pass. No need to print, and it\u2019s updated along the way.\n\n-Flight updates:  Get the latest \ufb02ight updates by simply retrieving your reservation and allowing American Airlines to send noti\ufb01cations to your mobile device.\n\n-Interactive terminal maps: Navigating airports is a breeze with our interactive terminal maps. Find the closest Ad",
+    "icon": "/icons/com.aa.android.png"
+  },
+  "com.marnistek.aaspeakers": {
+    "title": "AA Speakers (Alcoholics)",
+    "package": "com.marnistek.aaspeakers",
+    "description": "AA Speakers (Alcoholics) - See \"More From Developer\" section\n\nThe AA speakers app allows you to listen to recovery speakers, workshops and audio books from Alcoholics Anonymous (a 12 step program) whenever and wherever using simply a wifi or cellular network connection. \nThe app includes\n300+ speakers speaking at Alcoholics Anonymous conventions worldwide with descriptions of where they are from and where they are speaking.\nThe Joe and Charlie Big Book Study - a series of tapes talking about the Big Book of Alcoholics Anonymous.\nThe Big Book of Alcoholics Anonymous Audio Book.\nThe 12 Steps and 12 Traditions of Alcoholics Anonymous Audio Book\n\nThis app is perfect for when you cant get to a meeting, take recovery with you wherever you go!\n\nThe content of this app is not being sold merely the",
+    "icon": "/icons/com.marnistek.aaspeakers.png"
+  },
+  "com.myspiritualtoolkit.mytoolkit": {
+    "title": "My Spiritual Toolkit AA Steps",
+    "package": "com.myspiritualtoolkit.mytoolkit",
+    "description": "My Spiritual Toolkit AA Steps (MST) offers 100% HARDSHIP DISCOUNTS to anyone that can't afford the premium features such as the Gratitude List, Email/Text Nightly Inventory, etc.  Just email nathan@myspiritualtoolkit.com\n\n*PLUS: NO ANNOYING ADS! \n\n* MST is NOT endorsed by or affiliated with A.A. / Alcoholics Anonymous World Services.  MST IS a simple set of tools that make it convenient and easy for you and other members of AA / Alcoholics Anonymous work steps 10 and 11 on a daily basis to keep you from relapsing back into active alcoholism.\n\n12 Step Toolkit AA Steps App - that is helping over 100,000 members of Alcoholics Anonymous get their daily reprieve from alcoholism and maintain their spiritual condition.  \n\nWe are not cured of alcoholism. What we really have is a daily reprieve con",
+    "icon": "/icons/com.myspiritualtoolkit.mytoolkit.png"
+  },
+  "com.bigbook3": {
+    "title": "Everything AA",
+    "package": "com.bigbook3",
+    "description": "Searching for the best AA app to complement your 12 step program? Look no further!\n\nEverything AA has every resource you could need in one place, and is still growing. It provides this completely free of cost and with no ads!\n\nIt includes:\n\n-A worldwide Online Meeting Finder\n-Text and Audiobook versions of the Big Book\n-Text and Audio versions of the 12 Steps and 12 Traditions (12 & 12)\n-The Daily Reflection\n-A text version of Living Sober\n- The Joe and Charlie Audio Tapes\n-Literature and pamphlets from Alcoholics Anonymous such as How it Works, The 12 Steps, The 12 Traditions, the Preamble, AA meeting cards, the Sponsorship Pamphlet, the AA prayers and many more!\n\nThe app also includes a sobriety counter so that you can keep track of your exact day count!\n\nWe hope it helps you on your Alc",
+    "icon": "/icons/com.bigbook3.png"
+  },
+  "com.cybercat.adbappcontrol.tv": {
+    "title": "ADB TV: App Manager",
+    "package": "com.cybercat.adbappcontrol.tv",
+    "description": "The powerful application manager for your TV and TV-boxes! \n\nADB TV: App Manager lets you easily manage your apps on Android TV using ADB (Android Debug Bridge) feature. After setting up the ADB connection, you will be able to disable (freeze) and uninstall* apps. Try it once and ADB TV will live permanently on your TV!\n\nONLY FOR ANDROID TV 8 and newer. \nOther devices and emulators do not supported!\n\nSystem requirements and initial setup must be completed for the application to work properly.\n\n** Features: **\n- NO ROOT REQUIRED.\n- TV-adapted interface for remote control\n- Enabling, disabling and uninstalling* applications using ADB \t\n- Sorting app list by name, date and size\n- Screen resolution manager \t\n- Installing apk-files from external drives and remote devices.\n- ADB shell console\n- ",
+    "icon": "/icons/com.cybercat.adbappcontrol.tv.jpg"
+  },
+  "com.github.standardadb": {
+    "title": "ADB Shell - Debug Toolbox",
+    "package": "com.github.standardadb",
+    "description": "This is a powerful adb shell & toolbox.\n\nToolbox features:\n1. Support launch application & uninstall application & download application & force stop application & clear application data & disable application & enable application.\n2. Support device management.\n3. Support view running applications\n4. Support take screenshot.\n5. Support push file\n6. Support install apk\n7. Support pull file\n8. Support to open remote image&audio&video files directly\n9. Support delete remote file\n10. Support TV remote controller\n11. Support text input\n12. Support System monitor \n13. Support view system information.\n14. Support view prop  information.\n\nShell features:\n1. Support Android 4.X-Android 13\n2. Support wireless  pair mode(Android 11-Android13)\n3. Support wifi wireless adb.\n4. Support local shell adb.\n5.",
+    "icon": "/icons/com.github.standardadb.png"
+  },
+  "com.graphon.appcontroller": {
+    "title": "AppController",
+    "package": "com.graphon.appcontroller",
+    "description": "AppController is a powerful, easy-to-use app that enables users to access Windows applications from Android Devices. Windows applications accessed via AppController retain all their features and functions and appear as though they are running locally on the Android device.\n\nAppController maintains a high degree of usability by automatically touch-enabling Windows applications. Intuitive, multi-touch gestures allow users to interact naturally with Windows applications even though the device lacks a mouse and keyboard. The Auto-Zoom feature detects the section of the screen currently active in the application and automatically zooms-in on that area, making it easier to tap user interface elements. The device's onscreen keyboard opens automatically whenever an application can receive text inp",
+    "icon": "/icons/com.graphon.appcontroller.webp"
+  },
+  "com.github.superadb": {
+    "title": "ADB Shell - Debug Toolbox Pro",
+    "package": "com.github.superadb",
+    "description": "This is a powerful adb shell & toolbox.\n\nToolbox features:\n1. Support launch application & uninstall application & download application & force stop application & clear application data & disable application & enable application.\n2. Support device management.\n3. Support view running applications\n4. Support take screenshot.\n5. Support push file\n6. Support install apk\n7. Support pull file\n8. Support to open remote image&audio&video files directly\n9. Support delete remote file\n10. Support TV remote controller\n11. Support text input\n12. Support System monitor \n13. Support view system information.\n14. Support view prop  information.\n\nShell features:\n1. Support Android 4.X-Android 13\n2. Support wireless  pair mode(Android 11-Android13)\n3. Support wifi wireless adb.\n4. Support local shell adb.\n5.",
+    "icon": "/icons/com.github.superadb.png"
+  },
+  "com.cgutman.androidremotedebugger": {
+    "title": "Remote ADB Shell",
+    "package": "com.cgutman.androidremotedebugger",
+    "description": "Remote ADB Shell is a terminal app that allows you to connect to the ADB shell service of other Android devices over the network and execute terminal commands. This can be useful for remotely debugging Android devices (running tools like top, logcat, or dumpsys). It supports multiple simultaneous connections to different devices and keeps these connections alive even when the app is in the background. This app does not require root on either device, but root may be helpful to configure the target devices. If the target devices are not rooted, you must use a computer with the Android SDK and Google USB drivers to configure the them (detailed below).\n\nThis app is a wrapper around the shell that is exposed over ADB. It maintains a 15 command history which is accessible by long pressing the co",
+    "icon": "/icons/com.cgutman.androidremotedebugger.png"
+  },
+  "com.amazingfacts.amazingfactstv": {
+    "title": "Amazing Facts TV",
+    "package": "com.amazingfacts.amazingfactstv",
+    "description": "Amazing Facts TV is a 24/7 Christian network, airing Bible-based programs from Pastor Doug Batchelor & other Spirit-led speakers. AFTV features ministries that deliver accurate, biblical, & inspirational information (from past prophecies to future hope, & more) to help grow your faith in the Lord.\n\nAmazing Facts began in 1965 with a brilliant radio idea to attract listeners from all walks of life. Joe Crews, the ministry\u2019s first speaker, opened each broadcast with a fun fact and then followed it with a related biblical message that people from all backgrounds could understand. At the end of each program, he offered a free Bible lesson to encourage listeners to study God\u2019s Word for themselves.\n\nNow more than 50 years later, under the leadership of Pastor Doug Batchelor, God has grown Amazin",
+    "icon": "/icons/com.amazingfacts.amazingfactstv.png"
+  },
+  "com.amazon.storm.lightning.client.aosp": {
+    "title": "Amazon Fire TV",
+    "package": "com.amazon.storm.lightning.client.aosp",
+    "description": "Your entertainment sidekick wherever you go.\n\nThe Fire TV mobile app puts the Fire TV experience at your fingertips\u2014whether you're on the couch or on the move.\n\nDiscover & personalize your entertainment anywhere: Browse titles and get personalized recommendations. Search for movies, TV shows, and more across all your services. Build and fine-tune your watchlist in the moment.\n\nEasy control & setup: Launch it all on your big screen with seamless control. Enjoy fast text entry using your mobile keyboard. Set up new Fire TV devices quickly and easily.\n\nCompatibility: Requires an Amazon account and connection to the same Wi-Fi network as your Fire TV to launch content to your TV. \n\nSome features require a compatible Fire TV.\n\nBy using this app, you agree to Amazon's Conditions of Use (www.amaz",
+    "icon": "/icons/com.amazon.storm.lightning.client.aosp.png"
+  },
+  "com.choicely.aftv": {
+    "title": "AFTV+",
+    "package": "com.choicely.aftv",
+    "description": "AFTV+ exists to bring Arsenal fans closer to the club they love and give them a voice in our growing football fan democracy.\nDeveloped by the largest football fan channel on the planet, AFTV+ brings immersive engagement tools to fans, including the unique ability to broadcast into AFTV shows.\nStay up to date with all the latest AFTV videos or keep informed through the news across a broad sector of Arsenal topics, including transfers, the women\u2019s team, the academy and international articles.\n\nAFTV+ also has a range of engaging features, including player raters and selectors that let fans choose their teams and rate the performance of players, as well as the AFTV shop and metaverse.\n\nAFTV+ believes that all fans should have a say in the football conversation.",
+    "icon": "/icons/com.choicely.aftv.png"
+  },
+  "com.garmin.android.apps.alphamobile": {
+    "title": "Garmin Alpha",
+    "package": "com.garmin.android.apps.alphamobile",
+    "description": "Connect to the hunt with the Alpha\u00ae LTE dog tracker, using cellular technology (subscription required). Use your smartphone to track your dog\u2019s movements with the Alpha\u00ae app. Connect your Alpha LTE tracking system to a compatible Garmin VHF dog tracking system (sold separately) to leverage either LTE or VHF tracking signals. Use the Alpha app to navigate and mark waypoints with integrated mapping.\nGarmin Alpha needs SMS permission to allow you to receive and send SMS text messages from your Garmin devices. We also need call log permission to display incoming calls on your devices.",
+    "icon": "/icons/com.garmin.android.apps.alphamobile.png"
+  },
+  "com.alphaprogression.alphaprogression": {
+    "title": "Alpha Progression Gym Tracker",
+    "package": "com.alphaprogression.alphaprogression",
+    "description": "Gym Workout Planner & Tracker - Alpha Progression.\nMaximize your gains and track your gym workout routines & programs with Alpha Progression - the ultimate fitness app. Our app goes beyond creating a personalized workout plan; it empowers you to track your progress and achieve your fitness goals. With an extensive exercises database and expert recommendations, we provide the guidance you need to embark on an effective workout routine & muscle building journey.\n\nPERSONALIZED MUSCLE BUILDING & WEIGHT LIFTING WORKOUT PROGRAMS\nExperience gym workout plans backed by science, tailored to your objectives and needs. With Alpha Progression, you can choose your training frequency and target muscles during your gym workouts.\n\nGYM WORKOUT TRACKER - TRACK YOUR WORKOUT ROUTINES\nOur gym tracker feature i",
+    "icon": "/icons/com.alphaprogression.alphaprogression.webp"
+  },
+  "com.ps.alpha": {
+    "title": "Alpha",
+    "package": "com.ps.alpha",
+    "description": "Alpha adalah aplikasi investasi saham dari PT. Paramitra Alfa Sekuritas\n\nFitur:\n- Quick Order\n- Withdraw Cash\n- Aging Settlement\n- HeatMap\n- Charting TradingView\n- Corporate Action\n- Company Profile\n- WatchList\n\nUntuk info lebih lanjut, silakan hubungi:\n\nEmail: hello@alphainvestasi.id\nInstagram: @alpha_investasi\nFacebook: Alpha Investasi\nTwitter: @alpha_investasi\nWebsite: alphainvestasi.id",
+    "icon": "/icons/com.ps.alpha.png"
+  },
+  "com.voipxonline.alphacaller": {
+    "title": "Alpha Caller",
+    "package": "com.voipxonline.alphacaller",
+    "description": "Stay connected anywhere in the world with Alpha Caller, Nigeria\u2019s reliable and\naffordable call app by Alpha Technologies Limited.\n\nEnjoy high-quality voice calls at just \u20a614/min across all networks \u2014 no hidden charges, no call drops, just smooth and clear conversations every time. Get a backup line or replace your fixed line phone and call Nigeria like a local, from anywhere around the world. \n\nWhy Choose Alpha Caller?\n\u25cf Affordable calls to Nigeria, with crystal-clear audio quality\n\u25cf Get a dedicated Nigerian 0700 phone number\n\u25cf Works perfectly on all internet connections (Wi-Fi, LTE, 3/4/5G mobile data)\n\u25cf Easy to use, secure, and dependable\n\u25cf Ideal for Nigerians at home or abroad\n\u25cf Dial from your Contacts List, History, or Speed Dial functions\n\u25cf Get a directory of helpful businesses that a",
+    "icon": "/icons/com.voipxonline.alphacaller.png"
+  },
+  "com.imb.alpha": {
+    "title": "Alpha",
+    "package": "com.imb.alpha",
+    "description": "**Bill instantly with Alpha.**\n\n- Make electronic invoices.\n- Fiscalize.\n- Add items and customers.\n- Print receipts from your mobile phone.\n- Send invoices automatically by sms or email to customers.\n- Send invoices to your Alpha economist.\n\nWho is this app for?\n\n- For field sellers.\n- For POS points of sale.",
+    "icon": "/icons/com.imb.alpha.png"
+  },
+  "com.universal.manager": {
+    "title": "XAPK Installer APK Downloader",
+    "package": "com.universal.manager",
+    "description": "Install .XAPK and .APK XInstaller \u2014 all in one powerful tool.\n\nMaster your Android files with the most advanced APK and XAPK Installer & Downloader. Designed for power users and optimized for Android TV, this tool offers seamless sideloading, robust file management, and industry-leading security verification.\n\n\ud83d\ude80 ADVANCED XAPK & SPLIT APK INSTALLER\nSay goodbye to installation errors. Our smart engine automatically parses and installs all complex package formats that standard installers fail to handle.\n\u2022 Native XAPK Support: Installs .xapk files directly, automatically extracting and placing OBB data files in the correct path.\n\u2022 Split APKs (APKS/APKM): Fully compatible with App Bundles and Split packages.\n\u2022 Universal Format Support: Handles .apk, .xapk, .apks, .apkm, .aab, .zip and future pa",
+    "icon": "/icons/com.universal.manager.png"
+  },
+  "com.toralabs.apkextractor": {
+    "title": "Apk Extractor - Apk Manager",
+    "package": "com.toralabs.apkextractor",
+    "description": "Apk Extractor - Apk Managerapp the ultimate tool that simplifies managing your apps. \ud83d\udcf1\ud83d\udd04\n\nThis Apk Extractor - Apk manager allows you to extract, backup, share, and manage your apps effortlessly. \ud83e\udde0\n\nWhether you're looking to declutter, backup, or share your favorite apps, App Extractor has got you covered with its lightning-fast and user-friendly interface.\n\nChoose Apk Extractor - Apk Manager!\n\ud83d\udcf1 Efficient Apk Manager: Seamlessly manage both system and installed apps. With an apk extractor, you can gain control over your applications and keep your device organized.\n\ud83d\udcf1Multi-App Extraction (app extractor): Need to handle multiple apps simultaneously? Our app extractor makes it easy to extract multiple apps simultaneously, saving time and effort.\n\ud83d\udcf1No Root Needed: Access all features without need",
+    "icon": "/icons/com.toralabs.apkextractor.png"
+  },
+  "com.uptodown.installer": {
+    "title": "APK Installer by Uptodown",
+    "package": "com.uptodown.installer",
+    "description": "APK installer is a free tool that lets you install Android apps that use formats that are not detected by the default package installer included in the operating system. It uses the standard XAPK packaging to support the new APK distribution system used by Google, the so-called APK split.\n\nThis app works both ways so you can create backups of your installed apps and install the private copies in your smartphone, regardless of the packaging format. Apk Installer includes these features:\n\n\u25a0 Automatically searches for all the apps installed on your Android and creates backup copies.\n\n\u25a0 Installs any APK or XAPK in your smartphone\u2019s memory. You can forget about its internal structure - search, install and go!\n\n\u25a0 Browses your smartphone\u2019s folders using an integrated file browser\n\n\u25a0 Send apps to ",
+    "icon": "/icons/com.uptodown.installer.png"
+  },
+  "com.wuliang.xapkinstaller": {
+    "title": "XAPK Installer",
+    "package": "com.wuliang.xapkinstaller",
+    "description": "Install .XAPK and .APK Files Fast \u2013 Streamlined Setting! \u26a1\nIs there an easier way to install an app apk on your device? This all-in-one xapk installer for android is here to help! Our app will help you seamlessly download and install files from apkpure and other sources. No more folder searching, package extracting, or using manual methods.\n\nAs much as this is an apk installer for android, it is equally a full xapks installer to address all user xapk file downloader requirements. Our tool identifies both .apk and .xapk files within seconds, thus making it the the most reliable apk downloader and xapk downloader both.\n\n\u2b50 Key Features:\n\u2705 Auto-scan for every installer xapk file;\n\u2705 xapk file installer for android with one tap install feature included;\n\u2705 As your primary apk downloader, it accep",
+    "icon": "/icons/com.wuliang.xapkinstaller.png"
+  },
+  "com.rhmsoft.edit.pro": {
+    "title": "QuickEdit Text Editor Pro",
+    "package": "com.rhmsoft.edit.pro",
+    "description": "QuickEdit text editor is a fast, stable and full featured text editor. It has been optimized for using on both phones and tablets.\n\nQuickEdit text editor can be used as standard text editor for plain text files, or as a code editor for programming files. It is suitable for both general and professional use.\n\nQuickEdit text editor includes a number of performance optimizations and user experience tweaks. The speed and responsiveness of the app are much better than other text editor apps commonly found on Google Play.\n\nFeatures:\n\n\u2713 Enhanced notepad application with numerous improvements.\n\u2713 Code editor and syntax highlight for 170+ languages (C++, C#, Java, XML, Javascript, Markdown, PHP, Perl, Python, Ruby, Smali, Swift, etc).\n\u2713 Include online compiler, can compile and run over 30 common lan",
+    "icon": "/icons/com.rhmsoft.edit.pro.png"
+  },
+  "com.apk.explorer": {
+    "title": "APK Explorer",
+    "package": "com.apk.explorer",
+    "description": "Introduction\nAPK Explorer includes a set of open-source tools mainly designed to explore the contents of an installed application on an Android device.\n\nFeatures\n\u2003\ud83d\udd38 A beautifully designed list view of installed applications.\n\u2003\ud83d\udd38 Explore and navigate through the contents of an installed application or APK selected from device storage.\n\u2003\ud83d\udd38 Decompile and view the contents of DEX (classes.dex) and resource (resources.arsc) files.\n\u2003\ud83d\udd38 Export and easily manage (delete, share, etc.) APK's/Split APK's.\n\u2003\ud83d\udd38 Easily extract an app icon by single-clicking on it.\n\u2003\ud83d\udd38 Provides basic information about important resource files.\n\u2003\ud83d\udd38 View graphics, texts, binary XML, and many more.\n\u2003\ud83d\udd38 Save/Export individual or a set of resource files to device storage.\n\u2003\ud83d\udd38 Elegantly designed user interface with an auto-dark/light ",
+    "icon": "/icons/com.apk.explorer.png"
+  },
+  "com.javiersantos.mlmanager": {
+    "title": "ML Manager: APK Extractor",
+    "package": "com.javiersantos.mlmanager",
+    "description": "ML Manager is a customizable APK manager for Android: extract any installed app, mark them as favorites, easily share .apk files and much more.\n\nMeet the easiest app manager and extractor with Material Design on Android.\n\nFeatures:\n\u2022 Extract any installed & system apps and save them as APK.\n\u2022 Batch mode to extract multiple APKs at the same time.\n\u2022 Share any APK with other apps: Telegram, Dropbox, Email, etc.\n\u2022 Organize your apps by marking them as favorites for easier access.\n\u2022 Upload your latest APKs to APKMirror.\n\u2022 Uninstall any installed app.\n\u2022 Customizations available in settings, including a dark mode, custom main colors and more.\n\u2022 No root access required.\n\nNeed more features? Check out the Pro version with root access:\n\u2022 Uninstall system apps. - Requires Root -\n\u2022 Hide apps from the ",
+    "icon": "/icons/com.javiersantos.mlmanager.png"
+  },
+  "com.apple.movetoios": {
+    "title": "Move to iOS",
+    "package": "com.apple.movetoios",
+    "description": "Everything about iOS is designed to be easy. That includes switching to it. With just a few steps, you can migrate your content automatically and securely from your Android device with the Move to iOS app. No need to save your stuff elsewhere before switching from Android. The Move to iOS app securely transfers all kinds of content data for you:\n\nApps\nCalendars\nCall logs\nContacts\nCamera photos and videos\nMail accounts\nMessage history\nVoice memos\nWhatsApp content\n\nMake sure to keep your devices nearby and connected to power until the transfer is complete. When you choose to migrate your data, your new iPhone or iPad will create a private Wi-Fi network and find your nearby Android device running Move to iOS. After you enter a security code, it will begin transferring your content and put it ",
+    "icon": "/icons/com.apple.movetoios.png"
+  },
+  "com.apple.bnd": {
+    "title": "Beats",
+    "package": "com.apple.bnd",
+    "description": "DOWNLOAD THE BEATS APP \n\nGet connected quickly with simple one-touch pairing* and gain easy access to battery status and settings. You can even create unique Android widgets for your Beats, or locate them on a map if you happen to misplace them*. The Beats app also keeps your headphones and speakers up to date with the latest firmware, so you know you\u2019re getting the very best Beats experience. \n \n*Requires location access enabled\n\n\n \n \nSUPPORTED PRODUCTS\n\nThe Beats app now supports the new Powerbeats Fit and is compatible with the following Beats products: Beats Solo Buds, Beats Pill, Beats Studio Pro, Beats Solo 4, Beats Studio Buds +, Beats Fit Pro, Beats Studio Buds, Beats Flex, Powerbeats Pro 2, Powerbeats Pro, Powerbeats, Powerbeats3 Wireless, Beats Solo Pro, Beats Studio3 Wireless, B",
+    "icon": "/icons/com.apple.bnd.png"
+  },
+  "com.apple.atve.sony.appletv": {
+    "title": "Apple TV",
+    "package": "com.apple.atve.sony.appletv",
+    "description": "Apple TV is the home of exclusive Apple Original shows and movies, Formula 1\u00ae, MLS, Friday Night Baseball,and all the best entertainment from your favorite streaming services\u2014all in one place.\n\nWith an Apple TV subscription (formerly Apple TV+):\n\u2022 Stream hundreds of Apple Originals\u2014thrilling dramas, epic sci-fi, and feel-good comedies\u2014including Emmy\u00ae-winning series like The Studio, Severance, The Morning Show, Slow Horses, and Ted Lasso; global hits like Shrinking, Your Friends & Neighbors, Hijack, and Monarch: Legacy of Monsters; and Apple Original Films like The Gorge and record-breaking blockbuster F1 The Movie.\n\u2022 Enjoy new releases weekly, with no ads.\n\u2022 Watch every Formula 1 Grand Prix\u2122 live\u2014with all-access coverage for every practice, qualifying, Sprint, and race.\n\u2022 Watch every Major",
+    "icon": "/icons/com.apple.atve.sony.appletv.png"
+  },
+  "com.amazon.mp3": {
+    "title": "Amazon Music: Songs & Podcasts",
+    "package": "com.amazon.mp3",
+    "description": "We're changing the way you discover and play the music you love. Listen free to music and podcasts with ads\u2014no credit card required. Prime members can enjoy all the music + top podcasts ad-free. Want more benefits? Get 100 million songs on-demand, ad-free top podcasts, and audiobooks with Amazon Music Unlimited.\n\n\nIncluded with your Prime membership at no additional cost:\n\u2022 All the music ad-free \n\u2022 The largest catalog of ad-free top podcasts\n\u2022 Discover new music and podcasts based on your likes \n\u2022 Shuffle play any artist, album, or playlist \n\nAmazon Music Unlimited:\n\u2022 Unlimited access to 100 million songs \n\u2022 Pick and play any song, ad-free \n\u2022 The most ad-free top podcasts\n\u2022 Access the largest catalog of audiobooks \n\u2022 Listen to one audiobook each month \n\u2022 Listen offline \n\u2022 Unlimited skips\n\u2022",
+    "icon": "/icons/com.amazon.mp3.png"
   }
 }
