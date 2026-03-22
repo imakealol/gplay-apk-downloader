@@ -613,4 +613,4 @@ The token's device profile isn't compatible with this app. The server will autom
 
 ## License
 
-MIT
+GPLv3 — See [LICENSE](LICENSE)
