@@ -4702,5 +4702,977 @@
     "package": "com.microsoft.emmx.dev",
     "description": "Want to be one of the first to preview what\u2019s new? The Microsoft Edge preview channels are now available for mobile! This is the Microsoft Edge Dev channel for Android. Our Dev builds are the best representation of our improvements in the past week. Your feedback is what helps us improve, so download now and let us know what you think.",
     "icon": "/icons/com.microsoft.emmx.dev.png"
+  },
+  "com.skindeep.mobile": {
+    "title": "EWG's Healthy Living",
+    "package": "com.skindeep.mobile",
+    "description": "EWG\u2019s Healthy Living App helps you live healthier. Get instant, science-backed ratings for cosmetics, food and cleaning products. Scan a barcode or search to get a simple 1-10 score (1 being best!) and make informed choices with confidence.\n\nWhy get the Healthy Living App?\n-Science-Backed: Our ratings are built on research from EWG scientists.\n-All-in-One: Combines our most trusted resources in one app: Skin Deep\u00ae, our Guides to Sunscreens and Healthy Cleaning and our Food Scores database.\n-Shop Smarter: Make healthier choices for your family and pets in seconds.\n\nFor the most accurate data, please update to the latest version.",
+    "icon": "/icons/com.skindeep.mobile.png"
+  },
+  "com.divmob.epicheroeswar.en.freemium": {
+    "title": "EHW Premium & stick fight",
+    "package": "com.divmob.epicheroeswar.en.freemium",
+    "description": "Epic Heroes War is a real-time strategy game, online side-scroller defense combines RPG. Build up a powerful army and slaughter enemy hordes in quests and battles with other players!\n\nKey features:\n\n\u2605 A unique game\n\u2605 Lot of heroes with unique skills\n\u2605 Lot of campaign levels, Online PvP, Domination, Challenge, Heaven & Hell map ...\n\u2605 Local Bosses\n\u2605 Nation War\n\u2605 World Bosses\n\u2605 Auction\n\u2605 Boss party\n\u2605 Guild War\n\u2605 Arena\n\u2605 Real-time strategy PvP 1VS1 battle.\n\nYou will get 30k gems for new accounts.",
+    "icon": "/icons/com.divmob.epicheroeswar.en.freemium.png"
+  },
+  "com.hitek.hitchesandglitches": {
+    "title": "H&G - EHG",
+    "package": "com.hitek.hitchesandglitches",
+    "description": "Whether it last minute handyman and cleaning service or reliable AC, Electrical, Plumbing, Carpenter, Painter work, or peaceful Annual Maintenance for your villa, Hitches & Glitches is the name to trust.",
+    "icon": "/icons/com.hitek.hitchesandglitches.png"
+  },
+  "com.conek.hayag": {
+    "title": "Hayag",
+    "package": "com.conek.hayag",
+    "description": "You found this very dark cave and decided to explore it. Equipped only with a magical torch, you must survive the dangers that lies ahead of you. Let the light guide you...\n\n============ Controls ==============\n\nGeneral:\n     Swipe Left - Fire\n     Swipe Right - Dash*\n\nOn Ground:\n     Swipe Up/Down - Slide\n     Tap - Jump\n\nOn Air:\n     Swipe Up/Down - Dive*\n     Tap - Air Jump\n\nOn Dash:\n     Tap - Cancel Dash\n\nWarning:\n     *Use moderately/Do not overuse\n\n=================================\n\nPlay \"Hayag\" with your friends and beat their scores.\nCan you be the best amongst your friends?\n\n\nFor comments, feedbacks and suggestions please feel free to email us at conek.apps@gmail.com.\n\nSpecial Thanks:\nMichael Binarao",
+    "icon": "/icons/com.conek.hayag.png"
+  },
+  "com.egb.egb": {
+    "title": "EGB",
+    "package": "com.egb.egb",
+    "description": "App Name: EGB \nSummary: Internal workforce app for Enter Green Buildings. No public signup; sign-in required.\n\nAccount Provisioning: All accounts are created by HR in the web Admin panel during employee agreement signing. Mobile app has three user roles; Admin is web-only.\n\nMobile Roles & Responsibilities\n\nTimekeepers: Review/approve/reject check-in requests; perform manual check-outs when needed; view worker documents; post/delete internal news.\n\nConstruction Chiefs: Assign tasks per project, set deadlines, track progress, confirm or reject completed tasks.\n\nEmployees: Clock in/out with GPS; view daily/monthly hours; see assigned tasks and performance score; receive compliance alerts (e.g., patent/document expirations).\n\nAdmin (Web Only): HR creates/manages accounts, documents, and compli",
+    "icon": "/icons/com.egb.egb.png"
+  },
+  "com.facebook.lite": {
+    "title": "Facebook Lite",
+    "package": "com.facebook.lite",
+    "description": "Keeping up with friends is faster and easier than ever with the Facebook Lite app! Use Facebook Lite as a friends app to connect and keep up with your social network. The Facebook Lite app is small, allowing you to save space on your phone and use Facebook in 2G conditions. Many of the classic features of Facebook are available on the app, such as sharing to a Timeline, liking photos, searching for people, and editing your profile and groups. Specific features include:\n \n \u2022 Find friends and family\n \u2022 Post status updates & use Facebook emoji to help relay what\u2019s going on in your world\n \u2022 Share photos and your favorite memes\n \u2022 Get notified when friends like and comment on your posts\n \u2022 Find local social events, RSVP, and make plans to meet up with friends\n \u2022 Interact with your friends by ad",
+    "icon": "/icons/com.facebook.lite.png"
+  },
+  "com.fmartgrocer.app": {
+    "title": "F Mart Grocer",
+    "package": "com.fmartgrocer.app",
+    "description": "Fmart Grocer is a one-stop supermarket and online store chain that aims to offer customers a wide range of basic home and personal products under one roof delivered to your doorstep. The F Mart Grocer mobile app features the freshest and finest products for working individuals, families, and communities alike. It also features latest offers running in all their stores across the country. You can select your nearest store and never miss an opportunity to purchase from wide range of products. You can also connect the app with F Mart Happiness club Loyalty program, earn points, get personalized offers, and receive notification and alerts",
+    "icon": "/icons/com.fmartgrocer.app.png"
+  },
+  "com.tradeboxmedia.filtermist": {
+    "title": "F Monitor 2.0",
+    "package": "com.tradeboxmedia.filtermist",
+    "description": "The Filtermist F Monitor 2.0 application uses Bluetooth to connect with the F Monitor 2 and 2+ to set the parameters of the monitor which advises machine operators when the Filtermist oil mist collector needs servicing, using a globally recognised traffic-light coloured warning system. This application is a complete rebuild of the original android application launched in 2019.",
+    "icon": "/icons/com.tradeboxmedia.filtermist.png"
+  },
+  "com.dts.freefireth": {
+    "title": "Free Fire: Lost Treasure",
+    "package": "com.dts.freefireth",
+    "description": "Let the treasure hunt begin!\nBeneath the sands lie forgotten riches. Embark on a desert expedition and uncover the Lost Treasure's secrets!\n\n[Lost Treasure]\nBermuda is now a desert, dotted with oases and ruins. Collect maps, follow clues, and unlock hidden chambers to claim powerful items and rare supplies, including the Sky Portal.\n\n[Treasure Hunt]\nDig through tiles to unlock milestone stages in a casual mini game. Team up with friends to reveal secrets under the dunes. Log in on multiple days during the event to earn exclusive rewards!\n\n\nFree Fire is a world-famous survival shooter game available on mobile. Each 10-minute game places you on a remote island where you are pit against 49 other players, all seeking survival. Players freely choose their starting point with their parachute, an",
+    "icon": "/icons/com.dts.freefireth.png"
+  },
+  "com.triadats.farm_n_hand": {
+    "title": "Farm N Hand : Simple Farm App",
+    "package": "com.triadats.farm_n_hand",
+    "description": "Easy to use app to manage small farms and gardens.\n\nKeep track of plants and animals\nCreate monthly schedules\nView daily/monthly tasks\nCheck harvest and purchase reports",
+    "icon": "/icons/com.triadats.farm_n_hand.png"
+  },
+  "com.greenovator.farmsuite": {
+    "title": "Farm Suite",
+    "package": "com.greenovator.farmsuite",
+    "description": "Farm Suite, a digital farm management solution enabling agri- businesses to benefit from actionable insights and empowering farmers through advisory and alerts for food safety.\n\nFeatures of Farm Suite\n\u2022\tUser Access Management (eg., farmer account, field technician account)\n\u2022\tAdd Farms with Geolocation\n\u2022\tLabour, machinery usage and input usage records with photo \n\u2022\tProfit and loss calculation\n\u2022\tSeason history\n\u2022\tFarming activities timeline\n\u2022\tFarming activities reminders\n\u2022\tAlert system to the contractor\n\u2022\tFarm input distribution and tracking\n\u2022\tHarvest Management\n\u2022\tFarm traceability\n\nDashboard and Admin Panel\nClients can access the Farm Suite platform through a comprehensive dashboard and admin panel, allowing them to:\n\u2022\tControl and manage users\n\u2022\tFarm input distribution and tracking\n\u2022\tCreate ",
+    "icon": "/icons/com.greenovator.farmsuite.png"
+  },
+  "com.fieldmargin": {
+    "title": "fieldmargin: manage your farm",
+    "package": "com.fieldmargin",
+    "description": "\u201cThe app farmers have been waiting for.\u201d A modern, easy to use farming app that lets you keep track of everything that happens on your farm in one place.\n\nMap fields, plan work and record observations; all shared with your team so everyone stays up to date. Data is synced to the cloud so it stays safe and is accessible from your phone, tablet or laptop. Spend less time dealing with paperwork and more getting farm work done.\n\nA DIGITAL FARM MAP\n- Quickly map and measure your farm\u2019s fields and features by drawing or using GPS\n- Record field usages and plan rotations\n- Share with your team to help them navigate and avoid hazards\n- Add more detail with drone and satellite imagery\n\nKEEP TRACK OF WORK\n- Plan work to be done in your fields and around the farm\n- Assign to team members, add planned",
+    "icon": "/icons/com.fieldmargin.webp"
+  },
+  "com.orgfarm.customer": {
+    "title": "OrgFarm",
+    "package": "com.orgfarm.customer",
+    "description": "Shop online for Organic Vegetables, Fruits, Groceries, Beauty & Personal Care get them\ndelivered to your doorstep. Choose from over 2,000 products at prices lower than other\nOrganic Shop, every day! We understand that organic food isn\u2019t just about better avour\nand nutrition. It\u2019s about contributing to a food cycle that cares for people and the\nenvironment. We aim at generating a healthy value chain from farmer to consumer by\ncrafting an ecological and secure food system.\n\nSchedule delivery as per your convenience\n\nO ers: You'll never miss a chance to save and enjoy low prices with great discounts,\nbundle pack o erings, promotions etc.\n\nFast and Secure Checkout: Pay by net-banking, credit and debit cards options and UPI\npayments\n\nAssured quality: We source most of our Organic Vegetables and",
+    "icon": "/icons/com.orgfarm.customer.jpg"
+  },
+  "com.app.farmgoat": {
+    "title": "FarmGoat :Buy Sheeps and Goats",
+    "package": "com.app.farmgoat",
+    "description": "FarmGoat is an Goat and sheep Selling app for Indian users.\nWant to buy a Goat or Sheep online? Dont worry we are here with an excellent app which can help you buy or sell your goat or sheep any where in India.\nWhat you have to do is just download our app and search for the type of sheep or goat you are looking for . We buy and sell various types and breeds of goats and sheep. \nOur app has many functionalities which can help you post your advertisement of your goat or sheep for free.",
+    "icon": "/icons/com.app.farmgoat.png"
+  },
+  "com.contrata.contrata": {
+    "title": "Contrata",
+    "package": "com.contrata.contrata",
+    "description": "We help professionals and companies to grow their businesses. We make your business easy to find and learn about, provide useful tools that help you improve your business, automate your payments, and make your offers sell more.\n\nThe Contrata APP connects you with companies, independent professionals and technicians available to hire and solve your home or business problems. Find the talent you're looking for in hours instead of days, all without complications.\n\n- Explore hundreds of available services\n- Compare the different businesses that are available\n- Get the best deals on the market\n- Schedule appointments\n- Analyze past customer reviews\n- Hire suppliers of any kind\n- Rate the provider or offer you contracted\n- Create new offers for your customers\n- See the performance of your busine",
+    "icon": "/icons/com.contrata.contrata.png"
+  },
+  "com.HyperBeardGames.MyDearFarm": {
+    "title": "My Dear Farm",
+    "package": "com.HyperBeardGames.MyDearFarm",
+    "description": "Decorating with vegetables had never been as fun! Grow your crops with love and enjoy this sim farming-adventure!\n\n- Customize your character! Set out into this horticultural adventure being your best farmer self. Change your appearance, hairstyle, and even your pet to your liking!\n- Grow your crops to grow your business! Once you're done harvesting the products of your hard labor, go into the marketplace to sell your wares and build your farming empire!\n- Collect and decorate! My Dear Farm is filled to the brim with interesting furniture and decoration sets to unlock so your farm can look as stylish as you want it to be!",
+    "icon": "/icons/com.HyperBeardGames.MyDearFarm.png"
+  },
+  "com.rebounddev.qataa": {
+    "title": "Qataa | \u0642\u0627\u0637\u0639",
+    "package": "com.rebounddev.qataa",
+    "description": "Empower your shopping decisions with Qataa | \u0642\u0627\u0637\u0639, the ultimate tool for conscious consumers. Our simple and intuitive app allows you to quickly scan any product's barcode, providing instant information on whether it's part of any boycott list. Stay informed, make responsible choices, and contribute to a sustainable future. Download Qataa | \u0642\u0627\u0637\u0639 now and join the movement towards ethical and informed consumerism. Shopping made smarter, one scan at a time!",
+    "icon": "/icons/com.rebounddev.qataa.jpg"
+  },
+  "com.fermentacraft": {
+    "title": "FermentaCraft",
+    "package": "com.fermentacraft",
+    "description": "Brew mead, cider, wine (and small-batch beer) with a recipe builder + logbook that doesn\u2019t force you into spreadsheets.\nFermentaCraft is offline-first and works without an account. Use it free, upgrade once for Offline Pro, or subscribe only if you want sync + device integrations.\n\nNo account required\n\nStart a recipe, log a batch, track fermentation\u2014no sign-in, no ads, no \u201cconnect your email.\u201d Your data stays yours, and you can export/import anytime.\n\nWhat you can do\nRecipes that match real workflows\n\nMead, cider, wine, fruit blends (plus small batches of beer)\n\nAutomatic OG / FG / ABV / Brix\n\nGravity adjustment calculator by sugar type and batch size\n\nFermentation tracking that\u2019s actually readable\n\nLog SG, temperature, and notes\n\nClear charting across stages (primary \u2192 secondary \u2192 conditi",
+    "icon": "/icons/com.fermentacraft.png"
+  },
+  "com.greengo.fabook": {
+    "title": "Fa Book interakt\u00edv fahat\u00e1roz\u00f3",
+    "package": "com.greengo.fabook",
+    "description": "Only those values \u200b\u200bcan be protected and defended properly, which can not only see, but also well-known - it is the Book Tree tree adverb interactive educational mission of the foundation.\n\nThe application is designed to walkers in the parks, national forests of tourists spend their time not only between trees unknown. Users can learn about the Book Tree of our environment, such as forests trees greet during a walk in the forest as old acquaintances, who not only their names but also their age, the benefits and even thousands Year-border mission there.\n\n- You can choose the visual function of determining that the letter, trunk, fruit, etc. canopy. Based beazonos\u00edthasd exactly in front of the towering trees.\nThe lexicon will have access to more than 100 pieces detailed description with imag",
+    "icon": "/icons/com.greengo.fabook.jpg"
+  },
+  "com.Fooks.Animations.and.Applications.Notes": {
+    "title": "FA Notes",
+    "package": "com.Fooks.Animations.and.Applications.Notes",
+    "description": "FA Notes is the ultimate privacy-focused notetaking app, designed for users who value simplicity, functionality, and complete control over their data. Unlike many other apps, FA Notes is completely ad-free and operates without sending your notes through external servers (without being uploaded to a cloud), ensuring your notes remain stored only on your device.\n\n-A Beautiful, User-Friendly Experience\n\nBuilt with Material 3 components and dynamic color theming, FA Notes adapts to your style while providing a clean and modern interface. Whether you're jotting down ideas, drafting notes, or organizing important information, FA Notes makes the process smooth and enjoyable. Prefer a darker interface? Dark Mode is supported for a more comfortable viewing experience.\n\n-Powerful Features for Produc",
+    "icon": "/icons/com.Fooks.Animations.and.Applications.Notes.png"
+  },
+  "com.fa.battle": {
+    "title": "FA Battle - \u0110\u1ea5u tr\u00ed h\u1ecdc Y",
+    "package": "com.fa.battle",
+    "description": "*****INTRODUCE*****\n\nFA Battle is a place to exchange ideas with medical students through intense and breathtaking quizzes in 60s.\n\n- Are you depressed because studying forever?\n--> Battle now\n- Are you bored of studying because knowledge is too dry?\n--> Battle now\nThe more you learn, the more stupid you feel?\n--> Battle now\n\nLet's fight each other for a future that is not boring to anyone in the medical industry. Wish you all a bitter loss.\n\n*****FEATURE*****\n\n1. Full synthesis of subjects such as: Anatomy, Biochemistry, Biology...\n2. Synthesis of more than 100,000 latest multiple choice questions from major medical schools across the country\n3. Automatically update the new topic after completing the old topic.\n4. Free Challenge\n5. There are full marks and answers.\n6. Friendly interface, ",
+    "icon": "/icons/com.fa.battle.png"
+  },
+  "com.flycomm.flycommapp": {
+    "title": "Internet Speed Test by Flycomm",
+    "package": "com.flycomm.flycommapp",
+    "description": "Internet Speed Test by Flycomm \u2013 fast, accurate WiFi & Cellular speed test with live coverage maps.\n\nFlycomm\u2019s Internet Speed Test gives you real-time visibility into your WiFi, 4G and 5G performance \u2013 powered by the same AI technology trusted by leading telecom operators worldwide. \n\nRun quick speed tests, monitor app-level performance, and explore a live coverage map that updates as you move, so you always know where your signal is strong (and where it isn\u2019t).\n\nWhether you\u2019re streaming, gaming, working remotely or troubleshooting a network, Flycomm helps you see, understand and improve your connection.\n\nKey Features\n\n\u26a1 One-Tap Internet & WiFi Speed Test\n\nAccurate download, upload and ping measurements\n\nSee jitter, latency and packet quality for a deeper view of performance\n\nIdeal for str",
+    "icon": "/icons/com.flycomm.flycommapp.png"
+  },
+  "com.nperf.tester": {
+    "title": "Speed test 4G 5G WiFi & maps",
+    "package": "com.nperf.tester",
+    "description": "More than a simple speed test, nPerf brings you the best and the fullest mobile connection quality measurement tool up to 1 Gb/s speeds! \n\nFull QoS test: In few seconds, test your bitrate speed, latency, browsing speed and video streaming quality on your mobile device.\nComparison function: Compare your results with those of others users and for each provider with a real time barometer.\nInteractive map: Check network coverage and carriers performances in your area (in USA : AT&T, Sprint, T-Mobile, Verizon Wireless).\nNetwork monitor: Stay informed on data speed in real time on the top of your mobile screen (status bar). Reports your data plan usage (in notifications).\n\nA sliding menu (hamburger icon on top left corner) allows you to start every test separately:\n- Speed test\n- Browsing test -",
+    "icon": "/icons/com.nperf.tester.png"
+  },
+  "com.analiti.fastest.android": {
+    "title": "analiti - Speed & WiFi",
+    "package": "com.analiti.fastest.android",
+    "description": "Speed Test, WiFi Analyzer, Connection Tracker, RTT Analyzer, VPN Validator, LAN device scanner, and more advanced EXPERT tools for professional connection and wireless analysis.\n\nUse analiti to:\n* Improve network performance - identify and troubleshoot issues like interference, congestion, or weak signals. \u00a0 \n* Enhance security - detect unauthorized networks or devices connected to your network. \u00a0 \n* Optimize network setup - find the best WiFi channel and location for your router to minimize interference and maximize signal strength. \u00a0 \n* Troubleshoot - quickly analyze and diagnose connectivity problems. \u00a0 \n* Increase network visibility - gain in-depth visibility into your network's health and performance. \u00a0 \n* Reduce downtime - proactively identify and resolve potential issues before they",
+    "icon": "/icons/com.analiti.fastest.android.webp"
+  },
+  "com.highspeedinternet.speedtest": {
+    "title": "Speed Test | HighSpeedInternet",
+    "package": "com.highspeedinternet.speedtest",
+    "description": "HighSpeedInternet.com\u2019s free internet Speed Test helps you see exactly how your internet connection is performing. With just a single tap on your mobile device, test your Wi-Fi (DSL, Fiber, Cable, Satellite) or cellular (5G, 4G, LTE) speeds quickly and accurately. \n\nMillions of users trust HighSpeedInternet.com to test their internet speed over the web and compare internet service providers. Now you can more easily test using mobile devices and track your speeds over time with our easy-to-use app. \n\nWe are not affiliated with internet service or cellular network providers and, therefore, provide an unbiased view of speed results and service options.\n\n - How it Works -\nWhen the speed test starts, it automatically selects the best server to execute the test based on your location. Your test ",
+    "icon": "/icons/com.highspeedinternet.speedtest.png"
+  },
+  "com.lonelycatgames.Xplore": {
+    "title": "X-plore File Manager",
+    "package": "com.lonelycatgames.Xplore",
+    "description": "Application manual: www.lonelycatgames.com/docs/xplore\n\nHighlights:\n\n\u25cf Dual-pane tree view\n\u25cf Root, FTP, SMB1 / SMB2, Sqlite, Zip, Rar, 7zip, DLNA/UPnP explorer\n\u25cf Disk Map - see which files consume most space on your disk - http://bit.ly/xp-disk-map\n\u25cf Cloud storage access: Google Drive, OneDrive, Dropbox, Box, Webdav and others\n\u25cf SSH File Transfer (SFTP) and SSH Shell - http://bit.ly/xp-sftp ***\n\u25cf Music player ***\n\u25cf App manager\n\u25cf USB OTG\n\u25cf PDF viewer\n\u25cf WiFi file sharing *** - http://bit.ly/xp-wifi-share\n\u25cf Manage files from a PC web browser *** - http://bit.ly/xp-wifi-web\n\u25cf Favorite folders\n\u25cf Built-in viewers for images, audio, text\n\u25cf Video player with subtitles ***\n\u25cf Batch rename\n\u25cf Hex viewer\n\u25cf Fast Image viewer with zoom and slide to previous/next images\n\u25cf Thumbnails for images and video a",
+    "icon": "/icons/com.lonelycatgames.Xplore.webp"
+  },
+  "com.carmirror.app": {
+    "title": "Fermata Auto Android",
+    "package": "com.carmirror.app",
+    "description": "Fermata Auto Android app is designed to provide Android users with a smooth and convenient in-car experience. Built for compatibility and ease of use, this app helps you access supported features while connected to your car system in a simple and reliable way.\nWith Fermata Auto Android, users can enjoy an optimized interface tailored for in-vehicle use. The app focuses on stable performance, clear navigation, and compatibility across multiple Android versions.\nThis Fermata Auto App Android is suitable for users looking for a flexible solution that works well with modern car systems. It supports usage scenarios commonly associated with Fermata Auto Android Auto, making it a convenient choice for drivers who want a seamless setup.\n\n\nFeatures :\n\n- Smooth in-car experience with Fermata Auto An",
+    "icon": "/icons/com.carmirror.app.png"
+  },
+  "com.fifa.plus.android": {
+    "title": "FIFA+ Stream Live Football TV",
+    "package": "com.fifa.plus.android",
+    "description": "Watch live football matches on FIFA+ - Stream soccer matches, replays, highlights, scores, \nand exclusive content anytime, anywhere.\nThe FIFA+ app is your official home for live football, match replays and the game\u2019s greatest \nstories. With a bold new design and powerful new features, FIFA+ brings you closer to the sport\nyou love \u2013 From FIFA World Cup\u2122 moments to live matches across the globe. This autumn, \nyou can stream the FIFA U-20 World Cup Chile 2025\u2122, FIFA U-17 Women\u2019s World Cup \nMorocco 2025 and FIFA U-17 Men\u2019s World Cup Quatar exclusively on Fifa+ in selected \ncountries with many more competitions to come!\nLive Football Streaming Worldwide\nStream thousands of live football matches from over 230 competitions and 100+ Football \nAssociations. FIFA+ offers unrivalled coverage of men\u2019s",
+    "icon": "/icons/com.fifa.plus.android.webp"
+  },
+  "com.fifa.tournament": {
+    "title": "FIFA World Cup 2026\u2122",
+    "package": "com.fifa.tournament",
+    "description": "The official FIFA World Cup 2026\u2122 app is your trusted companion from the opening stages to the Final. Stay at the heart of the tournament with live scores, fixtures, line-ups, advanced stats, fantasy games, ticket updates, and highlights\u2014crafted for a premium global fan experience.\n \nFollow every match of the knockout stage and beyond with real-time updates. Access live scores, formations, player ratings, key moments, and detailed match stats. Track standings, brackets, and progression paths as teams battle their way to the Final.\n \nDive deeper into the game with advanced insights, team and player trends, tactical breakdowns, and performance analysis. Explore fixtures and results by date, stage, or team, and relive the biggest moments with highlights, condensed recaps, and editorial conten",
+    "icon": "/icons/com.fifa.tournament.png"
+  },
+  "com.fifa.fifaapp.android": {
+    "title": "FIFA Official App",
+    "package": "com.fifa.fifaapp.android",
+    "description": "Welcome to the FIFA Official App\u2014built for fans who live and breathe football. Whether you\u2019re tracking your club, immersing yourself in fantasy football, or following the road to FIFA World Cup 26\u2122, this app delivers the beautiful game to your fingertips in a bold, modern interface. \n\nWhat you get with FIFA at your side:\n\n\u2022  Real-time Match Centre \u2013 Follow every match with live scores, stats, lineups and key moments from club and international football.\n\n\u2022  Daily insights & analysis \u2013 Dive into tactical breakdowns, match previews, exclusive interviews and expert commentary.\n\n\u2022  Play Zone \u2013 Enjoy FIFA\u2019s official mini-games, build fantasy squads, predict match winners, challenge friends and climb the leaderboards.\n\n\u2022  Smart notifications \u2013 Receive personalized alerts for match start, goals, ",
+    "icon": "/icons/com.fifa.fifaapp.android.png"
+  },
+  "com.google.android.apps.youtube.kids": {
+    "title": "YouTube Kids",
+    "package": "com.google.android.apps.youtube.kids",
+    "description": "Inspire your kids to uncover their unique interests\nHelp your kids explore video content they love and parents trust, in an app made just for kids. With easy navigation tools and a suite of features, you can help your kids spend time online uncovering new interests, unleashing their imagination, and building their confidence in their own unique world.\n\nHelp your kids grow at their own pace\nYour kids are unique, so they should only see content they're ready to explore. Decide what videos will help them make the most of their time online, then personalize individual profiles using custom content filters as they grow.\n\n- Help your youngest kids learn their ABCs, nurture their curiosity, and more in the Preschool mode.\n- Expand your kids interests to songs, cartoons, or DIY crafts in Younger m",
+    "icon": "/icons/com.google.android.apps.youtube.kids.webp"
+  },
+  "com.microsoft.xboxone.smartglass": {
+    "title": "Xbox",
+    "package": "com.microsoft.xboxone.smartglass",
+    "description": "Friends and parties follow you with voice and text chat, even if they're on console or PC. See notifications, achievements from you and your friends, messages, and more. Buy games and add-on content you want without leaving the app. Explore the Game Pass catalog, view and redeem Perks, and more. Easily share game clips and screenshots from your console to favorite gaming & social networks. The free Xbox app is the best way to stay in the game\u2014wherever you like to play.\n\n-Download the Xbox app and stay connected to friends & games\n-Buy games and add-on content you want without leaving the app\n-Download games to your console so they're ready to play when you are\n-Get notifications for new game launches, party invites, messages and more\n-Use integrated voice and text chat with friends on cons",
+    "icon": "/icons/com.microsoft.xboxone.smartglass.png"
+  },
+  "com.epicgames.ega": {
+    "title": "Epic Games",
+    "package": "com.epicgames.ega",
+    "description": "Connect with friends across the Epic Ecosystem, with secure sign-in wherever you play. The Epic Games app brings your conversations together with cross-platform text chat and includes Epic Authenticator for fast, secure login on any device.\n\nCross-Platform Text Chat\n\u2022 Send DMs across mobile, PC, and Fortnite\n\u2022 Create group chats with up to 16 members\n\u2022 Turn on notifications to get alerts for new messages\n\u2022 View your last 30 days of chat history across devices\n\u2022 Your conversations follow your Epic account everywhere you sign in\n\nSecure Sign-In with Epic Authenticator\n\u2022 Enable two-factor authentication (2FA)\n\u2022 Verify your identity quickly on any device\n\u2022 Keep your account, progress, and purchases safe\n\u2022 Use sign-in codes or one-tap verification\n\u2022 Add an extra layer of security wherever you p",
+    "icon": "/icons/com.epicgames.ega.png"
+  },
+  "com.zhenxiang.superimage.pro": {
+    "title": "SuperImage Pro - AI Enhancer",
+    "package": "com.zhenxiang.superimage.pro",
+    "description": "SuperImage is your all-in-one AI photo toolbox \u2014 fast, private, and powered by on-device intelligence.\n\n\u2728 Key Features\n\n\ud83d\ude80 Create Without Limits\nEnhance, upscale, and transform your images without worrying about credits and subscriptions. Sky is the limit!\n\n\ud83d\udcf2 On-Device AI Processing\nSuperImage runs entirely on your device, using advanced AI models optimized for modern hardware. Your photos stay private, and no internet connection is required\n\n\ud83c\udf08 Transform Your Images\nRemove backgrounds, isolate subjects, or create transparent cutouts \u2014 all instantly and securely on your device\n\n\ud83d\udc65 Enhance Your Portraits\nSharpen details, refine facial features, and enhance background clarity of your low-resolution portraits. Your friends never looked this good before\n\n\ud83d\uddbc Images Sharper Than Ever\nUpscale your ph",
+    "icon": "/icons/com.zhenxiang.superimage.pro.png"
+  },
+  "com.yazam.empower.driver": {
+    "title": "Empower Driver",
+    "package": "com.yazam.empower.driver",
+    "description": "We started Empower to empower drivers who can\u2019t make a sustainable living under the current rideshare model and to provide an alternative for passengers who want the convenience provided by on-demand transportation platforms, but prefer to support drivers, not the companies exploiting them. By removing the giant corporate middleman, Empower is able to do that, while enabling passengers to obtain less expensive and more customized transportation directly from drivers.\n\nDrive Empower Now!",
+    "icon": "/icons/com.yazam.empower.driver.png"
+  },
+  "com.imdb.mobile": {
+    "title": "IMDb: Movies & TV Shows",
+    "package": "com.imdb.mobile",
+    "description": "Create your personal entertainment guide! Discover movies, TV shows, and celebrity content that speaks to you through personalized recommendations, custom Watchlists, and tailored alerts. Connect your preferred streaming services, save titles to your Watchlist, and enable notifications to know when they're available to watch. Rate what moves you, customize your Interests, and we'll help you find more to enjoy. Stay up to date with entertainment news and celebrity updates. Download the free app and find your next favorite today.\n\nIMDb is available worldwide in English, Spanish, German, French, Portuguese, Italian, Japanese, Korean, Chinese, Taiwanese, and Hindi. We love making IMDb better for you! Share your feedback at http://spr.ly/IMDbApp_Android",
+    "icon": "/icons/com.imdb.mobile.png"
+  },
+  "com.iqiyi.i18n": {
+    "title": "iQIYI - Drama, Anime, Show",
+    "package": "com.iqiyi.i18n",
+    "description": "Download iQIYI to enjoy the most popular Asian entertainment. Stream Chinese dramas, Korean dramas, Thai dramas, anime, variety shows and movies, including iQIYI originals!\n\n[Features]\n\u00b7 Watch for free: Download to watch select high quality shows for free.\n\u00b7 Subscribe for more: Sign up for our VIP membership to enjoy exclusive content, skip ads, watch videos in 1080p, 4K & Dolby Audio, and catch new episodes before everyone else.\n\u00b7 Multilingual support: User interface, subtitles & searching tool in your prefered language.\n\u00b7 User-friendly interface: Simple and clean interface helps you easily find everything you want.\n\u00b7 Multiple devices: Enjoy your favourite shows on your phone, tablet and TV with playback progress synched.\n\n[Popular Content] \n[Hot Dramas] \nHow dare you?!, The Unclouded Sou",
+    "icon": "/icons/com.iqiyi.i18n.png"
+  },
+  "com.samsung.android.app.watchmanager": {
+    "title": "Galaxy Wearable",
+    "package": "com.samsung.android.app.watchmanager",
+    "description": "The Galaxy Wearable application connects your wearable devices to your mobile device. It also manages and monitors the wearable device features and applications you've installed through Galaxy Apps.\n\nUse the Galaxy Wearable application to set up and manage the following features:\n- Mobile device connection/disconnection\n- Software updates\n- Clock settings\n- Application download and settings \n- Find my Watch\n- Notification type and settings, etc.\n\nInstall the Galaxy Wearable application on your mobile device, then pair your wearable devices via Bluetooth to enjoy all of its features. \n\n\u203b Settings and features provided by the Galaxy Wearable  application are only available when your wearable device is connected to your mobile device. Features will not work properly without a stable connectio",
+    "icon": "/icons/com.samsung.android.app.watchmanager.png"
+  },
+  "com.os.space.force.galaxy.alien": {
+    "title": "Galaxiga: Galaxy Arcade Game",
+    "package": "com.os.space.force.galaxy.alien",
+    "description": "Step into the thrilling world of Galaxiga: Galaxy Arcade Shooter Game, a modern arcade-style space shooter packed with action, upgrades, and endless excitement. Defend the galaxy from waves of alien invaders, unlock powerful starships, and become the ultimate space commander. Whether you enjoy classic arcade shooters or modern alien attack games, this adventure delivers the perfect mix of nostalgia and fast-paced action.\n\n\ud83c\udf0c THE ULTIMATE SPACE BATTLE AWAITS\nDive into intense intergalactic battles filled with enemy formations, powerful bosses, and challenging missions. As the commander of your elite Galaxy Fleet, you\u2019ll pilot advanced starships, dodge enemy fire, and unleash devastating firepower to protect the universe. Upgrade your weapons, strengthen your shields, and unlock new abilities",
+    "icon": "/icons/com.os.space.force.galaxy.alien.jpg"
+  },
+  "com.camelgames.ig": {
+    "title": "Infinite Galaxy",
+    "package": "com.camelgames.ig",
+    "description": "Infinite Galaxy. Infinite possibilities. \nThis is a next generation immersive, space game. With top 3D graphics and deep strategic choices to choose from, the secrets of the entire Galaxy are waiting for you to discover.\n \nGalaxy Year 4649. After the long war, the Old Federation was unfortunately defeated, but the Empire\u2019s cruel reign is also on the verge of collapse. The borders of the burning Galaxy have already been broken. Private merchants and space pirates shuttle back and forth in the universe. Countless rebel groups have risen to fight from the Empire\u2019s outer rim without any time to spare. Rumor has it that someone discovered the mysterious warships of an ancient space race...\n \nIn this Galaxy full of fantasy and conflict, you can start by repairing your Spaceport. Then you will bu",
+    "icon": "/icons/com.camelgames.ig.png"
+  },
+  "com.alien.shooter.galaxy.attack": {
+    "title": "Galaxy Attack: Shooting Game",
+    "package": "com.alien.shooter.galaxy.attack",
+    "description": "Earth's last hope is in your hands, take control of the lone spaceship and protect Earth from alien swarms attack. Your goal will be quite challenging as you will have to save the Universe from its evil enemies. In this space shooting game, you will be facing an increasingly large number of infinity galaxy enemies. As the game progresses, you will earn the right to upgrade your spacecraft to unleash its full lethal capacity.\n\nHOW TO PLAY:\n* Touch screen to move your space ship and kill all enemies.\n* Collect items to upgrade or change your weapons.\n\nFEATURES:\n* Multiplayer mode: 1 vs 1, 1 vs 3\n* High-quality images optimized for tablets and large screens.\n* Ability to use active skills during space battles.\n* The game is packed with 160+ levels on various difficulties.\n* Beautiful levels w",
+    "icon": "/icons/com.alien.shooter.galaxy.attack.png"
+  },
+  "com.jdgames.p16snew.googleplay": {
+    "title": "Galaxy Battleship",
+    "package": "com.jdgames.p16snew.googleplay",
+    "description": "The universe is yours to conquer. A war of strategies and civilization is imminent.\n\nGalaxy Battleship, a sci-fi SLG mobile game that allows you to explore the universe and create a civilization beyond earth. Beginning as a planet commander, you must build your own base and keep expanding by developing buildings, technologies and military force for the sake of survival. It also requires you to organize a space fleet to defend against Space Pirates and other potential enemies. Or, you may choose to cooperate with players all over the world and strive for being the lord of the universe!\n\nFeatures:\n[Giant and Large Map]\nFrom asteroid to the galaxy, there is always a greater challenge waiting!\n\n[Infinitive Warfare]\nBattles over strategic\u00a0points never stop!\n\n[HD Graphics]\nMassive warships depic",
+    "icon": "/icons/com.jdgames.p16snew.googleplay.png"
+  },
+  "com.thegosa.miuithemes": {
+    "title": "Themes",
+    "package": "com.thegosa.miuithemes",
+    "description": "Themes - This unofficial app is a collection of quality themes for your any smartphones including Xiaomi Mi, Redmi, Samsung Galaxy, Oppo and Realme.\n\nWhen installing themes, the app redirects you to the Themes Store and from this store you can install for free your chosen themes.\n\nThe application will regularly add new themes and wallpapers, also notifications about various promotions, will be sent through the application.\n\nAttention! Some themes may not open in your area due to its inaccessibility in your region.\n\nInstall it now and enjoy your favorite themes and wallpapers.\n\nJoin us:\nTwitter: https://twitter.com/thegosadesign\n\nDisclaimer:\nThis is unofficial theme application, in this application themes from the official Themes Store app are selected to present you with the most creative ",
+    "icon": "/icons/com.thegosa.miuithemes.jpg"
+  },
+  "com.bbk.theme": {
+    "title": "Themes",
+    "package": "com.bbk.theme",
+    "description": "\"Personalize your phone with a fantastic selection of fun and original themes.\n[Themes]\nTransform your phone with different lock screen styles, wallpapers, and app icons.\n[Wallpapers]\nTurn your home screen into a work of art with a fantastic catalog of quality images.\n[Customize]\nCreate your own personalized combinations of lock screen styles, text styles, and wallpapers.\"",
+    "icon": "/icons/com.bbk.theme.png"
+  },
+  "com.nkart.go.liontheme": {
+    "title": "Themes for Samsung",
+    "package": "com.nkart.go.liontheme",
+    "description": "Themes for Samsung - best and free themes for phone\nBeautiful theme with transparent wallpaper & matching style transparent icons\nDownload themes for Samsung Galaxy, MI, oneplus, oppo phones & it works perfectly on all Android phone\n\nThemes for Samsung offer transparent wallpaper, & 400 HD icons. Beautify your mobile in a transparent style now\nIt's time to update Samsung themes in a cool style with this free themes app\n\n\u25b6 Features:-\n- Themes for Samsung support all Android phones\n- 400+ HD icons and transparent wallpaper for phone\n- Theme for Samsung supports 20+ launchers\n- Browse & download backgrounds for phones easily\n- Apply free themes in a single click\n- Material design dashboard\n\nThemes app is compatible with all Samsung phones: Galaxy S22, Galaxy A04, Galaxy M04, and all others\nIn",
+    "icon": "/icons/com.nkart.go.liontheme.jpg"
+  },
+  "com.nick.galaxytheme": {
+    "title": "Galaxy Themes",
+    "package": "com.nick.galaxytheme",
+    "description": "Galaxy theme app for Android\nBeautiful theme with unique colorful icons for your favorite custom launcher\nUpdate Samsung launcher icon pack in cool style with this free Icon changer app\nGalaxy theme app includes Galaxy wallpapers, beautify your Android mobile in cool style now\nTheme for Galaxy supports all custom Launcher & to latest Android update\n\nGalaxy icon pack app also provides universe, nebula & space wallpapers\nDownload themes for Galaxy, Samsung Galaxy, MI, oneplus, oppo phones & it works perfectly on all the latest Android update\nUpdate Android version now with our beautiful themes app\nInstall themes for free & customise your Android in Style\n\n\u25b6 Features:-\n\n\t- Unique Galaxy theme for Android phone\n\t- HD icon pack with Galaxy wallpaper\n\t- Theme for Galaxy supports all custom launc",
+    "icon": "/icons/com.nick.galaxytheme.jpg"
+  },
+  "com.nkart.galaxy": {
+    "title": "Theme for Galaxy",
+    "package": "com.nkart.galaxy",
+    "description": "Theme for galaxy - best and free themes for phone\nBeautiful theme with galaxy style icons and backgrounds for phone\nUpdate Samsung theme in a cool style with this free icon changer app\nTheme for galaxy offers HD galaxy backgrounds, beautify your mobile in cool style now\nGalaxy inspired HD icon pack contains 200+ icons and counting...\n\nDownload themes for Samsung Galaxy, MI, oneplus, oppo phones & it works perfectly on all Android phone\nUpdate Android theme now with our beautiful themes app\n\n\u25b6 Features:-\n- Theme for galaxy support all Android phones\n- 200 + HD icons and backgrounds for phone\n- Theme for Galaxy supports 20+ launchers\n- Browse & download backgrounds for phones easily\n- Material design dashboard\n- Apply free themes in a single click\nInstall themes for free & apply theme on And",
+    "icon": "/icons/com.nkart.galaxy.png"
+  },
+  "com.denizbatu.gazeteler.activity": {
+    "title": "Gazeteler",
+    "package": "com.denizbatu.gazeteler.activity",
+    "description": "With the Newspapers application, you can quickly access breaking news instantly, national and local newspapers in Turkey, popular news and sports websites, and the most read columnists.",
+    "icon": "/icons/com.denizbatu.gazeteler.activity.png"
+  },
+  "com.wiebenz.tumgazetelervehaberler": {
+    "title": "T\u00fcm Gazeteler ve Haberler",
+    "package": "com.wiebenz.tumgazetelervehaberler",
+    "description": "All national newspapers in Turkey are together. You can quickly access newspapers, headlines, news, economy, columns, sports, technology, magazine/fashion, popular pages, foreign press and the latest breaking news.\n\nIf you are tired of buying a lot of newspapers and browsing websites to follow what is happening in the country, you are in the right place!\n\n*Features:\n-It takes up almost no space. Only 7MB\n-Full screen reading\n-Save news\n-Adding desired newspapers externally\n-Save favorite newspapers\n-Easy access to favorite newspapers\n-Opening with the favorites screen at startup\n-High resolution headlines\n-Easy switching between headlines by swiping the screen\n-Quick news page\n-Easy switching between news\n-User friendly interface\n-No annoying ads\n-No permission is required to access anythi",
+    "icon": "/icons/com.wiebenz.tumgazetelervehaberler.png"
+  },
+  "com.polldygazetelerhaberler.haberler": {
+    "title": "Gazeteler Son Dakika Haberler",
+    "package": "com.polldygazetelerhaberler.haberler",
+    "description": "Newspapers & News \u2013 All Newspapers in One App\nAccess T\u00fcrkiye's most widely read newspapers and news sites in one place. You no longer have to search for H\u00fcrriyet, Sabah, S\u00f6zc\u00fc, Milliyet, Cumhuriyet, Yeni \u015eafak, Ak\u015fam, Takvim, and dozens more sources separately.\n\ud83d\uddde\ufe0f Newspapers, News, Sports \u2013 All Here\nA wide range of content, from daily newspapers to breaking news sites, from sports pages to columnists, all under one roof. Easily switch between categories and access your desired newspaper with a single touch.\n\u2b50 Save Your Favorite Newspapers\nAdd your most followed newspapers to your favorites and access them directly every time you open the app. Find your favorite sources quickly without wasting time.\n\ud83d\udd14 Instant Notifications\nDon't miss important developments. Thanks to push notifications, bre",
+    "icon": "/icons/com.polldygazetelerhaberler.haberler.png"
+  },
+  "com.gooludou.app.sunfinder": {
+    "title": "Sun Finder \u2013 Sun Tracker",
+    "package": "com.gooludou.app.sunfinder",
+    "description": "Have you ever wondered how much sunlight a home really gets? Or when the sun will rise, set, or align perfectly for a golden hour photo? Understanding the sun path, sunrise, sunset, sun direction, and sun exposure can make a huge difference when buying a property, planning a garden, designing a building, or capturing the perfect shot.\n\nSun Finder is a powerful sun tracker, sun calculator, and sun path app that helps you visualize the sun position anywhere in the world for any date. With advanced sunlight analysis tools and intuitive visualization, you can easily understand how sunlight moves throughout the day and across seasons.\n\nWhether you\u2019re checking house sunlight before buying a property or planning a golden hour photo shoot, Sun Finder helps you see exactly where the sun will be.\n\nP",
+    "icon": "/icons/com.gooludou.app.sunfinder.png"
+  },
+  "com.ratana.sunsurveyorlite": {
+    "title": "Sun Surveyor Lite",
+    "package": "com.ratana.sunsurveyorlite",
+    "description": "Sun Surveyor Lite takes the mystery out of the sunrise, sunset and magic hours, helping photographers and filmmakers scout the best locations, plan effectively, and get the perfect shot. Solar Industry (PV) Professionals, architects, real estate agents, and gardeners will also find a wealth of empowering, interactive features.\n\nThe 3D Compass and detailed Ephemeris provide a wealth of information about the largest natural light source in the galaxy:\n\n- Predict and plan for the golden hour, blue hour and every sunrise & sunset\n- Visualize the sun's path throughout the day or through the year\n\nAdditional features:\n\n- Visual time machine - take a quick glance at the light for a day, or dial in desired compositions easily\n- Twilight times - civil, nautical, astronomical\n- Solstice and Equinox ",
+    "icon": "/icons/com.ratana.sunsurveyorlite.png"
+  },
+  "com.kb.SkyCalendar": {
+    "title": "Calendar - Sun & Moon",
+    "package": "com.kb.SkyCalendar",
+    "description": "Our application is used to determine the position of sun and moon anywhere in the world, and help you determine the time of sunrise and sunset, twilight, the duration of the day, moon phase and much more.\n\nWith this program you can predict the best time (golden and blue hours) for taking pictures of landscapes, nature, and any other outdoors shooting. Both professional photographers and beginners prefer to shoot during the golden hours since it\u2019s easier to work with, and this application helps you identify this time. The golden hour occurs just after sunrise and before sunset, when the sun is low on the horizon, creating that signature warm glow. The blue hour arrives shortly before sunrise and after sunset, when the sun\u2019s position just below the horizon produces those cooler tones.\n\nWhen ",
+    "icon": "/icons/com.kb.SkyCalendar.png"
+  },
+  "com.andymstone.sunpositiondemo": {
+    "title": "Sun Position: Sunrise & Sunset",
+    "package": "com.andymstone.sunpositiondemo",
+    "description": "Plan outdoor activities with accurate sunrise, sunset, and golden hour data. Sun Position shows you exactly when and where the sun and moon will be - using precise calculations visualized through interactive maps, detailed charts, and an optional AR camera overlay.\n\nTrusted by outdoor enthusiasts worldwide - perfect for photography, camping, sailing, gardening, drone flying, and more. Get reliable sun and moon tracking data presented in a simple, easy-to-understand format.\n\nCOMPREHENSIVE SUN AND MOON DATA\nPrecise sunrise/sunset times, golden hour, blue hour, twilight stages, moon phases, moonrise/moonset times. Milky way, lunar, and solar path calculations. All the data you need, clearly presented.\n\nINTERACTIVE SUN PATH MAP\nVisualize the sun and moon's daily path on an interactive map rela",
+    "icon": "/icons/com.andymstone.sunpositiondemo.png"
+  },
+  "com.haystack.android": {
+    "title": "Haystack News: Local TV News",
+    "package": "com.haystack.android",
+    "description": "Trusted by more than 30 million news viewers! Your go-to, from local news to world events. It\u2019s the best way to watch a variety of coverage, all in one place, and absolutely free. The most local news available to stream anywhere.\n\nChoose the categories, sources and topics to create a newscast built just for you. Get the latest local weather for your neighborhood.  \n\nExplore on demand channels like International News and Entertainment News with stories from only the most trusted news channels.\n\nWatch live news channels and get breaking news alerts on your phone, so you always have access to the news that matters to you. \n\nTake a deep dive into important topics and trends with dedicated channels that bring coverage from all over the world together in one convenient spot. \n\nConnect to the wor",
+    "icon": "/icons/com.haystack.android.png"
+  },
+  "com.tvguidemobile": {
+    "title": "TV Guide",
+    "package": "com.tvguidemobile",
+    "description": "TV Guide is the No. 1 source for finding what to watch and where to watch it. Any show, any movie \u2014 on live TV or streaming \u2014 the TV Guide app puts it all in the palm of your hand.\n\nDedicated for television and film fans like you: explore curated new content, stay informed about current airings, and effortlessly track and enjoy your favorites with a personalized Watchlist.\n\nDISCOVER NEW SHOWS & MOVIES:\nRECOMMENDATIONS: Take advantage of expert curation and algorithms to find the best shows and movies.\n\u2022 WATCH THIS NOW: Skip the endless Netflix scrolling and instead choose from TV Guide\u2019s top picks.\n\u2022 NEWLY AVAILABLE: Never miss the next big show on any network or streaming platform.\n\u2022 COMING SOON: Stay in the know about all the best upcoming titles.\n\u2022 LEAVING SOON: Just watch these shows a",
+    "icon": "/icons/com.tvguidemobile.png"
+  },
+  "com.gunes.app_new": {
+    "title": "G\u00fcne\u015f Bilgisayar",
+    "package": "com.gunes.app_new",
+    "description": "With this mobile application, G\u00fcne\u015f Bilgisayar dealers can easily perform transactions such as ordering, payment, and current statement.",
+    "icon": "/icons/com.gunes.app_new.png"
+  },
+  "com.motorola.camera3": {
+    "title": "Moto Camera 3",
+    "package": "com.motorola.camera3",
+    "description": "Requirements - Moto Camera 3 is only compatible with select devices launched in 2020 and beyond.\nRedesigned for reachability and one hand usage, Moto Camera 3 is packed with amazing features to capture the perfect moment, each and every time.\nFeatures:\nQuick Capture - Never miss a moment. Launch the camera with a simple twist of your wrist, then twist again to switch cameras.\nPortrait - Add a nice background blur to your photos. Also, adjust your blur level or change to black and white in Google Photos.\nPro mode - Put yourself in complete control of focus, white balance, shutter speed, ISO, and exposure.\nSpot Color - Select one color while everything else becomes black and white.\nGoogle Lens - Use Lens to search what you see, scan text and translate, and interact with the world.\nGoogle Pho",
+    "icon": "/icons/com.motorola.camera3.png"
+  },
+  "com.sgmediapp.gcam": {
+    "title": "GCamera: GCam & HD Pro Photos",
+    "package": "com.sgmediapp.gcam",
+    "description": "GCamera: GCam & HD Pro Photos \u2013 Capture Every MomentDiscover the ultimate camera & photo experience with GCamera, the powerful camera app designed to transform your smartphone into a professional digital camera.\n\nWhether you are an amateur enthusiast or a seasoned photographer, GCamera gives you the tools to take breathtaking shots easily.\n\nPacked with cutting-edge camera & photo features like HDR photos, Night Sight, and Astrophotography, this pro camera app ensures every shot is picture-perfect.\n\nKey Camera & Photo Features of GCamera - GCam & HD Pro Photos\n\ud83d\udcf8HDR+ Mode\nElevate your photos with HDR+, which blends multiple shots using advanced algorithms to deliver images with vibrant colors, sharp details, and impeccable dynamic range. This mode makes every shot pop, perfect for outdoor sc",
+    "icon": "/icons/com.sgmediapp.gcam.png"
+  },
+  "com.intermedia.hd.camera.pro": {
+    "title": "ProCam X ( HD Camera Pro )",
+    "package": "com.intermedia.hd.camera.pro",
+    "description": "ProCam X will turn your phone into professional camera wanna be, with full control over exposure, focus, white balance, ISO and another features like a professional camera, which can bring your mobile photography to the next level. Take the best capture of your photo and even record your video in high resolution.\n\n\u2606 HD Camera Pro : best camera features : \u2606\n\n\u2713 Control exposure (lock / adjust value)\n\u2713 Control white balance\n\u2713 Manual ISO *\n\u2713 Manual focus *\n\u2713 Manual shutter speed *\n\u2713 Intervalometer \n\u2713 Burst shooting mode\n\u2713 Set custom video bit rate\n\u2713 Realtime filter / color effect\n\u2713 Geotagging\n\u2713 Anti Shake\n\n* On supported devices with camera2api enable\n\nIt's excellent fast camera features perform quickly giving your fast camera performance which is able to take many pictures at some interval in",
+    "icon": "/icons/com.intermedia.hd.camera.pro.png"
+  },
+  "com.google.ar.lens": {
+    "title": "Google Lens",
+    "package": "com.google.ar.lens",
+    "description": "Google Lens lets you search what you see, get things done faster, and understand the world around you\u2014using just your camera or a photo.\n\n  SCAN & TRANSLATE TEXT\n  Translate words you see, save a business card to your contacts, add events to your calendar from a poster, and copy and paste complicated codes or long paragraphs into your phone to save time.\n\n  IDENTIFY PLANTS & ANIMALS\n  Find out what that plant is in your friend's apartment, or what kind of dog you saw in the park.\n\n  EXPLORE PLACES AROUND YOU\n  Identify and learn about landmarks, restaurants, and storefronts. See ratings, hours of operation, historical facts, and more.\n\n  FIND THE LOOK YOU LIKE\n  See an outfit that catches your eye? Or a chair that's perfect for your living room? Find similar clothes, furniture, and home de",
+    "icon": "/icons/com.google.ar.lens.png"
+  },
+  "com.google.android.apps.searchlite": {
+    "title": "Google Go",
+    "package": "com.google.android.apps.searchlite",
+    "description": "Google Go is a lighter, faster way to search, with search results optimised to save up to 40% data.\n\nGet answers quickly and reliably with Google Go, even on slow connections and smartphones with low space. At 12MB in size, it\u2019s fast to download and saves space on your phone.\n\nType less, discover more. Save time by tapping your way through trending queries and topics, or by using your voice to say what you\u2019re looking for.\n\nMake Google read it. Point your camera at text or listen to any web page. Words are highlighted as they are read, so you can easily follow along.\n\nSearch and translate with your camera. See a word you don\u2019t understand on a sign, form, or product? With Google Lens, just point your camera to translate or search for it.\n\nEverything you need in one app. Easily and quickly ac",
+    "icon": "/icons/com.google.android.apps.searchlite.png"
+  },
+  "com.mapswithme.maps.pro": {
+    "title": "MAPS.ME: Offline maps GPS Nav",
+    "package": "com.mapswithme.maps.pro",
+    "description": "Fast, detailed and entirely offline maps with turn-by-turn navigation \u2013 trusted by over 140 million travelers worldwide.\n\nOFFLINE MAPS\nSave mobile data, no internet is required.\n\nNAVIGATION\nUse driving, walking and cycle navigation anywhere in the world.\n\nTRAVEL GUIDES\nSave you time planning the trip and never miss an interesting place with our ready-made travel guides. Whether you prefer city travel, car trips or outdoor activities you will find a great choice of guides for a perfect journey.\n\nINCREDIBLY DETAILED\nDirections to points of interest (POI), hiking trails and places missing from other maps.\n\nUP-TO-DATE\nMaps are updated by millions of OpenStreetMap contributors daily. OSM is an open-source alternative to popular map services.\n\nFAST AND RELIABLE\nOffline search, GPS navigation alo",
+    "icon": "/icons/com.mapswithme.maps.pro.png"
+  },
+  "com.google.android.apps.mapslite": {
+    "title": "Google Maps Go",
+    "package": "com.google.android.apps.mapslite",
+    "description": "Google Maps Go is the lightweight Progressive Web App variation of the original Google Maps app.\n\nThis version requires Chrome (if you do not wish to install Chrome, please use www.google.com/maps in your browser instead).\n\nTaking up 100 times less space on your device than the full Google Maps app, Google Maps Go is designed to run smoothly on devices with limited memory and on unreliable networks without compromising speed to provide your location, real-time traffic updates, directions, and train, bus, and city transit information. You can even search and find information about millions of places, such as phone numbers and addresses.\n\u2022 Find the fastest route combining two-wheelers, metro, buses, taxi, walking and ferries\n\u2022 Ride the metro, bus or train with live city public transport sche",
+    "icon": "/icons/com.google.android.apps.mapslite.png"
+  },
+  "com.google.android.apps.playconsole": {
+    "title": "Google Play Console",
+    "package": "com.google.android.apps.playconsole",
+    "description": "\u2022 Monitor the metrics you care about\n\u2022 Manage your app's orders and issue refunds\n\u2022 View and reply to app reviews\n\u2022 Track and monitor the availability of your apps across different tracks and releases",
+    "icon": "/icons/com.google.android.apps.playconsole.webp"
+  },
+  "com.rockstargames.gtavc": {
+    "title": "Grand Theft Auto: Vice City",
+    "package": "com.rockstargames.gtavc",
+    "description": "Welcome back to Vice City. Welcome back to the 1980s.\n\nFrom the decade of big hair, excess and pastel suits comes a story of one man's rise to the top of the criminal pile. Vice City, a huge urban sprawl ranging from the beach to the swamps and the glitz to the ghetto, was one of the most varied, complete and alive digital cities ever created. Combining open-world gameplay with a character driven narrative, you arrive in a town brimming with delights and degradation and given the opportunity to take it over as you choose. \n\nTo celebrate its 10 year anniversary, Rockstar Games brings Grand Theft Auto: Vice City to mobile devices with high-resolution graphics, updated controls and a host of new features including: \n\n\u2022 Beautifully updated graphics, character models and lighting effects \n\u2022 New",
+    "icon": "/icons/com.rockstargames.gtavc.png"
+  },
+  "com.rockstargames.gta3.de": {
+    "title": "GTA III - Definitive",
+    "package": "com.rockstargames.gta3.de",
+    "description": "Download and play GTA III - Definitive for up to thirty minutes as a free trial. Purchase the full game as a one-time, in-app purchase to play without any time limits. GTA+ Members can enjoy unlimited access while subscribed for as long as it is included in GTA+.\n\nIt all starts in Liberty City. With revolutionary freedom to go anywhere and jack anyone, Grand Theft Auto III puts the center of the criminal underworld at your fingertips, if you have enough guts to take it.\n\nRockstar Games, Inc. 622 Broadway, New York, NY, 10012.  \u00a9 2001\u20132023. Rockstar Games, Grand Theft Auto, Grand Theft Auto III and R* Logo are marks/logos/copyrights of Take-Two Interactive. Unreal\u00ae Engine, Copyright 1998\u20132023, Epic Games, Inc. All rights reserved.  Uses Oodle. Copyright \u00a9 2008\u20132023 by Epic Games Tools, LLC.",
+    "icon": "/icons/com.rockstargames.gta3.de.png"
+  },
+  "com.rockstargames.gtasa": {
+    "title": "Grand Theft Auto: San Andreas",
+    "package": "com.rockstargames.gtasa",
+    "description": "Five years ago, Carl Johnson escaped from the pressures of life in Los Santos, San Andreas, a city tearing itself apart with gang trouble, drugs and corruption. Where filmstars and millionaires do their best to avoid the dealers and gangbangers.\n\nNow, it\u2019s the early 90\u2019s. Carl\u2019s got to go home. His mother has been murdered, his family has fallen apart and his childhood friends are all heading towards disaster.\n\nOn his return to the neighborhood, a couple of corrupt cops frame him for homicide. CJ is forced on a journey that takes him across the entire state of San Andreas, to save his family and to take control of the streets.\n\nRockstar Games brings its biggest release to mobile yet with a vast open-world covering the state of San Andreas and its three major cities \u2013 Los Santos, San Fierro",
+    "icon": "/icons/com.rockstargames.gtasa.png"
+  },
+  "com.rockstargames.gtactw": {
+    "title": "GTA: Chinatown Wars",
+    "package": "com.rockstargames.gtactw",
+    "description": "Download and play up to thirty minutes as a free trial.*  Purchase GTA: Chinatown Wars Full Game as a one-time, in-app purchase to play without any time limits.\n\nFollowing his father's murder, Huang Lee has a simple mission: deliver an ancient sword to his Uncle Kenny to ensure his family retains control of the Triad gangs of Liberty City. Huang is a spoiled rich kid who expects everything to run smoothly, but his trip does not go exactly as planned. After being robbed and left to die, he will search for honor, riches and revenge in the most dangerous and morally bankrupt city in the world.\n\nSoftware license terms in game and at www.rockstargames.com/eula; online account terms at www.rockstargames.com/socialclub.\n\nNon-transferable access to special features such as exclusive, unlockable, d",
+    "icon": "/icons/com.rockstargames.gtactw.png"
+  },
+  "com.rockstargames.gtalcs": {
+    "title": "GTA: Liberty City Stories",
+    "package": "com.rockstargames.gtalcs",
+    "description": "Download and play up to thirty minutes as a free trial.*  Purchase the Liberty City Stories Full Game as a one-time, in-app purchase to play without any time limits.\n\nGet ready to head back to the East Coast in Grand Theft Auto: Liberty City Stories. \n\nFormer trusted wise guy for the Leone family, Toni Cipriani returns home to Liberty City after spending time in hiding for killing a made man. Now, the streets of Liberty City are in turmoil, as warring families vie for control and the town begins to self-destruct under waves of political corruption, organized crime, drug trafficking and union strikes. Deranged hit men, morally depraved tycoons, cynical politicians and even his own mother stand in the way as Toni tries to bring the city under Leone family control.\n\n\u00a92002-2023 Rockstar Games,",
+    "icon": "/icons/com.rockstargames.gtalcs.png"
+  },
+  "com.sendtotvquick.com": {
+    "title": "Send to TV Web-to-TV Installer",
+    "package": "com.sendtotvquick.com",
+    "description": "ULTIMATE TV UTILITY: WEB-TO-TV SENDER, APK INSTALLER & REMOTE DOWNLOADER\n\nSend to TV Quick is the next-generation Sideloading and Remote Management Tool for Android TV, Google TV, and Fire TV. Re-engineer your TV experience by moving the control interface from the clumsy remote to your Smartphone or PC Web Browser.\n\n\ud83d\ude80 REVOLUTIONIZING THE \"DOWNLOADER\" EXPERIENCE\nWhy type short codes or search for URLs on your TV? Send to TV Quick upgrades the legacy \"Downloader\" method.\n\nDirect URL Injection: Simply paste download URLs (APK, ZIP, M3U) on your phone via sendtotvquick.com. The file downloads and prompts for installation on the TV instantly.\n\nNo Short Code Needed: Fully supports numeric codes, but you don't need them. Send raw links directly.\n\nRemote Browser: Use your phone's browser as the re",
+    "icon": "/icons/com.sendtotvquick.com.png"
+  },
+  "com.flexx.tv": {
+    "title": "FLEXX TV",
+    "package": "com.flexx.tv",
+    "description": "Flexx FM Media Group Inc. is your gateway to the world of music and entertainment. Explore unique content from over 114 countries and choose from 20+ diverse music genres.\n\nWatch Flexx TV and listen to live radio to immerse yourself in a rich, multicultural offering. With our app, you get access to:\n\n\u2022 Live streams with exclusive programs\n\u2022 Multiple music genres, from reggae to hip-hop\n\u2022 Flexx social media channels to stay up-to-date with the latest news\n\nDownload the app today and join a global community of music lovers!",
+    "icon": "/icons/com.flexx.tv.png"
+  },
+  "com.epostechnologies.gunesrestaurant": {
+    "title": "Gunes Restaurant",
+    "package": "com.epostechnologies.gunesrestaurant",
+    "description": "Here at Gunes Turkish Restaurant, we cook up authentic kebabs and seafood over the charcoal grill, along with loads of hot and cold mezzes. We pride ourselves in great food, relaxed vibe and friendly Turkish service.",
+    "icon": "/icons/com.epostechnologies.gunesrestaurant.png"
+  },
+  "com.paltech.guneskidswear": {
+    "title": "Gunes Kidswear",
+    "package": "com.paltech.guneskidswear",
+    "description": "Dress your little princess with love and elegance with Gunes Kidswear \ud83d\udc57\ud83d\udc60.\nWe bring you a charming collection of girls\u2019 fashion \u2013 from stylish dresses perfect for every occasion to comfortable shoes designed for everyday wear.\n\n\u2728 Why choose Gunes Kidswear?\n\t\u2022\t\ud83c\udf80 Exclusive Girls\u2019 Collection \u2013 Elegant dresses and chic outfits.\n\t\u2022\t\ud83d\udc5f Shoes for Every Step \u2013 Stylish, comfy, and durable.\n\t\u2022\t\ud83c\udf38 Trendy & Comfortable \u2013 Fashion your kids will love to wear.\n\t\u2022\t\ud83d\udecd\ufe0f Easy Shopping \u2013 Browse and order in just a few taps.\n\nAt Gunes Kidswear, we combine quality, comfort, and style to ensure your little one always looks her best.\n\n\ud83d\udca1 Download Gunes Kidswear now and explore the latest in kids\u2019 fashion made with care.",
+    "icon": "/icons/com.paltech.guneskidswear.png"
+  },
+  "com.GravityGames.Ginst": {
+    "title": "Ginst - Music Game",
+    "package": "com.GravityGames.Ginst",
+    "description": "\"In Ginst, you get to play your own music as opposed to just tapping away to follow certain beats. The game boasts an intuitive user interface where you can master the basics of music while having fun at the same time. In essence, the game lets you use your mobile device as a musical tool, and you can tinker around with a wide variety of genres across custom levels.\"\n\n- Catherine Dellosa/Pocket Gamer\n\n\nGinst - Gravity Instrument\n\nABOUT\n\nLearning to play music can be fun, inspiring, and time-consuming, but one thing is certain \u2013 it\u2019s never easy. It\u2019s necessary to choose the appropriate instrument, spend money and time on music classes, and ensure patience for everything ahead. Not anymore.\n\nThe intuitive interface allows you to easily master the basics of playing in the easiest way \u2013 just e",
+    "icon": "/icons/com.GravityGames.Ginst.png"
+  },
+  "com.gunestek.store": {
+    "title": "Gunes Tek Store",
+    "package": "com.gunestek.store",
+    "description": "GunesTek Digital Services Store \u2013 Your Ideal Destination for Integrated Digital Solutions\n\nGunesTek (gunes-tek.com) is a digital platform specializing in providing a wide range of digital services and products that meet the needs of customers in today's evolving digital world. The store is a trusted destination for those seeking professional and efficient digital solutions to help them achieve their personal and professional goals.\n\nOur Vision and Mission:\n\nAt GunesTek, we strive to be the first choice for customers seeking high-quality digital services at competitive prices. We believe that digital transformation is essential, and we are committed to providing the latest technological solutions that keep pace with the rapid advancements in the world of technology.\n\nOur Diverse Digital Ser",
+    "icon": "/icons/com.gunestek.store.png"
+  },
+  "com.summitbroadband.tv.platform": {
+    "title": "SBB TV",
+    "package": "com.summitbroadband.tv.platform",
+    "description": "SBB TV, powered by TiVo is a premier streaming subscription TV service available exclusively to Summit Broadband High-speed Internet customers. Enjoy live TV and on-demand content from your favorite channels, anytime at home or on the go using your favorite mobile device, Smart TV or streaming box. Features include: * Cloud DVR, Replay TV, On Demand, Advanced Interactive programming guide, and more. Learn more at summitbb.com or contact us to learn more about this Streaming TV subscription service.\u00a0\n\nDisclaimer -\nApp requires content to be displayed in its original aspect ratio or is of older quality.",
+    "icon": "/icons/com.summitbroadband.tv.platform.png"
+  },
+  "com.cheeseheadtv": {
+    "title": "Cheesehead TV",
+    "package": "com.cheeseheadtv",
+    "description": "Green Bay Packer Fan? Get the latest Packer news from Cheesehead TV as well as a curated list of sources from all over the web from the mainstream media covering Packer World to the Packer Blogosphere. Comment with fellow die-hard fans. Listen to the latest podcasts & always know the Packers schedule. Join the greatest Packer Fan community on the internet, cheeseheadTV.com\n\n\nFeatures:\n- Exclusive CheeseheadTV content\n- Latest Green Bay Packer schedule with scores\n- Over 20 Packers news feeds from around the web\n- CheeseheadTV Youtube channel integration with playlists\n- Podcast player with background playback\n- Fan friendly comments",
+    "icon": "/icons/com.cheeseheadtv.png"
+  },
+  "com.tvlistingsplus.tvlistings": {
+    "title": "TV Listings & Guide Plus",
+    "package": "com.tvlistingsplus.tvlistings",
+    "description": "TV Listings & TV Show Guide is FREE and help you get quick and reliable TV listings for all the major TV channels, networks and providers in the USA, Canada,... including cable, satellite and antenna.\n\nTV guide gives you detailed information about all the movies and shows on TV with modern, beautiful and smart interface.\n\nKeep track of your favorite TV shows with features:\n\n\u2022 set reminder for any programs you want to watch and build a custom TV program calendar help you never miss any favorite TV programs.\n\n\u2022 add shows to watchlist (My Series) and the app will automatically push notification when new episode comes out.\n\n\u2022 allow tracking status of episodes, this helps the app push notification better\n\nTV Listings and TV Show Guide app also provides suggestions for TV shows and movies in pri",
+    "icon": "/icons/com.tvlistingsplus.tvlistings.png"
+  },
+  "com.tulaidead.hahapuzzle": {
+    "title": "HAHA Puzzle - \u0e17\u0e32\u0e22\u0e20\u0e32\u0e1e\u0e1b\u0e23\u0e34\u0e28\u0e19\u0e32",
+    "package": "com.tulaidead.hahapuzzle",
+    "description": "Picture Decoding Puzzle Test has more than 200 unique and exciting puzzles for you to solve. Decode words from pictures. Guess the name of the song from the emoji and more. Have fun and relax with this picture puzzle game.",
+    "icon": "/icons/com.tulaidead.hahapuzzle.png"
+  },
+  "com.fortress.sim": {
+    "title": "haha TRAVEL by Fortress",
+    "package": "com.fortress.sim",
+    "description": "haha TRAVEL by fortress - The Travel App\nYou can buy data package, top up and manage your haha SIM account at everywhere by a few simple clicks in the haha TRAVEL App. haha SIM gives you a hassle-free experience to connect to the world when traveling. With haha SIM, you can not only enjoy roaming data service with good value of money, but you can also save the efforts of buying and registering an extra local SIM card. \n\nAdvantages of haha SIM:\n\u2022\tExtensive Coverage: Covers more than 70 destinations around the world\n\u2022\tFast & Stable Network: Data network is powered by 3HK and its worldwide telecom partners\n\u2022\tGood Value of Money: Enjoy unlimited data roaming in popular destinations from only HK$10 per day\n\u2022\tHassle-free: Enjoy the data service immediately upon your purchase and arrival without ",
+    "icon": "/icons/com.fortress.sim.png"
+  },
+  "com.tulaidead.haha": {
+    "title": "HAHA - Meme Caption Funny",
+    "package": "com.tulaidead.haha",
+    "description": "Tired of finding captions or funny memes that match your feelings? Meet the app that will turn all your pictures into funny memes and hilarious captions. Our app will take you to the fun world of creating funny memes, heartfelt captions and sarcastic quotes that are like no other.\n\nUnlimited creativity : Unleash your imagination with over 100 types of memes and captions, whether they are heartfelt quotes or laughter-inducing captions, they are ready for you to use immediately.\n\nAdd your own style : Make your creations unique by adding your own name and picture to your memes and captions, making every creation unique and truly expressing who you are.\n\nNo more problems thinking of captions: No more headaches with our intelligent caption thinking system. You will get captions that you like in",
+    "icon": "/icons/com.tulaidead.haha.png"
+  },
+  "com.sandboxgame.fishfarmcat": {
+    "title": "Fish Farm Cats",
+    "package": "com.sandboxgame.fishfarmcat",
+    "description": "Be the owner of the fish farm. Interact with cats and create precious memories with them!\n\n\u203b Part of the profit will be donated for the care of abandoned and stray cats.\n\n\u25a0 Starring the feline celebrities of haha ha's channel!\n- A perfect replica of the Fish Farm!\n- Gilmak, Three Colors, Yattong and more cats that you could only meet at haha ha\u2019s channel!\n- Diverse installable objects such as cat toys and towers that haha ha crafted in the real life!\n\n\u25a0 How to play\n- Cook fish and feed the cats.\n- Create toys, cat towers, cat litter boxes for the cats.\n- Touch cats when they come close! You can touch cats in the actual video.\n- Satisfied cat might get you gifts as a favor.\n\n\u25a0 Interacting with Cats\n- You can interact with cats by touching, observing, and taking photos of them with the actua",
+    "icon": "/icons/com.sandboxgame.fishfarmcat.png"
+  },
+  "com.permutize.haha": {
+    "title": "HaHa Wallet: Invest Smarter",
+    "package": "com.permutize.haha",
+    "description": "Use HaHa for the best experience on Monad. We provide the tools that help you stay informed and degen on the go.\n\nBe a Smarter Investor:\n\n- Buy, send, spend & exchange your digital assets.\n- Track your coins.\n- Track your NFTs.\n- Track NFT mints.\n- Set alerts and get notified of price changes on NFTs and coins.\n- Multi seed phrase wallets.\n- Ledger hardware wallet support.\n- Know the true value of your NFTs with our estimated price algorithm.\n- Connect to the decentralized web with built in scam protection\n\n- Ethereum and Polygon networks supported.\n- Earn karma rewards.\n- Check coin prices.\n- Figure out cost basis of each coin.\n- Know exactly how much your portfolio is worth.\n- See how much you paid in transaction fees.\n- No more spreadsheets and entering things manually.\n\nPortfolio Track",
+    "icon": "/icons/com.permutize.haha.png"
+  },
+  "com.zynga.FarmVille2CountryEscape": {
+    "title": "FarmVille 2: Country Escape",
+    "package": "com.zynga.FarmVille2CountryEscape",
+    "description": "Escape to the countryside where your farm awaits! Clear land to grow crops and trees, then use the harvest to make goods to sell. Nurture adorable animals on your farm; feed them to produce milk, eggs, cheese and so much more! Use workshops like Dairy, Pastry Ovens, Stovetops, Dinner Ovens to make classic recipes that you can sell on orderboards and marketplaces & earn coins and experience points to level up. \nGather these crafts and a few rare ingredients to make classic recipes and sturdy crafts at quaint workshops like Craft Workstations, Loom, Winery, Beachfront grill, Doll Making tables and more. Use these crafts to navigate your way through different kinds of events on the farm. \nExplore the glade, pond, mine, & other secret places hidden in the underbrush to gather rare ingredients.",
+    "icon": "/icons/com.zynga.FarmVille2CountryEscape.webp"
+  },
+  "com.zynga.farmville3": {
+    "title": "FarmVille 3 \u2013 Farm Animals",
+    "package": "com.zynga.farmville3",
+    "description": "Prepare for adventure as you dive into the fun new world of Farmville 3!\n\nExplore beyond the farm in the latest version of this classic farming simulator. Work with local artisans to grow your town into a city. It's all up to you!\nEnjoy the puzzle of day to day village life as you tend to your animals, plant and harvest crops, build, customize and decorate.\nBut the farm simulation is just the beginning! Once the garden is tended to, turn your attention to making friends!\n\nEvery aspect of life is here, from the blacksmith, the cook, the park ranger, your dog and so much more!\n\nFarm together with friends or make new friends in this new and exciting game! Compete in seasonal events and races!\n\nStart your own animal farm from the ground up by breeding and building a thriving, happy farm! You b",
+    "icon": "/icons/com.zynga.farmville3.webp"
+  },
+  "com.newmoonproduction.sunshineisland": {
+    "title": "Sunshine Island : Farming Game",
+    "package": "com.newmoonproduction.sunshineisland",
+    "description": "Welcome to Sunshine Island, a farming simulator game which is the ultimate tropical paradise for all your island farming dreams! Get ready to embark on a sunny adventure as you create the perfect island town with your beloved pets, thriving crops, and a bustling family farm.\n\nCraft Your Dream Sunshine Island - Build your Sunshine Island from scratch and turn it into a tropical paradise. Plant exotic fruits, grow crops with your family, and let your workers roam the island for resources. This is not just any island; it's your personal island farming simulator where you can let your creativity run wild!\n\nExplore the Mystical Archipelago on Your Sunshine Island Farming Simulator game - Set off on thrilling adventures to uncover hidden gems across your Sunshine Island paradise. Discover new is",
+    "icon": "/icons/com.newmoonproduction.sunshineisland.webp"
+  },
+  "com.playrix.township": {
+    "title": "Township",
+    "package": "com.playrix.township",
+    "description": "BUILD YOUR DREAM TOWN!\n\nWelcome to Township, a thrilling city-building and farming game where you become the mayor of your own town!\nBuild houses, factories, and community buildings, grow crops on your farm, and decorate your town just the way you like. Take part in limited-time events, compete in exciting regattas, and earn exclusive prizes!\n\nNeed a break from city planning? Jump into relaxing match-3 puzzles to earn rewards, speed up your progress, and unlock even more fun \u2014 all available offline!\nTownship \u2014 the perfect blend of city-building, farming, and match-3 gameplay!\n\nGAME FEATURES:\n\u25cf Unlimited creativity: Design and build the metropolis of your dreams!\n\u25cf Engaging match-3 puzzles: Complete fun levels to earn rewards and boost your progress!\n\u25cf Exciting competitions: Test your skill",
+    "icon": "/icons/com.playrix.township.png"
+  },
+  "com.carpenguin": {
+    "title": "Car Penguin: Launcher & Maps",
+    "package": "com.carpenguin",
+    "description": "Car Penguin: Naturally Ahead\n\nTransform your car's head unit into a powerful, personalized command center with Car Penguin! Designed for seamless integration and intuitive control, our software enhances your driving experience with intelligent navigation, endless entertainment, and smart connectivity.\n________________________________________\n\nKey Features:\no\tIntelligent Navigation Powered by Google Maps:\no\tReal-time Traffic Updates: Always know what's ahead. Get live traffic information to avoid delays and reach your destination faster.\no\tFastest Route Optimization: Car Penguin automatically calculates and guides you along the most efficient routes, saving you time and fuel.\no\tTurn-by-Turn Voice Guidance: Crystal-clear voice prompts ensure you stay on track without taking your eyes off the",
+    "icon": "/icons/com.carpenguin.png"
+  },
+  "com.zenthek.autozen": {
+    "title": "AutoZen-Car Dashboard&Launcher",
+    "package": "com.zenthek.autozen",
+    "description": "AutoZen, the Car Auto Launcher and Navigation app is a great driving companion for your Android Phone.\n\nThis car assistant app will help you stay focused while driving with the Turn by Turn Navigation and more features. AutoZen makes it safer to drive when you need to control the car multimedia, receive a call  among other things. If you are looking for a replacement for the discontinued Android Auto for phones or an alternative for apple carplay for android this app is for you.\n\nWith accurate drive navigation, this Car Dash or Dashboard Assistant app will allow you to search and easy link for your contacts, autolink and control your favorite music players like Spotify, Deezer, Pandora. Tidal and more\n\nThis Auto Launcher app will  help you for your trips as a great auto companion. If you a",
+    "icon": "/icons/com.zenthek.autozen.webp"
+  },
+  "com.autolauncher.motorcar.free": {
+    "title": "Car Launcher",
+    "package": "com.autolauncher.motorcar.free",
+    "description": "Car Launcher \u2013 a launcher designed specifically for your car. Works on your phone, tablet, and Android head unit. It's not just a convenient app launcher, but also a trip computer to track your journeys (requires background GPS permission).\n\nKey Features:\n\nFor All Users:\n\u2022 Set as the default launcher (essential for head units).\n\u2022 Add unlimited apps to the home screen. Create folders and switch between them.\n\u2022 Edit shortcuts with a long press.\n\u2022 Display current speed and trip data on the home screen (via GPS).\n\u2022 Quick app menu with sorting options.\n\u2022 Slide-out menu (trip computer) \u2013 opens with a button or swipe, fully customizable.\n\u2022 Displays: current/average/maximum speed, distance, total time, acceleration (0-60/100/150 km/h), 1/4-mile data.\n\u2022 Statistics for: current trip, today, week, mo",
+    "icon": "/icons/com.autolauncher.motorcar.free.png"
+  },
+  "gb.xxy.hr": {
+    "title": "Headunit Reloaded Emulator HUR",
+    "package": "gb.xxy.hr",
+    "description": "Headunit Receiver emulator for Android Auto.\n\nHow to use the app?\n\nUSB Mode\n\nPlug in the USB  to your device (in case of tablet use an OTG cable), when prompted make sure you allow HUR to be the default app for the action and you check the always box.\nIf you are running the app on a device with Android 7.0 or higher, you might need to pull down the notification bar and select the connected USB device before the app starts (this is device dependent)\n\n\nWifi\nInstall WiFi Launcher app on the phone!In WiFi Launcher select the cars BT, so app starts automaticallyEnable hotspot option in WiFi Launcher, connect your car's unit to the phones hotspot and open HeadUnit Reloaded (you can reverse the hotspot / client roles as well if you wish)\n\n\nSelf Mode (when Android Auto and HUR are running on the s",
+    "icon": "/icons/gb.xxy.hr.png"
+  },
+  "com.aurender.conductor": {
+    "title": "Aurender Conductor",
+    "package": "com.aurender.conductor",
+    "description": "A Collectors Approach \u2014 Aurender Conductor brings an elegant, highly responsive control experience to your Aurender music server\u2014designed for listeners who value precision, fidelity, and a well-organized music library. \n\nBuilt around Aurender\u2019s pursuit of uncompromised sound quality, the app integrates seamlessly with our lossless playback architecture. Enjoy smooth navigation, instant access to your content, and reliable control over every aspect of your system.\n\nKey Features \n\u2022 Intuitive browsing for large music libraries \u2014 albums, artists, composers, conductors, folders, and more \n\u2022 Streaming integration with Qobuz and TIDAL\n\u2022 Playlist, queue, and library management tailored for audiophile workflows \n\u2022 Metadata editing tools for fine-tuning your collection (works with select models)\n\u2022 D",
+    "icon": "/icons/com.aurender.conductor.jpg"
+  },
+  "com.prizmos.carista": {
+    "title": "Carista OBD2",
+    "package": "com.prizmos.carista",
+    "description": "Carista App is a mobile DIY car mechanic in the palm of your hands - code features, diagnose warning lights, monitor live data, and service your car.\n\nSave time and money from visits to the workshop with Carista. Customize your car\u2019s behavior, unlock hidden features, diagnose dashboard warning lights, monitor real-time parameters, and perform simple DIY procedures quickly and easily. Advanced app settings available for certain Audi, BMW, Buick, Cadillac, Chevrolet, Ford, GMC, Holden, Infiniti, Jaguar, Land Rover, Lexus, Lincoln, Mazda, MINI, Nissan, Opel/Vauxhall, Scion, SEAT, \u0160koda, Toyota, Volkswagen and Volvo models.\n\n\nTHE ALL-IN-ONE CAR TOOL\n-Customize your car's behavior: unlock hidden features, including SFD-protected ones, and tailor your car to your preferences.\n-Diagnose and Reset",
+    "icon": "/icons/com.prizmos.carista.png"
+  },
+  "com.caiso.IsoToday": {
+    "title": "ISO Today",
+    "package": "com.caiso.IsoToday",
+    "description": "Monitor California ISO power grid conditions, prices and renewable production, receive notifications and track calendar events with this free mobile application. \n\nFeatures:\n\u2022\tMonitor available resource adequacy capacity to identify when energy supply might be tight, up to 7 days in advance.\n\u2022\tView grid status and available capacity measured against the current demand and the forecasted peak.\n\u2022\tView renewables and supply graphs as stacked charts.\n\u2022\tView peak and daily production data for past dates on the renewables trend graph.\n\u2022\tView breakdown of supply and renewables serving the ISO.\n\u2022\tMonitor emissions.\n\u2022\tView wholesale energy prices on the price map. Use the slider to easily filter out nodes based on Location Marginal Prices (LMP).\n\u2022\tCompare demand and net demand plus historic data.\n\u2022",
+    "icon": "/icons/com.caiso.IsoToday.png"
+  },
+  "com.surfshark.vpnclient.android": {
+    "title": "Surfshark: Secure VPN service",
+    "package": "com.surfshark.vpnclient.android",
+    "description": "Protect yourself with Surfshark, a secure & fast VPN app! Try out all its features, including Alternative ID & Number, Antivirus, Ad-blocker, & Alert!\n\nMobile data, home or public Wi-Fi \u2014 our VPN will always protect your connection. And no need to stop at just a VPN \u2014 get Surfshark One to secure your devices from malware and get notified of any data leaks.  \n\nIndependently audited by Deloitte, Surfshark VPN ensures enhanced privacy. It offers high-quality infrastructure, including 4500+ servers with speeds of up to 10Gbps in over 100 countries. \n\nWe offer a free 7-day trial to test out the power of our VPN. Explore all our app has to offer before committing! \n\n\u2714\ufe0f Get a new online identity with Alternative ID:\nGenerate a brand-new online profile: get an alternative email address, name, and ",
+    "icon": "/icons/com.surfshark.vpnclient.android.webp"
+  },
+  "com.shuttlevpn.free.proxy.gaming": {
+    "title": "VPN Shuttle: Fast & Secure VPN",
+    "package": "com.shuttlevpn.free.proxy.gaming",
+    "description": "VPN Shuttle - Fast, Secure, Unlimited Virtual Private Network\n\nUnlock true internet freedom with VPN Shuttle, the ultimate virtual private network (VPN) application for fast, secure, and private browsing. Bypass geo-blocks, safeguard your privacy, and access restricted content effortlessly with a one-tap connection. With unlimited bandwidth and a global server network, VPN Shuttle guarantees a lightning-fast experience for streaming, gaming, and browsing.\n\n### Top Features:\n\n\ud83d\ude80 Super-Fast Global Protect VPN Servers\n\nConnect to high-speed servers for uninterrupted streaming, gaming, and browsing. VPN Shuttle ensures a fast and stable connection wherever you are.\n\n\ud83d\udd12 Secure & Private Internet Access\n\nYour data is shielded with military-grade encryption, ensuring anonymous and secure online act",
+    "icon": "/icons/com.shuttlevpn.free.proxy.gaming.png"
+  },
+  "com.zoundindustries.marshallbt": {
+    "title": "Marshall Bluetooth",
+    "package": "com.zoundindustries.marshallbt",
+    "description": "Things have moved on. There\u2019s no longer just a dial to twist when your favourite song comes on, then guard to make sure no one else touches it. With the app, you can crank up the volume from the kitchen and there\u2019s nothing anyone can do about it. \n\nIt\u2019s using the powers of technology for good, and ultimately with you in control, better playlists for all. And if apps aren\u2019t your thing, you can still use our products without it. \n\nUsing the app is simple. Just connect your devices, adjust the volume, and get on with your life. You can fiddle with more detailed adjustments if you\u2019re that way inclined, like equalisers and noise control for headphones \u2013 everything is there to help create your perfect fit. \n\nOur app supports these products:\nBromley 450\nBromley 750\nMiddleton II\nKilburn III\nMonito",
+    "icon": "/icons/com.zoundindustries.marshallbt.png"
+  },
+  "com.intuition.hle": {
+    "title": "Herbalife Learn",
+    "package": "com.intuition.hle",
+    "description": "Learn. Grow. Succeed. With Herbalife Learn! \n\nGold Award Winner \u2013 Brandon Hall Learning Development Technology 2023.\n\nAn exclusive app for Herbalife Independent Distributors. \n\nWatch videos, download resources, listen to podcasts, interact with modules, and more.\n\nStay in the know and help your business grow! \n\nCCPA Privacy Notice: https://www.myherbalife.com/en-US/ed/pages/public/privacy_policy.html#CaliforniaSupplement",
+    "icon": "/icons/com.intuition.hle.jpg"
+  },
+  "com.weareher.her": {
+    "title": "HER Lesbian, bi & queer dating",
+    "package": "com.weareher.her",
+    "description": "Join over 13 million+ lesbian, bisexual, trans, and queer people on HER - the world's most loved dating app & platform for the LGBTQIA+ community. We believe that everyone has the right to love and be loved, find friends, form meaningful relationships in the LGBTQIA+ community.  \n\nHER started as a lesbian dating app built by and for lesbian & queer womxn. We evolved into an LGBTQIA+ platform for all colors of the rainbow. We are proud to say that now we are more than the 'swipe right' lesbian dating app. We want to be the best LGBTQ platform, and we are working hard to make it happen. \n\n\u2764\ufe0f Dating \u2013 Experience the best online lesbian dating & meet queer folks from all over the world. \n\u2764\ufe0f LGBTQ+ News Feed \u2013 Share the most urgent and fantastic news about the LGBTIQ+ community. \n\u2764\ufe0f Communities",
+    "icon": "/icons/com.weareher.her.png"
+  },
+  "com.himshers.hers": {
+    "title": "Hers: Women\u2019s Healthcare",
+    "package": "com.himshers.hers",
+    "description": "Hers: Customized care designed for your schedule and your life with a 100% online process. Get access to best-in-class treatments and support for weight loss, hair loss, perimenopause, menopause, anxiety, depression, comprehensive lab testing, and more.\n\nWeight loss: Experience prescription weight loss treatment that puts you first. A weight loss plan through Hers is personalized to fit your lifestyle, eating pattern, health history, and goals to help you lose weight and feel like yourself. Hers connects you with a licensed medical provider to determine your eligibility for weight loss medications, such as compounded semaglutide, GLP-1s, or oral medication kits.  \n\nHair growth: Say hello to thicker, fuller hair with doctor-trusted prescription ingredients for hair growth and personalized t",
+    "icon": "/icons/com.himshers.hers.png"
+  },
+  "com.app.herkulesfitness.herkules_fitness_app": {
+    "title": "Herkules Fitness",
+    "package": "com.app.herkulesfitness.herkules_fitness_app",
+    "description": "The Herkules Fitness app is designed to help you optimize your outdoor training. From guided warm-up video to exercise tutorials, learn how to best use Herkules outdoor fitness equipment.\n\nYou can also report a problem by geolocating your training location and sending photos of the problem so that we can intervene as quickly as possible. In the Blog section you can discover all the news from the world of outdoor fitness.",
+    "icon": "/icons/com.app.herkulesfitness.herkules_fitness_app.jpg"
+  },
+  "com.macrovideo.v380": {
+    "title": "V380",
+    "package": "com.macrovideo.v380",
+    "description": "Our company  division  WiFi camera products can be used to achieve remote configuration camera, remote viewing, remote playback; It\u2019s your home security housekeeper!\n\nV380 is a new generation of intelligent household cloud camera free application, can easily realize the remote video monitoring and management.\n\n1. By this software can view the process of real-time video anytime and anywhere.\n2. Support remote PTZ control, camera direction of rotation performed by touching the screen.\n3. Support network live audio monitoring.\n4. Support network remote video playback and image capture.\n5. Support site motion detection alarm, and save the server to view \n6. Support voice intercom and video calls\n7. Intelligent cloud streaming transmission technology, 720P million high-definition public network",
+    "icon": "/icons/com.macrovideo.v380.png"
+  },
+  "com.hikvision.convergence": {
+    "title": "Hik-Partner Pro (Formerly HPC)",
+    "package": "com.hikvision.convergence",
+    "description": "The Hik-Partner Pro is a new version of Hik-ProConnect, it directly upgrade from Hik-ProConnect. \nThe Hik-Partner Pro one-stop security service platform gives Hikvision partners easy access to all Hikvision product (include Hilook series)informations, promotions, and marketing handouts. Enjoy efficient customer and device management and extended value-added services with roud-the-clock convicence.\nTop features you will love:\nGet well prepared in advance\n\u25cf SADP Tool on Mobile App\n\u25cf Find product info you need fast\n\u25cf Stay on the top of promotions, handouts and trends\n\u25cf Register project online and get support from manufacture\n\u25cf Design a solution in a snap\nInstall remotely and hand over efficiently\n\u25cf Customizable quote generation\n\u25cf Ready-to-use tutorials for installation\n\u25cf Visualized customer s",
+    "icon": "/icons/com.hikvision.convergence.png"
+  },
+  "com.ivuu": {
+    "title": "AlfredCamera Home Security app",
+    "package": "com.ivuu",
+    "description": "We are the world\u2019s most popular and top-rated security camera app for Android phones, with over 90 million families around the world choosing AlfredCamera to turn their old phones into powerful home security cameras, baby monitors, pet cams, and more.\n\nAlfredCamera is an all-in-one home security camera app providing more features than a expensive CCTV security camera system. It's live cam with instant intruder alert is perfect as a security camera, baby monitor, nanny cam, pet monitor, dog monitor, and more.\n\nAlfredCamera is well-recognized as:\n\u23e9 \u201cMost Innovative App\u201d \uff0d Google Play (2016)\n\u23e9 \u201cMost Popular Utility App\u201d \uff0d Google Play (2019)\n\u23e9 \u201cOne of the Best App Options for Setting up Your Phone as a Security Camera\u201d \uff0d CNET (Feb 2023)\n\u23e9 \u201cHome Protection is Achieved at Low Cost and Without Ma",
+    "icon": "/icons/com.ivuu.png"
+  },
+  "com.ringapp": {
+    "title": "Ring - Always Home",
+    "package": "com.ringapp",
+    "description": "Know what\u2019s happening at home from wherever you are with Ring Video Doorbells, Security Cameras and Alarm systems, and Smart Lights. Ring Doorbells and Cameras can send you instant alerts when someone\u2019s at your door or motion is detected. Keep an eye on what matters with live HD video and greet visitors with Two-Way Talk. With a Ring Protect subscription (or free trial), you can review, save, and share Ring videos.\n\nRing Smart Lights let you control and schedule lighting easily. Some models can even notify you about motion nearby, and trigger other compatible Ring devices to record.\n\nRing Alarm systems let you monitor entrances and indoor spaces, and detect certain safety hazards. Enroll in Ring Alarm Professional Monitoring* (compatible Ring Protect subscription required) to request dispa",
+    "icon": "/icons/com.ringapp.png"
+  },
+  "com.mywot.karatecat": {
+    "title": "Mobile Shield: Safe Browsing",
+    "package": "com.mywot.karatecat",
+    "description": "Introducing Mobile Shield our trusted Charlie the Karate Cat - Your Ultimate Android Security Companion!\nProtect your Android device with mobile security tools and safe browsing features, guided by your trusted sensei, Charlie. Whether you're browsing or shopping online, Mobile Shield keeps your Android device secure.\n\nKey Features:\nSafe Browsing & Safe Search: Protect yourself against cyber threats with our leading technology and real-time alerts.\nMobile Security: Strengthen your device against hackers, malware, and phishing attempts.\nOnline Protection: Browse the internet with peace of mind, knowing you\u2019re protected from digital dangers.\nStay Safe Online with Karate Cat.\nWith advanced safe search tools, Mobile Shield ensures you navigate the web securely. Our real-time protection identif",
+    "icon": "/icons/com.mywot.karatecat.png"
+  },
+  "com.hotshi.hotshi": {
+    "title": "hotshi",
+    "package": "com.hotshi.hotshi",
+    "description": "Highlight your skills and connect with recruiters and partners.\nShare your projects to attract collaborators and investors.\nCollaborate easily with secure, encrypted messaging.\nBoost the visibility of your business by publishing your news and articles.\nJoin the African talent showcase and access unique opportunities!",
+    "icon": "/icons/com.hotshi.hotshi.png"
+  },
+  "com.nebulatech.vpnpro": {
+    "title": "Shield VPN Pro - VPN Proxy",
+    "package": "com.nebulatech.vpnpro",
+    "description": "Shield VPN Pro \u2013 Fast, Secure & Unlimited VPN for Android\n\nGet the ultimate online protection and unlock the full power of the internet with Shield VPN Pro, a high-speed, secure, and easy-to-use VPN app built for privacy, performance, and freedom. Whether you're looking for a VPN for Android, a VPN for streaming, or a VPN for gaming, Shield VPN Pro gives you everything \u2013 100% free with no ads, no subscription, and no limitations.\n\nFast VPN Speeds. Global VPN Servers. Unlimited VPN Access.\n\nShield VPN Pro connects you to the fastest VPN servers around the world for an ultra-smooth, low-latency VPN experience. Whether you're browsing, streaming, or playing online games, enjoy the benefits of a high-speed VPN that never slows you down.\n\n100% Secure & Private VPN\n\nWe use end-to-end encryption ",
+    "icon": "/icons/com.nebulatech.vpnpro.png"
+  },
+  "com.rob.hotscots": {
+    "title": "Hots&Cots",
+    "package": "com.rob.hotscots",
+    "description": "Hots&Cots: Elevate Your Military Experience\n\nEmpowering Soldiers\n\nEmbark on a revolutionary journey with Hots&Cots, the must-have app designed for military personnel. Discover transparency like never before as you navigate through barracks, dining facilities, MWR, hospitals, gyms, and more. Your voice matters, and Hots&Cots is your platform to anonymously share your experiences.\n\nKey Features:\n\n* Anonymous Reviews: Speak your truth without revealing your identity. Honest reviews to amplify your voice.\n\n* Comprehensive Insights: Dive deep into living conditions, dining experiences, and other crucial aspects of military life.\n\n* Partnerships with Installations: We're not just an app; we're a catalyst for change. Collaborate with installations to address reported issues promptly.\n\n* User Priv",
+    "icon": "/icons/com.rob.hotscots.png"
+  },
+  "com.hotcodes.hotvpn": {
+    "title": "HotVPN - Fast, Safe VPN",
+    "package": "com.hotcodes.hotvpn",
+    "description": "Anti filter and VPN proxy to secure and fast access to any filtered content\n\n~Worldwide high speed dedicated VPN servers \n~Secures Internet activities\n~Free\n~No Registration Account\n~Easy to use one-tap connect to secure your connection\n~High performance and speed Using ~powerful protocols Opens filtered content\n~Secures Internet activities\n~Unlimited time, Unlimited bandwidth, Unlimited streaming and downloading & uploading",
+    "icon": "/icons/com.hotcodes.hotvpn.png"
+  },
+  "com.ibo.vplayer": {
+    "title": "IBO Player IBOV",
+    "package": "com.ibo.vplayer",
+    "description": "IBO Player IBOV is a versatile and user-friendly media player designed to provide smooth playback of your playlist content on Android TV, smartphones, tablets, and other streaming devices. With a clean interface and powerful features, it delivers an enjoyable and personalized viewing experience.\n\n\ud83d\udd11 Key Features\n\n\u2022 Playlist Support \u2013 Quickly load and manage your M3U or similar playlist files\n\u2022 HD & 4K Playback \u2013 Stream high-quality video with reliable performance\n\u2022 Intuitive Interface \u2013 Simple and clean design for easy navigation\n\u2022 Favorites Manager \u2013 Mark and organize your favorite channels and videos\n\u2022 Parental Controls \u2013 Manage access with customizable restrictions\n\u2022 Multi-Language Options \u2013 Select from multiple audio tracks and subtitles\n\u2022 External Player Support \u2013 Compatible with other",
+    "icon": "/icons/com.ibo.vplayer.png"
+  },
+  "com.rifftica.proplayerpulse": {
+    "title": "proplayertvibo",
+    "package": "com.rifftica.proplayerpulse",
+    "description": "IBO Pro Player TV is a dedicated media player built for streaming your own content.\nPlease note: IBO Pro Player TV does not provide any content. Users must upload or add their own media to use the app.\n\nSupported formats:\n\nM3U and M3U8 playlists\n\nXtream Codes API (Username, Password, and URL)\n\n\nIntegrated Players:\n\nVLC Player\n\nExoPlayer\n\n\nEnjoy a sleek, user-friendly design and stream your favorite content smoothly with IBO Pro Player TV.",
+    "icon": "/icons/com.rifftica.proplayerpulse.png"
+  },
+  "com.iboplayer.app": {
+    "title": "IBO Player Pro",
+    "package": "com.iboplayer.app",
+    "description": "IBO Player Pro is a premium Smart TV media player designed for users who want a smooth, powerful, and professional way to load playlists, play channels, organize VOD libraries, browse movies & series, and stream media across multiple devices. Built for the modern streaming generation, IBO Player Pro delivers a fast and intuitive playback experience optimized for TV, mobile, tablet, Fire devices, and Android TV platforms.\n\nWith support for custom playlists, live TV channels, video-on-demand (VOD), series, movies, EPG guides, and multi-category organization, IBO Player Pro helps you bring all your entertainment into one clean interface without complexity.\n\n\ud83c\udfac Premium Media Player Experience\n\nIBO Player Pro functions as a playlist-based media player, making it easy for users to:\n\nLoad playlist",
+    "icon": "/icons/com.iboplayer.app.png"
+  },
+  "com.ibpro.player.app": {
+    "title": "IBO PRO PLAYER \u2013Movies Live TV",
+    "package": "com.ibpro.player.app",
+    "description": "IBO PRO PLAYER is a powerful and easy-to-use media player designed to help users enjoy movies, web series, TV shows, and live TV in one simple app.\n\nWith a clean interface and smooth performance, IBO PRO PLAYER delivers an enhanced viewing experience for entertainment lovers who want fast access and reliable playback across different content types.\n\n\u2b50 Key Features\n\n\u2714 Watch movies, web series & TV shows\n\u2714 Live TV streaming support\n\u2714 Fast & smooth video player\n\u2714 Simple and user-friendly interface\n\u2714 Supports multiple formats & sources\n\u2714 Optimized for phones, tablets & TV devices\n\u2714 Lightweight and performance-focused design\n\n\ud83c\udfac Why Choose IBO PRO PLAYER?\n\nBuilt for stable playback\n\nEasy navigation & modern UI\n\nRegular updates for better performance\n\nDesigned for entertainment convenience\n\nIBO P",
+    "icon": "/icons/com.ibpro.player.app.png"
+  },
+  "com.iboproplayer.streamplayer.ibo": {
+    "title": "Ibo Pro Player",
+    "package": "com.iboproplayer.streamplayer.ibo",
+    "description": "Ibo Pro Player: Premium M3U Streaming Solution\n\nDiscover the ultimate M3U playlist streaming experience with Ibo Pro Player, a professional-grade media player engineered for flawless performance across all your devices. Whether you're streaming on Android Smart TVs, streaming sticks, smartphones, or tablets, this advanced player delivers your favorite channels and content without interruption.\n\n Seamless Performance & Quality\n\nIbo Pro Player combines sophisticated streaming technology with an intuitive interface, making it effortless to enjoy TV shows, movies, sports, and entertainment content. The application is optimized to support all screen resolutions, including stunning 4K quality, ensuring your viewing experience matches your display's full potential.\n\n Effortless Playlist Managemen",
+    "icon": "/icons/com.iboproplayer.streamplayer.ibo.png"
+  },
+  "com.smarters.smarterspro": {
+    "title": "Smarters Pro - Mobile",
+    "package": "com.smarters.smarterspro",
+    "description": "Smarters Pro: Your Ultimate Media Player for High-Quality Viewing\n\nSmarters Pro is a powerful and versatile media player that delivers a smooth and high-quality viewing experience across multiple platforms. Designed for seamless usability, it supports a wide range of formats, including M3U and JSON playlists, enabling users to play their personally owned media from both local storage and remote sources. Whether for live streaming, video-on-demand, or audio playback, Smarters Pro provides a reliable, high-performance media experience without interruptions.\n\ud83d\ude80 Key Features:\n\u2705 User-Friendly Interface \u2013 Intuitive design for effortless media playback\n\u2705 Multiple Playlist Formats \u2013 Supports M3U, JSON, and other standard formats\n\u2705 High-Quality Playback \u2013 Enjoy smooth streaming with advanced video c",
+    "icon": "/icons/com.smarters.smarterspro.png"
+  },
+  "com.player.player.plavex": {
+    "title": "IPTV Smarters Pro",
+    "package": "com.player.player.plavex",
+    "description": "Smarter Player Pro : IPTV Player - IPTV Media Player Application\n\n**IPTV media player application for streaming content through IPTV protocols on Android devices**\n\nSmart IPTV Player provides IPTV content playback functionality through mobile media player interface. The application supports IPTV playlist management, channel navigation, and video streaming controls for user-provided IPTV content sources.\n\n## Application Features:\n\n**\ud83d\udcfa IPTV Playback Functionality**\n- IPTV protocol streaming support\n- Live channel playback through IPTV streams\n- Video on demand content access\n- Electronic program guide integration\n- M3U and M3U8 playlist format support",
+    "icon": "/icons/com.player.player.plavex.png"
+  },
+  "com.smartersw.iptvplayer.app": {
+    "title": "IPTV Smarters Player",
+    "package": "com.smartersw.iptvplayer.app",
+    "description": "Smarters Player is an incredible media streaming player which is developed especially for users that want to be provided with the facility to watch live TV, Movies, Series and TV Catchup on their Smart TV.",
+    "icon": "/icons/com.smartersw.iptvplayer.app.png"
+  },
+  "com.pecana.iptvextremepro": {
+    "title": "IPTV Extreme Pro",
+    "package": "com.pecana.iptvextremepro",
+    "description": "*** THE APP DOES NOT CONTAIN ANY CHANNLES ! ***\n\nWe DO NOT provide playlist or instruction on how to get playlists\nThis is a simple playlist manager\n\nFeatures:\n- Integrated Player (Advanced & Light)\n- Chromecast Support\n- Parental Control\n- Remote Controller support\n- Backup / Restore Settings\n- M3U playlists support\n- MAG support\n- Multi EPG support (TV Guide)\n- Auto EPG update\n- EPG alias management\n- All the EPG providers are included\n- Picons support in different size\n- Ability to download On Demand Programs!\n- Ability to record Live Streaming with time limit!\n- More than 10 Themes availables!\n- Time Recording\n- Timers Management\n- Autostart On Boot Function \n- Set Memo function for Events on TV Guide\n- Search for Similar Events on TV Guide \n- Sliding EPG time\n\nAdditional features are ",
+    "icon": "/icons/com.pecana.iptvextremepro.png"
+  },
+  "com.pecana.iptvextreme": {
+    "title": "IPTV Extreme",
+    "package": "com.pecana.iptvextreme",
+    "description": "*** PLEASE NOTE THIS APP DOES NOT CONTAIN ANY CHANNLES ***\n***         THE APPLICATION REQUIRES A PLAYLIST TO WORK         ***\n\nWe do NOT provide playlists or information on how to get them\n\nIf you would like to translate the applcation in your language please contact me!\n\nFeatures:\n- Integrated Player (Advanced & Light)\n- Chromecast Support (Beta)\n- Parental Control\n- Remote Controller support\n- Backup / Restore Settings\n- M3U playlists support\n- Multi EPG support (TV Guide)\n- Auto EPG update\n- EPG alias management\n- All the EPG providers are included\n- Picons support in different size\n- Ability to download On Demand Programs!\n- Ability to record Live Streaming with time limit!\n- More than 10 Themes availables!\n- Time Recording\n- Timers Management \n- Autostart On Boot Function \n- Set Memo",
+    "icon": "/icons/com.pecana.iptvextreme.png"
+  },
+  "com.creativelabs.iptvplayer": {
+    "title": "Xtream IPTV Player",
+    "package": "com.creativelabs.iptvplayer",
+    "description": "Watch live TV, movies, series with your Xtream account. Simply add your profile (username, password and url) and enjoy your IPTV provider's live channels and VODs.\n\nNo ads and no subscriptions\n\nLightweight and fast\n\nFeatures:\n\n- Live channels\n\n   * Channels displayed with EPG if available\n\n   * Add channels to your favorites and manage the order\n\n   * TV guide with all programs in the selected list (recommend to use this from your favorites), option to replay if available\n\n   * Chromecast support\n\n   * Switch between TV and radio\n\n- Movies & Series\n\n   * Netflix like display of movies & series by category\n\n   * Search function (for series you can also search by director/actor/etc)\n\n   * Filtering\n\n   * Favorites\n\n   * Video, audio and subtitles tracks\n\n   * Youtube trailers\n\n   * Option to",
+    "icon": "/icons/com.creativelabs.iptvplayer.png"
+  },
+  "com.myiptvonline.implayer": {
+    "title": "iMPlayer TV IPTV Player",
+    "package": "com.myiptvonline.implayer",
+    "description": "iMPlayer app is a media player suited to play m3u files and certain supported platforms.\n\nThe idea behind the app is to bring the end user the ultimate cable like feeling on his Android TV device, the app include the following (but not limited):\n\n- Catch-up support\n- Local timeshift support\n- VOD support\n- Recording support\n- Download support\n- Full EPG guide support\n- Fully customizable UI\n- Much more!",
+    "icon": "/icons/com.myiptvonline.implayer.png"
+  },
+  "com.smithtommy.japantv2": {
+    "title": "Japan TV Channels",
+    "package": "com.smithtommy.japantv2",
+    "description": "Unlimited Japanese entertainment with Japan TV Channels, the ultimate app for streaming live Japanese TV and videos. Designed for smooth performance and packed with robust features, it\u2019s perfect for anyone seeking an easy way to enjoy Japanese series, dramas, news, sports, and more.\n\nKey Features\n\n\ud83c\udfa5 Broad Format Compatibility: Supports multiple formats, including DASH, HLS, MP4, and direct streaming links.\n\ud83d\ude80 Smooth Playback: Enjoy lag-free video streaming for uninterrupted viewing.\n\ud83d\uddbc\ufe0f Picture-in-Picture Mode (PIP): Watch your streams in a small window while multitasking.\n\ud83c\udf9b\ufe0f Customizable Controls: Adjust video scaling modes and playback settings to match your preferences.\n\ud83c\udf10 Stream & Cast: Easily cast your content to any TV with Chromecast support.\n\ud83c\udfa7 Enhanced Audio Quality: Enjoy optimized a",
+    "icon": "/icons/com.smithtommy.japantv2.jpg"
+  },
+  "com.markanica.japanesetv": {
+    "title": "Japanese TV",
+    "package": "com.markanica.japanesetv",
+    "description": "Japanese TV Player is a versatile app that enables users to stream Japanese TV programs using their own media content. We support all streaming technologies, including HLS, DASH, MPEG, MP4, and more.\n\nThe app features a demo video stream to showcase our player capabilities, allowing users to experience the video streaming features firsthand.\n\nPlease note that if a stream stops working, it is not due to our player but rather the stream provider\u2014for example, the server provider may be far from your location.\n\nUsers can easily add their own content by providing stream URLs and optional parameters like user-agent, making it highly customizable. All newly added streams will be available for playback at any time under the \"Favorites\" category.\n\nOur app comes packed with features such as:\n\n    Ch",
+    "icon": "/icons/com.markanica.japanesetv.jpg"
+  },
+  "com.japan.tv": {
+    "title": "Japan Live",
+    "package": "com.japan.tv",
+    "description": "Japan Live enables you to watch Japanese channels such as sports, movies, music, and entertainment in high quality and HD",
+    "icon": "/icons/com.japan.tv.png"
+  },
+  "com.logicahost.tvjapao": {
+    "title": "TV Jap\u00e3o",
+    "package": "com.logicahost.tvjapao",
+    "description": "A channel that brings a bit of Japanese culture, with the mission of delivering information, news, and sports. Watch our programming on our app.",
+    "icon": "/icons/com.logicahost.tvjapao.png"
+  },
+  "com.globaltv.livetv": {
+    "title": "Japanese Live TV  \u5730\u4e0a\u6ce2\u30c6\u30ec\u30d3\u756a\u7d44",
+    "package": "com.globaltv.livetv",
+    "description": "\u5730\u30c7\u30b8\u30c6\u30ec\u30d3 - \u65e5\u672c\u306e\u5730\u4e0a\u6ce2\u756a\u7d44\u3092\u30e9\u30a4\u30d6\u8996\u8074 allows you to enjoy live terrestrial TV programs from Japan directly on your smartphone or tablet. Watch a wide range of broadcasts including news, dramas, variety shows, sports, and anime in high quality and stable streaming.\n\nThe app features an intuitive interface, allowing you to quickly access and watch the programs you want. With convenient features like adding favorites, browsing by region, and smooth playback, this app provides a seamless viewing experience. Whether you're at home or on the go, you can enjoy real-time Japanese TV broadcasts.\n\nKey Features:\n\nWatch live terrestrial TV programs from Japan\n\nHigh-quality, low-latency streaming\n\nEasy-to-use interface for simple navigation\n\nAccess to a variety of program genres\n\nLightweight app for smooth performan",
+    "icon": "/icons/com.globaltv.livetv.png"
+  },
+  "com.liquid.glass.round.icons": {
+    "title": "Liquid Glass 26 Round Icons",
+    "package": "com.liquid.glass.round.icons",
+    "description": "\ud83c\udf1f Liquid Glass 26 Circle \u2013 Elegant. Minimal. Iconic. \ud83c\udf1f\n\nExperience a new level of refinement with Liquid Glass 26 Circle \u2013 a premium icon pack inspired by iOS 26, reimagined in a soft circular style. Featuring 2790 handcrafted icons and 35 curated wallpapers, this pack delivers a clean, modern, and futuristic aesthetic with semi-transparent glass textures and pastel color accents.\n\n\ud83d\udd35 Key Features:\n\n\u25cf 2790+ high-quality icons\n\n\u25cf Unique circular design with a smooth liquid glass effect\n\n\u25cf Inspired by iOS 26, with a pastel twist for Android\n\n\u25cf 35 cloud-based wallpapers designed to complement the icons\n\n\u25cf Minimal, elegant, and cohesive look\n\n\u25cf Regular updates with new icons and refinements\n\n\u25cf Supports dynamic calendar icons\n\nCompatible with major launchers (Nova, Lawnchair, Smart Launcher, etc",
+    "icon": "/icons/com.liquid.glass.round.icons.png"
+  },
+  "com.liquid.glass.pro": {
+    "title": "Liquid Glass 26 Icon Pack",
+    "package": "com.liquid.glass.pro",
+    "description": "Step into the future of customization with Liquid Glass 26 Icon \u2014 a premium icon pack inspired by the elegant, translucent style of iOS 26.\n\nWith over 2500 handcrafted icons in the initial release, this pack blends glassmorphism and minimal design to give your device a fresh, futuristic look. Whether you're aiming for sleek aesthetics or vibrant layouts, Liquid Glass 26 adapts to your setup perfectly.\n\n\u2728 Features:\n\n\u2022 2500+ high-quality icons (and growing!)\n\n\u2022 Inspired by iOS 26\u2019s Liquid Glass aesthetic\n\n\u2022 Multiple alternate icons for popular apps\n\n\u2022 Supports all major launchers (Nova, Smart, Lawnchair, etc.)\n\n\u2022 Dynamic calendar support\n\n\n\ud83d\udce9 Missing icons? No problem! Use the in-app request tool and we\u2019ll add them in future updates.\n\n\u2014\n\n\ud83d\udd17 Stay updated and follow for new designs & themes.\n\nMa",
+    "icon": "/icons/com.liquid.glass.pro.png"
+  },
+  "com.liquidglass.klwp": {
+    "title": "Liquid Glass for KLWP",
+    "package": "com.liquidglass.klwp",
+    "description": "Transform your Android device with stunning liquid and frosted glass effects inspired by premium design aesthetics. This professional KLWP template collection delivers two exquisite presets featuring the coveted liquid glass effect and sophisticated frosted glass styling, both fully customizable to match your personal taste.\n\nDisclaimer: This works best for two pages in launcher, but if the widgets are overlapping, go to the global variables and turn off scroll, also disable Calendar switch! Basically your launcher is at the fault here. It works best with 2 pages on home screen. I'll add a \"number of pages\" support in some time!\n\n\ud83c\udf1f Premium Features:\nDual Glass Effects - Choose between mesmerizing liquid glass and elegant frosted glass themes\nDynamic Blur Control - Precisely adjust blur int",
+    "icon": "/icons/com.liquidglass.klwp.png"
+  },
+  "com.kustomapps.ios26": {
+    "title": "iOS 26 Liquid Glass KWGT",
+    "package": "com.kustomapps.ios26",
+    "description": "This is not a stand-alone app. This App requires the KWGT PRO application (Paid Version of the App).\n\nExperience the liquid glass effect of iOS 26 on your Android device. \ud83d\udd25\n\niOS 26: The Ultimate iOS-Inspired Widget Pack designed with \ud83d\udc96 for those who love the premium feel of Apple's latest iPhone 17 liquid glass widgets and wallpapers designs.\n\n\u2b07\ufe0fWhat you need:\u2b07\ufe0f\n\u2714 KWGT PRO App\n\u2705KWGT https://play.google.com/store/apps/details?id=org.kustom.widget\n\u2705Pro Key https://play.google.com/store/apps/details?id=org.kustom.widget.pro\n\n\u2714 Custom launcher like Nova Launcher (Recommended)\n\n20+ Stunning Widgets Included:\n\n\u231a 7x Clocks \u2013 Sleek, minimal time designs \u23f0\n\ud83c\udfb6 2x Music \u2013 Beautiful music players with frosted glass effect \ud83c\udfa7\n\ud83d\udd0b 2x Battery \u2013 Modern battery widgets with frosted transparency \ud83d\udd0b\n\ud83c\udf26\ufe0f 2x Weather",
+    "icon": "/icons/com.kustomapps.ios26.png"
+  },
+  "com.touchtype.swiftkey.beta": {
+    "title": "Microsoft SwiftKey Beta",
+    "package": "com.touchtype.swiftkey.beta",
+    "description": "- BETA VERSION -\n\nWelcome to the beta program for Microsoft SwiftKey Keyboard - here you can test early performance updates, new unreleased features, customizations, and special themes. Thanks for helping us make Microsoft SwiftKey the best it can be!\n\nThe Microsoft SwiftKey beta app for Android will not replace the regular Microsoft SwiftKey app on your phone, but will be downloaded as a second app so you can switch between the two for comparison.\n\nBeta Expectations\n\nFeatures in the beta app are in active development and might not work perfectly or ever be released to the main Microsoft SwiftKey app.\n\nHow you can help make Microsoft SwiftKey better\n\nAs a beta tester, we rely on you to help us find bugs and give us feedback on new features. To give us feedback or report any bugs, head on o",
+    "icon": "/icons/com.touchtype.swiftkey.beta.png"
+  },
+  "com.facemoji.lite": {
+    "title": "Facemoji Emoji Keyboard Pro",
+    "package": "com.facemoji.lite",
+    "description": "Facemoji Emoji Keyboard Pro is a Free, Fully Customized, All-in-1 Keyboard with super-rich contents and powerful features! With 5000+ Emoji, Cute Stickers, Emoticon, GIF, Cool Fonts, stylish themes on this emoji keyboard, Facemoji Emoji Keyboard Pro spice up your chats and posts on WhatsApp, Tiktok, Instagram, Messenger, Facebook, Snapchat, Telegram, SMS, etc.\ud83c\udf89 Texting has never been more fun with this hottest emoji keyboard in 2021!\ud83e\udd18\ud83d\ude1d\ud83e\udd18\n\nSimiilar to Gboard and Swiftkey, we have smart auto correction and able to learn the way you type, but this keyboard just makes the whole typing experience funnier!\n\n\u2605 Easy to send 5000+ Emoji, Emoticon, Free Stickers, Emoji Art, Text Art, Symbols, GIF\n- \ud83d\udc8eAll NEW emojis for 2021 are now available on Facemoji Emoji Keyboard Pro, check out the latest trendin",
+    "icon": "/icons/com.facemoji.lite.png"
+  },
+  "com.kickride.app": {
+    "title": "KICK - Enjoy the Ride!",
+    "package": "com.kickride.app",
+    "description": "Kick Ride Scooters, puts your city at your feet with fast, enjoyable scooter rides that will get you where you want to go and everything in between without the hassle. \n\nHad to park far away? \nRide a KICK and turn an inconvenience into a Great time. \n\nLate for class? \nGrab a KICK and get there with time to spare. \n\nYour favorite coffee shop is too far to walk on your break? \nKICK over and back without breaking a sweat.\n\nGet Started:\n1. Download the app.\n2. Register.\n3. Find a KICK.\n4. Scan QR code.\n5. KICK safely to your destination.\n6. Park KICK according to local rules.\n7. End your ride.\n\nWhen to KICK:\n1. Commute to Work\n2. On a Date\n3. Cross Campus\n4. Ride for Pleasure with Friends\n5. To and From Public Transit\n6. Explore Around Town\n7. Short-Distance Trips\n8. If parking space is too fa",
+    "icon": "/icons/com.kickride.app.png"
+  },
+  "com.playgendary.ktbremaster": {
+    "title": "Kick the Buddy: Second Kick",
+    "package": "com.playgendary.ktbremaster",
+    "description": "Buddy is back to help you unwind and bring some lighthearted fun to your day! Enjoy the remastered classic with Buddy, everyone\u2019s favorite stress-relief doll, designed to help you let off some steam. Customize, interact, and get creative with Buddy in a playful experience that\u2019s packed with surprises.\n\nSimply tap, drag, and throw Buddy around the screen in an intuitive gameplay experience. You can start by stretching Buddy\u2019s limbs, tossing him against walls, or testing his endurance in new and entertaining ways. As you continue to interact with Buddy, you\u2019ll earn coins to unlock an incredible variety of tools, effects, and items that offer endless ways to play. Each interaction brings you closer to unlocking more dynamic experiences as Buddy brings his unique personality to life with funny",
+    "icon": "/icons/com.playgendary.ktbremaster.png"
+  },
+  "com.kick.streaming": {
+    "title": "KICK - Go Live",
+    "package": "com.kick.streaming",
+    "description": "KICK\u2019s a live streaming platform where creators kick it with their communities. (Yeah, we said the thing\u2026)\n\nOur creators march to the beat of their own drum, as do we, disrupting our opps with a 95-5 subscription split, our creator incentive program, and the freedom to multistream.\n\nThat's why the likes of xQc, Asmongold, and Westcol all pick KICK.\n\nFor viewers, it\u2019s the fear of missing out that compels them to tune in, the chance to be part of internet culture, all in real-time and ad-free.\n\nbut lets be real, no one reads these, so if youve made it this far, at least give the app 5 stars. it will good for my performance review. thanks <3\n\nP.S. Peep the boring stuff at kick.com/terms-of-service",
+    "icon": "/icons/com.kick.streaming.png"
+  },
+  "com.roku.remote": {
+    "title": "The Roku App (Official)",
+    "package": "com.roku.remote",
+    "description": "Get to know the must-have streaming sidekick! \n\nUse the free Roku\u00ae mobile app to:\n\u2022 Control your Roku devices with a convenient remote\n\u2022 Use your voice or keyboard to quickly search for entertainment\n\u2022 Enjoy private listening with headphones\n\u2022 Stream free movies, live TV, and more on the go with The Roku Channel  \n\u2022 Cast media files from your phone, like videos and photos, to your TV \n\u2022 Add and launch channels on your Roku devices\n\u2022 Enter text on your Roku device more easily with your mobile keyboard\n\n\nYou must connect your phone or tablet to the same wireless network as your Roku device to use certain features of the mobile app. Some features require a compatible Roku device and may require logging into your Roku account.\n\n\nFeature availability:\n\u2022 Voice search is available in English in t",
+    "icon": "/icons/com.roku.remote.png"
+  },
+  "com.olivera.iglass": {
+    "title": "iOS Liquid Glass - Icon Pack",
+    "package": "com.olivera.iglass",
+    "description": "\u26aa\ufe0f Customize your home screen launcher with these elegant, fluid, and essential pure white moonlight icons for a clean, minimalistic look!\nA brighter style for your Android setup with this unique icon pack, which creates a clean and sophisticated aesthetic!\n\n\n\ud83d\udcf1 FEATURES\n    Over 5,000 white moonlight icons are included\n\n   Exclusive contrast with optimized white wallpapers\n\n    Dynamic calendars for compatible launchers\n\n    Material You-style easy-to-use Dashboard\n\n    Icon Masking/Background for unthemed apps\n\n    Icon Requests for your apps (Free)\n\n    Regular updates for new icons\n\n\ud83c\udfa8 COVERED ANDROID APP CATEGORIES\n\n    System Apps\n    Google Apps\n    OEM App Stocks\n    Social Apps\n    Media Apps\n    Gaming Apps\n    Many other apps...\n\n\ud83d\udcc3 HOW TO USE / REQUIREMENTS\n\n    Install a compatib",
+    "icon": "/icons/com.olivera.iglass.png"
+  },
+  "com.spocky.projengmenu": {
+    "title": "Projectivy Launcher",
+    "package": "com.spocky.projengmenu",
+    "description": "Tired of cluttered TV screens and intrusive ads? Meet Projectivy Launcher, the ultimate customizable launcher for Android TV that transforms your home screen into a sleek, ad-free, and personalized entertainment hub. Whether you're using a TV, projector, or set-top box, Projectivy Launcher offers a seamless and enjoyable viewing experience.\n\n\u2714 Clean & Customizable Interface\n  \u2022 Ad-Free Experience: Say goodbye to unwanted ads and hello to a clean home screen.\n  \u2022 Effortless Launcher Override: Easily replace the default stock launcher.\n  \u2022 Flexible Layouts: Organize your apps into categories and channels with adjustable spacing and personalized styles.\n\u2714 Dynamic Wallpaper Options\n  \u2022 Animated Backgrounds: Use GIFs or videos to bring your screen to life.\n  \u2022 Customization Tools: Adjust bright",
+    "icon": "/icons/com.spocky.projengmenu.png"
+  },
+  "com.teslacoilsw.launcher.prime": {
+    "title": "Nova Launcher Lifetime Prime",
+    "package": "com.teslacoilsw.launcher.prime",
+    "description": "\ud83c\udf81 Do even more with Nova Launcher Prime\nUnlock Nova Launcher\u2019s full potential with Nova Launcher Prime.\n\u2022\u2003Gestures:  Swipe, pinch, double tap, and more on the home screen to execute custom commands.\n\u2022\u2003App drawer groups: Create custom tabs or folders in the app drawer for an ultra-organized feel.\n\u2022\u2003Hide apps: Hide apps from the app drawer without uninstalling them.\n\u2022\u2003Custom icon swipe gestures: Swipe up or down on your home screen icons to become more productive without taking up more home screen space.\n\u2022\u2003\u2026and more. More scrolling effects, notification badges, and others.\n\n\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\n\nNova Launcher Prime acts as a license to unlock these features in the free Nova Launcher App. You will need to install Nova Launcher  first.\n\n\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\u2015\n\nIcons used in screenshots\n\u2022\u2003OneYou Icon Pack by PashaPu",
+    "icon": "/icons/com.teslacoilsw.launcher.prime.png"
+  },
+  "com.appsgenz.launcherios.pro": {
+    "title": "Launcher OS\u2122 Pro",
+    "package": "com.appsgenz.launcherios.pro",
+    "description": "\u2728 Launcher OS\u2122 Pro Features\u2728\n\u2714\ufe0f Remove Ads to ensure pure & clean user interface\n\u2714\ufe0f Friendly user interface with row and column icon elements inspired\n\u2714\ufe0f 50+ Unique wallpapers\n\u2714\ufe0f Many color widgets and themes which support light mode and dark mode.\n\u2714\ufe0f Customize your Lock Screen, widget\n\u2714\ufe0f More gestures to quickly access apps, contacts, settings, search, swipe up...\n\u2714\ufe0f More premium functions are coming...\n\nLauncher OS\u2122 Pro without ads, the next evolution of our popular Android launcher app. With Launcher OS\u2122 Pro, we continue to set a new standard for the Android mobile operating system, bringing you the latest features and design. Launcher OS\u2122 Pro builds elements inspired with powerful personalized, and intelligent features: \nLauncher OS\u2122 Pro sets a new standard for the Android mobile opera",
+    "icon": "/icons/com.appsgenz.launcherios.pro.png"
+  },
+  "com.foxsports.android": {
+    "title": "FOX Sports: Watch Live Games",
+    "package": "com.foxsports.android",
+    "description": "Designed for sports fans everywhere, the FOX Sports App has you covered for the MLB, NCAA, NASCAR, INDYCAR, MLS, and UFL seasons. \n\n\u2022 FOLLOW YOUR FAVORITES: Be the first to know what\u2019s happening with your favorite players, teams, and leagues with personalized feeds packed with the latest news, stats, and scores. \n\n\u2022 CATCH ALL THE ACTION LIVE: Live stream the biggest games and events*, from baseball, racing, soccer, men\u2019s and women\u2019s college basketball, Big Ten, Big 12, Big East, Mountain West, CROWN, and more.\n\n\u2022 GET INSTANT GAME UPDATES: Check the score easily and get real-time game coverage.\n\n\u2022 EXPLORE TOP STORIES: Read sports news, game analyses, and opinions from sports\u2019 biggest voices. Order your feed chronologically to get breaking news first. \n\n\u2022 RECEIVE TAILORED NOTIFICATIONS: Neve",
+    "icon": "/icons/com.foxsports.android.webp"
+  },
+  "com.handmark.sportcaster": {
+    "title": "CBS Sports App: Scores & News",
+    "package": "com.handmark.sportcaster",
+    "description": "The CBS Sports App is everything a sports fan needs in one place. Get customized alerts based on your favorite teams, players and leagues, stream live games from CBS & Paramount+ and stay on top of the biggest news in the sports world. With the CBS Sports App, you\u2019ll have the ability to watch NFL, UEFA Champions League, PGA Championship, Big Ten Football, the Masters, the NWSL, Concacaf Nations League, NCAA Basketball, WNBA and more\u2014either free or via your existing TV provider.\n\nFollow every moment of March Madness with the CBS Sports App! Get the latest news, watch instant highlights, track live scores, and dominate your tournament brackets with our expert analysis and complete game coverage.\n\nWith the CBS Sports app, you\u2019ll get:\n\n\u2022The fastest app for scores and breaking news from all maj",
+    "icon": "/icons/com.handmark.sportcaster.png"
+  },
+  "com.bsport_1562": {
+    "title": "Le Studio Prive",
+    "package": "com.bsport_1562",
+    "description": "The Private Studio, a cozy place for everyone in Val d'Oise.\nCome learn Pole Dance in a friendly atmosphere within a neat decor.\nOur courses are taught by caring teachers and adapted to all levels. Beginners welcome! P\u00f4le Dance, P\u00f4le Exotic, P\u00f4le Goldies (+50 years), P\u00f4le Kids, Chair Dance and Souplesse open to all!\nHen parties available every weekend!\nBook via our dedicated and secure application.",
+    "icon": "/icons/com.bsport_1562.png"
+  },
+  "com.extreamsd.aemobile": {
+    "title": "Audio Evolution Mobile Studio",
+    "package": "com.extreamsd.aemobile",
+    "description": "From recording song ideas to full-fledged mobile productions, Audio Evolution Mobile sets the standard for music creation, mixing and editing on Android. Whether you are recording using the internal mic or recording from a multi-channel USB audio (*) or MIDI interface, Audio Evolution Mobile rivals desktop DAWs. Featuring virtual instruments, a vocal pitch and time editor, virtual analog synthesizer, real-time effects, mixer automation, audio loops, drum pattern editing and more, the app powers your creativity.\n\nAudio Evolution Mobile Studio was chosen the #1 Android mobile music app in Computer Music - December 2020 issue!\n\nDon't know where to start? Check out our new tutorial video series: https://www.youtube.com/watch?v=2BePLCxWnDI&list=PLD3ojanF28mZ60SQyMI7LlgD3DO_iRqYW\n\nFeatures:\n\u2022 Mu",
+    "icon": "/icons/com.extreamsd.aemobile.png"
+  },
+  "com.imageline.FLM": {
+    "title": "FL STUDIO MOBILE",
+    "package": "com.imageline.FLM",
+    "description": "Create and save complete multi-track music projects on your Phone, Tablet or Chromebook. Record, sequence, edit, mix and render complete songs.\n\nFEATURE HIGHLIGHTS\n\n* Audio recording, track-length stem/wav import\n* Browse sample and presets with preview  \n* Effects modules (see Included Content) \n* Full-screen DeX & Chromebook Touch, Trackpad & Mouse support. \n* High quality synthesizers, sampler, drum kits & sliced-loop beats \n* Instrument modules (see Included Content) \n* Load projects in the FL STUDIO** FREE Plugin version of this App \n* MIDI controller support (class compliant). Automation support.\n* MIDI file import and Export (Single-track or Multi-track)\n* Mixer: Per-track mute, solo, effect bus, pan and volume adjustment\n* Piano roll: Edit notes or capture recorded performances. \n*",
+    "icon": "/icons/com.imageline.FLM.png"
+  },
+  "com.studio.dxapp": {
+    "title": "Studio: Coaching Apps",
+    "package": "com.studio.dxapp",
+    "description": "Studio is the only app you need to achieve your goals\u2014whether you're training for a half-marathon, learning philosophy, reaching your ideal weight, or mastering a new skill.\n\nEvery plan is personalized to you. No guesswork. No overwhelm. Just clear, daily steps that keep you moving forward.\n\nFEATURES INCLUDE:\n* Personalized plans tailored to your goals\n* Daily lessons and guided activities\n* At-a-glance progress updates\n* Quizzes to reinforce learning\n* Reflection prompts to deepen insight\n* Adaptive coaching and feedback\n* Progress tracking across key metrics\n* Smart notifications and reminders\n* Streaks to build momentum\n* And more\n\nWhether you're focused on learning, fitness, mental growth, or building better habits, Studio gives you the structure and support to turn ambition into resul",
+    "icon": "/icons/com.studio.dxapp.png"
+  },
+  "com.fitnessmobileapps.studiomdr": {
+    "title": "The Studio (MDR)",
+    "package": "com.fitnessmobileapps.studiomdr",
+    "description": "Download The Studio (MDR) App today to plan and schedule your classes!  From this App you can view class schedules, sign-up for classes, buy class packages, as well as view The Studio (MDR)'s location information.  You can also click through to our Facebook and Twitter pages!  Optimize your time and maximize the convenience of signing up for classes from your phone by downloading this App today!\n \n\nAlso be sure to check out our website at: www.theStudioMDR.com",
+    "icon": "/icons/com.fitnessmobileapps.studiomdr.png"
+  },
+  "com.iptv.strymtv.tvplaylist": {
+    "title": "IPTV Pro Player - M3U Streamer",
+    "package": "com.iptv.strymtv.tvplaylist",
+    "description": "IPTV Pro Player - M3U Streamer is a fast and reliable IPTV streaming app that supports M3U, M3U8 playlists, and various video formats. Watch your favorite live TV channels, movies, and series directly on your Android device.\n\n\ud83d\udcfa Stream Live Channels and VOD\nImport your own playlists and enjoy IPTV content with full support for:\n\nLive TV\nMovies & Series\nTV Catchup\n\ud83d\udd27 Key Features\n\nSupport for M3U & M3U8 playlist formats\nAdd unlimited playlists and channels\nFavorites management & custom playlist creation\nXtreme Codes API support\nPicture-in-picture playback\nChromecast & screen mirroring\nBuilt-in player with brightness, volume, and screen lock controls\nExternal player support (images, videos, URLs)\nFast channel search and compatibility with Android TVs\n\n\ud83d\udcdd Disclaimer\nThis app does not provide or ",
+    "icon": "/icons/com.iptv.strymtv.tvplaylist.png"
+  },
+  "com.robertsz.iptv": {
+    "title": "UltraIPTV M3U IPTV Player",
+    "package": "com.robertsz.iptv",
+    "description": "\ud83d\udcfa UltraIPTV \u2013 Fast IPTV Player for M3U Playlists\n\nUltraIPTV is a powerful IPTV player designed for fast and stable streaming of M3U and M3U8 playlists.\n\nWatch live TV, manage your playlists, cast to other devices and even record streams directly on your device.\n\nUltraIPTV works on phones, tablets and Android TV / TV boxes with full remote control navigation.\n\n\u26a1 FAST IPTV PLAYER\n\n\u2022 Smooth live TV playback\n\u2022 Fast channel switching\n\u2022 Support for M3U and M3U8 playlists\n\u2022 Load playlists from URL or file\n\u2022 Playlist groups and channel lists\n\u2022 Favorites for quick access\n\n\ud83d\udcfa ANDROID TV / TV BOX SUPPORT\n\nUltraIPTV works great on large screens.\n\n\u2022 Android TV and Google TV compatible\n\u2022 Remote control navigation (D-pad)\n\u2022 Optimized interface for TVs\n\u2022 Fast channel browsing on big screens\n\n\ud83c\udfac ADVANCED PLA",
+    "icon": "/icons/com.robertsz.iptv.png"
+  },
+  "com.magis_ver.player": {
+    "title": "Magic M3U IPTV Player",
+    "package": "com.magis_ver.player",
+    "description": "Magic M3U Player is a lightweight and easy-to-use IPTV and M3U media player that allows you to play your own playlists.\nWith a clean design and smooth playback, it\u2019s the perfect solution for anyone who wants to organize and enjoy their streaming links in one place.\n\nKey Features:\n\n\ud83d\udcc2 Play your own IPTV and M3U playlists (live streams, videos, and audio).\n\n\ud83c\udf9b\ufe0f Easy playlist management \u2013 add, edit, or remove items.\n\n\ud83d\udcfa Clean, simple, and intuitive interface.\n\n\u26a1 Fast playback and smooth performance.\n\n\ud83d\udd12 100% secure \u2013 your playlists stay on your device.\n\nDisclaimer:\nMagic M3U Player does not supply or include any IPTV content or playlists.\nWe do not host or promote any copyrighted material.\nUsers are solely responsible for adding their own legally obtained IPTV or M3U playlists.\n\nEnjoy a smooth pl",
+    "icon": "/icons/com.magis_ver.player.png"
+  },
+  "com.lamdaticket.goldenplayer": {
+    "title": "Bel IPTV Player - m3u player",
+    "package": "com.lamdaticket.goldenplayer",
+    "description": "Smart IPTV Player - free m3u iptv player brings the best stream player allowing you to watch your favorite IPTV streams on your Android like a pro.\n\nYou can get m3u or m3u8 playlist from your Internet service provider or free live TV channels from any other source on the web. Organize the Smart IPTV Player - iptv m3u player according to your playlist and start playing all your favorite iptv playlist.\n\nAn M3U or m3u8 is multimedia playlist file that represents MEDIA URL. It isn\u2019t an actual audio or video file itself; it just points to audio and video files stream for a media player to put them in line for playback. M3U files encoded with UTF-8 are called M3U8 files. Smart: IPTV Player - Perfect m3u player app is not a simple IPTV player; it will locate and play all local media files on your",
+    "icon": "/icons/com.lamdaticket.goldenplayer.png"
+  },
+  "com.usaapps.futuroiptv": {
+    "title": "IPTV - M3u Tv Online, EPG Cast",
+    "package": "com.usaapps.futuroiptv",
+    "description": "The best IPTV APP arrived now IPTV - Free Tv Online reader, EPG and Cast Free,\nYou can watch tv with our App, you need to put a IPTV's list valid, you can find it on Internet, After that you can enjoy The best IPTV experience, Watch tv online, Radios, Sports, you can Watch movies, Our App is the most completely in its category, you have never seen an APP like this.\nYou can save your favorites channels, you can access your watched channels too, you can do it easily through left APP's bar.\nOur App has the best Chromecast access, you can watch all content in your Chromecast device, You can use your EPG link, this functionality is beta yet, but you can see what program or show is now in you smartphone.\nThis is the best way to watch your favorites Tv's shows.\n\nNote: Our APP Doesn't contains any",
+    "icon": "/icons/com.usaapps.futuroiptv.png"
+  },
+  "com.freeact.xtreme.iptv.player": {
+    "title": "IPTV player M3U - Extreme IPTV",
+    "package": "com.freeact.xtreme.iptv.player",
+    "description": "The simple way to watch easily and fast IPTV on your Android device. Watch Xtream IPTV from your Internet service provider or free live TV channels available on the web.  Enjoy live sports channels with a fast and user-friendly IPTV Player app! Get inspired and watch smart IPTV online.\n\nIPTV for Android is a flexible player that allows users to stream their own content online. This all in one entertainment package serves a wide range of viewers, offering access to live sports channels, TV shows, and movies on Android devices.\n\nDownload the IPTV application now and dive into an excellent entertainment experience with the most advanced smart IPTV player.\n\nKey Features of IPTV Player:\n\n- Multi-User Support: IPTV smart player allows multiple user profiles.\n- Live Streaming: with extreme IPTV w",
+    "icon": "/icons/com.freeact.xtreme.iptv.player.jpg"
+  },
+  "com.uefa.uefatv": {
+    "title": "UEFA.tv",
+    "package": "com.uefa.uefatv",
+    "description": "UEFA.tv Always Football. Always On.\nDownload UEFA.tv and register for free to access great live and on-demand video coverage from across UEFA\u2019s competitions.\nFans can sign-up to enjoy live match streaming of UEFA\u2019s Youth, Women\u2019s and Futsal competitions*, match re-runs, magazine shows, live UEFA draw coverage and much more.\nThroughout the regular season, UEFA.tv will also feature post-match highlights from UEFA\u2019s flagship competitions including the UEFA Champions League, UEFA Europa League, UEFA Europa Conference League, UEFA Nations League, and European Qualifiers.\nIn addition, content from the very best of UEFA\u2019s historic video archive will be featured in the form of classic matches, legendary players and compelling football storytelling.\nExisting UEFA registered users can simply sign in",
+    "icon": "/icons/com.uefa.uefatv.png"
+  },
+  "dce.fivb.volleyballtv": {
+    "title": "VBTV - Stream Volleyball Live",
+    "package": "dce.fivb.volleyballtv",
+    "description": "VBTV is the world's most popular Volleyball live streaming app with official livestreams of the biggest tournaments and leagues across Indoor and Beach Volleyball. \n\nWatch All the Action Live & On-Demand\nStream the biggest tournaments and leagues across Indoor and Beach Volleyball. \n\nStream the Top Indoor Volleyball Competitions:\n- Volleyball Nations League (VNL)\n- Volleyball World Championships\n- U19 & U21 Youth World Championships\n- Italian SuperLega & Lega Volley Femminile\n- Polish PlusLiga & Tauron Liga\n- Japanese SV League\n- Club World Champs\n- AVC Champions League & Nations Cup\n- Big Ten\n- Athletes Unlimited Pro Volleyball\n- Pro Volleyball Federation\n\nStream the Top Beach Volleyball Tours & Events:\n- Beach Pro Tour Elite 16\n- Beach Pro Tour Challenge\n- Beach World Championships\n\nNew ",
+    "icon": "/icons/dce.fivb.volleyballtv.png"
+  },
+  "com.extreamsd.usbaudioplayerpro": {
+    "title": "USB Audio Player PRO",
+    "package": "com.extreamsd.usbaudioplayerpro",
+    "description": "High quality media player supporting USB audio DACs and HiRes audio chips found in the latest phones. Play up to any resolution and sample rate that the DAC supports! All popular and less popular formats are supported (beyond the formats that Android supports), including wav, flac, mp3, m4a, wavpack, SACD ISO, MQA and DSD.\n\nThis app is a must-have for every audiophile, bypassing all audio limits of Android. Whether you use our custom developed USB audio driver for USB DACs, our HiRes driver for internal audio chips or the standard Android driver, this app is one of the highest quality media players around.\n\nNew: route and play audio from other apps! With the optional Feature Pack (in-app purchase), you can now route audio from other apps and play it through the app's high-quality USB audio",
+    "icon": "/icons/com.extreamsd.usbaudioplayerpro.png"
+  },
+  "com.biel.opus.mediaplayer": {
+    "title": "IPTV Player - Opus",
+    "package": "com.biel.opus.mediaplayer",
+    "description": "Watch your favorite digital content, live tv stream, movies, and series as they should be! Complete smart IPTV player solution, available to download now.\n\nIMPORTANT: Opus Media Player DOES NOT PROVIDE ANY CONTENT AND HAS NO AFFILIATION WITH ANY THIRD-PARTY IPTV PROVIDER.\n\nAre you tired of traditional and boring TV broadcasts? Introducing the IPTV Player by Opus, in other words, IPTV Smarters Pro Player, offering a fun TV experience for all your devices. The most powerful IPTV Smart player for all your devices including Android TV box. \n\nYou can add your videos or streams to the M3U or Xtream IPTV pro and enjoy your ultimate smart IPTV pro streaming experience. Complete IPTV smart player app for Xtream & M3U, available to download now.\n\nIPTV Pro FEATURES:\n- Smart, modern & sleek UI for you",
+    "icon": "/icons/com.biel.opus.mediaplayer.png"
+  },
+  "com.giskaapp.iptv": {
+    "title": "IPTV M3U - Stream Player",
+    "package": "com.giskaapp.iptv",
+    "description": "IPTV M3U is an application to load playlists of live TV channels, films, TV shows and other multimedia content.\n\nM3U files are usually text files containing URLs or server addresses where TV channels or other multimedia content can be accessed. These files can be easily modified and edited using a regular text editor.\n\nM3U files are often found on the internet, both free and paid. It is important to ensure that the source of the M3U file is legal and reliable to avoid copyright issues.",
+    "icon": "/icons/com.giskaapp.iptv.png"
+  },
+  "com.netflix.ninja": {
+    "title": "Netflix",
+    "package": "com.netflix.ninja",
+    "description": "Looking for the most talked about TV shows and movies from the around the world? They\u2019re all on Netflix.\n\nWe\u2019ve got award-winning series, movies, documentaries, and stand-up specials. And with the mobile app, you get Netflix while you travel, commute, or just take a break.\n\nWhat you\u2019ll love about Netflix:\n\n\u2022 We add TV shows and movies all the time. Browse new titles or search for your favorites, and stream videos right on your device.\n\u2022 The more you watch, the better Netflix gets at recommending TV shows and movies you\u2019ll love.\n\u2022 Enjoy a safe watching experience just for kids with family-friendly entertainment.\n\u2022 Preview quick videos of our series and movies and get notifications for new episodes and releases.\n\nFor complete terms and conditions, please visit http://www.netflix.com/termsofu",
+    "icon": "/icons/com.netflix.ninja.png"
+  },
+  "com.TWCableTV": {
+    "title": "Spectrum TV",
+    "package": "com.TWCableTV",
+    "description": "Download the Spectrum TV app and get the most out of your Spectrum TV experience at home or on the go. Stream On Demand or live TV anywhere, on any device.\n\nTURN ANY SCREEN INTO A TV\n\u2022\tStream live TV anywhere you have a connection.\n\u2022\tEnjoy streaming thousands of On Demand shows and movies.\n\u2022\tCast from your phone or tablet to a compatible TV with Chromecast.\n\nFIND YOUR FAVORITE PROGRAMS\n\u2022\tCreate a personalized guide by setting your favorite channels.\n\u2022\tSearch by title, network, actor or sports team anywhere in the app.\n\u2022\tAdd new and exciting Spectrum Originals to your Watchlist.\n\nCONTROL YOUR TV AND DVR \n\u2022\tChange TV channels on your Spectrum Receiver.\n\u2022\tGet showtimes and record your favorite TV shows and movies (with optional DVR services).\n\u2022\tDelete, modify and play DVR recordings on your T",
+    "icon": "/icons/com.TWCableTV.png"
   }
 }
