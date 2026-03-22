@@ -162,6 +162,14 @@ def render_app_page(pkg):
     html = html.replace('__ICON__', icon)
     html = html.replace('__DESCRIPTION__', desc_safe)
     html = html.replace('__DESCRIPTION_DISPLAY__', '' if description else 'display:none')
+
+    site_url = os.environ.get('SITE_URL', '').rstrip('/')
+    if site_url:
+        html = html.replace('__SITE_URL__', site_url)
+    else:
+        html = re.sub(r'<link rel="canonical"[^>]*>\n?', '', html)
+        html = re.sub(r'<meta property="og:url"[^>]*>\n?', '', html)
+
     return html
 
 
