@@ -3352,5 +3352,35 @@
     "package": "com.yodo1.crossyroad",
     "description": "Why did the Chicken cross the road?\nWhy did the Pigeon leave THAT there?\nWhy did Unihorse eat all that candy?\n\nCrossy Road is the 8-bit endless arcade hopper that started it all. Collect custom characters and navigate freeways, railroads, rivers and much more.\n\nCrossy Road\u00ae is the #1 viral smash hit you\u2019ll never stop playing.\n\nFEATURES:\n\u2022 CROSS ROADS\u2014Cross roads, train tracks, and rivers - endlessly hop forever!\n\u2022 SILLY CHARACTERS\u2014Unlock and collect over 300 characters in our distinctive retro style.\n\u2022 DISCOVER WORLDS\u2014Have fun running, hopping and crossing all day with over 28 worlds to discover.\n\u2022 DON\u2019T DIE\u2014Avoid (or enjoy) hilarious ways to die as you cross through oceans, savannahs, space and more!\n\u2022 LEADERBOARDS\u2014Peck your way to the top in our daily challenges! Play around the world, w",
     "icon": "/icons/com.yodo1.crossyroad.png"
+  },
+  "com.king.candycrushsaga": {
+    "title": "Candy Crush Saga",
+    "package": "com.king.candycrushsaga",
+    "description": "Explore a world full of delicious match-3 puzzles and endless fun! Blast through thousands of challenging levels in this timeless puzzle game from King. Match candies, conquer jelly, toffees, and jam, and uncover sweet surprises in every puzzle.\n\nClassic Match-3 Gameplay with Fresh Twists\n\n- Discover unique game modes like Gummy Dragons and Bubblegum Pop. \n- Match and blast your way through matching levels full of sugar-coated fun.\n- Master tricky puzzles and create explosive combos to clear the board!\n\nBrain-Boosting Challenges & Special Events\n\n- Daily Rewards: Log in every day to claim free boosters and extra lives.\n- Time-Limited Events: Compete in themed challenges and win exclusive prizes.\n- Tournaments & Leaderboards: Crush more candies than your friends and rise to the top to becom",
+    "icon": "/icons/com.king.candycrushsaga.png"
+  },
+  "com.rovio.baba": {
+    "title": "Angry Birds 2",
+    "package": "com.rovio.baba",
+    "description": "Join hundreds of millions of players for FREE and start the fun slingshot adventure now! Team up with your friends, climb the leaderboards, gather in clans, collect hats, take on challenges, and play fun events in all-new game modes. Evolve your team and show your skills in this exciting Angry Birds game !\n\nGet to know all of the iconic Angry Birds characters and experience the fun gameplay that has captured the hearts of millions of players.\n\nFeatures:\n\n\u25cf DAILY CHALLENGES. Have a minute? Complete a daily challenge and earn some quick rewards.\n\u25cf LEVEL UP your characters with feathers and up their scoring power. Build the ultimate flock!\n\u25cf JOIN A CLAN to take down the pigs with friends and players around the world.\n\u25cf COMPETE in the ARENA. Compete with other players for some friendly bird fl",
+    "icon": "/icons/com.rovio.baba.png"
+  },
+  "com.mojang.minecraftpe": {
+    "title": "Minecraft: Dream it, Build it!",
+    "package": "com.mojang.minecraftpe",
+    "description": "Dive into an open world of building, crafting, and survival in the ultimate sandbox adventure. Gather resources, build a world one block at a time, and survive the night by building a tower defense. Explore and craft your way through a completely open world where you can play with friends, new and old. Build a city, start a farm, mine deep underground, face mysterious enemies, or just experiment to the limits of your imagination in this expansive simulation! \n\nCraft a new house, build cities, or start a farm. Bring your imagination to life and build your dream world where the possibilities are endless. Adventure through your own online game and play together with friends, building from the ground up in our crafting simulation. In Creative mode, enjoy unlimited resources and the freedom of ",
+    "icon": "/icons/com.mojang.minecraftpe.png"
+  },
+  "com.supercell.clashofclans": {
+    "title": "Clash of Clans",
+    "package": "com.supercell.clashofclans",
+    "description": "Join millions of players worldwide as you build your village, raise a clan, and compete in epic Clan Wars!\n\nMustachioed Barbarians, fire wielding Wizards, and other unique troops are waiting for you! Enter the world of Clash!\n\nClassic Features:\n\u25cf Join a Clan of fellow players or start your own and invite friends.\n\u25cf Fight in Clan Wars as a team against millions of active players across the globe.\n\u25cf Test your skills in the competitive Clan War Leagues and prove you\u2019re the best.\n\u25cf Forge alliances, work together with your Clan in Clan Games to earn valuable Magic items.\n\u25cf Plan your unique battle strategy with countless combinations of Spells, Troops, and Heroes!\n\u25cf Compete with the best players from around the world and rise to the top of the Leaderboard in Legend League.\n\u25cf Collect resources an",
+    "icon": "/icons/com.supercell.clashofclans.png"
+  },
+  "com.bible.studycommentary": {
+    "title": "Hebrew Bible Study Translation",
+    "package": "com.bible.studycommentary",
+    "description": "Hebrew Bible Study Translation - The #1 app for authentic Jewish Bible study with Rabbi Ari AI chatbot. Study the complete jewish bible with Hebrew dictionary / bible dictionary for prayers & blessing daily or for research specific verse. Best alternative to Christian Bible apps for Jewish perspectives. \n\nJewish texts with commentary & translation. Features Rabbi Ari AI - ask any Judaism question! Perfect for Jews deepening Torah knowledge, Christians seeking Old Testament Jewish perspectives, converting to Judaism, or learning Biblical Hebrew.\n\n\ud83d\udcd6 COMPLETE HEBREW BIBLE with side-by-side translation\n- Original Hebrew Bible with translations in English, Spanish, French, Portuguese, German, Italian, Polish, Korean & Russian\n- Torah, Prophets, Writings\n- Unique Blue Player (audio) \u2013 switch bet",
+    "icon": "/icons/com.bible.studycommentary.png"
   }
 }
