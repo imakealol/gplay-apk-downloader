@@ -6760,5 +6760,185 @@
     "package": "com.mvas.stb.emu.pro",
     "description": "StbEmu\n\nhttps://docs.stbemu.com\n\nKeep in mind that this app is configured for a demo IPTV portal for testing purposes. If you want to use the app you have to configure the app for your IPTV provider.\n\nThe app doesn't support m3u (or any others) playlists.\n\n============\nNOTE: This app is designed to be used by experienced users. To work correctly it must be configured first and if you've never configured IPTV boxes it may be difficult for you to configuring it. Keep in mind, that this app contains a lot of settings that has to be configured before it may be used by a user(read wiki first). If you do something wrong you may make the app unable to work.",
     "icon": "/icons/com.mvas.stb.emu.pro.png"
+  },
+  "com.painelextreme": {
+    "title": "Extreme Panel - XIT Panel",
+    "package": "com.painelextreme",
+    "description": "Reach a new level of precision with the Extreme Panel, an advanced solution to quickly and safely enhance your performance!\n\nActivate the floating panel conveniently and for free to access features that optimize your aim and easily adjust resolution simulation.\n\nEquipped with professional tools to improve your performance.\n\nThe icon disguise feature keeps the application invisible, hiding it under other application icons to ensure its discretion.",
+    "icon": "/icons/com.painelextreme.jpg"
+  },
+  "com.sensigo.sensitivity.ffx.tool": {
+    "title": "DARK AURA",
+    "package": "com.sensigo.sensitivity.ffx.tool",
+    "description": "Elevate Your Mobile Gaming Experience with DARK AURA.\n\nDARK AURA is the ultimate utility designed to help players optimize their setup for maximum comfort and precision. \n\nThese features are integrated into a floating panel with a modern and simple design, making it easy to navigate between each feature in an organized manner.\n\nKEY FEATURES:\n\nAdvanced Crosshair System\nImprove your aiming precision with a fully customizable overlay.\n\u2022 Visual Customization: Adjust colors, size, and designs to ensure visibility in any terrain.\n\u2022 Pro Modes: Choose between styles specifically tuned for competitive matches.\n\u2022 Dynamic Utility: Perfect for improving accuracy in fast-paced titles like FF.\n\nComprehensive Sensitivity Controls\nFine-tune your settings for smooth camera movement and reaction.\n\u2022 DPI Tool",
+    "icon": "/icons/com.sensigo.sensitivity.ffx.tool.png"
+  },
+  "com.darkaura.rabbit": {
+    "title": "Dark Aura Panel - Rabbit Green",
+    "package": "com.darkaura.rabbit",
+    "description": "Dark Aura Panel - Rabbit Green is a gaming utility app designed to provide optional on-screen tools and device information for personal reference while playing mobile games, including popular shooter-style experiences such as FF.\n\nThe app offers floating overlay features that can be enabled or disabled by the user at any time. All tools are designed for visual reference, customization, and convenience only, without modifying or interacting with any game files or systems.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\u2605 VISUAL OVERLAY REFERENCE (CROSSHAIR)\nDisplay an optional visual reference overlay on your screen:\n- Multiple simple styles for visual alignment\n- Adjustable size, color, rotation, and opacity\n- Freely movable and removable at any time\n- Intended for personal practice and visual reference only\n\n",
+    "icon": "/icons/com.darkaura.rabbit.jpg"
+  },
+  "com.frndlytv": {
+    "title": "Frndly TV: Live TV & Movies.",
+    "package": "com.frndlytv",
+    "description": "The most affordable LIVE TV streaming service! Watch 50+ channels including MeTV Toons, A&E, Hallmark Channel, INSP, Lifetime, Hallmark Mystery, Game Show Network, LMN, FETV, The Weather Channel, Hallmark Family, Court TV, UPtv, FYI, Great American Family, Justice Central, PixL, Outdoor Channel, Bounce, Dove Channel, GREAT, BYUtv, Great American Faith & Living, MILITARY HISTORY, Pursuit Channel, Vice, Local Now, MeTV, QVC, FMC, Story Television, Dove Spirit of the Heart Land, Heroes & Icons, Western Bound, Start TV, Laff, Catchy Comedy, Crime & Investigation, ION, ION Mystery, GRIT, Movies!, MeTV+, aspireTV, Dabl, ION Plus, CraftsyTV, Tastemade, Stingray Channel Holidayscapes, Stingray Greatest Hits,Stingray Flashback 70s, Stingray Remember the 80s, Stingray Hot Country, Stingray Classic R",
+    "icon": "/icons/com.frndlytv.jpg"
+  },
+  "com.qobuz.music": {
+    "title": "Qobuz: Music & Editorial",
+    "package": "com.qobuz.music",
+    "description": "Qobuz, a unique approach to online music.\nWith Qobuz, listen to unlimited music in the highest quality audio. Let our team of music experts guide you in your music discoveries with recommendations, human-curated playlists, and exclusive editorial content (articles, interviews, reviews). \n\nAccess an unparalleled wealth of content: \n. Over 100 million tracks in high resolution & CD quality\n. More than 500,000 original editorial articles written by experts\n. Thousands of human-curated playlists in rock, classical, jazz, electronic, pop, funk, soul, R&B, metal, and more \nQOBUZ is the only platform to offer both music streaming and downloads in Hi-Res.\n\nListen to your music where you want, when you want: Qobuz is available on all your devices, even without internet connection in offline mode. \n",
+    "icon": "/icons/com.qobuz.music.webp"
+  },
+  "com.aspiro.tidal": {
+    "title": "TIDAL Music: HiFi sound",
+    "package": "com.aspiro.tidal",
+    "description": "With the TIDAL app's extensive library of music, offline music features, and personalized recommendations, TIDAL is a must-have app for anyone who loves music. Whether you're on the go or just relaxing at home, TIDAL has everything you need to enjoy your favorite tracks and discover new music.\n\nWhy download the TIDAL music app?\n\nTry TIDAL for FREE: with a 30-day trial, you can experience the difference for yourself\n\nHigh-quality audio streaming: TIDAL offers high-fidelity audio streaming, providing you with an immersive and rich listening experience.\n\nHuge selection of music genres: The TIDAL music app offers an extensive library of millions of songs and albums across multiple genres, making it easy to discover new music and listen to favorite tracks.\n\nOffline music feature: TIDAL allows y",
+    "icon": "/icons/com.aspiro.tidal.jpg"
+  },
+  "com.newstargames.retrobowl": {
+    "title": "Retro Bowl",
+    "package": "com.newstargames.retrobowl",
+    "description": "Retro Bowl is the perfect game for the armchair quarterback to finally prove a point. Presented in a glorious retro style, the game has simple roster management, including press duties and the handling of fragile egos, while on the field you get to call the shots. Can you pass the grade and take your team all the way to the ultimate prize? Can you win the Retro Bowl?",
+    "icon": "/icons/com.newstargames.retrobowl.png"
+  },
+  "com.miniclip.footballstrike": {
+    "title": "Football Strike: Online Soccer",
+    "package": "com.miniclip.footballstrike",
+    "description": "Take on your friends in multiplayer free-kick face-offs, or make a name for yourself in the Career Mode!\n\nCustomise your striker and goalkeeper with tons of unlockable items! Show off your style or represent your team\u2019s colours!\n\nTake on Career mode, travelling through different stadiums around the globe and taking on unique soccer challenges to unlock medals!\n\nWith simple and fast gameplay, Football Strike is easy to play and offers endless competitive football fun!\n\nKEY FEATURES:\n\n\u2022 Take your shot and make amazing saves, all with the flick of the finger!\n\u2022 Play against friends or challenge players from across the world!\n\u2022 Represent your favourite team! Play as FC Barcelona, Liverpool FC, Borussia Dortmund, and more!\n\u2022 Conquer an extensive Career Mode to earn medals!\n\u2022 Upgrade your player",
+    "icon": "/icons/com.miniclip.footballstrike.webp"
+  },
+  "com.gotv.nflgamecenter.us.lite": {
+    "title": "NFL",
+    "package": "com.gotv.nflgamecenter.us.lite",
+    "description": "Keep up with the season with the official app of the NFL.  \n\nSTART YOUR GAMEDAY WITH NFL+:   \n- Stay connected throughout the offseason and watch NFL Network 24/7, including coverage of the NFL Scouting Combine and the NFL Draft!  \n- Watch live out-of-market preseason games.  \n- Watch ad-free highlights from every game.  \n- Stream live local and primetime regular season and postseason games on phone and tablet.   \n- Listen to live game audio with home, away and national broadcasts for every game of the season across devices.   \n- Get NFL Films\u2019 programming and other on-demand content across devices and ad-free.  \n\nNFL+ PREMIUM HAS MORE NFL:  \n- Access everything from NFL+  \n- Watch NFL RedZone across devices to catch every touchdown from every game, every Sunday afternoon during the regula",
+    "icon": "/icons/com.gotv.nflgamecenter.us.lite.png"
+  },
+  "com.tsportszone.footballtvhd": {
+    "title": "Football Live TV HD",
+    "package": "com.tsportszone.footballtvhd",
+    "description": "Are you a passionate football fan eager to catch all the action live and in HD quality? Look no further! Football Live TV HD is your ultimate destination for an unparalleled football viewing experience. Our app is designed with both football enthusiasts and SEO-friendly strategies in mind, ensuring you stay connected with your favorite teams and players.\n\nKey Features:\n\n    Live Streaming: Watch every exhilarating goal, jaw-dropping save, and thrilling moment as it happens. We bring you live football matches from around the world, broadcast in stunning high-definition.\n\n    Comprehensive Coverage: With access to a wide range of leagues, including the Premier League, La Liga, Serie A, Bundesliga, and more, you won't miss any of the action. Our app offers complete coverage to cater to your f",
+    "icon": "/icons/com.tsportszone.footballtvhd.png"
+  },
+  "com.cricfy.livefootball": {
+    "title": "Live Football TV Streaming HD",
+    "package": "com.cricfy.livefootball",
+    "description": "With the Live Football TV HD app, you can stay updated with soccer live scores & stats, and match highlights at no cost. We cover matches from the Premier League to the World Cup, ensuring you never miss a moment of the action!\n\nGet real-time score updates, detailed match stats, lineups, and more on your mobile or tablet with live football scores app.\n\nLive Football TV HD gives you access to a world of football, from live scores to in-depth stats, lineups, and highlights. Discover matches and get detailed stats & live match scores on every game.\n\nWHY Live Football TV HD FOR FOOTBALL FANS?\nLive Sports Scores: Stay updated with real-time scores from matches around the world\nMatch Stats: Dive into detailed stats, goal score and starting lineups\nWorldwide Coverage: Coverage of over 375 competi",
+    "icon": "/icons/com.cricfy.livefootball.png"
+  },
+  "com.tcl.livetv": {
+    "title": "Live TV",
+    "package": "com.tcl.livetv",
+    "description": "Live TV - One-Stop FAST Streaming of 300+ Channels of News, Movies, Sports, Music and everything on live. No Subscription, no regestration, Live TV Now.\n\nDiscover a world of entertainment with Live TV! Enjoy over 300 FAST channels across all genres, including news, movies, sports, kids, and much more, all for FREE and without any subscription!\n\n*Top channels at your service: CBS\u3001NBC, ABC, FOX, ION, PBS, Bloomberg, PGA Tour, PFL MMA, Hell's Kitchen, Nosey, Mr Bean...\n\n*Instant Access: Quick and easy access to your favorite channels at your fingertips.\n\n*Diverse Channel Selection: Access a wide variety of channels catering to every interest, from Movies, Reality TV, Drama, Documentary, Kids, Crime, to Food, Lifestyle, Travel and Nature, Automative, Anime etc.\n\n*User-Friendly Interface: Exper",
+    "icon": "/icons/com.tcl.livetv.png"
+  },
+  "com.tvtaboo": {
+    "title": "Taboo TV",
+    "package": "com.tvtaboo",
+    "description": "What You Get:\n\u2022\u2060  \u2060Exclusive Series: Binge-watch original series and shows\n\u2022\u2060  \u2060Featured Content: Curated premium videos and documentaries  \n\u2022\u2060  \u2060Shorts: Quick entertainment in bite-sized videos\n\u2022\u2060  \u2060Creator Content: Follow your favorite content creators\n\u2022\u2060  \u2060Personalized Recommendations: Content tailored to your preferences\n\nKey Features:\n\u2022\u2060  \u2060High-quality video streaming\n\u2022\u2060  \u2060Offline downloads for later viewing\n\u2022\u2060  \u2060Cross-device synchronization\n\u2022\u2060  \u2060Personalized user profiles\n\u2022\u2060  \u2060Community features and creator interactions\n\nImportant: All content and features in Taboo TV require an active subscription.\n\n\u2022\u2060  \u2060Premium monthly subscription available\n\u2022\u2060  \u2060Free 3 day trial period available for new users\n\u2022\u2060  \u2060Full access to all exclusive content and features included with subscription\n\u2022\u2060  \u2060Ca",
+    "icon": "/icons/com.tvtaboo.png"
+  },
+  "com.nousguide.android.rbtv": {
+    "title": "Red Bull TV: Videos & Sports",
+    "package": "com.nousguide.android.rbtv",
+    "description": "Go beyond the ordinary with the very best of Red Bull TV.\n\nGet unrivaled access to your favorite sports, live events, music, and entertainment from around the globe for free \u2013 anywhere, anytime.\n\nFollow your favorite sports without subscriptions.\n\nRed Bull TV is constantly updated with new content and is playable on all devices with no ads, no in-app purchases and no surprise paywalls.\n\nWatch livestreams and on-demand videos, movies and events from the worlds of motorsport, MTB, snowboarding, skiing, padel, climbing, gaming, dance, surfing, music and beyond. This means unrivaled access to athletes and leading names across Red Bull. Features include: \n\u2022 24/7 streaming of the best of Red Bull TV \u2013 updated daily\n\u2022 Access to sports competition livestreams, replays and highlights in motorsports",
+    "icon": "/icons/com.nousguide.android.rbtv.png"
+  },
+  "com.tvturu.app": {
+    "title": "Tv Turu",
+    "package": "com.tvturu.app",
+    "description": "TV Tour, national, local and world TVs application.\n\nTV Tour is a new generation application that contains many national, local and world television channels and stands out with its use and functionality.\n\nYou can search through thousands of television channels in our system, if you wish, you can add these channels to your favorites and provide fast access for your next uses.\n\nYou can also browse the screens we have classified as national, local and world channels, reduce the radios in the lists according to their categories, and find the TV channel that best suits your mode.\n\nYou can follow the broadcast streams provided by television channels from our application and add them to the reminder.\n\nWith all these features, you can download our \"TV Tour\" application, which you will carry telev",
+    "icon": "/icons/com.tvturu.app.png"
+  },
+  "com.mobily.tvapp": {
+    "title": "Mobily TV",
+    "package": "com.mobily.tvapp",
+    "description": "Mobily TV is a streaming platform available from Mobily that offers a large number of the greatest and most recent movies, TV series, documentaries and programs for kids. In addition, you will be able to watch live TV channels from well-known broadcasters.\n\nMobily TV offers many features, such as TV guide, Download and watch offline, Multiple devices, safe content, Parental control and more!\n \nWatch anytime and anywhere with Mobily TV. Sign up and enjoy!",
+    "icon": "/icons/com.mobily.tvapp.png"
+  },
+  "com.samsung.sree": {
+    "title": "Samsung Global Goals",
+    "package": "com.samsung.sree",
+    "description": "Samsung Global Goals - Take Action for a Better World\n\nJoin the movement for a sustainable future with the Samsung Global Goals app. Discover, learn, and contribute to the United Nations' Sustainable Development Goals (SDGs) right from your smartphone and smartwatch (Wear OS). Engage in meaningful actions, track your progress, and make a positive impact on the world.\n\nLearn about the 17 Global Goals, earn money, and donate to your favorite Goal.\n\nApp features:\nGain insights into the 17 Sustainable Development Goals through interactive content, wallpapers, and informative articles.\nGet involved in campaigns, challenges, and initiatives that address global issues and contribute to real-world change.\nMonitor your personal contributions, track your progress, and see the collective impact of th",
+    "icon": "/icons/com.samsung.sree.png"
+  },
+  "com.motorola.mobiledesktop": {
+    "title": "Smart Connect",
+    "package": "com.motorola.mobiledesktop",
+    "description": "Smart Connect unifies your digital life across phone, tablet, and PC. Move between screens without missing a beat. Control, share, and stream content anywhere in your ecosystem.\n\nKey features:\n\u2022 Stream your favorite apps and media from your phone or tablet to your PC or smart display.\n\u2022 Find and share files, photos, and content across all your devices with cross-device Search and Share Hub.\n\u2022 Turn your phone into a full desktop-style workspace for multitasking on the go with Mobile Desktop.\n\u2022 Use Cross Control to extend or mirror your PC screen to your tablet.\n\u2022 Check and reply to your phone\u2019s Messages from the PC dashboard.\n\u2022 Use your phone or tablet\u2019s high-resolution camera with Webcam for clear, professional video calls.\n\u2022 Copy text or screenshots on one device and paste them on another",
+    "icon": "/icons/com.motorola.mobiledesktop.png"
+  },
+  "com.rstgames.game101": {
+    "title": "Mau Mau Online",
+    "package": "com.rstgames.game101",
+    "description": "Mau Mau is online card game, which is played by more than 500 thousand users!\n\nPlay from 2 to 6 people on virtual credits, so all kinds of game modes are not gambling and entertainment only.\n\nThe aim of the game is to be out of all cards, to get minimum points as possible with the cards on the hand, or to make the opponent to get as many points as possible. The game is known in different countries as Czech Fool, Mau Mau, Crazy Eights, English Fool, Pharaoh, Pentagon, 101.\n\nGame features:\n\u2022 Free Credits several times a day.\n\u2022 User-friendly interface with landscape mode. \n\u2022 Real online multiplayer game with real people all over the world (2-6 players). \n\u2022 36 or 52 card deck on your choice. \n\u2022 Chatting with friends.\n\u2022 Asset gifts.\n\u2022 Leaderboard competition.\n\u2022 Private games with password. \n\u2022 P",
+    "icon": "/icons/com.rstgames.game101.png"
+  },
+  "com.lonelycatgames.MauMau3": {
+    "title": "Mau Mau",
+    "package": "com.lonelycatgames.MauMau3",
+    "description": "Mau Mau is a classic card game on your mobile phone screen for two to four players. The game is played against three computer opponents, so that a total of four players can participate in the game. The player may choose in the menu a different number of players (two to four) and select which players should be present.\n\nThe player's cards are located at the bottom of the screen. The game is turn-based, each time a player moves, (s)he either plays card from hands or takes a card from the base pile. The goal of the game is to get rid of all the cards from the hand.\n\nThose three guys don't cheat. They get same random cards as you, and don't see each other's cards or under the pile. They use their own logic to play, same like you can.",
+    "icon": "/icons/com.lonelycatgames.MauMau3.png"
+  },
+  "com.heidenhaus.maumau.app": {
+    "title": "Mau Mau",
+    "package": "com.heidenhaus.maumau.app",
+    "description": "Many card games today are filled with ads or in-app purchases. Here, Mau Mau is simply the game itself \u2014 nothing more.\n\nWHAT IS MAU MAU? \n\nMau Mau is a traditional German card game, similar to UNO or Crazy 8s. \n\nPlay cards that match the suit or rank, use special cards, and try to be the first to get rid of your hand. It\u2019s easy to learn in minutes \u2014 and surprisingly deep once you start playing seriously. \n\nFEATURES \n\n\u2022 Classic Mau Mau rules with special cards (7, 8, Jack) \n\u2022 Smart computer opponents \n\u2022 Skill-based Elo rating to track your progress \n\u2022 Clear tutorial and gameplay explanations \n\u2022 Multiple local player profiles \n\u2022 Fully offline playable \n\u2022 No ads, no accounts, no user tracking \n\nFOR WHOM IS THIS GAME? \n\n\u2022 Families and kids \n\u2022 Players who want a fun ad-free card game \n\u2022 Fans of",
+    "icon": "/icons/com.heidenhaus.maumau.app.png"
+  },
+  "com.logames.maumaugame": {
+    "title": "Mau Mau",
+    "package": "com.logames.maumaugame",
+    "description": "Mau Mau is a popular card game for fun and relaxation. It is much like UNO. Be the first player to get rid of all your cards and beat the other players.",
+    "icon": "/icons/com.logames.maumaugame.png"
+  },
+  "com.dubicars.dubicars": {
+    "title": "DubiCars: Buy & Sell Cars UAE",
+    "package": "com.dubicars.dubicars",
+    "description": "The greatest selection of verified cars in the UAE is available on the DubiCars app. \n\nWith over 29,000 used cars and new cars for sale from over 500 trusted car dealerships and private sellers from all across the UAE, DubiCars is the one-stop shop for all your car buying and selling needs. \n\n\u221a Up to 20 HD photos of each car\n\u221a 360 degrees tours\n\u221a Detailed specs of all car features\n\u221a Call, WhatsApp, or Email the dealer directly\n\u221a Get notified when new cars are listed\n\u221a Monitor the price of your favorite cars\n\u221a Advanced search filter \n\nFind your perfect car through advanced search filters that allow you to filter out the listings based on the car prices, mileage, make, model, year of manufacture, color, specs, number of cylinders, gearbox type, etc.\n\nDubiCars features thousands of 100% verif",
+    "icon": "/icons/com.dubicars.dubicars.webp"
+  },
+  "com.sedan.user": {
+    "title": "Sedan",
+    "package": "com.sedan.user",
+    "description": "Sedan er Norges egen ride-hailing-app \u2013 utviklet av nordmenn, for nordmenn.\n Enten du skal p\u00e5 jobb, m\u00f8te venner eller utforske byen, hjelper Sedan deg dit trygt, rimelig og presist.\n\nHvorfor velge Sedan?\n\nLokal og p\u00e5litelig\nSedan er 100 % norsk-eid. Vi betaler skatt i Norge, st\u00f8tter lokale sj\u00e5f\u00f8rer og gir tilbake til samfunnet.\n\nP\u00e5litelige turer\nBli matchet med profesjonelle sj\u00e5f\u00f8rer i rene og komfortable biler \u2013 inkludert el- og hybridbiler.\n\nGjennomsiktige priser\nIngen overraskelser. Se prisen f\u00f8r du bestiller og betal trygt i appen.\n\nBel\u00f8nninger som betyr noe\nTjen poeng for hver tur og l\u00e5s opp eksklusive rabatter, gratis turer og lokale fordeler.\n\nBygd for Oslo (og videre)\nVi lanserer i Oslo og utvider til flere norske byer.\n\nLast ned Sedan i dag \u2013 en smartere og mer lokal m\u00e5te \u00e5 reise ",
+    "icon": "/icons/com.sedan.user.png"
+  },
+  "com.blacksedans": {
+    "title": "Black Sedans",
+    "package": "com.blacksedans",
+    "description": "Book Rides Online is a simple and secure car booking app that helps you travel with ease. Whether you need a quick ride or want to book a car in advance, our platform makes the process fast, safe, and reliable.\n\nWith a user-friendly design, you can browse, select, and confirm your booking within minutes. We prioritize your privacy and ensure that your personal details are always protected.\n\nKey Features:\n\nEasy car booking in just a few steps\n\nSafe and secure process with data privacy protection\n\nReal-time ride confirmations and updates\n\nLocation-based services for better booking experience\n\nSmooth and reliable performance through our mobile app\n\nPrivacy & Security\n\nYour trust is important to us. Book Rides Online follows strict privacy standards and complies with data protection regulation",
+    "icon": "/icons/com.blacksedans.png"
+  },
+  "com.watchfacestudio.blackMilitary3": {
+    "title": "Black Military 3",
+    "package": "com.watchfacestudio.blackMilitary3",
+    "description": "Black Military 3 - will give your Wear OS smartwatch a stylish, practical sports style. Many settings will allow everyone to choose the perfect design for themselves. The black background and bright digital indicators are ideal for every day.\n\nBasic moments:\n\n- 12/24 hour digital time (Depending on smartphone settings)\n- A high resolution;\n- Ability to change color\n- Ability to change the background\n- Custom complications\n- Display the number of the day of the year\n- Display the week number of the year\n- Moon phase display\n- AOD mode (Full or minimum mode)\n\n- NOTES FOR INSTALLING WATCH FACE -\n\nIf you have problems with installation, please follow the instructions: https://bit.ly/infWF\n\nSettings\n- To customize your watch face, simply touch and hold the display, then tap the Customize button",
+    "icon": "/icons/com.watchfacestudio.blackMilitary3.png"
+  },
+  "com.inforcegames.blackdeck": {
+    "title": "Black Deck - Card Battle CCG",
+    "package": "com.inforcegames.blackdeck",
+    "description": "Fend off the forces of evil in ferocious card battles. Test your skills in combat and build your roster of heroes in this epic turn-based collectable card game with original core gameplay that\u2019s  easy to learn but fiendishly difficult to master.\n\n\ud83d\udca5\ud83d\udd2eFEATURES\ud83d\udca5\ud83d\udd2e:\n\n\ud83d\udd25 240+ beautifully designed cards featuring fascinating characters from 10 different factions. Find and equip hundreds of powerful artifacts to improve your power.\n\n\ud83d\udd25 Explore a stunning fantasy world with a beautiful map and over 300 stages.\n\n\ud83d\udd25Join a Guild to share resources and compare strategies with other players.\n\n\ud83d\udd25Unite your Guild\u2019s full power to challenge fearsome Guild Bosses.\n\n\ud83d\udd25Summon 10 mysterious and powerful Gods to fight alongside your heroes.\n\n\ud83d\udd25Team up with your Guild to take on rivals in Guild Wars\u2014the ultimate showdow",
+    "icon": "/icons/com.inforcegames.blackdeck.png"
+  },
+  "com.blackonecard": {
+    "title": "Black One: Power Card App",
+    "package": "com.blackonecard",
+    "description": "This is the new edition of the Power Card app that allows Players to choose to draw cards, or answer a Black trivia question.\n\nYou must purchase the card game in order to play. Your activation code is located on the game card box.",
+    "icon": "/icons/com.blackonecard.png"
+  },
+  "com.launcher.smart.black.car.theme": {
+    "title": "Black Car Launcher Theme",
+    "package": "com.launcher.smart.black.car.theme",
+    "description": "New Black Car Launcher Theme is now available! Apply the Black Car Launcher Theme to enjoy with FREE Black Car  Wallpapers and Icon Pack! Make your phone stylish!\nBlack Car Launcher Theme is our latest free theme with beautiful Black Car Launcher \n\nCome and download the Black Car Launcher Theme for free and make your Samsung, Huawei, HTC and any other brands of Android mobile stylish.\n\nYou can enjoy with Nature beauty Black Car Theme Launcher:\n\n\u2605 COOL THEMES AND HD WALLPAPERS\n \u2022 High quality Images specially designed for your phone\n \u2022 Brand new beautiful themes updated every day\n\n\u2605 COOL ICONPACKS\n \u2022 Black Car Theme included many HD customized Icons of popular apps, social app, System app icons.\n \u2022 Icons masking to theme your unthemed icons\n \u2022 Supports Dynamic Calendars icons\n\n\u2605 3D EFFECT T",
+    "icon": "/icons/com.launcher.smart.black.car.theme.png"
+  },
+  "com.companyname.andriodapp1": {
+    "title": "Seeker",
+    "package": "com.companyname.andriodapp1",
+    "description": "Seeker is an open-source, third-party P2P client for sharing files.\nFeatures:\n* Searching (including wishlists and filters)\n* Browsing User Directories\n* Downloads and Uploads\n* Port Forwarding via UPnP\n* Chatrooms and Direct Messages\n* Adding Users\n* Get and Set User Info\n* Privileges Support\n\nThis app is, and will always be, completely free, no ads, no \"premium\" features, etc.  It is also open source to view, learn, copy, modify, etc. \nSource Code Here: https://github.com/jackBonadies/SeekerAndroid",
+    "icon": "/icons/com.companyname.andriodapp1.png"
   }
 }
