@@ -99,6 +99,8 @@ Open http://localhost:5000 in your browser.
 6. **Install to Device** (optional) - connect an Android device via USB to install APKs directly from the browser
 
 > **Signature Warning**: Merged APKs are re-signed with a debug key and will NOT receive automatic updates from Google Play. Apps without splits keep their original signature.
+>
+> **Not recommended for apps from Meta, Uber, WhatsApp, any Google app requiring an account, or any banking app.** Re-signing removes the original Play Store signature, which may result in account bans or restrictions. For these apps, use `./gplay download <pkg> -i` to install splits directly via ADB (original signatures preserved), or download without `-m` to keep the original split APKs. Use your own judgement to decide if an app warrants not merging. We do not take responsibility for any account bans or restrictions resulting from the use of re-signed APKs.
 
 ### WebUSB ADB (Chrome/Edge only)
 

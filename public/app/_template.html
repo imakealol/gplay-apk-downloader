@@ -161,7 +161,17 @@
           <span>Merge splits</span>
         </label>
       </div>
-      <div class="note">Merged APKs are re-signed with a debug key. Apps without splits keep their original signature.</div>
+      <div class="note">
+        Merged APKs are re-signed with a debug key. Apps without splits keep their original signature.
+        <br><br>
+        <details class="disclaimer">
+          <summary>&#9888; Disclaimer</summary>
+          <div class="disclaimer-body">
+            <p class="disclaimer-warn">NOT RECOMMENDED FOR APPS FROM META, UBER, WHATSAPP, ANY GOOGLE APP REQUIRING AN ACCOUNT, OR ANY BANKING APP. RISK OF ACCOUNT BAN WITH CHANGED SIGNATURE.</p>
+            <br><p class="disclaimer-tip">For these apps, use <strong>Install to Device</strong> via USB or <strong>download as ZIP</strong> (uncheck merge) to preserve original signatures.<br><br>Use your own judgement to decide if an app is serious enough about security to warrant not merging. We do not take responsibility for any account bans or restrictions resulting from the use of re-signed APKs.</p>
+          </div>
+        </details>
+      </div>
       <div class="btn-row">
         <button class="btn-primary" onclick="dl('__PKG__')">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
