@@ -5992,5 +5992,195 @@
     "package": "org.mupen64plusae.v3.fzurita",
     "description": "All necessary cores and plugins are included. There are many caveats though.\n\n* There will be issues with specific games or devices.\n* Not all games work, but most do.\n* For games that do work, you may have to try different video plugins\n* Not all video plugins will work with every device, and there could be glitches.\n\nThe netplay server is only supported in the pro version. To play games over the internet, it requires a router with UPnP and being connected to the router. No UPnP is required to play games locally in the same WiFi network.\n\nFor support, please go to either: /r/EmulationOnAndroid or www.paulscode.com\n\nHere is a great guide: https://paulscode.com/t/mupen64plus-ae-fz-support/79",
     "icon": "/icons/org.mupen64plusae.v3.fzurita.png"
+  },
+  "com.midasplayer.apps.papapearsaga": {
+    "title": "com.midasplayer.apps.papapearsaga",
+    "package": "com.midasplayer.apps.papapearsaga"
+  },
+  "com.monois.android.eduapp30": {
+    "title": "Pocket Marble Runs",
+    "package": "com.monois.android.eduapp30",
+    "description": "Playful Creativity!\nRearrange the Mechanisms and Build Your Own Unique Setup!\n\nRails that guide rolling balls, dominoes that topple in sequence, and the thrill of toy cannons firing!\nPlus, a variety of fun devices such as jack-in-the-boxes, robots, compasses, and boomerangs make an appearance.\n\nPlace and combine different mechanisms to create unpredictable and exciting movements, crafting a course that feels like a work of art.\nWith endless possible routes based on your ideas, you\u2019ll discover something new every time you play!\n\nUsing a physics engine as its foundation, this game is designed for anyone to enjoy effortlessly!\n\n\nGame Features\n\n\u25cf Infinite Combinations with Seven Basic Parts!\n\nThe seven key components\u2014Start, Straight, Curve, Crank, U-Turn, Intersection, and Goal\u2014offer endless p",
+    "icon": "/icons/com.monois.android.eduapp30.png"
+  },
+  "com.weberdo.apps.serviceinfo": {
+    "title": "Services Info (Update)",
+    "package": "com.weberdo.apps.serviceinfo",
+    "description": "Small app to quickly check the status of important system services. It makes it easy to update and manage the services.\n\nFeatures:\n- Shows version number, installation date, and date of the last update.\n- Provides links to the release notes, official app store, and app info screen.\n\nTroubleshooting:\n- Outdated services: Use the official app store link to download the latest version of the services quickly.\n- \"Services stopped\" errors: Open the app info screen (accessible through this app) and try clearing the cache. If the issue persists, consider uninstalling and re-installing updates.\n\nThe new \"details\" view allows you to check the status of additional system services like the app store, search app, and AI / VR services.\n\nPlay games and use your apps without errors. Services Info support",
+    "icon": "/icons/com.weberdo.apps.serviceinfo.png"
+  },
+  "com.ss.android.tt.creator": {
+    "title": "TikTok Studio",
+    "package": "com.ss.android.tt.creator",
+    "description": "Welcome to TikTok Studio - where innovation meets creation! \n\nUnleash your creativity with our advanced tools and intuitive capabilities designed to help you and your content stand out. From identifying new opportunities to predictive analytics, TikTok Studio empowers you to take an informed and strategic approach to content creation so you can expand your reach and reach your full potential.\n\n - Innovation: Level up your content with TikTok Studio's innovative features, designed to spark your imagination and maximize your impact.\n\n - Creation: Embark on your TikTok journey with confidence! Our intuitive tools, custom recommendations and tailored tutorials support all types of creator every step of the way. TikTok Studio is your ultimate companion in bringing your creativity to life.\n\n - S",
+    "icon": "/icons/com.ss.android.tt.creator.png"
+  },
+  "com.tiktokshop.seller": {
+    "title": "TikTok Shop Seller Center",
+    "package": "com.tiktokshop.seller",
+    "description": "Join TikTok Shop and unlock exclusive new seller perks:\n\u2022 30-day referral fee 50% discount\n\u2022 Free shipping incentives funded by TikTok\n\u2022 $1,000 in coupons to boost your reach\n\nTikTok Shop connects your business directly to TikTok's vibrant community. With seamless in-app shopping features, you can turn product discovery into real sales \u2014 all within the app where your customers already are.\n\nTikTok Shop is where brands grow fast:\n\u2022 70% of users discover new brands and products on TikTok\n\u2022 3 in 4 are likely to buy while using TikTok\n\u2022 83% say TikTok influences their purchase decisions\n\nManage everything from your phone:\n\u2022 Register and set up your store in minutes\n\u2022 Add products, fulfill orders, and handle returns\n\u2022 Launch campaigns and create promotions\n\u2022 Chat with customers and access real-",
+    "icon": "/icons/com.tiktokshop.seller.webp"
+  },
+  "com.zhiliao.musically.livewallpaper": {
+    "title": "TickTock-TikTok Live Wallpaper",
+    "package": "com.zhiliao.musically.livewallpaper",
+    "description": "\ud83d\udcf1Turn your favorite TikTok videos into a live wallpaper background!\ud83d\udcf1\n\nIt's quick, fun, and easy to use - So turning your wallpaper into a personalized & exciting TikTok background is a no-brainer!\n\nWhether it's your favorite creator's funniest prank, the new dance & music trend, or the cleanest trick shot you've ever seen, you can download it from TikTok and turn it into a live wallpaper background using this app.\n\nHere's how it works (TikTok Live Wallpaper is SIMPLE!)\n\n1) Download TikTok Live Wallpapers app within minutes\n\n2) Open TikTok and flick through hundreds of TikTok videos until you find your favorite\n\n3) Save the TikTok video as a LIVE PHOTO (you'll use this later to get your live wallpaper background)\n\n4) Go into your files, pick your favorite downloaded TikTok, and set it as yo",
+    "icon": "/icons/com.zhiliao.musically.livewallpaper.png"
+  },
+  "com.outdooractive.Outdooractive": {
+    "title": "Outdooractive. Hike and Ride",
+    "package": "com.outdooractive.Outdooractive",
+    "description": "Confidently explore the great outdoors with Outdooractive - Hike and Ride: The most reliable outdoor navigation app, as trusted by thousands of trail wardens, mountain guides and outdoor industry professionals worldwide. \n\nThe Outdooractive - Hike and Ride app helps you find officially approved routes near you and around the world, with suggestions for dozens of sports including: hiking paths, trekking trails, mountain biking routes, trail running paths, ski touring routes and more. Or plan your own routes using the deepest catalog of official maps to take adventures into your own hands. \n\n\u25cf Find routes you can rely on: Browse thousands of officially-approved routes near you and across the world, including routes for hiking, road cycling, bike touring, ski touring, gravel riding, trail run",
+    "icon": "/icons/com.outdooractive.Outdooractive.png"
+  },
+  "com.alltrails.alltrails": {
+    "title": "AllTrails: Hike, Bike & Run",
+    "package": "com.alltrails.alltrails",
+    "description": "Whether you hike, bike, run, or walk, AllTrails is your companion and guide to the outdoors. Find detailed reviews and inspiration from a community of trailgoers like you. We\u2019ll help you plan, live, and share your outdoor adventures.\n\nAllTrails offers more than a running app or fitness activity tracker. It helps you discover dog-friendly, kid-friendly, stroller-friendly, or wheelchair-friendly trails, and more with turn-by-turn navigation to guide you through it.\n\n\u25c6 Discover trails: Search over 500,000 trails around the world by location, interest, skill level, and more.\n\u25c6 Plan your next adventure: Get in-depth trail info, from reviews to conditions to GPS driving directions \u2014 and save your favorite trails for later.\n\u25c6 Stay on course: Stick to your planned route or chart your own course wi",
+    "icon": "/icons/com.alltrails.alltrails.webp"
+  },
+  "com.wikiloc.wikilocandroid": {
+    "title": "Wikiloc - Trails of the World",
+    "package": "com.wikiloc.wikilocandroid",
+    "description": "The Outdoors Community App.\n\nWikiloc is the go-to outdoor navigation application for hiking, cycling, and over 80 other outdoor activities with millions of members worldwide. Find your favorite trails among authentic routes created by the community, record your own and share it, easily transfer it to your GPS device, and more features to enjoy nature whenever you want.\n\nEngage in outdoor sports:\nChoose from 50 million hiking, trekking, biking (MTB, road cycling, gravel), trail running, mountaineering, climbing, kayaking, skiing, and up to 80 different types of activities.\n\nAuthentic nature trails:\nWikiloc routes have been recorded with GPS and created by community members \u2014 nature and outdoor sports enthusiasts like you.\n\nSend routes to your GPS or smartwatch:\nEnjoy the experience from you",
+    "icon": "/icons/com.wikiloc.wikilocandroid.png"
+  },
+  "com.groundspeak.geocaching.intro": {
+    "title": "Geocaching\u00ae",
+    "package": "com.groundspeak.geocaching.intro",
+    "description": "Discover the World's Largest Treasure Hunt with Geocaching\u00ae\n\nEmbark on real-world treasure hunts with Geocaching, the ultimate outdoor adventure app! Join millions of players worldwide in a game of hide-and-seek using GPS coordinates. Whether you enjoy camping, hiking scenic trails, exploring nature while biking, or getting your heart rate up while running, geocaching adds a fun and rewarding dimension to your favorite outdoor activities. Explore the outdoors and discover hidden geocaches tucked away in parks, cities, forests, and scenic places all around the world!\n\nTo celebrate the 25th year of geocaching, we have introduced digital Treasures, a new way to enhance your geocaching experience! These themed Treasure collections add a fresh layer of excitement to every adventure. Show off yo",
+    "icon": "/icons/com.groundspeak.geocaching.intro.png"
+  },
+  "com.runbuddy.prod": {
+    "title": "Runna: Running Plans & Coach",
+    "package": "com.runbuddy.prod",
+    "description": "Take your running to the next level with Runna.\n\nRunna is a personal running coach in your pocket. We provide world-class training, coaching and community for everyone, whether you're doing a couch to 5k plan or training for your first marathon. Find out why we're rated 4.99/5 on Trustpilot. \n\n\nWHY USE RUNNA\n\n1) Personalized plans just for you, helping you to reach your 2025 goals\nOur #1 rated training plans are customized just for you with proven, science-based programming and training plans that adapt as you progress.\n\n2) Syncs with your favorite devices\nFollow all of your workouts on your compatible devices* live as you run - the Runna app provides you with guided runs from our expert coaches.\n\n3) Holistic support\nGet holistic support to develop yourself as a runner, whether that\u2019s runn",
+    "icon": "/icons/com.runbuddy.prod.png"
+  },
+  "com.zigzagame.tokyodebunker": {
+    "title": "Tokyo Debunker",
+    "package": "com.zigzagame.tokyodebunker",
+    "description": "At the prestigious Darkwick Academy, your unruly classmates have sold their souls to demons in exchange for a wish\u2026 and you\u2019ll have to find a way to make them work together to solve supernatural cases all over Tokyo. If you get stuck, you can always turn to Darkwick\u2019s clever cat familiars for their support!\n\nEnjoy a wide variety of gameplay modes!\n-Explore a gripping story through comics and Live 2D\n-Build new facilities with your adorable cat familiars\n-Collect cute and quirky cats\n-Battle monsters with your ghoul classmates\n-Play rhythm games to collect powerful items\n-Join other players in exciting co-op modes\n\nYour time with us is what you make it\u2026\nWelcome to the bizarre charms of Tokyo\u2019s dark side.\n\nFollow us on SNS:\nTwitter: https://twitter.com/tokyodebunker\nInstagram: https://www.in",
+    "icon": "/icons/com.zigzagame.tokyodebunker.png"
+  },
+  "com.square_enix.android_googleplay.paranoma": {
+    "title": "PARANORMASIGHT",
+    "package": "com.square_enix.android_googleplay.paranoma",
+    "description": "\u301050% Off Sale\u3011\u3000We're running a 50% off sale on 'PARANORMASIGHT'. From3/19 to 3/24, this game, regularly priced at $18.99, is on sale for $8.99. Don't miss this opportunity to play.\n\nAn authentic mystery-solving horror visual novel.\n\nPARANORMASIGHT: The Seven Mysteries of Honjo\n\nThe legend of the \"Honjo Seven Mysteries\" is a ghost story that exists in Tokyo Japan.\nThe \"curse\" begins over \u201cThe Rite of Resurrection\u201d.\n\nSummary\nA horror/mystery visual-novel game located in Sumida, Tokyo, Japan in the late 20th century.\nThe unique characters are tossed about by curses.\nThe story unfolds through the intertwining of the characters' agendas, and you will be guided to the conclusion with your own hands.\n\nStory\nShogo, an ordinary office worker, and his friend Yoko Fukunaga, a young woman who has been",
+    "icon": "/icons/com.square_enix.android_googleplay.paranoma.png"
+  },
+  "com.square_enix.android_googleplay.paranoma38": {
+    "title": "PARANORMASIGHT: TMC",
+    "package": "com.square_enix.android_googleplay.paranoma38",
+    "description": "PARANORMASIGHT: The Mermaid's Curse\n\nA brand new PARANORMASIGHT tale begins in Ise-Shima, Japan - a region rich in mermaid legends.\nJoin a cast of fascinating characters investigating the mysteries of the Mermaids of Ise. Unravel their different perspectives on the case and guide the story to its thrilling conclusion.\n\nStory:\nThe remote island of Kameshima sits nestled in Ise bay.\nYuza Minakuchi is a young pearl diver who lives on the island and spends his days underwater gathering, together with his best friend Azami Kumoi. After he has a bewildering supernatural experience encountering another version of himself on the ocean floor, a series of curses start to befall the island...\nA girl of unknown origins, a treasure hunter from a foreign land and a mysterious housewife investigating a d",
+    "icon": "/icons/com.square_enix.android_googleplay.paranoma38.jpg"
+  },
+  "com.techyonic.textbasedrpg": {
+    "title": "An Elmwood Trail - Crime Story",
+    "package": "com.techyonic.textbasedrpg",
+    "description": "Solve the biggest mystery in the town of Riverstone surrounded by the Elmwood Forest \ud83c\udf33. Find the missing girl and prove yourself to everyone. \ud83d\udd0e\n\nIt\u2019s been 3 weeks since a young teen has gone missing and despite the town\u2019s police's best efforts, they hit a dead end and declared the case of 18-year-old Zoey Leonard a runaway.\n\nFor all the interactive-mystery game fanatics. Develop your own trail to unravel the secrets of the town of Riverstone! \u26faThis is YOUR chance to help a detective regain his legacy, save the life of a missing girl and uncover the orchestrator behind such a sick crime. \n\n\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Investigate the case of the missing girl. Navigate through the story, interact with people, gather clues and hints, and make sense of the story. You get to decide what happens.\n\ud83d\udd2e Can you bear the re",
+    "icon": "/icons/com.techyonic.textbasedrpg.png"
+  },
+  "com.astsubaysinavi": {
+    "title": "JSPS APP",
+    "package": "com.astsubaysinavi",
+    "description": "JSPS PRO is a comprehensive training and information platform developed to prepare for promotion exams.\n\n*Up-to-date Laws and Regulations\nAll legislation included in the application is constantly updated.\n\n*Summary Explanations\nDon't worry if you're short on time, start preparing with summaries.\n\n*Video Lessons\nAccess to video lessons prepared by expert instructors for the JSPS exam is provided.\n\n*Audio Explanation Feature\nYou can listen to the topics anywhere, use your time efficiently, and speed up your learning process.\n\n*Flashcards\nPractice for JSPS; flashcards that facilitate topic review and make learning permanent are included.\n\n*Real Exam Format Practice Tests.\n*Exam Calendar and Notifications\nExam dates, necessary actions, and current announcements are sent to the user via instant",
+    "icon": "/icons/com.astsubaysinavi.png"
+  },
+  "com.africacloudspace.apps.jsps": {
+    "title": "JSPS",
+    "package": "com.africacloudspace.apps.jsps",
+    "description": "Automate all operations. Access from anywhere anytime. Connect with parents/student while improving learning and much more.\n\nEnjoy online School Management & Digital Learning Platform with all the time-saving tools you need to grow your school. JSPS is always secure and reliable and our experts are here to support you 24/7.\n\nThe most advanced system, Integrated to Mobile Money & Selected Banks to make your life easy.",
+    "icon": "/icons/com.africacloudspace.apps.jsps.png"
+  },
+  "com.iw.jspwealth": {
+    "title": "JSP Wealth",
+    "package": "com.iw.jspwealth",
+    "description": "JSP Wealth is one-stop solution for all your Wealth Management needs. You can use this state of the art app to stay on top of your Complete Financial Portfolio with all assets:\n\n- Mutual Funds\n- Equity Shares\n- Bonds\n- Fixed Deposits\n- PMS\n- Insurance\n\nKey Features:\n\n- Complete Portfolio report download including all assets.\n- View historical Performance of your Portfolio easily\n- Easy login via your Google email id.\n- Transaction statement of any period\n- 1 Click Statement of Account Download for any Asset Management Company in India\n- Advanced Capital Gain Reports\n- Invest Online in any Mutual fund scheme or New Fund Offer. Track all orders till the allotment of units to keep complete transparency\n- SIP Report to be informed of your Running and Upcoming SIPs, STPs.\n- Insurance list to ke",
+    "icon": "/icons/com.iw.jspwealth.png"
+  },
+  "com.jspspro.sinav": {
+    "title": "JSPS PRO",
+    "package": "com.jspspro.sinav",
+    "description": "JSPS PRO: Exam Preparation App\n\nJSPS PRO is an AI-powered platform that enables modern, systematic, and effective preparation for promotion, specialization, and vocational specialization exams.\n\nJSPS PRO Key Features\n\n\ud83d\udcda Training Content\n\u2714\ufe0f Summary Explanations: Information is presented in a simple, colorful, and easy-to-understand manner.\n\u2714\ufe0f AI-Powered Assistant: Get instant answers to your regulatory questions.\n\u2714\ufe0f Audio and Visual Lessons: Listen or watch wherever you want, making learning easier.\n\u2714\ufe0f Tests and Practice Exams: Test yourself with question sets that comply with current legislation.\n\u2714\ufe0f Random Question Pool: Practice with different question combinations on each attempt.\n\u2714\ufe0f Online Practice Exams: Get real-world experience with ranked exams across Turkey.\n\u2714\ufe0f Flashcards: Mini fla",
+    "icon": "/icons/com.jspspro.sinav.png"
+  },
+  "com.iw.jspinvestments": {
+    "title": "JSP Investments",
+    "package": "com.iw.jspinvestments",
+    "description": "JSP Investments is one-stop shopping for all your Wealth Management needs. You can use this state of the art app to stay on top of your Complete Financial Portfolio with all assets:\n\n- Mutual Funds\n- Equity Shares\n- Bonds\n- Fixed Deposits\n- PMS\n- Insurance\n\nKey Features:\n\n- Complete Portfolio report download including all assets.\n- View historical Performance of your Portfolio easily\n- Easy login via your Google email id.\n- Transaction statement of any period\n- 1 Click Statement of Account Download for any Asset Management Company in India\n- Advanced Capital Gain Reports\n- Invest Online in any Mutual fund scheme or New Fund Offer. Track all orders till the allotment of units to keep complete transparency\n- SIP Report to be informed of your Running and Upcoming SIPs, STPs.\n- Insurance list ",
+    "icon": "/icons/com.iw.jspinvestments.png"
+  },
+  "com.tradron.downloadhub": {
+    "title": "Download Hub, Video Downloader",
+    "package": "com.tradron.downloadhub",
+    "description": "Download Hub \u2014 All Video Downloader, HD Video Player, Private Browser Hub & File Manager\n\nDownload Hub is your complete solution to download videos, play media offline, browse privately, and manage files \u2014 all in one fast and lightweight app.\n\nDesigned as a multi-category utility, it combines a high-speed video downloader, secure private browser hub, advanced file manager, and full-featured HD video player. Save, organize, and enjoy your media effortlessly.\n\n\ud83d\udc8e CORE FEATURES\n\n\ud83d\ude80 Smart All-Video Downloader\n\u2022 Auto-detects downloadable videos\n\u2022 Supports MP4, MOV, MKV, M4V, FLV, AVI, WMV & more\n\u2022 Choose SD, HD, Full HD, 2K & 4K (when available)\n\u2022 Multi-thread acceleration for 3\u00d7 faster downloads\n\u2022 Batch downloading & background mode\n\u2022 Resume broken or interrupted downloads\n\n\ud83c\udf10 Private Browser Hub",
+    "icon": "/icons/com.tradron.downloadhub.png"
+  },
+  "com.audiomack": {
+    "title": "Audiomack: Music Downloader",
+    "package": "com.audiomack",
+    "description": "Stream and download the best new trending music (full tracks offline data-free) and listen to your local MP3s! Browse music from the best artists in top categories like Hip-Hop, Rap, R&B, EDM, Afropop, and Reggae on the Audiomack music app. Download songs and listen offline, without using your data, or listen to your personal MP3 collection! Audiomack provides download access and unlimited streaming to the newest and hottest tracks, right at your fingertips. Our music download feature allows you to play your favorite songs offline, and our \u201cTrending\u201d section shows you the best albums and songs that are hot right now. Plus, you can listen to all local MP3s, WAV, M4A, AAC, and other local files right from the app. KEY FEATURES \u2022 Stream unlimited full music tracks and mixtapes that are new or",
+    "icon": "/icons/com.audiomack.png"
+  },
+  "com.sec.android.easyMover": {
+    "title": "Samsung Smart Switch Mobile",
+    "package": "com.sec.android.easyMover",
+    "description": "\u25a3 Smart Switch gives you the freedom to move your contacts, music, photos, calendar, text messages, device settings and more to your new Galaxy device. Plus, Smart Switch\u2122 helps you find your favorite apps or suggest similar ones on Google Play\u2122. \n\n\u25a3 Who can transfer? \n\u2022 Android\u2122 owners \n- Android 5.0 or higher\n\n\u2022 iOS\u2122 owners - use the option that\u2019s best for you: \n- Wired transfer from your iOS device to your Galaxy: iOS 5.0 or above, iOS device cable (lightning or 30 pin), and a USB connector \n- Import from iCloud\u2122: iOS 4.2.1 or higher and Apple ID \n- PC/Mac transfer using iTunes\u2122: Smart Switch PC/Mac software \u2013 Get started http://www.samsung.com/smartswitch \n\n\u25a3 What can be transferred? \n- Contacts, calendar(Device content only), messages, photos, music (DRM free content only, Not support",
+    "icon": "/icons/com.sec.android.easyMover.png"
+  },
+  "com.free.block.musicum": {
+    "title": "SimpleMusic - MP3 Music Player",
+    "package": "com.free.block.musicum",
+    "description": "Listen to your favorite music and watch music videos for free with SimpleMusic.\n\nSimpleMusic gives you access to a world of free music, curated playlists and Mixes,  audiobooks, artists, and original podcasts you love. Discover podcasts, new music, top songs or listen to your favorite albums.\n\nListen to over 40 category genres - New Releases, Charts, Live Events, Made for You, At Home, Only You, Summer, Pop, Workout, Hip-Hop, Mood, Party, Pride, Dance/Electronic, Alternative, Indie, Equal, Wellness, Rock, Frequency, R&B, Disney,, Throwback, Radar, Chill, Sleep, In the car, Kids & Family, Caribbean, Classical, Romance, Jazz, Instrumental, Afro, Christian and Gospel and Country.\n\nSimpleMusic also allows you to watch and subscribe to videos including simp music, games streaming, beauty, break",
+    "icon": "/icons/com.free.block.musicum.png"
+  },
+  "com.github.anrimian.musicplayer": {
+    "title": "Simple Music Player",
+    "package": "com.github.anrimian.musicplayer",
+    "description": "Simple offline music player.\nSuitable if you just need to play music from your phone.\n\nThe application has the following functionality:\n\u00a0\u00a0\u00a0\u00a0 \u2022 Display music library on the device, by compositions, folders, artists, albums or genres.\n\u00a0\u00a0\u00a0\u00a0 \u2022 Playing music, sequentially or randomly.\n\u00a0\u00a0\u00a0\u00a0 \u2022 Interaction with local playlists: play, add and delete songs.\n\nAdditionally:\n\u00a0 \u2022 App widgets support\n\u00a0 \u2022 Dark theme\n\u00a0 \u2022 Headset support\n  \u2022 Edit composition tags\n  \u2022 Sleep timer\n  \u2022 Simple equalizer support\n  \u2022 Android auto support\n  \u2022 Possibility to change playback speed\n  \u2022 No tracking or any analytics",
+    "icon": "/icons/com.github.anrimian.musicplayer.png"
+  },
+  "com.shaiban.audioplayer.mplayer": {
+    "title": "Music Player - MP3 Player",
+    "package": "com.shaiban.audioplayer.mplayer",
+    "description": "Play music with Muzio player: A Stylish, Powerful and Fast Music Player App \n\nMuzio player lets you play music, browse through searches and manage all your offline music from one place while taking very little memory. This perfect offline music player enables you to play music without any worry. Packed with tons of features, attractive design and powered by a unique battery-saving feature, Muzio is the only offline music player, audio player you\u2019ll ever need.\n\nKey Features:\n\u2605 All Audio Formats Support\nMuzio Player is not just any MP3 player but one that can play songs of any format. This offline player supports audio formats like MP3, WMA, MIDI, WAV, FLAC, AAC, APE etc, giving you a worry free music experience.\n\n\u2605 Powerful Equaliser\nBoost your music experience with the MP3 player's built-i",
+    "icon": "/icons/com.shaiban.audioplayer.mplayer.png"
+  },
+  "com.mta.playtunes": {
+    "title": "PlayTune",
+    "package": "com.mta.playtunes",
+    "description": "Music should flow effortlessly.\nPlayTune delivers a refined listening experience with smooth background playback, real-time lyrics, and intelligent music tools \u2014 all in one beautifully crafted app.\n\nDesigned for users who value performance, control, and simplicity.\n\n\ud83c\udfb5 Key Features\n\ud83c\udfa7 Seamless Background Playback\nKeep your music playing while multitasking or when your screen is off.\n\ud83c\udfbc Smart Music Discovery\nEasily explore songs, albums, and playlists with a clean and intuitive interface.\n\ud83d\udce5 Offline Listening\nSave tracks for uninterrupted playback anytime, anywhere.\n\ud83d\udcdd Live Lyrics\nFollow along with real-time, synchronized lyrics while your music plays.\n\ud83c\udf0d Instant Lyrics Translation\nUnderstand every word with built-in translation support.\n\ud83d\udd0a Balanced Audio Levels\nEnjoy consistent sound quality acro",
+    "icon": "/icons/com.mta.playtunes.png"
+  },
+  "com.JindoBlu.OfflineGames": {
+    "title": "Offline Games - No Wifi Games",
+    "package": "com.JindoBlu.OfflineGames",
+    "description": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This offline game collection is like an overflowing toy box packed with more than 20 unique minigames. It's designed for classic game enthusiasts, puzzle lovers, and challenge seekers. And the best part? You don't need an internet connection to enjoy it!\n\nOur array of Number Games like 2048 and 2248 will get your neurons firing. Engage in these numeric challenges and strive to hit the highest scores. They're perfect for keeping your mind sharp, and they're addictive, too! You'll find yourself coming back to beat your own scores time and again.\nWord Games are a great way to expand your vocabulary and language skills. With word guess and word finder, you'll embark on an adventure through a maze of letters, uncovering ",
+    "icon": "/icons/com.JindoBlu.OfflineGames.png"
+  },
+  "com.plato.android": {
+    "title": "Plato: Fun Multiplayer Games",
+    "package": "com.plato.android",
+    "description": "Welcome to Plato, where gaming meets chatting in the most epic way possible. Play online with over 50 amazing multiplayer team games. Social fun awaits - play with friends or match up with someone new. Play and challenge your friends directly in our chat games.\n\nWhy You'll Love Plato\u2019s Online Chat and Team Games:\n\u25cf Multiplayer Games Galore: Challenge your friends with 50 top-tier online mini games like Ocho (Crazy Eights) 8\ufe0f\u20e3, Pool \ud83c\udfb1, and Carrom \ud83e\udd4f there's always something fun to play. Whether you're into sports, classic board games, or strategy games - we've got you covered.\n\u25cf Ad-Free Fun: Say goodbye to annoying ads and pay-to-win schemes with free games. Plato is all about pure, uninterrupted fun while gaming and chatting with friends - making it the ultimate place to be social.\n\u25cf Person",
+    "icon": "/icons/com.plato.android.webp"
+  },
+  "com.security.xvpn.z35kb": {
+    "title": "X-VPN: Fast VPN & Secure Proxy",
+    "package": "com.security.xvpn.z35kb",
+    "description": "Get 100% free VPN access with no registration, enjoy private browsing and unlimited traffic with high-speed connections on your Android device, and stay in control of your privacy without sharing personal information.\n\u25a0 Available on all major devices and platforms\n\u25a0 Explore a safer, private, and unrestricted internet with X-VPN\n\u25a0 Experience the global hit enjoyed by over 80 million people.\n\nWant total control over your online freedom?\nStay private and browse with confidence with just one tap. Introducing X-VPN: Fast & Secure VPN Proxy, the Super VPN Proxy for Android, iOS, and more \u2014 fast, secure, and reliable, and built on modern security protocols to help protect your data. Connect securely and use the web with more privacy. Trusted by millions worldwide. Download X-VPN now to get starte",
+    "icon": "/icons/com.security.xvpn.z35kb.png"
+  },
+  "com.flixxo.apps.flixxoapp": {
+    "title": "Flixxo",
+    "package": "com.flixxo.apps.flixxoapp",
+    "description": "Flixxo is a different streaming platform. Discover over 200 microseries and shorts films from around the world, without spending a dime, while supporting your favorite creators.\n\nHow? Earn Flixx by watching ads and spend them on the content you love. Creators receive 100% of your payments in real-time, transparently.\n\nFlixxo is microseries, shorts films, and direct support for its creators. Flixxo is the best of independent content.",
+    "icon": "/icons/com.flixxo.apps.flixxoapp.webp"
+  },
+  "com.spagreen.flixoo": {
+    "title": "Flixoo",
+    "package": "com.spagreen.flixoo",
+    "description": "Flixoo is your ultimate live streaming and entertainment app designed for movie lovers and binge-watchers. With a vast collection of movies, TV shows, and live events, Flixoo lets you enjoy high-quality streaming anytime, anywhere.\n\n\u2714\ufe0f Watch the latest movies, trending shows, and exclusive content\n\u2714\ufe0f Experience smooth live streaming without interruptions\n\u2714\ufe0f Multiple servers for faster and reliable playback\n\u2714\ufe0f Save favorites to watch later\n\u2714\ufe0f User-friendly interface with personalized recommendations\n\nWhether you\u2019re into movies, series, or live events, Flixoo brings entertainment to your fingertips. Stay connected, stay entertained \u2013 only on Flixoo.",
+    "icon": "/icons/com.spagreen.flixoo.png"
   }
 }
