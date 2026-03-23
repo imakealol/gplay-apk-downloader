@@ -6349,5 +6349,218 @@
     "package": "com.univision.prendetv",
     "description": "Disfruta de ViX, el streaming en espa\u00f1ol m\u00e1s grande del mundo. Tenemos para ti m\u00e1s de 100  canales de TV en vivo y on-demand, con novelas, pel\u00edculas, series originales, deportes  y noticias 24 horas.\n\n\n\u00a1Descarga ya! Abre la App y comienza a disfrutar de nuestro servicio de streaming en todos tus dispositivos favoritos, \u00a1SIEMPRE EN ESPA\u00d1OL! Mira ViX donde sea y cuando sea.\n \nViX GRATIS tiene lo mejor en series, cine de Hollywood, comedias divertidas y deportes en vivo. En ViX nunca tendr\u00e1s tiempo para aburrirte. \u00a1Es GRATUITO!\n\nEntretenimiento sin l\u00edmites, donde sea y cuando sea.\n \n\u25cf  \tDisfruta de tus novelas favoritas desde el principio con episodios completos\n\u25cf  \tTus comedias cl\u00e1sicas que te hacen re\u00edr a carcajadas\n\u25cf  \tDramas, acci\u00f3n, reality TV y documentales\n\u25cf  \tPel\u00edculas Gratis  \n\u25cf  \tLo",
     "icon": "/icons/com.univision.prendetv.jpg"
+  },
+  "com.oneapps.batteryone": {
+    "title": "Battery One: Charging & Health",
+    "package": "com.oneapps.batteryone",
+    "description": "\ud83d\udd0b Battery One: Your Ultimate Battery Monitoring ToolBattery One collects, processes, and displays detailed battery data, including charging and discharging speed, voltage, temperature, actual capacity, average battery usage, and more.\u2764\ufe0f Track Your Battery HealthDid you know your phone's battery has a limited lifespan? Factors like temperature and charging frequency significantly affect battery health. With Battery One, you can analyze these factors and better manage your battery\u2019s longevity.\u26a1\ufe0f Key FeaturesReal-time charge and discharge speed tracking.Accurate calculation of actual battery capacity.Battery usage history and detailed statistics.Forecast remaining battery life based on current charge level.Predict battery wear over time using advanced algorithms.Customizable notifications tai",
+    "icon": "/icons/com.oneapps.batteryone.png"
+  },
+  "com.mahersafadi.electron": {
+    "title": "Electron: battery health info",
+    "package": "com.mahersafadi.electron",
+    "description": "electron is an app that gives you information of your battery's health state and more.\n\nkey features of the electron:\n\n- Battery health\n\n  get the battery wear state of the battery to know when to get a replacement.\n\n- current mAh level\n\n  get the realtime amount of  mAh's in the battery.\n   \nother features that electron offers:\n\n- charging status\n- type of charging\n- battery technology\n- battery temperature\n- current and average current\n- battery presence\n- voltage",
+    "icon": "/icons/com.mahersafadi.electron.png"
+  },
+  "com.digibites.accubattery": {
+    "title": "Accu\u200bBattery",
+    "package": "com.digibites.accubattery",
+    "description": "Accu\u200bBattery displays battery usage information, and measures battery capacity (mAh) based on science.\n\u00a0\n\u2764 BATTERY HEALTH\n\u00a0\nBatteries have a limited lifespan. Every time you charge your device, it wears out the battery, lowering its total capacity. \n\n- Use our charge alarm to remind you to unplug your charger.\n- Discover how much battery wear was endured during your charge session.\n\u00a0\n\ud83d\udcca  BATTERY USE \n\u00a0\nAccu\u200bBattery measures the actual battery usage using information from the battery charge controller. Battery usage per app is determined by combining these measurements with information on which app is in the foreground. Android calculates battery usage using pre-baked profiles that device manufacturers provide, like how much power the CPU uses. In practice however, these numbers tend to be h",
+    "icon": "/icons/com.digibites.accubattery.png"
+  },
+  "com.paget96.batteryguru": {
+    "title": "Battery Guru: Battery Health",
+    "package": "com.paget96.batteryguru",
+    "description": "Easily monitor your battery\u2019s health, performance, charging, and temperature in real time with Battery Guru app. Get detailed insights, battery alarms, and powerful widgets to help you better understand your device\u2019s battery.\n\n\ud83d\udccc Highlights\n- Monitor battery health, temperature, and usage in real time.\n- View battery percentage in real time with detailed statistics.\n- Access detailed battery statistics and historical charging data.\n- Set customizable battery alarms and notifications.\n- Use adaptive widgets for quick battery status checks.\n- Accurate battery charging meter with ampere and watts readings.\n- Evaluate charger and cable performance with power metrics.\n- Estimate charging and discharging times with precision.\n- Check foreground app usage\n\n\ud83d\udd0b Battery Health & Diagnostics\nTrack your",
+    "icon": "/icons/com.paget96.batteryguru.png"
+  },
+  "com.usekimono.android": {
+    "title": "Blink - The Frontline App",
+    "package": "com.usekimono.android",
+    "description": "Blink is the no. 1. employee app. Our mission is to improve the lives of employees through technology by giving them a voice. Blink is more than an internal communications app or an intranet app; customize the platform to match your brand colors, access timetables and rotas, view your e-payslips, swap shifts and book holidays all with a few clicks! Use our award-winning, all-in-one employee engagement software to digitize paper-based processes and make your data more secure and compliant. \n\nBlink is built around four pillar points: the Feed gives you a personalized view of top-down internal communications, Chat allows you to communicate peer-to-peer or within teams via instant message, voice, or video calling (find all the right connections in the Directory) and the Hub gives you access to",
+    "icon": "/icons/com.usekimono.android.png"
+  },
+  "com.immediasemi.android.blink": {
+    "title": "Blink Home Monitor",
+    "package": "com.immediasemi.android.blink",
+    "description": "Get more value, simplicity, and convenience with Blink smart home security. See and speak to people and pets, right from the Blink app with features like HD live view, infrared night vision, and crisp two-way audio. Connect to an Alexa-enabled device to engage live view, arm and disarm your system, and more using your voice. Plus, use the Blink app to customize motion alerts, and set activity and privacy zones, so you only get notified about the activity you care about. With wired, plug-in, and wireless options featuring up two years of powerful battery life, Blink cameras can be set up in minutes and placed almost anywhere around your home. Affordable peace of mind starts at www.blinkforhome.com. Blink and get more.\n\nBlink Outdoor 4 is our fourth-generation wireless smart security camera ",
+    "icon": "/icons/com.immediasemi.android.blink.png"
+  },
+  "com.blinknetwork.mobile2": {
+    "title": "Blink Charging Mobile App",
+    "package": "com.blinknetwork.mobile2",
+    "description": "The Blink Charging mobile app was created with you in mind. We are making it more convenient and seamless to charge your EV. Whether you are charging at home or your favorite public charge location, your charging experience has been upgraded.\n\nLOCATE EV CHARGING STATIONS\nFind public electric vehicle charging stations on the Blink Charging mobile app. Search for an EV charger location by zip code, city, business name, location category, or physical address.\n\nMANAGE CHARGE SESSIONS\nMonitor real-time information during a charging session and view details about the charging session including occupancy time, estimated charge session cost, charging stations information, energy delivered, and current vehicle charging speed.\n\nRECEIVE CHARGING STATUS UPDATES\nCheck the status of your EV charge. Set ",
+    "icon": "/icons/com.blinknetwork.mobile2.png"
+  },
+  "com.galoyapp": {
+    "title": "Blink (Bitcoin Wallet)",
+    "package": "com.galoyapp",
+    "description": "Blink is the go-to Bitcoin wallet trusted across the Bitcoin ecosystem, known for its ease of use, accessibility, and exceptional payment reliability. Whether you're just getting started or you're a seasoned Bitcoiner, Blink makes sending, receiving, and managing Bitcoin fast and secure. \n\nBacked by Blink's well-maintained and powerful Lightning nodes, payments are processed with an extraordinarily high success rate.\n\nWith Blink, you can:\n\n- Effortlessly Manage Bitcoin & Dollar Accounts: Use the Bitcoin account for regular Bitcoin transactions or the Dollar account, powered by Stablesats, to keep your funds stable with USD-equivalent balances.\n- Instant Bitcoin Payments: Send and receive Bitcoin on-chain or over the Lightning Network with confidence, powered by Blink\u2019s highly reliable Ligh",
+    "icon": "/icons/com.galoyapp.png"
+  },
+  "com.blinkmap": {
+    "title": "Blink \u2014 friends location",
+    "package": "com.blinkmap",
+    "description": "Meet Blink \u2014 an interactive map showing your friends' location, their phone charge, and how fast they're moving! Share location and message and call friends, find out more about their life. Bright soundmojis make this process even more fun.\n\n- Friends location tracker\n- Funny audiostickers\n- Check-ins: share stories from cool places\n- Your traces on the map\n- Private messages: chat with BFFs and family members\n- Audio- and video-calls\n- Bumps: find friends nearby, meet and let others know\n- Step counter\n\nLocation sharing\nShare your location and find people on the map at any time. If your friends meet, you'll get notification. If they travel, you can find out in which direction and at what speed the are moving. BFFs locator works 24/7, but if you need to disappear for a while, you can use f",
+    "icon": "/icons/com.blinkmap.png"
+  },
+  "com.heyblink.blink": {
+    "title": "Blink",
+    "package": "com.heyblink.blink",
+    "description": "Stock Trading in a Blink of an eye"
+  },
+  "com.instagram.barcelona": {
+    "title": "Threads",
+    "package": "com.instagram.barcelona",
+    "description": "Say more with Threads \u2014 Instagram\u2019s text-based conversation app.\n\nThreads is where communities come together to discuss everything from the topics you care about today to what\u2019ll be trending tomorrow. Whatever it is you\u2019re interested in, you can follow and connect directly with your favorite creators and others who love the same things \u2014 or build a loyal following of your own to share your ideas, opinions and creativity with the world.\n\nA few things you can do on Threads\u2026\n\n\u25a0 Access your Instagram followers\nYour Instagram username and verification badge are reserved for you. Automatically follow the same accounts you follow on Instagram in a few taps, and discover new accounts too.\n\n\u25a0 Share your point of view\nSpin up a new thread to express what's on your mind. This is your space to be your",
+    "icon": "/icons/com.instagram.barcelona.png"
+  },
+  "Apkdl.dietdroid.com": {
+    "title": "Apkdl.dietdroid.com",
+    "package": "Apkdl.dietdroid.com"
+  },
+  "com.samsung.android.tvplus": {
+    "title": "Samsung TV Plus - TV & Movies",
+    "package": "com.samsung.android.tvplus",
+    "description": "Watch Samsung TV Plus on the go with our mobile app. Everything you love about TV at zero cost. Choose from 350+ live TV channels and 1000s of movies and shows on demand, all for free\n\nStay up to date with live local and national news, with ABC News Live, CBS News, LiveNOW from FOX, NBC News NOW, CNN Replay, Bloomberg Originals, and more. \n\nWith a huge variety of live TV channels and on demand shows and movies, with more added all the time, you can binge popular shows with full seasons like \u201cThe Walking Dead,\u201d \u201cDateline,\u201d \u201cLaw & Order,\u201d  \u201cTop Gear,\u201d \u201cHell\u2019s Kitchen,\u201d \u201cConan O'Brien TV,\u201d \u201cDr. Who,\u201d and more.  \n\nStay entertained with free blockbuster hits on Paramount Movie Channel, Hallmark Movies & More, The Movie Hub, CINEVAULT: Classics, and more. \n\nCheck back often and don\u2019t miss the la",
+    "icon": "/icons/com.samsung.android.tvplus.png"
+  },
+  "com.hgapp.tvplus": {
+    "title": "Tv Plus",
+    "package": "com.hgapp.tvplus",
+    "description": "Tv Plus kanal som tilbyr et actionfylt og adrenalin inkludert ekstremsportmedley, fra bilracing og cross til motorsykkel, automatisering; et bredt spekter av disipliner, show og konkurranser fra hele verden. Vi har en rekke eksklusive rettigheter.\n\nDistribusjon:\n- Mobil\n- Android TV\n- Telia IPTV\n- Smart TV\n- Satellitt",
+    "icon": "/icons/com.hgapp.tvplus.png"
+  },
+  "com.google.android.youtube.tvunplugged": {
+    "title": "YouTube TV: Live TV & more",
+    "package": "com.google.android.youtube.tvunplugged",
+    "description": "YouTube TV is now the exclusive home of NFL Sunday Ticket. Watch every out-of-market Sunday game* on your TV and supported devices. Learn more: https://yt.be/nflsundayticket\n\nWatch cable-free live TV. Download to watch & record live TV from 100+ networks, including local sports & news, as part of your monthly membership. Cancel anytime.\n\n+Cable-free live TV. No cable box required.\n+Stream major broadcast and cable networks, including CBS, FOX, NBC, NFL Network, HGTV, TNT, AMC, and more, including your local sports & news channels.\n+Watch on your smartphone, tablet, computer, and TV\n+Cloud DVR without DVR storage space limits. Each recording will be stored for 9 months.\n+6 YouTube TV accounts per household. Everyone gets their own login, recommendations and DVR.\n+Monthly pay-as-you-go membe",
+    "icon": "/icons/com.google.android.youtube.tvunplugged.png"
+  },
+  "com.ttech.android.onlineislem": {
+    "title": "Turkcell",
+    "package": "com.ttech.android.onlineislem",
+    "description": "With Turkcell app, you can monitor your usage, view and pay your invoices, top-up your account, purchase packages, shop for electronics and much more with ease, speed and free of charge. You can easily switch between Turkcell and Turkcell Pasaj on the renewed interface. Through the app, you can find the opportunity to access our special promotions, reminders and offers. It is time to discover the privilege of shopping for many technological products throughTurkcell app with Turkcell Pasaj!\n \n\u2022 You Can Reach Turkcell Pasaj via Turkcell app!\nTurkcell Pasaj is Turkey\u2019s first electronic marketplace. You can access Turkcell Pasaj from Turkcell app\u2019s welcome screen. You can follow the campaigns and special offers from the home page. You can review thousands of technological product from the \u201cCat",
+    "icon": "/icons/com.ttech.android.onlineislem.png"
+  },
+  "com.live.soulchill": {
+    "title": "SoulChill - Voice Chat & Party",
+    "package": "com.live.soulchill",
+    "description": "Welcome to SoulChill\u2014Your Global Chill Chat Space with a vibrant community of over 5 million people worldwide! SoulChill provide a new way for you to share your life with all around the world. \ud83d\ude0e\n\ud83e\udd73PARTY CHAT \u2728\nUnlimited minutes group voice chat. Singing, playing games or sharing your stories. Spend leisure time and have fun in a diverse community! \nCreate your own chat rooms and invite friends or newcomers. Or join a group chat room and engage in a online party anytime, anywhere.\n\n \ud83e\uddd4\ud83c\udffdAVATAR \u2728\nCustomize your avatar to show your special personality\n\n \ud83d\udc3eFEED \u2728\nShare your every little milestone of your life, record each of your highlight moment. By sharing photos and short videos on moments, you will catch your fan\u2019s eyes around you and increase your popularity.\n\n\ud83c\udf81 GIFTS\u2728\n- We have animated gift",
+    "icon": "/icons/com.live.soulchill.webp"
+  },
+  "com.ahoygames.okey": {
+    "title": "Okey",
+    "package": "com.ahoygames.okey",
+    "description": "Okey is a traditional tile-based game with long history and many variations. It's highly popular in Turkey among Turkish people, played mainly in coffee houses by people in every age. It's very similar to Rummy/Rummikub as it is played with the same set of boards and tiles but with different rules.\n\nRealistic feeling, simple interface, and exciting gameplay!\n\nOkey Game is played by four players with a set of 106 tiles, and 104 of them are numbered from 1 to 13 with four different colors. During the game, each player has 14 tiles on their board. On each turn, a player draws one tile and discards one tile. The goal of the game is to be first to form a board that consists of sets and runs using all 14 tiles. There are special tiles chosen in every game, called jokers, which help the player fo",
+    "icon": "/icons/com.ahoygames.okey.png"
+  },
+  "com.gogii.textplus": {
+    "title": "textPlus: Text Message + Call",
+    "package": "com.gogii.textplus",
+    "description": "Join over 150 million others who use textPlus to stay connected with a second phone number \u2014 with free texting, WiFi calling, and flexible messaging options.\n\ntextPlus gives you a real U.S. second phone number for unlimited texting and affordable calling. Use your second line on any device \u2014 no SIM card or traditional mobile plan needed. Whether you need it for work, travel, or privacy, textPlus lets you talk, send, and stay in touch using WiFi or data.\n\nWhat You Get with textPlus:\n\nSecond Phone Number: Pick a U.S. area code and get a free, verified phone number. Use it for calling, texting, and more \u2014 all from one app.\n\nUnlimited Free Texting: Text now to any U.S. mobile contact. Send MMS, group messages, and stay connected without limits.\n\nFree Inbound Calling: Receive calls directly ove",
+    "icon": "/icons/com.gogii.textplus.webp"
+  },
+  "com.turkcell.paycell": {
+    "title": "Paycell",
+    "package": "com.turkcell.paycell",
+    "description": "Let us introduce you to the payment technology that makes your shopping experiences even more advantageous: Paycell. Discover Paycell's opportunities now!\n\nPay Everywhere with Paycell\n\nPaycell is always there for you to make your payments quickly and securely on a single platform. Once you register with your phone number, you can have a contract-free Paycell Card. Then, it\u2019s time to transfer or request money, top-up Turkcell TL or Istanbul Card wherever you want!\n\nDiscover The World of Paycell\n\nPaycell\u2019s mobile payment technology offers many advantages. Here are some of them:\n\u2022\tBenefit from Haz\u0131r Limit which is a defined card limit allowing you to shop at contracted points with QR or phone number. You can also top up your Paycell Card and spend it wherever you want or withdraw cash.\n\u2022\tPay ",
+    "icon": "/icons/com.turkcell.paycell.png"
+  },
+  "com.turkcellplatinum.main": {
+    "title": "Turkcell Platinum",
+    "package": "com.turkcellplatinum.main",
+    "description": "With the Turkcell Platinum application, all the advantages of the world of privileges are at your fingertips! Turkcell Platinum is designed to increase your quality of life and add comfort to your life, with customer services exclusive to Platinum members, special privileges that add pleasure and comfort, and rich internet content. Discover our application now for opportunities that will add value to every moment of your life!\n\nWith the Turkcell Platinum application, many privileges such as special service officials who come to your door with a phone during the busy hustle and bustle of your life, special customer representatives that you can reach without waiting in line, free airport transfer, car wash and coffee are in your pocket. Among the Platinum privileges, services that will make ",
+    "icon": "/icons/com.turkcellplatinum.main.png"
+  },
+  "com.turkcell.android.ccsimobile": {
+    "title": "\u0130\u015fTurkcell Online",
+    "package": "com.turkcell.android.ccsimobile",
+    "description": "By using \u0130\u015fTurkcell Online application, you can easily perform transactions related to your company lines. You can check the package information of all your lines and define additional packages for your lines that are about to expire. When your invoices are issued, you can view them without waiting and pay one by one or all your invoices at once. You can change the settings of your lines abroad, such as the internet, and approve the requests of company employees. You can perform many other transactions related to your company lines within seconds from the \u0130\u015fTurkcell Online application.\n\n\u2022 Fast and Easy Login Experience\nSignature Circular Authorities and Private Password Authorities of companies can log in to \u0130\u015fTurkcell Online application with the Fast Login option. You can contact your Tur",
+    "icon": "/icons/com.turkcell.android.ccsimobile.png"
+  },
+  "com.tivo.android.hotwire": {
+    "title": "Fision TV+",
+    "package": "com.tivo.android.hotwire",
+    "description": "Fision TV+ customers are invited to enjoy free access to our Android app which is the ideal entertainment experience providing control, discovery and a mobile place for viewing. Watch your DVR recordings, find shows and schedule recordings, and browse content via the guide, by genre or category, explore the cast and crew, and see where the content is available to watch.  \n\nKEY FEATURES: \n\u2022 Access to all channels you are subscribed to when connected to Fision Wi-Fi \n\u2022 Access to over 200 channels when not connected to Fision Wi-Fi  \n\u2022 Set recordings for TV shows, movies and even series \n\u2022 Browse and manage your recordings in My Shows \n\u2022 Speed up the way you search and browse using your device\u2019s keypad \n\u2022 Find out more about the cast and crew \n\u2022 At home, transform your device into a second TV",
+    "icon": "/icons/com.tivo.android.hotwire.png"
+  },
+  "com.btes.tv.platform": {
+    "title": "BTES TV+",
+    "package": "com.btes.tv.platform",
+    "description": "BTES TV+ is an app-based TV service available exclusively to BTES' Internet customers. Watch the TV channels you know and love anytime you\u2019re connected to your BTES Internet on your favorite mobile device or compatible TV without the need for a set top box! 100 storage hours of cloud DVR included, with additional hours of recording available for an additional charge. Watch on up to 3 devices included, with additional streams available for an additional charge. \n\nDisclaimer -\nApp requires content to be displayed in its original aspect ratio or is of older quality.",
+    "icon": "/icons/com.btes.tv.platform.png"
+  },
+  "com.ispgestionclientes.tvttecnicentro": {
+    "title": "TVT Fibra",
+    "package": "com.ispgestionclientes.tvttecnicentro",
+    "description": "TVT Fiber customer app. From our App you can carry out a multitude of procedures with TVT Fibra from the comfort of your home, such as viewing your active contracts, viewing your consumption, downloading invoices, opening support tickets and many more options.",
+    "icon": "/icons/com.ispgestionclientes.tvttecnicentro.jpg"
+  },
+  "com.tvt.supercamplus": {
+    "title": "SuperCam Plus",
+    "package": "com.tvt.supercamplus",
+    "description": "SuperCamPlus is a professional mobile phone client software for digital video recorders, IP Cameras and NVR in CCTV surveillance(compatible models only).\nThe software is for professional usage and copyright protected.",
+    "icon": "/icons/com.tvt.supercamplus.webp"
+  },
+  "com.einnovation.temu": {
+    "title": "Temu: Shop Like a Billionaire",
+    "package": "com.einnovation.temu",
+    "description": "shop on Temu for amazing offers\n\nNo matter what you're looking for, Temu has you covered, including fashion, home decor, handmade crafts, beauty & cosmetics, clothing, shoes, and more.\n\nDownload Temu today and enjoy incredible deals daily.\n\nWIDE SELECTION\nDiscover thousands of new products and shops.\n\nCONVENIENCE\nFast and secure checkout.\nFree shipping & returns within 90 days.\n*Other conditions may apply\n\nVisit temu.com or follow us on:\nInstagram: https://www.instagram.com/temu/\nTikTok: https://www.tiktok.com/@temu \nFacebook: https://www.facebook.com/shoptemu\nYoutube: https://www.youtube.com/@temu",
+    "icon": "/icons/com.einnovation.temu.webp"
+  },
+  "com.free.ludomultiplayer": {
+    "title": "Ludo Champ Super Star Champion",
+    "package": "com.free.ludomultiplayer",
+    "description": "Ludo champ is New Free Super 5 star champions Game 2020, 2021 & 2025 with virtual cash(virtual money) & daily bonus gifts.  The best online multiplayer ludo board game of tournaments and championship. \"Ludo Champ\" is the traditional game by offering features such as multiple modes to play on, which includes Local Mode (i.e. pass and play), Online Multiplayer (play against other players around the world) and Private Multiplayer (play against friends in private rooms). While, Ludochamp has been very lucky in order to make it as big as it did; its popularity can also be attributed to its simple gameplay which requires little to no learning curve, as well as nostalgia that it induces. Most people have fond memories of playing Ludo while growing up either with their family or their friends; mem",
+    "icon": "/icons/com.free.ludomultiplayer.png"
+  },
+  "com.zzkko": {
+    "title": "SHEIN-Shopping Online",
+    "package": "com.zzkko",
+    "description": "Everything you love, now at your fingertips!\n\nSHEIN is a fun and ultra-affordable online shopping platform. From fashion apparel to home, beauty, accessories, shoes and pet, plus electronics, tools, office and more,  SHEIN is dedicated to meet all your needs in life. We'll keep you in the loop with push notifications about new drops and more. You can also engage with other SHEIN lovers and in real time. With free shippings and free returns policy, hope you have a pleasant journey with SHEIN!\n\nInspire yourself with SHEIN right now!\n\nSave more\n- Get an extra 30% off on your first order \n- Free shipping & free returns (*conditions apply)\n- Daily Flash Sales: Score up to 90% off for countless items\n\nWide selections\n- Fun, easy shopping with wide selections\n- Browse by New Arrivals, Trends, Cat",
+    "icon": "/icons/com.zzkko.png"
+  },
+  "com.zarzilla.GinRummy": {
+    "title": "Gin Rummy Super: Fun Card Game",
+    "package": "com.zarzilla.GinRummy",
+    "description": "Play the card game everyone\u2019s talking about across the USA!\nDownload Gin Rummy Super now, play online with real players, collect rare cards, and become a Rummy champion.\nLove games like Uno, Rummy Rush, or Solitaire? You need to try this.\n\nWelcome to Gin Rummy Super, a thrilling, social, and strategic rummy experience that draws you into a world of smart gameplay, creative expression, and real-time challenges.\nBuilt especially for U.S. players who love competitive card action and a premium, rewarding game experience.\n\nPlay live with real people from across the country. Every game is a test of skill, timing, and decision-making.\nMaster your melds, keep your score low, and climb to the top of the leaderboard.\n\nPerfect for both casual players and seasoned pros.\nIf you enjoy games like Spades,",
+    "icon": "/icons/com.zarzilla.GinRummy.png"
+  },
+  "com.ludo.multiplayer": {
+    "title": "Super Ludo Classic",
+    "package": "com.ludo.multiplayer",
+    "description": "Welcome to the best 3d Ludo game in the world of battle with royal games. New and free online multiplayer games ludo all in one star game app is the best Ludo game for the United States. We are proudly presenting the best game of Ludo as well as the best board game online. Ludo multiplayer 2019 and its variants are popular in various countries with different names and designs. Super ludo real star game also known as fun games online free is the ancient as well as the most favorite game of all times. It\u2019s popular among young boys and girls but the man and women also love to play this game. Ludo board game online is a fun game to play with family and friends. It is also called Parchisi and Laadhuu in different countries. It is the best family game in all board games. We all grew up playing t",
+    "icon": "/icons/com.ludo.multiplayer.png"
+  },
+  "com.trtcocuk.yapboz": {
+    "title": "TRT Yapboz",
+    "package": "com.trtcocuk.yapboz",
+    "description": "TRT Children Puzzle, children's logic skills, creative thinking and imagination to enrich the world, is a delightful jigsaw puzzle game. At the same time puzzle can develop children's problem-solving skills, TRT consists of characters of children's cartoons.\nTRT Children jigsaw puzzle fun with each other dynamically, offers a fun gaming experience with high-quality drawing and graphics. Enjoy it!\n\n3 YEARS AND OLDER CHILDREN'S PUZZLE FOR CHILDREN TRT\n\nfun and educational puzzles from each other waiting for you!\nTRT doubled their children enjoy popular puzzle hero!\nEasy playable and has been designed as suitable for children.\nDeveloped in conjunction with child psychologists and teachers.\nContent is ad-free and safe for children.\n\nTRT CHILDREN'S PUZZLE FOR FAMILIES\n\nquality along with childr",
+    "icon": "/icons/com.trtcocuk.yapboz.png"
+  },
+  "com.kentkart.trt": {
+    "title": "TRT Smart Bus",
+    "package": "com.kentkart.trt",
+    "description": "TRT Smart Bus mobile app helps you plan your travel easily and quickly; it provides real time information about buses schedules and expected arrival times.\nUse the app to top up your card balance, create Mobil Card straight to the app quickly.\n- Top up your card: Top up your cards anytime using the app's user-friendly interface.\n- Create Mobile Card: Create your very own mobile card right within  TRT Smart Bus mobile app.\n- Routes: Stay informed with real-time bus arrivals and check for information on bus lines, stops and stations.\n- Plan your trips with \u2018Trip Planner\u2019: Trip Planner offers you the best public transport route including options with all operators. The fastest route will be shown on the map with information about stops, times and fare.\n- Check your card balance and usage: Che",
+    "icon": "/icons/com.kentkart.trt.png"
+  },
+  "com.trtplus.app": {
+    "title": "TRT Plus",
+    "package": "com.trtplus.app",
+    "description": "Built for TRT and enhanced athletes. TRT Plus helps you stay organized, optimized, and dialed in through every phase, from TRT to peak conditioning and contest prep.\n\nStay on top of every detail with a protocol tracker, steroid plotter charts, enhanced athlete-specific bloodwork analysis, advanced T fluctuation pharmacokinetics, automated medication reminders, injection rotation planning, dynamic inventory tracking, automated bloodwork scanning, pathology partner integration, and in-depth insights into your health. All in one place.\n\nTrack your protocol with advanced pharmacokinetic modeling that visualizes compound behavior over time, choose from 80+ pre-configured compounds with one-tap setup, and analyze your bloodwork using enhanced reference ranges built for optimization, not general ",
+    "icon": "/icons/com.trtplus.app.png"
+  },
+  "com.batra.mytrtapp": {
+    "title": "My TRT App",
+    "package": "com.batra.mytrtapp",
+    "description": "My TRT App helps you stay organized and consistent with your TRT routine\u2014without messy notes or forgotten reminders. Log what you take, when you take it, how you feel, and keep key information in one place.\n\nWhat you can do with My TRT App\n\nSet reminders for injections/medications and routine tasks\n\nLog doses with date/time and notes\n\nTrack how you feel (symptoms, mood, energy, sleep, side effects)\n\nRecord lab results so you can see changes over time\n\nView your history in a simple timeline\n\nExport summaries to share with your healthcare provider\n\nPrivacy-focused\nYour health info is personal. My TRT App is designed to keep your data under your control and easy to manage.\n\nImportant note\nMy TRT App is for tracking and organization only and does not provide medical advice, diagnosis, or treat",
+    "icon": "/icons/com.batra.mytrtapp.png"
+  },
+  "com.trtcocuk.maysa": {
+    "title": "TRT Maysa ve Bulut",
+    "package": "com.trtcocuk.maysa",
+    "description": "TRT Children beloved cartoon of Maysa and Cloud is now at your fingertips.\n\nMaysa and her mother are the kinds of local clothes, jewelry and accessories to decorate the children's hands.\n\nFOR OLDER CHILDREN AGES 6 and\n\n- Fun and educational games\n- It was developed in conjunction with child psychologists and Teachers\n- EASY playable and screens designed for children\n- Ad-free content for children and SAFE\n\nMaysa and Cloud; 3 years and above is an improved educational game for children.\n\nChildren two different characters to decorate with your own choice of accessories and clothing of their choice in accordance with / provide the dress and choose in this process, while supporting the development of positioning and aesthetic perception, aims to acquire the opportunity to learn about clothes f",
+    "icon": "/icons/com.trtcocuk.maysa.png"
   }
 }
