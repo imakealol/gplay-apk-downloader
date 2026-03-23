@@ -1,6 +1,6 @@
 # GPlay APK Downloader
 
-Download APKs from Google Play Store. Automatically merges split APKs (App Bundles) into single installable APKs.
+Download APKs from Google Play Store. Can merge split APKs (App Bundles) into single installable APKs.
 
 ## Features
 
