@@ -2309,12 +2309,6 @@
     "description": "Free TV: Install and Start Watching Immediately!\n\nTired of searching for channels on your TV or TV Box, dealing with complicated menus, or annoying ads that pop up with every click? Free TV is designed for just that, so you can comfortably watch the news or national channels in the evenings.\n\nDon't bother downloading an empty player and searching for lists! Our app comes PRE-LOADED with publicly available, unencrypted, and legal national, news, sports, documentary, and children's channels. You can start watching TV as soon as you install the app.\n\n\ud83c\udf1f Key Features:\n\n\ud83d\udcfa Ready-Made Channel List: No installation required. Dozens of unencrypted, national, and local channels are at your fingertips as soon as you open the app.\n\ud83d\ude80 Upload Your Own List (M3U & Xtream): You're not limited to the default",
     "icon": "/icons/com.sunargames.canlitv.png"
   },
-  "app.tfs.prod&hl": {
-    "title": "24Six",
-    "package": "app.tfs.prod&hl",
-    "description": "Ever wished you could have your music according to your values?\n\nWelcome to 24Six: your music, your podcasts, your videos\u2026 all in one incredibly controllable app.\n\n\u2014 You don\u2019t have to keep saying \u2018no\u2019\n\u2014 You don\u2019t have to worry about inappropriate content\n\u2014 You don\u2019t have to compromise on your family\u2019s entertainment\n\nFinally, you can enjoy the entertainment YOU choose according to your standards.\n\nOn the 24Six app, you can:\n\n\u2014 NEW: Offline Music Streaming! Download your favorite songs and listen to them without an internet connection\n\u2014 Access only pre-vetted content\n\u2014 Customize filters for each family member\n\u2014 Create your own playlists (or access public ones)\n\u2014 Switch between music, videos and podcasts \u2014 and back\n\u2014 Access exclusive 24Six original content from your favorite artists\n\nIn short",
-    "icon": ""
-  },
   "au.com.optus.selfservice": {
     "title": "My Optus",
     "package": "au.com.optus.selfservice",
@@ -6182,5 +6176,35 @@
     "package": "com.spagreen.flixoo",
     "description": "Flixoo is your ultimate live streaming and entertainment app designed for movie lovers and binge-watchers. With a vast collection of movies, TV shows, and live events, Flixoo lets you enjoy high-quality streaming anytime, anywhere.\n\n\u2714\ufe0f Watch the latest movies, trending shows, and exclusive content\n\u2714\ufe0f Experience smooth live streaming without interruptions\n\u2714\ufe0f Multiple servers for faster and reliable playback\n\u2714\ufe0f Save favorites to watch later\n\u2714\ufe0f User-friendly interface with personalized recommendations\n\nWhether you\u2019re into movies, series, or live events, Flixoo brings entertainment to your fingertips. Stay connected, stay entertained \u2013 only on Flixoo.",
     "icon": "/icons/com.spagreen.flixoo.png"
+  },
+  "com.artoon.pool.billiards": {
+    "title": "Royal Pool: 8 Ball & Billiards",
+    "package": "com.artoon.pool.billiards",
+    "description": "\ud83c\udfb1 Royal Pool Billiards Games \u2013 The Ultimate 8-Ball Pool Experience! \ud83c\udfb1\n\nGet ready to experience the thrill of 8-ball billiards like never before! Whether you're a seasoned pool player or a beginner looking to sharpen your skills, Royal Pool Billiards Games brings you the most realistic and addictive billiard experience. Enjoy beautifully designed pool cues, accurate ball physics, and exciting challenges in this offline snooker game!\n\nWith easy-to-use controls and smooth gameplay, you can master the art of cue sports and become the king of snooker in this thrilling single-player 8-ball game. Solve unique pool puzzles, earn exciting rewards, and decorate stunning areas to create your personalized billiards adventure!\n\n\ud83c\udfaf Why Play Royal Pool Billiards Games?\n\n\u2714\ufe0f Realistic 8-Ball Pool Experience",
+    "icon": "/icons/com.artoon.pool.billiards.png"
+  },
+  "com.hypgames.ultimatepool": {
+    "title": "Ultimate 8 Ball Pool",
+    "package": "com.hypgames.ultimatepool",
+    "description": "PLAY EPIC HEAD-TO-HEAD 8-BALL POOL GAMES AND ENJOY THE THRILL OF FULL 3D GRAPHICS AND PINPOINT ACCURATE PHYSICS\n\nLooking for an incredible 8 Ball Pool experience? Look no further! Play against live opponents from around the world and become the King of Pool in the best full 3D 8 Ball Pool game! Compete in live multiplayer matches or play solo in hundreds of unique billiards challenges.\n\nSome of the features of Ultimate 8 Ball Pool include: \n\nFULL 3D GRAPHICS:\nPlay pool in FULL 3D with stunning photorealistic graphics. You can visualize every shot from any angle and even TAP-TO-ZOOM on your target and combo balls for pinpoint-accurate alignment. But if you prefer a traditional TOP-DOWN view, don't worry! That's still available and easy to use, too.\n\nMULTIPLAYER HEAD-TO-HEAD BATTLES:\nCompete",
+    "icon": "/icons/com.hypgames.ultimatepool.jpg"
+  },
+  "com.miniclip.eightballpool": {
+    "title": "8 Ball Pool",
+    "package": "com.miniclip.eightballpool",
+    "description": "Do you want to play in the world of pool games? 8 Ball Pool is an addictive challenging game based on real 3D pool games, where you will challenge your friends online. Become a master of the pool!\n\nThe balls game is easy to win. You just have to select the table and get ready. Join us and challenge your friends to this ball game in PvP mode. Use your pool strategy with the cue wisely in this online multiplayer ball game as every round will be more difficult after each level. You can play in multiplayer or PvP mode in different pool tables. Become the best player and challenge your friends in this pool game.\n\nYou can play pool in multiplayer or PvP mode using different balls and table types. 8 Ball Pool is designed to help your intelligence. You will improve the aim when shooting balls with",
+    "icon": "/icons/com.miniclip.eightballpool.png"
+  },
+  "com.azgame.app.poolcity": {
+    "title": "Billiards City - 8 Ball Pool",
+    "package": "com.azgame.app.poolcity",
+    "description": "Ready for a gorgeous billiards adventure in Billiard City?\nBilliards City - 8 Ball Pool will bring you a new and amazing experience! If you are a billiards game lover, you will love this game.\n\nMain feature:\n\n[Different tables and clubs]\nTables come in different shapes and colors, and the number of holes varies; you can also unlock more advanced clubs to help you hit great shots!\n\n[Awesome gaming experience]\nBilliards City uses realistic impact sound and is responsive, giving you a near-real billiards experience.\n\n[Various challenge levels]\nEvery certain number of normal levels, we have prepared interesting challenge levels for you, it may be a little difficult, but I believe you can pass it!\n\n[Can also play offline]\nBilliards City has designed 1000+ levels, which can also be played offlin",
+    "icon": "/icons/com.azgame.app.poolcity.jpg"
+  },
+  "com.SNG.Pool.Billiard": {
+    "title": "8 Ball Billiards Offline Pool",
+    "package": "com.SNG.Pool.Billiard",
+    "description": "Play the ultimate offline 8 Ball Billiards game on Android!\nNo internet? No problem. Compete against smart AI opponents in smooth, realistic billiards matches. No waiting for players, no coin purchases \u2013 just pure pool action.\n\n\ud83c\udfaf Game Modes:\n\n8 Ball and 9 Ball pool modes\n\nChallenge bots in offline mode\n\nPlay online against real players\n\nLevel-based progression with 100+ challenges\n\nJoin tournaments and rise in the ranks\n\n\ud83d\udca5 Core Features:\n\nRealistic physics and cue control\n\nNo wifi required for offline mode\n\nPlay for coins, unlock items, upgrade skills\n\nSmooth graphics and classic green table feel\n\nLightweight and optimized for all Android devices\n\n\ud83c\udfb1 Whether you're a beginner or a pool master, this game offers endless fun with or without internet. Practice, level up, and become a true 8-bal",
+    "icon": "/icons/com.SNG.Pool.Billiard.png"
   }
 }

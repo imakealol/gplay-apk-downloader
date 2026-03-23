@@ -713,6 +713,7 @@ def sitemap():
             app_urls = ''.join(
                 f'  <url><loc>{SITE_URL}/app/{pkg}</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>\n'
                 for pkg in meta
+                if re.match(r'^[a-zA-Z][a-zA-Z0-9_.]*$', pkg)
             )
             if app_urls:
                 xml = xml.replace('</urlset>', app_urls + '</urlset>')
