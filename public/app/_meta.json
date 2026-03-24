@@ -7162,5 +7162,191 @@
     "package": "com.oumi.utility.media.hub",
     "description": "Looking for a feature-packed and efficient media player to manage, organize, and play different types of video content? VidHub serves up more than just the ability to play all types of video formats. With extensive media library management and network sharing functionalities, VidHub promises stable and speedy video playback for an exceptional user experience.\n\nSome of the key features that VidHub offers include:\n- Support for a comprehensive range of video formats, including .mkv\u3001.avi\u3001.mp4\u3001.mov\u3001.rmvb\u3001.wmv, and more\n- High-quality video playback for HD, 4K, HDR, and various other resolutions\n- The ability to enable and disable subtitles, with support for embedded and external subtitle formats such as SRT, SSA, and SUB\n- Network sharing capabilities, with support for SMB/CIFS, WebDav, and ot",
     "icon": "/icons/com.oumi.utility.media.hub.png"
+  },
+  "com.carddecks": {
+    "title": "Gottman Card Decks",
+    "package": "com.carddecks",
+    "description": "Want to improve your relationship? This app has questions you can ask your partner, as well as suggestions for things to do and say. Start with one or two and see how it goes, then come back for more.",
+    "icon": "/icons/com.carddecks.png"
+  },
+  "com.pokemon.pokemontcgl": {
+    "title": "Pok\u00e9mon TCG Live",
+    "package": "com.pokemon.pokemontcgl",
+    "description": "Embark on an exciting new adventure with Pok\u00e9mon Trading Card Game Live\u2014now available on mobile, PC, and Mac OS! Build powerful decks featuring your favorite Pok\u00e9mon, collect cards at no cost through the Battle Pass, and challenge Trainers from around the world in thrilling online matches. Download now and discover a whole new way to enjoy the fun and strategy of the Pok\u00e9mon Trading Card Game!\n\n\nHONE YOUR SKILLS\n\nBeginner-Friendly Tutorials: New to the Pok\u00e9mon TCG or Pok\u00e9mon TCG Live? Our practice matches and tutorials will guide you step-by-step, helping you become a great Trainer in no time.\n\nLearn Together: Players can learn together by visiting our Learn to Play page. Discover helpful tutorials and tips to enhance your gameplay experience.\n\nBattle Trainers Everywhere: Whether you\u2019re ho",
+    "icon": "/icons/com.pokemon.pokemontcgl.png"
+  },
+  "com.kongregate.mobile.throwdown.google": {
+    "title": "Animation Throwdown: Epic CCG",
+    "package": "com.kongregate.mobile.throwdown.google",
+    "description": "Animation Throwdown is the collectible card game that lets you collect cards and battle with characters from your favorite shows!\n\nCollect cards featuring characters and moments from your favorite cartoons. FAMILY GUY, FUTURAMA, AMERICAN DAD, KING OF THE HILL, BOB\u2019S BURGERS and FX\u2019s ARCHER duke it out in Animation Throwdown\u2019s epic CCG!\n\nPVP battles let you duel other players in strategic head-to-head card battles. Enter epic card wars with Bob, Linda, Tina, Louise or Gene and fight Peter or Stewie Griffin! Battle, build and upgrade your deck for a cartoon card clash.\n\nBuild a deck and join a guild with your friends, share tips and tricks through chat. Can you rise to the top? \ud83d\udc51\n\nCard battles may be digital, but the stakes are real!* The fate of the world rests in your hands!**\n(*Stakes are",
+    "icon": "/icons/com.kongregate.mobile.throwdown.google.png"
+  },
+  "com.cdprojektred.gwent": {
+    "title": "GWENT: The Witcher Card Game",
+    "package": "com.cdprojektred.gwent",
+    "description": "Join in The Witcher universe\u2019s favorite card game \u2014 available for free! Blending the CCG and TCG genres, GWENT sees you clash in fast-paced online PvP duels that combine bluffing, on-the-fly decision making and careful deck construction. Collect and command Geralt, Yennefer and other iconic Witcher-world heroes. Grow your collectible arsenal with spells and special abilities that dramatically turn the tide of battle. Use deception and clever tricks in your strategy to win the fight in classic, seasonal and Arena modes. Play GWENT: The Witcher Card Game for free now!\n\nFREE TO PLAY THAT\u2019S WORTH YOUR TIME \u2014 A fair and fun progression system turns the effort of building a competitive collection of cards into pure pleasure \u2014 simply collect new cards to build decks with as you play GWENT; no str",
+    "icon": "/icons/com.cdprojektred.gwent.png"
+  },
+  "com.tapps.roguelike.rpg.cardguardians": {
+    "title": "Card Guardians Roguelike Games",
+    "package": "com.tapps.roguelike.rpg.cardguardians",
+    "description": "Valentia, a vibrant and captivating world, is under attack by Chaos and all the heroes have been defeated! \n\nNow it's up to the misfits and aspiring heroes to confront dangerous challenges and keep this land safe and free from Chaos.\n\nI, Imp, your mysterious and charming host, am here to recruit heroes! Will you answer my call?\n\n\ud83c\udccf Card Guardians: A Roguelike Card Battle Adventure\nWelcome to Valentia, a realm where strategy meets chaos in this thrilling roguelike card game. In Card Guardians, you\u2019ll enter a world of epic battles and tactical decision-making, where every move counts and every card can change your fate.\n\nThe land of Valentia was once ruled by balance, but now it's under siege. Chaos corrupts all. As one of the last heroes, your mission is clear: build the ultimate deck and fi",
+    "icon": "/icons/com.tapps.roguelike.rpg.cardguardians.png"
+  },
+  "com.google.android.apps.automotive.youtube": {
+    "title": "YouTube",
+    "package": "com.google.android.apps.automotive.youtube",
+    "description": "Get the official YouTube app in your car. See what the world is watching -- from the hottest music videos to what\u2019s popular in gaming, fashion, beauty, news, learning and more. Subscribe to channels you love and watch in your car.\n\nWatch and subscribe \n\u25cf Browse personal recommendations on Home\n\u25cf See the latest from your favorite channels in Subscriptions \n\u25cf Look up videos you\u2019ve watched, liked, and saved for later in Library \n\nExplore different topics, what\u2019s popular, and on the rise (available in select countries)\n\u25cf Stay up to date on what\u2019s popular in music, gaming, beauty, news, learning and more\n\u25cf See what\u2019s trending on YouTube and around the world on Explore\n\u25cf Learn about the coolest Creators, Gamers, and Artists on the Rise (available in select countries)\n\nConnect with the YouTube co",
+    "icon": "/icons/com.google.android.apps.automotive.youtube.png"
+  },
+  "com.google.android.katniss": {
+    "title": "Google app for Android TV",
+    "package": "com.google.android.katniss",
+    "description": "The fastest, easiest way to explore movies, music and other content for your Android TV, when you need it. \u2022 Use your voice to quickly search for movies, tv, music and more \u2022 Easily navigate through films, actors, artists, apps and albums \u2022 Ask Google for quick facts about anything. Plus: Google Search can help your discover content from other apps on your TV",
+    "icon": "/icons/com.google.android.katniss.png"
+  },
+  "com.vivaldi.browser": {
+    "title": "Vivaldi Browser - Fast & Safe",
+    "package": "com.vivaldi.browser",
+    "description": "We\u2019re building a fast, ultra customizable browser that prioritizes your privacy (not our own profit). An Internet browser that adapts to you, not the other way around. Vivaldi browser comes packed with smart features including desktop-style tabs, a built-in Ad Blocker, protection against trackers, and a private translator. Browser options like themes and layout choices help you make Vivaldi your own.\n\nPersonalized Speed Dial \n\nBrowse faster by adding your favorite bookmarks as Speed Dials on the new tab page, to keep them one tap away. Sort them into folders, pick from a bunch of layout options, and make it your own. You can also switch Search Engines on the fly using Search Engine Nicknames while typing in Vivaldi\u2019s Address Field (like \"\"d\"\" for DuckDuckGo or \"\"w\"\" for Wikipedia).\n\nTab Ba",
+    "icon": "/icons/com.vivaldi.browser.png"
+  },
+  "com.enjoy.moviebox": {
+    "title": "Movie Box",
+    "package": "com.enjoy.moviebox",
+    "description": "Ultra Speed video downloading application!\nUnprecedented comfort!\nIs fast and clean and convenience!\nDownload the videos fast free!\nThe comfort which can play the video even if is off-line!\n*** Implementation features ***\n\u30fb Background play function\n\u30fb Live stream (.m3u8) correspondence\n\u30fb Continuous play functions\n\u30fb Making of the playlist\n\u30fb Save to a camera roll\n\u30fb Search history, collective deletion function of Cookie\n\u30fb Memory of the stop time\n\u30fb Introduce the video URL to a friend\n\u30fb Others\n*** Charging *** in the application\n\u25a0 4$ \"Release Limit\"\n... When you use from the application installation for one day(24 hour), the downloading of the video becomes impossible.\nThe downloading of the video is enabled if you purchase \"Release Limit\".\n\u25a0 1$ \"Hide Ad\"\n... You can hide an advertisement if you",
+    "icon": "/icons/com.enjoy.moviebox.png"
+  },
+  "com.phule.movie_app": {
+    "title": "Movie Box",
+    "package": "com.phule.movie_app",
+    "description": "This application shows information about movies, series and actors from the API provided by https://www.themoviedb.org.\nThis is a database of movies, series and actors. Watch trailers.\nThis product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "icon": "/icons/com.phule.movie_app.png"
+  },
+  "com.moveesbox.moviestraillerd": {
+    "title": "MovieBox Pro : Movie & TV Show",
+    "package": "com.moveesbox.moviestraillerd",
+    "description": "Discover a smarter way to explore movies and TV shows in one place.\n\nBrowse a rich collection of films and series with detailed information including genres, cast, ratings, release dates, and summaries \u2014 helping you decide what to watch next with confidence.\n\nWatch official trailers, explore viewing information, and build your own personalized watchlist to keep track of titles you love. Whether you\u2019re planning a movie night or simply discovering new releases, everything is organized in a clean and intuitive interface.\n\nMake discovery even more engaging with fun movie-related games like quizzes and puzzles designed to test your knowledge and entertain you beyond browsing.\n\n\u2728 Key Features:\n\n\u2022 Explore movies with full details\n\u2022 Discover TV shows with complete information\n\u2022 Watch official trai",
+    "icon": "/icons/com.moveesbox.moviestraillerd.jpg"
+  },
+  "com.pblorange.premovie": {
+    "title": "Movie Box",
+    "package": "com.pblorange.premovie",
+    "description": "Movie Box is your ultimate companion for discovering movies. \nExplore thousands of titles with detailed information, trailers, ratings, and cast profiles \u2014 all in one place.\n\n\u2728 Key Features:\n\u2022 Browse trending and popular movies updated daily\n\u2022 Watch official trailers and sneak peeks instantly\n\u2022 Get detailed info: synopsis, release date, genres, ratings\n\u2022 Explore cast & crew profiles with photos and roles\n\u2022 Create your own watchlist and track favorites\n\u2022 Smart search to quickly find any movie\n\u2022 Sleek, modern design with smooth navigation\n\n\ud83c\udfa5 Why Movie Box?\nStop wasting time searching across multiple platforms. Movie Box brings everything together so you can decide what to watch faster. Whether you\u2019re a casual viewer or a true cinephile, Movie Box helps you stay updated with the latest releas",
+    "icon": "/icons/com.pblorange.premovie.png"
+  },
+  "com.gargan.abismo": {
+    "title": "Moviebox HD\uff1aWatch TV&short",
+    "package": "com.gargan.abismo",
+    "description": "This all-in-one streaming app helps you discover and watch popular dramas, movies, and anime from various regions. Whether you're into suspense, romance, action, or comedy \u2014 it delivers a smooth and enjoyable viewing experience.\n\ud83c\udf9e\ufe0f Watch a Wide Range of Content\n Access trending TV series, films, and animations across different genres.\n\ud83d\udd04 Daily Updates\n Fresh content added regularly to keep your watchlist exciting.\n\ud83e\udded Easy-to-Navigate Interface\n Browse and stream with ease thanks to a clean and intuitive design.\n\ud83d\udcbe Watch Offline\n Download select episodes or movies and watch them anytime without internet.\n\u2764\ufe0f Personal Watchlist\n Save favorites, continue where you left off, and stay organized.",
+    "icon": "/icons/com.gargan.abismo.png"
+  },
+  "com.canlitv.onlinetvizle": {
+    "title": "Canl\u0131 TV - Full HD Tv izle",
+    "package": "com.canlitv.onlinetvizle",
+    "description": "Thanks to our live TV watch service, you can watch television uninterrupted and without freezing at any time of the day. Download this application now to enjoy the convenience of watching television from anywhere and on any device you want.\n\nMobile device users who want to watch live television often look for such applications. Taking these requests into consideration, we have developed an application that offers you perfect \"live TV\" service. Thanks to this application, which collects all television channels in one place, you have the opportunity to watch the channel you want with a single click.\n\nAndroid device users who want to watch television with mobile TV can download our application by searching \"watch TV\" on Google Play. At the same time, they can watch hundreds of television chan",
+    "icon": "/icons/com.canlitv.onlinetvizle.png"
+  },
+  "com.customuse.customuse": {
+    "title": "Customuse: Skins Maker Roblox",
+    "package": "com.customuse.customuse",
+    "description": "Join the growing community of over 2 million designers and creators with Customuse, the ultimate 3D design tool. Make unique Roblox skins, design Zepeto clothes, create Minecraft avatars, customize filters for TikTok/Snapchat/Instagram and much more.\n\nMAKE ROBLOX SKINS\n- Design your dream Roblox skin in seconds.\n- Pick from thousands of templates or start from scratch.\n- Publish your designs directly to Roblox with a few clicks or upload to Roblox Studio.\n- Earn Robux by selling your clothing designs on the Roblox marketplace. Customuse creators are earning 100,000+ Robux with their unique designs.\n- Get inspired with design suggestions from other creators to elevate your Roblox shirts and outfits.\n\nCREATE MINECRAFT SKINS\n- Build unique Minecraft skins with ease.\n- Use Customuse to enhance",
+    "icon": "/icons/com.customuse.customuse.webp"
+  },
+  "com.dailyrxcon.rblxconvert": {
+    "title": "RBX Calc Robox Counter",
+    "package": "com.dailyrxcon.rblxconvert",
+    "description": "RBX Calc Robox Counter is the ultimate companion app for Roblox fans who want fast, simple, and accurate Robux calculations along with fun entertainment features.\n\nEasily track your RBX balance, estimate conversions, and enjoy engaging mini-games designed to make your experience more interactive and enjoyable \u2014 all in one place.\n\nWhether you want to calculate Robux values, explore fun activities, or simply enjoy Roblox-inspired entertainment, this app provides a smooth, user-friendly experience for everyone.\n\n\ud83c\udfae Roblox Quiz Challenge\nTest your knowledge with fun Roblox-style quiz questions. Learn new facts, challenge yourself, and enjoy an entertaining trivia experience anytime.\n\n\n\n\n\ud83d\udcb0 Robux Calculator & RBX Counter\n\u2714 Calculate Robux values instantly\n\u2714 Convert RBX quickly and easily\n\u2714 Track ",
+    "icon": "/icons/com.dailyrxcon.rblxconvert.png"
+  },
+  "com.tocaboca.tocalifeworld": {
+    "title": "Toca Boca World",
+    "package": "com.tocaboca.tocalifeworld",
+    "description": "Welcome to Toca Boca World, the ultimate universe for kids to play, design, and explore their endless imagination! This isn't just a game; it's a safe space where every story is yours to create, and the fun never stops.\n\nToca Boca World is where your creativity takes center stage:\n\ud83d\udedd Unleash your inner storyteller: Roleplay in a universe you've created, where you can tell your own stories. Become a teacher, a vet, or even an influencer.\n\ud83c\udfe1 Design your dream world: Bring your best friends to life with Character Creator. Customize hair, faces, accessories to make up your own style! Use the intuitive Home Designer tool, and you're the architect! Decorate your own house, supermarket, camping van, or any of our constantly updated locations with the furniture and colors you love.\n\u2728Explore and disc",
+    "icon": "/icons/com.tocaboca.tocalifeworld.png"
+  },
+  "com.kitkagames.fallbuddies": {
+    "title": "Stumble Guys",
+    "package": "com.kitkagames.fallbuddies",
+    "description": "Grab your friends and play Stumble Guys, the fun free-to-play multiplayer party royale game!\n\nCompete in fast-paced knockout games with up to 32 players and race through cool obstacle courses and chaotic elimination full of action. Play now and become the last player standing in Stumble Guys, the ultimate online multiplayer party game experience!\n\n\ud83d\udca5 JOIN THE 32-PLAYER ONLINE MULTIPLAYER MADNESS\nCall your friends to battle and race in fun knockout games full of action! Dodge giant snowballs, jump over lasers, and make sure to dash through all games \u2014 but don\u2019t fall or clash!\n\n\ud83c\udf0d EXPLORE 60+ EPIC MAPS FOR ENDLESS FUN\nDash through obstacle courses, jump over crazy traps, and play against your friends and other players - every map brings a new set of thrilling action games and surprises!\n\n\ud83c\udfc1 PLA",
+    "icon": "/icons/com.kitkagames.fallbuddies.png"
+  },
+  "com.thezeusnetwork.www": {
+    "title": "Zeus",
+    "package": "com.thezeusnetwork.www",
+    "description": "THE ZEUS NETWORK is a leading digital video-on-demand entertainment network based in Burbank, California, streaming original premium subscription video programming generated by the most popular Social Media Influencers in the world.  Our combined cast of Influencers and content creators reach a global audience of over 100 million people.  Available across a myriad of digital platforms and devices via the ZEUS app and website, ZEUS is home to a roster of high quality, entertaining premium subscription video programming titles, including exclusive, multi-episodic ZEUS Original Series that can only be found on the ZEUS website or streaming platform.",
+    "icon": "/icons/com.thezeusnetwork.www.webp"
+  },
+  "com.radiofrance.radio.francebleu.android": {
+    "title": "ici : actu locale, radio, TV",
+    "package": "com.radiofrance.radio.francebleu.android",
+    "description": "The best of local life in a single mobile application.\n\nWith the application here, find all the news around you: society, politics, unusual news, news, health, environment...\n\nYou can also listen to live broadcasts from your local radio here (formerly France Bleu) and from your regional antenna France 3. Listen to and watch radio and TV broadcasts on regional news, the latest ideas for outings, cultural heritage, history of your region\u2026\n\nThanks to here, you can also benefit from customizable services to improve your daily life: weather, outing schedule, games, horoscope.\n\nAn application designed for you and with you\n\nWith the application here, find all the latest information near you by configuring the departments that interest you.\n\nAlso follow all the sports news, major events live and t",
+    "icon": "/icons/com.radiofrance.radio.francebleu.android.png"
+  },
+  "com.colt": {
+    "title": "Galatea: Books & Audiobooks",
+    "package": "com.colt",
+    "description": "Experience pure joy on the Galatea App! \n\n \u2b50\ufe0f Unlimited access to thousands of delicious romance stories and audiobooks \u2728\n\n \u2b50\ufe0f Absorb yourself with the wildest, hottest romance stories\u2013available whenever, wherever you like \u2763\ufe0f\n\n \u2b50\ufe0f Your me-time just got a major upgrade with bestsellers added every week \u2728\n\n \u2b50\ufe0f The deepest collection of trending romance genres and tropes \ud83d\udcda\n\n \u2b50\ufe0f Join a community of 15 million women who read on the Galatea App for a joyful recharge\n\n\nRe-ignite your imagination with stories that excite and delight. Whether audiobook, ebook, or interactive fiction, Galatea has a wide range of romance books with new chapters dropping every day.\n\n\n \ud83d\udc96 Read Bestselling Romance Stories and More:\n\n - Lose yourself in stories that span multiple seasons ultimate me-time  \n\n - Discover ex",
+    "icon": "/icons/com.colt.png"
+  },
+  "com.scopely.yux": {
+    "title": "Yahtzee\u00ae With Buddies Dice Fun",
+    "package": "com.scopely.yux",
+    "description": "Welcome to Yahtzee\u00ae with Buddies! The classic dice game reimagined for mobile!\n\nRoll the dice and experience Yahtzee\u00ae like never before. Challenge your friends and family, compete in tournaments, and complete exciting missions to earn amazing rewards! Join millions of players worldwide online and embark on your dice adventure today.\n\nExperience the classic dice game reimagined in Yahtzee\u00ae With Buddies!\nDo you love playing board games like Monopoly, Scrabble, Phase 10, Farkle, Yams, Yazy, or Yatzy? Are you a puzzle game fan who enjoys free apps on your phone? Is having fun with timeless dice games your dream? Then you've come to the right place!\n\nRoll into Fun with the classic dice game on the go!\nPlay the official mobile version of Hasbro's classic dice game, Yahtzee\u00ae! Roll the dice anytim",
+    "icon": "/icons/com.scopely.yux.jpg"
+  },
+  "com.dts.freefiremax": {
+    "title": "Free Fire MAX: Lost Treasure",
+    "package": "com.dts.freefiremax",
+    "description": "Let the treasure hunt begin!\nBeneath the sands lie forgotten riches. Embark on a desert expedition and uncover the Lost Treasure's secrets!\n\n[Lost Treasure]\nBermuda is now a desert, dotted with oases and ruins. Collect maps, follow clues, and unlock hidden chambers to claim powerful items and rare supplies, including the Sky Portal.\n\n[Treasure Hunt]\nDig through tiles to unlock milestone stages in a casual mini game. Team up with friends to reveal secrets under the dunes. Log in on multiple days during the event to earn exclusive rewards!\n\n\nFree Fire MAX is designed exclusively to deliver premium gameplay experience in a Battle Royale. Enjoy a variety of exciting game modes with all Free Fire players via exclusive Firelink technology. Experience combat like never before with Ultra HD resolu",
+    "icon": "/icons/com.dts.freefiremax.png"
+  },
+  "com.netease.newspike": {
+    "title": "Blood Strike: 2nd Anniversary",
+    "package": "com.netease.newspike",
+    "description": "2nd Anniversary Celebration is here! Join anniversary events, claim exclusive skins, and earn massive gold bar rewards! Meet new Striker ALONDRA and experience Golden Wildcards, Grappling Hook, and Thompson SMG!\n\nBlood Strike is a battle royale game available on multiple platforms. With its fast-paced matches, smooth optimization and characters with distinctive abilities, the game has won the hearts of nearly 100 million players globally.\n\nJoin the players worldwide in redefining tactical combat NOW!\n\n\u3010Well optimized, Any Device\u3011\nSilky controls meet HD visuals! Master mobile-native moves like recoil control and slide-shoot combos. Feel next-gen precision on any device \u2013 victory flows through your fingertips! Your skills, not specs, define victory.\n\n\u3010No fixed roles, Every Player is the Carr",
+    "icon": "/icons/com.netease.newspike.png"
+  },
+  "tv.kidoodle.android": {
+    "title": "Kidoodle.TV: Movies, TV, Fun!",
+    "package": "tv.kidoodle.android",
+    "description": "Safely stream thousands of movies, TV shows, cartoons, and gaming videos!\n\nStream over 50,000 episodes including popular shows like PAW Patrol: Pup Tales, Little Angel, Baby Shark, SpongeBob SquarePants, Doggyland, Blippi Wonders, Peppa Pig, Roblox, Minecraft, Dude Perfect & more*. Stream hours of kid-safe videos for free.\n\nNo hidden fees, no subscription needed, no trial offers, and no payment or credit card necessary. Our ad-supported plan offers unlimited access to our Safe Streaming\u2122 library.\n\nDownload Kidoodle.TV\u00ae for FREE and your kids can:\n- Instantly watch thousands of kids TV episodes and full series on-demand\n- Easily discover new shows, updated weekly\n- Search for favorites across the entire content library\n- Create your own profile, customizable by avatar, title selection, and ",
+    "icon": "/icons/tv.kidoodle.android.webp"
+  },
+  "com.david.android.languageswitch": {
+    "title": "Beelinguapp Language Learning",
+    "package": "com.david.android.languageswitch",
+    "description": "Beelinguapp is the bilingual education app that makes language learning fun and effective. Whether you want to learn English, practice Spanish language learning, discover ingles stories, or explore new languages like Japanese, French, or Dutch, Beelinguapp helps you improve reading, listening, and comprehension with side-by-side bilingual texts and audiobooks.\nLearn Spanish, Explore Bilingual Books, and Master Language Learning\nRead in Spanish to improve your vocabulary skills. \nKey Features:\n\u2022 Bilingual Books for All Levels: From beginners to experts, find stories tailored to your skill level and interests.\n\u2022 Audiobooks for Language Learning: Listen to authentic pronunciation and train your ears with our native narrators.\n\u2022 Karaoke-Style Scrolling Text: Follow along with synchronized text",
+    "icon": "/icons/com.david.android.languageswitch.png"
+  },
+  "com.movile.playkids": {
+    "title": "PlayKids Baby Learning Games",
+    "package": "com.movile.playkids",
+    "description": "A children\u2019s app where learning and fun become one!\n\nDiscover PlayKids+, the award-winning, safe and ad-free kids app that brings together your children\u2019s favorite videos, songs and games.Developed by experts in children\u2019s education, PlayKids+ promotes child development and is suitable for all kids aged 2-12 years. The app is COPPA certified for parents\u2019 peace of mind and it brings together 1,000+ cartoons, TV shows, educational games, and interactive activities. \nPlaykids+ is available in 180 countries in 4 languages.\n \nBe one of the more than 5 million families who already trust PlayKids+ to keep their kids safely entertained.   to learn about the best app for educational experiences.\n \nWhy subscribe to PlayKids+?\n- It's 100% safe with no ads\n- PlayKids+ is KidSAFE and COPPA certified, K",
+    "icon": "/icons/com.movile.playkids.png"
+  },
+  "net.colorcity.cleoandcuquin": {
+    "title": "Cuquin - Baby Songs & Cartoons",
+    "package": "net.colorcity.cleoandcuquin",
+    "description": "\u2022 Works offline \u2022 Free trial \u2022 Watch on TV \u2022 Safe for kids\n\nCuquin - Baby Songs & Cartoons is the excellent opportunity to introduce preschoolers and kindergarteners to the beautiful musical adventure.\n\nCleo, Cuquin, Maripi, Tete, Colitas and Pelusin are the Telerin Family. They are six playful, curious and imagination fueled sibilings that love having fun and learning new things every day, along with their furry friends Tomato and Ghost.\n\nSinging and dancing while learning is at the heart of the concept. The songs teach about good habits, emotions, words, numbers, notes, colors, always in a eay that makes learning new things a thrilling adventure full of color and wonders. It\u2019s the perfect mix to live, laugh and love in the magical musical world of Cleo and Cuquin.\n\nCleo is 8 years old an",
+    "icon": "/icons/net.colorcity.cleoandcuquin.png"
+  },
+  "com.tental.zmanimchecklist": {
+    "title": "Zmanim Checklist",
+    "package": "com.tental.zmanimchecklist",
+    "description": "Zmanim Checklist helps you pray at the right time, with confidence.\n\nBUILT\u2011IN SIDDUR (powered by Sefaria)\n\u2022 Complete prayer texts for Shacharit, Mincha, Maariv/Arvit, Shema, and Bedtime Shema\n\u2022 Multi\u2011nusach: Ashkenaz, Sefard, Edot HaMizrach, Chabad\n\u2022 Beautiful typography with role\u2011based styling (leader/congregation/instructions)\n\u2022 Works offline\n\nSee the best time (lechatchila) and the acceptable windows for each prayer based on your exact location. Get configurable reminders before start and before end so you don\u2019t miss. And keep an at\u2011a\u2011glance daily checklist to track your progress through Shema, Shacharis, Mincha, Maariv, and Bedtime Shema.\n\n\ud83d\udccd PRECISE HALACHIC TIMES\n\u2022 GPS-based calculations with elevation support for accuracy\n\u2022 Multiple halachic opinions to match your practice:\n  - GRA (",
+    "icon": "/icons/com.tental.zmanimchecklist.png"
+  },
+  "com.myzmanim.hybrid": {
+    "title": "MyZmanim",
+    "package": "com.myzmanim.hybrid",
+    "description": "With this beautifully designed app, all the zmanim you need to serve Hashem are a thumb-swipe away.\n\nGet zmanim on your phone anytime, anywhere: on a cruise, atop Mt. Everest, in Yehupitzville.\n\nIt's the MyZmanim you love \u2014 only so much better:\n\nNEW ZMANIM\nLatest mussaf, latest Friday meal, latest melava malka, and more.\n\nMORE SHITTOS\nSyrian Sephardic, Rav Hershel Shachter, Professor Cohen, and more.\n\nOUTSTANDING UX\nEasy-to-use, deeply intuitive design \u2014 for instant access to the info you need.\n\nBACKSTORY\nDetailed explanations for each zman, so you understand exactly what you're doing.\n\nYOU ARE HERE\nPrecise zmanim for where you're standing right now \u2014 not just the closest city.\n\nWEATHER-AWARE\nHyper-accurate zmanim that take local weather conditions into account.\n\nEARLIER OR LATER?\nArrow in",
+    "icon": "/icons/com.myzmanim.hybrid.png"
+  },
+  "com.taptam": {
+    "title": "TapTam",
+    "package": "com.taptam",
+    "description": "Taptam: Your Ultimate Tool to Elevate Your Business Profile\n\nStay ahead of the competition and enhance your online visibility with Taptam, the all-in-one solution designed to streamline and boost your business presence across search platforms.\nWhether you run a local shop or manage a large enterprise, Taptam empowers you to easily manage, optimize, and grow your digital footprint.\n\nKey Features:\nAI-Powered Review Responses:\nAutomatically generate personalized responses to customer reviews, saving time and fostering better engagement.\n\nAdvanced Data Analytics:\nUnlock actionable insights from your business data to monitor performance and drive strategic decisions.\n\nProfile Optimization:\nEnhance your listing with proven SEO strategies to rank higher, attract more customers, and stand out in l",
+    "icon": "/icons/com.taptam.png"
   }
 }
