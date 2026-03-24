@@ -6940,5 +6940,227 @@
     "package": "com.companyname.andriodapp1",
     "description": "Seeker is an open-source, third-party P2P client for sharing files.\nFeatures:\n* Searching (including wishlists and filters)\n* Browsing User Directories\n* Downloads and Uploads\n* Port Forwarding via UPnP\n* Chatrooms and Direct Messages\n* Adding Users\n* Get and Set User Info\n* Privileges Support\n\nThis app is, and will always be, completely free, no ads, no \"premium\" features, etc.  It is also open source to view, learn, copy, modify, etc. \nSource Code Here: https://github.com/jackBonadies/SeekerAndroid",
     "icon": "/icons/com.companyname.andriodapp1.png"
+  },
+  "com.xten.uflassistant": {
+    "title": "UFL",
+    "package": "com.xten.uflassistant",
+    "description": "Our latest update allows you to experience the thrill of football right at your fingertips. Tap into the excitement as you control your footballer and juggle the ball with precision, aiming for the highest score in our addictive mini-game.\nBut there\u2019s more! Download this app to get notifications about upcoming test sessions and be among the first to experience new gameplay and features as they\u2019re released. You can stay updated on the game\u2019s development process and work alongside the tester community, making UFL better together.\nWhether you want to perfect your juggling skills in the mini-game or stay informed about UFL\u2019s development, the UFL app has everything you need for your entertainment and engagement. Download now and kick-start the fun!",
+    "icon": "/icons/com.xten.uflassistant.jpg"
+  },
+  "com.yinzcam.xfl.league": {
+    "title": "UFL",
+    "package": "com.yinzcam.xfl.league",
+    "description": "The Official UFL app for the latest league news and videos, real-time scores, stats, and in depth coverage of your favorite teams. Customize your app experience by selecting your favorite team. Use at home, on the go, or at the stadium and experience the United Football League.\n\nPrivacy Policy: https://www.theufl.com/privacy\nTerms and Conditions: https://www.theufl.com/terms",
+    "icon": "/icons/com.yinzcam.xfl.league.png"
+  },
+  "com.wildpluto.uflhub": {
+    "title": "UFLHub: Player DB for UFL",
+    "package": "com.wildpluto.uflhub",
+    "description": "Your Mobile Companion for UFL\n\nUFLHub is the best way to find the perfect player, track their stats at every level, and discuss them with the community.\n\nPLAYER DATABASE \u2013 Browse all UFL players with in-depth stats, attributes, and updates.\n\nSKINS & CUSTOMIZATION \u2013 Explore all player skins, including upcoming releases.\nADVANCED SEARCH \u2013 Find and compare players by ratings, attributes, skills, and cost.\nLIVE EVENTS & UPDATES \u2013 Never miss new promos, challenges, and in-game events.\nCOMMUNITY & STRATEGY \u2013 Connect with other players, share squads, and get tactical advice.\n\nWe\u2019re building UFLHub as the go-to platform for every UFL player, whether you\u2019re a casual gamer or a hardcore competitor.\n\nStay Connected\nFollow us on X (@UFLHub) and Instagram (@UFLHub.App) for updates.\nJoin our Discord (ht",
+    "icon": "/icons/com.wildpluto.uflhub.png"
+  },
+  "com.hoolai.ufc.ggsea": {
+    "title": "Ultimate Football Club",
+    "package": "com.hoolai.ufc.ggsea",
+    "description": "Ultimate Football Club is a new generation 3D mobile football game with FIFPro authorization and endorsement from Juventus, Bayern and other well-known football clubs. The game is made with the most advanced 3D engine, brings an unusual football game experience! Combine players' custom skills with formation system, strategy achieve the ultimate football club!\n\n***Game Features***\n\nFIFPro authorized, Juventus, Bayern Allstars Stand By\nFIFPro officially authorized, update regularly every season to show you the most realistic football world. More than hundreds of teams and thousands of players, 100% restored the pure football, find all you want here. Serie giant Juventus officials announced, the Ronaldo accompany you to play.\n\nHeroic Moment\nInnovative manipulation of \"Heroic moment\", full con",
+    "icon": "/icons/com.hoolai.ufc.ggsea.png"
+  },
+  "com.sega.FootballClubChampions": {
+    "title": "SEGA FC CHAMPIONS (SOCCER)",
+    "package": "com.sega.FootballClubChampions",
+    "description": "From hometown heroes to world class legends! Bring your team to the top of the world.\nGive the management a refresh and compete in major European Leagues.\n\nFrom local football legends to the top of the world!\n\nThe beloved soccer club management simulation game from Japan \u201cSakaTsuku\u201d is here for global players with its latest version!\nCelebrate 30 years of passion and strategy in this iconic title brought to you by SEGA!\n\nSEGA FC CHAMPIONS (SOCCER) is a game powered by Football Manager \u2122, featuring player data from FIFPRO\u2122, and allowing you to compete in J League, K League, and more!\n\nBecome the manager of your club and bring your team from hometown heroes to global superstars.\n\nCompletely free to play all around the world with cross-platform support and cross-play features so you can play ",
+    "icon": "/icons/com.sega.FootballClubChampions.png"
+  },
+  "com.jacuzzi.smarttub": {
+    "title": "SmartTub\u00ae",
+    "package": "com.jacuzzi.smarttub",
+    "description": "The SmartTub\u00ae app is your personal hot tub assistant, making you a hot tub expert. Acting as a quick reference guide, your app tailors tips, how-to videos and information based on how you use your hot tub. Whether you're across town or in the comfort of your own home, you can relax knowing you will always be informed with the SmartTub\u00ae System.\n\no Enjoy easy setup -- just pair your app \no Discover enhanced product knowledge and support\no Master hot tub care with personalized tips and how-to videos\no View energy usage estimates** \no Adjust key settings, such as energy efficiency and temperature while away \no Receive power outage notifications to reduce complications \no Alerts you and your dealer when your hot tub needs attention \no Stay connected with your dealer and 'Click for Service'\n\nReq",
+    "icon": "/icons/com.jacuzzi.smarttub.png"
+  },
+  "com.mobisystems.fileman": {
+    "title": "File Commander Manager & Vault",
+    "package": "com.mobisystems.fileman",
+    "description": "Are your photos, videos, music, and documents important to you? Of course, they are! That\u2019s why we have developed and supported File Commander for almost 20 years!  Our powerful file manager and explorer was created to organize, protect and hide, and help you take full control over your local, cloud, and network files.\n\nFully optimized for Android 13, with File Commander, you also receive 5GB Free cloud storage on MobiDrive alongside the multiple file management and security features - Vault to hide & encrypt, Recycle Bin, Storage Analyzer, File Converter. The File Commander version for TVs lets you control your Android TV\u2019s memory with user-friendly file management features.\n\nHave you ever wanted to make valuable photos, videos, and documents truly invisible to anyone but you?\n\nHide the m",
+    "icon": "/icons/com.mobisystems.fileman.png"
+  },
+  "nextapp.fx": {
+    "title": "FX File Explorer",
+    "package": "nextapp.fx",
+    "description": "FX File Explorer features a Material Design UI and new ways to transfer your files between devices and computers:\n\n* SMBv2 support.\n* New \"FX Connect\" transfers files from phone-to-phone with Wi-Fi Direct.  Supports NFC to connect two phones by physically touching their backs together. (requires FX+)\n* New \"Web Access\" enables transfer and management of files and media from your computer's web browser.  You can drag-and-drop entire folders to your phone from your computer, or stream your phone's music playlists to your computer over Wi-Fi. (requires FX+)\n\nFX is a file explorer built to make working with files and media on your phone or tablet as easy as it is on your computer:\n\n* Productivity-oriented \"Home Screen\": Directly access your important folders, media, and cloud storage\n* Multipl",
+    "icon": "/icons/nextapp.fx.png"
+  },
+  "com.railyatri.in.mobile": {
+    "title": "Train App: Easy Ticket Booking",
+    "package": "com.railyatri.in.mobile",
+    "description": "RailYatri 2.0 \u2013 India's Fastest Train Ticket App, Now Smarter Than Ever\nIRCTC Authorized Partner | Trusted by 7 + Crore travelers \n\nWe listened to your feedback, rebuilt our app from the ground up, crushed the bugs and super-charged every feature. \n\nWelcome to RailYatri 2.0\u2014a brand-new, smarter way to book, track and enjoy train journeys.\n \n\ud83d\ude80 What\u2019s New in RailYatri 2.0?\n\u2022\t\ud83c\udfaf Get Confirmed Tickets on Waitlisted Trains\nSmart alternate train suggestions, quota logic, and last-minute seat scans to boost seat availability.\n\u2022\t\ud83d\udcb8 Free Cancellations with Instant Refunds\nCancel anytime and get your money back in minutes\u2014not days.\n\u2022\t\ud83e\udd1d Live Help Available 7 Days a Week\nReal humans to assist you on chat or call\u2014every day of the week.\n\u2022\t\ud83d\ude86 Alternate Trains & Last-Minute Booking Optimised\nWe track cancell",
+    "icon": "/icons/com.railyatri.in.mobile.png"
+  },
+  "com.railonlinemobile": {
+    "title": "Rail Online",
+    "package": "com.railonlinemobile",
+    "description": "Download the free Rail Online App to compare, plan and book your next rail adventure.\n\nBook and manage your trip and store all of your train tickets & passes in one place, the one stop train ticket shop.",
+    "icon": "/icons/com.railonlinemobile.png"
+  },
+  "com.ixigo.train.ixitrain": {
+    "title": "ixigo Trains: Ticket Booking",
+    "package": "com.ixigo.train.ixitrain",
+    "description": "#1 IRCTC Authorised Train Ticket Booking AppWhy is ixigo the best train booking app for Indian Railways?\u2713 Get 3X Refund* if ticket remains waitlisted with 'Alternate Travel Plan'\n\u2713 Top rated train booking app - 4.7 rating by 30L+ users\n\u2713 Metro tickets booking now available\n\u2713 Free cancellation with instant full refund with 'Assured'\n\u2713 PNR status & waitlist prediction\n\u2713 Where is my train running status - works without Internet\n\u2713 Book bus tickets and hotels on ixigo\n\nGet confirmed train tickets with the IRCTC authorised train app, including Tatkal booking of special IRCTC trains and live train status. Easily book train tickets from the IRCTC train app, check your PNR status and live NTES running status, know where is my train, and check your IRCTC train status even without the internet.\n\nName",
+    "icon": "/icons/com.ixigo.train.ixitrain.png"
+  },
+  "com.confirmtkt.lite": {
+    "title": "ConfirmTkt: Train Booking App",
+    "package": "com.confirmtkt.lite",
+    "description": "ConfirmTkt: Get 3X Refund* if ticket is not confirmed\n\u25cf Seamless Train Ticket Booking App\n\n\u25cf IRCTC Authorised Partner\n\n\u25cf Highest Rated Train App in India\n\n\u25cf One Rail App for All Your Travel Needs\n\n\u25cf Introducing Delhi Metro Ticket Booking\n\n\u25cf Flights, Hotels and Bus Bookings also availableAlternate Travel PlanConfirmed seats or a refund based on your selected travel mode (3X for flight, 3X for bus, or 2X for train) if waitlisted.Confirmed train ticketsIncrease your chance of getting a confirmed train ticket with the ConfirmTkt Alternates and Prediction feature.Full refund on train ticket cancellationWith the Free Cancellation feature, get an instant and full refund.Order food on trainTasty food delivered to you with our \u2018Order Food in Train\u2019 feature.Delhi Metro Booking, Simplified!\u25cf Book You",
+    "icon": "/icons/com.confirmtkt.lite.png"
+  },
+  "com.thetrainline": {
+    "title": "Trainline: Train travel Europe",
+    "package": "com.thetrainline",
+    "description": "Welcome, future Trainliner. Get on board with millions of world-wide users, today, to travel confidently with us \u2013 Europe\u2019s leading train and bus app.  \n\nWhy? \nWhether heading to an international city or from an international terminal, in a matter of clicks you\u2019ll be booking the best seats in advance or saving money on-the-day with our Best Price Guarantee. And for those who like to stay looped, you can turn on real-time notifications and keep an eye on live timetable tracking \u2013 you can even use Crowd Alerts to find out how busy your train is. Plus, forgetting, misplacing, or totally destroying your paper tickets becomes a thing of the past when you purchase digital versions through our app!  \n\nWith so much to see and do, getting there should be the easy part \u2013 and when you book through ou",
+    "icon": "/icons/com.thetrainline.webp"
+  },
+  "com.utorrent.client": {
+    "title": "\u00b5Torrent\u00ae- Torrent Downloader",
+    "package": "com.utorrent.client",
+    "description": "uTorrent is the #1 Android torrents downloader in the Google Play Store with over 100 million downloads. \n\n\u00b5Torrent downloads files at high speeds using the BitTorrent hyper distribution communications protocol for peer-to-peer file sharing (\"\"P2P\"\"). Splitting the downloadable file into multiple parts and employing multi threading through seeding helps you download music, movies and video files many times faster.\n\n\u00b5Torrent is the official BitTorrent Android torrent downloader. Enjoy the most awesome torrent downloading experience with no speed or size limits when downloading.\n\nFast, light, and powerful: that\u2019s the core of our torrent download technology. We developed uTorrent downloader around your mobile download needs.\n\nTop Features\n\u2714 Beautifully light, clean design\n\u2714 Simply download fi",
+    "icon": "/icons/com.utorrent.client.png"
+  },
+  "uni.UNI0F7BE9C": {
+    "title": "Nuvio",
+    "package": "uni.UNI0F7BE9C",
+    "description": "Nuvio \u2013 Master Your Cold Plunge Routine\nTake control of your recovery like never before. The Nuvio app seamlessly connects to your Recovery Chiller, giving you full command over your cold plunge experience\u2014anytime, anywhere. No ice. No hassle. Just cold, clean performance on your schedule.\nPERSONALIZED CONTROL. PEAK PERFORMANCE.\nDial in your perfect temperature, schedule sessions in advance, activate purification, and monitor your plunge history\u2014all from your phone. Nuvio is designed to fit your routine, whether you're plunging pre-workout, post-gym, or just before bed.\nTOTAL CONTROL FROM YOUR PHONE\n\u2022 Set your target temperature\n\u2022 Schedule cooling hours ahead\n\u2022 Activate and customize purification cycles\n\u2022 Toggle power remotely\n\u2022 Track everything from plunge times to session history\nTRACK. ",
+    "icon": "/icons/uni.UNI0F7BE9C.png"
+  },
+  "com.sgebrelibanos.aderaser": {
+    "title": "CleanTube - No Ad Videos",
+    "package": "com.sgebrelibanos.aderaser",
+    "description": "CleanTube is an ad free app that lets you listen to music, and watch videos from your favorite channels in high-quality (4K), and watch videos on top of your screen while using other apps.\n\nThese are the reasons why CleanTube is a must-have, no-ad, streaming app for your phone.\n\n\ud83d\udee1\ufe0f\u00a0Block Ads for Videos:\n\n- No disruptive ads that stop your videos anywhere.\n- Floating video player also doesn't have any ads.\n\n\n\ud83d\udd12 Login to your account:\n\n- Log in to your previous account securely, and all your videos, playlists that you have made will be available in CleanTube for you to use.\n\n\n\ud83c\udfb5\u00a0Popup Video Player Tube\n\nAllows you to play videos with \"floating'' mode. Now, you can play games, watch movies, and do other tasks.\nNo ads in this mode too!\n- You can resize the video player, and move it to any corner",
+    "icon": "/icons/com.sgebrelibanos.aderaser.png"
+  },
+  "tv.twitch.android.app": {
+    "title": "Twitch: Live Streaming",
+    "package": "tv.twitch.android.app",
+    "description": "Welcome to the Purple App, where thousands of communities come together for our favorite streamers, for the games we love, for the lulz, for each other, for whatever. Download Twitch and join millions enjoying live games, music, sports, esports, podcasts, cooking shows, IRL streams, and whatever else crosses our community\u2019s wonderfully absurd minds. We\u2019ll see you in chat.\n\nHere\u2019s a convenient list of other awesome things about Twitch:\n\nEveryone is \u201cabout\u201d community. We actually are one: Whatever you nerd out about, you can find your people on Twitch. \nGive support, get support: Find new streamers and subscribe to your favorites. Plus,  unlock exclusive perks for your support. \nStart your own channel: The Twitch app is one of the easiest ways to start streaming. Just create an account, go l",
+    "icon": "/icons/tv.twitch.android.app.png"
+  },
+  "com.tumblr": {
+    "title": "Tumblr Social Media & Art Blog",
+    "package": "com.tumblr",
+    "description": "Welcome to Tumblr, your ultimate creative space and art social network community for art, memes, and fandoms. Whether you're deep into a niche or just discovering your artistic side, Tumblr welcomes every voice and vision. It\u2019s where creativity, community, and self-expression come together in one powerful social networking platform. Share your work, connect with fans, and explore endless opportunities to post your art in a supportive art community.\nUse Tumblr to share art, write an art blog, discover new fandoms, and explore your interests without limits. We function as a powerful blog making app for all your long- and short-form creations. Post images, text, videos, GIFs, and even audio to your own personalized dashboard. Follow topics you love, reblog content that inspires you, and build",
+    "icon": "/icons/com.tumblr.png"
+  },
+  "com.kabam.marvelbattle": {
+    "title": "Marvel Contest of Champions",
+    "package": "com.kabam.marvelbattle",
+    "description": "Prepare for epic versus-fighting action and battles with your favorite Marvel Super Heroes & Super Villains in the ultimate cosmic showdown! Captain America, Spider-Man, Thor, Shuri, Mister Fantastic & more await your summons to battle! Assemble a team & begin your quest to become the Ultimate Marvel Champion!\n\nWELCOME TO THE CONTEST:\n\u2022 Captain America vs. Iron Man! Hulk vs. Wolverine! Spider-Man vs. Deadpool! Professor X vs. Magneto! The greatest battles in Marvel history are in your hands! \n\u2022 The Collector has summoned you to fight with the biggest names from the Marvel Universe!\n\u2022 Experience the ultimate free-to-play Super Hero fighting game on your mobile device\u2026Marvel Contest of Champions!\n \nBUILD YOUR ULTIMATE TEAM OF CHAMPIONS:\n\u2022 Assemble a mighty team of super heroes and villains, ",
+    "icon": "/icons/com.kabam.marvelbattle.jpg"
+  },
+  "com.foxnextgames.m3": {
+    "title": "MARVEL Strike Force: Squad RPG",
+    "package": "com.foxnextgames.m3",
+    "description": "In MARVEL Strike Force,  battle alongside allies and arch-rivals in this action-packed, free-to-play turn-based RPG super hero game for your phone or tablet. An assault on Earth has begun and Super Heroes and Super Villains are working together to defend it! Assemble your ultimate squad of MARVEL characters, including Spider-Man, Venom, Iron Man, Hulk, Black Panther, Deadpool, Ant-Man and more. Enter the world of one of the top RPG games:\n\nASSEMBLE YOUR SQUAD\nForm a RPG squad of powerful MARVEL Super Heroes and Super Villains in a fight to save the universe. Mix and match characters from all corners of the multiverse for an experience unlike other single player games.\n\nSTRENGTH THROUGH EVOLUTION\nOutfit and upgrade your Marvel Super Heroes and Super Villains to become stronger than ever bef",
+    "icon": "/icons/com.foxnextgames.m3.png"
+  },
+  "com.wb.goog.injustice.brawler2017": {
+    "title": "Injustice 2",
+    "package": "com.wb.goog.injustice.brawler2017",
+    "description": "Who\u2019s in your Justice League? Join your favorite DC Super Heroes and Super-Villains in this action-packed, free fighting game! Assemble a team of Super Hero legends like Batman, Superman, Supergirl, The Flash and Wonder Woman to combat the forces against you. Master new combos and crush opponents in dynamic 3v3 battles. Upgrade your Super Heroes with special powers as you fight your way through the game. Become a champion by collecting gear for your characters and dominating your foes in PvP contests. Every epic battle in this CCG fighting game will define you\u2014join the fight and become the ultimate DC champion!\n\nCOLLECT ICONIC DC CHARACTERS\n\u25cf Choose from a massive selection of DC Super Heroes and Super-Villains in this epic CCG fighting game!\n\u25cf Featuring classic fan favorites such as Batma",
+    "icon": "/icons/com.wb.goog.injustice.brawler2017.png"
+  },
+  "com.wb.goog.injustice": {
+    "title": "Injustice: Gods Among Us",
+    "package": "com.wb.goog.injustice",
+    "description": "Build an epic roster of DC super heroes and villains and get ready for battle! INJUSTICE: GODS AMONG US is a free-to-play collectible card game where you build a roster of characters, moves, powers, and gear and enter the arena in touch-based 3-on-3 action combat.\n\nFIGHT\nUse the touch screen mechanics of your mobile device to battle your enemies in 3-on-3 action combat. Swipe and tap to perform combos and build your power to pull off special attacks and super moves taken straight from the console version of the game.\n\nLEVEL UP\nBuild your move set, increase your powers, upgrade your characters and gear, and beat your competition. Constantly evolve your card collection to fit your style of play and put your best team forward as you take on a series of DC super hero and villian combatants.\n\nO",
+    "icon": "/icons/com.wb.goog.injustice.png"
+  },
+  "com.netmarble.mherosgb": {
+    "title": "MARVEL Future Fight",
+    "package": "com.netmarble.mherosgb",
+    "description": "An epic blockbuster action-RPG featuring Super Heroes and Villains from the Marvel Universe!\n  \nThe Avengers, Guardians of the Galaxy, Inhumans, Defenders, X-Men, Spider-Man, and more!\nOver 200 characters from the Marvel Universe are available to play!\n\nS.H.I.E.L.D.\u2019s very own director, Nick Fury, has sent an urgent message from the future... the convergence is destroying the world as we know it! Prepare to defend your universe!\nRecruit your favorite characters, complete missions, and compete with other players to be the greatest hero and save your world.\n\nCollect over 200 Marvel Super Heroes and Super Villains to assemble your ultimate team.\n- Level up your characters and their gear to unleash their full powers!\n- Build classic teams like the Avengers or X-Men to take advantage of special",
+    "icon": "/icons/com.netmarble.mherosgb.png"
+  },
+  "sinet.startup.inDriver": {
+    "title": "inDrive. Rides with fair fares",
+    "package": "sinet.startup.inDriver",
+    "description": "A great taxi alternative, inDrive (inDriver) is a rideshare app, where you can find a ride or which you can join to drive, as it is also a driver app. \n\nBut that\u2019s not all! You can also use this app to travel to other cities, send and receive packages, book a truck for your personal or business needs, and even hire a local pro to help you with whatever you need. You can also sign up as a courier or tasker. A fair price is the one you agree on \u2014 not hope for. inDrive exists to prove that people can always come to an agreement. \n\nSilicon Valley\u2019s new success story, inDrive, formerly inDriver, is a free ride share app available in more than 888 cities in 48 countries. We are growing fast by putting the power back in the hands of people, be they customers, drivers, couriers, or other service p",
+    "icon": "/icons/sinet.startup.inDriver.jpg"
+  },
+  "com.yahoo.mobile.client.android.mail": {
+    "title": "Yahoo Mail: Email & Planner",
+    "package": "com.yahoo.mobile.client.android.mail",
+    "description": "YAHOO MAIL: THE SMART INBOX DESIGNED TO SIMPLIFY YOUR LIFE \nYahoo Mail is the ultimate smart inbox and advanced email organizer, built to simplify your life and get more done in less time. It\u2019s simple to use, lightning fast, and features top-notch security to keep your account secure and your privacy protected against spam and phishing.\n\nNEW: NEVER MISS WHAT MATTERS WITH PLANNER \nStop digging through your inbox and start staying ahead. Whether it\u2019s a flight confirmation, a dinner reservation, or a bill due date, the new Planner feature automatically surfaces your important events and tasks in one clear, unified view. Yahoo Mail is solving \"inbox overwhelm\" by turning your messages into an actionable plan, so you can feel in control and never miss a thing.\n\nHOW PLANNER SIMPLIFIES YOUR DAY:\n",
+    "icon": "/icons/com.yahoo.mobile.client.android.mail.png"
+  },
+  "com.carmanah.mxMobileApp": {
+    "title": "MX Field App",
+    "package": "com.carmanah.mxMobileApp",
+    "description": "MX Field App\u2122 makes quick work of system setup, as well as on-site changes to settings and schedules, for all MX Series systems.\n \nWhy use an app to program traffic beacons and signs?\n\n\u2022 Access and change system default settings quickly from the ground\u2014no more bucket truck!\n\u2022 Program from up to 100 feet away\n\u2022 Simple, step-by-step programming\n\u2022 Detailed system health data and multi-fault reporting\n\u2022 Scheduling: Set up and manage unlimited operating schedules\n\u2022 Built-in system security: No passwords required\n\u2022 Future-proof: Regular firmware and software updates\n\nHow does it work?\n \nThe app uses Bluetooth\u00ae wireless technology to connect to nearby MX Series systems. From the moment a system receives power, it automatically connects both locally to the MX Field App and remotely to MX Cloud, pr",
+    "icon": "/icons/com.carmanah.mxMobileApp.png"
+  },
+  "com.mxpassion.app": {
+    "title": "MX Passion",
+    "package": "com.mxpassion.app",
+    "description": "A modern app to follow Motocross and Supercross news. Choose one or more languages and your favorite sources. Stay updated with news, race results, and schedules from events around the world. Get push notifications so you don\u2019t miss anything. Check the latest standings and compare lap times between riders\n\n- Custom your feed: Choose languages and sources you like\n- Race Hub: Stay updated with schedules and upcoming events\n- Results: Check latest race results and rider standings\n- Live Timing: Follow races live and compare lap times",
+    "icon": "/icons/com.mxpassion.app.png"
+  },
+  "com.rz.night.player": {
+    "title": "Night Video Player - voice amp",
+    "package": "com.rz.night.player",
+    "description": "Professional video player with all formats support, audio normalization, voice enhancement, video effects & video filters, IPTV/M3U playlists, AI quality boost and 4K/8K playback\n\nEnjoy crystal-clear voice, perfect sound balance, and enhanced picture quality \u2014 all powered by smart real-time processing with Night Media Player.\n\n\ud83c\udfac ULTIMATE VIDEO PLAYER EXPERIENCE\n\nPlays all video formats: MKV, MP4, AVI, MOV, FLV, TS, M2TS, WebM, VMW, MX, HLS, 3GP & more\n\nSupports all codecs: HEVC (H.265), VP9, H.264, MPEG-4, AV1, AC3, AAC, DTS\n\nHD, 4K & 8K video player with full hardware acceleration\n\nIPTV video player & M3U player \u2013 load, edit & play live streams or local lists\n\nSubtitle support \u2013 all formats + online subtitle search\n\nMultiple audio tracks \u2013 easily switch between languages\n\nAndroid TV & Chr",
+    "icon": "/icons/com.rz.night.player.png"
+  },
+  "com.svpteam.svp": {
+    "title": "SVPlayer - watch in 60+ fps",
+    "package": "com.svpteam.svp",
+    "description": "SVP (aka SmoothVideo Project) converts any video to 60 fps (and even higher) and does it in real time. From the extensive community feedback, we learned that anyone who has watched at least three movies at high frame rates would never ever want to watch anything in the outdated 24 fps standard ;)\n\nIn-App purchases: Frame Rate Conversion (aka FRC aka HFR aka MEMC) is a PAID option after short trial period.\n\nALL OTHER FEATURES ARE FREE!\n\nUses SmoothVideo Project (SVP) real-time motion interpolation (MEMC) engine, including:\n* Target frame rate selection (48 fps, 60 fps, 120 fps, x2, x3 rate...)\n* Flexible configuration\n* Black bars detection and lighting\nplus\n* Built-in file browser supporting streaming from WebDAV, FTP, SMB, DLNA and Plex Server.\n* Can stream videos interpolated with RIFE n",
+    "icon": "/icons/com.svpteam.svp.png"
+  },
+  "is.xyz.mpv": {
+    "title": "mpv-android",
+    "package": "is.xyz.mpv",
+    "description": "mpv-android is a video player for Android based on libmpv.\n\nFeatures:\n* Hardware and software video decoding\n* Gesture-based seeking, volume/brightness control and more\n* libass support for styled subtitles\n* Advanced video settings (interpolation, debanding, scalers, ...)\n* Play network streams with the \"Open URL\" function\n* Background playback, Picture-in-Picture, keyboard input supported\n\nThe full set of dependencies for each build can be found in the release notes on our GitHub repository.",
+    "icon": "/icons/is.xyz.mpv.webp"
+  },
+  "com.philo.philo.google": {
+    "title": "Philo: Shows, Movies, Live TV.",
+    "package": "com.philo.philo.google",
+    "description": "Philo's where the best TV comes together in a single subscription! Stream top networks like A&E, MTV, BET, Lifetime, Nickelodeon, & more, explore our library of 85,000+ movies and shows, watch all the AMC+ fan-favorites, and get access to endless entertainment with discovery+ and HBO Max\u2014all with a single subscription!\n\nHere\u2019s what the Philo app has to offer:\n\nFree Channels\nTake Philo for a spin! Watch 110+ free channels of true crime, reality, comedy, news, and more. Save and record tons of content with the 30-day DVR and skip the ads. It\u2019s 100% commitment-free\u2014no sign-up or credit card is required to start watching.\n\nTop-Rated Channels\nSubscribe to Philo, and you can watch over 70 top-rated networks live, including AMC, BET, CMT, Discovery, Food Network, Hallmark, HGTV, History Channel, ",
+    "icon": "/icons/com.philo.philo.google.png"
+  },
+  "com.transsion.magicshow": {
+    "title": "Visha-Video Player All Formats",
+    "package": "com.transsion.magicshow",
+    "description": "Visha is a practical and stylish app with powerful local video and audio playback capabilities. In addition, you can also watch online videos, download favorite videos and audios, and have a wide range of custom skins to choose from. \nKey features are as follows:\n\u25a0 Hide videos to the hidden Privacy Folder\n- Hide your secret videos to your private folder and protect your privacy\n\u25a0 Edit Video\uff1a\n- Video cut\n\u25a0 Play Video\uff1a\n-Browse all your local video files and play status videos, trailers, movies and any other videos stored in your device.\n- Classify videos by downloading sources to help you find videos quickly.\n- Background play function\n- Floating play function\n- playback speed control\n- History List\n- Support double click to fast forward and fast backward.\n- Auto pause mode after playback.\n-",
+    "icon": "/icons/com.transsion.magicshow.png"
+  },
+  "com.maxmpz.audioplayer": {
+    "title": "Poweramp Music Player",
+    "package": "com.maxmpz.audioplayer",
+    "description": "Poweramp plays local music files and radio streams in various formats, including Hi-Res, with powerful Bass/Treble and Equalization controls.\n\nFeatures\n===\n\u2022 Audio engine:\n  \u2022 supports hi-res output\n  \u2022 custom DSP, including updated Equalizer/Tone/Stereo expand, and the Reverb/Tempo effects\n  \u2022 unique DVC (Direct Volume Control) mode allowing powerful equalization/bass/tone control without distortion\n  \u2022 internal 64bit processing\n  \u2022 AutoEq presets\n  \u2022 configurable per-output Options\n  \u2022 configurable resampler, dither options\n  \u2022 opus, tak, mka, dsd dsf/dff formats support\n  \u2022 radios/streams in .m3u format\n  \u2022 gapless smoothing\n\n\u2022 UI:\n  \u2022 visualizations (.milk presets and spectrum)\n  \u2022 synchronized/plain lyrics\n  \u2022 Light and Dark skins included, both with Pro Buttons and Static Seekbar opt",
+    "icon": "/icons/com.maxmpz.audioplayer.jpg"
+  },
+  "live.mehiz.mpvkt": {
+    "title": "mpvKt: MPV based media player",
+    "package": "live.mehiz.mpvkt",
+    "description": "mpvKt is a front-end for the versatile media player mpv, built on the libmpv library. It aims to combine the powerful features of mpv with an easier-to-use interface and additional functionality.\n\n - Simpler and easier to use UI: Designed to make navigation and playback smoother, especially for those who want a straightforward media player experience.\n - Advanced Configuration and Scripting: Offers the full capabilities of mpv's scripting and configuration for users who want to customize their playback \n - Picture-in-Picture (PiP): Continue watching videos while using other apps.\n - Multi-Modal Controls: Includes customizable gestures for controlling volume, brightness, and playback, along with Keyboard input support.\n\nmpvKt aims to enhance the mpv experience by making it more accessible w",
+    "icon": "/icons/live.mehiz.mpvkt.png"
+  },
+  "com.kmp.video": {
+    "title": "Video Player KMP",
+    "package": "com.kmp.video",
+    "description": "\ud83d\udc9c KMPlayer, Customer Lounge is here!\n\ud83d\udc49 Feedback, ideas, and events\u2014all welcome.\nhttps://cobak.co/en/space/392\u00a0\n\nPerfect video player, KMP.\n\nKMP is video player which is the light and easy one that can be played in anytime.\nIt can be the best partner on your trip/commute/relax. \n\n\n[ Features ]\n\n\u25cf Bookmark\nYou can add bookmark on media that you want to play later on.\nAdd fun & enjoyment in your foreign language study with our bookmark option.\n\n\u25cf Support Chromecast\nCan cast videos to TV through Chromecast.\nCast videos, movies, music videos and more to your TV!\n\n\u25cf Universal application\nIt can be played in tablet or smartphone everywhere you wanted.\nWatch the video whenever, wherever.\n\n\u25cf Screen Setting\nZoom in/out, reversal(mirror mode & upside down)-you can setup your screen with dynamic perfo",
+    "icon": "/icons/com.kmp.video.png"
+  },
+  "com.kmplayer": {
+    "title": "KMPlayer - All Video Player",
+    "package": "com.kmplayer",
+    "description": "\ud83d\udc9c KMPlayer, Customer Lounge is here!\n\ud83d\udc49 Feedback, ideas, and events\u2014all welcome.\nhttps://cobak.co/en/space/392\n\nKMPlayer is a perfect media player that can play all forms of high resolution videos, music, and subtitle files.\nAlong with the flawless playback, enjoy the rich features of the player including quick button, bookmark, subtitle settings, and play speed settings!\n\n\ud83c\udf9e\ufe0f KMPlayer \ud83c\udf9e\ufe0f\n\u00b7 Bookmark: Add bookmark to the time points to playback any sections you wish to cherish\n\u00b7 Control Color: Change brightness, light intensity, hue, saturation, and gamma information\n\u00b7 Expand & Contract: Expand & contract the video screen being played\n\u00b7 Section Repeat: Repeatedly play a section from point A to point B\n\u00b7 Quick button: Quickly set the player options\n\u00b7 Equalizer: Save separate equalizers for mus",
+    "icon": "/icons/com.kmplayer.png"
+  },
+  "com.oumi.utility.media.hub": {
+    "title": "VidHub - Ultimate media player",
+    "package": "com.oumi.utility.media.hub",
+    "description": "Looking for a feature-packed and efficient media player to manage, organize, and play different types of video content? VidHub serves up more than just the ability to play all types of video formats. With extensive media library management and network sharing functionalities, VidHub promises stable and speedy video playback for an exceptional user experience.\n\nSome of the key features that VidHub offers include:\n- Support for a comprehensive range of video formats, including .mkv\u3001.avi\u3001.mp4\u3001.mov\u3001.rmvb\u3001.wmv, and more\n- High-quality video playback for HD, 4K, HDR, and various other resolutions\n- The ability to enable and disable subtitles, with support for embedded and external subtitle formats such as SRT, SSA, and SUB\n- Network sharing capabilities, with support for SMB/CIFS, WebDav, and ot",
+    "icon": "/icons/com.oumi.utility.media.hub.png"
   }
 }
