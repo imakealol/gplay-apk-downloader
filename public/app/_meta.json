@@ -7935,5 +7935,231 @@
     "package": "com.sirius",
     "description": "Expand your listening universe with SiriusXM. Explore live radio, ad-free music, podcasts, news, sports, comedy, and more. Get closer to your favorite stars with listening tailored just for you.\n\nEnjoy top music channels from Yacht Rock Radio, Alt Nation, SiriusXM Hits 1, and The Highway. Hear the best of big names and bright stars.\n\nTune in to live play-by-play coverage, sports talk, and analysis for your teams. Stream MLB Network Radio\u2122, SiriusXM NFL Radio, SiriusXM NASCAR\u00ae Radio, and ESPN Radio. Listen to unfiltered takes from top sports talk hosts like Stephen A. Smith, Christopher \"Mad Dog\" Russo, Rich Eisen, and more.\n\nListen to news, comedy, and your favorite radio shows, including Howard Stern. Tap in to SiriusXM original podcasts and popular podcasts, including SmartLess, The MrBa",
     "icon": "/icons/com.sirius.png"
+  },
+  "com.garantibbvayatirim.etrader": {
+    "title": "Garanti BBVA eTrader",
+    "package": "com.garantibbvayatirim.etrader",
+    "description": "*Garanti BBVA eTrader has been renewed end-to-end!\n\nGaranti BBVA Investment's brand new eTrader, designed for those who want to make a difference in the world of stocks and stock markets, has improved features that will take their investment strategies to the next level. Thanks to its user-friendly interface, you will be able to use these features easily, whether you are an investor who has just stepped into the investment world or an experienced professional. This new version, which offers a customizable watch list thanks to its powerful tools, also eliminates the complexity of following live stock market markets. Designed to provide a new and different investment experience and to contribute to all investment strategies in many ways, Garanti BBVA eTrader is the right address for those lo",
+    "icon": "/icons/com.garantibbvayatirim.etrader.png"
+  },
+  "com.garanti.cepsubesi": {
+    "title": "Garanti BBVA Mobile",
+    "package": "com.garanti.cepsubesi",
+    "description": "The management of your financials is on your mobile phone with Garanti BBVA Mobile! With the mobile banking application that enables personal and corporate customers as well as the SMEs to easily perform all their banking transactions anywhere they want, you can perform your money transfers and bill or tax payments, view the progress of your assets from past to present, track your income and expenditures, view your future cycle expenditures on the calendar, and perform many other banking transactions instantly. Moreover, you may also apply for the general purpose loan and disburse it. \n\nAdditionally, our corporate customers can view the transactions pending confirmation, and confirm the transactions through the notification system on Garanti BBVA Mobile, within their authorization confirma",
+    "icon": "/icons/com.garanti.cepsubesi.png"
+  },
+  "com.garantibbva.corporateselfsrv": {
+    "title": "Connect Garanti BBVA",
+    "package": "com.garantibbva.corporateselfsrv",
+    "description": "This application is a corporate application developed for employees of Garanti BBVA and its subsidiaries. With Connect Garanti BBVA, employees of Garanti BBVA and its subsidiaries can access organizational structures of group companies, profiles of their colleagues, news and announcements within the company anytime, anywhere. It can track important dates, company and personal reminders.",
+    "icon": "/icons/com.garantibbva.corporateselfsrv.png"
+  },
+  "com.garantiemeklilik.cepsube": {
+    "title": "Garanti BBVA Emeklilik Mobile",
+    "package": "com.garantiemeklilik.cepsube",
+    "description": "Your private pension, life and unemployment insurance products are always by your side with our Garanti BBVA Pension Mobile! You can easily login via your Garanti BBVA Bank or Garanti BBVA Pension customer information and  view the total saving summaries, fund and risk distributions of the contracts you participate in and see all the details regarding your payments at the \u201cAccount Activities\u201d tab. \n \nYou can view the summaries of the policy coverages of which you are the insuree or the payee, or display the coverage amount, premium amount, start/end dates, acount activities and payment plan of your policy. You can view and update your adress information from the \u201cPersonal Information\u201d tab and change your contact information as you wish. You can display your current information on \u201cWork, Oc",
+    "icon": "/icons/com.garantiemeklilik.cepsube.png"
+  },
+  "com.garanti.bonusapp": {
+    "title": "BonusFla\u015f \u2013 Kart / Kampanyalar",
+    "package": "com.garanti.bonusapp",
+    "description": "Card information, campaigns and payment solutions that make your life easier are at BonusFla\u015f!\n\nLog in to BonusFla\u015f with your TR ID number/customer number and mobile banking password, join hundreds of campaigns where you will earn extra bonus/miles/discounts and access all your information instantly.\nIf you do not have a password, you can create it in seconds from BonusFla\u015f with your card password or log in with your existing Garanti BBVA Internet/Mobile password.\nYou can follow the campaigns you have participated in, you can see how many steps you are in in the campaigns and how many awards you have won. You can track your card transactions and purchases, use cash advances, get extra installments for your transactions, and increase your limit.\nCAMPAIGNS AND OPPORTUNITIES\n\u2022 With BonusFla\u015f,",
+    "icon": "/icons/com.garanti.bonusapp.png"
+  },
+  "com.chartcross.gpstest": {
+    "title": "GPS Test",
+    "package": "com.chartcross.gpstest",
+    "description": "With this app, you can check the GPS reception in your area and update AGPS data for faster fix times, whilst being able to view other GPS and sensor data. The app acts as a one-stop place for viewing: your altitude, accurate UTC plus local time, your compass heading, the moon phase and daylight hours. It supports GPS, GLONASS, GALILEO, SBAS, BEIDOU and QZSS satellites. The app has various different colour schemes which can be changed according to your tastes, including a night mode. The colour schemes can also be used to match other instrumentation alongside the app.\n\nGPS Test has six different screens:\n\n\u2022GPS signal (SNR) bar chart, showing the signal strength for each satellite, as well as the accuracy and status of the GNSS network\n\n\u2022Satellite positions in the sky (sky view) shown on a ",
+    "icon": "/icons/com.chartcross.gpstest.png"
+  },
+  "com.google.android.accessibility.switchaccess": {
+    "title": "Switch Access",
+    "package": "com.google.android.accessibility.switchaccess",
+    "description": "Control your phone or tablet using switches or the front camera. You can use switches to select items, scroll, enter text, and more.\n\nSwitch Access helps you interact with your Android device using one or more switches instead of the touchscreen. Switch Access can be helpful if you can't interact directly with your device.\n\nTo get started:\n1. Open your device's Settings app.\n2. Tap Accessibility > Switch Access.\n\nSet up a switch\n\nSwitch Access scans the items on your screen and highlights each item until you make a selection. You can choose from a few kinds of switches:\n\nPhysical switches\n\u2022 USB or Bluetooth switches, like buttons or keyboards\n\u2022 On-device switches, like volume buttons\n\nCamera switches\n\u2022 Open your mouth, smile, or raise your eyebrows\n\u2022 Look left, right, or up\n\nScan your devi",
+    "icon": "/icons/com.google.android.accessibility.switchaccess.png"
+  },
+  "com.google.android.apps.accessibility.voiceaccess": {
+    "title": "Voice Access",
+    "package": "com.google.android.apps.accessibility.voiceaccess",
+    "description": "Voice Access helps anyone who has difficulty manipulating a touch screen (e.g. due to paralysis, tremor, or temporary injury) use their Android device by voice.\n\nVoice Access provides many voice commands for:\n- Basic navigation (e.g. \"go back\", \"go home\", \"open Gmail\")\n- Controlling the current screen (e.g. \"tap next\", \"scroll down\")\n- Text editing and dictation (e.g. \"type hello\", \"replace coffee with tea\")\n\nYou can also say \"Help\" any time to see a short list of commands.\n\nVoice Access includes a tutorial which introduces the most common voice commands (starting Voice Access, tapping, scrolling, basic text editing, and getting help).\n\nYou can use the Google Assistant to start Voice Access by saying \"Hey Google, Voice Access\". To do this, you\u2019ll need to enable \"Hey Google\" detection. You ",
+    "icon": "/icons/com.google.android.apps.accessibility.voiceaccess.webp"
+  },
+  "com.google.android.marvin.talkback": {
+    "title": "Android Accessibility Suite",
+    "package": "com.google.android.marvin.talkback",
+    "description": "Android Accessibility Suite is a collection of accessibility apps that help you use your Android device eyes-free or with a switch device.\n\nAndroid Accessibility Suite includes:\n\u2022 Accessibility Menu: Use this large on-screen menu to lock your phone, control volume and brightness, take screenshots, and more.\n\u2022 Select to Speak: Select items on your screen and hear them read aloud.\n\u2022 TalkBack screen reader: Get spoken feedback, control your device with gestures, and type with the on-screen braille keyboard.\n\nTo get started:\n1. Open your device's Settings app.\n2. Select Accessibility.\n3. Select Accessibility Menu, Select to Speak, or TalkBack.\n\nAndroid Accessibility Suite requires Android 6 (Android M) or later. To use TalkBack for Wear, you'll need Wear OS 3.0 or later.\n\nPermissions Notice\n\u2022 ",
+    "icon": "/icons/com.google.android.marvin.talkback.png"
+  },
+  "com.google.audio.hearing.visualization.accessibility.scribe": {
+    "title": "Live Transcribe & Notification",
+    "package": "com.google.audio.hearing.visualization.accessibility.scribe",
+    "description": "Live Transcribe & Sound Notifications makes everyday conversations and surrounding sounds more accessible among people who are deaf and hard of hearing, using just your Android phone.\n\nOn most devices, you can open Live Transcribe & Sound Notifications with these steps:\n1. Open your device's Settings app\n2. Tap Accessibility\n3. Depending on which feature you'd like to use, tap Live Transcribe or Sound Notifications\n\nYou can also use the accessibility button, gesture, or Quick Settings to start Live Transcribe or Sound Notifications (https://g.co/a11y/shortcutsFAQ).\n\nReal-time transcriptions\n\u2022 Get transcriptions in real-time in over 120 languages and dialects. Add custom words that you use frequently, like names or household items.\n\u2022 Set your phone to vibrate when someone says your name.\n\u2022 ",
+    "icon": "/icons/com.google.audio.hearing.visualization.accessibility.scribe.png"
+  },
+  "com.google.android.apps.accessibility.auditor": {
+    "title": "Accessibility Scanner",
+    "package": "com.google.android.apps.accessibility.auditor",
+    "description": "Accessibility Scanner is a tool that scans an app\u2019s user interface to provide recommendations on how to improve accessibility of the app. Accessibility Scanner enables anyone, not just developers, to quickly and easily identify a range of common accessibility improvements; for example, enlarging small touch targets, increasing contrast for text and images and providing content descriptions for unlabelled graphical elements.\n\n  Improving the accessibility of your app may allow you to reach a larger audience and provide a more inclusive experience, especially for users with disabilities. This often leads to improved user satisfaction, app ratings and user retention.\n\n  The improvements suggested by Accessibility Scanner can be easily shared with members of your development team to determine ",
+    "icon": "/icons/com.google.android.apps.accessibility.auditor.png"
+  },
+  "com.ikatch": {
+    "title": "Katch Dating App: Real Singles",
+    "package": "com.ikatch",
+    "description": "If you want to start dating quickly then you need to meet real people face to face so they can get to know the real you.\n\nWith Katch all members are vetted thoroughly and all personalized introductions are done via private face to face video calls.\n\nNo swiping or lengthy chatting required, just attend any of the many dating events and get introduced to singles we know you will click with - then asking them out for a coffee is a breeze as you already know them.\n\nStart using Katch and you will be dating in no time at all.\n\nThe app uses a foreground service so that you can serve the app while your profile video is uploading.",
+    "icon": "/icons/com.ikatch.png"
+  },
+  "com.gsn.zps.glo": {
+    "title": "Tongits ZingPlay Global",
+    "package": "com.gsn.zps.glo",
+    "description": "ZingPlay Tongits is like no other game that you had enjoyed \u2014 play anytime & from anywhere in the world! ZingPlay brings you a hand full of classics you can play anytime, anywhere all from one app.\nFeel the thrill of playing your favorite games against strangers and friends. Ready to have endless fun from games such as Tongits ZingPlay, Pusoy ZingPlay, Pusoy Dos ZingPlay, Crystal Guardian, Sky garden, Ludo. The winning hand is yours with ZingPlay Portal.\n\n\ud83c\udfc6 TONGITS ZINGPLAY \u2013 The Philippines\u2019 most popular local game, right in the palm of your hands! Play a classic game of Tongits anywhere you go and compete against friends and strangers alike online. Win by Tongits, a Draw, or by simply having the smallest amount of points. Just try your best not to get burned while you\u2019re at it!\n\n\ud83e\uddda\u200d\u2640\ufe0f CRY",
+    "icon": "/icons/com.gsn.zps.glo.png"
+  },
+  "com.affinityapps.yuzu": {
+    "title": "Asian Dating, Friendship: Yuzu",
+    "package": "com.affinityapps.yuzu",
+    "description": "\ud83c\udf4b Yuzu: Your Social Playground & Dating App for Authentic Asian Connections\n\nWelcome to Yuzu, the ultimate social platform celebrating your Asian identity daily! \ud83c\udf1f Connect with a vibrant community to forge meaningful friendships, discover romantic connections, and engage with a network that resonates with your cultural heritage. \ud83c\udf0f\n\nWhy Choose Yuzu? \ud83e\udd14\n\nCommunity Connections \ud83e\udd1d: Yuzu provides a space tailored for the Asian community, enabling you to connect with individuals who share your interests, values, and experiences. \ud83d\udcac\n\nAuthentic Asian Dating \ud83d\udc95: Move beyond generic dating apps with Yuzu's culturally attuned platform, matching you with partners who resonate with your background and values. \ud83d\udc91\n\nDynamic Communities \ud83c\udf8e\ud83c\udf8a: Participate in groups and events that celebrate every facet of your Asi",
+    "icon": "/icons/com.affinityapps.yuzu.png"
+  },
+  "com.matzoball.app": {
+    "title": "Jewzz - Jewish dating & events",
+    "package": "com.matzoball.app",
+    "description": "Find your Jewish match with Jewzz - the Jewish dating app born from the world-famous Matzoball\u00ae event. It\u2019s perfect for Jewish singles seeking connections that are deeper than a bowl of matzo ball soup. \n\nJOIN JEWISH SINGLES WHO:\n\n\u2022 Swipe right to find their mensch or beshert /\n\u2022 Raise a glass and say \"L'chaim\" to new romances /\n\u2022 Celebrate 'Mazel Tov' moments with someone special /\n\u2022 Engage in witty bagels-and-lox banter /\n\u2022 Dream of chuppah walks /\n\n[ FIND YOUR JEWISH SOULMATE ]\n\n\u2022 Connect with singles who share your traditions and values.\n\u2022 Experience a dating platform where Jewish culture and identity thrive.\n\n[ SWIPE, MATCH, AND CONNECT ]\n\n\u2022 Swipe through profiles to find your Jewish match.\n\u2022 Experience the excitement of getting a match and starting a new conversation.\n\n[ BRING CONNEC",
+    "icon": "/icons/com.matzoball.app.png"
+  },
+  "com.mutuelleprevoyancesanteapp": {
+    "title": "Mutuelle MPS",
+    "package": "com.mutuelleprevoyancesanteapp",
+    "description": "Are you a member of the MPS mutual insurance company?\n\nGet our mobile app now for added convenience.\n\nWith the MPS Mutual Insurance mobile app, access all your contracts and those of your dependents, view contractual documents (reimbursement schedules, etc.), check the mandatory health insurance coverages known to the company, and track benefit reimbursements in real time.\nYou can also notify us of a change of address or bank details so that our services can update your contracts on the desired date, and submit your reimbursement requests.",
+    "icon": "/icons/com.mutuelleprevoyancesanteapp.png"
+  },
+  "com.rovio.angrybirdsfriends": {
+    "title": "Angry Birds Friends",
+    "package": "com.rovio.angrybirdsfriends",
+    "description": "Pop the bad piggies with your slingshot skills in Angry Birds Friends! \nMaster the art of the slingshot and aim for 3-star glory in the eternally fresh Angry Birds game from Rovio!\n\nExperience one of the top classic games and compete against the World in 35+ NEW puzzle games levels every week! \nPractice your slingshot, improve accuracy, knock down the bad piggies and reach the highest scores in these fun games.\nDefeat your friends and climb the leaderboards to become the BEST puzzle games player in the World in one of the most exciting bird games out there! \n\nWhether you love puzzle games or enjoy classic games, Angry Birds Friends delivers. \n\nJoin our Weekly Tournaments! Experience the most exciting of bird games and enjoy these fun games.\n\n\u2013 NEW Competitive Events Tournaments starting ev",
+    "icon": "/icons/com.rovio.angrybirdsfriends.png"
+  },
+  "com.rovio.abcasual": {
+    "title": "Angry Birds Families",
+    "package": "com.rovio.abcasual",
+    "description": "Join Red and his friends on a slingshot adventure through changing seasons full of fun, challenging levels, and delightful destruction! \n\nLet the birds fly! Go after the piggies, topple their towers, and rescue the Hatchlings in Angry Birds Journey\u2014a modern take on a slingshot game.\n\nPlay as your favorite Angry Birds, dodge obstacles, defeat enemies, and collect epic rewards in this action-packed endless runner. The flock is faster\u2014and angrier\u2014than ever! Ready, set, run!\n\nRelax and unwind with the most fun and laid-back Angry Birds game yet!\n\nNeed some help? Visit our support pages, or send us a message at support@rovio.com\nLike us on Facebook: https://www.facebook.com/angrybirdsjourney\n\nAngry Birds Journey is completely free to play, but there are optional in-app purchases available.\n\nJoi",
+    "icon": "/icons/com.rovio.abcasual.jpg"
+  },
+  "com.rovio.blast": {
+    "title": "Angry Birds Blast",
+    "package": "com.rovio.blast",
+    "description": "Blast into a new Angry Birds puzzle adventure game! The birds are trapped inside balloons, and you can bet the pigs are behind it all. Tap matching balloons to blast them to smithereens and free the flock!\n\nUse your balloon-bustin\u2019 skillz to outsmart the pigs and save birds in over 4500 egg-celent levels! Find the smartest way to solve puzzles, crack high scores, and earn three stars.\n\nGrab rewards every day in the Daily Quest. Already got \u2019em? Then go join the weekly events or chase down this month's puzzle pieces. Blasted through those? How about taking on the world in the global leaderboard?\n\nThere\u2019s plenty to do, and an ever-growing number of levels to master so get BLASTING!\n\nFeatures:\n\u00b7 4500+ FUN LEVELS \u2013 with more added weekly!\n\u00b7 PICK UP AND PLAY \u2013 any time, any place even OFFLINE!\n",
+    "icon": "/icons/com.rovio.blast.png"
+  },
+  "com.rovio.angrybirdstransformers": {
+    "title": "Angry Birds Transformers",
+    "package": "com.rovio.angrybirdstransformers",
+    "description": "Angry Birds and Transformers collide in this action-packed, 3D shoot \u2018em up adventure! The EggSpark has transformed the eggs into crazed robots who are destroying Piggy Island, but who can stop them?! Autobirds, ROLL OUT!\n\nHave you ever seen an alien robot Angry Bird? Enter the AUTOBIRDS! This brave band of heroes features Red as Optimus Prime, Chuck as Bumblebee and\u2026 well you\u2019ll meet the rest soon. They\u2019ve got lasers and they turn into cars. Plus they have arms and legs \u2013 that\u2019s a first! \n\nBut the courageous Autobirds can\u2019t save Piggy Island on their own \u2013 to stop the EggBots they\u2019ll need to join forces with their arch rivals the DECEPTIHOGS (like Decepticons only smellier). Can these bitter enemies team up and put aside their differences? Yeah right... \n\n*NOTE: Angry Birds Transformers i",
+    "icon": "/icons/com.rovio.angrybirdstransformers.png"
+  },
+  "com.adguard.android.contentblocker": {
+    "title": "AdGuard: Content Blocker",
+    "package": "com.adguard.android.contentblocker",
+    "description": "Adblocker Only for Yandex.Browser and Samsung Internet with customizable filters.\n\nAdGuard Content Blocker is a free Android app that blocks ads in the Yandex browser and Samsung Internet mobile browser without root permissions. This AdGuard\u2019s ad-blocking app works specifically in these two web browsers.\n\nSave battery and data\nIntrusive ads distract your attention and steal your time, and heavy-media ads, especially video ads, also drain your battery and data on your device. With AdGuard Content Blocker, you'll finally be able to leave the house without a charger and treat yourself to an extra coffee thanks to the data you saved. \n\n20+ adblock lists\nChoose from the most complete of all the existing filter lists, designed both by our highly skilled specialists and by prominent community mem",
+    "icon": "/icons/com.adguard.android.contentblocker.webp"
+  },
+  "com.onegram.block.puzzle.jewel.secret.jungle": {
+    "title": "Block Secret Jungle - Puzzle",
+    "package": "com.onegram.block.puzzle.jewel.secret.jungle",
+    "description": "\"Block Secret Jungle\" \u2013 A Jungle-Themed Block Puzzle Adventure\n\n\"Block Secret Jungle\" is an exciting block puzzle game set in a lush jungle. Strategically place blocks, complete rows, and solve puzzles to challenge your mind. Experience fun and engaging gameplay that combines relaxation and logical thinking.\n\nGame Features\n\u2022 Classic Block Puzzle \u2013 Drag and place blocks on the board to earn points.\n\u2022 Jungle Adventure Mode \u2013 Enjoy unique jungle-themed puzzles.\n\u2022 Brain Training Benefits \u2013 Improve logical thinking and problem-solving skills.\n\u2022 Play for Free & Offline \u2013 No WiFi needed, enjoy anytime, anywhere.\n\nHow to Play\n\u2022 Place blocks on the 8x8 board to complete puzzle rows.\n\u2022 Clear full rows or columns to earn higher scores.\n\u2022 Blocks cannot be rotated, so plan your moves carefully.\n\u2022 Make ",
+    "icon": "/icons/com.onegram.block.puzzle.jewel.secret.jungle.jpg"
+  },
+  "com.renderedideas.jungleadventure4": {
+    "title": "Jungle Adventures 4",
+    "package": "com.renderedideas.jungleadventure4",
+    "description": "Jungle Adventures 4 - If you liked Jungle Adventures,  Jungle Adventures 2, Jungle Adventures 3 you will definitely love the newest addition in the series. \n\nAddu, the fearless tribe boy, is back with another incredible jungle adventure! After saving the villagers from evil monsters in Jungle Adventures 3, he thought the danger was over, but danger never truly sleeps.\n\nA new challenge has emerged! Dark forces have returned, bringing chaos to the jungle once again. Now Addu and his loyal friends must set out on another action-packed journey to protect their village, defeat a mysterious wizard and uncover hidden secrets deep in the jungle. Can Addu defeat the evil forces and restore peace again?\n\nRun, jump, swing, smash, and dash\u00a0your way through breathtaking worlds filled with dangerous ene",
+    "icon": "/icons/com.renderedideas.jungleadventure4.png"
+  },
+  "com.app.jungleai": {
+    "title": "Jungle: AI Flashcards & Quiz",
+    "package": "com.app.jungleai",
+    "description": "Studying can often suck and be boring. But not anymore.\n\nJungle makes great studying easy and fun for over 1 million students. You can now get As in half the time AND have fun while you're learning!\n\nJungle uses AI to turn your lecture slides or any class material (PDFs, word docs, youtube videos, etc.) into a quiz with practice questions, such as flashcards and multiple choice questions, in seconds. As you answer questions, you get immediate feedback from the AI on what you got right & wrong so that you can immediately identify the gap in your understanding.\n\nLearning on Jungle is wild fun.  Pick your animal character, grow beautiful trees as you learn, and travel through the Jungle and you gain XP to level up and unlock rewards!\n\nIt's as if Quizlet and Duolingo had a baby.\n\nKey Features\n",
+    "icon": "/icons/com.app.jungleai.webp"
+  },
+  "com.renderedideas.jungleadventures3": {
+    "title": "Jungle Adventures 3",
+    "package": "com.renderedideas.jungleadventures3",
+    "description": "Jungle Adventures 3 - If you liked Jungle Adventures & Jungle Adventures 2, you will definitely love the newest addition in the series. \n\nThe story of an enraptured forest - In search of some food in the middle of the night, our hero Addu witnesses a tragic sight. The cute Furry people of the forest were being kidnapped by a gang of goons. \n\nJoin Addu and his friends on an amazing adventure through remarkable worlds to help him save the Fur family while facing epic challenges blocking his path. \n\nRun, Jump and Smash your way through a breathtaking journey of the all new Jungle Adventures 3 to experience an adventure unlike any other!\n\nFeatures:\nExperience an exciting mix of fun and exploration.\nBeautiful and stunning graphics provide amazing visuals.\nAddu has new abilities and pets.\nUnique",
+    "icon": "/icons/com.renderedideas.jungleadventures3.png"
+  },
+  "com.supercell.brawlstars": {
+    "title": "Brawl Stars",
+    "package": "com.supercell.brawlstars",
+    "description": "Fast-paced 3v3 & 5v5 MOBA battle royale made for mobile! Play online PvP multiplayer action & shooting games \u2013 with friends or solo.\n\nBattle in 3v3 & and 5v5 MOBA shooting games\n\n\nGem Grab (3v3,5v5): Team up for realtime 3v3 and 5v5 MOBA PvP action games. Collect and hold 10 gems to win, but get fragged and lose \u2018em all.\n\n\nShowdown: A MOBA battle royale-style fight for survival. Grab a friend or play solo! Be the last Brawler standing in the rowdiest MOBA PvP action game yet.\n\n\nBrawl Ball (3v3,5v5): Not the usual kind of shooting game\u2026 Show off your soccer skills and score before the other team. There are no red cards here \u2013 just PvP team fun and action-packed multiplayer games.\n\n\nBounty (3v3,5v5): Battle royale bounty-hunting! Take out opponents and earn stars in this multiplayer PvP acti",
+    "icon": "/icons/com.supercell.brawlstars.webp"
+  },
+  "com.Earthkwak.Platformer": {
+    "title": "Super Bear Adventure",
+    "package": "com.Earthkwak.Platformer",
+    "description": "Travel through the kingdom and its different regions in this 3D adventure inspired by late 90s games. Explore each region freely, uncover their secrets, and save your bear friends! This realm was once a peaceful place, until the bees started producing purple honey, a strange substance that turns anyone who eats it into a mindless foe. You will play as Baaren, a courageous bear set on a quest to free the kingdom from this menace of unknown origin.\n\nAlong the way, you will find loads of collectibles, items to customize your character, exciting places to explore, speedy vehicles to drive, daily challenges to test your skills, and fun mini-games to play. Using Baaren\u2019s straightforward yet complete set of moves, you will be able to climb steep mountains, fight dangerous enemies, and explore thi",
+    "icon": "/icons/com.Earthkwak.Platformer.png"
+  },
+  "com.android.vending": {
+    "title": "com.android.vending",
+    "package": "com.android.vending"
+  },
+  "com.ingka.ikea.app": {
+    "title": "IKEA",
+    "package": "com.ingka.ikea.app",
+    "description": "The IKEA mobile app is where your inspiration comes to life. Find that cute armchair you saw at your friend\u2019s place or look through thousands of products and ideas just for you - to make your space truly your own.\n\nWhether you\u2019re looking to buy online or in-store, the IKEA app is your perfect shopping companion.\n\nScan the products with Shop & Go while you walk through the store  - and skip the checkout line.\n\nAre you planning a big project or small home improvements? Save and organize your favorites in lists for later. They are ready when you are!\n\nFound the perfect IKEA furniture or home decoration? Let us do the heavy lifting. Order home delivery and be informed every step of the way, by tracking your order easily in the app.\n\nThe IKEA app is also a convenient home for your IKEA Family b",
+    "icon": "/icons/com.ingka.ikea.app.png"
+  },
+  "com.ikea.inter.homesmart.system2": {
+    "title": "IKEA Home smart",
+    "package": "com.ikea.inter.homesmart.system2",
+    "description": "With IKEA Home smart app and DIRIGERA hub, it's easy to create smarter everyday moments with lighting, speakers, blinds and air quality products. \n\nPicture yourself waking up as your smart lights gently rise. Your favorite songs play on the speakers and you still haven't gotten out of bed. How lovely, right? Smart products like lighting, speakers, blinds and air purifiers can make a lovely addition to your everyday life. When you improve the IQ of your home, life itself runs a bit smoother.\n\nThe magic happens when you combine two or more smart products from IKEA, tell them what to do in the app and save it as a 'Scene'.\n\nA great scene is one you will use often. Think about waking up and going to bed, cooking and eating, date night and family time, or leaving and coming home. All everyday m",
+    "icon": "/icons/com.ikea.inter.homesmart.system2.png"
+  },
+  "com.ikea.tradfri.lighting": {
+    "title": "IKEA Home smart 1",
+    "package": "com.ikea.tradfri.lighting",
+    "description": "It\u2019s easy with the IKEA Home smart 1 app and TR\u00c5DFRI gateway. Use one setting for early morning lighting and music, another for late evenings and a third for cooking or working at home.  \n\nYou can dim, turn off, turn on, change colours and switch from warm to cold light. Raise or lower blinds. Turn on your music \u2013 then turn it up, turn it down or pause it. And you can even control your air purifier to improve the air quality at home.  \n\nWith the IKEA Home smart 1 app, you can connect to Amazon Alexa or Google Home and control it all with your voice.\n   \nWhat you\u2019ll get with the IKEA Home smart 1 app and TR\u00c5DFRI gateway: \n\u2022 The ability to control your lights and blinds from the app \n\u2022 The ability to turn audio on and off, pause it and control volume \n\u2022 Customisable settings, including chang",
+    "icon": "/icons/com.ikea.tradfri.lighting.png"
+  },
+  "com.adidas.app": {
+    "title": "adidas: Shop Shoes & Clothing",
+    "package": "com.adidas.app",
+    "description": "YOUR ADIDAS - MORE THAN A SHOPPING EXPERIENCE. adidas puts you closer to the action with instant access to fashion releases, products, sports apparel, and sneakers. Discover exclusive online deals on clothes, shoes, and gear. Shop online, get athlete inspiration, stories, and app exclusives \u2013 all available on adidas.\n\nRunning, training, basketball, baseball, soccer or golf? The adidas app has what you need and more. Whether you\u2019re putting time in on the court, the gym, the golf course, or the track, adidas brings you the shoes and apparel to elevate your sport and your style. adidas brings you exclusive savings and deals on sneakers, sportswear, sports gear, and men's and women\u2019s clothing.\n\nOnline shopping for streetwear? The adidas app allows you to easily build your own 3-Stripes style. ",
+    "icon": "/icons/com.adidas.app.png"
+  },
+  "com.ikea.ksa.kompis": {
+    "title": "IKEA Saudi Arabia",
+    "package": "com.ikea.ksa.kompis",
+    "description": "Bring your design ideas to life with the official IKEA mobile app, exclusively for Saudi Arabia. Browse thousands of products, furniture, decor, lighting, kitchen & bathroom solutions and shop seamlessly wherever you are. Choose home delivery or click\u2011and\u2011collect at your nearest store with a tap. Save your favorite products and build a personalized wishlist for easy shopping later. \n\nIDEAS & INSPIRATION\n \u2022 Curated galleries: real\u2011life room setups and seasonal trends\n \u2022 Personalized picks: recommendations based on your style and search\n\nSHOP SMART\n \u2022 In\u2011app scanner: instant price checks, reviews, stock levels\n \u2022 Intelligent search: find furniture, decor, kitchen tools and more\n \u2022 Favorites & lists: organize and share your selections\n\nPRODUCT DETAILS\n\u2022 Materials & Dimensions: Find detailed s",
+    "icon": "/icons/com.ikea.ksa.kompis.png"
+  },
+  "com.ikrabouda.stalkergenerator": {
+    "title": "Stalker IPTV Generator Ikra",
+    "package": "com.ikrabouda.stalkergenerator",
+    "description": "\"Stalker IPTV Generator Ikra\" is tool used for generating Stalker IPTV, subscription credentials, Stalker is a popular middleware used in IPTV solutions to manage and deliver TV content over the internet.\n\nHere\u2019s a general description of what the application might offer:\n\nFeatures\nIPTV Subscription Management: Allows users to create and manage IPTV subscription credentials, often including username and password generation.\n\nCompatibility: Designed to work with the Stalker middleware, which is widely used in IPTV systems for delivering content to various devices.\n\nUser-Friendly Interface: Likely provides a straightforward interface for generating and managing IPTV credentials, making it easier for users to set up and maintain their IPTV services.\n\nCustomizable Options: May offer customizati",
+    "icon": "/icons/com.ikrabouda.stalkergenerator.png"
+  },
+  "com.ikrabouda.ikraplayeriptv": {
+    "title": "IPTV Player M3U IKRA",
+    "package": "com.ikrabouda.ikraplayeriptv",
+    "description": "IPTV Player M3U IKRA \u2013 The Ultimate IPTV Player for Xtream Codes & M3U Playlists!\n\nEnjoy seamless streaming of your favorite IPTV channels with support for Xtream API and M3U playlists. Whether you\u2019re watching live TV, movies, or sports, IPTV Player M3U IKRA delivers a smooth, buffer-free experience with an intuitive interface.\n\nKey Features:\n\u2714 Supports Xtream Codes & M3U \u2013 Play IPTV content from your provider.\n\u2714 User-Friendly EPG (Electronic Program Guide) \u2013 Browse schedules easily.\n\u2714 Multi-Format Playback \u2013 Works with various video formats.\n\u2714 Customizable Player \u2013 Adjust aspect ratio, decoder, and more.\n\u2714 Favorites & History \u2013 Save channels and resume playback.\n\u2714 Parental Control \u2013 Restrict access to adult content.\n\u2714 Lightweight & Fast \u2013 Optimized for low-lag streaming.\n\nHow to Use?\nAdd ",
+    "icon": "/icons/com.ikrabouda.ikraplayeriptv.png"
+  },
+  "com.ikrabouda.cccam48h": {
+    "title": "Xtream & Stalker IPTV",
+    "package": "com.ikrabouda.cccam48h",
+    "description": "Stalker and Iptv Generator  Xtream ikrabooda is indeed an application used for generating Stalker servers . Stalker is a card-sharing system used for distributing encrypted television channels over the internet. This application allows users to generate their own Stalker and Xtream IPTV servers  to legally access encrypted television broadcasts. Users can generate their own servers and distribute them among friends or family, or use them to receive encrypted channels on their own devices.",
+    "icon": "/icons/com.ikrabouda.cccam48h.png"
+  },
+  "com.ikrabouda.iptvgenerator": {
+    "title": "IPTV Generator Ikra",
+    "package": "com.ikrabouda.iptvgenerator",
+    "description": "\"IPTV Generator Ikra\" \nit's for generate free Xtream codes allows users to access IPTV channels\nthrough an IPTV service provider.\nIt likely functions by generating xtream iptv codes\nor playlists that are compatible with IPTV players. \n\nIPTV Generator ikra : An application for creates free codes Xtream or playlists for accessing IPTV services.",
+    "icon": "/icons/com.ikrabouda.iptvgenerator.png"
+  },
+  "com.ikrabouda.xtreamiptv": {
+    "title": "Xtream Generator IPTV Ikra",
+    "package": "com.ikrabouda.xtreamiptv",
+    "description": "\"Xtream IPTV Generator Ikra \" is an application used for IPTV streaming, \nand it allows users to access IPTV channels through an IPTV service provider. \nIt provides features such as live TV.\n\n\"Ikra Xtream IPTV\" is an application used for IPTV streaming, and it allows users to access IPTV channels through an IPTV service provider. It provides features such as live TV, video on demand (VOD), and electronic program guide (EPG) functionalities.\nAs for \"xtream generator,\" it likely refers to Xtream Codes, which is a software platform that provides IPTV management and streaming solutions for service providers. Xtream Codes allows service providers to manage their IPTV channels, users, and subscriptions.\n\nHowever, it's important to note that accessing IPTV streams through unauthorized means may i",
+    "icon": "/icons/com.ikrabouda.xtreamiptv.png"
   }
 }
