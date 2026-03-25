@@ -7755,5 +7755,185 @@
     "package": "com.v2ray.warpi",
     "description": "Warpi VPN is your ultimate solution for secure, fast, and unrestricted internet access. Bypass censorship, protect your online privacy, and enjoy seamless browsing with our reliable VPN service.\n\nFeatures:\nFast and Stable Connection: Enjoy high-speed servers for uninterrupted browsing.\nPrivacy Protection: Your online activities remain private with our secure encryption.\nEasy to Use: One-tap connection to a secure server.\nGlobal Servers: Access content worldwide with servers across multiple locations.\nNo Sensitive Data Collected: We respect your privacy and do not store any personal data.",
     "icon": "/icons/com.v2ray.warpi.jpg"
+  },
+  "com.ixolit.ipvanish": {
+    "title": "IPVanish: VPN Location Changer",
+    "package": "com.ixolit.ipvanish",
+    "description": "Get the IPVanish VPN app for unlimited access to fast VPN servers all over the world. With IPVanish VPN, you can change your location and IP address, and get unlimited VPN access to secure and fast browsing speeds when connected to WiFi hotspots!\n\nEnjoy ultimate security with IPVanish VPN, equipped with elite military-grade encryption to shield your personal information from cyber threats. Boost your security and internet protection with IPVanish VPN's advanced mobile security features, helping to ensure safe and reliable browsing!\n\nLocation Changer with Ultra VPN Protection\nIPVanish VPN allows you to change your device's location and IP address to countries and cities all over the world. In addition to changing locations, IPVanish VPN provides secure encrypted connections from anywhere in",
+    "icon": "/icons/com.ixolit.ipvanish.png"
+  },
+  "com.steelkiwi.bvpn": {
+    "title": "bVPN - Fast VPN tunnel SmokeV2",
+    "package": "com.steelkiwi.bvpn",
+    "description": "bVPN is the one VPN account that you need to access free and open internet behind complex tools that is designed to restrict access to information and internet, We are everyday adding more service knowledge to our VPN protocol Smoke, Previously used as a Tunnel for OpenVPN connection and remain our default free version of the service OpenVPN Over Smoke, Now with Smoke Tunnel V2, 5 times faster than regular protocol and less vulnerable for VPN blocking.\n\nOur VPN offer the longest free VPN trial in the market we offer 30 days of free premium VPN access to all our servers and our new technology Smoke tunnel V2 only  using your Google Play account, you can tap on Smoke V2 icon to get the offer and upgrade to premium VPN access.\n\nbVPN for all Android-operated devices:\n\n*Using latest encryption ",
+    "icon": "/icons/com.steelkiwi.bvpn.png"
+  },
+  "com.vaipnvpn": {
+    "title": "AI VPN - Fast Secure by Vaipn",
+    "package": "com.vaipnvpn",
+    "description": "Vaipn AI VPN - Unlimited Free AI VPN for Android!\nIt is an advanced, unlimited free, and secure AI VPN app with no ads and a static IP. Enjoy seamless browsing, buffer-free video streaming, full access to social networks and mobile games, and the ability to use any cross-regional app. It protects your privacy and security on any WiFi hotspot or network. The ultimate AI VPN for streaming services and enhanced online freedom.\n\nJumper Location Changer - AI VPN\nChange your IP and virtual location with a single click. Our service lets you bypass geo-restrictions and browse like a digital ghost across secure, worldwide servers with full protection.\n\nVaipn AI VPN: Ultimate Features & Benefits\n\n\ud83c\udf1f Core Performance & Unlimited Power\n\u2605 Unlimited AI VPN: No limits on time, data, or bandwidth.\n\u2605 AI End",
+    "icon": "/icons/com.vaipnvpn.png"
+  },
+  "com.rosamodza.hy3004ksmartprojectorguide": {
+    "title": "HY300 4K Smart Projector Guide",
+    "package": "com.rosamodza.hy3004ksmartprojectorguide",
+    "description": "Welcome to guide app for HY300 Smart Projector 4K. All things related to HY300 Smart Projector 4K will be explained in this app.\n\nWith this application users can better understand how to use HY300 Smart Projector 4K and get important information about HY300 Smart Projector 4K.\n\nDISCLAIMER:\n\nAll images in this app are available in public domains. This App is not app product official. The information we provide is from various reliable sources and is available on many websites.\nThis is just app that provide information about HY300 Smart Projector 4K.",
+    "icon": "/icons/com.rosamodza.hy3004ksmartprojectorguide.png"
+  },
+  "com.maguapps.hy320smartprojectorguide": {
+    "title": "HY320 Smart Projector Guide",
+    "package": "com.maguapps.hy320smartprojectorguide",
+    "description": "Welcome to HY320 Smart Projector Guide. With this app you will find information about HY320 Smart Projector Specification, Feature, How to setup, User manual, review product.\n\n\nDISCLAIMER:\nThis App is not app official. This app just help user for looking information about HY320 Smart Projector.",
+    "icon": "/icons/com.maguapps.hy320smartprojectorguide.png"
+  },
+  "com.tuya.smartlife": {
+    "title": "SmartLife- Smart Living",
+    "package": "com.tuya.smartlife",
+    "description": "\u300cSmartLife\u300d\nYour AI assistant for a simpler, smarter everyday life\n\n\u3010Control\u3011 Manage all your devices with a tap or just ask \u2014 it's that simple.\n\n\u3010Security\u3011 Real-time monitoring and smart alerts keep your home safe around the clock.\n\n\u3010Energy\u3011 Track usage and save on bills with intelligent energy insights.\n\n\u3010Schedule\u3011 Stay organized with shared to-dos and timely reminders for the whole family.\n\n\u3010AI Life Tools\u3011 Fitness, nutrition, meeting summaries, pet care, translation, and more \u2014 everything you need, all in one place.",
+    "icon": "/icons/com.tuya.smartlife.png"
+  },
+  "com.hy300controller.hy300projectorapp": {
+    "title": "HY300 Projector App",
+    "package": "com.hy300controller.hy300projectorapp",
+    "description": "The HY300 Projector App is the official smart remote and casting solution for your HY300 projector. With this app, you can transform your smartphone into a powerful remote control and enjoy wireless screen mirroring, casting, and media sharing \u2013 all in one place.\nNo more searching for a lost remote. No more messy wires. The HY300 Projector App makes your projector experience smarter, faster, and more convenient.\n\u2728 Key Features of HY300 Projector App\n\ud83d\udcf1 Smart Remote Control \u2013 Control your HY300 projector directly from your phone. Adjust volume, change inputs, navigate menus, and control playback.\n\n\n\ud83d\udd17 Screen Mirroring & Casting \u2013 Easily mirror your phone\u2019s screen to the HY300 projector. Cast apps, videos, photos, and presentations wirelessly.\n\n\n\ud83c\udfa8 User-Friendly Design \u2013 Simple, clean interface",
+    "icon": "/icons/com.hy300controller.hy300projectorapp.png"
+  },
+  "com.wyzecamogguidemassr.app": {
+    "title": "magcubic mini projector guide",
+    "package": "com.wyzecamogguidemassr.app",
+    "description": "magcubic mini projector guide is your complete companion for understanding and using your mini projector with ease. The magcubic mini projector guide app is designed to help both new and experienced users set up their projector, connect devices and improve image quality without technical complexity.\nWith magcubic mini projector guide, you can explore clear instructions, practical tips, and helpful solutions to get the best performance from your projector for movies, gaming, presentations, and home entertainment.\n\nWhat You Can Learn with Magcubic Mini Projector Guide ?\nThe magcubic mini projector guide provides useful information including:\n* First-time setup instructions\n* How to connect Android and iPhone devices\n* Best image settings for clearer projection\n* Simple explanation of feature",
+    "icon": "/icons/com.wyzecamogguidemassr.app.jpg"
+  },
+  "com.minootechapps.i9ultramaxsmartwatchguide": {
+    "title": "HY300 4K Smart Projector Guide",
+    "package": "com.minootechapps.i9ultramaxsmartwatchguide",
+    "description": "The HY300 4K Smart Projector is a compact yet powerful device designed to bring you a cinematic movie-watching experience in the comfort of your own home. Supporting 4K video playback, this projector delivers stunning clarity and vibrant colors, making it ideal for watching movies, gaming, presentations, and more. Its lightweight and portable design allows for easy setup and transport, both indoors and outdoors.\n\nThis guide will help you get the most out of the HY300 4K Smart Projector by walking you through key features, setup instructions, and how to use popular streaming apps. With screen mirroring capabilities, this projector transforms any space into a home theater in minutes.\n\nKey Features:\n\n4K video support for crystal clear picture quality\nCompact and lightweight design for easy po",
+    "icon": "/icons/com.minootechapps.i9ultramaxsmartwatchguide.png"
+  },
+  "com.google.android.tts": {
+    "title": "Speech Recognition & Synthesis",
+    "package": "com.google.android.tts",
+    "description": "Power your device with the magic of Google\u2019s text-to-speech and speech-to-text technology.   Google Speech-to-Text functionality \n  Speech Recognition provides speech-to-text functionality to Google and other third party apps to  convert what you say to text. For example, it can be used by:\n\u2022 Google Maps when you use your voice to search places\n\u2022 Recorder App to transcribe your recordings on device\n\u2022 Phone App Call Screen feature to get a real-time transcription of your caller\n\u2022 Accessibility apps like Voice Access for operating your device through voice\n\u2022 Dictation or keyboard apps you might use to dictate text messages through voice\n\u2022 Apps that contain a search by voice feature so that you can quickly search for your  favorite shows or songs\n\u2022 Language learning apps that recognize what y",
+    "icon": "/icons/com.google.android.tts.png"
+  },
+  "com.denvercommunitycreditunion5045.mobile.production": {
+    "title": "Zing Credit Union Mobile App",
+    "package": "com.denvercommunitycreditunion5045.mobile.production",
+    "description": "Secure & Easy Mobile Banking",
+    "icon": "/icons/com.denvercommunitycreditunion5045.mobile.production.png"
+  },
+  "com.beint.zangi": {
+    "title": "Zangi Private Messenger",
+    "package": "com.beint.zangi",
+    "description": "PRIVATE REGISTRATION\nNo SIM card required. Registration without a phone number & without sharing personal contacts. Your privacy messenger for private texting. Designed to protect from stalking, surveillance and account hacking.\n\nNO UNSOLICITED CONTACTS \nShare your Zangi Number only with those you trust. Other users can't find your profile if they don't know your exact Zangi number. \nChat, call, video chat, share files and media with your friends, family and colleagues safely, without being exposed to unknown users. \n\nNO DATA COLLECTION\nYour data is stored ONLY on your phone, making Zangi a safe and secure messenger for friends chat and family messenger use. Zangi does not collect, analyze, or store your personal messages on servers. Your conversations, files, and private chat history rema",
+    "icon": "/icons/com.beint.zangi.jpg"
+  },
+  "com.zingwellbeing.app": {
+    "title": "Zing Wellbeing",
+    "package": "com.zingwellbeing.app",
+    "description": "Transform your health and wellness with expert tools, guidance, and support designed for women.\n\nZing Wellbeing takes a holistic approach to women's health and wellness. Through our program, you can expect to feel healthier, with more energy, better digestion, improved mental wellness, better skin hair and nails, lose weight and be fitter and stronger - both physically and mentally.\n\nFeatures Include:\n* Over 750+ delicious recipes \n* 20+ meal plans catering to gut health, high protein, anti inflammatory, hormone balancing, anti bloating and menopause. \n* On demand fitness videos and mental wellbeing programs including better sleep, reducing stress and behaviour change. \n* Plus get expert group coaching in our women only support group.",
+    "icon": "/icons/com.zingwellbeing.app.png"
+  },
+  "com.hiorbye.app.zing": {
+    "title": "Zing: Dating App & Chat",
+    "package": "com.hiorbye.app.zing",
+    "description": "Free dating app for singles and find a perfect match based on your interest and location.\n\nZing is the best dating app for one-to-one live video chat and streaming apps to meet new people nearby and worldwide.\n\n\u2022 FEATURES:\n- Chat\n- Live Video Chat\n- Go Live\n- Meet New Friends\n- Entertain People & Earn Money\n- Casual Dating\n- Speed Dating\n- Serious Relationships\n- Just Have Flirt\n\n\u2022 WHY Zing?\n\n- Available in multiple international languages.\n- Family friendly and can be used with up to six members.\n- Achieve high ratings among our users.\n- United thousands of people worldwide on a dating market.\n\n\u2022 EXPERIENCE THE JOY!\n\nDo you get bored waiting for an \"approval\" or composing a strong first message to get noticed? With Zing you can start a live chat with a new friend right away, no more swipi",
+    "icon": "/icons/com.hiorbye.app.zing.png"
+  },
+  "com.lighthouse1.mobilebenefits.z157": {
+    "title": "Zing Health Benefit Card",
+    "package": "com.lighthouse1.mobilebenefits.z157",
+    "description": "Save time and hassles while making the most of your Zing Health Benefit Card by quickly checking your balances and details. Our secure app makes managing your benefits easy through real-time access and intuitive navigation to all your important account information on the go!  Powerful features of the app include:\n \nEasy, Convenient & Secure\n\u2022\tSimply login to the intuitive app using your username and password (or follow alternative instructions, if provided)\n\u2022\tNo sensitive account information is ever stored on your mobile device\n\u2022\tUse Touch ID to quickly log in to the mobile app\n \nConnects You with the Details\n\u2022\tQuickly check available balances 24/7\n\u2022\tView charts summarizing account(s)\n\u2022\tView claims requiring receipts\n\u2022\tClick to call or email the Zing Health Customer Experience Team\n\u2022\tView ",
+    "icon": "/icons/com.lighthouse1.mobilebenefits.z157.png"
+  },
+  "com.rizwansayyed.zene": {
+    "title": "Zene: Music, Podcasts & Ent.",
+    "package": "com.rizwansayyed.zene",
+    "description": "\ud83c\udfb6 Zene - Your Ultimate Ad-Free Music & Entertainment Hub\nWelcome to Zene, the only app you'll ever need for music, podcasts, videos, and entertainment, etc. \u2014 all 100% free and ad-free! \ud83c\udfa7\nStream over 1 billion+ songs, watch trending music, gaming, trailer videos, binge movies, listen to global radio, and stay updated with celebrity news and videos \u2014 all in one app.\n\nZene is built for music lovers, video bingers, podcast addicts, and entertainment seekers around the world. Whether you\u2019re commuting, chilling, studying, or working out \u2014 Zene keeps your vibe alive.\n\n\n\n\n\u2705 Ad-Free Streaming Forever\nNo more annoying ads! Enjoy your favorite music, videos, and podcasts without a single interruption.\n\n\ud83c\udfa7 Massive Library \u2013 1 Billion+ Songs & Remixes\nExplore trending hits, nostalgic classics, indie ge",
+    "icon": "/icons/com.rizwansayyed.zene.png"
+  },
+  "com.jminsure.zing_mobile_app": {
+    "title": "The Zing\u2122 Platform",
+    "package": "com.jminsure.zing_mobile_app",
+    "description": "Products from Jewelers Mutual\u00ae Group and other industry leaders in an easy-to-use dashboard, the Zing\u00ae platform empowers you to make smart business decisions, creates a seamless customer experience and puts the jewelry industry at your fingertips.\n\nOver 5,000 jewelers use it to ship packages, buy diamonds, administer care plans, create appraisals, manage business insurance, work on customer claims, build e-commerce experiences and more.\nThis one-stop-shop is available for anyone in the jewelry industry, even if you don\u2019t currently have a relationship for Jewelers Mutual or other industry leaders like IDEX and Gemworld.\n\nPlus, it\u2019s FREE! There is no cost or fee to register for the platform. Once you start adding features, your dashboard will be customized to meet your needs.",
+    "icon": "/icons/com.jminsure.zing_mobile_app.png"
+  },
+  "com.stingray.galaxie.android": {
+    "title": "Stingray Music - 100s of DJs",
+    "package": "com.stingray.galaxie.android",
+    "description": "We\u2019ve done all the work so you don\u2019t have to. Listen to music channels lovingly curated for all the moments that matter. Perfect for when you just want to sit back and enjoy great tunes!\n\nAbsolutely FREE. Upgrade to the premium version for an ad-free experience.\nFREE access to the premium version with your Stingray Music TV provider. Authenticate instantly with audio signal recognition or use your TV provider\u2019s single login.\nFeatures:\n\n\u2b50\ufe0f1000s of expertly curated music channels in over hundreds of genres*.\n\u2b50\ufe0fUnlimited skips.\n\u2b50\ufe0f A customized listening experience: like your favorite songs to increase their rotation and block songs and artists to exclude them.\n\u2b50\ufe0f Filters to find channels according to activity, mood, theme, occasions, and local trends.*\n\u2b50\ufe0fCompatibility with the Sonos wireless ",
+    "icon": "/icons/com.stingray.galaxie.android.png"
+  },
+  "com.zinghr.app": {
+    "title": "ZingHR",
+    "package": "com.zinghr.app",
+    "description": "ZingHR, accelerated by Microsoft and funded by Tata Capital Growth Fund II, offers a mobile-first, comprehensive Global HCM solution which is delivered using future-ready and innovative technologies such as Blockchain, Gen AI, ML & DL algorithms. ZingHR is uniquely positioned as the only organisation that offers payroll services besides the integrated HCM platform. ZingHR was recognized by Gartner as Customer\u2019s Choice in 2024 in their Voice of the Customer quadrants for Cloud HCM Suites for 1,000+ Employee Enterprises. ZingHR is also the winner of CIO Choice Awards in 2025.\n  \nWith over 1,200+ enterprise customers across India, Middle East Africa and South East Asia, over 2.8 million users use ZingHR. It's Outcomationtm  Framework has been well received especially by Boards and CEOs apart ",
+    "icon": "/icons/com.zinghr.app.jpg"
+  },
+  "com.radiozu.aacplay": {
+    "title": "Radio ZU",
+    "package": "com.radiozu.aacplay",
+    "description": "Listen to your favorite music on Radio ZU and watch LIVE our visual radio broadcast! See the last songs played, read the latest headlines from our website and get the most important notifications from us.",
+    "icon": "/icons/com.radiozu.aacplay.png"
+  },
+  "com.shazam.android": {
+    "title": "Shazam: Find Music & Concerts",
+    "package": "com.shazam.android",
+    "description": "Shazam can identify songs playing around you or in other apps, even with headphones on. Discover artists, song lyrics, and upcoming concerts\u2014all for free. With over 2 billion installs and 300 million users worldwide!\n\n\u201cShazam is an app that feels like magic\u201d - Techradar.com (http://techradar.com/)\n\n\u201cShazam is a gift... a game changer\u201d - Pharrell Williams, GQ interview \n\n\u201cI don\u2019t know how we ever survived before Shazam\u201d - Marshmello\n\nWHY YOU\u2019LL LOVE IT\n\n* Identify the name of songs in an instant.\n* Your song history, saved and stored in one place.\n* Open any song directly in Apple Music, Spotify, YouTube Music, and Deezer.\n* Browse concerts by popularity or search by artist, location, and date.\n* Follow along with time-synced lyrics.\n* Watch music videos from Apple Music or YouTube.\n* Get S",
+    "icon": "/icons/com.shazam.android.png"
+  },
+  "com.mattel163.skipbo": {
+    "title": "Skip-Bo\u2122: Solitaire Card Game",
+    "package": "com.mattel163.skipbo",
+    "description": "Skip-Bo\u2122: Solitaire Card Game is now officially on mobile! Brought to you by the creators of UNO! and Phase 10, this classic board card game offers a fun and competitive experience designed for every card game lover.\n\nThis new take on the classic solitaire card games will get you hooked and you won't be able to stop playing!\nSimilar to Rummy and Yahtzee, Skip-Bo\u2122 requires players to think strategically to solve problems. With its simple rules and engaging gameplay, it has become a tycoon in the world of card and board games, enjoyed by players of all ages and skill levels.\n\n\u25b6 \u25b6 Classic for a reason!\u25c0\u25c0\nSkip-Bo\u2122: Solitaire Card Game is a fan-favorite and loved by millions around the world. Now you can play the official Skip-Bo solitaire card game just the way you remember! It\u2019s the perfect d",
+    "icon": "/icons/com.mattel163.skipbo.png"
+  },
+  "com.suno.android": {
+    "title": "Suno - AI Music & Songs",
+    "package": "com.suno.android",
+    "description": "Amplify your imagination. Powered by the world\u2019s most advanced AI music model, Suno transforms your ideas into songs\u2014no instruments needed, just your creative vision. Whether you\u2019re a shower-singer, aspiring songwriter, or charting artist, Suno empowers you to create and discover music like never before.\n\nGenerate music from prompts, images, or videos with the world\u2019s best AI music model:\n\u2022 Transform your ideas into fully-produced songs and beats with a single prompt. Create 10 songs or beats per day at no cost.\n\u2022 Inspiration begins with you. Write a text prompt like \"Create a rap song about walking my dog,\" sing a melody, hum a tune, or tap out a beat.\n\u2022 Record or upload audio to personalize your music, or generate songs from images and videos.\n\nWrite original lyrics with effortlessly:\n\u2022 ",
+    "icon": "/icons/com.suno.android.png"
+  },
+  "com.tom.bluetoothDevicesWidget": {
+    "title": "Bluetooth Audio Connect Widget",
+    "package": "com.tom.bluetoothDevicesWidget",
+    "description": "The Widget App & Bluetooth Manager lets you easily connect Bluetooth headphones (or any audio device) right from the home screen \u2013 with a separate widget for each device or a single widget listing all your devices.\n\nIf you want to listen to music, you have to go to settings and connect Bluetooth headphones?\nDo you need to easily switch between car audio, phone or handsfree? \nSimply connect to permanently powered Bluetooth devices such as soundbars?\nNeed to monitor battery level of your Bluetooth headphones?  \n\nI have a better solution \u2013 just add a widget to the home screen for all your favorite BT wireless devices.\n\nOne click on the widget to connect Bluetooth headphones and play Spotify without going into the settings menu. The widget always clearly displays the status of the Bluetooth co",
+    "icon": "/icons/com.tom.bluetoothDevicesWidget.png"
+  },
+  "com.amrg.bluetooth_codec_converter": {
+    "title": "Bluetooth Codec Changer",
+    "package": "com.amrg.bluetooth_codec_converter",
+    "description": "Unlock the Full Potential of Your Bluetooth Audio with Bluetooth Codec Changer! \ud83d\ude80  \nTake your Bluetooth audio to the next level with the Bluetooth Codec Changer! Whether you\u2019re gaming, calling, or enjoying songs, customize your sound experience like never before. With full codec control, you\u2019ll enjoy crystal-clear sound, minimal delay, and unbeatable audio quality.\n\n\u26a1 Auto-Switch to Preferred Codec  \nSeamlessly switch to your preferred codec whenever you connect your Bluetooth device\u2014no need to adjust settings manually\u2014everything is taken care of for you!\n\n\ud83d\udccb Codec Profiles \u2013 Save Your Perfect Setup  \nSave and switch between your ideal codec profiles. Whether you\u2019re gaming, calling, or listening to songs, your best sound setup is always one tap away.\n\n\ud83d\udcf1 App-Specific Codec Configuration  \nOp",
+    "icon": "/icons/com.amrg.bluetooth_codec_converter.png"
+  },
+  "com.fruitmobile.android.bluetooth.firewall": {
+    "title": "Bluetooth Firewall",
+    "package": "com.fruitmobile.android.bluetooth.firewall",
+    "description": "FruitMobile Bluetooth Firewall is the best Bluetooth security app for android. It guards your device from bluetooth hacking & ensures privacy protection. It runs as a foreground service which can be seen as a persistent notification, guarding your device all the time.\n\nNew:\n1. New feature to save devices by name. Firewall will recognize these saved devices during connection attempts\n2. Option to see when a saved device connects using another name\n3. Location permission no longer required for device search on Android 12+\n4. Android 12+ now requires 'Nearby devices' permission for monitoring\n5. Android 13+ now requires 'Notifications' permission for firewall alerts\n6. Added performance improvements\n7. Blueborne guard removed from the devices that already has the security patch\n8. Bugfix for ",
+    "icon": "/icons/com.fruitmobile.android.bluetooth.firewall.png"
+  },
+  "com.bluetooth.device.autoconnect.colorful": {
+    "title": "Bluetooth - Auto Connect",
+    "package": "com.bluetooth.device.autoconnect.colorful",
+    "description": "Are you facing difficulties \ud83d\ude25with creating a bt connect to a paired gadgets and struggling to establish a strong Bt connection between gadgets? Our newly launched Bluetooth finder application encompasses all these beneficial features.\nAdditional details about the most valuable features of the Connect program:\n\u2705The \"Auto-Connect\" tool enables you to manage all your devices efficiently or choose specific gadgets to connect automatically. This is particularly helpful if you use several devices daily and want to avoid the hassle of manual connection. With the Bluetooth finder function, you can pick which device you want to connect to if multiple gadgets are on at once.\n\u2705The \"Reconnect\" function eliminates the need to turn Blue tooth on and off repeatedly. If your phone or other paired device l",
+    "icon": "/icons/com.bluetooth.device.autoconnect.colorful.png"
+  },
+  "com.zazai.bluetooth.connect.wifi.speed": {
+    "title": "Bluetooth Auto Connect Devices",
+    "package": "com.zazai.bluetooth.connect.wifi.speed",
+    "description": "Bluetooth Auto Connect Devices \u2013 Your Perfect Connectivity Solution!Are you fed up with reconnecting your device manually each time? Bluetooth Auto Connect Devices comes with a seamless and intelligent solution to manage all your needs within one app. Connect with headphones, speakers, or even car systems-this app seamlessly allows seamless operation. Equipped with features like Bluetooth Finder: WiFi Analyzer and Bluetooth Scanner: BT Notifier, it ensures that your devices are always connected in the most efficient manner.\n\n\ud83d\udcc4 Key Features of Bluetooth Auto Connect Devices: \ud83d\udcc4\n\ud83d\udce1 Auto Bluetooth Connect: Automatically link with multiple devices quickly and easily;\n\ud83d\udce1 Bluetooth Finder: WiFi Analyzer: Analyze your WiFi performance alongside your connections;\n\ud83d\udce1 Bluetooth Scanner: BT Notifier: Get",
+    "icon": "/icons/com.zazai.bluetooth.connect.wifi.speed.png"
+  },
+  "com.dumanoglu.swappsarjpark": {
+    "title": "Swapp \u015earjpark",
+    "package": "com.dumanoglu.swappsarjpark",
+    "description": "Swapp is the charging stations management application of charging park.\nwith this app\n-Can load balance\n-Can start charging\n-You can finish charging.\nIt includes these and many additional features.",
+    "icon": "/icons/com.dumanoglu.swappsarjpark.png"
+  },
+  "com.sirius": {
+    "title": "SiriusXM: Music, Sports & News",
+    "package": "com.sirius",
+    "description": "Expand your listening universe with SiriusXM. Explore live radio, ad-free music, podcasts, news, sports, comedy, and more. Get closer to your favorite stars with listening tailored just for you.\n\nEnjoy top music channels from Yacht Rock Radio, Alt Nation, SiriusXM Hits 1, and The Highway. Hear the best of big names and bright stars.\n\nTune in to live play-by-play coverage, sports talk, and analysis for your teams. Stream MLB Network Radio\u2122, SiriusXM NFL Radio, SiriusXM NASCAR\u00ae Radio, and ESPN Radio. Listen to unfiltered takes from top sports talk hosts like Stephen A. Smith, Christopher \"Mad Dog\" Russo, Rich Eisen, and more.\n\nListen to news, comedy, and your favorite radio shows, including Howard Stern. Tap in to SiriusXM original podcasts and popular podcasts, including SmartLess, The MrBa",
+    "icon": "/icons/com.sirius.png"
   }
 }
