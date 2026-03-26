@@ -8161,5 +8161,185 @@
     "package": "com.ikrabouda.xtreamiptv",
     "description": "\"Xtream IPTV Generator Ikra \" is an application used for IPTV streaming, \nand it allows users to access IPTV channels through an IPTV service provider. \nIt provides features such as live TV.\n\n\"Ikra Xtream IPTV\" is an application used for IPTV streaming, and it allows users to access IPTV channels through an IPTV service provider. It provides features such as live TV, video on demand (VOD), and electronic program guide (EPG) functionalities.\nAs for \"xtream generator,\" it likely refers to Xtream Codes, which is a software platform that provides IPTV management and streaming solutions for service providers. Xtream Codes allows service providers to manage their IPTV channels, users, and subscriptions.\n\nHowever, it's important to note that accessing IPTV streams through unauthorized means may i",
     "icon": "/icons/com.ikrabouda.xtreamiptv.png"
+  },
+  "com.explusalpha.Snes9xPlus": {
+    "title": "Snes9x EX+",
+    "package": "com.explusalpha.Snes9xPlus",
+    "description": "Advanced open-source SNES emulator based on Snes9x with a minimalist UI and a focus on low audio/video latency, supporting a wide variety of devices from the original Xperia Play to modern devices like the Nvidia Shield and Pixel phones.\n\nFeatures include:\n* Supports .smc and .sfc file formats, optionally compressed with ZIP, RAR, or 7Z\n* Cheat code support using .cht file format\n* Configurable on-screen controls\n* Bluetooth/USB gamepad & keyboard support compatible with any HID device recognized by the OS like Xbox and PS4 controllers\n\nNo ROMs are included with this app and must be supplied by the user. It supports Android's storage access framework for opening files on both internal and external storage (SD cards, USB drives, etc.).\n\nView the full update changelog:\nhttps://www.explusalph",
+    "icon": "/icons/com.explusalpha.Snes9xPlus.png"
+  },
+  "com.fastemulator.gbafree": {
+    "title": "My Boy! Lite",
+    "package": "com.fastemulator.gbafree",
+    "description": "My Boy! Lite is a super fast and full-featured emulator to run GameBoy Advance games on the broadest range of Android devices, from very low-end phones to modern tablets. It emulates nearly all aspects of the real hardware correctly.\n\n*** This is the lite version. You CAN save and load with the game's built-in save capability, which is accessible from within the game, not from the emulator's menu.\n\nHighlights:\n\u2022 Fast emulation, therefore saves your battery.\n\u2022 Very high game compatibility. Run nearly all games without a problem.\n\u2022 Link cable emulation either on the same device, or across devices over Bluetooth or Wi-Fi.\n\u2022 Gyroscope/tilt/solar sensor and rumble emulation.\n\u2022 Enter GameShark/ActionReplay/CodeBreaker cheat codes and enable/disable them on the fly while the game is running.\n\u2022 Hi",
+    "icon": "/icons/com.fastemulator.gbafree.png"
+  },
+  "com.forbes.forbesreader.android": {
+    "title": "Forbes",
+    "package": "com.forbes.forbesreader.android",
+    "description": "Download the Forbes app for actionable business news, insights, and trusted journalism\u2014now with enhanced search, intuitive navigation, and the ability to save articles.\n\nStay up to date on the stories that shape industries, change landscapes, and define conversations, with bold and in-depth reporting across entrepreneurship, business, investing, technology, and more.\nImmerse yourself in market-moving insights, cutting-edge strategies, and timely analysis trusted by the world's top leaders and trailblazers shaping the global economy.\n\nKey Features:\n\u2022 Home feed with popular content, daily cover story, and editors picks. Designed to keep you updated with the most important news of the day.\n\u2022 Breaking news. Follow live stories unfolding in real-time. More to explore with infinite scroll for ea",
+    "icon": "/icons/com.forbes.forbesreader.android.png"
+  },
+  "com.efl.eurekaforbes": {
+    "title": "Eureka Forbes | Aquaguard",
+    "package": "com.efl.eurekaforbes",
+    "description": "Introducing Aquaguard Genuine Service by Eureka Forbes - your one-stop solution for water purifier care! With our enhanced app, effortlessly book Genuine Service Plans (starting at just 599/-*), unlock personalized AMC discounts, schedule unlimited repair visits, request filter replacements, track service status, manage rentals, and stay informed - all in one user-friendly platform.\n\nHere's everything you can do on the Aquaguard Genuine Service app:\n\nBook Aquaguard Service Plan for your device(s) in seconds.\n\nBuy or renew your Genuine AMC with custom plans tailored to your device.\n\nGet amazing discounts on Genuine AMC Plans, with plans starting at just 599/-*\n\nRequest filters and spare replacement.\n\nAccess certified professional technicians in over 700 cities across India.\n\nSchedule or res",
+    "icon": "/icons/com.efl.eurekaforbes.png"
+  },
+  "com.maz.forbesmagazine": {
+    "title": "Forbes Magazine",
+    "package": "com.maz.forbesmagazine",
+    "description": "Truly unique among magazine apps, the Forbes app acts as your gateway to the ultimate Forbes experience by combining the power of the print magazine with the dynamic and content-rich Web site \u2014 all of which is enabled for easy sharing. The app offers the freedom to seamlessly glide between Forbes magazine, Forbes.com, and the social web \u2014 to discover, to learn and to share what you find interesting, valuable and inspiring with people who are important to you. The Forbes app starts with Forbes magazine and its stories about the entrepreneurs and executives who are changing the world; the innovative companies that are changing how businesses work; and strategic insights to help shape your investment strategies. But it goes much farther from there. Throughout each issue you\u2019ll find buttons an",
+    "icon": "/icons/com.maz.forbesmagazine.png"
+  },
+  "com.hdsupply.hdsupplyfm": {
+    "title": "HD Supply Solutions App",
+    "package": "com.hdsupply.hdsupplyfm",
+    "description": "We are excited to announce the new and improved HD Supply Solutions\u2122 App. This brand new mobile app includes an enhanced look and feel as well as new features that will make our application easy, accurate, and helpful for customers. \nAs one of the largest industrial distributors in North America, HD Supply offers over 800,000 SKUs with discounts of up to 25% off on Featured Products. Plus, customers can save more with free, next day delivery to most areas.\n\nList of features include:\n \nPersonalized Experiences\nFrom the moment you sign in, a personalized home page where we suggest the most relevant content for you.\n \nHD Supply Bin Label Scanner\nScan HD Supply bin labels in your shop to quickly restock inventory.\n \nPart Number Scanner\nScan part numbers from our catalogs and instantly add item",
+    "icon": "/icons/com.hdsupply.hdsupplyfm.png"
+  },
+  "com.theforest.wallet": {
+    "title": "The Forest Dispensary",
+    "package": "com.theforest.wallet",
+    "description": "Welcome to The Forest mobile app!\u00a0\n\nWhether you\u2019re at home, on the way to the store, or shopping with us in-store, our mobile app brings the best of The Forest to your mobile device.\u00a0\n\nEarn Points\nAs a Forest rewards member. you will be able to earn and track points with every purchase. Not a Forest rewards member yet? Easily signup in our app!\n\nRedeem rewards and personalized discounts!\nUse your points to redeem earned rewards. Redeem custom personalized discounts and promotions tailored to your preferences.\n\n\nReal-time updates\nEnable push notifications to be the first to know about product launches, restocks, app-exclusive deals, happy hours, and more\n\nRefer your friends!\nWith your own personal referral link, you will be able to earn more points for every friend you refer to The Forest.\n",
+    "icon": "/icons/com.theforest.wallet.png"
+  },
+  "com.alto.pluton": {
+    "title": "Alto\u2019s POS & Inventory System",
+    "package": "com.alto.pluton",
+    "description": "Alto\u2019s is a FREE Point of Sale and Inventory management app designed to fit your restaurant or retail business. It\u2019s easy-to-use and intuitive. Alto\u2019s offers POS, Inventory, Back Office, Customers, Suppliers, Employees, Analytics and more within a single app to help you increase your business profitability.\n\nPoint of Sale system:\n\n\u2705  Work with any device\nAccess your Alto\u2019s POS account on any Android smartphone and tablet, as well as on any web browser\n\n\u2705 Returns and refunds\nProvide your customers with an option to return items and receive a refund based on the receipt\n\n\u2705  Payment options\nLet your customers choose from multiple payment methods: cash, card, or any other integrated payment system\n\n\u2705  Print or send digital receipts\nFor the convenience of your customers, print out or send recei",
+    "icon": "/icons/com.alto.pluton.png"
+  },
+  "com.virblue.mystudylife": {
+    "title": "My Study Life - School Planner",
+    "package": "com.virblue.mystudylife",
+    "description": "Join millions of students who trust MyStudyLife to organize their school schedules, homework, exams, and studies with ease. Get reminders, boost your focus with a Pomodoro timer, and track your grades \u2013 all in one powerful student planner app. \n\nEffortlessly Manage Your Student Schedule & Workload  \n\nSchool can be tough, but MyStudyLife makes it easier. Schedule your classes with your camera and manage your workload with a daily student planner, weekly student planner, and monthly student planner. This student organizer app also includes a homework planner with reminders, so you never miss a homework deadline. \n\nStay Ahead & Reduce Stress with Exams & Activities  \n\nTrack your exams with ease and set study reminders to stay ahead of the curve. Feeling overwhelmed? Use the Xtra feature in th",
+    "icon": "/icons/com.virblue.mystudylife.png"
+  },
+  "com.rin.app.wallpaper.forest": {
+    "title": "Forest Wallpapers HD",
+    "package": "com.rin.app.wallpaper.forest",
+    "description": "Forest Wallpaper HD: Immerse Yourself in the Beauty of Nature\n\nTransform your smartphone into a gateway to serene landscapes with Forest Wallpaper HD! This app offers a stunning collection of high-definition forest-themed wallpapers, perfect for anyone who loves the beauty of nature. Whether you seek tranquility, inspiration, or simply a fresh look for your device, these wallpapers are designed to captivate your senses and uplift your mood.\n\n\ud83c\udf32 Explore the Wonders of Nature\nDive into an array of breathtaking images that showcase the diversity and magnificence of forests worldwide. From misty mountain forests and lush green canopies to vibrant autumn leaves and enchanting snow-covered woods, our wallpapers bring the magic of nature right to your fingertips.\n\n\ud83d\udcf7 High-Quality HD Wallpapers\nAll ",
+    "icon": "/icons/com.rin.app.wallpaper.forest.png"
+  },
+  "com.emilia.app.wallpaper.forest": {
+    "title": "Forest Wallpaper",
+    "package": "com.emilia.app.wallpaper.forest",
+    "description": "Immerse Yourself in the Tranquil Beauty of Nature with Forest Wallpaper App \u2013 Your Ultimate Source for Breathtaking Forest Backgrounds!\n\nTransform your device into a serene sanctuary with the Forest Wallpaper App, the perfect companion for nature lovers, mindfulness seekers, and anyone who appreciates the calming power of lush greenery. Whether you\u2019re looking to relax, get inspired, or simply enjoy the natural world\u2019s beauty, our app delivers a premium collection of high-quality forest wallpapers that bring peace and harmony to your screen.\n\nWith thousands of curated forest wallpapers, this app allows you to escape the noise of everyday life and reconnect with the natural environment right from your phone or tablet. Explore enchanting woodlands, towering pine forests, misty trails, autumn ",
+    "icon": "/icons/com.emilia.app.wallpaper.forest.png"
+  },
+  "com.nature.landscape.forestwallpaperhd": {
+    "title": "Forest Wallpaper HD",
+    "package": "com.nature.landscape.forestwallpaperhd",
+    "description": "the forest is very far from the word air pollution, there the air is really cool and suitable for people who want to enjoy the natural atmosphere. the air in the forest is also very cool because there are many trees that produce oxygen. so you will feel how delicious it is to breathe fresh air that is completely natural without human intervention.\n\namazing forest wallpaper hd app contains many image of forest for your android device. wonderful collection of forest wallpaper, home screen and backgrounds to set the image as wallpaper on your android device in high quality. you will love this beautiful collection of forest background graphic images free download!\n\nforest wallpaper hd is an application that provides images for forest image fans. this application has hundreds of collections of ",
+    "icon": "/icons/com.nature.landscape.forestwallpaperhd.png"
+  },
+  "com.zillionwhales.wildwars": {
+    "title": "Wild Forest",
+    "package": "com.zillionwhales.wildwars",
+    "description": "Wild Forest, a mobile real-time strategy game with player-versus-player (PvP) battles and captivating card-collecting elements. Players can experience the feel of old-school RTS games while immersing themselves in fast-paced battles characterized by base building, macroeconomic resource management, and direct micro-control of individual units.",
+    "icon": "/icons/com.zillionwhales.wildwars.png"
+  },
+  "com.thoughtprocess.forestwallpapershd": {
+    "title": "Forest Wallpapers HD",
+    "package": "com.thoughtprocess.forestwallpapershd",
+    "description": "Latest Forest HD Wallpapers is an app where you can set and share Forest wallpapers.\n\nOffline - All the Forest images available without internet connection.\n\nHand picked personally all the latest Forest wallpapers..Save your time with our Forest Wallpapers App.\n\nPlease rate us and give your Comment, If you like our Forest Wallpapers app. Share this Forest Wallpapers app with your friends and others.\n\nNote:\n-----\nAll the trademarks and copyrights are reserved to the respective owners . Contents compiled from various internet sources.\nIf you have the feeling there is a copyright or trademark violation direct that does not follow Within the \"fair use\" guidelines , please kindly contact us via the email \"thoughtprocesstech1@gmail.com\"",
+    "icon": "/icons/com.thoughtprocess.forestwallpapershd.png"
+  },
+  "com.ForestLiveWallpaperHQ": {
+    "title": "Forest Live Wallpaper",
+    "package": "com.ForestLiveWallpaperHQ",
+    "description": "Here is a magical Forest Live Wallpaper which takes you for a walk among breathtaking dark green trees through wonderful woodland. It offers you stunning HD background images of awakened nature, mesmerizing dance of delicate butterflies, birds singing their most beautiful songs, fireflies shining your way through trees and bushes, cute little wood animals running across colorful flowers and fresh green grass. Enjoy the marvelous sight of dark enchanted forest with your new Forest Wallpaper! \n\nImagine the perfect day in nature with cute little birds singing around you, cheerful colorful butterflies flying above your head, adorable squirrels, rabbits and other forest animals tuning around. You can run among colorful spring flowers one moment, and then switch to a nostalgic autumn landscape, ",
+    "icon": "/icons/com.ForestLiveWallpaperHQ.png"
+  },
+  "com.lwpgo.wallpaper.forest": {
+    "title": "Forest Wallpaper Live HD/3D/4K",
+    "package": "com.lwpgo.wallpaper.forest",
+    "description": "Forest Wallpaper and Background is an app where you can personalize your desktop with jungle, forester and 3d rainforest and related animated wallpaper videos for your Android, all for free! It's a 3D Forest Wallpaper offline changer, capable of personalizing the entire home screen or lock screen of your Android phone for free with custom waterfall, cascade and nature in a cute and cool 3D natural jungle launcher in 2024. DIY your own theme with great wood, garden and woodland.\n\nNEW Special Features:\n\ud83d\ude80 Homescreen and lockscreen changer, with quick HD wallpaper downloads\n\ud83c\udfa8 Unique 3D theme Forest live wallpaper maker or creator\n\ud83d\uddbc\ufe0f 1000+ 4K wallpapers and backgrounds for an 8K homescreen\n\ud83c\udf08 3D Forest video wallpaper app with parallax effects\n\ud83d\udd12 Lock screen wallpaper changer with video support\n\n",
+    "icon": "/icons/com.lwpgo.wallpaper.forest.jpg"
+  },
+  "com.livephoto.live_wallpaper.magicforest": {
+    "title": "Magic Forest Live Wallpaper",
+    "package": "com.livephoto.live_wallpaper.magicforest",
+    "description": "magic forest wallpapers features magic forest live wallpaper to personalize your phone.\nmagic forest video wallpaper make your screen unique and elegant.\nMoving 4d wallpapers.\nAnimated backgrounds with 3d wallpaper butterfly , nature and neon mushrooms. \nmagic forest theme on your home screen or lock screen.\nThis 4k wallpaper is awesome with glowing butterflies and fairies with flowers.",
+    "icon": "/icons/com.livephoto.live_wallpaper.magicforest.jpg"
+  },
+  "com.subway.mobile.subwayapp03": {
+    "title": "Subway\u00ae",
+    "package": "com.subway.mobile.subwayapp03",
+    "description": "\u25cf Make It Your Own\u2014or Keep It Classic: Craving extra cheese? Same here. Build your Footlong just the way you would in the restaurant. Mix and match sauces, choose your toppings, or get your bread toasted to craft your perfect Footlong.\n\n\u25cf Subway Rewards: Join Sub Club! Redeem points for Subway\u00ae Cash plus get access to exclusive offers and member-only rewards.\n\n\u25cf Rapid Re-Order: Find your favorites in a snap. Get your last order in a single tap, right from the dashboard.\n\n\u25cf Get Fresh Fast: Choose Pick Up, Curbside, or Delivery. What are you waiting for?",
+    "icon": "/icons/com.subway.mobile.subwayapp03.png"
+  },
+  "com.emn8.mobilem8.nativeapp.popeyes": {
+    "title": "Popeyes\u00ae App",
+    "package": "com.emn8.mobilem8.nativeapp.popeyes",
+    "description": "Hey y\u2019all, welcome to the Popeyes\u00ae Louisiana Kitchen App! We hope you\u2019re hungry\u2013\u2013we\u2019re bringing crunchy Cajun deliciousness right to ya when you order for pickup or delivery through our app.  \n\nFEATURES we\u2019re cooking with: \nCustomizable Menu Options: Get everything you love exactly the way you want it. Choose your Chicken Sandwich Combo: Classic, Spicy, Ghost Pepper, Bacon & Cheese, or our limited-time Flounder Fish Sandwich with your choice of side, beverage, and add-ons like bacon, cheese, and pickle! Mix and Match Bone-in or Boneless Wings with 8 flavor varieties and choose your Signature Chicken preparation: Classic or Spicy, Breast & Wings, or Legs & Thighs. Enjoy your Tenders A La Carte or turn it into a Family Meal with your preference of Classic, Spicy, or Blackened with 2 deliciou",
+    "icon": "/icons/com.emn8.mobilem8.nativeapp.popeyes.png"
+  },
+  "com.kfc.us.mobile": {
+    "title": "KFC US - Ordering App",
+    "package": "com.kfc.us.mobile",
+    "description": "Where finger lickin' good deals meet finger lickin' good food. Order your favorites with our easy-to-use app.\n\nEarn KFC Rewards for Free Food\n\nKFC customers can unlock free KFC by earning points on orders through their Rewards Account via the app.*\n\nExclusive Deals & Discounts\nFind exclusive deals only available here. Save on your favorite meals and try new limited time offers here first.\n\nOrder for Quick Pick-up or Delivery\nPick up your order in-store or have it delivered with contactless options.\n\nQuick & Simple Ordering\nBrowse the menu, customize your meal, and place your order in just a few taps. Choose from all your fave fried chicken, sandwiches, sides, and desserts.\n\nCustomizable Menu Options\nChoose from a variety of sides, sauces, and sweets to go with your Nuggets, Tenders, or Fri",
+    "icon": "/icons/com.kfc.us.mobile.png"
+  },
+  "com.wendys.nutritiontool": {
+    "title": "Wendy\u2019s",
+    "package": "com.wendys.nutritiontool",
+    "description": "If you love Wendy\u2019s \u2014 (who doesn\u2019t, right?) \u2014 you need this app. Earn Rewards for FREE fresh food, get exclusive offers on our latest deals, and order delivery wherever you are. We could keep going, but they only give us so many characters. For more nuggets to ponder below ... it\u2019s gotta be Wendy\u2019s.\n\nEasy Sign Up\nCreating a Wendy\u2019s account couldn\u2019t be simpler. Download the app. Answer a few questions. And bam\n\u2014 fresh food faster is around the corner.\n\nAmazing Offers\nThis app is your hookup. Get app-exclusive offers on burgers, breakfast, all the bacon things, and every Frosty\u00ae in between. All the deals, zero FOMO.\n\nBreakfast\nRise, shine, and dine with Wendy\u2019s exciting new breakfast menu. Biscuits and burritos and cold brews \u2014 oh my. Stop snoozing and stop by early.\n\nDaily Deals\nGet the lat",
+    "icon": "/icons/com.wendys.nutritiontool.png"
+  },
+  "com.olo.dairyqueen.production": {
+    "title": "Dairy Queen\u00ae Food & Treats",
+    "package": "com.olo.dairyqueen.production",
+    "description": "Life's Sweet with the DQ\u00ae App!\nSatisfy your cravings with easy ordering and get food fast at Dairy Queen\u00ae. Plus, earn food rewards and receive exclusive deals that are only available through the App.\n\nExplore the Menu\nDiscover new and limited-time menu items and indulge in the latest Blizzard\u00ae of the Month. From burgers to chicken baskets, fries to cakes, and of course, Blizzard\u00ae Treats, there's something for everyone.\n\nEarn with DQ\u00ae Rewards\nOrder food through the App or scan your phone at the register to earn 10 DQ\u00ae Rewards Points for every $1 spent. Save your DQ\u00ae Points to redeem food rewards on your favorite menu items, and as you earn more DQ\u00ae Points, the food rewards get bigger. Plus, get a sweet surprise on your birthday! Available at participating restaurants.\n\nOrder Ahead & One-Cli",
+    "icon": "/icons/com.olo.dairyqueen.production.jpg"
+  },
+  "com.happygogame.subwayrushescape": {
+    "title": "Subway Runner: Parkour Game",
+    "package": "com.happygogame.subwayrushescape",
+    "description": "Subway Runner:Parkour Game \u2013 Run for Your Life! \ud83d\ude86\ud83d\udca8\nGet ready for the most thrilling subway escape challenge! In Subway Rush: Escape, you'll race through the busy metro system, testing your limits as you sprint, leap over obstacles, and escape from relentless pursuers. With every turn, you\u2019ll face new challenges and higher stakes! Fast reactions, quick dodges, and high-speed escapes are key to survival! \ud83d\ude80\n\ud83d\udd25Game Features: \n\u2714 Endless Running Challenge \u2013 No end, no limits\u2014every run is packed with thrills and intense challenges! \n\u2714 Real Subway Environments \u2013 Race through underground tunnels, train tracks, and bustling metro stations. As you run, new environments and obstacles await you at every corner! \n\u2714 Epic Power-ups \u2013 Unlock powerful items like the Jet Plane, allowing you to soar above the ",
+    "icon": "/icons/com.happygogame.subwayrushescape.jpg"
+  },
+  "com.rioo.runnersubway": {
+    "title": "Subway Princess Runner",
+    "package": "com.rioo.runnersubway",
+    "description": "Subway Princess Runner is an endless running game. Rush as fast as you can dodge the oncoming trains, You can choose your favorite character to use the skateboard to surf in the subway. Help Lucy and  Kevin escape the police and earn high scores, what are you waiting for? Run now!!!\n\n[FEATURES]:\n- Subway theme game\n- Influent screen touch\n- Double tap for skateboard, feeling the special running\n- Challenge the highest score with world players\n- The higher the level,the higher the score\n- Grind trains with your cool crew\n- Colorful and vivid HD graphics\n- Upgrade all the properties to get endless power\n\n[HOW TO PLAY]:\n- Jump, slide to avoid obstacle\n- Smooth touch your phone\n- Run as far as possible to pick up coins and diamonds\n- Easy to run left or right \n- Use prop of scores, coins\n- Upg",
+    "icon": "/icons/com.rioo.runnersubway.png"
+  },
+  "com.creations.runnergame": {
+    "title": "Kooply Run\u2122: Play and Create!",
+    "package": "com.creations.runnergame",
+    "description": "Run through exciting and unique levels or craft your own Endless Runner levels all by yourself in our super easy and free to use in-app editor, only in Kooply Run\u2122: Play and Create!\n\nRun, Jump, Dash, Slide, and Dodge obstacles in this nonstop action Kooply Runner game while collecting rewards, crazy upgrades, and amazing power-ups. \n\nCraft amazing endless runner levels all on your own, publish them to the community and compete against worldwide Subway Craft level creators on our daily Level of the Day leaderboard. \n\n\ud835\udc06\ud835\udc00\ud835\udc0c\ud835\udc04 \ud835\udc05\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc04\ud835\udc12 \n\u2022  Multiple themes like Subway, Candyland, Enchanted Forest, Western ..\n\u2022  Intuitive easy to use Editor to craft Subway like endless runner maps.\n\u2022  Competitive worldwide expert high score Kooply runner players.\n\u2022  Explore millions of user crafted runner levels t",
+    "icon": "/icons/com.creations.runnergame.png"
+  },
+  "com.sybogames.subway.surfers.game": {
+    "title": "Subway Surfers City",
+    "package": "com.sybogames.subway.surfers.game",
+    "description": "Billions of players can\u2019t be wrong - run and jump back into the beloved world of Subway Surfers and rediscover your favorite endless running adventure with exciting new twists. Progress through fresh hurdles, reach new heights, and collect new characters! \n\nJake, Tricky, Fresh, and Yutani are ready - are you? Play Subway Surfers City now!\n\nKey features:\n- CHOOSE YOUR ADVENTURE: Switch seamlessly between thrilling endless runs chasing a new high score, or playing the all new City Tour!\n- UNCOVER SECRETS: Stomp and jump for a new way to play this runner game. Reach new depths and heights as you discover hard-to-reach Secret Stars!\n- COLLECT AND UPGRADE SURFERS & BOARDS: Each Surfer and Board has unique abilities, so upgrade and combine runners and boards to play your way! Collect them all, f",
+    "icon": "/icons/com.sybogames.subway.surfers.game.png"
+  },
+  "com.spsufg.sufgrvpn": {
+    "title": "Speed Surfing vpn",
+    "package": "com.spsufg.sufgrvpn",
+    "description": "We offer Speed \u200b\u200bSurfing vpn proxy service, providing anonymous, private and secure connection.\n\nVPN proxy for Android! Try it now!\n\n* Fast and unlimited VPN connection\n* No log policy, truly anonymous\n* No registration or login required\n\nUnique Features:\n\n Super Fast Connection\nNo data caps, no restrictions. It automatically connects you to the nearest server and ensures you have a fast and stable internet connection for browsing and streaming! Faster VPN connection than most other VPN proxy providers.\n\nProtect Your Online Activities\nWith our unlimited VPN service, you can surf the Internet without worrying about being tracked by your ISP. Your IP address is masked and all your online data is encrypted.\nYou can browse anything privately and anonymously. We automatically protect your conne",
+    "icon": "/icons/com.spsufg.sufgrvpn.png"
+  },
+  "com.erhan.vpn": {
+    "title": "Surf VPN",
+    "package": "com.erhan.vpn",
+    "description": "Free VPN is FREE!\nAccess to unlimited VPN proxy service for FREE. If you are like me that want to save big bucks, let the Ads sponsor your fast and Free VPN Unlimited proxy service. Of course you can easily remove all Ads and enjoy more super fast servers by subscribing to the premium plan. You can save more by choosing annual subscription. Want more flexibility? No problem, just pick the monthly subscription and you are good to go. Hotspot VPN Free.\n\nFree VPN is Fastest!\nYou can connect to fastest VPN proxy servers from around the world. More VPN proxy servers are added to your list constantly. Experiencing not ideal connection speed? Don\u2019t worry, simply choose another VPN proxy server will normally solve your problem. Free VPN Unlimited is one of the fastest VPN proxy service providers o",
+    "icon": "/icons/com.erhan.vpn.png"
+  },
+  "com.snowlife01.openvpn": {
+    "title": "SafeSurf VPN",
+    "package": "com.snowlife01.openvpn",
+    "description": "SafeSurf VPN hides your IP address and location while encrypting all your online traffic with robust security.\nIt also has an advanced ad blocking feature that significantly speeds up website loading times.\nBy removing ads, you can save up to 70% on your data usage and avoid unnecessary data consumption.\nStart using SafeSurf VPN today for a smooth and secure Internet experience!\n\n\u25bc Protect Your Data Online\nWhen you use SafeSurf VPN, your IP address and virtual location are changed, ensuring your online traffic is protected from third parties. This keeps your data private at all times while you surf the internet.\n\n\u25bc Stay Secure Even on Public Wi-Fi\nSafeSurf VPN employs the latest encryption technology to keep your connection secure at all times. You can confidently log into accounts, perfor",
+    "icon": "/icons/com.snowlife01.openvpn.png"
+  },
+  "com.philippefurger.SURF": {
+    "title": "SURF",
+    "package": "com.philippefurger.SURF",
+    "description": "Subscribe to SURF to access evidence-based content from SURFmed, Labo-SURF, INVESTI-Med and INTOXI-SURF, four essential books for residents, general practitioners and medical specialists.\n\nA reference book in general internal medicine for 20 years, SURF has become an essential working tool, both in Europe and in North America!\n\nA true legend!\n\nThis irreplaceable therapeutic guide contains a huge amount of information, encompassing the content of no less than four books written by Dr. Philippe Furger with the help of more than 230 collaborators. The content of this application encompasses all general internal medicine as well as the differential diagnosis of the most frequent symptoms and that of laboratory values.\nThe subscription gives you access to the content on up to two devices.\n\nBENE",
+    "icon": "/icons/com.philippefurger.SURF.png"
   }
 }
