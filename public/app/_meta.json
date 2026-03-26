@@ -8341,5 +8341,227 @@
     "package": "com.philippefurger.SURF",
     "description": "Subscribe to SURF to access evidence-based content from SURFmed, Labo-SURF, INVESTI-Med and INTOXI-SURF, four essential books for residents, general practitioners and medical specialists.\n\nA reference book in general internal medicine for 20 years, SURF has become an essential working tool, both in Europe and in North America!\n\nA true legend!\n\nThis irreplaceable therapeutic guide contains a huge amount of information, encompassing the content of no less than four books written by Dr. Philippe Furger with the help of more than 230 collaborators. The content of this application encompasses all general internal medicine as well as the differential diagnosis of the most frequent symptoms and that of laboratory values.\nThe subscription gives you access to the content on up to two devices.\n\nBENE",
     "icon": "/icons/com.philippefurger.SURF.png"
+  },
+  "com.vonderapplication": {
+    "title": "Vonder X",
+    "package": "com.vonderapplication",
+    "description": "Vonder X - an all-in-one application that provides learners multi-functional learning tools. Each of them contains bite-sized content which is super easy to digest and fun.\n\nHow Vonder X works \n\nRegister or be our guest by clicking 'Continue as guest' and instantly enjoy exploring Vonder's Challenges via 'Vonder Go!', a learning game that motivates players to concentrate more on their lesson with an exhilarating match between a hero and naughty villains. Choose the best answer and see whether the hero will attack or be attacked.\n \nExamples of lesson inside\n- GAT Vocabulary\n- English Grammar\n- Modern History\n- Chemistry\n\nApart from these, many new lessons will be added regularly.\n\nIsn't that enough? Practice more with 'Flash', 'Jump' or other games, Vonder's original micro-learning games th",
+    "icon": "/icons/com.vonderapplication.png"
+  },
+  "ua.gov.diia.app": {
+    "title": "\u0414\u0456\u044f",
+    "package": "ua.gov.diia.app",
+    "description": "Action is the state in a smartphone. The state, in the center of which is a person.\n\nInstall Diya, log in and use digital documents, share their copies and get government services in a few clicks.\n\nDigital documents in Diya will appear automatically after authorization, provided that the data is in the registers. They will have the same force as paper and plastic originals, and no one will have the right to demand a physical counterpart if you show the document in Diya.\n\nIn Diya, you and your children have a COVID vaccination certificate, a recovery certificate and a negative PCR test. Request a certificate and it will be pulled in a few seconds.\n\nThe application can be used by citizens of Ukraine and foreigners with a residence permit.\n\nThe action is convenient, inconspicuous, humane.",
+    "icon": "/icons/ua.gov.diia.app.png"
+  },
+  "com.viber.voip": {
+    "title": "Rakuten Viber Messenger",
+    "package": "com.viber.voip",
+    "description": "Rakuten Viber Messenger is a secure, fun, and exciting messaging and calling app, connecting over a billion people worldwide!\n\nYou can do it all with Rakuten Viber Messenger: group chats, disappearing messages, reminders, and more:\n\nSend messages for free\nStaying in touch has never been easier. Send a free text, photo, sticker, GIF, voice, or video message, along with many other types of files. Express yourself in creative ways without any cost. Enjoy high-quality messaging with no hidden fees. Viber ensures you stay connected effortlessly. One of the top messaging apps available today.\n\nMake free audio and video calls\nEnjoy unlimited Viber-to-Viber audio and video calls to anyone in the world for free. You can even call up to 60 people at the same time! Great for connecting with friends, ",
+    "icon": "/icons/com.viber.voip.png"
+  },
+  "com.booking": {
+    "title": "Booking.com: Hotels & Travel",
+    "package": "com.booking",
+    "description": "Save on your next trip with the Booking.com app! Find great hotel or apartment deals and book in just a few minutes. You can also book flights, rental cars, and more through the app.\n\n- Book your whole trip in one app (accommodations, flights, car rentals, taxis and more)\n- Stay flexible with free cancellation (available at most properties)\n- 24/7 customer service in more than 40 languages\n- No booking or credit card fees\n- Chat directly with your property in the app\n- Enjoy mobile-only discounts\n- Use filters to easily find the perfect place out of millions of available accommodations (hotels, apartments, homes, villas, ryokai and more)\n- Get paperless confirmation of your reservation \u2014 no printing required\n- Manage your bookings on the go, making changes whenever and wherever you want\n- ",
+    "icon": "/icons/com.booking.png"
+  },
+  "ua.com.uklontaxi": {
+    "title": "Uklon - More Than a Taxi",
+    "package": "ua.com.uklontaxi",
+    "description": "Uklon: More than a taxi\n\nMove around the city with Uklon!\n\nUklon is a car call service, thanks to which you can quickly and conveniently move around the city.\n\nThe Ukrainian service also operates in Tashkent.\n\n\u2713 Choose a car class according to your needs\nHere you choose preferable car class: standard, comfort, business, station wagon, minibus or eco.\n\n\u2713 Save important addresses\nSave your time, save frequently used addresses to call a car in a few clicks.\n\n\u2713 Share your location\nSend your geolocation to friends, mom, wife or colleague during the order.\n\n\u2713 Ride on the best route\nOur system selects the best routes, thanks to which the driver will take you quickly and comfortably.\n\n\u2713 Manage the cost of your trip\nIf you are in a hurry, increase the price so that your order is a priority among dr",
+    "icon": "/icons/ua.com.uklontaxi.png"
+  },
+  "ua.com.uklon.uklondriver": {
+    "title": "Uklon Driver",
+    "package": "ua.com.uklon.uklondriver",
+    "description": "Uklon Driver is an app for drivers of the Uklon online service that allows them to earn money by accepting the most suitable orders. \n \nUklon Driver provides the driver with the following features: \n\u2022 Intuitive app interface\n\u2022 Access to a list of available orders nearby \n\u2022 Display of the final destination and route to the pickup point \n\u2022 Numerous orders to work on throughout the day \n\u2022 Ability to accept orders on the move while running personal errands \n\u2022 View of balance and all financial transactions for earnings control \n\u2022 Dozens of exclusive offers in the DriverUP loyalty program: up to 10% off on fuel, up to 20% off on insurance and vehicle inspections, and even up to 40% off on food and beverages. All DriverUP benefits are included in the app \n\u2022 Filtering orders according to selected ",
+    "icon": "/icons/ua.com.uklon.uklondriver.png"
+  },
+  "com.paysend.app": {
+    "title": "Paysend: Simple Money Transfer",
+    "package": "com.paysend.app",
+    "description": "Fast, secure and low-cost transfers, powered by Paysend - the world\u2019s largest digital payment network. Paysend makes global payments easy. Send money worldwide to over 170 countries with low fees, real-time exchange rates and secure remittance \u2013 all in minutes.\n\nSend money worldwide \ud83d\udcb8\nStay connected with loved ones through bank transfers, mobile wallets or instant money transfers. Paysend offers flexible options to fit your needs.\n\nFast, secure, and reliable transfers \ud83d\udcb5\nYour international transfer arrives quickly \u2013 most payments are completed in minutes. With real-time exchange rates, your recipient gets exactly what you send.\n\nZero-fee bank transfers \ud83c\udfe6\nEnjoy bank transfers with no extra costs when sending money abroad \u2013 helping you save more while supporting family and friends.\n\nSend mone",
+    "icon": "/icons/com.paysend.app.webp"
+  },
+  "com.icomvision.bsc.tbc": {
+    "title": "TBC Bank",
+    "package": "com.icomvision.bsc.tbc",
+    "description": "Simplify your life with TBC's Mobilebank \n\nExperience banking fully digitally \u2013 simple, instant, secure. TBC\u2019s Mobilebank offers various features to make your daily banking experience seamless \u2013 from customizing your homepage to activating products wherever you are, right from your phone. \n\nBecome TBC\u2019s customer in just 30 seconds. Register in Mobilebank without any documents by verifying your identity with just a selfie. \n\nGet your new TBC Card via Mobilebank and use it instantly. Earn on every payment, unlock exclusive offers across Georgia, and transfer your loyalty rewards straight to your account. \n\nTransfer money 24/7. Send money to someone else in TBC, to another Georgian bank, or from another Georgian bank to your account \u2013 anytime you need. \n\nPay utilities and recurring expenses w",
+    "icon": "/icons/com.icomvision.bsc.tbc.png"
+  },
+  "com.fuib.android.spot.online": {
+    "title": "PUMB\uff0dMobile Banking App",
+    "package": "com.fuib.android.spot.online",
+    "description": "\ud83c\udfc6 PUMB \u2013 Mobile Banking Services! \ud83c\udfc6\n\nPUMB is your go-to online banking solution with a wide range of financial services. With the PUMB banking app, you can easily access mobile banking from your phone \u2014 open accounts, transfer money, exchange currency, earn cashback, apply for credit online, and shop in installments \u2014 all in one banking app.\n\n \n\n\ud83d\udcb3 Free Account Opening & Easy Management \u2013 Your Online Banking Solution\n\nOpen a card for free directly in the PUMB app. Make payments, transfer money, and track spending!\n\n\ud83d\udcb0 Easy Money Transfers\n\nTransfer money from your \"vseKARTA\" and \"vseMOZHU Online\" cards using personal funds to other bank cards in hryvnia without any fees, using online banking app.\n\n\ud83d\ude80 Apply for a Credit Online \u2013 No Bank Visit Needed\n\nNeed credit fast? Apply for a credit online",
+    "icon": "/icons/com.fuib.android.spot.online.png"
+  },
+  "com.radio.fmradio": {
+    "title": "Radio FM",
+    "package": "com.radio.fmradio",
+    "description": "\ud83d\udcfbRadio FM - Audio Drama and Podcast App. You can enjoy Audio Drama Shows, Radio Stations and Podcasts from different corners of the world, trusted by100 Million+ listeners, and featured by \ud83c\udfc6 Google as an Editors' Choice. \n\nRadio FM allows the user to listen and enjoy various Drama Shows - Romance, Thriller, Suspense and more programs from different Radio Stations and Podcasts.\n\nListen to popular Short Dramas Audios from all around the world.\n\nRadio FM Highlights: \n- Diverse Genres, Limitless Stories\nDive into a treasure trove of exclusive short drama audios, meticulously crafted to cater to every taste. From romantic to gut-wrenching shorts, Radio FM brings you an extensive collection that ensures there's something for everyone.\n\n- Unleash Your Emotions\nWhether you're in the mood for laugh",
+    "icon": "/icons/com.radio.fmradio.png"
+  },
+  "com.audials": {
+    "title": "Audials Play: Radio & Podcasts",
+    "package": "com.audials",
+    "description": "Why Use Audials?\n \u2022 40,000 U.S. stations sorted by state and genre \n \u2022 A total of 110,000 radio stations in MP3 and AAC format, and 1,900,000 podcasts, sorted by country and genre\n \u2022 Record entire programs and individual songs\n \u2022 On Air: See what\u2019s currently playing, even before tuning in\n \u2022 Find radios that play your favorite artist right now\n \u2022 Loads of useful extras: Chromecast, clock radio, sleep timer, equalizer, ...\n\n\n110,000 Radios and 1,900,000 Podcasts From AL to WY and around the world: 106.7 LITE FM, 181.FM, ABC, The Beat LA, Beatles Radio, Black Gospel Network, Radio Caraibes, Christian Pirate Radio, Fresh FM, Hard Radio, The JOY, KEXP 90.3, KIIS 102.7, Kiss FM, KNKX, KOST 103.5, KTU, Now FM, Onda Cero, Undergroundradio, VirtualDJ, Vision 2000, WAQX, WCBS-FM, WPLJ, WUCF 89.9, Z",
+    "icon": "/icons/com.audials.png"
+  },
+  "com.radiotuner": {
+    "title": "Radio Tuner: Online AM FM",
+    "package": "com.radiotuner",
+    "description": "Radio Tuner Directory features over 50,000 professional and community programmed radio stations from around the world. Radio Tuner offers tremendous depth and breadth of stations with genres ranging from Rock, Alternative, Jazz, Electronica, Bollywood, Latin to Zouk across a broad set of languages including Spanish, French, German, Swahili and Portuguese. We even have public radio, talk and police scanners available in a wide variety of cities worldwide.\n\nWith the Radio Tuner FREE app you can now take all of your favourite Radio FM stations with you anywhere!\n\n********** Features **********\n\n\u25cf Access to over 50,000 FM and radio stations on your Android Devices\n\u25cf Multitasking! Supports background audio playback so you can listen while doing other things on your device\n\u25cf Search the extensive",
+    "icon": "/icons/com.radiotuner.png"
+  },
+  "com.sandhyatech.radio_sarju": {
+    "title": "Radio Sarju 89.6 FM",
+    "package": "com.sandhyatech.radio_sarju",
+    "description": "Nestled in the vibrant cultural tapestry of this historical city, Radio Sarju is a community radio station that resonates with the diverse voices and stories of its people.\n\nTune in to 89.6 FM and embark on a journey that celebrates the rich heritage, traditions, and daily life of Bahraich. From the melodic tunes of local musicians to engaging discussions on community issues, Radio Sarju serves as the connective thread weaving together the diverse threads of this close-knit community.\n\nWhether you're a resident, a visitor, or a curious listener from a far, Radio Sarju offers a unique platform where everyone's voice is heard. With a commitment to promoting local talent, fostering dialogue, and amplifying the heartbeat of Bahraich, this radio station stands as a beacon of unity, entertainmen",
+    "icon": "/icons/com.sandhyatech.radio_sarju.jpg"
+  },
+  "com.mysoft.radioplayer": {
+    "title": "Radio 4U - Online radio",
+    "package": "com.mysoft.radioplayer",
+    "description": "Radio 4U brings your favorite radio stations and personal music together in one app! \nListen to online radio from around the world or play your own music directly \nfrom Google Drive and local storage \u2013 anytime, anywhere.\n\n\ud83c\udfb5 Features:\n- Online radio with hundreds of stations from all over the world\n- Easy search by category (pop, rock, jazz, news, talk radio, and more)\n- Add your favorite radio stations for quick access\n- Low data consumption for nonstop music streaming\n- Background playback \u2013 keep listening while using other apps\n- Notifications with current station info\n- Simple, modern, and fast user interface\n- \ud83d\udcc2 Play your own music files directly from Google Drive or device storage\n\n\ud83d\udcfb Why Radio 4U?\nRadio 4U is not just another radio app. It\u2019s a complete radio player that lets you \nenjo",
+    "icon": "/icons/com.mysoft.radioplayer.png"
+  },
+  "com.worldradios.turquie": {
+    "title": "Radio Turkey - Radio FM",
+    "package": "com.worldradios.turquie",
+    "description": "\ud83c\uddf9\ud83c\uddf7 Radio Turkey is all Turkish radios in one application!\n\n- News: Stay informed of the news 24/7 thanks to local, national and global news radios\n- Music: Listen to your favorite music, pop, jazz, Latin music, classical music, country or rock on the many music radios!\n- Live Sports: Follow your favorite team through sports radios!\n\nAnd many other themes according to your mood!\n\n\n\ud83c\udf99\ufe0f STREAMING RADIO\n\nWith the Radio Turkey application, listen live to all your favorite FM, AM or online radio stations from anywhere in the world!\n\nIt's simple, efficient and fast, our radio player is ideal for listening live to the most popular radio stations in Turkey like A\u015fk, KRAL, DarT\u00fcrk, Fenomen, T\u00fcrk\u00fc, Ankara Havalar\u0131, Metro, Slow T\u00fcrk, Arabesk Dar, Baba, S\u00fcper, Park, 98.2 Karadeniz, 7, Seymen and many ot",
+    "icon": "/icons/com.worldradios.turquie.png"
+  },
+  "com.radiolight.turquie": {
+    "title": "Radio Turkey FM online",
+    "package": "com.radiolight.turquie",
+    "description": "\ud83c\uddf9\ud83c\uddf7 Listen live to the best Turkish FM radio, AM radio and internet radio stations with our Radio Turkey app! Choose what you want to listen to: news, sports, talk, music and follow your favorite shows!\n\nMore than 2200 Turkish radios are available!\n\nWith an easy to use, fast and modern interface, Radio Turkey offers you the best online listening experience without subscription or payment to access the application! Also take advantage of our widget for even more pleasant and simple access and listening!\n\n\u2b50 FEATURES\n\n\u221a Listen to the radio while using other apps or in sleep mode of your smartphone\n\u221a Alarm function for a gentle wake up with your favorite radio station\n\u221a Receive a call while using the app\n\u221a Listen to FM radio even if you are abroad\n\u221a Schedule app auto shutdown with sleep timer f",
+    "icon": "/icons/com.radiolight.turquie.png"
+  },
+  "com.appmind.radios.tr": {
+    "title": "Radio Turkey - FM Radio",
+    "package": "com.appmind.radios.tr",
+    "description": "Radio Turkey is a free radio app with more than 800 radio stations. With a modern, beautiful and easy to use interface, it gives you the best experience when it comes to listening to online radio.\n\nWith Radio Turkey you can listen to the best FM radio stations and follow your favorite shows and podcasts for free. You can choose amongst sports, news, music, comedy and more.\n\n\ud83d\udcfb FEATURES\n\u25cf listen to radio in background while using other apps\n\u25cf you can listen to FM radio even if you are abroad\n\u25cf find out which song is currently playing on the radio (depending on the station)\n\u25cf the interface is really easy to use, with just one click you can add a radio station or podcast to your favorites list\n\u25cf use the search tool to easily find what you're looking for\n\u25cf set an alarm to wake up with the FM ra",
+    "icon": "/icons/com.appmind.radios.tr.png"
+  },
+  "com.radoxo.tr": {
+    "title": "Radio Turkey \u2014 FM Live Online",
+    "package": "com.radoxo.tr",
+    "description": "Listen to more than 500 Turkish radio stations in one app.\nRadio Turkey brings together FM, AM, and online broadcasts from across the country \u2014 music, news, sports, talk shows, and podcasts, all in one place. The app offers simple navigation and stable streaming for a comfortable listening experience.\n\nMain Features:\n\u2022 500+ Turkish Radio Stations: Explore FM, AM, and online channels from every region of Turkey.\n\u2022 Favorites and Sharing: Save your preferred stations for quick access and share them with friends via social media, email, or messages.\n\u2022 Recently Played: Review your listening history and return to your favorite stations easily.\n\u2022 Sleep Timer: Set a timer to stop playback automatically after a selected time.\n\u2022 Playlists and Top Songs: View current playlists and frequently played s",
+    "icon": "/icons/com.radoxo.tr.png"
+  },
+  "com.radiosonline.radyofmturkiye": {
+    "title": "Radio Turkey - FM & Online",
+    "package": "com.radiosonline.radyofmturkiye",
+    "description": "\ud83c\udfa7 Listen to Turkey Radio \u2013 FM & AM Live\n\nEasily listen to all Turkish radio stations, FM & AM broadcasts, and popular podcasts in one app!\nWith Turkey Radio, discover live FM and AM radio stations from all over Turkey \u2014 music, news, sports, and talk shows, all in one place. Quickly access local and national radio channels, and catch up on your favorite podcasts anytime.\n\n\ud83d\udcfb Why Turkey Radio \u2013 FM & AM Live\n\nTurkey Radio is the ultimate app for listening to FM and AM radio.\nIts modern, simple, and user-friendly design makes it perfect for anyone who loves listening to Turkish radio online.\n\nListen at home, at work, or in your car with Android Auto support.\nNo registration or subscription needed \u2014 just enjoy live FM & AM radio and podcasts!\n\n\ud83d\udd27 Main Features\n- \ud83c\udfb6 Stream all FM & AM radio station",
+    "icon": "/icons/com.radiosonline.radyofmturkiye.png"
+  },
+  "com.weplaydots.twodotsandroid": {
+    "title": "Two Dots: Connect the dots",
+    "package": "com.weplaydots.twodotsandroid",
+    "description": "Connect a line of dots, relax with fun puzzles, collect treasures, play mini-games, and adventure through the universe with Two Dots: a dot-and-line puzzle game that will connect you to fun!\n\nJoin two brave dots on their fun interdimensional adventure as they explore mysterious landscapes, flow through a variety of games and mini-games, and collect prizes in Two Dots, a fun free puzzle game. Enjoy relaxing music as you connect a line (or square) and let your brain soak up the cool colors. Connect with friends to share your fun Two Dots adventures, compare games, and line up your trophies\u2026or just relax on your own. Connect to the game your way!\n\nFind your fun flow! Form a line and try to make a square to defeat any fun, brain-teasing Two Dots adventure. When the dots line up and the colors ",
+    "icon": "/icons/com.weplaydots.twodotsandroid.png"
+  },
+  "com.ustwo.monumentvalley": {
+    "title": "Monument Valley",
+    "package": "com.ustwo.monumentvalley",
+    "description": "In Monument Valley you will manipulate impossible architecture and guide a silent princess through a stunningly beautiful world.\n\nMonument Valley is a surreal exploration through fantastical architecture and impossible geometry. Guide the silent princess Ida through mysterious monuments, uncovering hidden paths, unfolding optical illusions and outsmarting the enigmatic Crow People.\n\nIda's Dream now available.\n\nForgotten Shores: Eight new chapters of adventure and illusion available now as a separate purchase.\n\n=======\n\n\"One of the very finest hours, and the value of such a thing is incalculable\" - Kotaku\n\n\"Brilliant design... stayed with me like a dream I didn't want to forget... 9/10\" - Polygon\n\n\"Monument Valley stuns with its serenity... each screen is a work of art\" - Huffington Post\n\n\"",
+    "icon": "/icons/com.ustwo.monumentvalley.png"
+  },
+  "com.ustwogames.mv3": {
+    "title": "Monument Valley 3",
+    "package": "com.ustwogames.mv3",
+    "description": "\u2013 Try Before You Buy! \u2013\nPlay the first two chapters of Monument Valley 3 for free, then unlock the full game \u2013 including The Garden of Life expansion \u2013 with a single in-app purchase!\n \n====\n\nSet sail for adventure in this new installment of the award-winning Monument Valley game series, exploring an expansive and beautiful world of puzzles.\nBegin a thrilling new voyage into an enchanting puzzle world. Guide Noor, a young apprentice, through a world of shifting architecture and rising tides as she seeks to restore the fading light.\n\nDEFY PERSPECTIVE TO SOLVE PUZZLES\nTwist gravity. Shift perspectives. Reshape ancient structures. Every puzzle is a new challenge in logic, intuition and imagination.\n\nCHANGE THE WORLD AS YOU EXPLORE \nFrom serene temples to crumbling ruins, journey through mesmer",
+    "icon": "/icons/com.ustwogames.mv3.png"
+  },
+  "com.ustwo.monumentvalley2": {
+    "title": "Monument Valley 2",
+    "package": "com.ustwo.monumentvalley2",
+    "description": "NOW INCLUDING brand new chapter, The Lost Forest:\n\nThe Lost Forest is a special chapter we have created to help protect trees, as part of Playing for the Planet\u2019s Green Game Jam. \n\nWith these four intimate scenes, we hope to inspire you to sign the Play4Forests petition and declare our shared interest in forest conservation. \nWe hope you enjoy the new update and join us to help preserve our forests!\n\n====\n\nGuide a mother and her child as they embark on a journey through magical architecture, discovering illusionary pathways and delightful puzzles as you learn the secrets of the Sacred Geometry. \n\nSequel to the award-winning Monument Valley, Monument Valley 2 presents a brand new adventure set in a beautiful and impossible world. \n\nHelp Ro as she teaches her child about the mysteries of the",
+    "icon": "/icons/com.ustwo.monumentvalley2.png"
+  },
+  "com.lumoslabs.lumosity": {
+    "title": "Lumosity: Brain Training Games",
+    "package": "com.lumoslabs.lumosity",
+    "description": "Train your mind with Lumosity\u2019s fun brain games.\n\nLumosity is a leading brain training app, used by over 100 million people worldwide to play cognitive games that exercise memory, attention, problem-solving and more.\n\nWHAT\u2019S INSIDE THE APP\n\u202240+ Brain games that adapt as you play\n\u2022Daily workout plans to train your brain\n\u2022Insights into your performance\n\u2022Track your progress and achieve your training goals\n\nGET STARTED WITH A FIT TEST\nTake a free, 10-minute Fit Test to set your baseline scores and see how your performance compares with others your age.\n\nEXPLORE BRAIN GAMES BY SKILL\nChoose the skill you want to target by playing games for speed, memory, attention, flexibility, problem-solving, math and word games. \n\nDAILY PERSONALIZED BRAIN WORKOUTS\nBuild daily habits with workouts curated for ",
+    "icon": "/icons/com.lumoslabs.lumosity.webp"
+  },
+  "com.blizzard.diablo.immortal": {
+    "title": "Diablo Immortal",
+    "package": "com.blizzard.diablo.immortal",
+    "description": "UPDATE - NEW CHARACTER CLASS\nUnleash the beast with a new character class! Play as a Druid, a legendary shapeshifting guardian, where you can wield elemental forces and transform into an all-powerful werebear or werewolf.\n\nSLAY YOUR WAY WITH ENDLESS CUSTOMIZATION\n\nChoose from 9 iconic classes and build your legend as a Barbarian, Blood Knight, Crusader, Demon Hunter, Druid, Monk, Necromancer, Tempest, or a Wizard.\n\nCustomize your hero\u2019s appearance, abilities, and gear. Whether you favor up-close brutality or ranged precision, Diablo Immortal adapts to your playstyle.\n\nTHE BATTLE BEGINS HERE\nDescend into darkness as the once peaceful world of Sanctuary has been torn apart by the Eternal Conflict between angels and demons. It needs a hero. It needs YOU. \n\nDiablo Immortal, the definitive mobi",
+    "icon": "/icons/com.blizzard.diablo.immortal.png"
+  },
+  "com.netease.mrzhna": {
+    "title": "LifeAfter",
+    "package": "com.netease.mrzhna",
+    "description": "Despair to hope in the wasteland. Waste is a seed of wealth\u2014plant it, harvest luck.\n\n-The Vast Open World-\nFrom snow mountain to beach, from forest to desert, from swamp to city... The vast Doomsday World is full of crises, yet offers endless possibilities. Here, you need to scavenge resources, build infrastructure, fend off zombie invasions, and build your own shelter.\n\n-Keep Hope Alive-\nWhen the doomsday came, zombies took over the world, collapsing social order and turning the familiar world unrecognizable. With the zombies craving human settlements, the harsh climate and scant resources, it\u2019s hard to get by. In the doomsday seas, there resides even more dangerous new Infected and colossal mutant creatures that can sink boats effortlessly\u2026...\nDanger is all around. You must keep calm and",
+    "icon": "/icons/com.netease.mrzhna.png"
+  },
+  "com.bolivene.pathofdestiny": {
+    "title": "Path of Destiny: Fantasy MMO",
+    "package": "com.bolivene.pathofdestiny",
+    "description": "Oriental Fantasy Open World MMORPG is officially launched today! Get free diamonds and VIP gifts daily!\n\nPath of Destiny is an fantasy open-world MMORPG with oriental style. The game owns a massive map which is over 60,000 inch\u00b2. Begins a thrilling journey in this Sword and magic world. Everything you choose affects the world and decides the world's future.\n\nMake a dent and create your own legend! \n\nFor more info and rewards, please follow our official Facebook page:\nhttps://www.facebook.com/pathofdestinygame\n\n=====Features=====\n\u3010Paint the fantastic world\u3011\nAn oriental fantastic new world that you can truly immerse in. Unlock the exclusive warlord to increase your power, and explore kinds of fantastic myths and legends. Come into Path of Destiny, and make your fantasy dream come true.\n\n\u3010Mas",
+    "icon": "/icons/com.bolivene.pathofdestiny.png"
+  },
+  "com.riotgames.league.wildrift": {
+    "title": "League of Legends: Wild Rift",
+    "package": "com.riotgames.league.wildrift",
+    "description": "The PvP MOBA gameplay of League of Legends by Riot Games arrives on mobile in League of Legends: Wild Rift! Built from the ground up for mobile-first PvP, Wild Rift is a 5v5 multiplayer online battle arena (MOBA) game with exciting action where your skills, strategy, and combat senses are put to the test.\n\nWild Rift is packed with content and fresh features for the ultimate PvP multiplayer experience. Enjoy fast-paced MOBA combat, real-time strategy, smooth controls, and diverse 5v5 gameplay. Team up with friends, lock in your champion, and play to win! Play together in a thrilling team battle where you test your combat prowess to see who comes out on top.\n\nCompetitive 5v5 battles await in League of Legends: Wild Rift. Dive into exciting PvP battles with casual or ranked mode to level up y",
+    "icon": "/icons/com.riotgames.league.wildrift.jpg"
+  },
+  "com.fansipan.nightfall.tower.simulation.strategy.td.game": {
+    "title": "Nightfall: Kingdom Frontier TD",
+    "package": "com.fansipan.nightfall.tower.simulation.strategy.td.game",
+    "description": "\ud83c\udf81\ud83d\udd25 Gift codes: NIGHTFALL8888\n\nImmerse yourself in a tactical tower defense adventure, where you showcase your strategy skills and resource management to build, battle, and conquer. In this medieval world, you must defend the frontier and survive as a legendary knight. Every strategy you deploy during the nightfall determines if your tower defense will stand.\n\n\ud83c\udff0 Step into a Cursed Land \nOnce upon a time, there lived Lord James VII\u2014a brave knight who ruled a medieval kingdom. As nightfall arrives, savage creatures spawn from the darkness. It's your mission in this strategy to defend the frontier and lead your knight on a quest. This tower defense is a bold quest to battle against hordes. Players who appreciate Thronefall will find a new frontier to explore. This strategy is the key to surviv",
+    "icon": "/icons/com.fansipan.nightfall.tower.simulation.strategy.td.game.png"
+  },
+  "com.onlinemovies.allmovie": {
+    "title": "All Movies",
+    "package": "com.onlinemovies.allmovie",
+    "description": "All Movies App:\n\nDiscover HD movies, TV shows, web series, animated movies and movie trailers in one entertainment app. If you love watching movies online and exploring trending entertainment, All Movies App is the perfect place to discover the latest content.\n\nWith this app you can discover latest movies, trending HD movies, popular TV shows, web series, animated movies and movie trailers from different languages and regions. You can also check where movies and shows are available to watch online across popular OTT platforms.\n\nExplore a huge collection of Bollywood movies (Hindi movies), Hollywood movies, South Indian movies (Hindi Dubbed Movies), Korean movies, Chinese movies, Gujarati movies, Bhojpuri movies, Marathi movies and more.\n\nSearch your favorite movie, TV show, web series, ani",
+    "icon": "/icons/com.onlinemovies.allmovie.png"
+  },
+  "com.rljentertainment.umc.android": {
+    "title": "ALLBLK: Exclusive Movies & TV",
+    "package": "com.rljentertainment.umc.android",
+    "description": "ALLBLK (formerly known as UMC) is an invitation to a world of streaming entertainment that is inclusively, but unapologetically \u2013 Black. To get started download the ALLBLK app and sign up for a 7-DAY FREE TRIAL.\n\nStream ALLBLK Original Series you can\u2019t find anywhere else including A House Divided, Double Cross, Craig Ross Jr.\u2019s Monogamy, For The Love of Jason, and Stuck With You. Access exclusive movie premieres like Available Wife and Everything But A Man, plus fan favorites like Secrets and Pride & Prejudice Atlanta. Plus, the best of David E. Talbert\u2019s stage plays are at your fingertips!\n\nTry ALLBLK with an easy 7-DAY FREE TRIAL!\n\nInstant access to a library of popular and exclusive original series, must see independent films, nostalgic Black cinema, lively stage plays, popular network ",
+    "icon": "/icons/com.rljentertainment.umc.android.png"
+  },
+  "com.future.moviesByFawesomeAndroidTV": {
+    "title": "Fawesome - Movies & TV Shows",
+    "package": "com.future.moviesByFawesomeAndroidTV",
+    "description": "\"Watch 150,000+ FREE movies and TV shows instantly\u2014no subscription or sign-up needed! Stream March's hottest new arrivals- The Hateful Eight, Prisoners, Kill Bill Vol 1 and 2, The Bank Job, The Lincoln Lawyer, Zodiac, The Hurt Locker, Trading Places, The Fountain, The Assassination of Jesse James by the Coward Robert Ford, Memento, Moonfall, Kung Fu Hustle, August: Osage County & more. Explore Hollywood blockbusters, cult classics & trending hits\u2014all in one place.\n\nEndless Entertainment Across Every Genre\nNo matter what you\u2019re in the mood for, Fawesome has you covered. Explore every genre at your fingertips:\n\n- Free Action & Adventure Movies: high-octane thrill rides, martial arts movies, classic Westerns.\n- Free Comedy Movies: laugh-out-loud stand-up specials, romantic comedies, and feel-",
+    "icon": "/icons/com.future.moviesByFawesomeAndroidTV.png"
+  },
+  "com.movie.downloader.mymovies": {
+    "title": "All Movie Downloader",
+    "package": "com.movie.downloader.mymovies",
+    "description": "Looking for the best movie downloader app? All Movie Downloader lets you explore and browse your favorite movies easily! With a vast collection of movies from various genres, you can enjoy unlimited entertainment at your fingertips.\n\nKey Features:\n\u2705 Huge Movie Collection \u2013 Browse movies from action, drama, horror, thriller and more.\n\u2705 Movie Details \u2013 Check movie ratings, language, runtime, and release year before downloading.\n\u2705 HD Quality \u2013 Download movies in HD, Full HD, and 4K quality.\n\u2705 User-Friendly Interface \u2013 Simple and easy-to-use design for hassle-free browsing.\n\u2705 Latest Movies \u2013 Stay updated with newly released movies from all around the world.\n\u2705 Movie Box & Favorites \u2013 Save your favorite movies and access them anytime.\n\n\ud83c\udf9e\ufe0f Why Choose All Movie Downloader?\n\u2b50 Find movies in differe",
+    "icon": "/icons/com.movie.downloader.mymovies.png"
+  },
+  "com.sheikh.ali.moviedownloader": {
+    "title": "All Movie Downloader - HD Box",
+    "package": "com.sheikh.ali.moviedownloader",
+    "description": "With Movie Downloader you can download tons of movies, new releases or upcoming new movies soon to be in theaters. Torrent movie downloader app is all in one solution for torrent movie download.\n\nWith Movie downloader you can download and search for the latest movies and can enjoy everyday with Free HD Online movies in this Movie Downloader App.\n\nMovie Downloader is a free movie downloader app. You can directly download movies using Torrent Movie Downloader with high speed and without any kind of limitation.\n\nMovie Downloader comes with the following features:\n\nKeep yourself notified with latest box office movies with Movie Downloader app.\nBrowse and search for latest movies in Movie Downloader app.\nMovie Downloader has the largest collection of movies to download.\nBrowse movies according ",
+    "icon": "/icons/com.sheikh.ali.moviedownloader.png"
+  },
+  "com.dantech.all_movies_downloader_v2": {
+    "title": "All Movies Downloader",
+    "package": "com.dantech.all_movies_downloader_v2",
+    "description": "All Movie Downloader \u2013 Discover & Track Your Favorite Movies\n\nWant an easy way to search and organize your favorite movies and TV shows? All Movie Downloader helps you discover publicly available content online. Explore movie details, watch trailers, and organize your watchlist \u2013 all in one app.\n\n\ud83d\udd0d Key Features:\n\n    Discover movies & TV shows from multiple genres\n\n    Watch trailers before deciding what to watch\n\n    Create and manage your personal watchlist\n\n    Bookmark and organize your favorite titles\n\n    Clean and easy-to-navigate interface\n\nDisclaimer:\nThis app is not a streaming or downloading service. It only helps users discover and organize publicly available movie metadata from third-party sources. No copyrighted content is hosted or provided by this app.",
+    "icon": "/icons/com.dantech.all_movies_downloader_v2.png"
+  },
+  "com.browser.movy": {
+    "title": "All Movie Downloader",
+    "package": "com.browser.movy",
+    "description": "Looking for the ultimate movie downloading app?\nAll Movie Downloader is your go-to solution for browsing and downloading full HD and 4K movies with ease. Whether you love action, romance, sci-fi, or any other genre, this app makes finding and downloading your favorite films quick and hassle-free.\n\nWhy Choose All Movie Downloader?\nThis app offers a smooth and fast experience for discovering and downloading movies, all in one place.\n\nKey Features:\nFast Downloads: Instantly download HD and 4K movie box.\n\nExtensive Library: Explore thousands of trending and classic titles.\n\nSmart Search & Filters: Easily find movies by genre, year, or popularity.\n\nDaily Updates: Enjoy fresh new content added regularly.\n\nUser-Friendly Interface: Simple, clean, and intuitive design.\n\nSmart Recommendations: Disco",
+    "icon": "/icons/com.browser.movy.png"
+  },
+  "com.vxplayer.vidplayer09": {
+    "title": "VX Movie Downloader",
+    "package": "com.vxplayer.vidplayer09",
+    "description": "Dive into Endless Entertainment with Vx Movie Downloader: Your All-in-One Movie Hub\nCraving the latest Hollywood blockbusters? Want to catch up on classic Korean dramas (Kdrama)? Or maybe you're looking for a platform to stream the hottest Bollywood movies? Look no further than Vx Movie Downloader, your one-stop shop for all things cinematic!\n\nVx Movie Downloader: Beyond Just Downloading.\n\nWhile the name \"Vx Movie Downloader\" highlights its download capabilities, this app is so much more! It's a powerful entertainment hub that lets you:\n\nDownload Movies & TV Shows: Enjoy seamless of a vast library of HD movies and TV shows directly within the app. No need to juggle multiple platforms \u2013 find everything you crave in one place.\nDownload for Offline Viewing: Going on a trip without internet? N",
+    "icon": "/icons/com.vxplayer.vidplayer09.png"
   }
 }
