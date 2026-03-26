@@ -8563,5 +8563,195 @@
     "package": "com.vxplayer.vidplayer09",
     "description": "Dive into Endless Entertainment with Vx Movie Downloader: Your All-in-One Movie Hub\nCraving the latest Hollywood blockbusters? Want to catch up on classic Korean dramas (Kdrama)? Or maybe you're looking for a platform to stream the hottest Bollywood movies? Look no further than Vx Movie Downloader, your one-stop shop for all things cinematic!\n\nVx Movie Downloader: Beyond Just Downloading.\n\nWhile the name \"Vx Movie Downloader\" highlights its download capabilities, this app is so much more! It's a powerful entertainment hub that lets you:\n\nDownload Movies & TV Shows: Enjoy seamless of a vast library of HD movies and TV shows directly within the app. No need to juggle multiple platforms \u2013 find everything you crave in one place.\nDownload for Offline Viewing: Going on a trip without internet? N",
     "icon": "/icons/com.vxplayer.vidplayer09.png"
+  },
+  "com.dywx.larkplayer": {
+    "title": "Lark Player:Music Player & MP3",
+    "package": "com.dywx.larkplayer",
+    "description": "Lark Player is a stylish and free offline music player and video player for Android, it supports to play all major formats of offline music and videos. This free music player has a powerful equalizer, lyrics and the best user interface. It also supports file management on the device, such as deleting files, creating music playlists. Currently, more than 100 million users worldwide use Lark Player to play music offline.\n\nCustomize Your Music Experience\nThe music player with the preset modes and powerful equalizers, you can easily personalize the sound effects when you play music offline\nThere are dedicated modes for Normal, Classical, Dance, Flat, Folk, Heavy Metal, Hip-hop, Jazz, Pop, Rock in this offline mp3 player. \ud83c\udfa7\n\nAudio Player and Video Player Support to All popular formats\nNot only ",
+    "icon": "/icons/com.dywx.larkplayer.png"
+  },
+  "apkdl.dietdroid.com": {
+    "title": "apkdl.dietdroid.com",
+    "package": "apkdl.dietdroid.com"
+  },
+  "com.paybis": {
+    "title": "Crypto & Bitcoin Wallet Paybis",
+    "package": "com.paybis",
+    "description": "Paybis crypto wallet is the smart and secure way to buy and sell cryptocurrency. The Paybis Bitcoin wallet helps you follow crypto news and market trends while offering safe, convenient management of your digital assets. With a clean design, advanced security, and powerful features, Paybis is a trusted crypto wallet and exchange where you can buy Bitcoin, sell crypto, and store cryptocurrency in one place \u2014 with your first trade fee-free.\n\n\ud83d\udcb0 Universal Wallet & Exchange\nThe Paybis BTC wallet gives you access to over 100 cryptocurrencies in more than 180 countries, including Bitcoin (BTC), Tether (USDT), Ripple (XRP), Ethereum (ETH), Binance Coin (BNB), Bitcoin Cash (BCH), Litecoin (LTC), Tron (TRX), Dogecoin (DOGE), Solana, Polkadot (DOT), Cardano (ADA), Monero (XMR), Shiba Inu (SHIB), Poly",
+    "icon": "/icons/com.paybis.png"
+  },
+  "com.binance.us": {
+    "title": "Binance.US: Buy BTC & Crypto",
+    "package": "com.binance.us",
+    "description": "Binance.US is a leading crypto exchange trusted by millions of customers in the U.S. Securely buy and trade bitcoin and 190+ cryptocurrencies, including BTC, ETH, SOL, XRP, Dogecoin, and BNB, with low trading fees, powerful tools, and staking rewards. \n\nWhether you're new to crypto or an active trader, Binance.US gives you an easy way to access bitcoin and altcoins from one secure app.\n\nBUY, SELL & TRADE 190+ COINS\n- Easily buy and sell crypto using bank transfer \n- Link a bank account to deposit and withdraw USD with zero fees\n- Trade Bitcoin (BTC), Ethereum (ETH), Solana (SOL), XRP, Dogecoin (DOGE), Cardano (ADA), BNB, Polygon (MATIC), Avalanche (AVAX), Ethereum Classic (ETC), Stellar Lumens (XLM), and more\n\nLOW-FEE CRYPTO EXCHANGE\n- Start your crypto portfolio in as little as two minute",
+    "icon": "/icons/com.binance.us.png"
+  },
+  "com.effordea.nogain_point.nogain_point": {
+    "title": "Binance Nogain Point",
+    "package": "com.effordea.nogain_point.nogain_point",
+    "description": "Binance Nogain Point is a simple and powerful tool for Binance users who want to sell their crypto at the exact break-even point \u2014 no profit, no loss.\n\n\ud83d\udcca The app uses Binance\u2019s Live API to fetch real-time prices of all available trading pairs.\n\ud83d\udd0d Instantly search any symbol and view the current rate and the break-even price, including Binance fees.\n\ud83d\ude80 Key Features:\n\ud83d\udce1 Live Rates from Binance: Stay updated with real-time prices of all trading pairs directly from Binance\u2019s public API.\n\n\ud83e\uddee No-Gain / No-Loss Calculator: Automatically calculates the break-even price considering Binance\u2019s standard trading fee.\n\n\ud83d\udd0e Search Functionality: Easily search any cryptocurrency symbol (e.g., BTC/USDT, ETH/USDT) from the list.\n\n\ud83d\udcf1 Lightweight & Fast: Clean Flutter UI ensures smooth and quick performance across a",
+    "icon": "/icons/com.effordea.nogain_point.nogain_point.png"
+  },
+  "com.silviu.st7.bsc.explorer": {
+    "title": "Binance Smart Chain Explorer",
+    "package": "com.silviu.st7.bsc.explorer",
+    "description": "Binance Smart Chain Explorer is an app that allows you to track wallet transactions of public addresses easily on BSC Blockchain, for Phones and Tablets\n\nINSTANT CRYPTO TRACKING:\n- Multi-wallet portfolio tracker (unlimited addresses)\n- Real-time transactions notifications for unlimited number of wallets (subscription needed). We also offer periodic notifications that don\u2019t require any subscription\n- Complete BEP-20 token balance tracking with search and filtering options\n- View token holders data with percentage relative to token supply\n- View more details about any coin, transaction hash or wallet addresses on PancakeSwap or BSC Scan. Can also add them to favorites or adding notes to help better managing your portfolio\n- Add alias to any wallet address to track easier wallet transactions\n",
+    "icon": "/icons/com.silviu.st7.bsc.explorer.png"
+  },
+  "com.app.bsctrace": {
+    "title": "BSCTrace: Binance Explorer",
+    "package": "com.app.bsctrace",
+    "description": "BSCTrace (by NodeReal) is the ultimate Binance Block Explorer tool for exploring the Binance Smart Chain (BSC) with ease and simplicity, and we are bringing it to Android. Now, you can analyze transactions, contracts, BEP2 and BEP-20 tokens, NFTs, addresses, liquidity pools, and everything else on Binance (BNB, BSC) blockchain networks - all from the comfort of your mobile device!\n\nInstall our lightweight app and use the BSCTrace Binance Smart Chain Block Explorer tool powered by NodeReal to interact with Binance's Mainnet:\n\n- View transaction history: Easily view your transaction history on the Binance Smart Chain, including transaction amounts, fees, and confirmations.\n\n- Check BSC asset balances: Keep track of all your Binance Smart Chain assets including token balances and staked asset",
+    "icon": "/icons/com.app.bsctrace.png"
+  },
+  "com.gateio.gateio": {
+    "title": "Gate: Trade BTC & ETH",
+    "package": "com.gateio.gateio",
+    "description": "Gate is a leading global cryptocurrency exchange offering access to over 4,500 digital assets, including Bitcoin, Ethereum, and a wide range of emerging tokens. With over 12 years of industry experience, Gate provides secure trading trusted by over 50 million users worldwide.\n\nExtensive assets, ready to buy and trade on-demand.\nBTC, ETH, XRP, HBAR, MOODENG, DOGE, ADA, PEPE, SOL, SUI, LINK, DOT, KAS,  CRV, ORDI, TAO, LTC, SHIB, JASMY, ENA, SEI, AVAX, RATS, XLM,  APEPE, XRPL, POL, RSR, FIL, ALGO, CFX, BCH, ETC, SUNDOG, KAIA, PNUT, BNB, NEAR,  BAN,  BIGTIME, TOKEN, VIRTUAL, TIA, SATS, BOME, UNI, OM and more than 4,500 other digital assets.\n\nA comprehensive cryptocurrency exchange offering top-tier assets, all in one place.\n\u2022 Spot Trading:\n Supports digital assets, leveraged tokens, BRC20, AI,",
+    "icon": "/icons/com.gateio.gateio.jpg"
+  },
+  "com.gate.web3dex": {
+    "title": "Gate DEX: Your Gateway to Web3",
+    "package": "com.gate.web3dex",
+    "description": "Easily manage BTC, ETH, SOL, and more. Trade Perps, Meme, Swap, and Bridge.\n\nA secure, all-in-one self-custody Web3 wallet that connects you to the entire crypto world.\nGate DEX, developed by Gate, is a decentralized, self-custodial Web3 wallet that supports multi-chain asset management, trading, DeFi, staking, and DApp exploration.\nNo custodians, no compromise\u2014your private keys are fully under your control. Safe, professional, and easy to use, Gate DEX makes entering the Web3 world simple.\n \n\u2013 Seamless Trading Experience Covering All Major On-Chain Scenarios\n  - Diverse trading options with an intuitive and user-friendly interface\n  - Smart routing automatically finds the best prices\n  - Supports Perps, Meme trading, token swaps, Bridge transactions, and professional-grade trading\n \n- Div",
+    "icon": "/icons/com.gate.web3dex.png"
+  },
+  "com.beamdog.baldursgateenhancededition": {
+    "title": "Baldur's Gate Enhanced Edition",
+    "package": "com.beamdog.baldursgateenhancededition",
+    "description": "This game is optimized for tablets and not recommended for phones with screen sizes under 7 inches.\n\nBaldur\u2019s Gate: Enhanced Edition is the classic 1998 RPG\u2014 enhanced for modern adventurers. Customize your hero, gather your party, and venture forth in this open-world epic where every choice matters.\n\n75+ HOURS OF CONTENT\nContains the original 60-hour adventure, as well as the following additions:\n\n- Countless improvements to the original game, including an improved interface, dynamic zooming, and more.\n- TALES OF THE SWORD COAST | Explore more of the Sword Coast, including the fabled Durlag\u2019s Tower.\n- THE BLACK PITS | Battle a myriad of monsters in Baeloth\u2019s marvelous arena.\n- BROTHERS LOST | Help Rasaad yn Bashir, the Sun Soul Monk, as he scours the Cloud Peaks in search of his lost broth",
+    "icon": "/icons/com.beamdog.baldursgateenhancededition.png"
+  },
+  "com.edurev.gatephysics": {
+    "title": "GATE Physics Exam Prep App",
+    "package": "com.edurev.gatephysics",
+    "description": "Disclaimer: This app is intended only for learning and preparation of GATE Exam. We are not related with any government entity and organization conducting GATE Exam in any manner. This app is developed and owned by EduRev. For further information about EduRev for GATE visit our website edurev.in For more information about GATE visit the official website: https://www.iitg.ac.in/\n\nGATE 2026 Physics Exam Preparation Solved Question Papers is the best GATE Exam App to help in the preparation & is free. This app offers MCQ Questions, GATE Solved Question Papers & Solutions, Online Mock Tests, Exhaustive Question Bank, GATE Online Mock Test Series, Topic-wise Online Tests, GATE Previous Year Question Papers with solutions, and revision notes for all topics.  \n\nYou won't need any GATE online coac",
+    "icon": "/icons/com.edurev.gatephysics.png"
+  },
+  "com.excentus.mygaterewards": {
+    "title": "My GATE Rewards",
+    "package": "com.excentus.mygaterewards",
+    "description": "Save money at GATE stores with great coupons on gas, snacks, and more!\n\nSimply tap the redeem button and show your phone at purchase to redeem your coupons.\n\nSpecial, limited time, offers are only accessible via this easy to use app powered by Rovertown. Find nearby stores and get notified of nearby coupons.",
+    "icon": "/icons/com.excentus.mygaterewards.png"
+  },
+  "com.kramerica.paytix": {
+    "title": "PayTix",
+    "package": "com.kramerica.paytix",
+    "description": "What is PayTix? \nPayTix has partnered with cities across the US to enable users to pay for parking tickets in a safe and secure mobile environment.  PayTix has direct connections to member cities parking systems and is a partner of the cities listed in our supported city list. \n\nKey Features:\n\u2022\tSimple, quick ticket payment process\n\u2022\tQuick and easy ticket bar code scanning for fast ticket number searches\n\u2022\tTicket Payment reminders and alerts\n\u2022\tFast and Safe payment gateway\n\u2022\tManage and maintain a ticket list of your ticket history\n\nPayTix Cities:\nCambridge, MA - Boston, MA - Newton, MA - Waltham, MA - Somerville, MA - Providence, RI - Wilmington, DE - Washington, DC - Cleveland, OH - Columbus, OH - St. Louis, MO - Indianapolis, IN - Los Angeles, CA - West Hollywood, CA - Beverly Hills and S",
+    "icon": "/icons/com.kramerica.paytix.png"
+  },
+  "com.phorest.sarahlouiseaesthetics": {
+    "title": "SLA Medical",
+    "package": "com.phorest.sarahlouiseaesthetics",
+    "description": "The SLA Medical app makes booking your appointments even easier. You're just a few taps away from feeling good and looking great!\n\nWith our App, you can:\n* Book your next appointment 24/7\n* Meet our team and choose your favourite\n* Keep a record of your appointments\n* Register and manage your account\n\nAnd More",
+    "icon": "/icons/com.phorest.sarahlouiseaesthetics.png"
+  },
+  "com.safetycontrol.slcassist": {
+    "title": "SLC Assist",
+    "package": "com.safetycontrol.slcassist",
+    "description": "Schmersal SLC Assist informs you about the diagnosis and configuration data of your Schmersal safety light curtain via Bluetooth interface.\n\nYou do not only have all information about your safety light curtain available, SLC Assist is also an important tool for installation, service and documentation.\n\nDevice and configuration data\nWith the device data you get general information about the light curtain such as the type, the serial number, the protective field resolution and the field height. In device configuration you see the functions which have been parameterized and are enabled.\n\nDevice status\nWith the display of the device status you see the signal strength of each individual beam in real time, the active operation mode, the status of the OSSD outputs and the status of the protective",
+    "icon": "/icons/com.safetycontrol.slcassist.png"
+  },
+  "com.slaaang.com": {
+    "title": "Slaaang",
+    "package": "com.slaaang.com",
+    "description": "\ud83d\ude80Slaaang is a place where people are free to express themselves authentically and equally, while feeling empowered to connect with their own personal audience. \n\nSlaaang app is a property of Slaaang Media Private Limited\n\n\ud83c\udf10 Download Slaaang now for a whole new way to connect with others anonymously, authentically, and fearlessly! \ud83c\udf08\n\n\ud83d\udcf2 **Download links:** \n\ud83d\udc49 [**App Store**](https://apps.apple.com/in/app/slaaang/id6449641357) \ud83c\udf4f\n\ud83d\udc49 [**Play Store**](https://play.google.com/store/apps/details?id=com.slaaang.com) \ud83e\udd16\n\nYou used **NGL.link** but couldn't start the conversation, so here we are with Slaaang where you can maintain the conversation with the person anonymously. \ud83e\udd1d\n\n\ud83d\udde3 **Have you ever wished for a social media app where you can express yourself without revealing your identity? Slaaang makes ",
+    "icon": "/icons/com.slaaang.com.png"
+  },
+  "com.slax.reader": {
+    "title": "Slax Reader: AI Read-It-Later",
+    "package": "com.slax.reader",
+    "description": "If you've ever bookmarked some brilliant articles but can't read them again since links 404, or built up hundreds of saves you've never actually read\u2014Slax Reader is built for you.\n\nLike Pocket, Instapaper, Readwise Reader, or Cubox, Slax Reader is also a clean, reliable read-it-later app. But the difference is: even on the free plan, you can get permanent archives and ulimited highlights. Upgrade to Pro, there's a smart AI assistant summarize for you before reading, outline and navigate to the key points, and answer you each questions. Turning \"bookmarked\" into \"understood.\" \n\n\ud83e\udd16 AI CO-READER: FROM HOARDING TO KNOWING\nDon't just collect content\u2014absorb it.\n\u2022 Interactive Outlines: No more dreading long reads. See the big picture at a glance, then tap any point and jump straight to there.\n\u2022 Sm",
+    "icon": "/icons/com.slax.reader.png"
+  },
+  "com.clone.android.dual.space": {
+    "title": "Virtual Master - Android Clone",
+    "package": "com.clone.android.dual.space",
+    "description": "Virtual Master runs another Android System on your device, based on our Android on Android Virtualization Technology.\n\nWith Virtual Master, you can have another Android System running on your device, isolated from the Android System of your device.\nThe new Android System is equivalent to a Parallel Space, or a Virtual Phone, similar to a Cloud Phone, but runs locally.\nIn the new Android System, you can install its own Apps, arrange its own Launcher, set its own Wallpaper, and customize it as your needs.\nYou can run multiple Android Systems in Virtual Master, One for Work, One for Game, One for Privacy, and enjoy more fun on one device.\n\nIt's an Android Virtual Machine, just like your another phone!\n\n1. Play with multiple Social or Game Accounts at the same time\nGames and Apps are cloned af",
+    "icon": "/icons/com.clone.android.dual.space.png"
+  },
+  "com.joeykrim.rootcheck": {
+    "title": "Root Checker",
+    "package": "com.joeykrim.rootcheck",
+    "description": "Verify proper root (superuser or su) access is configured and working using Root Checker! Free, fast, easy, and used on over 50 million Android devices, Root Checker shows the user whether or not root (superuser) access is properly installed and working.\n \nThis application provides even the newest Android user with a simple method to check their device for root (administrator, superuser, or su) access. The application provides a very simple user interface that easily notifies the user whether or not they have properly setup root (superuser) access.\n\n*Feel free to email me with any questions. I always reply!*\n\nThis application will test the device for root (superuser) access using a very simple, quick, and reliable method that has been successful for over 50 million Android devices. The su ",
+    "icon": "/icons/com.joeykrim.rootcheck.png"
+  },
+  "com.arlosoft.macrodroid": {
+    "title": "MacroDroid - Device Automation",
+    "package": "com.arlosoft.macrodroid",
+    "description": "MacroDroid is the easiest way to automate tasks on your Android smartphone or tablet. Via the straightforward user interface MacroDroid makes it possible to build fully automated tasks in just a few taps.\n\nA few examples of how MacroDroid can help you to get automated:\n\n# Manage files on your device, for example automating file copying, moving and deleting to keep your file system clean.\n# Auto reject incoming calls when in a meeting (as set in your calendar).\n# Increase safety while commuting by reading your incoming notifications and messages (via Text to Speech) and send automated responses via email or SMS.\n# Optimize your daily workflow on your phone; switch on bluetooth and start playing music when you enter your car. Or switch on WiFi when near your house.\n# Reduce battery drain (e.",
+    "icon": "/icons/com.arlosoft.macrodroid.png"
+  },
+  "org.swiftapps.swiftbackup": {
+    "title": "Swift Backup",
+    "package": "org.swiftapps.swiftbackup",
+    "description": "Swift Backup can backup your important data in minutes! Its quick, efficient and boasts an elegant design for a refreshing backup experience. \n\nDisclaimer: Google Sign-in is required for cloud backups and premium features in the app (www.swiftapps.org/faq#whygoogle). Browser based sign-in is supported on devices without Google Play services. \n\nSwift Backup is a one-stop destination to backup your\n\u2022 Apps (APKs)\n\u2022 Messages\n\u2022 Call Logs\n\u2022 Applied Wallpapers\n\nOn Rooted devices Swift Backup can also backup & restore\n\u2022 App data: Restore most apps in the same condition as when they were backed up\n\u2022 Special app data like granted permissions, battery optimization setting*, Magisk Hide state of the app, app SSAIDs, etc.\n\u2022 WiFi network configurations\n\nNote: Batch restoring apps is only supported if yo",
+    "icon": "/icons/org.swiftapps.swiftbackup.png"
+  },
+  "gr.nikolasspyr.integritycheck": {
+    "title": "Play Integrity API Checker",
+    "package": "gr.nikolasspyr.integritycheck",
+    "description": "This app is 100% open source!  You can find the source code here:\nhttps://github.com/1nikolas/play-integrity-checker-app\n\nThis app shows info about your device integrity as reported by Google Play Services. If any of this fails could mean your device is rooted or tampered in a way (for example having an unlocked bootloader).",
+    "icon": "/icons/gr.nikolasspyr.integritycheck.png"
+  },
+  "com.ProfitStars.TeleWeb101105985": {
+    "title": "Integrity Bank KS",
+    "package": "com.ProfitStars.TeleWeb101105985",
+    "description": "Integrity Bank KS\u2019s mobile and online banking applications allows you to check balances, transfer funds, view your transactions, Bill Pay, Photo Pay, Mobile Deposit, Person 2 Person, Electronic Statements and Notices, manage your debit card, store your important documents in eVault, get alerts and messages  anywhere, anytime.  It\u2019s fast, free, and available to all of our online banking customers.\n\nWith this app you can do the following 24/7:\n*Check balances and view transactions\n*Create funds transfers\n*Bill Pay, Photo Pay, and Person 2 Person Pay\n*Mobile Deposit\n*Manage your debit card\n*Get Alerts and Messages\n*eVault",
+    "icon": "/icons/com.ProfitStars.TeleWeb101105985.png"
+  },
+  "com.asiweb.wabasso.mobilebanking": {
+    "title": "Integrity Bank Plus Mobile",
+    "package": "com.asiweb.wabasso.mobilebanking",
+    "description": "Integrity Bank Mobile is a fast, secure, and free service for Integrity Bank customers. It offers your 24/7 banking at your fingertips. IBP Mobile Banking allows you to check balances, make transfers, make deposits and find an ATM.",
+    "icon": "/icons/com.asiweb.wabasso.mobilebanking.png"
+  },
+  "com.medicarecenter": {
+    "title": "Integrity for Agents",
+    "package": "com.medicarecenter",
+    "description": "A best-in-class CRM built to help you work smarter!\n\u2022 Integrated Quote & eApp for multiple products from Health and Life carriers\n\u2022 Get a Quick Quote in 10 seconds from anywhere in the platform\n\u2022 Single Sign-on powered by one login and password\n\u2022 Work anywhere with the Integrity mobile app\n\nStay Organized!\n\u2022 Client Snapshot and Task List for insights at-a-glance\n\u2022 Policy Snapshot provides policy status at your fingertips\n\u2022 Recent Activity to stay on top of the current details\n\u2022 Plus, reminders and custom notes to help you serve your clients\n\nBuild Better Client Relationships!\n\u2022 Client Connect send compliant marketing messages to your clients via email or text messages\n\u2022 Client Sync easily collect key consumer health information",
+    "icon": "/icons/com.medicarecenter.png"
+  },
+  "com.kblack.demo_play_integrity_api": {
+    "title": "Play Integrity Check",
+    "package": "com.kblack.demo_play_integrity_api",
+    "description": "Play Integrity Check lets you verify Android device and app security using\nGoogle Play Integrity API. Instantly check integrity verdicts that apps\nlike banking, wallet, and games rely on.\n\n\ud83d\udd0d What This App Checks\nUsing the official Play Integrity API, this app displays the same security\nsignals used by Android apps:\n\u2022 Device Integrity \u2013 Check if your device is genuine, certified, and trusted\n\u2022 App Integrity \u2013 Verify the app is an official Play Store installation\n\u2022 Account Licensing \u2013 Confirm your Google account license status\n\n\ud83d\udee1\ufe0f Why Use Play Integrity Check\n\u2022 Diagnose app compatibility and security errors\n\u2022 Understand how root, custom ROMs, or bootloader unlock affect integrity\n\u2022 Check Android device security before troubleshooting app issues\n\n\ud83d\udcf1 Who Is This App For\n\u2022 Android users facing a",
+    "icon": "/icons/com.kblack.demo_play_integrity_api.png"
+  },
+  "com.larkvideo.player": {
+    "title": "Lark Video Player",
+    "package": "com.larkvideo.player",
+    "description": "\ud83c\udf1f A light & powerful offline video player, with full HD video & major formats supported. \t\t\t\t\t\t\t\t\t\t\t\n\ud83c\udf1f You can play offline video in a video pop-up, also to play video as MP3.\n\ud83c\udf1f It loads video subtitles, and also work as a powerful media file manager.\n\t\t\t\t\t\t\t\t\t\nKey features:\t\n\t\t\t\t\t\t\t\t\t\t\t\n\ud83d\udcbf HD, ultra HD video\t\t\t\t\t\t\t\t\t\t\t\t\n\tHD video, Full HD video, Ultra HD video all run smoothly, experience the ultimate in offline video playback with Lark Video Player. \t\n\t\t\t\t\t\t\t\t\t\t\n\ud83c\udfa5 All formats\t\t\t\t\t\t\t\t\t\t\t\t\n\tIt's compatible with major formats, including mkv, mp4, m4v, mov, 3gp, 3gp2, mpg2, ts, webm etc. \t\t\n\t\t\t\t\t\t\t\t\t\n\ud83d\udcf2 Video popup\t\t\t\t\t\t\t\t\t\t\t\t\n\tTired of interruptions while watching videos? Lark Video Player covers video popup feature. Enjoy stable floating video playback  even while multitasking or using other",
+    "icon": "/icons/com.larkvideo.player.png"
+  },
+  "com.playit.videoplayer": {
+    "title": "PLAYit-All in One Video Player",
+    "package": "com.playit.videoplayer",
+    "description": "In need of an all-in-one video and music player\ud83c\udfa6, \ud83c\udfaegame hall, video transfer, and media manager?\n\u2728PLAYit is ready to provide you a feast for eyes\ud83d\udc41 and ears\ud83d\udc42!\n\ud83c\udf88Enjoy PLAYit \ud83c\udf88\n\n\ud83c\udfa6Online HD video player and music player with various features\n\ud83d\udc65PLAYit supports transfer & share now\nYou can share any videos and music.\n\ud83d\udd0d Auto-detect and manage local media files\nAutomatically detect all video files on Android devices and SD cards, easily sort and share media files, and clearly display the internal storage space. Easily manage media according to personal needs\n\ud83c\udf7fAll format videos, all format audio supported\nHD video player for all formats: 4k videos, 1080p videos, MKV videos, FLV videos, 3GP videos, M4V videos, TS videos, MPG videos\nHQ music player for all formats: MP3 files, M4A files\n\u25b6Quickly search",
+    "icon": "/icons/com.playit.videoplayer.png"
+  },
+  "com.lilithgame.roc.gp": {
+    "title": "Rise of Kingdoms: Lost Crusade",
+    "package": "com.lilithgame.roc.gp",
+    "description": "New Maya Civilization!\nFrom the dense forests of Yucatan and the towering K'iche' highlands, the people of the Popul Vuh are bringing the wisdom of the stars to our land. Stone carvings speak of ancient myths, an eternal cycle, and the might of the great Feathered Serpent Kukulkan. Will you be the one to harness this legacy?\n\n\u25b6FEATURES\u25c0\n15 Unique Civilizations\nChoose one of 15 historical civilizations and guide your empire from a lone clan into a great, unstoppable force! Each civilization has its own architecture, unique units, and special advantages \u2014 how you utilize them is up to you!\nPut your governing skills to the test with the Greece civilization; fight together with Pyrrhus, Pericles, Alexander the Great, and other great commanders to conquer the Aegean.\n\nReal-Time Battles\nBattles ",
+    "icon": "/icons/com.lilithgame.roc.gp.png"
+  },
+  "com.noxgames.hex.polis.civilization.empire": {
+    "title": "Hexapolis: Civilization wars",
+    "package": "com.noxgames.hex.polis.civilization.empire",
+    "description": "Do you like hex turn-based strategy games? Hexapolis is a unique 4X survival game where you can build a medieval kingdom empire, lead epic war battles, and conquer the last war hex map. Grow from a small village to a powerful Catan city and prepare for the last war.\n\nIn Hexapolis, the age of empires is reborn. Raise your swords for survival, build your kingdom, and defend against outlanders.It\u2019s a battle for control\u2014expand your civilization, wage war, and discover ancient technologies in age of empires. Will you lead humankind to victory, ushering in the rise of your hex kingdom, or will the last survival of your kingdom end in defeat?\n\nEach turn is an opportunity to explore new hexes, conquer strongholds, and unleash the art of war. Command heroes like archers, sailors, dragons, and crusa",
+    "icon": "/icons/com.noxgames.hex.polis.civilization.empire.webp"
+  },
+  "com.unciv.app": {
+    "title": "Unciv",
+    "package": "com.unciv.app",
+    "description": "An open-source reimplementation of the most famous civilization-building game ever - fast, small, no ads, free forever!\n\nBuild your civilization, research technologies, expand your cities and defeat your foes!\n\nRequests? Bugs? Want to help development? Todo list for the application is https://github.com/yairm210/Unciv/issues\n\nQuestions? Comments? Join us on discord at https://discord.gg/bjrB4Xw ;)\n\nWant to help translating the game into your language? See https://yairm210.github.io/Unciv/Other/Translating/\n\nThe world awaits! Will you build your civilization into an empire that will stand the test of time?\n\n* Internet permissions required for Multiplayer",
+    "icon": "/icons/com.unciv.app.png"
+  },
+  "com.aspyr.civvi": {
+    "title": "Civilization VI",
+    "package": "com.aspyr.civvi",
+    "description": "New Players get 60 turns of Civilization VI for FREE. Upgrade to keep playing! All Expansions Now on Android!\n\nBecome the Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history\u2019s greatest leaders as you attempt to build the greatest civilization the world has ever known.\n\nNEW FOR ANDROID USERS\u2026\n\nAdditions to the Base Game (2020-2025)\n3+ Units\n4+ Maps\nTons of Features\nMultiplayer Enhancements\nGameplay Balancing & Adjustments\n50+ Bugs Patched\n\nExpansion: New Frontier Pass - Now Available! ($29.99)\nMaya & Gran Colombia Pack\nEthiopia Pack\nByzantium & Gaul Pack\nBabylon Pack\nVietnam & Kublai Khan Pack\nPortugal Pack\n\nExpansion: Leader Pass - Now Available!  ($19.99",
+    "icon": "/icons/com.aspyr.civvi.png"
   }
 }
