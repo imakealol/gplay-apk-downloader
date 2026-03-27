@@ -598,6 +598,18 @@ def cmd_download(args):
                 merge_apks_with_apkeditor(filepath, split_files, str(merged_filepath))
                 print(f"Merged: {merged_filepath}")
 
+                # Patch fused modules for asset pack splits (e.g. obbassets)
+                from axml_patcher import get_asset_pack_split_names, patch_apk_fused_modules
+                split_names = [s.name if s.name else f"split{i}" for i, s in enumerate(delivery_data.split) if s.downloadUrl]
+                asset_packs = get_asset_pack_split_names(split_names)
+                if asset_packs:
+                    fused_value = ','.join(asset_packs)
+                    try:
+                        if patch_apk_fused_modules(str(merged_filepath), fused_value):
+                            print(f"Patched fused modules: {fused_value}")
+                    except Exception as e:
+                        print(f"Warning: fused modules patch failed: {e}")
+
                 print("Signing merged APK...")
                 if sign_apk(merged_filepath):
                     print("APK signed successfully")

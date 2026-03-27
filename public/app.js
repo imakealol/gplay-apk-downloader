@@ -682,14 +682,22 @@
           currentDownloadInfo = { pkg, arch, ...d };
           const hasSplits = d.splits?.length > 0;
           const totalFiles = 1 + (d.splits?.length || 0);
-          const splitNames = d.splits ? d.splits.map(s => s.name).join(', ') : 'none';
+          const splitNames = d.splits ? d.splits.map(s => {
+            let label = s.name;
+            if (s.size) label += ' (' + formatSize(s.size) + ')';
+            if (!s.name.startsWith('config.')) label += ' [asset pack]';
+            return label;
+          }).join(', ') : 'none';
 
           log('Token acquired after ' + d.attempt + ' attempts', 'ok');
           log('App: ' + d.title + ' v' + d.version + ' (' + d.size + ')', 'ok');
           if (hasSplits) log('Split APKs: ' + splitNames, 'info');
           log('Ready to download' + (hasSplits && shouldMerge ? ' (will merge ' + totalFiles + ' splits)' : ''), 'ok');
 
-          let html = '<div class="msg ok fade-in"><strong>' + esc(d.title) + '</strong><br>v' + esc(d.version) + ' &middot; ' + archLabel + ' &middot; ' + esc(d.size);
+          const hasObb = d.splits?.some(s => !s.name.startsWith('config.'));
+          const obbSplits = d.splits?.filter(s => !s.name.startsWith('config.')) || [];
+          const obbLabel = obbSplits.length ? ' &middot; includes ' + obbSplits.map(s => s.name + (s.size ? ' (' + formatSize(s.size) + ')' : '')).join(', ') : '';
+          let html = '<div class="msg ok fade-in"><strong>' + esc(d.title) + '</strong><br>v' + esc(d.version) + ' &middot; ' + archLabel + ' &middot; ' + esc(d.size) + obbLabel;
           if (hasSplits) {
             html += '<br><span style="font-family:var(--font-mono);font-size:11px;opacity:0.7">' + totalFiles + ' files: ' + esc(splitNames) + '</span>';
           }

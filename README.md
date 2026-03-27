@@ -5,7 +5,7 @@ Download APKs from Google Play Store. Can merge split APKs (App Bundles) into si
 ## Features
 
 - Download any free app from Google Play
-- Automatic split APK merging using [APKEditor](https://github.com/REAndroid/APKEditor)
+- Automatic split APK merging using [APKEditor](https://github.com/REAndroid/APKEditor), with Play Asset Delivery support (OBB/asset pack fusing)
 - 23 device profiles with automatic rotation for reliable downloads
 - Architecture support: ARM64 (modern phones) and ARMv7 (older phones)
 - Modern dark web UI with real-time download progress and streaming activity log
@@ -94,8 +94,8 @@ Open http://localhost:5000 in your browser.
 3. **Choose merge option**:
    - Checked: Single installable APK (re-signed with debug key)
    - Unchecked: ZIP with base + split APKs (original signatures)
-4. **Click Download** - real-time progress shows token attempts, download, merge, and signing steps
-5. **Activity Log** - collapsible terminal-style panel streams all operations in real time (auto-opens on download)
+4. **Click Download** - real-time progress shows token attempts, download, merge, and signing steps. Total size shown includes base APK, config splits, and any asset pack data (e.g. OBB). Asset pack splits are labeled in the activity log.
+5. **Activity Log** - collapsible terminal-style panel streams all operations in real time (auto-opens on download). Shows fused modules patching for apps with Play Asset Delivery.
 6. **Install to Device** (optional) - connect an Android device via USB to install APKs directly from the browser
 
 > **Signature Warning**: Merged APKs are re-signed with a debug key and will NOT receive automatic updates from Google Play. Apps without splits keep their original signature.
@@ -214,6 +214,8 @@ Shows all available split APKs including language splits.
 ```
 
 > **ADB Install**: The `-i` flag installs directly to a connected device. For split APKs without `-m`, it uses `adb install-multiple` (session install, preserves original signatures). With `-m`, it installs the merged APK.
+>
+> **Play Asset Delivery**: Apps with asset pack splits (e.g. `obbassets`) are automatically detected during merge. The manifest is patched with `com.android.dynamic.apk.fused.modules` so the app can find its fused asset data at runtime. The merged APK is zipaligned for Android 11+ compatibility.
 
 ### CLI Options Reference
 
@@ -474,16 +476,19 @@ python3 device_profiles.py  # Print all available profiles
 3. **Purchase**: "Purchases" the free app to get download authorization
 4. **Download**: Fetches base APK + config splits from Google Play CDN
 5. **Merge**: Combines splits using APKEditor (proper resource table merging)
-6. **Sign**: Signs merged APK with debug keystore via apksigner
-7. **Deliver**: Returns single installable APK
+6. **Patch**: For apps with Play Asset Delivery (e.g. OBB data), patches the manifest with `com.android.dynamic.apk.fused.modules` so the app can find its fused asset packs at runtime
+7. **Align**: Runs `zipalign` to ensure `resources.arsc` is stored uncompressed and 4-byte aligned (required by Android 11+)
+8. **Sign**: Signs merged APK with debug keystore via apksigner
+9. **Deliver**: Returns single installable APK
 
 ### Split APKs Explained
 
 Modern Android apps use App Bundles which split into:
 - **Base APK**: Core app code and resources
 - **Config splits**: Device-specific resources (screen density, language, CPU architecture)
+- **Asset pack splits**: Large game assets delivered via Play Asset Delivery (e.g. `obbassets` containing OBB data)
 
-This tool merges them back into a universal APK that works on any device of the target architecture.
+This tool merges them back into a universal APK that works on any device of the target architecture. For apps with asset pack splits, the merged APK includes the asset data and the manifest is patched so the app's Play Core library can locate it.
 
 ---
 
@@ -494,6 +499,7 @@ gplay-apk-downloader/
 ├── server.py            # Flask web server with SSE endpoints
 ├── gplay-downloader.py  # CLI tool
 ├── gplay                # CLI wrapper script (sources venv)
+├── axml_patcher.py      # Binary AndroidManifest.xml patcher for fused asset packs
 ├── device_profiles.py   # Device profile loader and priority ordering
 ├── profiles/            # 23 Aurora Store device profiles (.properties)
 ├── test_profiles.py     # Profile testing utility

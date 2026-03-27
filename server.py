@@ -236,6 +236,18 @@ def merge_apks_with_apkeditor(base_apk_bytes, split_apks_bytes_list, apkeditor_j
         if not os.path.exists(output_path):
             raise Exception("APKEditor did not produce output file")
 
+        # Patch fused modules for asset pack splits (e.g. obbassets)
+        from axml_patcher import get_asset_pack_split_names, patch_apk_fused_modules
+        split_names = [name for name, _ in split_apks_bytes_list]
+        asset_packs = get_asset_pack_split_names(split_names)
+        if asset_packs:
+            fused_value = ','.join(asset_packs)
+            logger.info(f"Patching fused modules: {fused_value}")
+            try:
+                patch_apk_fused_modules(output_path, fused_value)
+            except Exception as e:
+                logger.warning(f"Fused modules patch failed: {e}")
+
         with open(output_path, 'rb') as f:
             merged_bytes = f.read()
 
@@ -617,6 +629,7 @@ def get_download_info(pkg, auth):
                 splits.append({
                     'name': split.name or f'split{i}',
                     'downloadUrl': split.downloadUrl,
+                    'size': split.size,
                 })
 
         return {
@@ -1120,19 +1133,21 @@ def download_info(pkg):
         if 'error' in info:
             return jsonify(info), 400
 
+        total_size = info['downloadSize'] + sum(s.get('size', 0) for s in info['splits'])
         return jsonify({
             'success': True,
             'filename': info['filename'],
             'title': info['title'],
             'version': info['versionString'],
             'versionCode': info['versionCode'],
-            'size': format_size(info['downloadSize']),
+            'size': format_size(total_size),
             'downloadUrl': info['downloadUrl'],
             'cookies': info['cookies'],
             'splits': [{
                 'filename': f"{pkg}-{info['versionCode']}-{s['name']}.apk",
                 'name': s['name'],
-                'downloadUrl': s['downloadUrl']
+                'downloadUrl': s['downloadUrl'],
+                'size': s.get('size', 0),
             } for s in info['splits']]
         })
     except Exception as e:
@@ -1177,6 +1192,7 @@ def download_info_stream(pkg):
                 info = get_download_info(pkg, cached)
                 if 'error' not in info:
                     logger.info(f"Cached token worked for {pkg}")
+                    total_size = info['downloadSize'] + sum(s.get('size', 0) for s in info['splits'])
                     result = {
                         'type': 'success',
                         'attempt': 0,
@@ -1184,13 +1200,14 @@ def download_info_stream(pkg):
                         'title': info['title'],
                         'version': info['versionString'],
                         'versionCode': info['versionCode'],
-                        'size': format_size(info['downloadSize']),
+                        'size': format_size(total_size),
                         'downloadUrl': info['downloadUrl'],
                         'cookies': info['cookies'],
                         'splits': [{
                             'filename': f"{pkg}-{info['versionCode']}-{s['name']}.apk",
                             'name': s['name'],
-                            'downloadUrl': s['downloadUrl']
+                            'downloadUrl': s['downloadUrl'],
+                            'size': s.get('size', 0),
                         } for s in info['splits']]
                     }
                     yield f"data: {json.dumps(result)}\n\n"
@@ -1257,6 +1274,7 @@ def download_info_stream(pkg):
                 save_cached_auth(auth_data, arch)
                 logger.info(f"Token #{attempt} ({profile_name}) worked for {pkg}")
 
+                total_size = info['downloadSize'] + sum(s.get('size', 0) for s in info['splits'])
                 result = {
                     'type': 'success',
                     'attempt': attempt,
@@ -1264,13 +1282,14 @@ def download_info_stream(pkg):
                     'title': info['title'],
                     'version': info['versionString'],
                     'versionCode': info['versionCode'],
-                    'size': format_size(info['downloadSize']),
+                    'size': format_size(total_size),
                     'downloadUrl': info['downloadUrl'],
                     'cookies': info['cookies'],
                     'splits': [{
                         'filename': f"{pkg}-{info['versionCode']}-{s['name']}.apk",
                         'name': s['name'],
-                        'downloadUrl': s['downloadUrl']
+                        'downloadUrl': s['downloadUrl'],
+                        'size': s.get('size', 0),
                     } for s in info['splits']]
                 }
                 yield f"data: {json.dumps(result)}\n\n"
@@ -1812,8 +1831,10 @@ def download_merged_stream(pkg):
 
             splits = info.get('splits', [])
             total_files = 1 + len(splits)
+            base_size = info.get('downloadSize', 0)
+            total_size = base_size + sum(s.get('size', 0) for s in splits)
 
-            yield f"data: {json.dumps({'type': 'progress', 'step': 'download', 'message': f'Downloading APK...', 'current': 1, 'total': total_files})}\n\n"
+            yield f"data: {json.dumps({'type': 'progress', 'step': 'download', 'message': f'Downloading base APK ({format_size(base_size)})...', 'current': 1, 'total': total_files})}\n\n"
 
             cookie_header = '; '.join([f"{c['name']}={c['value']}" for c in info.get('cookies', [])])
             headers = {'Cookie': cookie_header} if cookie_header else {}
@@ -1837,7 +1858,8 @@ def download_merged_stream(pkg):
                     return
 
                 # Download splits in parallel for faster downloads
-                yield f"data: {json.dumps({'type': 'progress', 'step': 'download', 'message': f'Downloading {len(splits)} splits in parallel...', 'current': 2, 'total': total_files})}\n\n"
+                splits_size = sum(s.get('size', 0) for s in splits)
+                yield f"data: {json.dumps({'type': 'progress', 'step': 'download', 'message': f'Downloading {len(splits)} splits ({format_size(splits_size)})...', 'current': 2, 'total': total_files})}\n\n"
                 try:
                     splits_data = download_splits_parallel(splits, headers)
                 except Exception as e:
@@ -1853,6 +1875,13 @@ def download_merged_stream(pkg):
                 try:
                     yield f"data: {json.dumps({'type': 'progress', 'step': 'merge', 'message': 'Merging APKs...'})}\n\n"
                     merged_apk = merge_apks(base_apk, splits_data)
+
+                    # Report fused modules patching to UI
+                    from axml_patcher import get_asset_pack_split_names
+                    asset_packs = get_asset_pack_split_names([name for name, _ in splits_data])
+                    if asset_packs:
+                        fused_value = ','.join(asset_packs)
+                        yield f"data: {json.dumps({'type': 'progress', 'step': 'merge', 'message': f'Patched fused modules: {fused_value}'})}\n\n"
 
                     yield f"data: {json.dumps({'type': 'progress', 'step': 'sign', 'message': 'Signing APK...'})}\n\n"
                     signed_apk = sign_apk(merged_apk)
