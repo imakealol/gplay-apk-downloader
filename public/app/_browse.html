@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0a0a0a">
   <meta name="description" content="Browse and download APKs directly from Google Play. Free, anonymous, with split APK merging.">
   <meta name="robots" content="index, follow">
@@ -12,7 +12,7 @@
   <title>Browse Apps - GPlay APK Downloader</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192">
   <link rel="stylesheet" href="/style.css">
@@ -156,7 +156,7 @@
       border: none;
       font-family: var(--font-mono);
       font-size: 11px;
-      font-weight: 500;
+      font-weight: 600;
       cursor: pointer;
       transition: all var(--transition);
       display: flex;
@@ -362,7 +362,7 @@
     .browse-chip {
       font-family: var(--font-mono);
       font-size: 11px;
-      font-weight: 500;
+      font-weight: 600;
       padding: 5px 12px;
       border-radius: 20px;
       border: 1px solid var(--border);
@@ -394,6 +394,17 @@
       .browse-chips::-webkit-scrollbar { display: none; }
     }
   </style>
+  <link rel="canonical" href="__SITE_URL__/apps">
+  <meta property="og:url" content="__SITE_URL__/apps">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "App Catalog",
+    "url": "__SITE_URL__/apps",
+    "description": "Browse and download APKs directly from Google Play."
+  }
+  </script>
 </head>
 <body>
   <div class="wrapper">

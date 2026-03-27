@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0a0a0a">
   <meta name="description" content="Download __TITLE__ APK directly from Google Play. ARM64 and ARMv7, split APK merging, free and anonymous.">
   <meta name="robots" content="index, follow">
@@ -18,8 +18,8 @@
   <title>Download __TITLE__ APK - GPlay Downloader</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG" crossorigin="anonymous"></script>
   <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192">
   <link rel="stylesheet" href="/style.css">
@@ -52,14 +52,14 @@
     .app-hero-developer {
       font-size: 13px;
       color: var(--accent);
-      font-weight: 500;
+      font-weight: 600;
       margin-bottom: 8px;
     }
     .app-hero-tags { display: flex; gap: 6px; flex-wrap: wrap; }
     .app-tag {
       font-family: var(--font-mono);
       font-size: 10px;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 0.04em;
       padding: 3px 8px;
       border-radius: 6px;
@@ -111,6 +111,31 @@
       .app-hero-icon { width: 64px; height: 64px; border-radius: 16px; }
     }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "__TITLE__",
+    "operatingSystem": "Android",
+    "applicationCategory": "MobileApplication",
+    "image": "__ICON__",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "__SITE_URL__/"},
+      {"@type": "ListItem", "position": 2, "name": "__TITLE__", "item": "__SITE_URL__/app/__PKG__"}
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="wrapper">

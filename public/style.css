@@ -80,7 +80,7 @@
       gap: 6px;
       font-family: var(--font-mono);
       font-size: 11px;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--accent-dim);
@@ -187,7 +187,7 @@
       border: 1px solid var(--border);
       font-family: var(--font-sans);
       font-size: 13px;
-      font-weight: 500;
+      font-weight: 600;
       flex: 1;
       min-width: 150px;
       outline: none;
@@ -247,7 +247,7 @@
 
     .checkbox-wrap span {
       font-size: 13px;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--text-secondary);
     }
 
@@ -595,7 +595,7 @@
       margin-top: 10px;
       font-family: var(--font-mono);
       font-size: 12px;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--accent);
       text-decoration: none;
       padding: 6px 14px;
