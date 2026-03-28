@@ -9117,5 +9117,227 @@
     "package": "com.sums.mkvedit",
     "description": "Supported formats: all (which ffmpeg opens).\nOutput formats: mkv, mov, f4v, 3gp, mp4, flv, avi.\nFunctions:\n\u2013 encode video to HEVC (x265)\n\u2013 encode audio to AAC (ffmpeg), AC3 (ffmpeg)\n\u2013 extract and add subtitles, audio, video, attachments\n\u2013 editing tags, chapters",
     "icon": "/icons/com.sums.mkvedit.png"
+  },
+  "org.de_studio.diary": {
+    "title": "Journal it! - Planner, Notes",
+    "package": "org.de_studio.diary",
+    "description": "Scattered across 5 apps? Journal it! brings journal, daily planner, notes, to do list, and tracking together - your all-in-one productivity & life organizer system.\n\n\n\n\n\ud83d\udcd3 YOUR COMPLETE LIFE ORGANIZER\n\n\nWhether you prefer journal, planner, notes, or all - Journal it! adapts to your productivity needs:\n\n\n\n\n * Daily journal with rich timeline, mood tracking, and reflections\n\n\n * Bullet journal system with collections and trackers\n\n\n * Daily planner with time blocking and Google Calendar sync\n\n\n * Built-in Pomodoro timer\n\n\n * To-do list with 5 stages: idea, to do, active, pending, finalized\n\n\n * Habit tracker and goal tracker for routines, health, and fitness\n\n\n * Notes and outlines for capturing ideas and projects\n\n\n * Collection notes for movies, books, recipes \u2014 like Notion databases\n\n\n * O",
+    "icon": "/icons/org.de_studio.diary.png"
+  },
+  "com.lenovo.anyshare.gps": {
+    "title": "SHAREit: Transfer, Share Files",
+    "package": "com.lenovo.anyshare.gps",
+    "description": "It\u2019s time to Share it!\n\nShare files, apps, games, videos, photos, music, recordings, documents and more with the SHAREit file transfer app. As a super-fast and safe app to transfer big files, trusted by 2 billion+ users globally, SHAREit is the secure way to share files.\n\nWith SHAREit you can also download videos and photos directly with downloader, manage files on your phone with file manager. File transfers from Mobile to PC and vice versa are now faster and easier.\n\nNew function: when changing your phone, you can easily transfer contacts, apps, videos, photos, music, recordings, documents from an old phone to a new one through SHAREit's phone clone function.\n\nIt's super easy to use! And the best part? It's free!\n\n\ud83d\udd25 Why you must use SHAREit, the #1 file share & data transfer app?\n\n\ud83d\ude80 THE ",
+    "icon": "/icons/com.lenovo.anyshare.gps.png"
+  },
+  "shareit.premium": {
+    "title": "SHAREit Premium: Pure Share",
+    "package": "shareit.premium",
+    "description": "Welcome to SHAREit Premium, our paid version. In order to provide better service, we need to charge a certain fee and hope for your understanding and support. Our goal is to let you enjoy a high-speed sharing experience in an environment with no ads and no interruptions.\n\nNo Ads: We know that ads can disrupt your user experience, so we have completely removed ads in SHAREit Premium. You can focus on sharing without worrying about being disturbed by ads.\n\nSimple Interface: Our design philosophy is simplicity. We hope to provide a simple and easy-to-use interface so you can easily find the features you need. In SHAREit Premium, you can share files in just a few seconds.\n\nNo Disturbing Notifications: We respect your time and attention, so we won't send unnecessary notifications. You can use S",
+    "icon": "/icons/shareit.premium.webp"
+  },
+  "com.mixplorer.silver": {
+    "title": "MiXplorer Silver File Manager",
+    "package": "com.mixplorer.silver",
+    "description": "MiX Silver is a bundle of MiXplorer file manager and Archiver, Image, Tagger and PDF add-ons as a paid app to support development of MiXplorer.\n\nFAQ: https://goo.gl/K9nf2y\nTwitter: https://twitter.com/mixplorer\n\nSkins: https://mixplorer.com/skins/\nYou can modify skin colors in the settings + Skin editor. There are also many theme packages with different icons to download. Tap on them + Import.\n\nThe best way indeed is to explore yourself. But here's a brief list of essential features:\n- Easily themable with customization option which lets you select any color you like.\n- Sort/disable/enable all menu options and action buttons.\n- Unlimited Tabbed browsing and Dual panel in landscape mode and drag & drop between panels also supported.\n- Easily create Tasks to multitask Copy, Move and other op",
+    "icon": "/icons/com.mixplorer.silver.png"
+  },
+  "com.mixplorer.addon.codecs": {
+    "title": "MiX Codecs (MiXplorer Addon)",
+    "package": "com.mixplorer.addon.codecs",
+    "description": "Media codecs add-on for the built-in media player of MiXplorer file manager. It won't be visible in your launcher. It can be uninstalled from Android or MiXplorer settings.\nMiXplorer v6.67.0+ has to be installed.\nYou can download it from here:\nhttps://play.google.com/store/apps/details?id=com.mixplorer.silver",
+    "icon": "/icons/com.mixplorer.addon.codecs.webp"
+  },
+  "com.mixplorer.addon.tagger": {
+    "title": "MiX Tagger (MiXplorer Add-on)",
+    "package": "com.mixplorer.addon.tagger",
+    "description": "Media tag editor addon for MiXplorer file manager.\nIt won't be visible in your launcher. It can be uninstalled from Android or MiXplorer settings.\nMiXplorer v6.67.0+ must be installed.\n\nThe Silver version doesn't need this add-on. You can download it from here:\nhttps://play.google.com/store/apps/details?id=com.mixplorer.silver",
+    "icon": "/icons/com.mixplorer.addon.tagger.png"
+  },
+  "com.mixplorer.addon.encrypt": {
+    "title": "MiX Encrypt (MiXplorer add-on)",
+    "package": "com.mixplorer.addon.encrypt",
+    "description": "EncFS add-on addon for MiXplorer file manager.\nThis app will not appear in your launcher. You can uninstall it from Android or MiXplorer settings.\nRequires MiXplorer v6.69.1+.\n\nMiXplorer Silver can be downloaded from here:\nhttps://play.google.com/store/apps/details?id=com.mixplorer.silver",
+    "icon": "/icons/com.mixplorer.addon.encrypt.png"
+  },
+  "com.mixplorer.addon.archive": {
+    "title": "MiX Archive (MiXplorer Add-on)",
+    "package": "com.mixplorer.addon.archive",
+    "description": "This is an add-on (Archiver) for the MiXplorer file manager and it won't be visible in your launcher. It can be uninstalled from Android or MiXplorer settings.\nFor using this add-on, you need to install Standard or Beta version of MiXplorer file manager v6.67.0+. \n\nThe Silver version doesn't need this add-on. You can download it from here:\nhttps://play.google.com/store/apps/details?id=com.mixplorer.silver\n\nSupported formats:\n\nPacking/unpacking: 7z, XZ, BZIP2, GZIP, TAR, ZIPX, WIM, Lizard, LZ4, LZ5, Zstandard.\n\nUnpacking only: AR, ARJ, CAB, CHM, CPIO, CramFS, DMG, EXT, FAT, GPT, HFS, IHEX, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, QCOW2, RAR, RPM, SquashFS, UDF, UEFI, VDI, VHD, VMDK, XAR and Z.",
+    "icon": "/icons/com.mixplorer.addon.archive.png"
+  },
+  "com.watchit.vod": {
+    "title": "WATCH IT",
+    "package": "com.watchit.vod",
+    "description": "WATCH IT is your main video on-demand service for Arabic content online. With an exclusive collection of various entertainment options of movies and TV shows, you will always find what you are looking for on WATCH IT.\n \nWhat you\u2019ll get when you download WATCH IT:\n\nOriginal WATCH IT productions\nYou will get access to exclusive WATCH IT Originals that can\u2019t be found elsewhere\n\n\n\nThe biggest library of Arabic and Egyptian content worldwide\nLibrary includes an exclusive selection of Arabic and Egyptian movies as well as it is home to all top Egyptian shows and entertainment programs\n\n\n\nMultiple profiles and customization\nCreate different profiles for members of your household with the ability to customize each profile\n\n\n\nSafe, Family-friendly experience\nLibrary\u2019s content is safe for all member",
+    "icon": "/icons/com.watchit.vod.jpg"
+  },
+  "com.watchedmovies.traillerapp": {
+    "title": "Watched TV: Movies & TV Shows",
+    "package": "com.watchedmovies.traillerapp",
+    "description": "Watched TV is your smart companion for discovering movies and TV shows from around the world. Explore trending titles, browse popular categories, and stay updated with detailed information about your favorite entertainment \u2014 all in one clean and easy-to-use app.\n\n\ud83c\udfac Discover What to Watch\n\t\u2022\tBrowse trending and popular movies\n\t\u2022\tExplore top-rated and upcoming TV shows\n\t\u2022\tFilter by genre, release year, and ratings\n\t\u2022\tFind recommendations based on popularity\n\n\ud83d\udcd6 Detailed Information\n\t\u2022\tMovie and TV show overviews\n\t\u2022\tCast and crew details\n\t\u2022\tRelease dates and ratings\n\t\u2022\tOfficial trailers (via supported public platforms)\n\n\u2b50 Personal Watchlist\n\t\u2022\tSave movies and shows to your favorites\n\t\u2022\tTrack what you\u2019ve watched\n\t\u2022\tOrganize your personal entertainment list\n\n\ud83d\udd0d Smart Search\n\t\u2022\tSearch by title\n\t\u2022\t",
+    "icon": "/icons/com.watchedmovies.traillerapp.jpg"
+  },
+  "com.twittter.android": {
+    "title": "com.twittter.android",
+    "package": "com.twittter.android"
+  },
+  "com.clickteam.ultimatecustomnight": {
+    "title": "Ultimate Custom Night",
+    "package": "com.clickteam.ultimatecustomnight",
+    "description": "NOTE: A device with at least 2 GB of RAM is required for this game to run properly.\n\nWelcome to the ultimate FNaF mashup, where you will once again be trapped alone in an office fending off killer animatronics! Featuring 50 selectable animatronic characters spanning seven Five Nights at Freddy's games, the options for customization are nearly endless. Mix and match any assortment of characters that you like, set their difficulty from 0-20, then jump right into the action! From your office desk, you will need to manage two side doors, two vents, as well as two air hoses, all of which lead directly into your office.\n\nThis time you will have to master other tools as well if you want to complete the ultimate challenges, tools such as the heater, A/C, a global music box, a power generator, and ",
+    "icon": "/icons/com.clickteam.ultimatecustomnight.png"
+  },
+  "com.scottgames.sisterlocation": {
+    "title": "Five Nights at Freddy's: SL",
+    "package": "com.scottgames.sisterlocation",
+    "description": "NOTE: Remastered version from the PC version. A device with at least 3 GB of RAM is required for this game to run properly.\n\nWelcome to Circus Baby's Pizza World, where family fun and interactivity go beyond anything you've seen at those *other* pizza places! With cutting-edge animatronic entertainers that will knock your kids' socks off, as well as customized pizza catering, no party is complete without Circus Baby and the gang!\n\nNow hiring: Late night technician. Must enjoy cramped spaces and be comfortable around active machinery. Not responsible for death or dismemberment.\n\nNOTE: Interface and audio in English. Subtitles in English, French, German, Dutch, Spanish (Latin America), Italian, Portuguese (Brazil), Russian, Japanese, Chinese (Simplified), Korean.\n\n#MadeWithFusion",
+    "icon": "/icons/com.scottgames.sisterlocation.png"
+  },
+  "com.scottgames.fnaf2": {
+    "title": "Five Nights at Freddy's 2",
+    "package": "com.scottgames.fnaf2",
+    "description": "NOTE: Remastered version from the PC version. A device with at least 2 GB of RAM is required for this game to run properly.\n\nWelcome back to the new and improved Freddy Fazbear's Pizza!\n\nIn Five Nights at Freddy's 2, the old and aging animatronics are joined by a new cast of characters. They are kid-friendly, updated with the latest in facial recognition technology, tied into local criminal databases, and promise to put on a safe and entertaining show for kids and grown-ups alike!\n\nWhat could go wrong?\n\nAs the new security guard working nights, your job is to monitor cameras and make sure nothing goes wrong after-hours. The previous guard has complained about the characters trying to get into the office (he has since been moved to day-shift). So to make your job easier, you've been provide",
+    "icon": "/icons/com.scottgames.fnaf2.png"
+  },
+  "com.scottgames.fnaf4": {
+    "title": "Five Nights at Freddy's 4",
+    "package": "com.scottgames.fnaf4",
+    "description": "NOTE: Remastered version from the PC version. A device with at least 2 GB of RAM is required for this game to run properly.\n\nIn this last chapter of the Five Nights at Freddy's original story, you must once again defend yourself against Freddy Fazbear, Chica, Bonnie, Foxy, and even worse things that lurk in the shadows. Playing as a child whose role is yet unknown, you must safeguard yourself until 6am by watching the doors, as well as warding off unwanted creatures that may venture into your closet or onto the bed behind you.\n\nYou have only a flashlight to protect yourself. It will scare away things that may be creeping at the far end of the hallways, but be careful, and listen. If something has crept too close, then shining lights in its eyes will be your end.\n\nNOTE: Interface and audio ",
+    "icon": "/icons/com.scottgames.fnaf4.jpg"
+  },
+  "com.scottgames.fivenightsatfreddys": {
+    "title": "Five Nights at Freddy's",
+    "package": "com.scottgames.fivenightsatfreddys",
+    "description": "NOTE: Remastered version from the PC version. A device with at least 2 GB of RAM is required for this game to run properly.\n\nWelcome to your new summer job at Freddy Fazbear's Pizza, where kids and parents alike come for entertainment and food as far as the eye can see! The main attraction is Freddy Fazbear, of course; and his two friends. They are animatronic robots, programmed to please the crowds! The robots' behavior has become somewhat unpredictable at night however, and it was much cheaper to hire you as a security guard than to find a repairman.\n\nFrom your small office you must watch the security cameras carefully. You have a very limited amount of electricity that you're allowed to use per night (corporate budget cuts, you know). That means when you run out of power for the night- ",
+    "icon": "/icons/com.scottgames.fivenightsatfreddys.png"
+  },
+  "com.sololearn": {
+    "title": "Sololearn: Learn to code",
+    "package": "com.sololearn",
+    "description": "Are you ready to enhance your coding skills and deepen your understanding of how to code? With Sololearn, you can start learning to code in Python, JavaScript, HTML, CSS, SQL, and many other programming languages right away. Whether you're just beginning your coding journey or looking to improve your programming knowledge, Sololearn offers a wide range of courses designed to help you learn coding effectively and at your own pace. \n\nWhy Choose Sololearn?\n\n- Start Learning to Code with Ease: Sololearn\u2019s extensive library of coding courses is designed to help you learn programming at your own pace. Start coding in Python, JavaScript, HTML, CSS, SQL, and explore many other languages and technologies to build a strong foundation for your tech career. \n\n- Engage in Interactive Learning: Dive int",
+    "icon": "/icons/com.sololearn.webp"
+  },
+  "ru.iiec.cxxdroid": {
+    "title": "Cxxdroid - C/C++ compiler IDE",
+    "package": "ru.iiec.cxxdroid",
+    "description": "Cxxdroid is the most easy to use educational C and C++ IDE for Android.\n\nFeatures:\n- Offline C/C++ compiler: no Internet is required to run C/C++ programs.\n- Package manager and a custom repository with prebuilt packages for common libraries, such as Boost, SQLite, ncurses, libcurl, etc.\n- Graphics libraries such as SDL2, SFML* and Allegro* are also available.\n- Examples available out-of-the-box for quicker learning.\n- Full-featured Terminal Emulator.\n- C/C++ interpreter mode (REPL) based on CERN Cling is also available.\n- Outstanding performance with advanced compiler caching technology: upto 33 times faster when Boost library is used, 3x average speedup.\n- Clean and mature architecture: now code is analyzed and compiled with the same compiler, and the IDE doesn't crash completely due to ",
+    "icon": "/icons/ru.iiec.cxxdroid.png"
+  },
+  "ru.iiec.pydroid3": {
+    "title": "Pydroid 3 - IDE for Python 3",
+    "package": "ru.iiec.pydroid3",
+    "description": "Pydroid 3 is the most easy to use and powerful educational Python 3 IDE for Android.\n\nFeatures:\n- Offline Python 3 interpreter: no Internet is required to run Python programs.\n- Pip package manager and a custom repository for prebuilt wheel packages for enhanced scientific libraries, such as numpy, scipy, matplotlib, scikit-learn and jupyter.\n- OpenCV is now available (on devices with Camera2 API support). *\n- TensorFlow and PyTorch are also available. *\n- Examples available out-of-the-box for quicker learning.\n- Complete Tkinter support for GUI.\n- Full-featured Terminal Emulator, with a readline support (available in pip).\n- Built-in C, C++ and even Fortran compiler designed specially for Pydroid 3. It lets Pydroid 3 build any library from pip, even if it is using native code. You can als",
+    "icon": "/icons/ru.iiec.pydroid3.png"
+  },
+  "com.github.android": {
+    "title": "GitHub",
+    "package": "com.github.android",
+    "description": "There\u2019s a lot you can do on GitHub that doesn\u2019t require a complex development environment \u2013 like sharing feedback on a design discussion, or reviewing a few lines of code. GitHub for Android lets you move work forward wherever you are. Stay in touch with your team, triage issues, and even merge, right from the app. We\u2019re making these tasks easy for you to perform, no matter where you work, with a beautifully native experience.\n\nYou can use GitHub for Android to:\n\n\u2022 Browse your latest notifications\n\u2022 Read, react, and reply to Issues and Pull Requests\n\u2022 Review and merge Pull Requests\n\u2022 Organize Issues with labels, assignees, projects, and more\n\u2022 Browse your files and code",
+    "icon": "/icons/com.github.android.png"
+  },
+  "com.server.auditor.ssh.client": {
+    "title": "Termius - Modern SSH Client",
+    "package": "com.server.auditor.ssh.client",
+    "description": "Termius is an SSH client and terminal how it should be. Connect with one tap from any mobile and desktop device\u2014no re-entering IP addresses, ports, and passwords.\n\nWith a free Termius Starter plan, you can:\n\n\u00b7 Connect from your mobile and desktop device with SSH, Mosh, Telnet, Port Forwarding, and SFTP.\n\u00b7 Get a desktop-grade terminal experience with a virtual keyboard covering all the special keys required, or connect your Bluetooth keyboard.\nUse gestures or shake the device while in the terminal to emulate stroking of Tab, arrows, PgUp/Down, Home, and End, etc.\n\u00b7 Work in several sessions simultaneously with a multi-tab interface and split-view support.\n\u00b7 Customize your terminal themes and fonts for each connection.\n\u00b7 Save your favorite and frequently used commands and shell scripts to exe",
+    "icon": "/icons/com.server.auditor.ssh.client.png"
+  },
+  "np.filemanager.pro": {
+    "title": "MT Manager",
+    "package": "np.filemanager.pro",
+    "description": "Key Features:\n\u25cf ALL File Formats Supported: New files, Downloads, Videos, Audios, Images, Apps, Docs and Archives\n\u25cf Quickly check both internal and external storage including SD card, USB OTG\n\u25cf FTP (File Transfer Protocol) : access your Android device storage from PC \n\u25cf Compress & Decompress ZIP/RAR Archives\n\u25cf Recycle Bin: restore your deleted files\n\u25cf View Large Files: browse and delete unused items to free up more space",
+    "icon": "/icons/np.filemanager.pro.png"
+  },
+  "com.tivizon.androidtv": {
+    "title": "Tivizon",
+    "package": "com.tivizon.androidtv",
+    "description": "Are you tired of paying for cable or satellite TV subscriptions and want access to a world of television content for free? Look no further! Introducing Tivizon, your gateway to an extensive collection of TV channels from around the globe, all available at no cost.\n\nWith Tivizon, you can enjoy a diverse range of programming, spanning from your favorite shows and series to the latest news updates, live sports events, and so much more. Our user-friendly Smart TV app is designed to provide an unparalleled viewing experience right in the comfort of your living room.\n\nFree Worldwide TV: Access a vast array of international TV channels without any subscription fees.\nLive Streaming: Watch your preferred channels in real-time, with no delays.\nDiverse Content: From entertainment to news, sports to d",
+    "icon": "/icons/com.tivizon.androidtv.png"
+  },
+  "com.hisense.odinbrowser": {
+    "title": "HiBrowser",
+    "package": "com.hisense.odinbrowser",
+    "description": "TV Browser HiBrowser is the dedicated web browser for Android TVs and set-top boxes, fully compatible with Android 7.0 and above. It\u2019s deeply optimized for remote control, mouse, and keyboard inputs, delivering a seamless, easy-to-use browsing experience on the big screen, whether you\u2019re streaming videos, browsing the web, or watching live IPTV.\nMain features:\n- Free: Access all features completely free, no subscriptions required.\n- Smart Ad Blocker: Precisely removes pop-ups, banners, and video ads with Next-gen ad-blocking engine, webpage loads 30%+ faster for uninterrupted browsing and viewing.\n- Spatial Navigation: Control the web browsing with precision using your remote.\n- Smart Web Video Player: One-click fullscreen for immersive viewing with better picture quality.\n- Video Control:",
+    "icon": "/icons/com.hisense.odinbrowser.png"
+  },
+  "com.hubolabs.hubo": {
+    "title": "purp - Make new friends",
+    "package": "com.hubolabs.hubo",
+    "description": "purp is the best place to make new friends from all over the world! Discover new cultures, meet new people and start your own adventure. You asked how?! It's simple:\n\n\n1. swipe right to send a friend request\n\n2. get notified when they accept your request,\n\n3. you two can now chat and see each other socials!\n\n\nExpress yourself\n\nYou can customize your profile by adding photos, videos, a unique bio or even going yolo and changing your profile colors! \n\nEarn Gems\n\nYou need gems to send swipes. But they're super easy to earn:\n- share purp with your friends\n- check-in every day\n- make new friends on purp!\n\nWhen using purp, we ask you to follow one golden rule: always be kind. If you post inappropriate content or try to bully someone, you will be banned. tbh, this is just common sense!\n\nIf you ha",
+    "icon": "/icons/com.hubolabs.hubo.png"
+  },
+  "com.lb4business.tpsgame": {
+    "title": "Planet Protect Squad PvP & PvE",
+    "package": "com.lb4business.tpsgame",
+    "description": "This is the beginning of the invasion.\nWe do not know where they came from - from the depths of space or from another dimension.\nAll we know is that they did not come in peace. \nHuge extraterrestrial spaceships have just appeared in Earth's orbit.\nFirst, they destroyed all large military bases, then they began to look for something in different parts of the planet.\nThey used war machines and strange mutant creatures to attack us.\nThen it got worse - they began to turn our people into their weapons - remotely controlled brainless zombies.\nA small military organization was created to counter the alien threat.\nWe have everything to fight - highly skilled soldiers, many modern weapons and the latest technology such as war drones and force fields in our arsenal.\nWe need to find out what they ar",
+    "icon": "/icons/com.lb4business.tpsgame.png"
+  },
+  "com.watchfacestudio.mimix_mx_platinum_s1": {
+    "title": "MIMIX MX Platinum S1 Watchface",
+    "package": "com.watchfacestudio.mimix_mx_platinum_s1",
+    "description": "Advanced watchface that supports Wear 2.0 and higher smartwatches.\n\n*How to install\nPayment and installation of the Play Store app on the smartphone (touch the right arrow and install the smart watch)\n  > Need to check the connection between watch device and mobile phone\n\nFind installed watchfaces\n1. Press and hold the watch face > 2. Click the Decorate button > 3. Click \u2018Add watch face\u2019 on the last right > Confirm the purchased watch face\n\n*Resolved to be installed display\nCopy the play store address of the watch face (click the three dots next to the magnifying glass in the upper right corner of the play store > share)\nGo to Samsung Internet and click 'Install on another device' (select watch device)\n\n* In order to use all functions, consent to use the sensor is required.\n*If the Play St",
+    "icon": "/icons/com.watchfacestudio.mimix_mx_platinum_s1.png"
+  },
+  "com.eurekafox.finddifferencepeacockgame": {
+    "title": "com.eurekafox.finddifferencepeacockgame",
+    "package": "com.eurekafox.finddifferencepeacockgame"
+  },
+  "com.peoplefun.wordsearch": {
+    "title": "Wordscapes Search: Word Games",
+    "package": "com.peoplefun.wordsearch",
+    "description": "\ud83d\udc95Would you like to relax, exercise your brain, and expand your vocabulary-all at the same time? With  Wordscapes Search , the NEWEST game from the makers of Wordscapes, you can! These incredibly addicting word search puzzles are brain blasting fun! \ud83d\udc95\n\nConnect letters to find every word on the board and sail through thousands of classic puzzle levels set against stunning nature backgrounds. Training your brain has never been easier \u2014or more relaxing. Once you start playing, you just won't be able to put it down!\n\nFEATURES\n\u27a4Escape and train your brain by visiting the beautiful destinations of  Wordscapes Search !\n\u27a4CHALLENGE your brain and vocabulary \n\u27a4LOTS OF LEVELS. Play 1000\u2019s of puzzle board levels- with more coming soon\n\u27a4EARN POWER-UPS. Use boosters to find words when you get stuck\n\u27a4 COL",
+    "icon": "/icons/com.peoplefun.wordsearch.jpg"
+  },
+  "com.mintgames.finddifferences": {
+    "title": "Find Differences - Spot it all",
+    "package": "com.mintgames.finddifferences",
+    "description": "Welcome to the world of \"Find Differences\"\u2014no unlocking required, unlimited pictures, unlimited styles, unlimited fun!\n\nWe have carefully selected 20,000 free images covering a variety of styles. While searching for hidden differences, you can improve your observation and train your brain , relax, and  relieve stress. \n\n\ud83c\udf89 No Unlocking Required, Unlimited Play\n\nAll levels are available. You can choose your favorite picture to start the challenge at any time. \n\n\u2728 Massive Picture Library, Diverse Styles, Immersive Fun\n\nWe not only have exquisite retro pictures to take you back to your memories, but also a variety of other styles, including photos, picture books, cartoon illustrations, and more\u2014each offering a new experience.\n\n\ud83c\udf88 Multiple Difficulty Levels, Choose Freely\n\nYou can freely choose ",
+    "icon": "/icons/com.mintgames.finddifferences.jpg"
+  },
+  "com.eidoloncorp.happydiff": {
+    "title": "Happy Differences - Find them",
+    "package": "com.eidoloncorp.happydiff",
+    "description": "Spot 5 differences in pictures. Exercise the brain. Tap and play. Find hidden clues in pics. Guess what's the difference. Compete with other players and win tournaments. Search for secrets and travel across the world.\n\nFocus on the details and train your brain!\n\nHow many differences can you find? Take the challenge now!\n\nFeatures:\n\n\ud83d\udd0e Compare two pictures to find all the difference\n\ud83d\udd0e Participate in amazing events!\n\ud83d\udd0e More than 10 000 high-quality pictures\n\ud83d\udd0e Spot the different object and tap on it\n\ud83d\udd0e Try to find all differences in time\n\ud83d\udd0e Zoom pictures\n\ud83d\udd0eUse hints if you need a clue\n\ud83d\udd0eEnjoy tons of levels!\n\nHow many differences can you find? Take the challenge now!",
+    "icon": "/icons/com.eidoloncorp.happydiff.png"
+  },
+  "com.medianagames.findscapes": {
+    "title": "Findscapes -Differences online",
+    "package": "com.medianagames.findscapes",
+    "description": "Search for differences between two beautiful pictures and spot them all. Travel across gorgeous maps, and enjoy the fun while you play this game!\n\nChallenge yourself and improve your observation skills, and focus on the details. Train your brain while enjoying a puzzle game! Join the tournament, beat all your opponents and win tons of rewards!\n\nWhy you'll love Findscapes - differences online:\n- Tons of amazing colourful pictures: rooms, animals, food, and many more\n- Brain training game which suits both kids and adults\n- Useful hints if you need a clue\n- Enlarge the image to see it better and to help spot the differences\n- Easy & hard puzzles \u2013 train your brain and observation!\n- Enjoy hundreds of levels!\n- Daily tournaments - try to find all differences faster than your opponents!\n\nJust s",
+    "icon": "/icons/com.medianagames.findscapes.png"
+  },
+  "com.enigma.mobile": {
+    "title": "Enigma: What\u2019s that in the Sky",
+    "package": "com.enigma.mobile",
+    "description": "NOW IN BETA. Finally, the #1 mobile app for UFO sightings and alerts is now available on Android.\n\nEvery day, thousands of people see something they can\u2019t explain in the skies. Seen something unusual in the sky? Share your UFO sighting story and read accounts from thousands of other witnesses.\n\nEXPLORE THE MAP\n-Browse over 200K recent and historical UFO sightings around the world, from San Francisco to Sri Lanka\n-Read witness accounts, watch sighting videos, and listen to fascinating audio stories\n-Dive into in-depth library articles on major historical sightings such Roswell, Stephenville, and more\n\nTOP SIGHTINGS\n-Updated daily, the content feed features our most popular UFO videos, audio accounts, and written stories\n-Trending sightings from around the web are aggregated for the communit",
+    "icon": "/icons/com.enigma.mobile.png"
+  },
+  "com.spillby.astrogame": {
+    "title": "Astro Mike - Find my spaceship",
+    "package": "com.spillby.astrogame",
+    "description": "A coin transporter has crashed in space, and its coin cargo has been scattered all around the asteroid belt. Hobby astronaut Astro Mike is there to collect these coins, but he has lost his spaceship. Can you help him find his spaceship, and also some more coins?\n\nThe game uses Newton's law of gravity to give each asteroid its individual gravity field. You can jump between the asteroids, and gravity will suck you towards them.\n\nYou can use either touch screen, keyboard or game pad to control the game. This means you can play it both on your phone, your tablet, your computer and on your TV!",
+    "icon": "/icons/com.spillby.astrogame.png"
+  },
+  "com.new.airplane.sky.hunter.flying.airfighter.games": {
+    "title": "Galaxy Air Fighter - Shooter",
+    "package": "com.new.airplane.sky.hunter.flying.airfighter.games",
+    "description": "Explore classic arcade-style aerial combat with **Sky Hunters**! Download now and dive into endless shooting fun!\n\nCool flying shooting, full screen explosion!\n\nHave you ever wanted to be a commander of a space fleet and lead your space team to fight against enemies to save the galaxy? Have you ever dreamed of flying through the hail of bullets without getting hurt?\n\nNow, in , all this is possible! You will be facing a large number of enemies in hazardous environments. The classic shoot 'em up gameplay is combined with modernized Roguelike mechanics, providing the immersion you've never experienced before.\n\nCome to rule the sky now!\n\nFEATURES\n\n- Customize and upgrade the powerful fighters, build your own space team and challenge the epic bosses!\n\n- 500+ levels with immersive missions to co",
+    "icon": "/icons/com.new.airplane.sky.hunter.flying.airfighter.games.png"
+  },
+  "com.alienshooter.galaxy.attack2": {
+    "title": "Galaxy Invader: Alien Shooting",
+    "package": "com.alienshooter.galaxy.attack2",
+    "description": "Galaxy Invaders: Alien Shooter - Space Shooter\nOne day, a mysterious alien army from a different dimension appears and attacks the border planets. The fight for mankind survival begins. As a veteran spaceship striker pilot, you have been called to defend the galaxy against invader enemies, and become one of the guardians of the galaxy.\n\nGalaxy Invaders: Alien Shooter - Space Shooter is a combination of classic shoot \u2018em up game feels and modernized mechanics, with gameplay reminiscent of old school arcade shooting games like Galaga, Air Strike Force, Chicken Shooter,... Some key features:\n\nA BROAD RANGE OF ENEMIES From the lowly common soldier aliens to the powerful Elites, and the humongous Bosses. You have to use skills to steer your spaceship and shoot the enemies with varying strengths",
+    "icon": "/icons/com.alienshooter.galaxy.attack2.jpg"
+  },
+  "com.momogame.findphone1.pro": {
+    "title": "FindMe Phone Pro-Clap to Find",
+    "package": "com.momogame.findphone1.pro",
+    "description": "FindMe Phone Pro \u2013 Clap & Find lets you track down a misplaced phone in seconds. One sharp clap makes your device ring and vibrate\u2014even if the screen is off or sound is muted. The Pro edition delivers a smooth, ad-free experience with a single, one-time purchase.\n\n\u2605 Why it\u2019s great\n\u2022 Works when the phone is silent or locked\n\u2022 Instantly recognizes a clear clap\n\u2022 Plays your chosen ringtone and vibrates until found\n\u2022 One-time payment\u2014lifetime access, no subscriptions\n\u2022 Minimal battery use while running quietly in the background\n\u2022 Adjustable clap sensitivity for any environment\n\u2022 Simple one-tap activation\n\nHow it works\n\nEnable clap detection.\n\nThe app listens locally for your clap pattern\u2014nothing is recorded or uploaded.\n\nWhen detected, your phone rings and vibrates so you can follow the sound.",
+    "icon": "/icons/com.momogame.findphone1.pro.png"
+  },
+  "com.galaksikomputer.findme": {
+    "title": "com.galaksikomputer.findme",
+    "package": "com.galaksikomputer.findme"
   }
 }
