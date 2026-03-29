@@ -12,6 +12,7 @@ os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
 import json
 import base64
 import re
+from datetime import date
 import logging
 import threading
 import time as time_module
@@ -671,6 +672,7 @@ def index():
         html = re.sub(r'<meta property="og:url"[^>]*>\n?', '', html)
         html = re.sub(r'<meta property="og:image"[^>]*>\n?', '', html)
         html = re.sub(r'<meta name="twitter:image"[^>]*>\n?', '', html)
+        html = re.sub(r'<script type="application/ld\+json">[^<]*__SITE_URL__[^<]*</script>\n?', '', html)
     if UMAMI_SCRIPT:
         html = html.replace('</head>', f'  {UMAMI_SCRIPT}\n</head>')
     return Response(html, content_type='text/html')
@@ -684,6 +686,12 @@ if not _DISABLE_APP_PAGES:
     def apps_browse():
         from app_pages import render_browse_page
         html = render_browse_page()
+        if SITE_URL:
+            html = html.replace('__SITE_URL__', SITE_URL)
+        else:
+            html = re.sub(r'<link rel="canonical"[^>]*>\n?', '', html)
+            html = re.sub(r'<meta property="og:url"[^>]*>\n?', '', html)
+            html = re.sub(r'<script type="application/ld\+json">[^<]*__SITE_URL__[^<]*</script>\n?', '', html)
         if UMAMI_SCRIPT:
             html = html.replace('</head>', f'  {UMAMI_SCRIPT}\n</head>')
         return Response(html, content_type='text/html')
@@ -724,7 +732,7 @@ def sitemap():
             from app_pages import _load_meta
             meta = _load_meta()
             app_urls = ''.join(
-                f'  <url><loc>{SITE_URL}/app/{pkg}</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>\n'
+                f'  <url><loc>{SITE_URL}/app/{pkg}</loc><lastmod>{date.today().isoformat()}</lastmod></url>\n'
                 for pkg in meta
                 if re.match(r'^[a-zA-Z][a-zA-Z0-9_.]*$', pkg)
             )

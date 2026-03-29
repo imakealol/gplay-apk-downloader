@@ -169,6 +169,7 @@ def render_app_page(pkg):
     else:
         html = re.sub(r'<link rel="canonical"[^>]*>\n?', '', html)
         html = re.sub(r'<meta property="og:url"[^>]*>\n?', '', html)
+        html = re.sub(r'<script type="application/ld\+json">[^<]*__SITE_URL__[^<]*</script>\n?', '', html)
 
     return html
 
