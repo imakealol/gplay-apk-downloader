@@ -9339,5 +9339,240 @@
   "com.galaksikomputer.findme": {
     "title": "com.galaksikomputer.findme",
     "package": "com.galaksikomputer.findme"
+  },
+  "air.com.tvm.finddiffz": {
+    "title": "air.com.tvm.finddiffz",
+    "package": "air.com.tvm.finddiffz"
+  },
+  "jp.sugiapps.foocat.defense": {
+    "title": "jp.sugiapps.foocat.defense",
+    "package": "jp.sugiapps.foocat.defense"
+  },
+  "com.sparkine.muvizedge": {
+    "title": "Muviz Edge: AOD & Edge Lights",
+    "package": "com.sparkine.muvizedge",
+    "description": "Muviz Edge is a first of its kind app that displays a Live Music Visualizer around the edges of your screen while you are listening to music from your favourite music apps. You can even enjoy edge lighting over our exciting set of Always on Display Screens.\n\nIt's a perfect music companion to add edge music lighting to your new age devices with edge to edge rounded screen.\n\nSupports major Music Apps\nEnjoy audio visualizer with music from various music apps no matter whether they are offline or streaming.\n\nAlways On Display\nContinue enjoying edge visualizer even after the screen is turned off with our Always on Display screensaver feature. \n\nWe have growing set of AODs which can be used independently or along with our visualizers. Always on Displays can be extensively customised with our inb",
+    "icon": "/icons/com.sparkine.muvizedge.png"
+  },
+  "io.iftech.android.box": {
+    "title": "Widget Lab:Wallpapers & Themes",
+    "package": "io.iftech.android.box",
+    "description": "\u300cWidget Lab\u300d is a collection of desktop beautification tools. Here, you can enjoy 200+ meticulously designed custom widgets and 10,000+ beautifully updated daily wallpapers, icons, themes, and lock screens. With our special features listed below, you can personalize your device in ways you've never experienced before!\n\nSpecial Features:\n\n\u3010Desktop Widgets\u3011Including 200+ distinct styled and functional widgets, such as vinyl music widgets, photo frame widgets, couple widgets, mood recording widgets, and so on. There are more ways for you to discover!\n\u3010Headphone Popup\u3011Tired of the same old system headphone connection popup? No worries, we provide beautiful headphone animations! Not only supporting all headphone models on the market, but also encouraging you to DIY your headphone connection pop",
+    "icon": "/icons/io.iftech.android.box.png"
+  },
+  "com.akbon.oxygenos": {
+    "title": "OxygenOS 16 Icon pack",
+    "package": "com.akbon.oxygenos",
+    "description": "Inspired by the OxygenOS, these Adaptive icons have been created in the style of OxygenOS Design. They have a linear icon and different color backgrounds.\n\nDid you know?\n\nThe average user checks their devices more than 50 times a day. Make every time a real pleasure with this icon pack.\n\nThere is always something new:\n\nWhy choose OxygenOS Icon Pack over other packages?\n\n\u2022 Frequent updates\n\u2022 Perfect masking system\n\u2022 Lots of alternative icons\n\u2022 A collection of high quality and constantly renewed wallpapers\n\nRecommended personal settings\n\u2022 Launcher: Nova launcher\n\u2022 Adjust icon normalization from Nova Launcher settings\n\u2022 Icon size\n> If you like small icons, set the size to 85%\n> If you like big icons, set the size to 100% - 120%\n\nOther Features\n\u2022 Icon preview\n\u2022 Dynamic calendar\n\u2022 Material pane",
+    "icon": "/icons/com.akbon.oxygenos.png"
+  },
+  "org.kustom.widget": {
+    "title": "KWGT Kustom Widget Maker",
+    "package": "org.kustom.widget",
+    "description": "KWGT is the most powerful widget maker on Google Play. Design any widget you can imagine with our WYSIWYG editor. Stop settling for presets and build a truly personal phone experience. Imagination is the only limit!\n\nUnleash Your Creativity: The Ultimate WYSIWYG Editor\n\nOur \"What You See Is What You Get\" editor gives you total control to build any widget layout you can dream of. Start with a blank canvas or use one of our included starter skins.\n\u2022 \u270d\ufe0f Total Text Control: Design the perfect text widget with any custom font, color, size, and a full suite of effects like 3D transformations, curved text, and shadows.\n\u2022 \ud83c\udfa8 Shapes & Images: Build with shapes like circles, rectangles, and triangles, or use your own images (PNG, JPG, WEBP) and Scalable Vector Graphics (SVG) for ultimate flexibility.",
+    "icon": "/icons/org.kustom.widget.png"
+  },
+  "com.atlantis.launcher": {
+    "title": "DNA Launcher",
+    "package": "com.atlantis.launcher",
+    "description": "A flexible multi-style home screen replacement that helps personalize your device with a variety of configurations.\n\n\u258c Key Features\n\n\ud83e\uddec\u00a0DNA your Launcher\nClassic style \u2027 layout with horizontal scrolling pages.\nMinimalism \u2027 One-handed friendly, alphabetical index based on native language.\nHolographic mode \u2027 A touchable holographic 3D spin that fits the watch.\n\n\u2728 Personalization\nEasy to customize layout, icon packs & shape & size, fonts and wallpaper. Your launcher should be as unique as your DNA.\n\n\ud83d\udd0d Smart Search\nSuggestions, voice assistant, recent results.\nSupports searching app or contacts and define your internet search engines (Google, DuckDuckGo, Bing, Baidu, etc.)\n\n\ud83d\udd12\u00a0Protect your privacy\nHide or lock apps for free! \nLock folders to keep your secrets safe.\n\n\ud83d\udcc2 App Navigation\nDNA Launcher",
+    "icon": "/icons/com.atlantis.launcher.png"
+  },
+  "com.runtastic.android": {
+    "title": "adidas Running: Run tracker",
+    "package": "com.runtastic.android",
+    "description": "Track workouts, runs & fitness progress with the adidas Running app\n\nMake daily fitness a priority with adidas Running. Track your progress, get in shape, and hit your goals while being part of the ultimate health and fitness community!\n\nThe adidas Running app is the perfect tool for any type of runner, cyclist, or athlete. Whether you're a beginner looking for guidance or a seasoned pro seeking new challenges, adidas Running has you covered.\n\nJoin over 170 million people who use adidas Running to track more than 90 sports and activities. Whether it's hiking, cycling, marathon training, or at-home workouts, your fitness log lets you track your stats seamlessly.\n\nTrack all your sports and activities in one place\u2014walking distance, exercise routines, weight loss, and more. Dive into fitness c",
+    "icon": "/icons/com.runtastic.android.png"
+  },
+  "com.nike.plusgps": {
+    "title": "Nike Run Club - Running Coach",
+    "package": "com.nike.plusgps",
+    "description": "Training Plans*, Guided Runs**, health and fitness tips or community challenges \u2014 run towards your goals with all the tools you need. Run the distance with the support of Nike coaches, there for you every step of the way. Half marathon training, wellness runs and more.\n\nSet a new personal best and discover movement where you\u2019re at with the support of the Nike community. Let\u2019s run together.\n\n5k to 10k, Half Marathon and more - get started with health and fitness tools for all levels. From Guided Runs** and Training Plans* to fitness tracker and health monitoring features - unlock a fitness app equipped with everything you need to achieve your goals.5k or 10k, marathon and more - NRC has you covered.\n\nHit the trails or start your cardio training on the treadmill. Nike Run Club provides the m",
+    "icon": "/icons/com.nike.plusgps.png"
+  },
+  "com.recoverathletics": {
+    "title": "Recover Athletics",
+    "package": "com.recoverathletics",
+    "description": "Recover Athletics is the recovery app for Strava athletes.\n\nOur team works with the world's best sports physicians and Olympians to help athletes fix aches & pains and prevent injury. In 90 seconds, the app will customize a program for your body and your training. These programs include strength, mobility, plyometrics, and other techniques to increase your injury resilience. This content is evidence-based, with exercises that have been proven to reduce aches & pains and help prevent injury. With this app, you can become a stronger and more injury-proof athlete.\n\nRecover and Strava share an integrated subscription\n\u2022 When you subscribe to Recover Premium, you'll automatically unlock a Strava subscription.\n\u2022 All Strava subscribers get free access to Recover Premium when they log in with Strav",
+    "icon": "/icons/com.recoverathletics.png"
+  },
+  "com.fatsecret.android": {
+    "title": "Calorie Counter by fatsecret",
+    "package": "com.fatsecret.android",
+    "description": "Welcome to fatsecret, the easiest to use calorie counter and most effective weight loss and dieting app on the market. Best of all, fatsecret is free.\n\nKeep track of your food, exercise and weight, using the world's highest quality food and nutrition database and connect with a global community of people looking to make a change for the better and start losing weight and achieve your goals the healthy way. \n\nfatsecret is fast, simple to use and includes integration with external tools and services to help you succeed with your diet: \n\n- An easy to use food diary to plan and keep track of what you're eating.\n- A wonderful community that's ready to provide support and turbo charge your weight loss.\n- Image recognition of foods, meals and products so you can take photos with the camera and tr",
+    "icon": "/icons/com.fatsecret.android.webp"
+  },
+  "com.mapmyfitness.android2": {
+    "title": "Map My Fitness Workout Tracker",
+    "package": "com.mapmyfitness.android2",
+    "description": "Map My Fitness \u2013 All-in-one Workout Tracker & Fitness Planner\n\nStay on top of your health goals with Map My Fitness, the all-in-one Workout Tracker and Fitness Tracker designed to help you build better habits, stay consistent, and train smarter. Whether you're getting started with daily exercise or optimizing your performance at the gym, this powerful fitness app keeps you accountable and inspired.\n\nJoin a community of over 100 million users committed to movement, wellness, and self-improvement. Map My Fitness makes it easy to log every workout\u2014at home, in the gym, or on the go\u2014and see real results.\n\nTRACK FITNESS EVERY ACTIVITY, EVERY DAY\n- Log over 600+ activities including walking, running, cycling, gym workouts, strength training, and more\n- Use the built-in Workout Tracker to track di",
+    "icon": "/icons/com.mapmyfitness.android2.png"
+  },
+  "com.fitnow.loseit": {
+    "title": "Calorie Counter by Lose It!",
+    "package": "com.fitnow.loseit",
+    "description": "Lose It! is a powerful calorie counter, diet planner, nutrition-focused food tracker and weight loss progress tracking app that helps you stick to your diet program and reach your weight loss goals! Simply set your weight loss goals then track your diet, food and exercise to lose weight. Lose It! is more than just a free calorie tracker. You can track your nutrition intake, macros, carb and calorie intake, and plan your intermittent fasting schedule. Counting net calories, tracking your food and managing your daily nutrition for losing weight has never been easier!\n\nSIMPLIFY YOUR WEIGHT LOSS JOURNEY\nLose It! uses the proven principles of calorie counting, calorie deficit, diet tracking and nutrition awareness to help you succeed. Set your weight targets, log healthy meals, track nutrients,",
+    "icon": "/icons/com.fitnow.loseit.png"
+  },
+  "com.netflix.NGP.Saga": {
+    "title": "Netflix Stories",
+    "package": "com.netflix.NGP.Saga",
+    "description": "NETFLIX MEMBERSHIP REQUIRED.\n\nFind adventure in \"Outer Banks,\" romance with \u201cEmily in Paris,\u201d or unexpected choices in the \u201cLove Is Blind\u201d pods. Between \u201cPerfect Match\u201d shenanigans and \u201cSelling Sunset\u201d drama, there are so many options in this collection \u2014 which story will you choose? You\u2019re the main character in this interactive story game featuring an array of stories based on Netflix's hit shows and films. \n\n\"Netflix Stories\" is a growing library of adventures ready anytime, anywhere. New stories from your favorite shows and movies will be added frequently, so there will be many more adventures to explore!\n\nONE GAME, MANY POSSIBILITIES \u2014 CHOOSE FROM A COLLECTION OF INTERACTIVE STORIES BASED ON HIT NETFLIX SHOWS AND MOVIES: \n\nGET SWEPT AWAY BY AN \"OUTER BANKS\" ADVENTURE\n\n\"Outer Banks\" \u2014 J",
+    "icon": "/icons/com.netflix.NGP.Saga.jpg"
+  },
+  "com.netflix.NGP.SonicMania": {
+    "title": "Sonic Mania Plus - NETFLIX",
+    "package": "com.netflix.NGP.SonicMania",
+    "description": "NETFLIX MEMBERSHIP REQUIRED.\n\nRun, jump and collect gold rings as Sonic, Tails or Knuckles in this speedy homage made by and for fans of the beloved franchise. '90s nostalgia and epic new boss fights await!\n\nExperience the ultimate celebration of the world's fastest blue hedgehog in this remixed retro platformer filled with callbacks and Easter eggs from past Sonic games. Perfect for longtime fans and newcomers alike.\n\nPLAY AS MULTIPLE CHARACTERS\n\n\u2022 Choose your character! Go explosively fast as Sonic, soar as Tails or power around tough obstacles with Knuckles\u2019 brute strength.\n\nRUN, JUMP, COLLECT\n\n\u2022 Channel your character's unique abilities to cross a landscape filled with pitfalls.\n \n\u2022 Jump to avoid obstacles and enemies while collecting as many golden rings as possible. Timing is everyth",
+    "icon": "/icons/com.netflix.NGP.SonicMania.png"
+  },
+  "com.netflix.NGP.Solitaire": {
+    "title": "Classic Solitaire NETFLIX",
+    "package": "com.netflix.NGP.Solitaire",
+    "description": "Available exclusively for Netflix members. \n\nDrag cards to arrange them in descending order with alternating colors. Sort all the suits from ace to king \u2014 it's the timeless game you know and love.\n\nThis dependable, classic card game from MobilityWare \u2014 the makers of the original free edition for iOS \u2014 is now available to play wherever, whenever. Whether you know it as Patience, Klondike or simply as Solitaire, this popular game remains a fan favorite. Play daily challenges to win awards and collect winning animations!\n\nFeatures:\n\n\u2022 Daily challenges: Earn crowns and trophies by solving a new challenge every day.\n\u2022 Level up: Earn points every time you play to progress to new levels and achieve new titles.\n\u2022 Winning deals: Play deals where you know there's at least one winning solution.\n\u2022 Cus",
+    "icon": "/icons/com.netflix.NGP.Solitaire.png"
+  },
+  "com.vivaldi.browser.snapshot": {
+    "title": "Vivaldi Browser Snapshot",
+    "package": "com.vivaldi.browser.snapshot",
+    "description": "Snapshots are work-in-progress builds that are available for anyone to download and test. Install it now to try new features and fixes before they are polished and prepared for the Stable release.\n\nWe recommend Snapshots to developers and advanced users who want a sneak peak of the features we have in store for the major releases, while at the same time being patient with us as we debug and improve further.\n\nAs always, we really appreciate your feedback! Let us know what you think of our latest Snapshot by commenting on the Snapshot Blog.\n\nRead more about the difference between Snapshot and Stable versions of Vivaldi Browser.",
+    "icon": "/icons/com.vivaldi.browser.snapshot.webp"
+  },
+  "com.vivaldigroup.manager": {
+    "title": "Vivaldi",
+    "package": "com.vivaldigroup.manager",
+    "description": "Enjoy the new musical experience with the Vivaldi app.\n\nWith Vivaldi you can play, control and enjoy your favorite songs, choosing from various sources you have selected.\n\nSpotify, WebRadio, UPnP NAS, Airplay, local music, USB and Bluetooth. It will be up to you to decide which ones to use.\n\nListen to your songs from both a single device and in multi-room mode, which will allow you to play your favorite audio source in sync across multiple devices.",
+    "icon": "/icons/com.vivaldigroup.manager.png"
+  },
+  "com.vivaldi.browser.automotive.renault": {
+    "title": "Vivaldi Browser",
+    "package": "com.vivaldi.browser.automotive.renault",
+    "description": "Get a blazingly fast web browser for your Renault Megane E-Tech Electric. Vivaldi is a new, private web browser built with flexibility in mind. It comes packed with useful features including a built-in Ad Blocker, tracking protection, translation and Notes. Style the browser to your needs, using Themes and layout choices to help you feel at home. Vivaldi is your window to the web while you\u2019re on the road.\n\n\ud83c\udf08 A World of Options\n\nUse Vivaldi to access your favorite streaming services, news or web apps on the go. Turn your car into a mobile entertainment suite, or a command center for work on the road. It\u2019s your call.\n\n\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Safe & Private\n\nYour web browser, your business. We don't track how you use Vivaldi and private incognito tabs mean you can keep your browsing history to yourself. Search",
+    "icon": "/icons/com.vivaldi.browser.automotive.renault.png"
+  },
+  "com.vivaldi.browser.automotive": {
+    "title": "Vivaldi Browser on Automotive",
+    "package": "com.vivaldi.browser.automotive",
+    "description": "Vivaldi Browser is the first full-scale web browser designed uniquely for Android Automotive OS. \n\nLoved by millions worldwide, the browser adapts to you, not the other way around. This allows you to transform your car into a work-entertainment-friendly space with Vivaldi. Whether streaming your favorite shows or music, playing games or taking an important work call \u2013 Vivaldi lets you do all this more easily with its built-in functionality. \n\nThe browser improves efficiency and respects your privacy with powerful features including an integrated ad blocker, privacy-friendly translation tool, reading list, notes function, tracking protection, and secure sync functionality, all right out-of-the-box.\n\nYou can customize everything from its interface to functionality to match your style and nee",
+    "icon": "/icons/com.vivaldi.browser.automotive.png"
+  },
+  "com.relayfi.relay": {
+    "title": "Relay | Business Banking",
+    "package": "com.relayfi.relay",
+    "description": "Relay is online business banking that puts small business owners in complete control of their cash flow.\n\nWhat Relay offers:\n\n\u2022 20 checking accounts to earmark cash for operations, payroll, taxes and more\n\u2022 Multiple debit and credit cards\u2014with built-in spend policies\u2014to meticulously organize spending by team or project\n\u2022 1.5% cash back* on all credit card purchases, and savings accounts with up to 3.00% APY** to help you grow reserves\n\u2022 All the payment types you could need\u2014including ACH transfers, wires and checks (yes, including paper checks!)\n\u2022 Automations\u2014like maximum-balance transfer rules\u2014that make money move for you so can focus on running your business\n\nPlus, each business is insured up to $3M for funds on deposit via Thread Bank, Member FDIC.***   \n\n\nLearn more at relayfi.com.\n\n\n\n\n",
+    "icon": "/icons/com.relayfi.relay.png"
+  },
+  "com.relaypayments.relay": {
+    "title": "Relay Payments",
+    "package": "com.relaypayments.relay",
+    "description": "Relay's instant digital payments help truck drivers simplify how they pay for discounted fuel, lumper fees, scales, parking reservations, and other OTR expenses.\n\nUsed by more than 400,000 truck drivers and carriers across the U.S., Relay's solution removes the need for cash or checks to make payments. By downloading the Relay app, truck drivers can find and pay less for fuel at participating merchants, pay lumper fees at more than 90% of warehouses, pay for scales, and locate and book parking spots along their route.\n\n\nPAY LESS FOR FUEL: Instantly use Relay\u2019s cardless digital payments to purchase fuel along your route. Relay's innovative payment solution ensures complete pricing transparency, requires no lengthy activations or card applications, and can provide substantial fuel discounts ",
+    "icon": "/icons/com.relaypayments.relay.png"
+  },
+  "com.amazon.relay": {
+    "title": "Amazon Relay",
+    "package": "com.amazon.relay",
+    "description": "The Amazon Relay mobile app is for carriers, owner-operators and drivers who want to manage their Relay freight on the go. From the grocery store checkout line to the parking lot of fuel stop, carriers and owner-operators can use the app to book and manage loads anywhere they get a phone signal. And truck drivers can use the Relay app to find the safest route for their Amazon cargo, along with site-specific information about facilities that makes entry faster.\n\nIf you\u2019re a carrier or owner-operator, you\u2019ll like\u2026\n\n* Load Board that makes it easy to book loads that fit your schedule\n* Suggested Reloads that maximize drivers\u2019 schedules by surfacing additional trips along their routes\n* Post A Truck, which automatically books loads that match truck availability\n* Trips page, where you can view",
+    "icon": "/icons/com.amazon.relay.png"
+  },
+  "com.globalrelay.message": {
+    "title": "Global Relay",
+    "package": "com.globalrelay.message",
+    "description": "Put compliance at the heart of your communication with one powerful app.\n\nGlobal Relay is an enterprise unified communication platform purpose-built for financial and other regulated industries to meet collaboration, compliance, privacy, and security requirements.\n\nGlobal Relay supports BYOD and corporate programs, ensuring compliant communication with customers, colleagues, and industry peers via text, voice, WhatsApp, and other preferred channels. \n\nAll data and messages including native texts (SMS/MMS/RCS) and call logs are also archived for compliance.\n\nThe Global Relay App is available for mobile, desktop, and web.\n\nYOU MUST BE A GLOBAL RELAY CUSTOMER OR PARTNER TO USE THIS APP.",
+    "icon": "/icons/com.globalrelay.message.png"
+  },
+  "com.relaypro.app": {
+    "title": "Relay for Frontline Teams",
+    "package": "com.relaypro.app",
+    "description": "Relay is the radio that does everything your walkie talkie can't. Panic button, GPS Tracking, Translating, Work Tracking, Real-Time data and insights.",
+    "icon": "/icons/com.relaypro.app.png"
+  },
+  "ventures.appliedai.polychat": {
+    "title": "Polychat - Language Learning",
+    "package": "ventures.appliedai.polychat",
+    "description": "Learn languages the fun, fast, and interactive way with PolyChat, the ultimate language learning app! Whether you\u2019re a beginner or leveling up, PolyChat brings together lessons, games, AI chat, a powerful translator, conjugator, vocabulary tools, and more, all in one free tool designed to help you learn and master languages with confidence.\n\nYour Language Learning Adventure Starts Here\n\nPolyChat makes learning a language feel effortless. From bite-size lessons and interactive exercises to immersive AI chat and real-time translation, every feature helps you practice words, phrases, and conversation, whether you\u2019re at home, on the go, or traveling abroad.\n\nGuided Lessons & Smart Repetition\n\n\u2022 Hundreds of Lessons - Step by step lessons that build your understanding from basics to advanced.\n\u2022 ",
+    "icon": "/icons/ventures.appliedai.polychat.png"
+  },
+  "com.snapplay": {
+    "title": "Snapplay",
+    "package": "com.snapplay",
+    "description": "SnapPlay is a Motion AI platform that uses your device camera and on\u2011device models to understand body movement, turning everyday sessions into interactive fitness experiences.\nMotion AI tracking: Real\u2011time pose and hand tracking for precise movement feedback.\nInteractive workouts: Guided routines and movement\u2011based challenges to keep you engaged.\nProgress insights: Track sessions, accuracy, and streaks to stay motivated.\nWorks anywhere: Designed for living rooms and small spaces\u2014no extra hardware.\nLow\u2011latency experience: Optimized for smooth performance on a wide range of devices.\nPrivacy\u2011first: Motion processing happens on\u2011device; camera frames aren\u2019t uploaded.\nAdditional details:\nSign\u2011in: Google sign\u2011in supported for quick setup.\nAccessibility: Visual cues and on\u2011screen guidance to help ",
+    "icon": "/icons/com.snapplay.png"
+  },
+  "com.thegrizzlylabs.geniusscan.free": {
+    "title": "Genius Scan - PDF Scanner",
+    "package": "com.thegrizzlylabs.geniusscan.free",
+    "description": "Genius Scan is a scanner app that turns your device into a scanner, lets you quickly scan your paper documents on the go and export them as multi-scan PDF files.\n\n*** 20+ million users and 1000s of small businesses use the Genius Scan scanner app ***\n\nThe Genius Scan scanner app will replace your desktop scanner and you will never look back.\n\n== KEY FEATURES ==\n\nSmart Scanning:\n\nThe Genius Scan scanner app includes all the features to make great scans.\n\n- Document detection & background removal\n- Distortion correction\n- Shadow removal and defect cleanup\n- Batch scanner\n\nPDF Creation & Editing:\n\nGenius Scan is the best PDF scanner. Scan not just to images, but full PDF documents.\n\n- Combine scans into PDF documents\n- Document merging & splitting\n- Multi-page PDF creation\n\nSecurity & Privacy",
+    "icon": "/icons/com.thegrizzlylabs.geniusscan.free.png"
+  },
+  "com.dazz.hoop": {
+    "title": "Hoop - Make new friends",
+    "package": "com.dazz.hoop",
+    "description": "EXPLORE\nMake new friends all over the world with Hoop! Go through millions of profiles from you own country or worldwide. Send friend requests to the profiles you like and add them on your social apps. Keep control over your socials and decide who you want to share them with.\n\nEARN DIAMONDS\nYou can earn diamonds every day on Hoop. Use them to send friend requests, see the previous profile again or customize your own profile. There are many ways to earn diamonds:\n\u2022 share your profile (the reward is doubled on Sundays!)\n\u2022 daily check-in\n\u2022 level up\n\u2022 watch a video\n\u2022 buy a pack of diamonds\n\nHave fun!",
+    "icon": "/icons/com.dazz.hoop.png"
+  },
+  "com.adopteunmec.androidfr": {
+    "title": "adopte : app de rencontre",
+    "package": "com.adopteunmec.androidfr",
+    "description": "Adopte (formerly AdopteUnMec) is both an app and a dating site that lets you meet singles ready to find love.\n\nA DIFFERENT APPROACH TO DATING\n\nAdopte enhances the user experience by giving them the power to choose which profiles they want to explore.\n\nUnlike other dating apps, Adopte doesn't rank singles based on a rating algorithm. No one should have their interactions limited by algorithmic criteria.\n\nOn Adopte, every user has equal access to all profiles in the community, without favoritism. This ethical choice reflects the app's commitment to an inclusive and natural dating experience, where everyone can freely create unique connections.\n\nDISCOVER SLOW DATING AND LETTER MAIL\n\nOn Adopte, the quality of interactions is paramount, allowing singles to take the time to get to know each othe"
+  },
+  "free.mediaplayer.mp3.audio.music": {
+    "title": "Music Player - MP3 & Equalizer",
+    "package": "free.mediaplayer.mp3.audio.music",
+    "description": "Music Player - Audio Player & MP3 Player with powerful equalizer, all formats supported and stylish UI, Music player scans all music automatically and group them by title, artist, album. Easy to find the song you want. Music Player provides the best musical experience for you. Music Player - Audio Player is\u00a0the best music player for Android. \ud83d\udd25\ud83c\udf88\nMusic player, mp3 player find all song formats quickly. This mp3 player built-in top quality equalizer, with bass boost, reverb effects, these powerful features will takes your music listening experience to next level. \n\nMusic Player supports all music and audio formats including MP3, MIDI, WAV, FLAC, AAC, APE, etc. And play them in high quality.\n\n\ud83c\udf1f \u00a0Powerful Beats Equalizer and Bass Booster\n- MP3 Music Player\u00a0has Powerful Equalizer and Bass Boost. ",
+    "icon": "/icons/free.mediaplayer.mp3.audio.music.png"
+  },
+  "volumebooster.soundspeaker.louder": {
+    "title": "Volume Booster - Sound Booster",
+    "package": "volumebooster.soundspeaker.louder",
+    "description": "Always feel that your phone's system volume is not loud enough?\nWant to increase the sound volume of your headphones?\nVolume Booster - Sound Booster (EZ Booster) is definitely designed for you!\ud83e\udd73\n\nEZ Booster is a simple & powerful extra sound amplifier for all Android devices.\n\nIt can increase the volume up to 200%\ud83d\udd0a, well above your device's maximum system volume. It's a perfect choice if you want a higher volume when listening to music, watching videos, playing games, etc.\n\nDownload EZ Booster for FREE now and turn your phone into a portable speaker!\n\nWHY CHOOSE EZ BOOSTER\n\n\ud83d\udce3 Increase all volumes: music, movies, audiobooks, alarms, ringtones, etc.\n\ud83d\udce3 Boost volume without compromising the sound quality\n\ud83d\udce3 Adjust the volume to a specific level with one touch\n\ud83d\udce3 Stereo surround sound effect\n\ud83d\udce3 Mu",
+    "icon": "/icons/volumebooster.soundspeaker.louder.png"
+  },
+  "audio.mp3player.music.player": {
+    "title": "Music Player&Audio:Echo Player",
+    "package": "audio.mp3player.music.player",
+    "description": "Music Player - MP3 Player is an all in one Music Player and Audio Player with powerful equalizer and bass booster, Lyrics, stylish design, and supports all audio formats. Music Player built-in sound effect adjustment, EQ adjustment, volume enhancement and other functions that allow you to enjoy the clearest Hifi music. Music Player - Audio Player supports all types of music and audio formats and with beautiful custom background skin provides a great musical experience for you. Music Player can meet the needs of all music enthusiasts. \ud83c\udfb6\n\nWith Music Player - MP3 Audio Player, you can Easily Manage and play local music. Music Player can quickly scan all songs from all local folders, automatically classify and sort them by album, artist, genre, etc. The album cover and lyrics of the correspond",
+    "icon": "/icons/audio.mp3player.music.player.png"
+  },
+  "tool.audio.bassbooster.equalizer": {
+    "title": "Equalizer- Bass Booster&Volume",
+    "package": "tool.audio.bassbooster.equalizer",
+    "description": "Equalizer - Bass Booster & Volume Booster is a full-featured and easy-to-use music Equalizer app with Bass Booster, Volume Booster, 3D Virtualizer and Visualization effects. It allows you to improve the music or audio quality on your Android device. Using the Equalizer & Volume Booster, you can easily reset the music effect, control the volume and boost the bass sound. \ud83c\udf88\ud83d\udcaf\n\nEqualizer & Volume Booster can meet all your needs for music. Equalizer - Bass booster can access all types of music player apps, it is an excellent sound booster and bass booster. Whether  you're listening to music, playing games, watching movies or watching videos, it can help you balance your sound in the best way. Equalizer- Bass & Volume Boost creates an unprecedented listening experience and brings your music to a ",
+    "icon": "/icons/tool.audio.bassbooster.equalizer.png"
+  },
+  "mymusic.offlinemusicplayer.mp3player.playmusic": {
+    "title": "Offline Music Player: Play MP3",
+    "package": "mymusic.offlinemusicplayer.mp3player.playmusic",
+    "description": "Listen to your favorite music with the best music player for Android. \ud83c\udfb6\nJoin over 30 million users and enjoy the no WiFi music player to listen to music without WiFi! \ud83d\udc95\n\n\ud83e\udd14Bothered by the slow loading, stuttering playback, and data consumption of online music player apps?\n\ud83e\uddd0Want a free offline music player and MP3 player free with music playlists to play music offline?\n\ud83e\udd14Want a powerful audio player and media player that can play music in all formats with song lyrics?\n\nThen it\u2019s time to play music offline with \ud83c\udfb5 Music Player & MP3 Player \ud83c\udfb5. This is a free offline music player and song player to play offline music with equalizer, music playlists, and music widget. Among the many audio players, this offline mp3 player free has modern layouts and a fluent playing experience, you can listen to mu",
+    "icon": "/icons/mymusic.offlinemusicplayer.mp3player.playmusic.png"
+  },
+  "com.app.resort.volume.booster.sound.enhancer.app": {
+    "title": "Volume Booster Sound Booster",
+    "package": "com.app.resort.volume.booster.sound.enhancer.app",
+    "description": "\ud83d\ude80Volume Booster Sound Booster \u2013 Boost Your Phone\u2019s Audio Instantly\n\nVolume Booster Sound Booster is a powerful audio enhancer designed to improve your device\u2019s sound output and make your phone play louder and clearer. Whether you\u2019re listening to music etc this sound booster helps you enjoy a richer and more immersive audio experience.\n\n\ud83c\udfa7Experience Enhanced, Clear & Powerful Sound\n\nTurn ordinary audio into a deeper, more impactful listening experience. Volume Booster Sound Booster helps you improve volume and enjoy louder sound through both speakers and headphones\u2014within safe and supported device limits.\n\n\ud83d\udd25Key Features of Volume Booster Sound Booster\n\nBoost Volume:\nOne tap to enhance your device\u2019s sound output and make audio noticeably louder.\n\nPowerful Equalizer:\nCustomize bass, treble, an",
+    "icon": "/icons/com.app.resort.volume.booster.sound.enhancer.app.png"
+  },
+  "com.abrar.volumeboost": {
+    "title": "Volume Booster for Android",
+    "package": "com.abrar.volumeboost",
+    "description": "Sound amplifier will help you to increase volume levels on your device. With the sound booster, you will have a louder volume instantly. Using sound maximizer is the easiest way to boost volume on speakers and headphones.\n\nVolume Booster for Android is a simple and fast way to boost volume on your android device. The sound amplifier is helpful to achieve louder movies, louder audiobooks, and louder music.\n\nGreat Features of Volume Booster - Sound Amplifier\n\u2605 Super volume up - boost volume instantly\n\u2605 Music volume booster - Increase your music volume easily\n\u2605 Increase your voice call audio\n\u2605 Scale up and down the audio to suit your needs\n\u2605 Bass booster - Improve bass and woofer and feel the bass\n\u2605 Speaker booster - louder volume on your speakers\n\u2605 Music volume booster for your headphones\n\nP",
+    "icon": "/icons/com.abrar.volumeboost.png"
+  },
+  "com.google.android.accessibility.soundamplifier": {
+    "title": "Sound Amplifier",
+    "package": "com.google.android.accessibility.soundamplifier",
+    "description": "Sound Amplifier makes everyday conversations and surrounding sounds more accessible among people who are hard of hearing, using just your Android phone and a pair of headphones. Use Sound Amplifier to filter, augment, and amplify sounds around you and on your device.\n\nFeatures\n\u2022 Reduce unwanted noise to recognize speech better.\n\u2022 Focus on a speaker\u2019s voice in noisy environments with conversation mode. (Available for Pixel 3 and above.)\n\u2022 Listen to conversations, TV, or lectures. For audio sources that are farther away, Bluetooth headphones are recommended. (Bluetooth headphones might have delayed sound transmission.)\n\u2022 Personalize your listening experience for surrounding conversation or media playing on your device. You can reduce noise or boost low frequency, high frequency, or quiet sou",
+    "icon": "/icons/com.google.android.accessibility.soundamplifier.png"
+  },
+  "com.it4you.petralexmusic": {
+    "title": "Volume Control Sound Amplifier",
+    "package": "com.it4you.petralexmusic",
+    "description": "AUDIO PLAYER & SOUND AMPLIFIER for HEARING impaired users who want louder, clearer, & richer sound in any situation.\nThis AUDIO AMPLIFIER & SOUND ENHANCER acts as a VOLUME BOOSTER \ud83d\udd0a, BASS BOOSTER \ud83c\udfb6, MUSIC BOOSTER \ud83c\udfb5, & SPEAKER BOOSTER \ud83d\udce2. It also functions as a HEARING AMPLIFIER \ud83d\udc42 & HEADPHONE VOLUME BOOSTER \ud83c\udfa7, delivering CLEAR AUDIO BOOST & POWERFUL SOUND BOOST \u26a1 across all devices.\n\nPerfect for Bose Connect, Bose Connect App, Bose SoundTouch, Bose Soundlink, JBL Headphones, Beats Earbuds, Beats Studio Buds, Sony Headphone, Xiaomi Earbuds, Galaxy Earbuds, and Apple Earbuds. \ud83c\udfa7\ud83d\udd0a\u2728\n\n\u25c6 LISTEN FROM \u25c6\n\u25cf Dropbox \u2601\ufe0f\n\u25cf Smartphone media library \ud83d\udcf1\n\n\u25c6 KEY FEATURES \u25c6\n\u25cb Hearing amplifier and super volume booster for maximum loudness \ud83d\udd0a\n\u25cb Bass booster and bass booster music for deeper low tones \ud83c\udfb6\n\u25cb Speaker b",
+    "icon": "/icons/com.it4you.petralexmusic.jpg"
+  },
+  "com.soulapps.superloud.volume.booster.sound.speaker": {
+    "title": "Volume Booster - Sound Booster",
+    "package": "com.soulapps.superloud.volume.booster.sound.speaker",
+    "description": "\ud83d\udd0a Powerful Volume Booster for Android \u2013 Boost Every Sound\nTired of your phone not being loud enough? Looking for a volume booster free that delivers deep bass and clear audio? Try Extra Volume Booster \u2013 the all-in-one sound booster, equalizer, and bass booster built to amplify your music, videos, games, calls, and more.\n\nDownload Volume Booster Sound Booster now and enjoy louder, richer sound \u2013 no root required.\n\n\ud83c\udfa7 Why Super Volume Booster?\n\u2714 Speaker booster that boosts system, music, and media volume up to 200%\n\u2714 Louder volume for calls, videos, alarms, audiobooks, and games\n\u2714 Volume booster sound booster without losing sound quality\n\u2714 Boost volume on headphones, Bluetooth speakers & wired devices\n\u2714 Stereo surround sound with real-time spectrum\n\u2714 Built-in equalizer and 3D bass booster\n\u2714 S",
+    "icon": "/icons/com.soulapps.superloud.volume.booster.sound.speaker.png"
   }
 }
