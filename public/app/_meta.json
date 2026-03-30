@@ -10040,5 +10040,203 @@
     "package": "com.espesoft.projecto",
     "description": "A mobile client of the Projecto system for the project management, task delegation and event planning. Its capabilities are equal to the web version of Projecto and available as a native Android application.\n\nOur main features are:\n\nINBOX\nInbox accumulates all notifications requiring your attention or reaction, as well as any corpoprate announcements. One of your main purposes in Projecto is to respond opportunely to urgent notifications in the inbox, keeping it empty.\n\nTASKS\nIn this section, you'll see all tasks you've contributed to, grouped into various categories: created by you, assigned to you, under your supervision, overdue, etc. Any task can be divided into subtasks, creating a multi-level delegation tree where each performer is assigned a specific portion of the task by a specifi",
     "icon": "/icons/com.espesoft.projecto.png"
+  },
+  "com.marutisuzuki.rewards": {
+    "title": "Maruti Suzuki",
+    "package": "com.marutisuzuki.rewards",
+    "description": "Maruti Suzuki India Limited has revolutionized the Indian car market and redefined automotive experiences for Indian car buyers. The Maruti Suzuki app offers users with the complete ease of accessing all the services and information you need for your Maruti Suzuki Arena or NEXA cars. Besides that, the app also offers functionality to book appointments at the nearest Maruti Suzuki Arena or NEXA service center, check the status of your car\u2019s Maruti Insurance policy, manage your rewards under the Maruti Suzuki loyalty program, monitor car servicing, and more.\n\nKey Features of the Maruti Suzuki App:\nMaruti Suzuki Rewards: Our Loyalty Program\nWith Maruti Suzuki, experience hospitality that pampers, technology that's innovative and a relationship that's lifelong, a fact reflected in the features",
+    "icon": "/icons/com.marutisuzuki.rewards.png"
+  },
+  "com.garmin.android.apps.connectmobile": {
+    "title": "Garmin Connect\u2122",
+    "package": "com.garmin.android.apps.connectmobile",
+    "description": "The Garmin Connect\u2122 app is your one-stop source for health and fitness data. Whether you\u2019re training for a race, keeping active or just staying on top of your health, Garmin Connect provides the information and inspiration you need to reach your goals.\n\nOnce you pair your phone (1) with a Forerunner\u00ae, Venu\u00ae, f\u0113nix or another compatible Garmin device (2), you can review your tracked activities and health metrics. Plus, you can create workouts, build courses and challenge your friends on the leaderboard. \n\nWith Garmin Connect you can: \n \n- Personalize your home screen, so the most helpful information is instantly visible \n- Analyze your activities with detailed statistics(3)\n- Create customized workouts and courses \n- Review trends in health metrics like your heart rate, steps, sleep, stress",
+    "icon": "/icons/com.garmin.android.apps.connectmobile.png"
+  },
+  "com.SUZUKI.SUZUKImySPIN": {
+    "title": "SUZUKI mySPIN",
+    "package": "com.SUZUKI.SUZUKImySPIN",
+    "description": "If you have an old version (~2.21.1) App of \u201cSUZUKI mySPIN\u201d on your smartphone,\nyou have to uninstall it before installing this Version App (2.25.0) .\n\nSUZUKI mySPIN is only available on smartphones with Android 12,13,14,15 and 16.\nSUZUKI mySPIN is not guaranteed to work with screen folding type smartphones.\n\nSimply install the free SUZUKI mySPIN app and connect your smartphone to transfer its display to the GT&GX's large full-color TFT LCD screen where you can view the contents of your phone, contacts, calendrer, music and map app. You can also install a selection of supported third-party apps optimized for use by motorcycle riders and take advantage of additional services that bring greater convenience and fun to the touring experience. These include navigation, rider assistance, music s",
+    "icon": "/icons/com.SUZUKI.SUZUKImySPIN.png"
+  },
+  "com.fold": {
+    "title": "Fold: Bitcoin Personal Finance",
+    "package": "com.fold",
+    "description": "Buy, sell, and send bitcoin**; premium members pay no fees. Pay bills with your account and routing numbers.* Get up to 1.5% back on eligible bills. Earn bitcoin on everyday expenses. Earn extra bitcoin back on rotating card linked offers and popular gift cards.\n\nTake control of your personal finances with Fold: the currency you prefer and the banking features you need.*\n\nBUY, SELL, AND SEND BITCOIN\n- Buy, sell, and send bitcoin with no fees.**\n- Automate bitcoin buys with round-ups and DCA (auto-stack).\n- Get paid in up to 100% bitcoin.*\n\nPAY BILLS\n-  Pay all your bills with your Fold account and routing numbers.*\n- Earn up to 1.5% back on your biggest expenses like mortgage, rent, and credit cards. Conditions apply.\n\nEARN BITCOIN ON EVERY SHOP\n- Get started for free with a Fold Visa Prep",
+    "icon": "/icons/com.fold.png"
+  },
+  "com.foldhealth.patient": {
+    "title": "Fold Care",
+    "package": "com.foldhealth.patient",
+    "description": "Fold Care App helps you stay engaged in your health journey by making it easier to manage your care, communicate with your providers, join virtual visits, and track your progress over time.\n\nPractices using Fold offer an optional wellness feature that allows you to connect your smartphone or wearable device through Health Connect. If enabled for your care program, you may choose to share activity and wellness information, including:\n\n\u2022 Steps and exercise sessions\n\u2022 Active calories and total calories burned\n\u2022 Heart rate, resting heart rate, and heart rate variability (HRV)\n\u2022 Sleep patterns\n\u2022 Blood glucose\n\u2022 Oxygen saturation (SpO2)\n\nSharing this information is completely optional and not required to use the app. When you choose to connect a device, these insights can help you and your care ",
+    "icon": "/icons/com.foldhealth.patient.png"
+  },
+  "com.themobilecoder.foldcounter": {
+    "title": "Fold Counter for Foldables",
+    "package": "com.themobilecoder.foldcounter",
+    "description": "Fold Counter tracks how many times you open your foldable phone: daily totals, daily averages, and an all-time count.\n\nMost foldable phones (like the Samsung Galaxy Z Fold or Google Pixel Fold) are rated for a set number of folds. If you want to know where you actually stand, this app gives you that number.\n\nAlways free. No account. No ads. No internet connection required. Everything stays on your device.\n\nFeatures:\n- Automatic fold tracking whenever you fully open your foldable phone\n- Today's fold count at a glance\n- Daily average across your fold history\n- All-time total fold count\n- Completely offline, works without a network connection\n\nNo setup needed. Open the app, and it's already been counting. Your data never leaves your phone, and there's nothing to sign up for.",
+    "icon": "/icons/com.themobilecoder.foldcounter.png"
+  },
+  "com.game.foldpuzzle": {
+    "title": "Paper Fold",
+    "package": "com.game.foldpuzzle",
+    "description": "Get ready to have your mind folded, crumpled, and wonderfully twisted with Paper Fold the ultimate brain teaser that takes the art of paper folding to the next level! This logic game will have your brain firing on all cylinders as you dive into countless levels of pure folding fun.\n\nIn Paper Fold, each sheet of paper hides a secret shape waiting to be uncovered. Just like the traditional art of origami, but with an unexpected twist - you're not just folding, you're revealing hidden objects! Every fold brings you a step closer to solving the puzzle, and every \"good job\" will have you feeling a rush of satisfaction!\n\nTurn your downtime into an exciting adventure with Paper Fold, one of the most captivating paper games out there. This isn't just a puzzle game, it's a relaxing game that allows",
+    "icon": "/icons/com.game.foldpuzzle.png"
+  },
+  "com.foldhealth.provider": {
+    "title": "Fold Grow",
+    "package": "com.foldhealth.provider",
+    "description": "Fold's powerful and easy to use practice super charging platform. Fold together existing investments in people and resources to create modern, seamless services that your practice can offer without additional administration headaches.",
+    "icon": "/icons/com.foldhealth.provider.png"
+  },
+  "com.mytnb.mytnb": {
+    "title": "myTNB",
+    "package": "com.mytnb.mytnb",
+    "description": "Welcome to the new myTNB app. Track your energy consumption, pay bills at your fingertips and explore exclusive in-app features - it's never been easier.\n\n\u2022 A refreshed design and improved user experience: Get an overview of information that matters most to you at one glance, on a personalised dashboard.\n\u2022 Track your energy consumption: View and compare your monthly usage with the interactive usage graph.\n\u2022 Manage multiple TNB accounts: Link and manage all your TNB accounts on one platform.\n\u2022 Pay your bills: Faster in-app payment with the option to save your credit card for seamless transactions.\n\u2022 Notifications: Get notified of your new bills and much more.\n\u2022 View History: Keep track of your bill and payment history in a single view.\n\u2022 Promotions: Stay up to date with the latest promotion",
+    "icon": "/icons/com.mytnb.mytnb.webp"
+  },
+  "com.walmart.squiggly": {
+    "title": "MyWalmart",
+    "package": "com.walmart.squiggly",
+    "description": "Introducing the new MyWalmart experience\nEmpowering you to lead, connect, and deliver. The new app experience is built for store associates to help you own your day with confidence and make every customer interaction count.\n \nEverything You Already Love\u2014Only Better\nSeamlessly manage your work-life balance. Access your schedule, submit time-off requests, and swap or pick up shifts in just a few taps.\n \nFor You \nYour new personalized homepage prioritizes what matters most. From clocking in to managing real-time tasks, your \"For You\" feed serves up the highest-impact actions so you can focus on the win.\n \nToday\u2019s Plan\nStay ahead of the curve. Track store performance, monitor outcomes, and keep your team aligned to maximize impact and crush your goals.\n \nYour Team\nA dedicated space to grow tog",
+    "icon": "/icons/com.walmart.squiggly.png"
+  },
+  "com.greenmountainenergy.gme": {
+    "title": "Green Mtn",
+    "package": "com.greenmountainenergy.gme",
+    "description": "Available to Texas customers only. Stay connected to your green lifestyle where you are with the Green Mountain Energy App. With daily green living tips and a host of tools to manage your impact, we make it effortless to live cleaner and greener everyday.\n\n\u2022Pay your bill, check your balance, and review billing and payment history.\n\u2022Manage account services like AutoPay, Average Billing, and Tree Free billing.\n\u2022Transfer your electricity service to a new address.\n\u2022Access important plan details like your Electricity Facts Label, Terms of Service and your Rights as a Customer.\n\u2022Track your usage with interactive, customizable graphs that show trends, projected electricity costs and weather impacts in your area.\n\u2022Get green add-ons like Green Mountain Driver and support sustainability projects thr",
+    "icon": "/icons/com.greenmountainenergy.gme.png"
+  },
+  "com.sew.sdgeemr": {
+    "title": "My Energy Center",
+    "package": "com.sew.sdgeemr",
+    "description": "San Diego Gas & Electric\u2019s My Account has transitioned to My Energy Center.\n\nMy Energy Center is an easy and secure way to manage your gas and electric services, provided by SDG&E or your Community Choice Aggregator (CCA)\u2014San Diego Community Power (SDCP) or Clean Energy Alliance (CEA).\u202f\n\nWith My Energy Center, you can:\n\u2022\tView and pay your energy bill\n\u2022\tAccess your account summary including your projected bill\n\u2022\tView your energy usage\n\u2022\tReport or check the status of a power outage\n\u2022\tMake one-time payments or set up Auto Pay\n\u2022\tView your billing and payment history\n\u2022\tStart, stop, or transfer service\n\u2022\tSchedule a gas appliance check-up\n\nAnd much more\u2026",
+    "icon": "/icons/com.sew.sdgeemr.png"
+  },
+  "com.msedcl.app": {
+    "title": "Mahavitaran",
+    "package": "com.msedcl.app",
+    "description": "Mahavitaran Services now at your Fingertips\n\nThe Official App for Consumer by Mahavitaran ( M.S.E.D.C.L.). Mahavitaran Consumer App enables consumers to avail Mahavitaran services at his/her fingertips. The app is simple and easy to use.  It provides transparency in delivering services to consumers.\n\n\n\u25baFeatures :\n\n*View and Pay bill\n*Register and Track complaints\n*View Bill and Payment history\n*Manage Multiple Electricity Connections\n*Contact 24 x7 MSEDCL Call Center \n*Apply for New Connection\n* Know the status of New Connection Application and Pay Estimate Charges\n*Submit Meter Reading to avoid average billing\n*Provide Feedback about Mahavitaran Services\n*Update Contact Details ( Mobile Number & E-mail ID ) of consumer\n*Find MSEDCL offices and collection centers near you\n*Estimate your mo",
+    "icon": "/icons/com.msedcl.app.webp"
+  },
+  "com.nicusa.ms.mdot.traffic": {
+    "title": "MDOT Traffic (Mississippi)",
+    "package": "com.nicusa.ms.mdot.traffic",
+    "description": "Use this MDOTTraffic application to access real-time traffic alert information from across the State of Mississippi. \n\nFeatures of this app include:\n\u2022\tPush, text or email notification of real-time traffic alerts \n\u2022\tAccess to statewide streaming traffic cameras\n\u2022\tStatewide GPS traffic alert details \n\nThis application can be used as a companion to the mdottraffic.com website.  At mdottraffic.com, users can configure alerts related to their preferred driving routes.  Text, email or push notifications can be enabled to notify users of traffic alerts on their home, work or school routes.",
+    "icon": "/icons/com.nicusa.ms.mdot.traffic.png"
+  },
+  "com.exoticmatch.game": {
+    "title": "Zen Match",
+    "package": "com.exoticmatch.game",
+    "description": "Playing Zen Match for 10 minutes a day sharpens your mind and prepares you for your daily life and challenges!\n\nEnjoy this tile-matching mahjong puzzle, and have a moment of peace throughout your day to calm your mind and boost your brain. Sharpen & train your mind with a series of tile-matching levels that gradually increase puzzle difficulty. Relax, enjoy beautiful background sceneries, and use your creativity to decorate your own Zen room to relax!\n\nChallenge yourself with this amazing mahjong-inspired game where your goal is to match 3 tiles and clear the board. If you love Match 3 puzzles or mahjong, you will love the challenge and relaxing effect of Zen Match. Match tiles, clear the board, decorate, and color your own relaxing room and find your peace in Zen Match!\n\nCome back to it e",
+    "icon": "/icons/com.exoticmatch.game.png"
+  },
+  "com.rta.rtadubai": {
+    "title": "RTA Dubai",
+    "package": "com.rta.rtadubai",
+    "description": "Introducing \u201cRTA Dubai:\u201d Your One-Stop Shop for All Roads, Traffic and Transportation Services.\n\u201cRTA Dubai\u201d is the new digital platform from the Roads and Transport Authority (RTA) that brings together all your traffic and transportation services in one place. With \u201cRTA Dubai,\u201d you can do everything you need to do, all in one app.\nHere are some of the exciting things you can do with \u201cRTA Dubai:\u201d\n\u2022\tSecurely sign up to \u201cRTA Dubai\u201d app with UAE Pass in seconds. \n\u2022\tAll on street / off street parking services and parking permits in one place, making it more convenient to park your car in Dubai.\n\u2022\tRenew your driving license or book a vehicle test appointment with just a few taps. No more visits to RTA\u2019s customer happiness centres.\n\u2022\tGet help from Mahboub, RTA's chatbot, anytime you need it. Mahb",
+    "icon": "/icons/com.rta.rtadubai.png"
+  },
+  "com.keralapolice": {
+    "title": "Pol-App (Kerala Police)",
+    "package": "com.keralapolice",
+    "description": "The official Kerala Police App is a digital initiative to give the common public easy access to all our services. More intuitive services will be soon added to this in short time.Our aim is to facilitate easier access to citizens to the services provided by the department.",
+    "icon": "/icons/com.keralapolice.png"
+  },
+  "com.uaemoi.smartservices": {
+    "title": "MOI UAE",
+    "package": "com.uaemoi.smartservices",
+    "description": "MOI UAE provides smart services to be used by individuals and companies as well. The application provides services that covers three main sectors of the Ministry of Interior of United Arab Emirates, which are the following:\n\n1. Traffic and Licensing (Vehicles Licensing, Driver Licensing, Traffic Fines and Plates Services)\n\n2. Civil Defense (Institutions Licensing, Trading Companies Licensing, Drawings Approvals, Prevention and Safety Procedures for Vehicles and Awareness and Training Services)\n\n3. Police Headquarters (Criminal Status, E-Police in Your Mobile, Home Security and Prisoners Visit)\n\nIn addition to the smart services, the application provides many smart features such as the nearest service center location as well as a ticketing service to book your appointments before heading to",
+    "icon": "/icons/com.uaemoi.smartservices.png"
+  },
+  "com.kog.alarmclock": {
+    "title": "I Can't Wake Up! Alarm Clock",
+    "package": "com.kog.alarmclock",
+    "description": "Can't wake up?\nWith this alarm clock you sure will get up on time, thanks to up to eight different Wake Up Tasks which won't let you turn the alarm off until you finish them! \nMind or body stimulation? Or maybe having to actually leave the bed? How about practicing foreign language while we are at it? \nFinally, for those extra cunning morning selves, there's a number of Alarm Quitting Prevention options to make sure the alarm is not quit by turning off the phone or force stopping the app, instead of finishing set Tasks :)\n\nThis application features options that you would expect from alarm clock, like setting multiple alarms, daily repeating or snooze, plus many more, helping you to get up:\n\u22c6 Wake Up Tasks \u2013 finish those small games or alarm won't stop playing! You can configure every Task ",
+    "icon": "/icons/com.kog.alarmclock.png"
+  },
+  "com.enteriosoft.extremebalancer3": {
+    "title": "Extreme Balancer 3",
+    "package": "com.enteriosoft.extremebalancer3",
+    "description": "Extreme Balancer 3 is an exciting and challenging game where you have to balance a ball on narrow wooden bridges and guide it safely to the end of each level. Be careful, if the ball falls off, you will have to start over! The game has beautiful 3D graphics and realistic physics that make it feel like you are really balancing the ball.\n\nKey Features:\n- Challenging Levels: Test you ball balancing skills with the levels that get harder as you go.\n- Realistic Physics: Experience lifelike ball physics that make every movement and obstacle feel real.\n- Beautiful 3D Graphics: Explore stunning environments as you roll through different worlds.\n- Simple Controls: Easy-to-use controls let you focus on the game.\n- Addictive Fun: Once you start, you won't want to stop until you have conquered every l",
+    "icon": "/icons/com.enteriosoft.extremebalancer3.png"
+  },
+  "com.kosherdev.simpleluach": {
+    "title": "Jewish calendar - Simple Luach",
+    "package": "com.kosherdev.simpleluach",
+    "description": "Simple Luach is a simple, lightweight Jewish calendar app with Jewish dates and Zmanim.\n\nYou can also try our web app https://therekosher.com for searching kosher places, minyans and eruvs all over the world.\n\nYou can find the nearest minyan, synagogue or a place to daven on the map. Information is provided by GoDaven.com (http://godaven.com). \nNote: not app developer, not GoDaven.com is responsible for the provided information.\n\nYou can donate just in the app, using in-app payments. Thank you in advance for any help and support.\n\nLocation is detected automatically on first start. If your device has no GPS or not connected to Mobile networks, then you can select location on map. Long tap on any place in the map and it will set your location.\n\nSpecial thanks for helping in translation:\n- Ge",
+    "icon": "/icons/com.kosherdev.simpleluach.png"
+  },
+  "com.gyro.mobile.dev64620.appjwcl": {
+    "title": "Jewish Calendar",
+    "package": "com.gyro.mobile.dev64620.appjwcl",
+    "description": "Handy calendar with Hebrew dates, holy days, days of observance and candle lighting times.\n\nCalendars with candle lighting times for different parts of the world such as: \n\n\u25cf Los Angeles\n\u25cf New York\n\u25cf Jerusalum\n\u25cf Paris\n\u25cf Toronto\nand more...\n\nGreat for travelers and planning ahead.\n\nHelpful to increase awareness of Jewish holidays and to help Jews to be observant of the mitzvot.\n\nSmall download size and completely free with no limitations or restrictions.",
+    "icon": "/icons/com.gyro.mobile.dev64620.appjwcl.png"
+  },
+  "com.iend.hebrewcalendar": {
+    "title": "Hebrew Calendar",
+    "package": "com.iend.hebrewcalendar",
+    "description": "Join the largest Jewish app in the world.\n\nWith over 3 million downloads and hundreds of thousands of active users every month, the Hebrew Calendar app is proud to be a pioneer in Jewish information and lifestyle content.\n\nMain Features:\n\t\u2022\tFull Jewish calendar synced with your local calendar\n\t\u2022\tAccurate candle lighting and Havdalah times based on your device\u2019s GPS or manual location selection\n\t\u2022\tFull Siddur, available offline\n\t\u2022\tTikun Chatzot, Bedtime Shema\n\t\u2022\tDaily learning: Daily Rambam (1 and 3 chapters), Daf a Week, and more\n\t\u2022\tDaily Tehillim, Parashat Hashavua, Tikkun HaKlali\n\t\u2022\tHebrew and standard date conversion\n\t\u2022\tDate reminders by Hebrew date (Yahrzeit, Birthday, etc.)\n\t\u2022\tZmanim notifications and reminders\n\t\u2022\tCalculators: Bar Mitzvah, Tahara purification, Numerology, Gematria\n\t\u2022\t",
+    "icon": "/icons/com.iend.hebrewcalendar.png"
+  },
+  "com.alejo.jewishcalendardroid": {
+    "title": "Jewish Calendar Dates",
+    "package": "com.alejo.jewishcalendardroid",
+    "description": "Calendar, Shabbat and Candle lighting times for any year, past or present. \nConvert between Hebrew and Gregorian dates.",
+    "icon": "/icons/com.alejo.jewishcalendardroid.png"
+  },
+  "com.pdfeditor.pdfeditorandriod": {
+    "title": "PDFgear: PDF Editor & Reader",
+    "package": "com.pdfeditor.pdfeditorandriod",
+    "description": "PDFgear is a full-featured and free PDF editor, which provides read, edit, annotation, page management, and print PDF documents. \n\n\"It's called PDFgear, and it's a holy grail I never thought I'd find.\" - Digital Trends\n\"PDFgear is a full toolkit for doing pretty much anything you could want to do with a PDF.\" - Lifewire\n\nPDFgear is a full-featured, easy-to-use, and free PDF Editor & PDF Reader. With practical functions like view, edit, and page reorganizing in PDFgear, the comprehensive PDF toolkit, users could handle their PDF files with more efficiency. PDFgear offers even more - split PDF into several files, rotate page direction, add or delete pages and so on. \n\nPDFgear provides free use for all functions without any limits like trial watermark, page count, etc. The concise design brin",
+    "icon": "/icons/com.pdfeditor.pdfeditorandriod.jpg"
+  },
+  "com.motionvolt.flipbounce": {
+    "title": "Flip Master",
+    "package": "com.motionvolt.flipbounce",
+    "description": "The ULTIMATE TRAMPOLINE GAME on Mobile!\n\nMaster the trampoline with Frontflips, Backflips, Gainers, Layouts, Jumps and Bounces on your backyard, gym or circus trampolines and train to be the Master of Trampoline!\n\nWith a custom physics engine and animated Ragdoll Physics, Flip Master is the most dynamic and entertaining Trampoline experience ever created! Defy the laws of physics and prove yourself worthy!\n\nDownload Flip Master NOW and get:\n\nVARIETY OF COOL LOCATIONS!\n\u2b50 Pick your location! A Backyard, Gym, a Competitive trampoline! \n\u2b50 Crazy Circus and Trampoline Park with multiple trampolines!\n\nSKILLS AND TRICKS TO UNLOCK! \n\u2b50 Unlock dangerous and spectacular skills! \n\u2b50 Backflips, Frontflips, Gainers and 10 more tricks at the palm of your hand!\n\nCRAZY POWER UPS!\n\u2b50 Power-up Frenzy! A huge am",
+    "icon": "/icons/com.motionvolt.flipbounce.png"
+  },
+  "com.gametornado.flipbros": {
+    "title": "Flip Bros",
+    "package": "com.gametornado.flipbros",
+    "description": "Flip Bros is a funny platform game where you take down your enemies by launching yourself at them! All you need to do is to jump, rotate, and shoot yourself at the right time. The key to success is to maintain your momentum and seize the perfect moment! Seems simple, right? Be careful with all kinds of obstacles that could hurt you or stop you. Let us flip together!",
+    "icon": "/icons/com.gametornado.flipbros.png"
+  },
+  "com.miniclip.topskater": {
+    "title": "Flip Skater",
+    "package": "com.miniclip.topskater",
+    "description": "Skateboard like the Best!\n\nChoose your board and get ready for a thrilling ride on the Halfpipe! Slide down the ramps at high speed to reach outrageous heights and become the best Skateboarder on the Planet!\n\nTravel the globe on the most amazing environments and leave your Skateboarder print all over the World! Do amazing tricks - Nose grabs, rocket airs, frontside airs - Beat the highest scores and show your mad skills to the World!\n\nDownload Flip Skater NOW!\n\n--------------------------------------\n\nTRAVEL THE WORLD!\n\nTravel the World and choose your favourite location to Skate! From Miami Beach to Lake Baikal, take on the variety of ramps available for you!\n\nSPECTACULAR BOARDS!\n\nPick your favourite board from a huge lot of possibilities! Make sure you skate in style! Unlock upgrades for ",
+    "icon": "/icons/com.miniclip.topskater.png"
+  },
+  "com.miniclip.flipbmx": {
+    "title": "Flip Rider - BMX Tricks",
+    "package": "com.miniclip.flipbmx",
+    "description": "The BEST BMX GAME on Mobile!\n\nChoose your bike and get ready for a thrilling ride on the Halfpipe! Slide down the ramps at high speed to reach outrageous heights and become the best BMX Rider on the Planet!\n\nTravel the globe on the most amazing environments and leave your BMX Rider print all over the World! Do amazing tricks - Nose grabs, rocket airs, frontside airs - Beat the highest scores and show your mad skills to the World!\n\nDownload Flip Rider - BMX Tricks NOW!\n\n--------------------------------------\n\nTRAVEL THE WORLD!\n\nTravel the World and choose your favourite location to shred! From Miami Beach to Lake Baikal, take on the variety of ramps available for you!\n\nSPECTACULAR BMX Bikes!\n\nPick your favourite bike from a huge lot of possibilities! Make sure you ride in style! Unlock upgr",
+    "icon": "/icons/com.miniclip.flipbmx.png"
+  },
+  "com.motionvolt.fliprunner": {
+    "title": "Flip Runner",
+    "package": "com.motionvolt.fliprunner",
+    "description": "Flip and trick above city rooftops, forests and lakes with physics-based control!\n\nOriginal & Authentic FLIP PARKOUR GAME! Created by the developer of Flip Diving & Flip Master!\n\nDownload Flip Runner NOW and get:\n\n\u2713 HUGE AMOUNT OF AMAZING CHALLENGES\n\u2b50 Flip on Skyscrapers, Antennas, Park, Crossroads! \n\u2b50 Trick through forests, mountains and lakes!\n\u2b50 Cars, Downtown, sunshades, air conditioners, you name it!\n\u2b50 Hundreds of awesome challenges!\n\u2b50 Receive extra special challenges from the spin! \n\u2b50 Select any tricks to use for any challenge!\n\n\u2713 UNPARALLEL PHYSICS GAMEPLAY\n\u2b50 Truly original, based on hit games Flip Diving & Flip Master! \n\u2b50 Improved for parkour perfection!\n\u2b50 Pull off backflips, frontflips, gainers, twists, inverses! \n\u2b50 Tons of other mad tricks! All modelled with unparallel physics!\n\n\u2713",
+    "icon": "/icons/com.motionvolt.fliprunner.png"
+  },
+  "com.urbandroid.dnd": {
+    "title": "Flip DND: Flip to shhh..shush!",
+    "package": "com.urbandroid.dnd",
+    "description": "Focus on your life, not your phone! Flip phone to shhh (or shush)..\n\nIt's that easy. Just flip your phone screen down, wait 2 seconds, and no more distractions. Pick it up and be instantly available. \n\nMinimal battery impact and super easy to use.\n\nCAUTION: The app will not work reliably for users with a virtual proximity sensor - some manufacturers fake the proximity sensor with a touch sensor instead of a real proximity sensor!\n\nFor example Samsung S10 and S20 - https://sites.google.com/view/glimpse-notifications/startseite/samsung_s10_issues",
+    "icon": "/icons/com.urbandroid.dnd.png"
+  },
+  "com.HeyDigitalEntertainment.PhoneFlip": {
+    "title": "Phone Flip",
+    "package": "com.HeyDigitalEntertainment.PhoneFlip",
+    "description": "Tap to jump and flip the phone. Land perfectly on the charger at the end of the level to  complete it. Collect coins, unlock skins, trails and backgrounds for your phone and complete all 1000 levels! Let's go!",
+    "icon": "/icons/com.HeyDigitalEntertainment.PhoneFlip.png"
+  },
+  "com.TheoreticalStudio.PhoneFlip": {
+    "title": "Phone Flip Challenge",
+    "package": "com.TheoreticalStudio.PhoneFlip",
+    "description": "Flip Phone Challenge\nArcade time killer and flip game where you control your phone with real physics. Flip, spin, and catch in fast one-handed challenges.\n\nExperience one of the most unique phone games ever.\nFlip your real phone, master real physics, and beat quick one-handed challenges in this addictive arcade game.\n\nFlip Phone Challenge is a flip game and physics game where your smartphone becomes the controller. There are no virtual buttons and no complex combos. You pick up your phone, toss it into the air, make it spin, and catch it at the perfect moment. Every clean landing scores points. Every fail turns into a funny moment. This addictive experience is both a skill challenge and a dexterity test that transforms short breaks into exciting flip battles.\n\n\ud83c\udfaf THE GAME WHERE YOUR PHONE I",
+    "icon": "/icons/com.TheoreticalStudio.PhoneFlip.png"
   }
 }
