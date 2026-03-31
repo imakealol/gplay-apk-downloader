@@ -11991,5 +11991,203 @@
     "package": "com.bible.bibleoffline",
     "description": "The Hebrew Bible Offline app features offline Jewish texts with niqqud and cantillation. offered freely download for public service.\n\nThe Hebrew Bible texts are provided in Hebrew and English.\n\nThe included bible books (Tanach):\n\nPentateuch (Chamisha Chumshei Torah)\n\u2022 Genesis - Bereshit (\u05d1\u05b0\u05bc\u05e8\u05b5\u05d0\u05e9\u05b4\u05c1\u05d9\u05ea, literally \"In the beginning\")\n\u2022 Exodus - Shemot (\u05e9\u05b4\u05c1\u05de\u05d5\u05b9\u05ea, literally \"Names\")\n\u2022 Leviticus - Vayikra (\u05d5\u05b7\u05d9\u05b4\u05bc\u05e7\u05b0\u05e8\u05b8\u05d0, literally \"And He called\")\n\u2022 Numbers - Bemidbar (\u05d1\u05b0\u05bc\u05de\u05b4\u05d3\u05b0\u05d1\u05b7\u05bc\u05e8, literally \"In the desert [of]\")\n\u2022 Deuteronomy - Devarim (\u05d3\u05b0\u05bc\u05d1\u05b8\u05e8\u05b4\u05d9\u05dd, literally \"Things\" or \"Words\")\n\nProphets (Nevi'im)\nNevi'im (\u05e0\u05b0\u05d1\u05b4\u05d9\u05d0\u05b4\u05d9\u05dd\u200e N\u0259\u1e07\u00ee'\u00eem, \"Prophets\") is the second main division of the Tanakh, between the Torah and Ketuvim. It contains two sub-groups, the Former Prophets (\u05e0\u05d1\u05d9\u05d0\u05d9\u05dd \u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd\u200e Nevi'im Rishonim) and the",
     "icon": "/icons/com.bible.bibleoffline.png"
+  },
+  "co.you.youapp": {
+    "title": "YouTrip",
+    "package": "co.you.youapp",
+    "description": "Meet YouTrip - your multi-currency mobile wallet and Mastercard for hassle-free spending across 150+ countries. Designed for travellers in Singapore, Thailand, and Australia, YouTrip lets you shop anywhere \u2013 online or in-store \u2013 with the best rates and zero fees.  \n\nJoin millions of users across Asia Pacific who use YouTrip to pay and travel smarter!\n\nWhenever, wherever, we got you\n\u2022 Pay with the best rates in 150+ countries\n\u2022 Exchange & hold popular currencies right in the app\n\nGoodbye hidden fees \n\u2022 Travel and shop freely with zero FX fees\n\u2022 Withdraw cash fee-less* from overseas ATMs \n(*Fee-less withdrawal limits per calendar month: S$400 for Singaporeans, THB 50,000 for Thais, and AS$1,500 for Australians. A 2% fee applies thereafter.)\n\nIt can\u2019t get any safer than this\n* Lock and secure",
+    "icon": "/icons/co.you.youapp.png"
+  },
+  "hk.com.hsbc.hsbchkmobilebanking": {
+    "title": "HSBC HK Mobile Banking",
+    "package": "hk.com.hsbc.hsbchkmobilebanking",
+    "description": "HSBC HK Mobile Banking app (HSBC HK App)\n\nDesigned specifically for our Hong Kong customers*, HSBC HK App offers a seamless, easy and secure way to manage your everyday banking needs on the go. Key features:\n\u2022 New customers can open a bank account on our app without visiting a branch (For Hong Kong customers only);\n\u2022 Log on securely and verify transactions with built-in Mobile Security Key and biometric authentication;\n\u2022 Pay friends and merchants via FPS QR code, mobile number or email\nand transfer & pay bills/credit card easily \n\u2022 Check your account balance, credit card balance, insurance policies and MPF at a glance;\n\u2022 Review your investment performance and swiftly manage your transactions in one place;\n\u2022 Stay informed with push notifications for eStatements and eAdvices, incoming FPS fu",
+    "icon": "/icons/hk.com.hsbc.hsbchkmobilebanking.png"
+  },
+  "com.vndc": {
+    "title": "ONUS: Buy Bitcoin,ETH & Crypto",
+    "package": "com.vndc",
+    "description": "Buy Bitcoin (BTC), buy Ethereum (ETH), and trade over 600+ cryptocurrencies quickly and securely on ONUS \u2014 an all-in-one crypto wallet and cryptocurrency exchange platform. ONUS integrates all essential investment tools such as Spot, Futures, Swap, Blockchain Wallet, along with staking, farming, and various online earning programs, helping both beginners and experienced investors trade, store, and grow their crypto assets effectively.\n\n1. CRYPTO EXCHANGE - FAST CRYPTOCURRENCY TRADING\n\nONUS allows you to trade Spot and Futures with more than 600+ top cryptocurrencies, including:\n\nBitcoin (BTC), Ethereum (ETH), Notcoin (NOT), SHIBA INU (SHIB), Pepe Coin (PEPE), Solana (SOL), Ripple (XRP), Toncoin (TON), Litecoin (LTC), Dogecoin (DOGE), Binance Coin (BNB), Arbitrum (ARB), Worldcoin (WLD), ZKs",
+    "icon": "/icons/com.vndc.png"
+  },
+  "com.mm.android.smartlifeiot": {
+    "title": "Imou Life",
+    "package": "com.mm.android.smartlifeiot",
+    "description": "ABOUT IMOU LIFE\nImou Life App is specially created for Imou cameras, doorbells, sensors, NVR and other smart IoT products, committed to creating a secure, simple, and smart life for everyone.\n\nHIGHLIGHTED FEATURES\n[Remote View and Control]\n- Watch live view or recorded playback from anywhere\n- Real-time communication via two-way talk\n- Turn on the built-siren or spotlight to warn off intruders\n\n[Intelligent Alert]\n- Get instant alerts whenever something happens\n- Avoid false alert with AI human detection\n- Set alert schedule\n\n[Security Guarantee]\n- Emphasize user privacy and comply with GDPR regulations\n- Encrypted audio and video transmission\n- Store the video to the cloud, so you can view it even if your device is lost\n\n[Easy Sharing]\n- Share device access to your friends and relatives\n-",
+    "icon": "/icons/com.mm.android.smartlifeiot.png"
+  },
+  "com.VCB": {
+    "title": "VCB Digibank",
+    "package": "com.VCB",
+    "description": "VCB Digibank is the digital banking application for personal customers by Vietcombank (the largest capitalized bank in Vietnam). VCB Digibank has been chosen by tens of millions of customers to conduct their daily financial transactions.\n\nVCB Digibank incorporates numerous breakthrough technologies along with unique services, providing simple and exciting experiences for customers:\n-  Online registration in just a few minutes.\n-  No transfer fees, no registration fees, no maintenance fees.\n-  Free account number matching phone number, free account nickname.\n-  Personal finance management, group account.\n-  Interface selection according to preference.\n-  Transferring money, and cash withdrawal using QR code.\n-  And hundreds of other financial transactions: Savings deposits; Loan disbursemen",
+    "icon": "/icons/com.VCB.png"
+  },
+  "com.google.android.apps.wallpaper": {
+    "title": "Wallpapers",
+    "package": "com.google.android.apps.wallpaper",
+    "description": "Make the most of your display with beautiful wallpapers and advanced features. Choose one of your own photos, an image from the Google Earth collection, a scenic landscape from Google+, and more. Change it as often as you like, so your phone always represents your style. \n\n    \u2022 Enjoy a collection that keeps on growing. Access images from Google Earth, Google+, and other partners.\n    \u2022 Double your fun. Show the world one wallpaper on your lock screen, and keep one for yourself on your home screen. (Requires Android\u2122 7.0, Nougat, and above.) \n    \u2022 Start each day fresh. Pick your favorite category and you\u2019ll get a new wallpaper image each day.\n\n Permissions Notice \n Photos/Media/Files: Needed to allow you to use custom photos as wallpaper.\n Storage: Needed to display the currently set wall",
+    "icon": "/icons/com.google.android.apps.wallpaper.png"
+  },
+  "ch.deletescape.lawnchair.plah": {
+    "title": "Lawnchair Legacy",
+    "package": "ch.deletescape.lawnchair.plah",
+    "description": "Lawnchair Legacy is an older, feature-complete version of Lawnchair based on Launcher3 from Android 9.\n\nThis version is in maintenance mode only, so only critical updates relating to Play Store and security will be made.\n\nKey Features\n\u2014 Support for Adaptive Icons.\n\u2014 Flexible Desktop, Dock, and Drawer.\n\u2014 Drawer Categories (Tabs & Folders).\n\u2014 Integration with Android Recents.\u00b9\n\u2014 Automatic Dark Mode.\n\u2014 Contextual data in At a Glance.\n\u2014 Notification Dots.\n\u2014 Integration with Google Feed and Homefeeder.\u00b2\n\nGet Support\n\u2014 twitter.com/lawnchairapp.\n\u2014 t.me/lccommunity.\n\n1. Requires QuickSwitch (t.me/QuickstepSwitcherReleases). Works on Android 9.\n2. Requires Lawnfeed (lawnchair.app/lawnfeed) and Homefeeder (t.me/homefeeder) respectively.\n\nNote: this release doesn\u2019t officially support Android 10.\n\nLaw",
+    "icon": "/icons/ch.deletescape.lawnchair.plah.png"
+  },
+  "com.adamioan.scriptrunner": {
+    "title": "SH Script Runner",
+    "package": "com.adamioan.scriptrunner",
+    "description": "SH Script Runner allows you to execute sh script on your Android device. You can load and save scripts and execute them using superuser previleges (if root is available).",
+    "icon": "/icons/com.adamioan.scriptrunner.png"
+  },
+  "com.rehearser.rehearser3free": {
+    "title": "Script Rehearser",
+    "package": "com.rehearser.rehearser3free",
+    "description": "Hit the ground running. Save yourself hours and turn up knowing your lines. Whether it\u2019s a stage script, screenplay, speech or presentation, you can rehearse and memorize on the go in an effective and convenient way. There\u2019s no need to assemble the rest of the cast, or have a rehearsal partner or reader.\n\nActors, TV personalities, business people, public speakers and students - learn your material more effectively with Script Rehearser. You can even practice English language conversation.\n\nYou can just start recording your own voice straight away. Or you can import your theater or movie script* or simply type in your lines. Script Rehearser will read them back to you whenever you want using its customizable options to prompt you. Optimize how you rehearse as you progress.\n\nFeatures include",
+    "icon": "/icons/com.rehearser.rehearser3free.png"
+  },
+  "com.scriptpro.app": {
+    "title": "Script Pro: Write Screenplay",
+    "package": "com.scriptpro.app",
+    "description": "Script Pro: The Ultimate App for Screenwriting and AI Storyboarding\n\nTake your stories to the next level with Script Pro, the all-in-one tool for screenwriters, directors, and filmmakers. Write cinematic scripts, organize your ideas, and create visual storyboards with our AI-powered script editor and integrated image generation.\n\nWhether you are working on a feature film, a short film, a web series, or a YouTube script \u2014 Script Pro helps you move from concept to professional format in minutes.\n\n\u270d\ufe0f Professional Screenwriting \n\u25aa\ufe0f Industry-standard formatting (pro margins and Courier typography). \n\u25aa\ufe0f Integrated AI Editor to boost your writing flow and ideation. \n\u25aa\ufe0f Distraction-free environment for deep focus and creativity. \n\u25aa\ufe0f Ideal for movie scripts, teleplays, and digital content.\n\n\ud83c\udfac Story",
+    "icon": "/icons/com.scriptpro.app.png"
+  },
+  "com.markodevcic.code_runner": {
+    "title": "Code Runner App Compiler & IDE",
+    "package": "com.markodevcic.code_runner",
+    "description": "Code Runner is the ultimate app for coding enthusiasts, programmers and developers. \nWhether you want to learn a new programming language, practice your developer skills, or work on your programming projects, Code Runner has you covered.\n\nCode Runner is a versatile coding editor and compiler on your mobile device.\nThis customizable editor has full programming code syntax highlighting.\nCode completion and editor actions like undo, redo, comment lines, and indent selection enhance your developer productivity.\nBuilt-in AI Assistant can refactor your code and check it for bugs.\n\nWith this app, you can compile and execute code in more than 30 supported programming languages.\nConnect to GitHub and checkout, edit, run, and commit files from your repositories.\n\nWhether it's C, C++, Python, JavaScr",
+    "icon": "/icons/com.markodevcic.code_runner.png"
+  },
+  "com.scripturlyapp.scripturly": {
+    "title": "Scripturly",
+    "package": "com.scripturlyapp.scripturly",
+    "description": "Scripturly helps you engage with Scripture daily through personalized readings, reflections, and progress tracking \u2014 making spiritual growth simple, consistent, and meaningful.",
+    "icon": "/icons/com.scripturlyapp.scripturly.png"
+  },
+  "com.qamar.editor.shellscript": {
+    "title": "Shell Script Editor",
+    "package": "com.qamar.editor.shellscript",
+    "description": "A shell script editor for android that edits and runs shell scripts on your device.\nFeatures\n- Run the script from the editor.\n- Auto indent\n- Syntax highlighting\n- Undo and Redo\n- Access to a terminal.",
+    "icon": "/icons/com.qamar.editor.shellscript.png"
+  },
+  "com.csgroup.terminal": {
+    "title": "Terminal, Shell for Android",
+    "package": "com.csgroup.terminal",
+    "description": "Terminal, Shell for AndroidTerminal, Shell,Command Line for android has features :\n\n+) Typing command line,shell bash, Terminal for android devices\n+ Full Linux terminal emulation.\n+ Support UTF-8 text encoding. (Arabic, Chinese, Greek, Hebrew, Japanese, Korean, Russian, Thai, etc.)\n+) Support root commandline\n+) Multi screen for typing command line\n+) Custom font typing (font size, font color)\n+) Linux command,linux shell, linux terminal for android devices\n+) 100% Free\n\nThankyou for using application.",
+    "icon": "/icons/com.csgroup.terminal.png"
+  },
+  "com.algsoftlab.learnshell": {
+    "title": "Learn Shell Scripting",
+    "package": "com.algsoftlab.learnshell",
+    "description": "Complete Shell Scripting tutorial with commands, quizzes & practical examples.\n\nLearn Shell Scripting and Bash programming with our comprehensive tutorial app. Perfect for beginners starting their scripting journey and professionals automating their workflows.\n\nAvailable in 6 Languages:\n\u2022 English, French, German, Portuguese, Russian, and Spanish - study in your native language!\n\nWhat You'll Learn:\n\t\u2022\tShell scripting fundamentals and command line basics\n\t\u2022\tVariables, loops, and conditional statements\n\t\u2022\tFunctions and script organization\n\t\u2022\tFile manipulation and text processing\n\t\u2022\tSystem automation and task scheduling\n\t\u2022\tAdvanced scripting techniques and best practices\n\nComplete Learning Experience:\n\t\u2022\t20+ structured chapters from beginner to advanced\n\t\u2022\tStep-by-step tutorials with practical",
+    "icon": "/icons/com.algsoftlab.learnshell.png"
+  },
+  "com.algsoftlab.learnshellpro": {
+    "title": "Learn Shell Scripting Pro",
+    "package": "com.algsoftlab.learnshellpro",
+    "description": "Complete Shell Scripting tutorial with commands, quizzes & practical examples.\n\nLearn Shell Scripting and Bash programming with our comprehensive tutorial app. Perfect for beginners starting their scripting journey and professionals automating their workflows.\n\nAvailable in 6 Languages:\n\u2022 English, French, German, Portuguese, Russian, and Spanish - study in your native language!\n\nWhat You'll Learn:\n\t\u2022\tShell scripting fundamentals and command line basics\n\t\u2022\tVariables, loops, and conditional statements\n\t\u2022\tFunctions and script organization\n\t\u2022\tFile manipulation and text processing\n\t\u2022\tSystem automation and task scheduling\n\t\u2022\tAdvanced scripting techniques and best practices\n\nComplete Learning Experience:\n\t\u2022\t25+ structured chapters from beginner to advanced\n\t\u2022\tStep-by-step tutorials with practical",
+    "icon": "/icons/com.algsoftlab.learnshellpro.png"
+  },
+  "com.glenmax.theorytest": {
+    "title": "Driving Theory Test Kit 4 in 1",
+    "package": "com.glenmax.theorytest",
+    "description": "Free version of Driving Theory Test 2025 allows you to practise all revision questions, answers, explanations, licensed by DVSA (the people who set the test) FOR FREE.\n\nTop 10 reasons why every learner UK car driver should download this app NOW\n1. Up-to-date - all revision materials are valid for 2025 . \n2. Mock tests - Take unlimited mock tests which are just like the actual DVSA exam.\n3. DVSA questions - Practise DVSA revision questions.\n4. DVSA Explanation - Each practice question contains the explanation of the answer from the DVSA, increasing the effectiveness of your preparation.\n5. Flagged questions - Flag the toughest questions on a well-designed user interface to review them again later (for example, 30 minutes before the exam).\n6. Personal Trainer - Your own assistant thoughtfull",
+    "icon": "/icons/com.glenmax.theorytest.png"
+  },
+  "com.simbacore.theorytest": {
+    "title": "Theory Test Guide",
+    "package": "com.simbacore.theorytest",
+    "description": "Theory Test Guide is a focused learning app designed to help learner drivers prepare for the UK driving theory test with clarity and confidence.\n\nThe app combines structured multiple-choice practice with clear explanations so learners understand the rules of the road  not just memorise answers.\n\nRevise by topic, practise consistently, revisit weaker areas, and build exam-ready confidence in a simple, distraction-free environment.\n\nContent Sources & Acknowledgements\n\nThis app includes guidance from The Highway Code, published by the Department for Transport, and theory test learning material licensed from the Driver and Vehicle Standards Agency (DVSA).\n\nThe Driver and Vehicle Standards Agency (DVSA) has given permission for the reproduction of Crown copyright material. DVSA does not accept ",
+    "icon": "/icons/com.simbacore.theorytest.png"
+  },
+  "com.deepriverdev.lgvlite": {
+    "title": "LGV & HGV Theory Test 2026 Kit",
+    "package": "com.deepriverdev.lgvlite",
+    "description": "Join 7 million drivers who learnt using our apps. LGV & HGV theory test 2026 UK includes all DVSA revision questions & hazard perception videos. Everything needed to pass 1st time!\n\n2026 Ready. Free updates whenever the DVSA changes LGV theory test 2026 questions or hazards\n\nDVSA Revision Questions. All 900+ questions & explanations. No App, CD or book has more!\n\nHazard Perception. 80 videos with interactive scoring including all DVSA clips\n\nLatest Hazard Videos. DVSA exam now includes bad weather, accidents, motorways, night driving & vulnerable road users\n\nCase Studies 50 case studies & 320 questions for CPC Part 2 \n\nMock Tests. Unlimited mock tests to see when you\u2019re ready to pass\n\nHighway Code. LGV & HGV theory test 2026 UK includes the complete highway code\n\nTrack Progress. See which ",
+    "icon": "/icons/com.deepriverdev.lgvlite.png"
+  },
+  "com.deepriverdev.carlite": {
+    "title": "Driving Theory Test 2026 Kit",
+    "package": "com.deepriverdev.carlite",
+    "description": "99% pass 1st time using this app!\n\nJoin 7 million drivers who learnt using our apps. Includes all DVSA car 2026 revision questions & hazard perception videos. Everything needed to pass your DVSA exam 1st time!\n\n2026 Ready. Free updates whenever the DVSA changes questions or hazards\n\nMock Tests. Unlimited mock tests to see when you\u2019re ready to pass\n\nDVSA Revision Questions. All 700+ questions & explanations. No App, CD or book has more theory questions!\n\nHazard Perception. 80 videos with interactive scoring including all 2026 DVSA CGI practice clips\n\nLatest Hazard Videos. DVSA driving theory exam now includes bad weather, accidents, motorways, night driving & vulnerable road users\n\nVideo Case Studies. Every car theory test now includes a video case study\n\nHighway Code. Driving theory test 2",
+    "icon": "/icons/com.deepriverdev.carlite.png"
+  },
+  "com.glenmax.theorytest.full": {
+    "title": "Driving Theory Test 2025 Kit",
+    "package": "com.glenmax.theorytest.full",
+    "description": "Driving Theory Test 2025 UK includes all revision questions, answers and explanations, licensed by DVSA (the people who set the test). Couple it with an intuitive interface and it becomes an ideal practice tool for the UK Driving Licence Test!\n \nWhy Driving Theory Test 2025 is all that a Learner Car Driver will ever need:\n \nDVSA revision questions - Practise all DVSA revision questions. \n \nMock test - Take unlimited mock tests which are just like the actual DVSA exam.\n \nDVSA Explanation - Each practice question contains the explanation of the answer from the DVSA, increasing the effectiveness of your driving theory test preparation.\n \nFlagged questions - Flag the toughest questions on a well-designed user interface to review them again later (for example, 30 minutes before the exam).\n \nPer",
+    "icon": "/icons/com.glenmax.theorytest.full.png"
+  },
+  "com.glenmax.theorytest.moto": {
+    "title": "Motorcycle Theory Test UK Kit",
+    "package": "com.glenmax.theorytest.moto",
+    "description": "Free version of Motorcycle Theory Test 2025 includes all revision questions, answers and explanations, licensed by DVSA (the people who set the test). Couple it with an intuitive interface and it becomes an ideal practice tool for the UK Motorbike Theory Test!\n \nWhy Motorcycle Theory Test 2025 is all that a Learner Motorbike Rider will ever need:\n \nDVSA revision questions - Practise up-to-date DVSA revision questions. \n \nMock test - Take unlimited mock tests which are just like the actual DVSA exam.\n \nDVSA Explanation - Each practice question contains the explanation of the answer from the DVSA, increasing the effectiveness of your theory test preparation.\n \nFlagged questions - Flag the toughest questions on a well-designed user interface to review them again later (for example, 30 minutes",
+    "icon": "/icons/com.glenmax.theorytest.moto.png"
+  },
+  "com.glenmax.theorytest.lgv": {
+    "title": "LGV Theory Test UK 2025 Kit",
+    "package": "com.glenmax.theorytest.lgv",
+    "description": "Free version of LGV Theory Test 2025 includes all revision questions, answers and explanations, licensed by DVSA (the people who set the test). Couple it with an intuitive interface and it becomes an ideal practice tool for the UK LGV/HGV Theory Test!\n \nWhy LGV Theory Test 2025 is all that a Learner HGV Driver will ever need:\n \nDVSA revision questions - Practise up-to-date DVSA revision questions. \n \nMock test - Take unlimited mock tests which are just like the actual DVSA exam.\n \nDVSA Explanation - Each practice question contains the explanation of the answer from the DVSA, increasing the effectiveness of your theory test preparation.\n \nFlagged questions - Flag the toughest questions on a well-designed user interface to review them again later (for example, 30 minutes before the exam).\n \n",
+    "icon": "/icons/com.glenmax.theorytest.lgv.png"
+  },
+  "com.mmplus.vehicleservicesbook": {
+    "title": "Vehicle Maintenance Services B",
+    "package": "com.mmplus.vehicleservicesbook",
+    "description": "This application is a digital maintenance book for your vehicles. It allows you to record, modify and display the maintenance, insurance or control operations that you perform on your cars. You can manage your vehicles by creating, merging and deleting them. You can also consult the maintenance carried out by vehicle.",
+    "icon": "/icons/com.mmplus.vehicleservicesbook.png"
+  },
+  "com.comunit.reachsim": {
+    "title": "ReachSim: Travel eSIM",
+    "package": "com.comunit.reachsim",
+    "description": "Stay Connected Wherever You Travel\nWith a ReachSim eSIM (digital SIM), you can connect like a local in 200+ countries and regions worldwide. Install an eSIM and get online in minutes. No roaming fees\u2014just seamless, affordable, and reliable global connectivity.\n\nWhat is an eSIM?\nAn eSIM is an embedded SIM card built into your phone\u2019s hardware. It works just like a physical SIM but is 100% digital. Instead of swapping SIM cards, you can purchase, install, and activate an eSIM instantly to connect to a mobile network at your destination.\n\nWhat is a ReachSim eSIM Plan?\nA ReachSim eSIM plan gives you access to mobile data (and in some cases, call and text services). You can choose from local, regional, or global eSIM plans, ensuring you stay online without interruption in over 200+ countries an",
+    "icon": "/icons/com.comunit.reachsim.png"
+  },
+  "com.receivesms": {
+    "title": "Receive SMS Plus",
+    "package": "com.receivesms",
+    "description": "The SMS Verification app is a convenient tool that allows users to receive SMS messages for verification purposes on services such as Facebook and WhatsApp. With a diverse selection of phone numbers from around the world, the app makes it easy for users to receive SMS messages no matter where they are. Whether you need to verify a new account or log into an existing one, the SMS Verification app has you covered. Simply select a phone number from the available options, and you'll be able to receive SMS messages on that number. The app is fast, reliable, and easy to use, making it the perfect choice for anyone in need of SMS verification.",
+    "icon": "/icons/com.receivesms.png"
+  },
+  "com.epicvin.twa": {
+    "title": "EpicVIN Vehicle History Report",
+    "package": "com.epicvin.twa",
+    "description": "Buying a used vehicle?\n\nRemember to always check your vehicle before buying. There\u2019s no need to go into a major purchase blind when you have access to a vehicle\u2019s history. Save money and time simply by checking your VIN to gain confidence in the condition of your future used vehicle. Validate past accidents, previous owners, possible odometer rollback and more and save yourself trouble down the line.\n\nWe believe that our vehicle history report empowers consumers\u2019 decision whether or not to buy a specific used vehicle. EpicVIN Reports may highlight the following information regarding a vehicle\u2019s history :\n\n- Odometer readings;\n- Title information;\n- Junk and salvage titles;\n- Flood damage history;\n- Accident history;\n- Lemon history;\n- Service records;\n- Vehicle use records (if it was used ",
+    "icon": "/icons/com.epicvin.twa.jpg"
+  },
+  "com.jtnrdev.vehiclemaintenance": {
+    "title": "Vehicle Maintenance Log",
+    "package": "com.jtnrdev.vehiclemaintenance",
+    "description": "Keep your vehicles in top condition with Vehicle Logs, the ultimate app to manage maintenance records, schedules, and reminders, and track maintenance costs effortlessly.\n\nWhether you own a motorcycle, car, truck, or any other vehicle, Vehicle Logs helps you track vital details, record maintenance history, plan future services, and stay on top of important deadlines with ease.\n\n\ud83d\ude97 Key Features:\n\ud83d\udccc Record Vehicle Details\nEasily add and manage details for all your vehicles. From vehicle names to key specifications, keep everything neatly organized and accessible in your pocket.\n\n\ud83d\udee0\ufe0f Log Maintenance Records\nNever miss a maintenance job again. Record every maintenance your vehicle undergoes, whether it\u2019s an oil change, tire replacement, or brake service. Track the date, cost, distance, notes, and",
+    "icon": "/icons/com.jtnrdev.vehiclemaintenance.png"
+  },
+  "com.eharmony": {
+    "title": "eharmony dating & real love",
+    "package": "com.eharmony",
+    "description": "Are you ready to take dating to the next level and find the relationship you\u2019ve always wanted? eharmony, the No.1 trusted dating app*, has helped over 2 million couples find real love. Download and join free to find out why compatibility matters.\n\nHOW DOES THE EHARMONY DATING APP WORK? \nWhen it comes to dating, compatibility matters. That\u2019s why we\u2019ve created our unique Compatibility Matching System to ensure each of your matches are based on qualities that are important to you. Compared to other dating apps, we make finding love simple. We\u2019ll guide you through the process in three easy steps:\n\nSTEP 1: TELL US ABOUT YOURSELF\nYour dating journey on our dating app starts with the Compatibility Quiz. Because we get to know you better so we can match you better.  \n\nSTEP 2: LEARN MORE ABOUT YOUR",
+    "icon": "/icons/com.eharmony.png"
+  },
+  "com.minderapps.minder": {
+    "title": "Salams: Halal Muslim Marriage",
+    "package": "com.minderapps.minder",
+    "description": "Salams has been bringing Muslims together for the last 10 years. With over 6 million Muslims worldwide, Salams is the trusted halal app for meaningful Muslim dating, Islamic marriage, friendship, and networking. Alhamdulillah!\n\n* Salams Love \u2192 Muslim Marriage (i.e. Muslim dating, halal dating, Muslim matrimony, Islamic marriage)\n* Salams Friends \u2192 Muslim friendship, networking, and community building\n\nWhether you're looking for love, muslim marriage, or halal connections, download Salams today and start matching to find a Muslim spouse or friend.\n\nSalams makes Muslim dating (1) halal (2) simple (3) personal (4) safe and secure \u2014 the best way to start your Islamic dating journey.\n\nSome Salams features to enjoy:\n* Swipe right if you\u2019re interested or left if you\u2019re not\n* In-depth profiles wit",
+    "icon": "/icons/com.minderapps.minder.png"
+  },
+  "com.muzmatch.muzmatchapp": {
+    "title": "Muzz: Where Muslims Marry",
+    "package": "com.muzmatch.muzmatchapp",
+    "description": "Muzz is the United States biggest Muslim marriage and social app where Muslims can meet and mingle whether they are looking for marriage or friendship. With over 600,000 Muslim marriages and 500 new couples every day, we know Muzz works. As a Muslim matrimonial app, we\u2019ve included various features to help you meet your perfect Muslim partner in a safe and halal way. Just here to make friends? No problem, we have now launched Muzz Social which is a fun place to post and connect with the community! So, come and say Salams on Muzz.\n\nMuzz is your destination for Muslim marriage, connecting you with 15 million single Muslims. Join a community where 600,000 Muslim marriages have already been celebrated and 500 new couples are formed daily.\n\nSAFETY FEATURES\n\n\u2705 Verified Users: In addition to being",
+    "icon": "/icons/com.muzmatch.muzmatchapp.webp"
+  },
+  "com.muzz.social": {
+    "title": "Jamaa: Where Muslims Connect",
+    "package": "com.muzz.social",
+    "description": "Find your Ummah with Jamaa. The world's biggest social and friendship app for Muslims.\n\nLet\u2019s face it, most social apps weren\u2019t built with Muslims in mind. Our feeds are often full of irrelevant or inappropriate content, it\u2019s difficult to ask questions or get advice on Muslim topics, our deen, or islamic matters that are important to us as Muslims, and we\u2019re often silenced or shadow banned for discussing sensitive issues. It just doesn\u2019t work.\n\nThat\u2019s exactly why we built Jamaa. A social app for Muslims, by Muslims.\n\nOn Jamaa, you can be your unapologetic Muslim self. Connect with Muslims nearby, in your local Muslim community, or around the world, and make friends with those who share your faith. Join private groups for anything that matters to you, from local sisters groups and revert su",
+    "icon": "/icons/com.muzz.social.jpg"
+  },
+  "com.tidyroi.fb1695563730700856": {
+    "title": "Muzz Buzz Rewardz",
+    "package": "com.tidyroi.fb1695563730700856",
+    "description": "Earn points for every purchase at Muzz Buzz Rewardz and start enjoying the benefits of our membership program today. We tailor rewards just for you. Choose when and how to make the most of our promotions. \n \nThe Muzz Buzz Rewardz app will make the most of your in-store experience, allowing you to pay through your mobile via \nPay in-store\nOrder ahead\nOrder to your table\n \nYou will have access to \nExclusive offers\nPersonalised rewards \nSurprise and delight promotions\nVouchers, saved offers, credit or item rewards\n\u2026.so much more\n \nNo more carrying a physical loyalty card. Built by a world-leading app provider, LOKE, we use PCI compliant security to ensure your transactions and privacy is of the highest standard.\n \nAll major credit cards are accepted. Join today and start enjoying our dynamic ",
+    "icon": "/icons/com.tidyroi.fb1695563730700856.png"
   }
 }
