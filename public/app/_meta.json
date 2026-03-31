@@ -10238,5 +10238,191 @@
     "package": "com.TheoreticalStudio.PhoneFlip",
     "description": "Flip Phone Challenge\nArcade time killer and flip game where you control your phone with real physics. Flip, spin, and catch in fast one-handed challenges.\n\nExperience one of the most unique phone games ever.\nFlip your real phone, master real physics, and beat quick one-handed challenges in this addictive arcade game.\n\nFlip Phone Challenge is a flip game and physics game where your smartphone becomes the controller. There are no virtual buttons and no complex combos. You pick up your phone, toss it into the air, make it spin, and catch it at the perfect moment. Every clean landing scores points. Every fail turns into a funny moment. This addictive experience is both a skill challenge and a dexterity test that transforms short breaks into exciting flip battles.\n\n\ud83c\udfaf THE GAME WHERE YOUR PHONE I",
     "icon": "/icons/com.TheoreticalStudio.PhoneFlip.png"
+  },
+  "com.sec.android.app.music": {
+    "title": "Samsung Music",
+    "package": "com.sec.android.app.music",
+    "description": "Samsung Music is optimized for Samsung android device and provides a powerful music play functionality and the best user interface.\n\nKey Features\n\n1. Supports playback of various sound formats such as MP3, AAC, FLAC.\n (Supported file formats may vary depending on the device.)\n2. Helps to effectively manage song lists by categories.(Track,Album,Artist,Genre,Folder,Composer)\n3. Provides a clean and intuitive user interface.\n4. The Samsung music shows recommendation of playlists from Spotify. You can find Spotify recommendation music by Spotify tab and search Spotify music you\u2019ll love.\n(The Spotify tab is only available in countries where Spotify is on service.)\n\nFor further inquiries about Samsung Music, please contact us via the following methods.\n* Samsung Music App > More (3 dot) > Settin",
+    "icon": "/icons/com.sec.android.app.music.png"
+  },
+  "com.ogeday.pulsar": {
+    "title": "Pulsar",
+    "package": "com.ogeday.pulsar",
+    "description": "\ud83c\udf1f Transform Your Study Habits with Pulsar - Your Smart Study Companion\nStruggling to stay focused during study sessions? Want to remember more and study smarter, not harder? Pulsar is the evidence-based study app that helps ambitious students achieve their academic goals with proven learning techniques and engaging gamification.\n\ud83d\udcc8 PROVEN RESULTS\n95% better retention compared to traditional study methods\n3x faster learning through intelligent spaced repetition\nThousands of successful students worldwide\n\ud83e\udde0 SMART STUDY FEATURES\n\u23f1\ufe0f Intelligent Time Tracking\nMaster your focus with our built-in Pomodoro timer and smart chronometer. Track every minute of productive study time and build consistent habits that lead to success.\n\ud83d\udd04 Spaced Repetition System\nOur adaptive flashcard system learns how you l",
+    "icon": "/icons/com.ogeday.pulsar.png"
+  },
+  "com.pulsarml.operatorApp": {
+    "title": "Pulsar App",
+    "package": "com.pulsarml.operatorApp",
+    "description": "Sensor-based platform that provides real-time analytics to increase productivity in the factory floor.",
+    "icon": "/icons/com.pulsarml.operatorApp.png"
+  },
+  "com.rhmsoft.pulsar.pro": {
+    "title": "Pulsar Music Player Pro",
+    "package": "com.rhmsoft.pulsar.pro",
+    "description": "Pulsar Music Player has long been one of the best music players on Android. It is an offline audio player without advertisements. Its gorgeous user interface matches every single detail of the material design guidelines.\n\nPulsar contains almost every necessary feature to fulfill all of your musical needs including: gapless playback, lyrics display, crossfade, play speed adjustment, tag editing, last.fm scrobbling, Chromecast, voice command, Android Auto, equalizer, music visualizer, audio balance, ReplayGain, sleep timer, etc.\n\nPulsar is the ultimate music player on Android, with millions of downloads.\n\nKey Features:\n\n\u2713 Gorgeous user interface and animation with material design.\n\u2713 Manage and play music by album, artist, folder, and genre.\n\u2713 Smart playlists with most played, recently played",
+    "icon": "/icons/com.rhmsoft.pulsar.pro.png"
+  },
+  "com.scopely.monopolygo.companion": {
+    "title": "MONOPOLY GO!Chat",
+    "package": "com.scopely.monopolygo.companion",
+    "description": "MONOPOLY GO!Chat - Message, Trade, & Play Together! Stay connected with friends, family, and teammates while you roll dice, trade stickers, and build your fortune in MONOPOLY GO! The official chat app for MONOPOLY GO! makes it easy to message, plan, and celebrate \u2013 all in one place.\nWhether you\u2019re organizing a sticker trade, chatting about the latest Bank Heist, or celebrating your latest rewards, MONOPOLY GO!Chat is the social app that keeps the fun going beyond the board.\n\n\ud83d\udc65 TEXT WITH FRIENDS & TEAMMATES\n\u00b7 Message friends, family and teammates who play MONOPOLY GO!\n\u00b7 Create or join groups for real-time strategy talks and to share wins\n\u00b7 Celebrate leaderboard climbs, album completions, and epic rewards\n\u00b7 Bring more fun to your chats with unlocked MONOPOLY GO! emojis!\n\n\ud83c\udfb2 ROLL TOGETHER, WIN",
+    "icon": "/icons/com.scopely.monopolygo.companion.png"
+  },
+  "com.textra": {
+    "title": "Textra SMS",
+    "package": "com.textra",
+    "description": "Textra is an alternative to your stock SMS/MMS app (that came preinstalled on your phone). So, whether you're looking for a faster experience, better customization options, more color or just a specific feature (like scheduling a text in the future) you've come to the right place.\n\nFeature rich, notably 180+ material design theme, bubble & app icon colors. Light, dark, black, night & android screen modes, multiple bubble styles, scheduled (future) SMS & MMS, send delay, slide to delete, slide to call, quick snap camera, multi-select picture gallery, quick reply SMS popup, awesome MMS GROUP messaging, quick voice memos, endless GIFs, 21 text sizes, multiple font options, message blocker / blocklisting, pin-to-top, automatic video & picture compression, support for iOS reactions, iOS emojis ",
+    "icon": "/icons/com.textra.png"
+  },
+  "com.messenger.sms.messages": {
+    "title": "Messages - SMS Texting App",
+    "package": "com.messenger.sms.messages",
+    "description": "Messages - SMS Texting App is a fantastic text app for keeping in touch with your friends, family, and close ones! \u26a1\n\nWith Messages Texting App, you can send and receive text messages from anyone, no matter their device. \n\nMessages - SMS Texting App is an sms tool that lets you send private text messages to your contacts. You can use this safe text app on devices such as smartphones and tablets.\n\nThe Message app also includes a range of customization options, allowing you to personalize the look and feel of the message app to match your preferences. So whether you want to change the message app's theme, font size, or notification sounds, the Message app gives you complete control over your text messages.\n\nKeep in touch with your contacts using the text app on your phone. It's never been ea",
+    "icon": "/icons/com.messenger.sms.messages.png"
+  },
+  "com.kakao.talk": {
+    "title": "KakaoTalk : Messenger",
+    "package": "com.kakao.talk",
+    "description": "\u25a0 KakaoTalk \u2013 Korea\u2019s no. 1 messenger\n KakaoTalk is more than just a free messenger. It brings you instant connection, fun short-form content, and smart AI features\u2014anytime, anywhere. Enjoy meaningful one-on-one and group conversations with friends, family, and colleagues, and discover new communities you're interested in via Open Chat. You can also share photos, videos, and files in just a tap!\n\n \u25a0 Chat made easier, experience made better\n Keep your chats organized with folders, and easily edit or delete messages you\u2019ve sent. Keep discussions on track with the new Threads feature, so every topic stays clear and easy to follow.\n\n \u25a0 Voice Talk & Face Talk with screen sharing\n Hop on a group Voice Talk or Face Talk with up to 10 people. During a call, you can switch to Face Talk or share you",
+    "icon": "/icons/com.kakao.talk.png"
+  },
+  "com.moez.QKSMS": {
+    "title": "QKSMS",
+    "package": "com.moez.QKSMS",
+    "description": "We\u2019re making texting magical again. QKSMS is the most beautiful messaging experience you\u2019ve ever used. Replace your stock messaging app and fall in love with texting all over again.\n\nQKSMS is also completely ad-free and open source, the way your messaging app should be.\n\nNew: Dual-SIM and Multi-SIM phones are now fully supported by QKSMS!\n\nClean\nA beautiful, intuitive, and clutter-free design that allows you to focus on what matters.\n\nCustomizable\nUse any of the millions of colors to theme the entire app, or any particular conversation. Per-contact notifications allow you to easily prioritize and distinguish your messages. Manual and automatic night mode are great too.\n\nPowerful\nUse MMS to share photos, stickers, or join your friends in a group chat. Conversation search allows you to find ",
+    "icon": "/icons/com.moez.QKSMS.png"
+  },
+  "com.musicplayer.player.mp3player.white": {
+    "title": "Music Player",
+    "package": "com.musicplayer.player.mp3player.white",
+    "description": "Stylish , Powerful and Fast Music Player with elegant design . Music Player lets you manage all your music files quickly and easily .This audio player supports almost all types of mp3 , midi ,wav , flac raw aac files and other audio formats . Easily browse and play music songs by genres , albums , artists , songs and folder.\n\nFeatures :\n\n - Support for Google cast apps\n - Plays all audio files\n - 5 band graphical equalizer with presets\n - Bass and 3D effect\n - MP3 editor support\n - Play , next or previous playback by shake \n - Sleep timer\n - Color theme select option\n - Plays song by folder\n - Queue with play list reorder\n - Support for play list\n - Change album art\n - Tag editor support\n - Attractive widget and android 4.2 lock screen playback\n - Library scan\n\nxi player is the best music ",
+    "icon": "/icons/com.musicplayer.player.mp3player.white.png"
+  },
+  "com.media.music.mp3.musicplayer": {
+    "title": "Music player",
+    "package": "com.media.music.mp3.musicplayer",
+    "description": "Music player, mp3 player app is a best media player for your mobile. This app find all song formats quickly. You can view music by some convenient categories: song title, artist, album. Music player gives high quality sound and better experience. If you want to change music information and optimize it's size, \"Music player\" is the best choice. Music player app can play all formats of music files. Such as: mp3,  flac, ogg... Because mp3 format is most popular song format in android, so we also call this as mp3 player.\nMusic player helps you listen to music everywhere, play any favorite songs with high quality. Music player scans all music automatically and group them by title, artist, album. Easy to find the song you want. Supports audio equalizer to improves music sound. Listen to songs on",
+    "icon": "/icons/com.media.music.mp3.musicplayer.png"
+  },
+  "com.casamsa": {
+    "title": "Zammans",
+    "package": "com.casamsa",
+    "description": "It does not have to be difficult or difficult to co-own holiday homes together. Together it makes it easy to communicate and share information about the holiday home with each other. Gather everything related to the holiday home in one place - easily accessible and free for everyone.\n\nBooking calendar:\n- Easy booking for your planned visit\n- See easily when others will use the accommodation\n- Get an overview of how the accommodation has been used during the year\n- Schedule joint meetings\n \nExpenditure log:\n- Get full control of your purchases, costs and cost distribution\n- Collect your receipts and documents in one place\n- Register your improvement expenses for future declaration\n- Easily plan your joint purchases\n\nWork log:\n- Do you see that the hedge needs to be cut or that the fence nee",
+    "icon": "/icons/com.casamsa.png"
+  },
+  "com.sbitbd.zamzam": {
+    "title": "Mustaqbal ZamZam",
+    "package": "com.sbitbd.zamzam",
+    "description": "Welcome to Mustaqbal ZamZam \u2013 Your Ultimate Destination for Premium Electronics!\n\nExperience the future of online shopping with Mustaqbal ZamZam, the premier e-commerce app dedicated to bringing you the latest in technology. Whether you are upgrading your smartphone, hunting for a high-performance laptop, or looking for the perfect smart watch, we have it all in one place.\n\n\ud83d\udcf1 Explore Our Wide Range of Products:\n\nMobile Phones: Discover the latest flagship smartphones and budget-friendly mobiles from top global brands.\n\nLaptops & Computers: Find powerful laptops for work, gaming, and creativity.\n\nSmart Watches & Wearables: Stay connected and fit with our premium selection of smart watches and bands.\n\nElectronics & Accessories: From headphones to chargers, get genuine electronic accessories ",
+    "icon": "/icons/com.sbitbd.zamzam.png"
+  },
+  "com.balsoy.fatih.compass": {
+    "title": "Compass",
+    "package": "com.balsoy.fatih.compass",
+    "description": "Discover the perfect blend of simplicity and elegance with Compass, the sleek and minimalistic app designed to guide you effortlessly. Featuring a modern, dark-themed interface, Compass provides a clear and intuitive display that ensures ease of use and precise navigation. Available on both Android phones and select Wear OS smartwatches, offering flexibility and convenience wherever you go.\n\nKey Features\n\n\u2022 See your exact location's coordinates along with altitude. Supports formats like DMS, DDM, DD, UTM, MGRS, and OLC (Plus Codes).\n\u2022 Save places to easily see their direction and distance from you.\n\u2022 Dock the compass to the edge of the screen while using other apps.\n\u2022 Adjusts for geomagnetic declination by aligning with true north for even more accurate navigation.  \n\u2022 Easily check the lev",
+    "icon": "/icons/com.balsoy.fatih.compass.png"
+  },
+  "com.vincentlee.compass": {
+    "title": "Digital Compass",
+    "package": "com.vincentlee.compass",
+    "description": "This is a high precision and insanely beautiful digital compass.\n\nUseful features:\n\u2022 Latitude, longitude and address\n\u2022 Full-screen map\n\u2022 True heading and magnetic heading\n\u2022 Magnetic strength\n\u2022 Slope level meter\n\u2022 Sensor status\n\nCaution!\n\u2022 Do not use the app with magnetic covers.\n\u2022 If you encounter a direction error, calibrate your phone by waving the device in a figure 8, two or three times.\n\nFollow us on YouTube!\n\u2022 https://axmt.co/YouTube\n\nFollow us on Instagram!\n\u2022 https://www.instagram.com/axiomatic.inc/\n\nFollow us on Facebook!\n\u2022 https://www.facebook.com/DigitalCompass.Android/\n\n\u00a9 2014\u20132026 Axiomatic Inc. All rights reserved.",
+    "icon": "/icons/com.vincentlee.compass.png"
+  },
+  "com.dek.compass": {
+    "title": "Compass (without Ads)",
+    "package": "com.dek.compass",
+    "description": "Experience the most accurate compass app now.\nCompass app for travel, hiking, camping and other outdoor activities.\nIntuitive & Clean design will give you the information you need on the compass.\n\n(There are no ads in the app. Just for free.)\n\nKey Features\n* Display current location (address, latitude, longitude, altitude)\n* Level function\n* Display magnetic field strength\n* Display sensor status\n* Switch True North / Magnetic North\n* Display the tilt angle of the device\n* Google map integration",
+    "icon": "/icons/com.dek.compass.png"
+  },
+  "com.simplywerx.compass2d": {
+    "title": "Compass Steel",
+    "package": "com.simplywerx.compass2d",
+    "description": "Compass Steel \u2013 Navigate with Clarity and Style\n\nCompass Steel is your essential digital compass, designed for precision, reliability, and easy readability. Whether you\u2019re hiking, camping, installing solar panels, or exploring the city, Compass Steel keeps you oriented with a clean interface and clear visuals that shine in any environment.\n\nKey Features\n\n\u2022 Elegant Compass Designs \u2013 Choose from multiple stylish themes for a personalized look.  \n\u2022 Day & Night Themes \u2013 Switch automatically or manually for optimal visibility in any lighting.  \n\u2022 True North & Magnetic North \u2013 Switch easily depending on your needs; both modes are useful in different contexts.  \n\u2022 Sun & Moon Tracking \u2013 View positions and rise/set times. A favorite tool for outdoor adventurers and PV installers planning solar pane",
+    "icon": "/icons/com.simplywerx.compass2d.png"
+  },
+  "com.simplywerx.compass3d": {
+    "title": "Compass Steel 3D",
+    "package": "com.simplywerx.compass3d",
+    "description": "This is an elegant, reliable, and easy\u2011to\u2011use compass app designed for explorers and everyday use.\n\nFeatures include:\n\u2022 Intuitive 3D display\n\u2022 Multiple stylish compass designs\n\u2022 Two modes: True North and Magnetic North  \n\u2022 Sun & Moon positions with rise/set times\n\u2022 Altitude display (MSL)\n\u2022 Target direction tracking\n\u2022 Custom dial units & heading offset\n\u2022 Manual location settings\n\u2022 No unnecessary permissions\n\u2022 Marine-style compass",
+    "icon": "/icons/com.simplywerx.compass3d.png"
+  },
+  "tv.torahtreasure.android": {
+    "title": "Toveedo",
+    "package": "tv.torahtreasure.android",
+    "description": "The Jewish videos your kids love, all in one place. Each video series is full of learning, songs and adventure that children enjoy over and over.\n\nToveedo offers an auto-renewing Monthly Subscription.\nYou'll receive unlimited access to content on all your devices. Payment is charged to your Account at confirmation of purchase. Pricing varies by location and is confirmed prior to purchase. Subscription automatically renews each month unless canceled at least 24 hours before the end of the current billing period. Manage your subscription in Account Settings. \nFor more information see our: \nTerms of Service: https://toveedo.com/pages/terms\nPrivacy Policy: https://toveedo.com/pages/privacy-policy",
+    "icon": "/icons/tv.torahtreasure.android.jpg"
+  },
+  "com.uscreen.toveedo": {
+    "title": "Toveedo",
+    "package": "com.uscreen.toveedo",
+    "description": "The Jewish videos your kids love, all in one place. Each video series is full of learning, songs and adventure that children enjoy over and over.",
+    "icon": "/icons/com.uscreen.toveedo.jpg"
+  },
+  "com.radium.tokeo": {
+    "title": "Tokeo",
+    "package": "com.radium.tokeo",
+    "description": "Tokeo is a multi-chain crypto Wallet focused on smart multi-chain transactions, deep DeFi integration, currently available on Bitcoin, Sui, and Cardano\n\nIt is built to drive cross-chain interoperability, increasing liquidity and users across multiple blockchain ecosystems, while providing a simplified and exciting UI that is accessible and easy-to-use for new and old users\n\nYou can use Tokeo for:\n\n+ Sending & receiving crypto\n+ Decentralised asset swaps\n+ Live Asset prices\n+ Payments on chain\n+ Collectibles\n+ Wallet Delegation & Rewards",
+    "icon": "/icons/com.radium.tokeo.png"
+  },
+  "com.unique.tovo.user": {
+    "title": "Tovo",
+    "package": "com.unique.tovo.user",
+    "description": "Tovo is the ultimate solution for fast, reliable and hassle-free shopping.\nOur user-friendly app allows you to browse a wide range of products, switch\norder easily, and track your delivery in real time.\nMain features:\n\u2022 Wide Selection of Products: Access a wide range of food products, drinks,\nhygiene products, and much more, directly from our application.\n\u2022 Fast and Reliable Delivery: Benefit from fast and reliable delivery, wherever you are. Follow\nyour order in real time until it is delivered to your doorstep.\n\u2022 Promotions and Exclusive Offers: Take advantage of promotions and exclusive offers reserved for\nusers of the TOVO application.\n\u2022 Dedicated Customer Service: Our customer service is at your disposal for any questions or\nassistance, to ensure you have a worry-free shopping experien",
+    "icon": "/icons/com.unique.tovo.user.png"
+  },
+  "com.mikromtech.tovivans": {
+    "title": "Tovivans Fashion",
+    "package": "com.mikromtech.tovivans",
+    "description": "Looking for stylish shoes, bags, and accessories to complete your look? Look no further than Tovivans Fashion, your ultimate shopping destination for the latest trends in footwear and accessories.\n\nOur app offers an extensive collection of fashion-forward items, from chic handbags to trendy sneakers, sandals, and more. We've got everything you need to elevate your style, all at affordable prices.\n\nWhat sets Tovivans Fashion apart is our commitment to quality and style. We work closely with top manufacturers to bring you the latest fashion trends, ensuring that every item is made from high-quality materials and designed to last. With our fast and reliable shipping, you can shop with confidence, knowing that your items will arrive quickly and in perfect condition.\n\nOur easy-to-use app makes ",
+    "icon": "/icons/com.mikromtech.tovivans.png"
+  },
+  "com.mercandalli.android.browser": {
+    "title": "G Web: Focus Internet Browser",
+    "package": "com.mercandalli.android.browser",
+    "description": "G Browser is a light web app. Browse the web and stay incognito with a floating button to erase your history in one tap.\n\nHighlights:\n\u2022 Internet explorer\n\u2022 Light / Dark theme\n\u2022 Floating window\n\u2022 Clear all cache / history\n\u2022 Ad blocker\n\u2022 Multiple search engines supported\n\nG Browser is an app focused on quick search. This application is open source on github! https://github.com/Mercandj/browser Do not hesitate to submit merge request, open issue\u2026\n\nDeveloped in kotlin with love by Team Mercan. Enjoy G Browser, micro app with a lot of feature =)",
+    "icon": "/icons/com.mercandalli.android.browser.jpg"
+  },
+  "com.Avenza": {
+    "title": "Avenza Maps: Offline Mapping",
+    "package": "com.Avenza",
+    "description": "Avenza Maps is a powerful offline navigation app for hiking, biking, trail exploration, and professional field work. Use offline maps with GPS navigation to stay on track anywhere\u2014no signal required. Whether you\u2019re exploring trails, navigating backcountry routes, or working in the field, Avenza helps you navigate confidently with precise location awareness.\n\nDiscover and download trail, topographic, land use, utility, nautical, and survey data from trusted publishers, or import your own maps. Avenza supports custom map import, letting you work with PDF maps, GeoPDF\u00ae, and GeoTIFF files for reliable navigation both on and off the grid.\n\n\nExplore trusted outdoor & professional data.\n\nAccess the largest mobile Map Stores featuring content from:\n- National Geographic\n- National Park Service\n- U",
+    "icon": "/icons/com.Avenza.png"
+  },
+  "com.mapfactor.navigator": {
+    "title": "MapFactor Navigator",
+    "package": "com.mapfactor.navigator",
+    "description": "* Best rated free offline navigation app on Google Play with 35 mil+ installs*\nNow for Android Auto!\n\nMapFactor Navigator is a free GPS navigation app with free offline maps from OpenStreetMaps (incl. free monthly maps update). Navigate without an internet connection in more than 200 countries. Intuitive voice turn-by-turn navigation, speed limits, camera warnings and other useful features.\n\nKey features of MapFactor GPS Navigation app:\n- voice navigation in various languages\n- door-to-door route planning\n- overview of the upcoming maneuver and distance shown on the screen\n- free offline maps with postcodes (full GB postcodes) installed on your device or SD card\n- points of interest (incl. EV chargers)\n- speed limit and camera warnings \n- favorite routes and places\n- 2D/3D mode allows real",
+    "icon": "/icons/com.mapfactor.navigator.png"
+  },
+  "com.here.app.maps": {
+    "title": "HERE WeGo: Maps & Navigation",
+    "package": "com.here.app.maps",
+    "description": "Welcome to the new HERE WeGo!\n \nHERE WeGo is a free navigation app that guides local and global travelers on journeys both familiar and foreign. The app now has a fresh, new design and clearer, easier to use navigation.\n \nEnjoy a more carefree journey and reach your destination effortlessly, however you need to get there. Get there on foot with easy-to-follow walk guidance. Take public transport in more than 1,900 cities around the world. Or use turn-by-turn voice guidance with accurate driving directions and go by car. You can even find parking at your destination and get guided directly to it.\n \nVisit the same places often? Save them in a collection to stay organised and find them easier. Or use shortcuts to get directions to them in one click\n \nNeed to make an extra stop or want to go a",
+    "icon": "/icons/com.here.app.maps.png"
+  },
+  "com.peterlaurence.trekme": {
+    "title": "TrekMe - GPS trekking offline",
+    "package": "com.peterlaurence.trekme",
+    "description": "Explore the wilderness without limits.\nTrekMe turns your phone into a reliable, offline GPS navigator. Whether you are trekking, biking, or mountaineering, get your live position on topographic maps. Download the maps you need, and then navigate without an internet connection.\n\n\ud83d\udd12 100% Privacy Oriented\nWe believe your location is your business. TrekMe features zero tracking. Your data never leaves your device, and you are the only one who knows where you go.\n\n\ud83c\udf0d Download Offline Maps\nCreate your own maps by selecting the area you need. Once downloaded, they are available completely offline\u2014perfect for dead zones.\n\u2022 Supported Sources: USGS, OpenStreetMap, SwissTopo, IGN (France and Spain).\n\u2022 Storage Friendly: Save heavy maps to your SD card to free up internal memory.\n\n\ud83d\udd0b Built for Endurance\nD",
+    "icon": "/icons/com.peterlaurence.trekme.png"
+  },
+  "com.microsoft.office.onenote": {
+    "title": "Microsoft OneNote: Save Notes",
+    "package": "com.microsoft.office.onenote",
+    "description": "Organize your thoughts, discoveries, and ideas and simplify planning important moments in your life with your digital notepad. Take notes on your phone and sync them across all your devices with Microsoft OneNote.\n\nWith OneNote, you can plan a big event, seize a moment of inspiration to create something new, and track your list of errands that are too important to forget. Take notes, write memos and make a digital sketchbook right on your phone. Capture pictures and add images to your notes.\n\nSync notes across your devices to access them anytime, anywhere. Save ideas and check your list at home, in the office, or on the go across your devices. Search your notes quickly and effortlessly.\n\nTake notes, share ideas, organize and collaborate with Microsoft OneNote today.\n\nHomepage & Quick Captu",
+    "icon": "/icons/com.microsoft.office.onenote.webp"
+  },
+  "com.zoho.notebook": {
+    "title": "Notebook - Notes, Tasks, AI",
+    "package": "com.zoho.notebook",
+    "description": "Zoho\u00a0Notebook is a note\u2011taking app and digital notepad for capturing ideas, to\u2011do lists, tasks, meeting notes, journal entries and more. Organize everything with notebooks, tags and AI\u2011powered tools. Sync across mobile, desktop and web while staying private and ad\u2011free.\n\nSMART NOTE\u2011TAKING\n\n\u2022 Create rich text notes with checklists, tables, images and audio in one place.\n\n\u2022 Build dedicated checklists and task lists to manage your day.\n\n\u2022 Record voice notes or transcribe speech to text automatically.\n\n\u2022 Scan documents, textbooks or handwritten notes into searchable PDFs.\n\n\u2022 Save photos, web clips and documents using cards. Add reminders to stay on top of tasks.\n\nNOTEBOOK AI \u2013 AI-powered note-taking assistant\n\n\u2022 Generate summaries, outlines, or to-do lists from rough ideas using AI.\n\n\u2022 Get acc",
+    "icon": "/icons/com.zoho.notebook.webp"
+  },
+  "com.evernote": {
+    "title": "Evernote - Note Organizer",
+    "package": "com.evernote",
+    "description": "Capture ideas when inspiration strikes. Bring your notes, to-dos, and schedule together to tame life\u2019s distractions and accomplish more\u2014at work, at home, and everywhere in between. \n\nEvernote syncs to all your devices, so you can stay productive on the go. Tackle your to-do list with Tasks, connect your Google Calendar to stay on top of your schedule, and see your most relevant information quickly with a customizable Home dashboard.\n\n\"Use Evernote as the place you put everything \u2026 Don\u2019t ask yourself which device it\u2019s on\u2014it\u2019s in Evernote\" \u2013 The New York Times\n \n\u201cWhen it comes to taking all manner of notes and getting work done, Evernote is an indispensable tool.\u201d \u2013 PC Mag\n \n---\n\nCAPTURE IDEAS\n\u2022 Write, collect, and capture ideas as searchable notes, notebooks, and to-do lists.\n\u2022 Clip interes",
+    "icon": "/icons/com.evernote.webp"
   }
 }
