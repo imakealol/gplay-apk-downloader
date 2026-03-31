@@ -10616,5 +10616,503 @@
     "package": "com.driver.taxi770",
     "description": "Receive user services on your cell phone, download it for free.",
     "icon": "/icons/com.driver.taxi770.png"
+  },
+  "com.aichatmaster.chat.gp": {
+    "title": "G.AI - AI Chat & AI Chatbot",
+    "package": "com.aichatmaster.chat.gp",
+    "description": "Your personal AI assistant is talking to friends. AI knows everything from astronomy to geography. \n\n\u3010Multiple Use Cases\u3011\n- Write emails, etc.\n- Translate and practice languages\n- Rewrite any type of text\n- Find cooking recipes\n- Brainstorm\n- Information retrieval\n- Create new content\n- Create business models\n- Question and answer\n- Personalized experience\n- Open chatbot AI recommendation\n- Test the latest tips you found on the Internet\n\n\u3010Advanced AI Model\u3011\nAI Chat uses one of the world's most advanced language processing AI models owned by AI Big Model and.\n\nIt is able to generate human-like text and has a wide range of applications, including language translation, language modeling, and text generation for applications such as chatbots.\n\nDisclaimer:\nThe information provided by the APP is",
+    "icon": "/icons/com.aichatmaster.chat.gp.png"
+  },
+  "com.ubercab.fleet": {
+    "title": "Uber Fleet",
+    "package": "com.ubercab.fleet",
+    "description": "Welcome to the All-New Uber Fleet App for Android!\nRevolutionize your business operations with the latest iteration of the Uber Fleet app. Designed to empower your fleet with cutting-edge tools, our app enables seamless management of your fleet operations, all from the convenience of your mobile device.\n\nKey Features:\nTrack and Monitor with Greater Precision:\n- Utilize Live Map functionality to monitor the real-time locations and routes of all your drivers.\n- Easily communicate with drivers through call and messaging features.\n\nBusiness Management Insights:\n- Stay informed about your fleet\u2019s metrics, including trip count, online hours, and earnings.\n- Receive comprehensive breakdowns of driver earnings for timely and accurate payments for both you and your drivers.\n- Gain valuable insights",
+    "icon": "/icons/com.ubercab.fleet.png"
+  },
+  "com.ubercab.eats": {
+    "title": "Uber Eats: Food and Grocery",
+    "package": "com.ubercab.eats",
+    "description": "Get food delivery to your doorstep from thousands of amazing local and national restaurants. Find the meal you crave and order food from restaurants easily with the Uber Eats app. Track your order in real-time.\n\nFIND YOUR FAVORITE FOOD & RESTAURANTS\nOrder food from nearby restaurants and search by cuisine, restaurant name, dish, and meal. \nFood delivery options for you to order and enjoy including pizza, burritos, burgers, sushi, donuts, and Chinese takeout.\nPrefer pickup? Skip the line and reservations and choose to pick up your order instead. Choose your favorite delivery options with the Uber Eats app now.\n\nSUBSCRIBE TO UBER ONE\nFor $9.99 per month, Uber One subscribers enjoy $0 Delivery Fee and up to 10% off orders over $15 at participating non-grocery stores (and 5% off orders over $3",
+    "icon": "/icons/com.ubercab.eats.png"
+  },
+  "com.ubercab.driver": {
+    "title": "Uber - Driver: Drive & Deliver",
+    "package": "com.ubercab.driver",
+    "description": "It\u2019s your hustle. \nOur flexibility. Your independence. Our security. Your business. Our support. Here\u2019s why you should drive, deliver, and earn money with Uber. \n\nDrive or deliver.\nIt\u2019s up to you how you want to earn. No other app offers the same opportunities. \n\nEarn on your terms. \nWhether you want to use your bike or your car, you can make it work. Decide when, where, and how long you want to earn, while keeping your flexibility.\n\nPlan a smarter schedule. \nExclusive app features like the Earnings Estimator can show you the busiest times to earn and keep a flexible schedule.\n\nWork from anywhere. \nWhether you\u2019re in San Francisco, New York, or Austin, Uber is available in over 10,000 cities. \n\nMake money in your free time, then cash out when you\u2019re ready. \nWith Instant Pay, you can transfe",
+    "icon": "/icons/com.ubercab.driver.png"
+  },
+  "com.uber.restaurants": {
+    "title": "Uber Eats Orders",
+    "package": "com.uber.restaurants",
+    "description": "Looking to order now? Find Uber Eats here: https://t.uber.com/66A3MH\n\nManage orders for your business on any device. \n\nThis app allows you to manage your business\u2019s orders on Uber Eats in a single, centralized place. Whether you\u2019d rather have a single device in your store or an app that all your staff can use on their own phones, Uber Eats Orders flexes to fit your unique needs! Here\u2019s everything the app offers:\n\n\u2022 Device flexibility. Run the app on any combination of tablets and mobile phones. \n\n\u2022 Realtime syncing. Run the app on multiple devices at the same time, all your staff will be able to see and manage orders with no duplicates or missed orders. \n \n\u2022 Control in the palm of your hand. Can\u2019t be at your store all the time? No problem! The app lets you cancel orders, mark items out of ",
+    "icon": "/icons/com.uber.restaurants.png"
+  },
+  "com.chat.chatai.chatbot.aichatbot": {
+    "title": "One AI: Deep Search & AI Chat",
+    "package": "com.chat.chatai.chatbot.aichatbot",
+    "description": "Think Smarter. Search Deeper. Discover More.\n\nOne AI: Deep Search & AI Chat is built for users who want more than quick answers. Powered by advanced AI Search technology, the app transforms the way you explore information, search profiles, and understand the web.\n\nIf you want a deeper understanding, faster research, and smarter AI-powered discovery, this is your all-in-one AI Search assistant.\n\n\ud83d\udd0e AI Deep Search \u2013 Smarter Search Starts Here:\nDeep Search is the core of One AI: Deep Search & AI Chat. It goes beyond traditional web search by analyzing, organizing, and explaining information for you.\n\nWith AI Deep Search, You Can:\n- Perform an intelligent web search with summarized results\n- Explore topics from multiple reliable perspectives\n- Extract key insights instead of reading dozens of p",
+    "icon": "/icons/com.chat.chatai.chatbot.aichatbot.png"
+  },
+  "com.zihoai.app": {
+    "title": "Ziho AI",
+    "package": "com.zihoai.app",
+    "description": "AI tools are powerful\u2014but let\u2019s be real, using them can feel messy.\n\nNeed creative writing? You open ChatGPT.\nWrestling with complex calculations ? Gemini could save the day.\nDebugging code at 2AM? DeepSeek has your back.\n\nNow add multiple subscriptions, international payment issues, switching accounts, and privacy risks from shared logins\u2026 especially for users in Bangladesh and South Asia. It\u2019s exhausting.\n\nThat\u2019s exactly why Ziho AI exists.\n\nZiho isn\u2019t just another AI assistant. It\u2019s a unified AI platform built in Bangladesh that combines the power of top global models\u2014so you don\u2019t have to jump between tools.\n\nWith Ziho, you get access to:\n\n\u2022 ChatGPT\n\u2022 Gemini\n\u2022 Grok\n\u2022 DeepSeek\n\u2022 Qwen\n\u2022 Llama\n\u2022 Mistral\n\u2026and more \u2014 all in one place.\n\nNo platform hopping.\nNo risky third-party access.\nNo com",
+    "icon": "/icons/com.zihoai.app.jpg"
+  },
+  "com.dating.ai": {
+    "title": "Flipped:Chat with AI Character",
+    "package": "com.dating.ai",
+    "description": "Dive into a World of Adventure with Flipped!\nCraving a unique, immersive experience? Welcome to Flipped, the groundbreaking AI-powered app that revolutionizes character interaction and brings your imagination to life! In the realm of Flipped, a universe of captivating AI characters awaits you.This is not just another app; it's a ticket to a world where your interactions shape the narrative.\nIn Flipped you can:\n-Chat with realistic AI souls and engage in dynamic chats\n-Generate AI images of the characters you like\n-Enjoy real-time voice calls\n-Create your ideal AI souls\n-Get rapid responses anywhere anytime\nFlipped's AI characters are no ordinary creations. They're lifelike, brimming with unique stories, personalities, and desires. They're so real, you'll forget you're talking to AI! Engage",
+    "icon": "/icons/com.dating.ai.jpg"
+  },
+  "com.pixlr.faceflip": {
+    "title": "FaceFlip AI Face Swap",
+    "package": "com.pixlr.faceflip",
+    "description": "Face Swap Any Photo Perfectly! \nFaceFlip is the premier AI-powered face swap app! Flip your face into literally any photo with our innovative face-swapping feature. With our cutting-edge AI technology, the future of photo editing is at your fingertips.\n\n Face Swap With Funny Results \n\u2022\u2003Gender Swap: Change genders to see what you would look like\n\u2022\u2003HairFlip Studio: Let FaceFlip find your best hairstyle and color\n\u2022\u2003Try our Old & Young Swaps \ud83d\udc74\ud83d\udc75\ud83d\udc76\n\u2022\u2003Borrow your favorite clothing style from different photos\n\u2022\u2003And many more fun Face Swaps!\n\nRevolutionary AI Technology:\nFaceFlip uses the Pixlr state-of-the-art AI model for face swaps with unparalleled results. Our advanced technology ensures that you only need to upload one selfie, giving you the perfect result back every time.\n\nUnleash Your Creati",
+    "icon": "/icons/com.pixlr.faceflip.png"
+  },
+  "com.wondershare.filmorago": {
+    "title": "Filmora: AI Video Editor&Maker",
+    "package": "com.wondershare.filmorago",
+    "description": "Filmora is an AI-powered video editor designed for social creators \u2013 easier than pro tools, stronger than basic apps. \n\nTurn clips, photos, or scripts into scroll-stopping videos for TikTok, Reels, YouTube, and more. No editing experience needed.\n\n\ud83e\udd16Powerful Brand New AI Features\n\ud83d\udd2eImage to Video \n\u00b7 Type in your creative ideas, then let AI magically bring life to your photos.\n\ud83c\udfa5Text to Video\n\u00b7 Easily create an AI movie by simple prompts, visualize your great ideas! \n\ud83d\uddbc\ufe0fVideoGen \n \u00b7 This video-to-video feature lets you seamlessly swap or add elements to your videos.\n\ud83d\udcdcDynamic Captions\n\u00b7 Auto speech-to-text into dynamic word-by-word captions.\n\ud83e\uddfdAI Remover\n\u00b7 Effortlessly erasing unwanted elements from videos.\n\ud83c\udf9eAI Auto Cut\n\u00b7 Seamlessly stitching highlight moments into cinematic tales!\n\ud83c\udf9a\ufe0fAI Beats\n\u00b7 A",
+    "icon": "/icons/com.wondershare.filmorago.png"
+  },
+  "com.yygg.note.app": {
+    "title": "Notewise - AI Notes, PDF, Docs",
+    "package": "com.yygg.note.app",
+    "description": "\ud83c\udfc6 Google Play\u2019s Best of 2024 Winner\n\nNotewise is the future of note-taking on Android. Whether you\u2019re sketching diagrams, annotating PDFs, journaling ideas, or building a second brain\u2014Notewise gives you a freeform canvas that feels like pen and paper\u2014supercharged by AI.\n\nWith Notewise, you don\u2019t just take notes. You create good notes \u2014searchable, flexible, and future-proof.\n\n\u2728 AI Superpowers for Your Notes\nNotewise AI makes your notes smarter\u2014without compromising your privacy.\n\n\u2022 Chat with your notes: ask questions, summarize content, or review key ideas.\n\u2022 Auto-generate guided podcasts from your writing.\n\u2022 Highlight anywhere\u2014typed or handwritten\u2014and ask context-aware questions.\n\u2022 OCR handwriting, scanned documents, and images in 20+ languages.\n\u2022 Make messy scribbles searchable\u2014instantly.\n",
+    "icon": "/icons/com.yygg.note.app.jpg"
+  },
+  "com.ssptrades.flip": {
+    "title": "iFlip: Automated AI Investing",
+    "package": "com.ssptrades.flip",
+    "description": "iFlip is an automated investing platform that helps you protect your wealth while outperforming the market. Powered by proprietary A.I., our SmartFolios are baskets of stocks and ETFs which analyze investments everyday. SmartFolios account for volatility and are able to minimize risk, allowing you to stay protected and maximize returns. This means, getting out of the market when indicators point to increased volatility, and getting back into the market when signs point to a recovery. By being proactive, we saved our investors an average of 26% during the 2020 market crash.\n\nA simple to use platform\nIt only takes 10 minutes to register, and investing is a breeze.\n\nProtect your portfolio\nOur proprietary software analyzes historical data, identifies trends and protects you from market downtur",
+    "icon": "/icons/com.ssptrades.flip.png"
+  },
+  "com.robtopx.geometryjumplite": {
+    "title": "Geometry Dash Lite",
+    "package": "com.robtopx.geometryjumplite",
+    "description": "Jump and fly your way through danger in this rhythm-based action platformer!\n\nPrepare for a near impossible challenge in the world of Geometry Dash. Push your skills to the limit as you jump, fly and flip your way through dangerous passages and spiky obstacles.\n\nSimple one touch game play that will keep you entertained for hours!\n\nCheck out the full version for new levels, soundtracks, achievements, online level editor and much much more!\n\nGame Features\n\u2022 Rhythm-based Action Platforming!\n\u2022 Unlock new icons and colors to customize your character!\n\u2022 Fly rockets, flip gravity and much more!\n\u2022 Use practice mode to sharpen your skills!\n\u2022 Challenge yourself with the near impossible!\n\nContact: support@robtopgames.com",
+    "icon": "/icons/com.robtopx.geometryjumplite.png"
+  },
+  "com.fdgentertainment.bananakong": {
+    "title": "Banana Kong",
+    "package": "com.fdgentertainment.bananakong",
+    "description": "A thrilling ride through jungle, caves and treetops. \nPlay as Kong! Banana Kong!\n\nRun, jump, bounce and swing on vines as you help Banana Kong to outrun a huge banana avalanche! Keep full control with highly responsive single-finger tap and swipe controls.\n\nRide the boar or fly with the toucan to overcome dangerous obstacles like massive boulders, crocodiles, piranhas and boiling lava. Nature can be a cruel enemy\u2026 \n\nWhile you dash through the jungle you'll be able to outrun your friends! Thanks to full Game Services integration you can see your friends best distance right in the game. Compare your high scores and unlock achievements while improving your playing style. \n\nA highly dynamic game engine will provide endless fun in this neverending run. Each session is a new challenge as the lev",
+    "icon": "/icons/com.fdgentertainment.bananakong.jpg"
+  },
+  "com.fgol.HungrySharkEvolution": {
+    "title": "Hungry Shark Evolution",
+    "package": "com.fgol.HungrySharkEvolution",
+    "description": "Dive into the official game of Shark Week with Hungry Shark Evolution! Become the ultimate predator in this offline shark game where you\u2019ll rule the ocean and eat your way through an underwater world of adventure \ud83e\udd88\ud83e\udd88\ud83e\udd88\ud83e\udd88\n \nTake control of a mighty, hungry shark and survive as long as possible by eating everything in sight! In this thrilling, classic arcade-style shark game, evolve your predator into a fierce sea beast, from Great Whites to the ferocious Megalodon, and explore the ocean\u2019s depths filled with fish, animals, and other creatures.\n \nUnleash Your Predator Potential!\nIt\u2019s eat or be eaten in this shark evolution simulator where your mission is simple: evolve and survive. Start as a small fish and work your way up the ocean\u2019s food chain, evolving your shark through multiple levels unti",
+    "icon": "/icons/com.fgol.HungrySharkEvolution.png"
+  },
+  "com.FDGEntertainment.redball4.gp": {
+    "title": "Red Ball 4",
+    "package": "com.FDGEntertainment.redball4.gp",
+    "description": "Red Alert! \nEvil minions want to squeeze the planet into a square shape.\n \nWho's got the balls to save the world ? Oh yeah, that's right!\nRed Ball to the rescue!\n \nRoll, jump and bounce through 75 exciting levels full of adventure.\nMake your way through tricky traps and defeat all monsters.\n \nFeatures:\n - All-New Red Ball Adventure\n - 75 Levels\n - Epic Boss Battles\n - Cloud Support\n - Exciting Physics Elements\n - Groovy Soundtrack\n - HID Controller Support",
+    "icon": "/icons/com.FDGEntertainment.redball4.gp.png"
+  },
+  "com.dl.guard.lock": {
+    "title": "Lock & Hide",
+    "package": "com.dl.guard.lock",
+    "description": "Keep your private photos and videos secure with Lock & Hide. It offers features like App Lock, Photo Hide, Video Hide, Intruder Alert, App disguise -- all to protect your mobile privacy.\n\ufeff\nTop Features:\n\ufeff\nLock Important Apps - Use AppLock to protect your apps such as Gallery, Messaging, Contact List, Social Media, and more, behind  a PIN!\n\ufeff\nHide photos & videos - Keep your photos and videos private and secure by importing them into this app and setting a password to view or play them inside a secure AppLocker.\n\ufeff\nIntruder Alerts - Now with Spy Camera! Our app will snap a selfie of anyone who attempts to access it with the wrong passwords (1 to 3 incorrect). Review the photos within the app to see who tried to get into your vault!\n\ufeff\nApp disguise  -  achieves the purpose of disguising by modi",
+    "icon": "/icons/com.dl.guard.lock.png"
+  },
+  "com.dl.guard.loc": {
+    "title": "com.dl.guard.loc",
+    "package": "com.dl.guard.loc"
+  },
+  "com.ultisw.videoplayer": {
+    "title": "Video player",
+    "package": "com.ultisw.videoplayer",
+    "description": "Video player will be a great choice that you should try if you are looking for an application to play all the videos on your mobile phone or memory card with the best quality. With advanced features such as support for playing videos on all types of video formats, great HD resolution, high frame rates and a lot of other useful features, we are confident that this media player classic will not make you are disappointed.\n* Feature:\n\u2022 Mp4 player on most popular video formats: MKV, MP4, M4V, AVI, MOV, 3GP, FLV, WMV, RMVB, TS ...\n\u2022 Full HD video player with 1080p resolution, supports 4K\n\u2022 Detects and displays all videos on your device or SD card, external memory.\n\u2022 Feature guide: makes it easy for the first time to use.\n\u2022 Smart video manager: sort videos by name, capacity, update date ...\n\u2022 Cre",
+    "icon": "/icons/com.ultisw.videoplayer.png"
+  },
+  "com.ultisw.videoplaye2": {
+    "title": "com.ultisw.videoplaye2",
+    "package": "com.ultisw.videoplaye2"
+  },
+  "com.eggarocrosstrak.areggcro": {
+    "title": "com.eggarocrosstrak.areggcro",
+    "package": "com.eggarocrosstrak.areggcro"
+  },
+  "com.chidkord.ichidkorjsh": {
+    "title": "com.chidkord.ichidkorjsh",
+    "package": "com.chidkord.ichidkorjsh"
+  },
+  "com.begadroid.cutewallpapers": {
+    "title": "com.begadroid.cutewallpapers",
+    "package": "com.begadroid.cutewallpapers"
+  },
+  "com.begadroid.ludotoon": {
+    "title": "com.begadroid.ludotoon",
+    "package": "com.begadroid.ludotoon"
+  },
+  "com.begadroid.wordrelinker": {
+    "title": "com.begadroid.wordrelinker",
+    "package": "com.begadroid.wordrelinker"
+  },
+  "com.begadroid.fruitsort": {
+    "title": "com.begadroid.fruitsort",
+    "package": "com.begadroid.fruitsort"
+  },
+  "com.begadroid.bubbleshootertoon": {
+    "title": "com.begadroid.bubbleshootertoon",
+    "package": "com.begadroid.bubbleshootertoon"
+  },
+  "com.begadroid.hexatiles": {
+    "title": "com.begadroid.hexatiles",
+    "package": "com.begadroid.hexatiles"
+  },
+  "com.fun.game.damnracing.car": {
+    "title": "com.fun.game.damnracing.car",
+    "package": "com.fun.game.damnracing.car"
+  },
+  "com.khaniitech.ramadandpmakerwithname.ramadanmubarakphotoframes.ramadan_ramzan_mubarak": {
+    "title": "com.khaniitech.ramadandpmakerwithname.ramadanmubarakphotoframes.ramadan_ramzan_mubarak",
+    "package": "com.khaniitech.ramadandpmakerwithname.ramadanmubarakphotoframes.ramadan_ramzan_mubarak"
+  },
+  "com.khaniitech.DpMaker_NameLetterDpMaker.stylishnamemaker_dpmaker": {
+    "title": "com.khaniitech.DpMaker_NameLetterDpMaker.stylishnamemaker_dpmaker",
+    "package": "com.khaniitech.DpMaker_NameLetterDpMaker.stylishnamemaker_dpmaker"
+  },
+  "screenmirroring.castototv.mirror.screencast.screensharing": {
+    "title": "screenmirroring.castototv.mirror.screencast.screensharing",
+    "package": "screenmirroring.castototv.mirror.screencast.screensharing"
+  },
+  "assistivetouch.easytouch.aggressivetouch.assistivetouchlite": {
+    "title": "assistivetouch.easytouch.aggressivetouch.assistivetouchlite",
+    "package": "assistivetouch.easytouch.aggressivetouch.assistivetouchlite"
+  },
+  "launcherios.iphonelauncher.ioslauncher.widgets.themes": {
+    "title": "launcherios.iphonelauncher.ioslauncher.widgets.themes",
+    "package": "launcherios.iphonelauncher.ioslauncher.widgets.themes"
+  },
+  "fingerprint.live.animation.effects.fingerprintanimation": {
+    "title": "fingerprint.live.animation.effects.fingerprintanimation",
+    "package": "fingerprint.live.animation.effects.fingerprintanimation"
+  },
+  "com.stickynotes.remindernotes.widgetnotes": {
+    "title": "com.stickynotes.remindernotes.widgetnotes",
+    "package": "com.stickynotes.remindernotes.widgetnotes"
+  },
+  "repeat.text.repeater.message.textrepeater.repeattext": {
+    "title": "repeat.text.repeater.message.textrepeater.repeattext",
+    "package": "repeat.text.repeater.message.textrepeater.repeattext"
+  },
+  "image.text.scanner.ocr.imagetotext.textscanner": {
+    "title": "image.text.scanner.ocr.imagetotext.textscanner",
+    "package": "image.text.scanner.ocr.imagetotext.textscanner"
+  },
+  "car.engine.sounds.supercar.enginesound.carenginesounds": {
+    "title": "car.engine.sounds.supercar.enginesound.carenginesounds",
+    "package": "car.engine.sounds.supercar.enginesound.carenginesounds"
+  },
+  "video.audio.converter.videotomp3.videotomp3converter.mp3videoconverter.mp4tomp3.videotoaudioconverter": {
+    "title": "video.audio.converter.videotomp3.videotomp3converter.mp3videoconverter.mp4tomp3.videotoaudioconverter",
+    "package": "video.audio.converter.videotomp3.videotomp3converter.mp3videoconverter.mp4tomp3.videotoaudioconverter"
+  },
+  "language.translator.voice.translate.text.languages.voicetranslator.texttranslator": {
+    "title": "language.translator.voice.translate.text.languages.voicetranslator.texttranslator",
+    "package": "language.translator.voice.translate.text.languages.voicetranslator.texttranslator"
+  },
+  "callscreen.icalldialer.ioscallscreen.iapp": {
+    "title": "callscreen.icalldialer.ioscallscreen.iapp",
+    "package": "callscreen.icalldialer.ioscallscreen.iapp"
+  },
+  "zip.locker.zipper.lock.screen.ziplocker.ziplockscreen": {
+    "title": "zip.locker.zipper.lock.screen.ziplocker.ziplockscreen",
+    "package": "zip.locker.zipper.lock.screen.ziplocker.ziplockscreen"
+  },
+  "iphone.keyboard.themes.ios.iphonekeyboard.applekeyboard": {
+    "title": "iphone.keyboard.themes.ios.iphonekeyboard.applekeyboard",
+    "package": "iphone.keyboard.themes.ios.iphonekeyboard.applekeyboard"
+  },
+  "batterycharging.animation.screen.chargingshow.batterylife.batterywidget": {
+    "title": "batterycharging.animation.screen.chargingshow.batterylife.batterywidget",
+    "package": "batterycharging.animation.screen.chargingshow.batterylife.batterywidget"
+  },
+  "com.notemaster.record.mark": {
+    "title": "NoteMaster",
+    "package": "com.notemaster.record.mark",
+    "description": "Creativity comes from writing, and inspiration is recorded at any time. Together with our notepad app, you can easily capture your thoughts, organize your life, and leave important information anytime and anywhere. Simple, efficient and multi-platform support makes note-taking easy and enjoyable.",
+    "icon": "/icons/com.notemaster.record.mark.png"
+  },
+  "com.flashlight.flashapp": {
+    "title": "com.flashlight.flashapp",
+    "package": "com.flashlight.flashapp"
+  },
+  "com.flashonmsg.flashoncall.flashalert.flashonsms.flashonmessage.flashonnotification.flashlightpro.ledblinkernotification.flashlightringtone": {
+    "title": "com.flashonmsg.flashoncall.flashalert.flashonsms.flashonmessage.flashonnotification.flashlightpro.ledblinkernotification.flashlightringtone",
+    "package": "com.flashonmsg.flashoncall.flashalert.flashonsms.flashonmessage.flashonnotification.flashlightpro.ledblinkernotification.flashlightringtone"
+  },
+  "com.qzk.qrscanner.scanner.barcodereader": {
+    "title": "com.qzk.qrscanner.scanner.barcodereader",
+    "package": "com.qzk.qrscanner.scanner.barcodereader"
+  },
+  "com.cool.weather.yl": {
+    "title": "CoolWeather",
+    "package": "com.cool.weather.yl",
+    "description": "CoolWeather is a free weather forecast app that provides daily real-time weather, future weather and seasonal probabilities. It has the following functions:\n1.Real-time and accurate weather information: weather conditions, temperature, wind.\n2.Weather forecast for the next 48 hours: weather conditions, temperature, UV rays, humidity.\n3. Air quality of the day.\n4. Weather widget.\n5. Sunrise and sunset time of the day.",
+    "icon": "/icons/com.cool.weather.yl.png"
+  },
+  "com.arrower.game": {
+    "title": "com.arrower.game",
+    "package": "com.arrower.game"
+  },
+  "com.screwpuzzle.gameapp": {
+    "title": "com.screwpuzzle.gameapp",
+    "package": "com.screwpuzzle.gameapp"
+  },
+  "com.puzzle.multigon": {
+    "title": "com.puzzle.multigon",
+    "package": "com.puzzle.multigon"
+  },
+  "com.fantasy.profit11": {
+    "title": "ball sort games:color puzzles",
+    "package": "com.fantasy.profit11",
+    "description": "This character in Ball Sort Games: Color Puzzles is designed to sort bottles quickly and precisely.  It has a gameplay boost that makes complicated color arrangements easier to handle by speeding up pouring and granting one extra undo per level.  Particularly in higher levels, its passive skill emphasizes legitimate moves to minimize trial and error.  The character rewards successive accurate pours with score bonuses, making it ideal for players who rely on efficiency and logical reasoning.  It is a crucial option for quickly and strategically tackling challenging stages since it keeps the flow going and minimizes restarts as puzzles get more complex.",
+    "icon": "/icons/com.fantasy.profit11.png"
+  },
+  "com.apps.confession": {
+    "title": "two car :2 car games",
+    "package": "com.apps.confession",
+    "description": "In Two Car: Two Car Games, this character is designed for flawless dual-lane management.  Players are able to precisely control both cars at higher speeds thanks to improved lane-switch reaction and smoother coordination.  During tense scenes, the character's unique skill somewhat slows down obstacle speed, giving double pickups more time.  By decreasing unintentional collisions and enhancing reaction time, it raises scoring consistency.  Players who want to master the game's fast-paced dual driving mechanics and smash records will love this character, which is ideal for multitasking and rhythm-based play.",
+    "icon": "/icons/com.apps.confession.png"
+  },
+  "com.msbtecampusapp.rajchinesecenter": {
+    "title": "pong :games",
+    "package": "com.msbtecampusapp.rajchinesecenter",
+    "description": "This figure improves ball handling and paddle responsiveness, adding a distinctive flavor to Pong: Games.  Their unique skill makes it simpler to return fast-moving balls and produce steady rallies by slightly enlarging the paddle.  When their power-up is engaged, the ball slows down momentarily, allowing players more time to aim and plan.  This character thrives in lengthy bouts by reducing the chance of missed returns and increasing the possibility of well-placed shots to gain an edge, making it ideal for players who are excellent at timing and precision.",
+    "icon": "/icons/com.msbtecampusapp.rajchinesecenter.png"
+  },
+  "com.apt.attendancecall": {
+    "title": "color card :stack games",
+    "package": "com.apt.attendancecall",
+    "description": "This character in Color Card: Stack Games is very good at accurately and quickly stacking cards by color.  Its primary gameplay feature speeds up the stacking zone's reaction time, enabling quicker and more fluid card placements.  It has a combo boost mechanism that multiplies scores when several correct colors are stacked consecutively.  Additionally, the mascot passively draws attention to stacking hues, which speeds up decision-making in quicker rounds.  It excels in high-speed games where accuracy is crucial, making it ideal for players who depend on rhythm and fast decision-making.  It strives for better combos and more fluid progression through progressively challenging stages with each stack.",
+    "icon": "/icons/com.apt.attendancecall.png"
+  },
+  "com.jvp.attendancecall": {
+    "title": "zig zag zoom games: ball",
+    "package": "com.jvp.attendancecall",
+    "description": "This character in Zig Zag Zoom Games: Ball gives you more control over every tight turn.  It performs exceptionally well on high-speed zigzag roads with tighter corners and smoother directional changes.  During combination runs, its unique ability momentarily widens the path, which facilitates momentum maintenance.  At higher scores, players have more time to respond as the ball accelerates progressively.  This character maximizes crystal gathering and helps prevent edge drops, making it ideal for long-term plans.  Its precision and endurance design enables proficient players to make fewer mistakes while pushing deeper into difficult runs.",
+    "icon": "/icons/com.jvp.attendancecall.png"
+  },
+  "com.gool7gool2.gool1": {
+    "title": "words games: puzzle game",
+    "package": "com.gool7gool2.gool1",
+    "description": "In \"Words Games: Puzzle Game,\" players must link letters, uncover hidden words, or do word searches in order to solve word puzzles. The character\u2014usually the player or an avatar\u2014participates in a brainteaser that tests their ability to recognize words and expand their knowledge. The objective of the game is to create valid words out of a grid or collection of letters. This can be done by choosing words from a list, rearranging letters to create anagrams, or joining neighboring letters in a crossword-like pattern.",
+    "icon": "/icons/com.gool7gool2.gool1.png"
+  },
+  "com.jeep.car.parking.modern.drive": {
+    "title": "Jeep Car Parking Modern Drive",
+    "package": "com.jeep.car.parking.modern.drive",
+    "description": "Welcome to the Prado Jeep Car Parking Modern Drive where you can polish your driving skills. In this jeep driving games you have to challenge you parking skills and have to park the vehicles properly by crossing all the hurdles on the way. Race along with the time and finish the task before the time ends to earn smart cash in this car parking games. By playing this Jeep simulation games you will definitely become a pro driver by parking the cars properly in line without breaking any rule. Get ready for the most trilling mission of parking mania, by completing the tasks you can unlock all the other vehicles in the garage. Fasten your seat belt for the most thrilling driving experience and get a chance to become a police driving master.  When you drive your car first of all fastens your seat",
+    "icon": "/icons/com.jeep.car.parking.modern.drive.png"
+  },
+  "com.gunship.helicopter.shooting.wargames": {
+    "title": "Gunship Helicopter Shooting 3D",
+    "package": "com.gunship.helicopter.shooting.wargames",
+    "description": "The Gunship Helicopter shooting 3D is the best unique tool to train your mind, that how to battle against the strongest enemy in this gunship battle. As an army helicopter pilot train yourself for the challenging missions to polish your fighting skills and knock down all the enemies in this helicopter simulator game. By completing all the activities you have to prove that you have the abilities to save the world in this helicopter fighting games. The location of the enemies is marked in your map, destroy their hideout by aiming the missile on them in this gunship war game. The enemies will also attack you in return and you have to be very careful. Become the best defend for yourself and also for your military squad. If your fail in defending your otherwise you will die at the spot.\n\nThe Gu",
+    "icon": "/icons/com.gunship.helicopter.shooting.wargames.png"
+  },
+  "com.sea.animal.transport.simulator": {
+    "title": "Sea Animal Transport Simulator",
+    "package": "com.sea.animal.transport.simulator",
+    "description": "We warmly welcome you to play this Sea Animal Transport Simulator where you will perform the role of truck driver. Your main tasks in these transport truck game is to catch the sea animals from the ocean and place them in fish aquarium and load them for truck delivery. Drive Cargo Ship in animal transport games and perform your duty properly where you need to follow the traffic rules of zoo animal transport truck games and drive towards the streets carefully within the time given in your game display. Get into the driver's seat and start your job of catching the sea animals from the ocean and transporting them in the US city. This cargo ship games have challenging missions of animal transport which you have to perform carefully while driving the euro truck.\n\nYou have played many sea animal",
+    "icon": "/icons/com.sea.animal.transport.simulator.png"
+  },
+  "com.demolition.derby.crash.car.game3d": {
+    "title": "Demolition Derby Crash Car 3D",
+    "package": "com.demolition.derby.crash.car.game3d",
+    "description": "Let\u2019s step into this trilling and full of action games Demolition Derby Crash Car  where you can take revenge from your opponents by smashing their cars in this car crash games. Drive a car with a high speed to destroy all the others monster derby to win the arena battle. This demolition games is all about crashing and destroying the American monster truck. There are many derbies in the battle which are fighting with each other just to win the arena, step into it and destroy all the derby car and win the tournament. You will be spawn on the right side and the other drivers will be on the right side and main goal is to smash the cars and become a last man standing in this crashing car games. There are many features in your derby car like firing and shooting a missile on the opponent\u2019s derby",
+    "icon": "/icons/com.demolition.derby.crash.car.game3d.png"
+  },
+  "com.modern.fps.gun.shooting.strike": {
+    "title": "Modern FPS Gun Shooting Strike",
+    "package": "com.modern.fps.gun.shooting.strike",
+    "description": "Welcome to the Modern FPS Gun Shooting Strike Game.\nGet a chance to become a member of a strike force in this offline shooting games. Experience a new gun games with an exciting death matches in fps shooting games. Become a best counter terrorist shooter and knock down the enemies to have an unlimited fun in gun shooting games. Have you ever experienced a critical death matches in counter terrorist game? If no! Then play this gun shoot game which gives you a trilling adventure of killing enemies and you can also improve your shooter aim skills in practice mode of sniper games. Knock down all the enemy force and take the victory flag from them. In this counter terrorist game, you will find a best combination of action games and fps shooting. Take the responsibilities of saving the world and",
+    "icon": "/icons/com.modern.fps.gun.shooting.strike.png"
+  },
+  "com.elite.commando.shooting.strike": {
+    "title": "Elite Commando shooting strike",
+    "package": "com.elite.commando.shooting.strike",
+    "description": "Welcome to the  Elite Commando Shooting Strike Game  where you will feel like a FPS commando and have to knock down all the enemies using your sniper rifle in this counter terrorist game. You have to knock all the terrorists as a special trained secret commando officer in this Cover Strike Game. You are a real army soldier and have to perform secret missions to eliminate all the counter forces. Offline shooting games include a wide variety of weapons like shotguns, pistols & rifles. We are glad to present gun strike shooting game for the lovers of FPS games. The gameplay of this FPS commando game is very addictive with modern war weapons which you can unlock by completing all the activities. Become the last man standing and save the world from the criminal\u2019s activities.\n\nElite Commando Sho",
+    "icon": "/icons/com.elite.commando.shooting.strike.png"
+  },
+  "com.dodge.chase.police.car.games": {
+    "title": "Dodge The Police Car Games",
+    "package": "com.dodge.chase.police.car.games",
+    "description": "Let\u2019s get into this Dodge the Police Car Games where you have to escape from the elite police cars. The US cops are chasing you, use you\u2019re driving skills to get rid from the police car. Get ready to experience the most thrilling police chase games. Become a real cop chaser. If you are a crazy car lover, you would definitely love to play this car racing games. Drive like a professional auto theft gangster in US city of police runner games. Escape the cops before they arrest you. Drive in a track where you can perform different stunts like drifting. Nobody can stop you from having the best roaming experience in this open world game where there is no limit of speed in fast police car. The cop\u2019s will try to stop you, don\u2019t step on the brake! Complete all the missions to get rewards for the up",
+    "icon": "/icons/com.dodge.chase.police.car.games.png"
+  },
+  "com.us.highway.road.construction": {
+    "title": "US Highway Road Construction",
+    "package": "com.us.highway.road.construction",
+    "description": "We welcome you to play US Highway Road Construction. Get an opportunity to become a real road builder to construct different tracks on the highway, so that the people living in the US city get advantage from your house construction skills. Can you manage all the gigantic equipment for the construction in off road truck driving games?  Put helmet on and get yourself into work with your team in road construction simulator. Operate all the heavy excavator vehicles for the transportation of construction material from the factory towards the building zone in railway craft game. Experience the road construction simulator to build different highways for the ease of people to move from one US city to other. This is not just a road construction game, in this street craft games you have to perform e",
+    "icon": "/icons/com.us.highway.road.construction.png"
+  },
+  "com.wild.bear.animal.attack.games": {
+    "title": "Wild Bear Animal Attack Games",
+    "package": "com.wild.bear.animal.attack.games",
+    "description": "Let\u2019s get step into this  Wild Bear Animal Attack Games where you have to hunt down the peoples for your survival in the jungle. Get ready for an exciting bear simulator games with an amazing survival missions to complete. Play the role as a jungle bear and find something to feed yourself in this dark night forest. Roam around the jungle and you will find animals, Run towards them to feed your stomach has you haven\u2019t eaten something from the last two days. It\u2019s time to make you feel like you are only king of this animal simulator games. You may have experienced many jungle survivor and hunting games but this wild animal games gives you a realistic experience of hunting the animals and peoples roaming around the forest. Be very careful while hunting, they might ran away by smelling your pre",
+    "icon": "/icons/com.wild.bear.animal.attack.games.png"
+  },
+  "com.truck.driver.simulator.games": {
+    "title": "Truck Driver Simulator Games",
+    "package": "com.truck.driver.simulator.games",
+    "description": "Let\u2019s become a professional rider in this  Truck Driver Simulator Games where you have to drive a heavy duty truck.  Your main tasks is to attach the container with your trailer and deliver it towards the location marked. The truck driver job is not as easy, you have to work day and night to earn cash in American truck simulator. You may have experienced many cargo simulator and truck game and we present you the heavy truck simulator game with many extraordinary features and many American truck to unlock in this euro cargo simulator. Follow the traffic rules and regulation, avoid hitting the hurdles and deliver the container on the given time. If you break any rule or high speeding the penalty will be cut down from your salary of these truck games. Show your driving skills by performing yo",
+    "icon": "/icons/com.truck.driver.simulator.games.png"
+  },
+  "com.smash.car.hit.stunt.simulator": {
+    "title": "Smash Car Hit Stunt Simulator",
+    "package": "com.smash.car.hit.stunt.simulator",
+    "description": "Let\u2019s get interact with  Smash Car Hit Stunt Simulator where you have to perform speed stunts on impossible track. There are many difficult tracks which you have to complete on the given time to win the tournament in car driving games. Let\u2019s go on a ride! There are many hurdles on the way be careful while driving the extreme stunt car. Let\u2019s step into these stunt games and prove yourself a professional stunt man in these car crash games. Unlike all other car games and stunt games, try this  Smash Car Hit Stunt Simulator which will improves your driving skills in impossible tracks. Become a professional driver and complete all the tricky race track of car jumping just like a parkour. These racing Car simulator have many impossible mission which are not easy to complete.\n\nImprove your drivin",
+    "icon": "/icons/com.smash.car.hit.stunt.simulator.png"
+  },
+  "com.heavy.snow.excavator.crane": {
+    "title": "Heavy Snow Excavator Crane",
+    "package": "com.heavy.snow.excavator.crane",
+    "description": "Let\u2019s play this  Heavy Snow Excavator Crane where you will play the role as a truck driver. We will provide you all kinds of construction material for cleaning the roads in Snow Excavator Games as a heavy duty driver. Complete all the desired road cleaning & Road construction games missions to become a professional contractor. The winter season is here and the roads are blocked due to heavy snow, your main task in this snow crane game is to drive heavy duty trucks and remove all the snow on the road. Hurry up! The road traffic is jam due to heavy snow, clear the road as soon as possible. Let\u2019s drive the rescue excavator crane and find out the locations of traffic jam and reach on time for rescue duty at construction site. This city building games will make you a professional heavy snow exc",
+    "icon": "/icons/com.heavy.snow.excavator.crane.png"
+  },
+  "com.jet.ski.water.boat.racing.game": {
+    "title": "Jet Ski Water Boat Racing Game",
+    "package": "com.jet.ski.water.boat.racing.game",
+    "description": "We welcome you to play Jet Ski Water Boat Racing Game. These boat games are the best racing game in a simulator category where you have to race against the top Jet Ski racer and have to defeat them to win the tournament. Experience the real freshness of water by riding the amazing boat racing games. Avail the opportunity and become the best river driver and show your stunts skills on the river to defeat the players in these boat racing simulator. Challenge the river waves and perform different stunts to show your skills. It\u2019s time to release your stress by playing these Jetski games 2022. You might have played many water games as real boat racer who can perform different Jet Ski stunts. Become one of the top racer of jetski simulator. Compete all the Jet Ski racer missions while enjoying i",
+    "icon": "/icons/com.jet.ski.water.boat.racing.game.png"
+  },
+  "com.princess.bride.home.escape.run": {
+    "title": "Princess Bride Home Escape Run",
+    "package": "com.princess.bride.home.escape.run",
+    "description": "We warmly welcome you to  Princess Bride Home Escape Run which is an endless running game. Subway girl runner is an amazing runner games where a girl is running from her wedding towards the city and the groom is chasing her. There are many hurdles and checkpoints on the way, carefully cross all the checkpoints and avoid hitting the hurdles. This is an amazing and most addictive gameplay of princess running. You may have experienced many run games and girl running but this bridal dress up is an endless running game. This is an amazing wedding games for girls with an ultimate run race which you might have seen in princess dress up. Use your techniques to get rid from the groom cashing you, and get successful in escaping. Complete all the escaping missions to get rewards in run games.\n\nYou ca",
+    "icon": "/icons/com.princess.bride.home.escape.run.png"
+  },
+  "com.tricky.bike.beach.stunt.master": {
+    "title": "Tricky Bike Beach Stunt Master",
+    "package": "com.tricky.bike.beach.stunt.master",
+    "description": "Let\u2019s become a moto racer in  Tricky Bike Beach Stunt Master and perform different stunt on offshore. Train yourself on a tricky tracks to perform crazy stunts in front of audience. BMX bike games is specially designed for the biker lover, polish your stunts skills and be the best stunt master in bike racing games. Don\u2019t miss a chance to become a bike stunt master and show your skills to the world. You will be given different tasks like performing jump between the rings on a tricky track. Don\u2019t hit any hurdle or obstacle placed in your way, become a professional bike stuntman and do some crazy tricks in beach water. Do you have a craze of performing dangerous tricks on a trail track? If yes then you are at the right place of racing moto games. So don\u2019t hesitate to start your career as bike",
+    "icon": "/icons/com.tricky.bike.beach.stunt.master.png"
+  },
+  "com.city.train.driving.games": {
+    "title": "City Train Driving Games",
+    "package": "com.city.train.driving.games",
+    "description": "Let\u2019s become a real locomotive driver in  City Train Driving Games where you have to pick the passengers from the station. Play the role as a train captain and reach towards the destination on time. The bullet train simulator is the speediest travel for everyone, you should keep the speed of the train minimum to avoid any risk. The passengers are waiting for your arrival on the railway station, you should reach on time. You may have experienced many train games and driving simulator but this metro train games offers you a modern features of driving an electric steam locomotive. Driving a train is not as difficult as you think, simply accelerate the engine and move the pedal shifters to move the angle. Let\u2019s become a professional railway driver and transfer the passengers from one city to a",
+    "icon": "/icons/com.city.train.driving.games.png"
+  },
+  "com.gangster.jail.escape.shooting": {
+    "title": "Gangster Jail Escape Shooting",
+    "package": "com.gangster.jail.escape.shooting",
+    "description": "Enter into the world of criminals in  Gangster Jail Escape Shooting where you have the escape from the grand jail. You are involved in many criminal activities and you have been sent to jail for the punishment. Your main tasks in this prison survival game is to make a proper escape plan to get rid from the US police. You are on the mission to escape the grand prison and allow other prisoners partners to get enrolled in your missions in this jail break games. Knock down all the policemen and guards who are stopping you to escape from the jail. Experience the most thrilling adventure of escape games and accept the challenging missions to complete. Plan something big to get out of the jail and live a victory life. Make partners of your choice which will help you in escape plan.\n\nYou may have ",
+    "icon": "/icons/com.gangster.jail.escape.shooting.png"
+  },
+  "com.offroadking.road.parking.jeep.driving": {
+    "title": "Off Road Parking Jeep Driving",
+    "package": "com.offroadking.road.parking.jeep.driving",
+    "description": "Let\u2019s get into this  Off Road Parking Jeep Driving where you have the best opportunity to polish your driving skills.   Drive an SUV jeep on an off road track and park your vehicles properly towards the marked location in parking mania. Your race is with the time and you have to finish all the given tasks before the time ends, you can earn smart cash in this car parking games. By playing this jeep driving simulator you can become a pro driver by crossing all the hurdles and park the car properly without breaking any rules and regulation in car driving games. Be the best driver in this real car parking and expand your journey by learning the parking skills. You are the only offroad jeep driver who can clear all the hurdles to win the parking mania. So! What are you waiting for, start the ca",
+    "icon": "/icons/com.offroadking.road.parking.jeep.driving.png"
+  },
+  "com.street.girl.run.chasergame": {
+    "title": "Street Girl Run Chaser",
+    "package": "com.street.girl.run.chasergame",
+    "description": "Let\u2019s step into this  Street Girl Run Chaser where you have to perform different stunts to escape. Become the best runner in this running games and complete all the given tasks. There are many hurdles and obstacles on your way, you have to dodge all the traps properly in this endless runner. You may have experienced many race games and chasing games but this street chaser games offers you an opportunity to polish your running and stunts skills to get rid from the cop chasing you. This is an endless treasure track where you can collect coins as many as you can to unlock many new characters and skills. Swipe left and right and swipe down and up to dodge the obstacles and avoid hitting any hurdles. You can also upgrade your skills in this free running games and can also jump from one containe",
+    "icon": "/icons/com.street.girl.run.chasergame.png"
+  },
+  "com.arabmusic.aghani_saadlamjarred": {
+    "title": "Income Expense Tracker",
+    "package": "com.arabmusic.aghani_saadlamjarred",
+    "description": "Take control of your finances with Income Expense Tracker\nAre you looking for a simple yet powerful app to track your income and expenses? With Income Expense Tracker, managing your money has never been easier. Stay organized, monitor spending, and achieve your financial goals with this user-friendly finance app.",
+    "icon": "/icons/com.arabmusic.aghani_saadlamjarred.png"
+  },
+  "com.arabmusic.tap.aghani_tamerhosny": {
+    "title": "Tap to Translate",
+    "package": "com.arabmusic.tap.aghani_tamerhosny",
+    "description": "Tap to Translate is the ultimate text translation tool that instantly translates any text, helping you break language barriers. Whether you are traveling, working, or chatting with friends around the world, our language translation app makes communication easy and seamless.",
+    "icon": "/icons/com.arabmusic.tap.aghani_tamerhosny.png"
+  },
+  "com.MagicCall.Rawan.ChatLiveCall.RayanChat": {
+    "title": "Sandbox Pixel Coloring",
+    "package": "com.MagicCall.Rawan.ChatLiveCall.RayanChat",
+    "description": "Develop your Color Matching skills with Box coloring book and Color by Number on Coloring Pages.\n\nBe Careful, Drop the Color in the same number blocks.",
+    "icon": "/icons/com.MagicCall.Rawan.ChatLiveCall.RayanChat.png"
+  },
+  "com.MagicCall.challange.ChatLiveCall.Call123go": {
+    "title": "Tricky Shot Omar",
+    "package": "com.MagicCall.challange.ChatLiveCall.Call123go",
+    "description": "Be careful about power when releases the shot and also watch out the direction of your shot.",
+    "icon": "/icons/com.MagicCall.challange.ChatLiveCall.Call123go.png"
+  },
+  "com.machi.call.ChatLiveCall.mochi": {
+    "title": "Snake Eats Balls",
+    "package": "com.machi.call.ChatLiveCall.mochi",
+    "description": "Roll your finger and guide the snake to break the bricks,a clash of balls vs blocks.Try to break as many bricks as possible.You can make your snake bigger by feeding him more and more balls and by this you can also show us your rolling stunts.",
+    "icon": "/icons/com.machi.call.ChatLiveCall.mochi.png"
+  },
+  "com.anysurfing.browser": {
+    "title": "com.anysurfing.browser",
+    "package": "com.anysurfing.browser"
+  },
+  "com.dmstudio.weather": {
+    "title": "Daily Weather",
+    "package": "com.dmstudio.weather",
+    "description": "Basic functions of this application:\n1. Current weather information: weather conditions, temperature, wind.\n2. Weather forecast for the next 24 hours: weather conditions, temperature, UV rays, humidity.\n3. Air quality of the day.\n4. Weather widget.\n5. Sunrise and sunset time of the day.\n6. Weather Radar.",
+    "icon": "/icons/com.dmstudio.weather.png"
+  },
+  "audio.converter.helper": {
+    "title": "audio.converter.helper",
+    "package": "audio.converter.helper"
+  },
+  "document.scan.simple.tools.kt": {
+    "title": "document.scan.simple.tools.kt",
+    "package": "document.scan.simple.tools.kt"
+  },
+  "com.message.recovery.prorestore": {
+    "title": "All Deleted Messages Recovery",
+    "package": "com.message.recovery.prorestore",
+    "description": "All deleted messages recovery(Restore message app) allows you to recover your chat messages fast and easy and recover all deleted messages by scanning your device notifications.\n\nRecover eleted text messages - us can help you to recover your deleted messages, create backups on your cloud storage. Create a manual backup or schedule automatic backups.\n\nIf you want to keep your phone data, Recover deleted text messages is the right application for you, it's the answer of \"how to retrieve deleted text messages\"\nWhenever you deletet accidentaly a  chat or messages from your phone  at the same it will also display on Restore Notification. You can recover Chat Message from phone, and you can easly restore all deleted conversations from your devices or external storge and also sd card \nHow does it",
+    "icon": "/icons/com.message.recovery.prorestore.png"
+  },
+  "pwd.book.manager.tools": {
+    "title": "pwd.book.manager.tools",
+    "package": "pwd.book.manager.tools"
+  },
+  "com.calcu.latorpro": {
+    "title": "com.calcu.latorpro",
+    "package": "com.calcu.latorpro"
+  },
+  "app.imps.daman": {
+    "title": "app.imps.daman",
+    "package": "app.imps.daman"
+  },
+  "com.keep.heartbeat": {
+    "title": "com.keep.heartbeat",
+    "package": "com.keep.heartbeat"
+  },
+  "com.yun.wth.er": {
+    "title": "com.yun.wth.er",
+    "package": "com.yun.wth.er"
+  },
+  "com.adventure.grinchrun": {
+    "title": "com.adventure.grinchrun",
+    "package": "com.adventure.grinchrun"
+  },
+  "com.callme.kissy": {
+    "title": "com.callme.kissy",
+    "package": "com.callme.kissy"
+  },
+  "com.corogo.gbversion": {
+    "title": "com.corogo.gbversion",
+    "package": "com.corogo.gbversion"
+  },
+  "password.books.manager.lite": {
+    "title": "password.books.manager.lite",
+    "package": "password.books.manager.lite"
+  },
+  "appicon.editor.tools.prop": {
+    "title": "App Icon Editor",
+    "package": "appicon.editor.tools.prop",
+    "description": "App Icon Editor is a powerful and user-friendly mobile application that enables users to customize and create a variety of unique and personalized desktop icons. Whether you want to change the icons of existing apps to showcase your personality or create brand new shortcuts to simplify operations, this app can meet your needs.\n\nCore Features:\n\nCustom Icon Creation: Users can freely choose pictures from their photo albums or take instant photos to create personalized icons. With just a few simple steps, you can transform your favorite pictures into desktop icons, giving your phone screen a fresh and new look.\n\nRich Template Designs: The app comes with a variety of beautifully designed icon templates. These templates are not only uniquely designed but also easy to edit, allowing users to adj",
+    "icon": "/icons/appicon.editor.tools.prop.png"
   }
 }
