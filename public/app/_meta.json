@@ -12465,5 +12465,191 @@
     "package": "com.debojyoti.ios16_icpack",
     "description": "iOS 26 - icon pack brings the simplicity and elegance of iOS to your device, enhancing your user experience with its clean and sleek aesthetic design.\n\n\u2728Key Features:\n- Over 2400+ meticulously crafted icons, continuously expanding with each update.\n- Uniform square icons with soft rounded edges for a harmonious look.\n- Modern and minimalistic app UI with subtle animations that bring a smooth and enjoyable experience.\n- Each icon is 192*192 px in size, perfect for modern high-definition screens.\n- Exclusive analog and digital widgets for a complete customization experience without the hassle of additional tools like KWGT.\n\n\u2728 Extensive Launcher Compatibility: \nOur icon pack is designed to work seamlessly with a wide range of launchers, ensuring you can enjoy our icons no matter what interfac",
     "icon": "/icons/com.debojyoti.ios16_icpack.png"
+  },
+  "com.alphaone.beeline.iconpack": {
+    "title": "BeeLine Icon Pack",
+    "package": "com.alphaone.beeline.iconpack",
+    "description": "BeeLine Icons made of colorful linear linese with beautiful colors for both dark and Light setups.\n\nOne of the easiest ways to breathe in new life in your phone's interface is by giving it a new look with amazing iconpack. There are already thousands of iconpacks on market. But BeeLine is totally awesome and beautiful icon pack for Android.\n\nBeeLine is a very Minimal, colorful Linial icon pack that comes along with 3000+ icons and tons of cloud-based wallpapers on deck. In this Iconpack We are taking Google' Material Design as a primary guideline for the size and dimentions, and applying our own creative touch! Every icon is a real masterpiece and crafted with lots of time and attention to smallest details.\n\nBeeLine Icon pack is still new with 3000+ Icons . And I can assure you to add lot ",
+    "icon": "/icons/com.alphaone.beeline.iconpack.png"
+  },
+  "com.natewren.lines": {
+    "title": "Lines Pro - Icon Pack",
+    "package": "com.natewren.lines",
+    "description": "Lines icons (pro version) are outlined shapes of the most popular apps. Included with the hand-crafted line icons are matching wallpapers, and widgets for clocks, battery and weather. Widgets offer color, size, and font customization and over 200 hand-picked wallpapers of skies, clouds, landscapes and abstract designs are included. The center of the icon outline is transparent, letting you show off your wallpaper beneath the icons. The line icons are xxxhdpi which means they're HD or high enough resolution to get cool looking lined icons on any device out there.\n\n\nQUICK TIPS\nYou can manually edit icons in most launchers by long-pressing the icon you'd like to edit.\n\n\nWidgets: If your widget stops updating, check your system or battery settings to make sure the app is exempt from battery op",
+    "icon": "/icons/com.natewren.lines.png"
+  },
+  "com.stationdm.bluelink": {
+    "title": "MyHyundai with Bluelink",
+    "package": "com.stationdm.bluelink",
+    "description": "The MyHyundai app makes getting information about your Hyundai vehicle easier than ever. The MyHyundai app allows you to access owner resources, schedule service or connect to your Bluelink enabled vehicle from your phone. Bluelink technology enables and empowers you while you are on the go, giving you access to your Bluelink features from your office, at home, or just about anywhere.\nAccess the app with your MyHyundai.com ID, password and PIN to take advantage of Bluelink\u2019s Remote features. Log in and send commands conveniently using biometric authentication (fingerprint or face recognition). An active Bluelink subscription is required to use Bluelink features in the app. To renew or upgrade to either Remote or Guidance, please visit MyHyundai.com.\n\n\nAn active Bluelink Remote Package (R) ",
+    "icon": "/icons/com.stationdm.bluelink.png"
+  },
+  "com.gm.cadillac.nomad.ownership": {
+    "title": "myCadillac",
+    "package": "com.gm.cadillac.nomad.ownership",
+    "description": "Enjoy the luxury of vehicle control at your fingertips with the myCadillac app, connected by OnStar. Start your vehicle, set your ideal cabin temperature and more right from your phone. You can also easily find your vehicle and get walking directions to its location. Plus, keep track of your fuel level, tire pressure, oil life and odometer. You can even schedule service and request Roadside Assistance with the tap of a button. Get the app that makes ownership better at every turn. Download now. \n\nDisclosures: \nMobile app functionality is available on select devices and requires data connection. Services availability, features and functionality vary by vehicle, device and the plan you are enrolled in. Roadside service availability and providers vary by country. Map coverage, features and fu",
+    "icon": "/icons/com.gm.cadillac.nomad.ownership.png"
+  },
+  "com.fca.myconnect.dodge.nafta": {
+    "title": "DODGE",
+    "package": "com.fca.myconnect.dodge.nafta",
+    "description": "Whether you\u2019re out adventuring in your Dodge Brand vehicle, relaxing in the comfort of your home or just about anywhere else, the new Dodge app lets you stay in touch and helps keep you in control of your vehicle like never before. Need to contact your dealer? No problem, simply use the My Dealer feature to find your preferred dealership\u2019s address, schedule service appointments, or call them directly with the touch of a button. Easily access your vehicle\u2019s info\u2014including the owner\u2019s manual, service history, and more\u2014with the My Garage and Digital Glovebox features. And stay up to date on open recalls using the Recall Alert so you\u2019re always one step ahead. If your vehicle is equipped, you can remotely start or stop your vehicle+, lock or unlock the doors and activate the horn or exterior li",
+    "icon": "/icons/com.fca.myconnect.dodge.nafta.png"
+  },
+  "com.gm.gmc.nomad.ownership": {
+    "title": "myGMC",
+    "package": "com.gm.gmc.nomad.ownership",
+    "description": "Control your vehicle from the palm of your hand with the myGMC app, connected by OnStar. Start your vehicle, set your ideal cabin temperature and more right from your phone. You can also easily find your vehicle and get walking directions to its location. Plus, keep track of your fuel level, tire pressure, oil life and odometer. You can even schedule service and request Roadside Assistance with the tap of a button. Get the app that makes ownership better at every turn.\n\nDownload now.\n\nDisclosures: \nMobile app functionality is available on select devices and requires data connection. Services availability, features and functionality vary by vehicle, device and the plan you are enrolled in. Roadside service availability and providers vary by country. Map coverage, features and functionality ",
+    "icon": "/icons/com.gm.gmc.nomad.ownership.png"
+  },
+  "com.ace.shell.production": {
+    "title": "Auto Club",
+    "package": "com.ace.shell.production",
+    "description": "The AAA Auto Club App makes it easy to access everything you love about AAA, right from your phone. Manage your membership and insurance, request roadside assistance, book travel, and find the best gas prices and nearest AAA office, all with a few taps.\n\nCurrently supported clubs in this app:\n\u2022 Automobile Club of Southern California\n\u2022 AAA Hawaii\n\u2022 AAA New Mexico\n\u2022 AAA Northern New England\n\u2022 AAA Tidewater\n\u2022 AAA TX\n\u2022 Automobile Club of Missouri\n\u2022 AAA Alabama\n\u2022 AAA East Central\n\u2022 AAA Northeast\n\u2022 AAA Washington\n\nKey features include:\n\u2022 24/7 roadside assistance \n\u2022 View and manage your membership benefits and insurance\n\u2022 Securely pay your membership and insurance bills\n\u2022 Explore hundreds of member-exclusive discounts on restaurants, entertainment, and more\n\u2022 Book your next getaway- hotels, fligh",
+    "icon": "/icons/com.ace.shell.production.png"
+  },
+  "com.kwalee.wantedgp": {
+    "title": "Police Pursuit: Burnout Rush!",
+    "package": "com.kwalee.wantedgp",
+    "description": "The pursuit ignites in this heart-pounding car chase!\n\nFeel the adrenaline as you evade police cars, tap fast left or right to weave through traffic and avoid danger on roads filled with chaos.\n\nUnlock custom rides from your garage and dive into an endless challenge across multiple maps, where sharp reflex skills fuel your streak of mayhem.\n\nOutwit the cop pursuit with burnout moves, wreck rivals, and drive through an intense derby of near-misses. Every split-second decision tests your fastest getaway, turning highways into your battleground.\n\n\ud83d\ude93 Key Features:\nHigh-octane pursuit action with simple tap controls for precise evasive moves.\nWreck rivals to build epic combo streaks.\nEndless hot pursuit with a fierce adrenaline rush.\nUnlock cars in your garage and upgrade your ride.\nConquer each",
+    "icon": "/icons/com.kwalee.wantedgp.png"
+  },
+  "com.dodge.police.pursuit.cop.car.chase.armor": {
+    "title": "Dodge Police: Dodging Car Game",
+    "package": "com.dodge.police.pursuit.cop.car.chase.armor",
+    "description": "Fond of knowing what a real dodging cars games feel to be like? Presenting you the all-new one of the best free chasing cars games. This new police pursuit game starts as you are being chased by cops chasing cars in this cop chase games. Now get into your car and sit back and play cops vs car chasing games for free. Become one of the best escape chase game player by showing your driving car skills at police car runner challenge. By dodging cars, and moving left to right to avoid cop cars in this dodging cars games for free.\n\nIn this police runner game unlimited police cops are following you, drive fearlessly to escape chasing cops cars in this escape chase game. Upgrade your drifting car drive skills to enjoy this new dodging car game. These police runner games are easy to play and are als",
+    "icon": "/icons/com.dodge.police.pursuit.cop.car.chase.armor.png"
+  },
+  "com.fridaygamerz.cargames.DodgePoliceCarChase": {
+    "title": "Police Chase: Dodge Game",
+    "package": "com.fridaygamerz.cargames.DodgePoliceCarChase",
+    "description": "Hi car games lover get ready to confront dodging police car games with thrills of action games event. This new police chase game begin as you are being chased by cops chasing cars in this cop chase games. In this police runner game topmost police cops are following you, drive daringly to escape chasing cops cars in this escape chase game. Now get your Favorite car and play cops vs car chasing games for free.\nIn this 3d racing car game you will get the top running and chasing adventure. Ensure the survive as long as you can without getting chased or by getting crashed into the police cashing cars in this cop chase games.\nKeep your eyes open for the chasing cops in this police runner game and single touch game. Move left, right, up and down by moving your fingers on screen in this dodging ca",
+    "icon": "/icons/com.fridaygamerz.cargames.DodgePoliceCarChase.png"
+  },
+  "com.dodgepolice.policecar.policecarchase.arcadent": {
+    "title": "Dodge Police: Cop Car Chase",
+    "package": "com.dodgepolice.policecar.policecarchase.arcadent",
+    "description": "Get ready for a dodge police car! The cops cars are ready to destroy, but you can show your skills and strategy in this evade police. \nYou are trying to avoid or escape from cops cars and dodge police. This is the best pursuit game. Are you ready to show your driving skills in this wanted game?\nExperience the thrill of an amazing dodging cars. Drive fearlessly against this cops cars to run from the cops and accelerate your car as fast as possible. If you want to become a high-speed car racer against cops racing, then show your driving skills by navigating left and right to avoid the cops cars. This ultimate cop car chase is one of the best pursuit game with best strategies. Accept the challenge and dodge police. The dodging cars provides endless opportunities to prove your skills by drifti",
+    "icon": "/icons/com.dodgepolice.policecar.policecarchase.arcadent.png"
+  },
+  "com.maxgames.stickwarlegacy": {
+    "title": "Stick War: Legacy",
+    "package": "com.maxgames.stickwarlegacy",
+    "description": "The hit web game now comes to mobile! Play Stick War, the fun, challenging, and addictive stick figure strategy game.\n\nControl your army in formations or play each unit, you have total control of every stickman. Build units, mine gold, learn the way of the Sword, Spear, Archer, Mage, and even Giant. Destroy the enemy statue, and capture all Territories!\n\nNew Features:\n\u25cf Missions Mode: New levels released every Friday! - Keeping Order won\u2019t be easy.\n\u25cf Saga style map with multiple rewards.\n\u25cf Unlock Crowns for each difficulty level, Normal, Hard, and Insane!\n\u25cf A multitude of new game types await - Win before sunset, Triple barricaded gold, Deathmatch, Forward Statue, vs Mini Bosses and many more!\n\u25cf Arrows now stick into all units, plus new improved blood effects and taking damage animations.\n",
+    "icon": "/icons/com.maxgames.stickwarlegacy.png"
+  },
+  "com.cscmobi.merge.plant": {
+    "title": "Merge Plants \u2013 Monster Defense",
+    "package": "com.cscmobi.merge.plant",
+    "description": "Are you a big fan of Zombie Defense and Merge Plants Idle game? If yes, please get ready to grow the badass plants as a swam of Zombies is about to destroy this lovely garden. Warning! Monsters are addicted to brains. Your mission is to merge, defend and fight against these hilarious Zombie-zombi.\n\n\ud83c\udf3bMerge your crops.\nFacing the greedy monsters, you can build a squad with various plants and flowers by merging them to unlock new crops. Don\u2019t forget to power up attacks, speed up planting time before the Zombies knock your door.\n\n\ud83c\udf3bDefend your home.\nBe careful how you plan a strategy to combat the massive array of Zombies. They will never give up until getting into your house! You need to merge plants as fast as you can!\n\n\ud83c\udf3bFun to play, simple to control.\nDon\u2019t need to pay anything except time. ",
+    "icon": "/icons/com.cscmobi.merge.plant.png"
+  },
+  "com.ea.gp.pvzheroes": {
+    "title": "Plants vs. Zombies\u2122 Heroes",
+    "package": "com.ea.gp.pvzheroes",
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n \nPlants vs. Zombies Heroes brings to you an epic CCG adventure with your favorite plant and zombie characters. \ud83c\udf31\ud83e\udddf Collect cards with incredible powers and build your ultimate battle deck. Duel with friends or foes in real-time pvp battles. And, for the first time ever on mobile, play as either plants or zombies.\n\n\ud83e\uddb8 COLLECT HERO CARDS \ud83e\uddb8\n\nCollect unique Plant and Zombie Hero cards and unlock their lawn-inspiring superpowers. Will you pick Plants and deploy the sharp-shooting avenger card, Green Shadow? Or will you choose a Zombie Hero and call on the superbly superficial card, Super Brainz? Each card\u2019s selection of powers",
+    "icon": "/icons/com.ea.gp.pvzheroes.webp"
+  },
+  "com.ea.game.pvz2_na": {
+    "title": "Plants vs. Zombies\u2122 2",
+    "package": "com.ea.game.pvz2_na",
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nPlay the hit action-strategy adventure where you meet, greet, and defeat legions of hilarious zombies from the dawn of time, to the end of days. Amass an army of amazing plants, supercharge them with Plant Food, and devise the ultimate plan to protect your brain.\n\nDISCOVER HUNDREDS OF PLANTS AND ZOMBIES\nCollect your favorite lawn legends, like Sunflower and Peashooter, along with hundreds of other horticultural hotshots, including creative bloomers like Lava Guava and Laser Bean. Go toe-to-missing-toe with a massive array of zombies at every turn, like Jetpack Zombie and Mermaid Imp \u2013 you\u2019ll even have to protect your br",
+    "icon": "/icons/com.ea.game.pvz2_na.png"
+  },
+  "com.Shooter.ModernWarfront": {
+    "title": "MWT: Tank Battles",
+    "package": "com.Shooter.ModernWarfront",
+    "description": "Get ready for an action-packed PvP shooter that takes armored warfare to the next level - MWT: Tank Battles!\n\nImmerse yourself in intense tank battles featuring the most advanced war machines including air defense systems, multiple launch rocket systems, self-propelled artillery, various types of drones, fighters, helicopters & more. Experience the modern combined arms battles in the most spectacular way.\n\nTry dozens of Cold War era & modern machines, as well as the most recent prototypes, all the way up to the Armata and AbramsX tanks. Each update will bring even more models and types of military hardware that is on every military fan\u2019s lips.\nGet in the tank, player, and get ready for the action!\n\nEngage in Epic PvP Tank Battles:\nIn MWT: Tank Battles, take the helm of heavily armored tank",
+    "icon": "/icons/com.Shooter.ModernWarfront.png"
+  },
+  "com.pandaarcade.picotanks": {
+    "title": "Pico Tanks: Multiplayer Mayhem",
+    "package": "com.pandaarcade.picotanks",
+    "description": "Pico Tanks is a fast-paced, energetic 3v3 tank brawler with a strong focus on team strategy.\nDesign your own unique tank with thousands of possible gameplay-changing combinations. Group up with your friends and compete in spectacular 3v3 battles across multiple maps and game modes! Communicate with your team and overcome your enemies to claim victory in this team-focused real-time PvP battle arena.\n\nFIGHT IN CHAOTIC 3V3 GAME MODES\nBrawl in fast-paced action with friends or be matched with other players of a similar rank. Go head-to-head in intense real-time 3v3 battles with multiple modes available:\n\u25cf Hold the Flag: Your team needs to capture the flag and hold onto it for the longest before time is up.\n\u25cf Fetch the Cargo: One mighty tank in your team must grab the cargo before your opponent",
+    "icon": "/icons/com.pandaarcade.picotanks.png"
+  },
+  "com.tankpayments.app": {
+    "title": "Tank Payments",
+    "package": "com.tankpayments.app",
+    "description": "Tank Payments is a fully featured financial account built specifically for freight carriers.\n\nGet money into your account, instantly\n- The fastest, cheapest way to get paid for your invoices\n\nSend money where you want, whenever you want\n- Send money to your drivers instantly via SMS\n- Pay your bills directly from your Tank Account\n\nOptimize your fleet's spend\n- Issue fleet cards that can be accepted anywhere\n- Set spending limits directly from the app\n- Get real-time alerts on every transaction",
+    "icon": "/icons/com.tankpayments.app.png"
+  },
+  "com.playgendary.tanks": {
+    "title": "Tank Stars",
+    "package": "com.playgendary.tanks",
+    "description": "Are you ready for an action-packed 2D tank warfare? Welcome to the Tank Stars, one of the best battle tank games that you can play with friends online & offline. Find the right shooting angle and unleash your iron force against your foe's war machines! Make the right shot quickly or you'll lose!\n\nCARRY OUT BLITZ\n\nYour mission is simple, Commander! In this turn-based multiplayer game, you take down another opponent's tanks before they take out yours. Remember, it's all about making the right shot quickly! \n\nCHOOSE YOUR WEAPON\n\nYour arsenal will consist of dozens of deadly rockets and guns. Use nukes, freezing bombs, tasers, railguns, plasma cannons, and many more! Pick the right weapon to eliminate your targets as quickly as possible. Also, you can earn money in this io game, and spend them",
+    "icon": "/icons/com.playgendary.tanks.png"
+  },
+  "com.netease.tankcompany": {
+    "title": "Tank Company",
+    "package": "com.netease.tankcompany",
+    "description": "Tank Company is a MMO tank battle game that allows you to experience 15v15 tank battles on your mobile device. You can change vehicles among five tank types, including self-propelled guns, and change your strategy according to the different maps to win!\nThe scale of battles is on a whole new level. You will enter a huge battlefield where up to 30 tanks will fight it out. The tide of battle changes dynamically as the balance of power shifts on each map. Get ready for scenarios where you charge to victory, or try to turn the tables. It all starts with choosing your route of attack. You will play a major role in the team.\nThe game has a huge library of tanks for you to choose from: Over a hundred vehicles from World War II and the Cold War are recreated in the game with extremely fine product",
+    "icon": "/icons/com.netease.tankcompany.png"
+  },
+  "com.rhmsoft.omnia": {
+    "title": "Omnia Music Player",
+    "package": "com.rhmsoft.omnia",
+    "description": "Omnia Music Player is a powerful music player for Android.  It is an offline audio player without advertisements. Its gorgeous user interface matches every single detail of the material design guidelines.\n\nOmnia Music Player supports almost all audio formats, including mp3, ape, aac, alac, aiff, flac, opus, ogg, wav, dsd (dff/dsf), tta, etc. It has high-res output engine with best sound quality, and a 10-band equalizer, within a small footprint, less than 5 MB.\n\nOmnia Music Player contains almost every necessary feature to fulfill all of your musical needs including: gapless playback, lyrics display, crossfade, play speed adjustment, tag editing, last.fm scrobbling, Chromecast, voice command, Android Auto, Freeverb, audio balance, ReplayGain, sleep timer, etc.\n\nKey Features:\n\n\u2713 Free of adv",
+    "icon": "/icons/com.rhmsoft.omnia.png"
+  },
+  "com.doubleTwist.androidPlayer": {
+    "title": "doubleTwist Music & Podcasts",
+    "package": "com.doubleTwist.androidPlayer",
+    "description": "doubleTwist is a powerful music player and podcast manager. doubleTwist Player has over 100,000 five star ratings and a fast, easy-to-use interface that eliminates the need to jump between different apps to play music and manage podcasts. Plus, you can cast or AirPlay music from your Android with an optional purchase!\n \ndoubleTwist Music Player has been recommended by the New York Times, BBC, Wall Street Journal and numerous tech publications.\n \nWhat's the catch?\nUnlike other music players, doubleTwist is a free download, not a \"trial\". We update it frequently and listen to your feedback to make it better.\n \nWe make money from an optional in-app upgrade to doubleTwist Pro unlocking the following premium music player features:\n \n\u266c Chromecast, AirPlay & DLNA support\n\u266c 10-band equalizer & Sup",
+    "icon": "/icons/com.doubleTwist.androidPlayer.png"
+  },
+  "com.shenron.a8_bitplayer": {
+    "title": "8-Bit Music Player",
+    "package": "com.shenron.a8_bitplayer",
+    "description": "RETRO TERMINAL INTERFACE\n\nExperience music with a clean, text-based interface. As a dedicated retro music player, this app removes complex graphics and distractions to offer minimalist music playback. The fast, lightweight command line music player style is optimized to run smoothly on phones, tablets, and foldables, making it the perfect choice for retro enthusiasts.\n\nMATERIAL UI DESIGN\nBlending modern Material UI with mesmerizing colors and smooth visuals for a clean, immersive experience.\n\nMultilingual Interface: Fully translated into 12 languages including English, Spanish, French, German, Italian, Portuguese, Arabic, Hindi, Russian, Japanese, Korean, and Chinese.\n\nPOWERFUL AUDIO CONTROL\n\nTake control of your sound with a professional audio engine designed for local files.\n\nEqualizer P",
+    "icon": "/icons/com.shenron.a8_bitplayer.png"
+  },
+  "com.plantparentai.app": {
+    "title": "Plant Parent: Plant Care Guide",
+    "package": "com.plantparentai.app",
+    "description": "Plant Parent the all-in-one app designed to help you become the best plant caretaker you can be. Plant Parent provides everything you need to keep your green friends thriving. Whether you're a seasoned plant enthusiast or just starting, Plant Parent offers a wealth of features to make plant care easy and enjoyable.\n\nWhat You\u2019ll Love About Plant Parent:\n\nSmart Care Reminders:\nNever forget to water, fertilize, or prune your plants again. Plant Parent customizes reminders to each plant\u2019s needs, ensuring timely care. Use the plant calendar to track tasks, set recurring reminders, and log completed activities. Stay organized with clear, user-friendly notifications and tips tailored to the season and growth stage.\n\nPlant Disease Diagnosis:\nDetect and treat plant diseases with ease. Our comprehen",
+    "icon": "/icons/com.plantparentai.app.png"
+  },
+  "com.scaleup.plantid": {
+    "title": "Plant App - Plant Identifier",
+    "package": "com.scaleup.plantid",
+    "description": "Plant App identifies more than 46,000+ plants with 95% accuracy-better than most human experts.   \n\nMost accurate plant Identifier app on the market with the latest AI plant identification technology.  \n\nDid you just come across a flower, herb, or weed that you don't know?\nSimply take a photo of the plant and Plant App will complete a plant identification to answer all your questions about it!\n\nTake care of your plants with Plant App \u2014 keep a journal to see how they grow, use reminders to help them thrive.\n\nOur plant identification engine is always picking up new knowledge from experts and professionals, and it's all at your fingertips right now. Simply discover plants around you, scan plant, identify plants, and you'll gain a new appreciation for nature.\n\n\u2013PLANT APP FEATURES\u2013\n\nPLANT IDENT",
+    "icon": "/icons/com.scaleup.plantid.png"
+  },
+  "com.phlox.tvwebbrowser": {
+    "title": "TV Bro",
+    "package": "com.phlox.tvwebbrowser",
+    "description": "Web browser optimised to use with TV remote.\nFeatures:\n- working with TV remote\n- tabs and bookmarks support\n- voice search support\n- switch user agent support\n- two switchable web rendering engines\n- built-in download manager\n- browsing history\n- shortcuts\n\nNow opensource:\nhttps://github.com/truefedex/tv-bro",
+    "icon": "/icons/com.phlox.tvwebbrowser.png"
+  },
+  "com.tvwebbrowser.adblocktvbrowser": {
+    "title": "Pro TV: TV Web Browser",
+    "package": "com.tvwebbrowser.adblocktvbrowser",
+    "description": "Simple Web browser for Android TV with ad block function, compatible with remote\n\nExperience the web on your TV like never before. Our browser is designed to be effortlessly controlled with your TV remote, offering a seamless and intuitive user experience.\n\nKey Features:\nBuilt-in Download Manager: Download files directly to your device.\nBrowsing History and Shortcuts: Access your recent activity and favorite sites.\nRemote-Friendly Interface: Navigate with ease using your TV remote.\nTab and Bookmark Management: Organize your browsing sessions efficiently.\nUser Agent Switching: Tailor your browsing experience to specific websites.\nDual Rendering Engines: Enjoy optimal performance and compatibility.\nVoice Search: Find information quickly and conveniently.",
+    "icon": "/icons/com.tvwebbrowser.adblocktvbrowser.png"
+  },
+  "com.ribbn_mobile_app": {
+    "title": "The Ribbn App",
+    "package": "com.ribbn_mobile_app",
+    "description": "Ribbn helps resale merchants and secondhand stores fully manage and run their businesses.\n\n\nThe Ribbn app is the perfect companion to manage your inventory, orders, and more from a mobile device.\n\n\n------------------------------------------------------------------------------------------------------------------------------\n\nFOR MERCHANTS\n\nRun your resale business from your mobile device. Process orders, manage products, track sales, chat with customers and sellers, approve or reject sellers\u2019 uploaded items and more.\n\nMANAGE YOUR PRODUCTS IN\u2011APP\n\u2022 Upload product photos\n\u2022 Assign products to sellers\n\u2022 Set product and pricing details\n\u2022 Assign/unassign Ribbn RFID/QR tags to products\n\nREVIEW SELLER UPLOAD ITEMS\n\u2022 Approve or reject seller uploaded items\n\u2022 Make an offer with a starting resale pric",
+    "icon": "/icons/com.ribbn_mobile_app.png"
+  },
+  "com.tedebbur.app": {
+    "title": "Tedebbur app",
+    "package": "com.tedebbur.app",
+    "description": "Tedebbur is an innovative application intended for Muslims who attend prayers in the mosque with the aim of facilitating their understanding of the parts of the Qur'an that the imam will recite. Our application allows the imam to mark certain verses before the prayer, and the congregation (believers in the mosque) can immediately access the translation and tafsir (interpretation) of those verses.\n\nWhat the app offers:\n- Marking verses in real time: Before each prayer, the imam will mark specific verses that will be recited during the prayer.\n- Instant access to translation: Congregants can instantly get the translation of marked verses, which will help them better understand the meaning of the Qur'an.\nTafsir for Deeper Understanding: For those seeking deeper analysis, Tedebbur provides acc",
+    "icon": "/icons/com.tedebbur.app.png"
+  },
+  "com.AppInstitute.rebbe770": {
+    "title": "Rebbe770",
+    "package": "com.AppInstitute.rebbe770",
+    "description": "Long Live The Rebbe King Moshiach Forever!\nEnjoy new updated Interface, Many more Dvar Malchus Texts, Dvar Malchus Videos, Weekly Sicha Videos\nNew Rebbe Water Section\n\n This app will help one do more good and bring the true and complete Redemption through Moshiach now!  Technology will be used for good in this app:\n- Visit 770 Moshiach\u2019s House to be in the presence of the Rebbe King Moshiach Shlita will now be much easier with useful information. \n- Study Torah on the Topic of Moshiach and Geulah from the talks of the Rebbe King Moshiach Shlita, of the most recent we heard, known as Dvar Malchus (5751-2). The English translations of these Talks are now at your fingertips! Keeping track of addition in Mitzvah fulfillment will be easier than ever. \n- Share miracle stories that Hashem does fo",
+    "icon": "/icons/com.AppInstitute.rebbe770.png"
+  },
+  "com.chabad.ohel": {
+    "title": "The Rebbe's Ohel",
+    "package": "com.chabad.ohel",
+    "description": "Learn about the Ohel, the resting place of the Lubavitcher Rebbe, Rabbi Menachem M. Schneerson, of righteous memory. Send a letter using this app that will be delivered on your behalf.\n\nIf you are experiencing a technical issue, please contact us at appsupport@chabad.org and we will work with you to resolve the issue. We appreciate you not leaving negative feedback.",
+    "icon": "/icons/com.chabad.ohel.png"
   }
 }
