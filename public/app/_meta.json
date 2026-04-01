@@ -12831,5 +12831,190 @@
     "package": "com.pnc.ecommerce.mobile",
     "description": "Check balances & recent transactions \u2013 See current account activity for your checking, savings, credit card and loan accounts.\n\nProtect your accounts \u2013 Set up fingerprint or Face Authentication to securely sign on to the app. Or, reset your password quickly and conveniently if you need to.\n\nSend money with Zelle\u00ae \u2013 Send money simply, to people you know and trust (i) using your\nmobile number or email address.\n\nTransfer funds \u2013 Transfer funds between eligible PNC accounts and external bank accounts (ii).\n\nMake deposits \u2013 Deposit checks quickly and easily with your Android device (iii).\n\nPay bills \u2013 Add your bills and make one-time or recurring bill payments right from the app.\n\nManage your cards \u2013 View and manage your PNC credit, debit and SmartAccess\u00ae cards and make in-store payments with P",
     "icon": "/icons/com.pnc.ecommerce.mobile.png"
+  },
+  "com.lidl.digital.staffbase": {
+    "title": "We Are Lidl",
+    "package": "com.lidl.digital.staffbase",
+    "description": "The \u201cWe are Lidl\u201d app offers news and information about Lidl.\n\nLidl is represented in 32 countries around the world and currently operates around 10,500 stores and over 160 distribution centers in 28 countries. Use the app to take a look behind the scenes and learn more about one of the leading food retailers in Europe and Germany.\n\nAdditional information and services are available for the currently around 260,000 employees in a designated employee area after logging in.",
+    "icon": "/icons/com.lidl.digital.staffbase.png"
+  },
+  "com.lidl.android": {
+    "title": "myLidl",
+    "package": "com.lidl.android",
+    "description": "Save more with myLidl\u2014Lidl\u2019s FREE benefits program for Lidl US customers. Download the app to access exclusive prices, earn rewards and coupons, create personalized grocery lists, receive a special birthday treat, view store-specific ads, product lists, hours and more. First-time app sign-ins receive a $5 off $30 reward!\n\nExclusive myLidl prices are automatically available to all myLidl members. Coupons, however, must be \u201cclipped\u201d within the app to be applied to your purchase. Once they are clipped, simply scan the app or enter your phone number at checkout for extra savings. Log in to the app to take advantage of rewards and more benefits.\n\nUse the grocery list feature to:\n\n\u2022\tCreate custom lists\n\u2022\tShare lists with friends and family\n\u2022\tView stock availability and aisle information\n\nUse the",
+    "icon": "/icons/com.lidl.android.png"
+  },
+  "com.lidl.eci.lidlplus": {
+    "title": "Lidl Plus",
+    "package": "com.lidl.eci.lidlplus",
+    "description": "Download, register, save even more. Lidl Plus is our new rewards app designed to give our customers discounts on the products they love.  The service is aimed at consumers, who wish to receive personalised information from Lidl Stiftung about offers and promotions from Lidl Plus and offers, products and services from selected partners and Lidl Companies, which correspond as closely as possible to their interests. The basis for the determination of relevant interests is the purchasing and usage behavior with regard to the products and services of the Lidl companies.\n\n -  Activate your coupons in the app and scan your digital Lidl Plus Card at the till to redeem and save money on your shop.\n -  Scan your digital Lidl Plus Card at the till for the chance to win a prize when you shop! \n -  Nev"
+  },
+  "audioeditor.musiceditor.soundeditor.songeditor": {
+    "title": "Audio Editor & Music Editor",
+    "package": "audioeditor.musiceditor.soundeditor.songeditor",
+    "description": "\ud83e\udd14Want a music editor app to edit audio flexibly on your phone?\n\ud83e\udd14Want a music cutter or a song editor app to cut MP3 and edit music? \n\ud83e\udd14Want an MP3 cutter and ringtone app with rich audio editing and music editing functions?\n\ud83e\udd14Want an all-in-one audio editor app including the voice recorder, voice changer, audio trimmer, MP3 cutter and ringtone maker?\n\nThen, this audio maker & audio trimmer is definitely what you need!\n\nAmong the many voice editors and music cutters, \ud83d\udd25Audio Editor - Music editor, MP3 trimmer, Sound mixer & Audio Mixer\ud83d\udd25 is a powerful song editor & music cutter app! It is a sound editor that can help you edit audio, trim and merge audio. You can use it as a song cutter & voice editor app, just as the audacity audio editing on desktop, it\u2019s an audio lab & music lab on your mobil",
+    "icon": "/icons/audioeditor.musiceditor.soundeditor.songeditor.png"
+  },
+  "com.musixmatch.android.lyrify": {
+    "title": "Musixmatch: lyrics finder",
+    "package": "com.musixmatch.android.lyrify",
+    "description": "Musixmatch is the world\u2019s largest collection of song lyrics used by millions of people to get instant time synced lyrics for Youtube, Spotify, Pandora and more. \nYou can also now use it to get song translations on the go.\n\nKEY FEATURES:\n\nMusixmatch lets you:\n\n\u2022 Enjoy song lyrics with music from Spotify, Youtube, Pandora, Apple Music, SoundCloud, Google Play Music and all your other favourite streaming services\n\u2022 Tap on the real- time notification to display the Floating Lyrics widget and get the current track\u2019s lyrics\n\u2022 Easily learn new languages by displaying the translation of the lyrics, in time with music. \n\u2022 Identify and get the lyrics to any song that\u2019s playing around you with one tap\n\u2022 Search for your favourite song by title, artist and even just using a single line of the lyrics\n\n*",
+    "icon": "/icons/com.musixmatch.android.lyrify.png"
+  },
+  "com.droid.mobile.trucloud": {
+    "title": "ChorumPMS",
+    "package": "com.droid.mobile.trucloud",
+    "description": "Empower your hotel team on the go with this powerful set of operational tools, powered by Jonas Chorum\u2019s ChorumPMS. \n\nFeatures include:\n\n\u2022\tDashboards & Reporting\n\u2022\tTask Management\n\u2022\tMessaging\n\u2022\tHousekeeping Assignments & Tracking\n\u2022\tMaintenance Management\n\nThis app requires your hotel to maintain an active subscription to Jonas Chorum\u2019s ChorumPMS. Only user\u2019s authorized by hotel management can access this app.",
+    "icon": "/icons/com.droid.mobile.trucloud.png"
+  },
+  "com.fimetech.chessfimee": {
+    "title": "Chessify: Scan & Analyze chess",
+    "package": "com.fimetech.chessfimee",
+    "description": "Improve your playing level and skills with our magic chess tools: real chessboard, book, & diagram scanner, unique video finder, & Superfast cloud engine. Analyze puzzles & games with Stockfish 16 & Lc0. Play chess with friends online or challenge the computer for an offline game.\n \nFeatures you\u2019ll find ONLY on Chessify:\n\n- The Perfect Chessboard Scanner \nTake a photo of a real chessboard to get its digitized version on your phone or scan chess puzzles from printed or digital sources with 99% accuracy. \n\n- Chess PDF Reader & Scanner\nUpload a book to keep track of your reading as well as scan and analyze its puzzles.\n\n- Maia Engine as a Computer Opponent\nPlay with the new HUMAN-LIKE neural network engine, which was trained on millions of human games. Maia has a more human-like style than ot",
+    "icon": "/icons/com.fimetech.chessfimee.png"
+  },
+  "com.chessimprovement.chessis": {
+    "title": "Chessis: Chess Analysis",
+    "package": "com.chessimprovement.chessis",
+    "description": "Chessis is a powerful Chess Analysis app that helps you improve your game!\n\n\u2728 Recent Updates:\n\ud83d\udcf7 Chess Image Scanner \u2014 scan 2D chess board images for instant analysis\n\u2694\ufe0f Engine vs Engine \u2014 watch engines battle each other\n\ud83e\udde0 Smart Analysis \u2014 deeper insights, enable in analysis settings\n\ud83d\udc1f Stockfish 18 \u2014 the latest and strongest engine\n\u265f\ufe0f App Shortcuts \u2014 long-press the app icon for quick access\n\ud83c\udfaf Lichess Games \u2014 browse and analyze your Lichess games directly\n\ud83d\udcdd Annotated PGN Export \u2014 select and download annotated games\n\ud83c\udf0d 13 languages supported\n\n\u2714\ufe0f Analyze your games and get detailed game reports\n\u2714\ufe0f Analyze chess positions with Stockfish engine\n\u2714\ufe0f Detect blunders, mistakes, missed wins, and best moves\n\u2714\ufe0f Play chess against the computer at your level\n\u2714\ufe0f Set up board positions (Board Editor) and an",
+    "icon": "/icons/com.chessimprovement.chessis.png"
+  },
+  "com.mendelg.hasmada": {
+    "title": "Hasmada - Torah Tracker",
+    "package": "com.mendelg.hasmada",
+    "description": "Hasmada helps you keep track of what you're learning and how much time you spend on it. Log a session in under 15 seconds, see your progress over time, and actually finish the seforim you start.\n\nWhat it does:\n\n- Log learning sessions by subject (Gemara, Halacha, Mishna, Rambam, Mussar, and more) with how long you learned\n- Track where you are in a sefer -- amud by amud, daf by daf, perek by perek\n- Daily streak counter that knows about Shabbos and Yom Tov (your streak won't break)\n- Set a daily learning goal and get a reminder so you don't forget\n- See stats: weekly totals, monthly breakdowns, per-sefer progress, heatmaps\n- Earn milestones when you hit learning goals -- first session, 7-day streak, first siyum, and more\n- Make a siyum when you finish a sefer\n- Share learning tracks with y",
+    "icon": "/icons/com.mendelg.hasmada.png"
+  },
+  "com.theshmuz.app": {
+    "title": "The Shmuz - Torah Audio",
+    "package": "com.theshmuz.app",
+    "description": "The Shmuz - Transformative Torah Wisdom for Personal Growth\n\nExperience hundreds of inspiring shiurim (Torah lectures) by Rabbi Ben Tzion Shafier, designed to help you grow spiritually and live a more meaningful life.\n\n\ud83d\udcda WEEKLY PARSHA CONTENT\n\u2022 This week's Parsha with audio and video\n\u2022 In-depth Torah insights for every portion\n\u2022 Perfect for Shabbos preparation\n\n\ud83c\udfa7 THE SHMUZ EPISODES\n\u2022 280+ episodes on personal growth, relationships, and Jewish living\n\u2022 Stream or download for offline listening\n\u2022 Background playback while you multitask\n\n\ud83d\udcfa MAJOR SERIES\n\u2022 The Marriage Seminar - Transform your relationship\n\u2022 The Fight - Understanding the battle within (for Men)\n\u2022 Life 101 - Essential Torah perspectives\n\u2022 Bitachon Workshop - Building trust in Hashem\n\u2022 Hilchos Shabbos Boot Camp - Practical halacha",
+    "icon": "/icons/com.theshmuz.app.png"
+  },
+  "com.chassidus.app": {
+    "title": "Chassidus",
+    "package": "com.chassidus.app",
+    "description": "Introducing the ultimate Chassidus app, your gateway to immersing yourself in Limud Chassidus. Our app offers over 18,000 shiurim from various renowned magidei shiurim covering a wide range of Seforim & Topics. \n\nThese shiurim were gathered from around the world, restored the audio and built into our user-friendly app. \n\nEasily search, browse, and listen to shiurim on the go, or download them for offline learning. With our user-friendly interface and convenient features, you'll be able to enhance your learning and understanding of Chassidus like never before. \n\nDownload the app now and start listening to the thousands of shiurim.    \n\n\"Ta'amu Ure'uh Ki Tov Hashem\". made possible by Heichel Menachem",
+    "icon": "/icons/com.chassidus.app.png"
+  },
+  "com.artscroll.SAEEI": {
+    "title": "ArtScroll Smart Siddur \u05e1\u05d3\u05d5\u05e8",
+    "package": "com.artscroll.SAEEI",
+    "description": "For a generation, the original ArtScroll Siddur has been the unchallenged Siddur of choice across the English-speaking world.\n\nThe new, expanded ArtScroll Siddur inaugurated a new era of excellence, beauty, user friendliness, & added features. It had the same classic ArtScroll \"look\" that enabled you to retain the original ArtScroll Siddur while upgrading to the Siddur that will be the standard for the next generation.\n\nNOW we have transformed the ArtScroll Wasserman Edition Siddur into a Fully Digital Smart Siddur!\n\n* ArtScroll's classic look & feel: the fonts, layout, nikud of the ArtScroll Wasserman Siddur\n* Tap on a phrase & you get the ArtScroll translation, commentary & sources\n* Hundreds of Hyperlinks to Laws & references in the commentary\n* Enlarge the font size & still keep the cl",
+    "icon": "/icons/com.artscroll.SAEEI.png"
+  },
+  "com.bucharskiy.siddur": {
+    "title": "Bucharian Siddur",
+    "package": "com.bucharskiy.siddur",
+    "description": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u043e\u0432 \u0438 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u0432, \u043f\u0440\u0438\u043d\u0435\u0441\u0435\u0442 \u0412\u0430\u043c \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u0435 \u0434\u0443\u0445\u043e\u0432\u043d\u043e\u0435 \u0438 \u043c\u043e\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u043d\u0430\u0441\u043b\u0430\u0436\u0434\u0435\u043d\u0438\u0435. \u0413\u0434\u0435 \u0431\u044b \u0412\u044b \u043d\u0435 \u043d\u0430\u0445\u043e\u0434\u0438\u043b\u0438\u0441\u044c, \u0443 \u0412\u0430\u0441 \u0432\u0441\u0435\u0433\u0434\u0430 \u0431\u0443\u0434\u0435\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043c\u043e\u043b\u0438\u0442\u044c\u0441\u044f \u0433\u0434\u0435 \u0443\u0433\u043e\u0434\u043d\u043e \u0441 \u044d\u0442\u0438\u043c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043d\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043a \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443.\n\u0414\u043b\u044f \u0442\u043e\u0433\u043e, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0447\u0442\u0435\u043d\u0438\u0435 \u0421\u0438\u0434\u0443\u0440a \u0431\u043e\u043b\u0435\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u043c \u0438 \u0443\u0434\u043e\u0431\u043d\u044b\u043c \u0440\u0443\u0441\u0441\u043a\u043e\u044f\u0437\u044b\u0447\u043d\u044b\u043c \u0421\u0435\u0444\u0430\u0440\u0434\u0441\u043a\u0438\u043c \u0435\u0432\u0440\u0435\u044f\u043c \u0431\u044b\u043b\u0430 \u0441\u043e\u0437\u0434\u0430\u043d\u0430 \u044d\u0442\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u0441 \u0442\u0440\u0430\u043d\u0441\u043b\u0438\u0442\u0435\u0440\u0430\u0446\u0438\u0435\u0439 \u0447\u0442\u043e \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u043b\u044e\u0434\u044f\u043c, \u043d\u0435 \u0432\u043b\u0430\u0434\u0435\u044e\u0449\u0438\u043c \u0438\u0432\u0440\u0438\u0442\u043e\u043c \u043f\u0440\u043e\u0438\u0437\u043d\u043e\u0441\u0438\u0442\u044c \u0438\u0445 \u043d\u0430 \u044f\u0437\u044b\u043a\u0435 \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u0430.\n\n\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0438\u043c\u0435\u043d\u0430, \u0431\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0438 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0432\u0430\u0448\u0438\u0445 \u0440\u043e\u0434\u043d\u044b\u0445 \u0438 \u0431\u043b\u0438\u0437\u043a\u0438\u0445 \u0432 \u043f\u0430\u043c\u044f\u0442\u044c \u0438 \u0434\u043b\u044f \u0432\u043e\u0437\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0434\u0443\u0448\u0438 (\u041b\u0435\u0439\u043b\u0443\u0439 \u041d\u0438\u0448\u043c\u0430\u0442).\n\u0421 \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c\u0438 \u0438 \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f\u043c\u0438 \u0432\u0441\u0435\u0433\u0434\u0430 \u043c\u043e\u0436\u0435\u0442\u0435 \u043e\u0431\u0440\u0430\u0442\u0438\u0442\u0441\u044f \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 shlomobrothers@gmail.com\n\n\u041c\u043e\u043b\u0438\u0442\u0432\u044b \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0442: \n\n\u2022 \u0423\u0442\u0440\u0435\u043d\u043d\u0438\u0435 \u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u044f\n\u2022 \u041f\u043e\u0440\u044f\u0434\u043e\u043a \u0426\u0438\u0446\u0438\u0442\u0430 \u0438 \u0422\u0444\u0438\u043b\u0438\u043d\u0430\n\u2022 \u041c\u043e\u043b\u0438\u0442\u0432\u0430 \u0428\u0435\u043c\u0430 \u0418\u0441\u0440\u0430\u044d\u043b\u044c\n\u2022 \u0428\u0430\u0445\u0430\u0440\u0438\u0442 - \u0423\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u041c\u043e\u043b\u0438\u0442\u0432\u0430\n\u2022 \u041c\u0438\u043d",
+    "icon": "/icons/com.bucharskiy.siddur.png"
+  },
+  "com.sephardic.siddur": {
+    "title": "Sephardic Siddur",
+    "package": "com.sephardic.siddur",
+    "description": "The first and only\u00a0multi-lingual Sephardic Siddur available in\u00a0five languages.\u00a0 All your daily prayers in your pocket!\u00a0 Each prayer includes specific instructions in each language for both men and women, as well as for leader (hazan) and congregation.\u00a0 Sephardic Siddur\u00a0app\u00a0contains voweled text for Hebrew readers for easier reading and pronunciation, as well as accurate translation and transliteration for Russian and English readers with added phonetic representation.\u00a0 Very lightweight application and does not require internet connectivity to operate after initial download.\n\nPrayers available in the following languages:\n\n- Hebrew\n- English\n- English Transliteration \n- Russian \n- Russian Transliteration\n\nApplication features:\n\n\u2023 Compass - Pray in Right Direction\n\u2023 Night/Day Mode\n\u2023 Notificat",
+    "icon": "/icons/com.sephardic.siddur.png"
+  },
+  "io.github.sspanak.tt9": {
+    "title": "Traditional T9",
+    "package": "io.github.sspanak.tt9",
+    "description": "TT9 is a Nokia-style 12-key T9 keyboard. It provides predictive text input in 40+ languages, configurable hotkeys, clipboard, undo/redo, and extensive customization. It works on touchscreens, hardware keypads, and TV remote controls. And best of all, it doesn't spy on you!\n\nSupported languages: Arabic, Bulgarian, Catalan, Simplified Chinese (Pinyin), Croatian, Czech, Danish, Dutch, English, Estonian, Farsi, Finnish, French, German, Greek, Gujarati (phonetic), Hebrew, Hindi (phonetic), Hinglish, Hungarian, Indonesian, Irish, Italian, Japanese (Romaji), Kiswahili, Korean, Latvian, Lithuanian, Norwegian, Polish, Portuguese (European and Brazilian), Romanian, Russian, Serbian (Cyrillic) Slovak, Slovenian, Spanish, Swedish, Moroccan Tamazight (Latin and Tifinagh), Thai, Turkish, Ukrainian, Viet",
+    "icon": "/icons/io.github.sspanak.tt9.png"
+  },
+  "com.tongtongsuo.app": {
+    "title": "TTLock",
+    "package": "com.tongtongsuo.app",
+    "description": "TTLock is a global provider of solutions for smart locks. We provide PCB and softwares for lock manufactures and vertical markets. There are more than 25 languages in it. Welcome to TTLock smart life.",
+    "icon": "/icons/com.tongtongsuo.app.png"
+  },
+  "com.angel.klikk": {
+    "title": "KLiKK- Bengali Movies & Series",
+    "package": "com.angel.klikk",
+    "description": "KLiKK which is a Bengali on-demand video and music streaming platform which offers original web series, original films, short films, children's animated films along with a vast library of Bengali films from classic to latest blockbusters. The parent company Angel Television Private Limited (Angel) is a leading content house entertaining Bengalis\u2019 all over the world \nTo breakthrough monotony & boredom, enjoy unlimited access to different varieties of Bengali content and much more. Be nostalgic, be millennial, be you.\n\nHighlights of KLiKK \u2013\n\nMovies - Here we are with the highest collection of movies, from classic to contemporary. From the romantic bible of Uttam-Suchitra, Soumitra Chatterjee-Aparna Sen to the blockbuster duo of Prosenjit-Rituparna, along with our new-age leading actors like ",
+    "icon": "/icons/com.angel.klikk.png"
+  },
+  "com.mmm.trebelmusic": {
+    "title": "TREBEL: Music, MP3 & Podcasts",
+    "package": "com.mmm.trebelmusic",
+    "description": "TREBEL Music is the only free music app that let's you listen to your favorite music offline, on-demand, and anytime!\n\nMake music better with TREBEL!\n\nTREBEL Music is the ultimate music app for you! It's a free, offline music player that lets you discover and download unlimited music anytime, anywhere.\n\nWith TREBEL Music, you can easily find your favorite tracks, artists, and albums, or discover new ones with our curated playlists. Choose from new releases or all-time favorites, spanning genres like Hip Hop, Pop, EDM, Rap, Country, Latin, R&B, Reggaeton, and more.\n\n Wherever you go, music follows: Download music for offline listening and save your data for other adventures. \n\nBreak out of your musical routine and find your new musical obsession with our immersive, smart \u201cDiscover\u201d section.",
+    "icon": "/icons/com.mmm.trebelmusic.png"
+  },
+  "com.bork.dsp.datuna": {
+    "title": "DaTuner: Tuner & Metronome",
+    "package": "com.bork.dsp.datuna",
+    "description": "We are pleased to present - Chromatic Tuner & Metronome: Free Guitar Tuner App with Bass, Violin, Ukulele, Banjo, Tuner | DaTuner\n\n\ud83c\udfb8 Get DaTuner: Tuner and Metronome for Various Instruments! \ud83c\udfbb DaTuner is a versatile, accurate, & responsive chromatic tuner and metronome app for Android with a user-friendly interface. Instead of focusing on complex graphics, we made it efficient and straightforward! Besides guitar, bass, violin, and banjo, you can use DaTuner to tune your cello, piano, ukulele, mandolin, and other instruments. So, grab your instrument and start tuning with this ukulele tuner free app! Your perfect sound starts with a smart tuning app.\nDownload Free Guitar Tuner App with Bass, Violin, Banjo & more | DaTuner and get started with tuning!\n\n\ud83e\ude95 Achieve Accurate Tuning with DaTuner!",
+    "icon": "/icons/com.bork.dsp.datuna.png"
+  },
+  "com.trainerize.jacobzemer": {
+    "title": "Jacob Zemer",
+    "package": "com.trainerize.jacobzemer",
+    "description": "With the Jacob Zemer App, you will have access to workout programs designed specifically to help you reach your fitness and health goals! You can follow & track your workouts, your nutrition, your lifestyle habits, measurements and results\u2013all with the help of your coach. \n\nFEATURES:\n\n- Access training plans and track workouts\n- Follow along to exercise and workout videos \n- Track your meals and make better food choices\n- Stay on top of your daily habits\n- Set health and fitness goals and track progress towards your goals\n- Gain milestone badges for achieving new personal bests and maintaining habit streaks\n- Message your coach in real-time\n- Be part of digital communities to meet people with similar health goals and stay motivated \n- Track body measurements and take progress photos\n- Get ",
+    "icon": "/icons/com.trainerize.jacobzemer.png"
+  },
+  "com.pinger.textfree": {
+    "title": "Text Free: Second Phone Number",
+    "package": "com.pinger.textfree",
+    "description": "TextFree: Free Texting App & Call App With A 2nd Phone Number\n\nLooking for a free texting app or a 2nd phone number? With TextFree, you can get a new phone number free with talk and text! Whether you need a second number for privacy or want to separate your personal and work life, TextFree offers the perfect solution with a free phone number.\n\nUsing this free phone number plus free texting app, you can manage your communications seamlessly. Whether you\u2019re a freelancer, a student, or someone who just wants a second phone number, TextFree offers the ultimate free calling and texting app.\n\nWHY CHOOSE TEXTFREE?\n\nFree 2nd Phone Number for Talk and Text: TextFree gives you a free 2nd number for calling and texting\u2014instantly and easily\u2014without a second phone bill.\n\nTalk & Text Anytime: Whether yo",
+    "icon": "/icons/com.pinger.textfree.png"
+  },
+  "com.pinger.textfree.call": {
+    "title": "Text Free: Calling & Texting",
+    "package": "com.pinger.textfree.call",
+    "description": "TextFree Voice: Text Me From A Free Phone Number App With Unlimited Calling & Texting\n\nTired of using basic 2nd phone number apps to text me for calling & texting? Looking for a free unlimited calling app with free texting and voice messaging to text me? Try TextFree Voice with free unlimited calling & texting! Download the free calling app to make your first call and send your first text now.\n\nTextFree Voice is the first\u2014and still the best\u2014free 2nd phone number, free texting, and free calling app to text me. Call and text me without limits. Join the hundreds of millions of happy users who enjoy TextFree Voice for free unlimited calling and text now.\n\nThe TextFree Voice app is free and easy to use, so make your first call or text me to try it now! Plus, it boasts a huge list of call and te",
+    "icon": "/icons/com.pinger.textfree.call.png"
+  },
+  "com.zing.zalo": {
+    "title": "Zalo",
+    "package": "com.zing.zalo",
+    "description": "Zalo is a messaging application that provides fast, stable, convenient, and private connection for users anytime, anywhere.  \n\nFast and stable \n    Messages, calls, images, high-quality files... is promptly and stably delivered in any conditions and contexts.  \n\nSimple and convenient \n    A simple interface that is easy to use for all. \n    A multi-functional app supporting text message, voice, stickers, pictures, audio call, video call, 1-1 connection, group chat, file sending, screen capture...for various use case. \n    Easily accessible from multiple platforms such as phone, desktop, or website. \n    Enjoy sharing and saving beautiful moments with your family, your beloved friends on Zalo Timeline \n\nPrivacy Priority \n    Users' privacy is upheld and protected with end-to-end encryption,",
+    "icon": "/icons/com.zing.zalo.png"
+  },
+  "com.coffeebeanventures.easyvoicerecorder": {
+    "title": "Easy Voice Recorder",
+    "package": "com.coffeebeanventures.easyvoicerecorder",
+    "description": "Easy Voice Recorder is your everyday companion to record important moments. Capture meetings, personal notes, classes, songs, and much more, without time limits!\n\nFor students\n\nRecord classes and lectures with clear quality, even when the teacher is not right in front of you. Listen to these recordings as many times as you want to help you study for that next exam. Speed up or slow down playback to listen at a comfortable pace.\n\nWith no time limits and the option to choose a compressed format, it's easy to record the longest classes and lectures.\n\nFor business\n\nCapture interviews and meetings from your phone, tablet, or smart watch, then share them with your colleagues through email or your favourite messaging app. Take advantage of powerful widgets and shortcuts to start a new recording r",
+    "icon": "/icons/com.coffeebeanventures.easyvoicerecorder.png"
+  },
+  "com.tmobile.vvm.application": {
+    "title": "T-Mobile Visual Voicemail",
+    "package": "com.tmobile.vvm.application",
+    "description": "No need to change your T-Mobile Voicemail number or to reconfigure your voicemail forwarding - Visual Voicemail activates for free at first launch. Setup voicemail greetings, Import, Save and Delete Voicemails with just a few clicks. Upgrade to Premium for access to Voicemail-To-Text for a small monthly fee and receive all your voicemails transcribed and translated in your preferred language directly in the application inbox, as an SMS message or to an email address.\n \nThe T-Mobile Visual Voicemail app for Android allows you to listen to and view messages in any order, on your phone. The T-Mobile Visual Voicemail keeps getting better and better! The latest update provides enhancements for Voice-To-Text and the new Scam Shield\u2122 bundle. T-Mobile Scam Shield\u2122 allows users to identify, block, ",
+    "icon": "/icons/com.tmobile.vvm.application.png"
+  },
+  "com.chromium.browser": {
+    "title": "ChromiumBrowser",
+    "package": "com.chromium.browser",
+    "description": "Chromium Browser is a lightweight and privacy-focused mobile browser designed for smooth, reliable, and distraction-free web access. Built on the open-source Chromium engine, it delivers modern web compatibility while keeping the browsing experience clean and easy to control.\n\nThe browser is created for users who want speed, simplicity, and better privacy awareness without unnecessary features or clutter. Pages load quickly, navigation feels responsive, and the interface stays minimal so you can focus on the content that matters.\n\nPrivacy-Focused Browsing\n\nChromium Browser is designed with privacy in mind. It gives users greater control over how they browse the web and helps limit unnecessary data exposure during regular browsing sessions. Private browsing mode allows you to browse without",
+    "icon": "/icons/com.chromium.browser.jpg"
+  },
+  "com.huawei.maps.app": {
+    "title": "Petal Maps \u2013 GPS & Navigation",
+    "package": "com.huawei.maps.app",
+    "description": "Petal Maps is a unique map that lets you explore the world around you in new ways. Available in over 160 countries and regions, it provides real-time traffic conditions, lane-level guidance, nearby services, various map layers, traffic events, place favorites, and loads more.\n\nReal-time traffic data for faster and safer travel\n\u00b7 Recommends the quickest, shortest, and least congested route based on a combination of real-time traffic conditions and your personal preferences. You can even add multiple stops to your routes.\n\u00b7 Explore your route options and familiarize yourself with the way in advance.\n\u00b7 Provides accurate lane-level guidance for more precise navigation, helping you find your way through a wide variety of complex scenarios with ease.\n\u00b7 Allows you to report police locations, road",
+    "icon": "/icons/com.huawei.maps.app.png"
+  },
+  "com.goctc.smarthome": {
+    "title": "CTC Complete WiFi",
+    "package": "com.goctc.smarthome",
+    "description": "CTC Complete WiFi is a user-friendly home Wi-Fi network management application. Control your smart home with features such as parental controls, creating guest networks, monitoring network usage, and network security.",
+    "icon": "/icons/com.goctc.smarthome.png"
+  },
+  "com.nicusa.ctprepares": {
+    "title": "CT Prepares",
+    "package": "com.nicusa.ctprepares",
+    "description": "The Connecticut Emergency Preparedness Mobile Application will allow Connecticut residents to access emergency information and alerts on the go in the event of an emergency. Connecticut residents would be able to create interactive emergency kits, customize family communication plans, and view preparation guides on what to do in an emergency all from their mobile device.\n\nThe Emergency Preparedness Mobile Application will integrate with a phone\u2019s text messaging, email, and social networking, allowing residents to inform family members when they are safe. Real-time notifications can be sent directly to the device providing up-to-the-minute information for residents. Links to Emergency needs such as shelters, food, and assistance will be at hand.\n\nThe application will allow users to:\n\u2022      ",
+    "icon": "/icons/com.nicusa.ctprepares.png"
+  },
+  "com.ruslanspivak.launchy": {
+    "title": "Launchy Widget App Launcher",
+    "package": "com.ruslanspivak.launchy",
+    "description": "Organize and easily start apps, shortcuts, device settings, make calls and open browser bookmarks. Launchy can replace folders, contacts widgets and bookmarks widgets. Organize your desktop, make it look great and much more intuitive to use, apply skins and third party icon packs for unique looks.\n\nOfficial Website:\nhttps://www.launchywidget.com/\n\nYour feedback is important!\nUse the below Google Form to provide your feedback\nhttps://forms.gle/FEsoEmTvAjfU5Gny6\n\nBuy me a Coffee:\nhttps://buymeacoffee.com/novarossk\n\nShort Demo: \nhttps://www.youtube.com/watch?v=7wHsxiJVi7g\n\nThe In-app purchase is used to upgrade to Launchy Pro which has even more customization options. \nFeel free to try the Pro Version, 48 hours refund policy.\n\nMAIN FEATURES:\n- Folders replacement: create scrolling lists of yo",
+    "icon": "/icons/com.ruslanspivak.launchy.png"
+  },
+  "com.celltracktech.ctt_mobile": {
+    "title": "CTT Mobile",
+    "package": "com.celltracktech.ctt_mobile",
+    "description": "CTT Mobile allows you to view the latest telemetry data from your CTT devices on your mobile device. In addition you can use CTT Mobile to assign device duty cycle changes and connect to Bluetooth enabled CTT products such as the Sidekick and Node Version 3.",
+    "icon": "/icons/com.celltracktech.ctt_mobile.jpg"
   }
 }
