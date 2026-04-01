@@ -12651,5 +12651,185 @@
     "package": "com.chabad.ohel",
     "description": "Learn about the Ohel, the resting place of the Lubavitcher Rebbe, Rabbi Menachem M. Schneerson, of righteous memory. Send a letter using this app that will be delivered on your behalf.\n\nIf you are experiencing a technical issue, please contact us at appsupport@chabad.org and we will work with you to resolve the issue. We appreciate you not leaving negative feedback.",
     "icon": "/icons/com.chabad.ohel.png"
+  },
+  "com.yiddish24": {
+    "title": "Yiddish24 Jewish Podcast/News",
+    "package": "com.yiddish24",
+    "description": "Yiddish24 is a free radio & podcast app which offers various types of content in the Yiddish language, including:\n- News: Live news reports, Yiddishe Neias, breaking news, news interviews, weather and traffic alerts, and business news\n- Politics: Political news and analysis, roundtable discussions and real-time coverage\n- Health: Important and insightful lectures by famous therapists and health experts\nBusiness: Experience and success interviews, economy tips, business lessons in trade, real estate, marketing and manufacturing by famous entrepreneurs and business masterminds\nPodcasts: many original podcast series on various topics, history, Torah, encyclopedia, politics, tech, finance and more.\n- Music: 24/6 Jewish Music Stream, new songs, album previews, music interviews with your favorit",
+    "icon": "/icons/com.yiddish24.jpg"
+  },
+  "com.appsoup.jewish.judaism.musicradio": {
+    "title": "Jewish & Judaism Music Radio",
+    "package": "com.appsoup.jewish.judaism.musicradio",
+    "description": "Are you Jewish and want to listen to Jewish and Judaism related music? Then this app is for you! Listen to your favorite Jewish songs from hundreds of Jewish and Judaism radio stations online from around the world (such as Israel). We have one of the largest collection of different type of Jewish music that you can listen to! \n\nAPP FEATURES:\n- Record your favorite radio station and listen to them offline\n- Add your favorite stations to your Favorite list\n- Add your own radio station from the list\n- Sleep Timer, Equalizer and Casting feature\n- Search any station or sort by sub-genre\n- Listen in the background (you can use other apps while listening to the radio)\n- Light or Dark mode theme\n- Maximum sound quality!\n\nWhat are you waiting for? Show your spiritual side, relax and listen to the b",
+    "icon": "/icons/com.appsoup.jewish.judaism.musicradio.png"
+  },
+  "com.levtec.jewishmusicstream": {
+    "title": "Jewish Music",
+    "package": "com.levtec.jewishmusicstream",
+    "description": "Enjoy the Best Jewish Music Stream online!\n\nThe highest quality, the best selection, and the exciting features, have caused our listeners to become addicted.\n\nNow you can listen wherever you are, whenever you want, in the most convenient way. Listen at home or at work, in the car or on the go. Use your headphones, external speakers, Chromecast devices, or connect via Bluetooth.\nListening to JewishMusic Stream has never been more convenient!\n\nVisit our website, https://JewishMusicStream.com, where you'll find our list of recently played songs, links to purchase music, of course our legendary Request system, and much more!\n\nEach weekend you'll enjoy our exclusive Erev Shabbos Mode, and during Sefira & the Three Weeks you'll hear our vocal music selection.\n\nTune in now, and you'll never want ",
+    "icon": "/icons/com.levtec.jewishmusicstream.png"
+  },
+  "com.brochos.jstream": {
+    "title": "JStream - Jewish Music",
+    "package": "com.brochos.jstream",
+    "description": "Features:\n- Multiple Stations (and more soon)\n- Displays the name of the current song\n- Plays in the background\n- Includes a widget\n- Works on Android 2.1 and up\n\nIMPORTANT: If you're having streaming issues, please try changing the settings to use low-level streaming. If that still doesn't help - Contact Us! We'll be glad to help.\n\nNote: 3G, 4G or Wifi recommended for best results\n\nKnow of a station we don't? Send us an email. If we can support it, we'll add it.\n\nWhy we need the permissions:\n\n - Internet: all music is streamed from the internet\n - Phone: we automatically stop the music when a call comes in (and optionally resume when the call ends)\n - Wake-lock: Allows us to prevent Android from stopping the music",
+    "icon": "/icons/com.brochos.jstream.png"
+  },
+  "com.piyush.music": {
+    "title": "Oto Music",
+    "package": "com.piyush.music",
+    "description": "A material designed offline music player for android\n\nFeatures :\n- Android auto support\n- Chromecast support\n- Gapless playback support\n- Multiple Now playing themes (more coming in the future updates)\n- Fade in/Fade out music when pause/resume playback\n- Normal and synchronized lyrics support\n- Multiple artists support (Split artists with custom separators)\n- Multiple genres support (Split genres with custom separators)\n- Download and edit lyrics from the app itself\n- Amoled theme\n- Change accent color and highlight color\n- Sleep timer\n- Replay gain support\n- Inbuilt equalizer\n- 5 clean and minimal widgets\n- custom playlist support (No more worrying about playlists getting deleted automatically)\n- Import and export playlists.\n- Multiple sorting options\n- Light, dark, battery saver and sys",
+    "icon": "/icons/com.piyush.music.png"
+  },
+  "media.music.mp3player.musicplayer": {
+    "title": "Music player",
+    "package": "media.music.mp3player.musicplayer",
+    "description": "Music player app is one of the best mp3 player for android.  Music, audio files are played smoothly. It is beautiful and free.\nApp supports music formats: MP3, MP4, WAV, M4A, FLAC, 3GP, OGG, etc\n\nApp was organized to help listen to music easier, \"Music player\" scans all music in your mobile rapidly.\nBest audio equalizer improves your sound on speaker in any space\nSupports the latest Dolby Atmos audio technology (but on some devices this feature is not available).\nListening to songs on \"Music player\" will give better mood and better life.\n\nFeatures of free music player - mp3 player:\n* Almost music formats are supported (mp3, m4a, wav, flac ...). Detect all music files in android mobile.\n* Offline music player, song player, audio player, powerful mp3 player with high quality.\n* Browse and pl",
+    "icon": "/icons/media.music.mp3player.musicplayer.png"
+  },
+  "musicplayer.musicapps.music.mp3player": {
+    "title": "Music Player & MP3 Player",
+    "package": "musicplayer.musicapps.music.mp3player",
+    "description": "Music Player is the best music player for Android. With gorgeous equalizer, all formats supported and stylish UI, Music Player provides the best musical experience for you. Browse all songs on android device, listen to music without wifi, you deserve to get this perfect offline music player for free now!\n\nEqualizer with great sound\nThis MP3 player with bass boost, reverb effects, etc, built-in equalizer will enhance your music listening experience.\n\nAudio Player for All Type of Audio Formats\nNot only an MP3 player, Music Player supports all music and audio formats including MP3, MIDI, WAV, FLAC, AAC, APE, etc. And play them in high quality.\n\nNice User Interface\nEnjoy your music with stylish and simple user interface, Music Player is a perfect choice. You can also choose a color theme or pl",
+    "icon": "/icons/musicplayer.musicapps.music.mp3player.png"
+  },
+  "com.shashety.tv": {
+    "title": "Shashety - \u0634\u0627\u0634\u062a\u064a",
+    "package": "com.shashety.tv",
+    "description": "Movie recommendation service from my screen",
+    "icon": "/icons/com.shashety.tv.png"
+  },
+  "com.hellotalk": {
+    "title": "HelloTalk - Learn Languages",
+    "package": "com.hellotalk",
+    "description": "Practice languages with native speakers on HelloTalk! We recently introduced HelloTalk Live and Voiceroom - interactive language and culture events to help you master languages through the content you love! \n\nHelloTalk, the original language exchange app, connects you with native speakers to practice languages (English, Japanese, Korean, Spanish, French, Mandarin Chinese, Portuguese, German, Italian, Russian, Arabic, Turkish, Hindi, Indonesian, Thai, Vietnamese and 260+ more) for FREE! \n\nHelloTalk equips you with learning tools such as translation and instant captions so you can learn by chatting with native speakers. Learn languages from locals around the world through livestreams and Voicerooms. Connect with expert hosts to discuss interesting topics with language partners in the learnin",
+    "icon": "/icons/com.hellotalk.png"
+  },
+  "com.sora_app": {
+    "title": "Sora",
+    "package": "com.sora_app",
+    "description": "Sora is the platform to electronically sign what you previously signed on paper.\n\nSimple, with legal backing and at an affordable cost.",
+    "icon": "/icons/com.sora_app.png"
+  },
+  "com.overdrive.mobile.android.sora": {
+    "title": "Sora, by OverDrive Education",
+    "package": "com.overdrive.mobile.android.sora",
+    "description": "Borrow eBooks and audiobooks from your school's library with Sora. Setup is  simple - just find your school and sign in. Then download or stream your  assignments and favorite books to your device.\n\nSora includes:\n\u2022 A ground-breaking built-in eBook reader\n\u2022 A beautiful audiobook player\n\u2022 Easy access to assigned titles\n\u2022 A running tally of time spent reading and numbers of books read\n\nWith Sora you can:\n\u2022 Borrow a book and start reading with a single tap\n\u2022 Create and export notes and highlights\n\u2022 Define words - and review a list of all the words that you've looked up\n\u2022 Earn achievements for reading, and for completing certain tasks in Sora\n\u2022 Enjoy reading eBooks and audiobooks!",
+    "icon": "/icons/com.overdrive.mobile.android.sora.png"
+  },
+  "com.marianatek.sora": {
+    "title": "Sora Studio",
+    "package": "com.marianatek.sora",
+    "description": "Features: \n-Purchase Class Packs and Memberships \nEasily browse and purchase our class packs or membership options \n\n-View our schedule \nFilter classes by type to find the perfect fit for your routine. \n\n-Manage your reservations \nBook your class reservations with ease. Keep track of your upcoming classes and manage your schedule to stay organized and committed to your fitness goals.",
+    "icon": "/icons/com.marianatek.sora.png"
+  },
+  "com.syronawomen.app": {
+    "title": "SORA: Virtual Health Clinic",
+    "package": "com.syronawomen.app",
+    "description": "Use SORA to track and manage your health symptoms, get personalised health care plans; access specialist doctors (UK only), therapists, nutritionists; home-test kits (UK only), prescriptions (UK only), and medically approved articles and videos.\n\nSORA was created by a team of scientists, clinicians, researchers and patients to create a platform which truly improves care pathways. We created a single platform to manage life-stage health conditions, including Menstrual Health, Endometriosis, PCOS, Fertility, Menopause, and Men\u2019s Health. \n\nWe personalise the SORA platform to your condition, giving you an individualised experience. SORA helps you manage your symptoms, find patterns between your lifestyle and symptoms, and speak to specialists who understand. \n\nHere is what you can expect from ",
+    "icon": "/icons/com.syronawomen.app.png"
+  },
+  "com.mysms.android.sms": {
+    "title": "mysms - Remote Text Messages",
+    "package": "com.mysms.android.sms",
+    "description": "\u2605\u2605\u2605Featured on Google Play in 130+ countries.\u2605\u2605\u2605\nAs seen on by The Times, PCWorld, TheNextWeb, Gizmodo, All Things Digital, Android Central and many more.\n\n\nSMS & calls on your PC or tablet in perfect sync with your Android phone. \n\n\n\u25cf Text from computer and tablet (real SMS and MMS) using your Android #\n\u25cf Call notifications on your computer - when you receive a call on your phone\n\u25cf The only remote texting app with native apps for Android tablet, Windows 7/XP, Windows 8 desktop & tablet and Chrome\n\u25cf Complete call log history from your Android on your PC & tablet\n\u25cf MMS Group Chat (group messaging)\n\u25cf Multimedia messages (picture messages and files)\n\u25cf Support for any browser (Chrome, Internet Explorer, Firefox, Safari, Opera \u2026)\n\u25cf Sync your contacts and messages from your phone to the mysms cl",
+    "icon": "/icons/com.mysms.android.sms.png"
+  },
+  "com.gawk.smsforwarder": {
+    "title": "SMS forwarder",
+    "package": "com.gawk.smsforwarder",
+    "description": "Synchronization of devices - SMS forwarding - Incoming/Outgoing SMS to other devices\n\nAbsolutely FREE now\n\nThe main function of the application is synchronization of SMS with other devices via e-mail, telegram, PC, URL, sending SMS to another phone.\n\nAt the moment the application is ABSOLUTELY FREE.\n\nAttention! The application is not designed to intercept other people's SMS, will not allow you to access the SMS of your spouse, lost phone, and so on\n\nBrief instructions on how to get started:\nInstall the app and complete the initial app setup (don't skip the steps)\nRegister an account, confirm your e-mail and log in\nIn the window that appears, enter the phone number or e-mail where you want to forward your SMS\nFor more detailed settings, check out our help site (https://sms-forwarder.com/sup",
+    "icon": "/icons/com.gawk.smsforwarder.png"
+  },
+  "com.socialbot.delivery.client": {
+    "title": "Jemli",
+    "package": "com.socialbot.delivery.client",
+    "description": "Jemli is a delivery app that lets you easily order meals, groceries, or send packages from your smartphone.\n\nWith Jemli, explore restaurants and shops near you, place your order in just a few clicks, and track your delivery in real time until it arrives. The app also offers a personalized delivery service from one location to another.\n\n\u2b50 Key Features:\n\nDiscover nearby restaurants and shops\n\nEasily order meals and groceries\n\nPersonalized delivery from point A to point B\n\nReal-time order tracking\n\nSimple and intuitive interface\n\nInstant notifications\n\nSolutions tailored to your daily needs\n\n\ud83c\udfaf Who is it for?\n\nIndividuals and families\n\nUsers looking for fast delivery\n\nAnyone wanting to simplify their daily orders\n\nJemli brings together all your delivery needs in one app for a convenient and se",
+    "icon": "/icons/com.socialbot.delivery.client.png"
+  },
+  "com.beckyhiggins.projectlife": {
+    "title": "Project Life - Scrapbooking",
+    "package": "com.beckyhiggins.projectlife",
+    "description": "Imagine scrapbooking without scissors or adhesive or tools \u2026 or without having to print photos! Never before has scrapbooking been so easy, so fast, or so available in the palm of your hand! The Project Life\u00ae App takes simplicity to a whole new level.\n\nBuilt-in templates and pre-designed artwork allow for scrapbook pages to come together in just minutes with a few taps on our intuitive page layouts. Create a photo collage with your photos and hundreds of fantastic designer cards, with more designs added monthly. Add some quick journaling notes and you\u2019re done! Pocket scrapbooking and photo journaling have never been easier!\n\nDon\u2019t allow your memories to stay trapped on your device. The best part of this game-changing method of scrapbooking is seamlessly sharing completed pages with your fr",
+    "icon": "/icons/com.beckyhiggins.projectlife.png"
+  },
+  "com.plaky.android": {
+    "title": "Plaky \u2014 Project Management",
+    "package": "com.plaky.android",
+    "description": "Organize projects, tasks, and teamwork in one place. Plaky is a project management app that helps teams plan work, track tasks, and collaborate on projects. Create project boards, assign tasks, monitor progress, and keep everyone aligned on what needs to be done.\n\nPROJECT MANAGEMENT MADE SIMPLE\nCreate boards for projects and organize work the way your team prefers.\n\u2022 Track tasks across projects\n\u2022 Organize work into clear workflows\n\u2022 See project progress at a glance\n\u2022 Keep everyone aligned on priorities\n\nTASK TRACKING FOR TEAMS\nOrganize work into clear tasks and assign responsibilities.\n\u2022 Assign tasks to teammates\n\u2022 Set deadlines and priorities\n\u2022 Add descriptions, checklists, and comments\n\u2022 Track progress from start to finish\n\nCOLLABORATE IN ONCE PLACE\nKeep team communication connected to w",
+    "icon": "/icons/com.plaky.android.png"
+  },
+  "com.bgg.jump": {
+    "title": "Project Makeover",
+    "package": "com.bgg.jump",
+    "description": "Give desperately needed makeovers to help people achieve their dreams! Choose highly fashionable clothes, hairstyles, makeup, and even furniture! Deal with dramatic characters like egotistical fashion icons, scheming assistants, or stubborn clients in dire need of a new wardrobe. Play challenging fashion-themed puzzles to help find that perfect look! And don't forget to customize your own signature style with your avatar!\n\nCHOOSE from lots of fashionable clothes to create the perfect look!\n\nMAKEOVER helpless clients and give them the confidence to follow their dreams!\n\nDECORATE a person's room as well as their appearance!\n\nDRAMA is everywhere, be ready to meet some extreme personalities!\n\nSOLVE addictive puzzles with challenging obstacles!\n\nSTYLIZE your avatar to stand out on the red carpe",
+    "icon": "/icons/com.bgg.jump.png"
+  },
+  "com.ericcbm.snake": {
+    "title": "Snake",
+    "package": "com.ericcbm.snake",
+    "description": "Get ready to experience Snake like never before in this exciting and reimagined mobile adventure! Take control of a growing serpent and navigate dynamic environments filled with delicious treats. Each bite makes your snake longer, but watch out! One wrong turn and it's game over.\n\nThis isn't just your grandma's Snake game. We've infused the classic formula with fresh and engaging features:\n\nVisually Stunning Graphics: Immerse yourself in vibrant colors, smooth animations, and captivating theme.\nLeaderboards and Achievements: Compete with friends and players worldwide to reach the top of the leaderboards and unlock challenging achievements through Google Play Games Services.\n\nWhether you're a nostalgic fan of the original or a newcomer to the world of Snake, this reimagined version offers a",
+    "icon": "/icons/com.ericcbm.snake.png"
+  },
+  "com.wildspike.wormszone": {
+    "title": "Worms Zone .io - Hungry Snake",
+    "package": "com.wildspike.wormszone",
+    "description": "You love games with tons of real fun and dynamic action? Then welcome to the Worms Zone.io, an awesome arcade, where you can become the great champion of the arena! Collect yummies and different powerups, defeat enemies, and become the biggest worm of them all! \n\nYou think it's hard? Relax, the rules are simple - explore the arena, collect all the food you see, and grow your worms as big as you can imagine - there are no limits! \n\nStand out from the other players, choose a skin from the wardrobe, or create your own unique style. The further you go, the more skins you unlock. \n\nWorms Zone is also a PVP action game! Watch out for other players and try not to bump into them, otherwise you\u2019ll have to start from scratch. However, if you manage to sneak and encircle them, you\u2019ll get more points ",
+    "icon": "/icons/com.wildspike.wormszone.png"
+  },
+  "com.amelosinteractive.snake": {
+    "title": "Snake.io - Fun Snake .io Games",
+    "package": "com.amelosinteractive.snake",
+    "description": "Slither through a new competitive version of Snake \ud83d\udc0d and survive as long as you can! Challenge your friends and try to be the biggest snake in Snake.io!\n\nClassic arcade Snake.io gets an upgrade for unique online live events play. Slither to the top of the leaderboard in this popular mobile version of the beloved arcade game! Snake.io combines new trendy art with the oldest classic snake game mechanics. \n\nStart Snake.io as a small snake or worm and try to get bigger by eating your way through each level. Rush your way through fields of food and try to beat other players\u2019 scores - how long can you survive?\n\n\ud83c\udfae Classic arcade games meet online leaderboard competition in this new, addicting free game! Join millions of players and play Snake.io now!\n\nSnake.io is designed for a smooth, fast perfo",
+    "icon": "/icons/com.amelosinteractive.snake.png"
+  },
+  "com.supersolid.snake": {
+    "title": "Snake Rivals - Fun Snake Game",
+    "package": "com.supersolid.snake",
+    "description": "\ud83d\udc0d Slither your snake around in this fun 3D multiplayer snake io game - Become the biggest snake, worm or serpiente and don\u2019t let the other snakes and worms hit! \n\n-Snake Rivals io \u2694\ufe0f multiplayer 3D snake games \u2694\ufe0f we challenge you to become the biggest snakes in our fun io games! \n-It\u2019s a new take on the classic snake games with a multiplayer .io games twist!\n\n-Slither into \ud83c\udfae Classic games \ud83c\udfae io mode and swipe to move your snake or worm and eat as many apples as you can in fun, stunning 3D games. \n\n-More than other io snake games, Snake Rivals is \ud83d\ude32 full of surprises \ud83d\ude32 be the last snake slithering in multiplayer Battle Royale and top the leaderboard in our classic arena of snakes and worms!\n\n-\ud83c\udf0e Join players, 3D snakes, worms from all over the world in our .io game!\n- Invite your friend to fun",
+    "icon": "/icons/com.supersolid.snake.png"
+  },
+  "com.snake.io.slither.worms": {
+    "title": "Snake Lite - Snake Game",
+    "package": "com.snake.io.slither.worms",
+    "description": "\ud83d\udccdSnake Lite -snake game is a casual arcade hunry wormzone game. Different from other slither&sanke io games, not only can you collect yummies and different powerups in the arena, but you can also compete with other players to see who is the wormmax snake! Slithering like a sanke in the wormzone! \n\n\ud83d\udccdSnake Lite is a classic fun and dynamic action PVP hungry io snake game \u2014 Relax, the rules are simple. Controlling your worms to eat more delicious food becomes longer, win the zone worms.io battle and become the biggest worm&snake of them all! Like the oldest classic .IO snake games, worm zone.io retains the core gameplay mechanism! Unique graphics keep minimalistic and simple.\n\n\ud83d\udccdSnake Lite - This 3D multiplayer slink io games is part of snake games family. Now, this awesome worm zone io game h",
+    "icon": "/icons/com.snake.io.slither.worms.png"
+  },
+  "com.totalbattle": {
+    "title": "Total Battle: War Strategy",
+    "package": "com.totalbattle",
+    "description": "Build your empire and prepare for war with Total Battle, a multiplayer war strategy game that pits you against enemy factions across ancient civilizations, magic kingdoms and great empires.\n\nBecome immersed in your own world while battling for glory. Enjoy this multiplayer online strategy building game and show off your castle defense skills and tactical war strategies. Command and conquer kingdoms and castles, occupy forts, and feel the rush in this fantasy MMO RTS game.\n\nBattle alongside legendary heroes who\u2019ll defend their territory at all costs and wage war against monsters, barbarians, wizards, elves, and other foes. Build a base and establish a strong tower defense strategy to win all the king\u2019s battles in this medieval strategy war game and become the Lord of all the Kingdoms!\n\nBUIL",
+    "icon": "/icons/com.totalbattle.webp"
+  },
+  "com.brewgames.battlebagwarzone": {
+    "title": "Battle Bag: War Zone",
+    "package": "com.brewgames.battlebagwarzone",
+    "description": "Pack your squad! Watch the war, win the bag!\n\nIn Bag of War, it\u2019s all about how you pack \u2014 not how you shoot.\n\nPlace your soldiers and weapons inside your battle bag. Line them up, connect them right, and create your unstoppable army. Every weapon linked to a soldier brings them to life \u2014 rifles, shotguns, SMGs, you name it!\n\nYour troops will fight wave after wave of enemies while you sit back and enjoy the chaos.\n\nKey Features\n\nBag management gameplay: Fit, place, and connect your troops and weapons.\nAuto battles: Plan your setup, then watch your army take over the battlefield.\nUnit variety: Unlock and collect dozens of modern soldiers and weapons.\nTactical depth: Experiment with different layouts and squad compositions.\nMinimalistic style: Clean visuals and satisfying effects in every ba",
+    "icon": "/icons/com.brewgames.battlebagwarzone.jpg"
+  },
+  "com.madronagames.battlenations": {
+    "title": "Battle Nations",
+    "package": "com.madronagames.battlenations",
+    "description": "Battle Nations is back! Build your empire and lead your armies to victory! Choose from traditional troops and vehicles or unleash exotic forces like mammoths, velociraptors, sandworms, and futuristic plasma units!\n\nWar has engulfed the continent of Ateria, and only your leadership can end the rebel threat. Construct and manage a thriving city, gather critical resources, and assemble your unstoppable army. Engage in epic battles across diverse terrains using various unique units. Build and customize your thriving city, optimizing resource management and defense. Unite with memorable heroes and charismatic misfits, each with their own compelling stories. Experience a richly developed wartime narrative filled with humor, drama, and surprises. Compete and collaborate with players around the gl",
+    "icon": "/icons/com.madronagames.battlenations.png"
+  },
+  "com.traplight.battleslides": {
+    "title": "Battle Legion: Mass Troops RPG",
+    "package": "com.traplight.battleslides",
+    "description": "Massive 100v100 Unit Battles - Build an army and watch your troops fight idle-style. Plenty of units and skins ensure endless fun at the top of mobile gaming experiences. Battle Legion places you at the top tier of aspiring commanders, and as you rank up through unforgettable victories, so do your legion and its troops.\n\nDesign and tweak your army from dozens of unique units, turning your troops into top sword and shield fighters, practitioners of arcane wizardry, users of dark age machinery, and mythical creatures. Equip your troops with Powers that match your masterplan, then sit back and watch how they fight against pitted enemy legions until the bitter end.\n\n- BITESIZED COMBAT: Battles with your troops last 20 seconds or less.\n- LAID BACK GAMING: You plan the army layout for your troop",
+    "icon": "/icons/com.traplight.battleslides.png"
+  },
+  "com.blizzard.messenger": {
+    "title": "Battle.net",
+    "package": "com.blizzard.messenger",
+    "description": "Stay connected with Battle.net wherever you are.\n\nKeep up with your friends and groups:\nSee what your friends are playing, add new friends, coordinate play time, discuss strategies, or just stay in touch. Jump into game, and never miss an opportunity to play together.\n\nExplore games and find your next adventure:\nDive into everything that Battle.net has to offer: Read patch notes, explore your gaming communities and forums, and discover something new to play through the Shop and Games tabs.\n\nKeep your Battle.net account secure:\nManage your account through account settings and protect it by attaching a Battle.net Authenticator. The Authenticator keeps your account safe by allowing you to approve or decline any login attempt from a simple tap of a button or notification.\n\nContact Blizzard Sup",
+    "icon": "/icons/com.blizzard.messenger.png"
+  },
+  "com.pnc.ecommerce.mobile": {
+    "title": "PNC Mobile",
+    "package": "com.pnc.ecommerce.mobile",
+    "description": "Check balances & recent transactions \u2013 See current account activity for your checking, savings, credit card and loan accounts.\n\nProtect your accounts \u2013 Set up fingerprint or Face Authentication to securely sign on to the app. Or, reset your password quickly and conveniently if you need to.\n\nSend money with Zelle\u00ae \u2013 Send money simply, to people you know and trust (i) using your\nmobile number or email address.\n\nTransfer funds \u2013 Transfer funds between eligible PNC accounts and external bank accounts (ii).\n\nMake deposits \u2013 Deposit checks quickly and easily with your Android device (iii).\n\nPay bills \u2013 Add your bills and make one-time or recurring bill payments right from the app.\n\nManage your cards \u2013 View and manage your PNC credit, debit and SmartAccess\u00ae cards and make in-store payments with P",
+    "icon": "/icons/com.pnc.ecommerce.mobile.png"
   }
 }
