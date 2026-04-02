@@ -13016,5 +13016,190 @@
     "package": "com.celltracktech.ctt_mobile",
     "description": "CTT Mobile allows you to view the latest telemetry data from your CTT devices on your mobile device. In addition you can use CTT Mobile to assign device duty cycle changes and connect to Bluetooth enabled CTT products such as the Sidekick and Node Version 3.",
     "icon": "/icons/com.celltracktech.ctt_mobile.jpg"
+  },
+  "com.lemon.lvoverseas": {
+    "title": "CapCut - Video Editor",
+    "package": "com.lemon.lvoverseas",
+    "description": "CapCut offers easy-to-use video editing functions, in-APP fonts and effects, advanced features such as keyframe animation, smooth slow-motion, chroma key, and stabilization, to help you capture and snip moments.\n\nCreate fancy videos with other unique features: auto captions, text-to-speech, motion tracking, and background removal. Show your personality and go viral on TikTok, YouTube, Instagram, WhatsApp, and Facebook!\n\nFEATURES\nBasic video editing\n\u2022 Trim and shorten clips and split or merge videos.\n\u2022 Adjust video speed from 0.1x to 100x, and apply speed curves to clips.\n\u2022 Animate video clips with incredible zoom in/out effects.\n\u2022 Highlight the best moments with the freeze feature.\n\u2022 Explore transition options with awesome effects on and between clips.\n\nAdvanced video editor\n\u2022 Keyframe vid",
+    "icon": "/icons/com.lemon.lvoverseas.png"
+  },
+  "com.meta.quik": {
+    "title": "QUIK: Pago y Delivery",
+    "package": "com.meta.quik",
+    "description": "Just let your imagination run wild and let QUIK do the rest!\n\nYou can order what you want from your cell phone, your favorite restaurants, your market, medicines and all kinds of things. You receive everything immediately at your home and you can pay with Bol\u00edvares, cash, and any type of payment method.\n\nYou can also pay at the store using QUIK, you just have to scan the store's QR code, indicate the amount to pay and that's it! Fast and safe without any contact.\n\nThe best is the QUIK wallet, where you can keep your money and protect it from inflation. Save in our wallet and then treat yourself to any QUIK-affiliated merchant by paying immediately.\n\nAnd of course, you can use QUIK from outside Venezuela to buy the market for your family, send them a meal from their favorite restaurants, a ",
+    "icon": "/icons/com.meta.quik.png"
+  },
+  "com.kiosapps.directwa": {
+    "title": "Quick Message - No Save",
+    "package": "com.kiosapps.directwa",
+    "description": "*Need to send a message to a number without saving it first?*\nQuick Message is a fast, lightweight tool that lets you send messages instantly to any number \u2014 without saving it to your contacts.\n\nPerfect for temporary chats, business needs, or anyone who wants speed and privacy.\n\nFeatures:\n- Send messages without saving the number\n- Quick message templates for one-tap sending\n- History of recently used numbers\n- Clean, lightweight, and fast\n- International number support\n- No login or registration required\n\nDisclaimer:\nThis app is not affiliated with any messaging service. No personal data is collected or stored.",
+    "icon": "/icons/com.kiosapps.directwa.png"
+  },
+  "com.temursoftware.quickmessages": {
+    "title": "Quick Messages",
+    "package": "com.temursoftware.quickmessages",
+    "description": "SMS, emails, WhatsApp etc. are the common tools for written communication today. Despite the change in the medium of transmission the content and requirements of written communication has remained same. In many cases, especially for formal communications the template of the message remains the same and only pertinent points such as dates, names etc. and other entities changes. Some of the situations where the most of the message content remains the same are calls for meetings, invitations to parties, weddings, dinners, celebrations and congratulations etc. Similarly for businesses information such as inventory details, invoices, equipment status etc. also contain same text with minor change in values. In all these situations we can generate a common text encompassing all the desired and re",
+    "icon": "/icons/com.temursoftware.quickmessages.png"
+  },
+  "com.adaptivebits.quick.social.tools": {
+    "title": "Quick Message - Social Tools",
+    "package": "com.adaptivebits.quick.social.tools",
+    "description": "Quick Message - Social Tools lets you send SMS or WhatsApp messages instantly to any phone number - without saving it to your contacts.\nPerfect for replying to unknown callers, starting a quick chat, or sending repeat messages. Keep your phonebook clean and save time with smart messaging shortcuts.\n\n\ud83d\ude80 Key Features\nDirect SMS & WhatsApp Messaging - Enter or paste any number and start chatting instantly.\nPredefined Quick Replies - Save and reuse your most common messages for faster conversations.\nCustom Message Templates - Create personal shortcuts for messages you send often.\nOne-Tap Share Anywhere - Send numbers directly from call logs, SMS, or emails into WhatsApp.\nMessage Yourself - Store notes, links, or images for later use.\nInternational Support - Works seamlessly with local and globa",
+    "icon": "/icons/com.adaptivebits.quick.social.tools.png"
+  },
+  "com.trickybogard.quickwa": {
+    "title": "Quick Message: Direct Chat AI",
+    "package": "com.trickybogard.quickwa",
+    "description": "Keep Your Contacts Clean: Fast, Smart, and Practical Messaging!\n\nIs your phonebook cluttered with numbers you only messaged once? Quick Message is designed to save you from contact chaos and speed up your communication.\n\nKey Features:\n\u2705 Message Without Saving: Start chats directly without adding numbers to your contacts. The perfect solution for business, couriers, and quick one-time chats!\n\u2705 AI Message Refinement: Use artificial intelligence to edit your texts professionally, fix errors, and optimize the tone of your messages.\n\u2705 QR Code & vCard Generator: Create your own digital business card in seconds and share it instantly with anyone.\n\u2705 History Management: Give names to the numbers you've messaged while keeping your actual phonebook completely clean.\n\nDownload now and make your messag",
+    "icon": "/icons/com.trickybogard.quickwa.png"
+  },
+  "com.aslanmobile.b4a.wqm": {
+    "title": "Quick Message",
+    "package": "com.aslanmobile.b4a.wqm",
+    "description": "Have you ever want to send a Whatsapp message to a phone number that is not in your contacts ?\nStart direct chat with WhatsApp without saving phone number at your device.\n\nJust type the phone number and you will have a whatsapp conversation.\n\nYou can also copy a number from anywhere and application will start a conversation with it.\n\nYou can even send messages to yourself, some find it useful to save a link or image or notes for later use.\n\n* if the number you trying to send message to, has no whatsapp account, you will get an error message.\n\nThis app is not related or sponsored by WhatsApp.\n\nThis app is not using any api or password protected services with WhatsApp servers.",
+    "icon": "/icons/com.aslanmobile.b4a.wqm.png"
+  },
+  "com.Splitwise.SplitwiseMobile": {
+    "title": "Splitwise",
+    "package": "com.Splitwise.SplitwiseMobile",
+    "description": "Splitwise is the easiest way to share expenses with friends and family and stop stressing about \u201cwho owes who.\u201d Millions of people around the world use Splitwise to organize group bills for households, trips, and more. Our mission is to reduce the stress and awkwardness that money places on our most important relationships.\n \nSplitwise is great for:\n- Roommates splitting rent and apartment bills\n- Group trips around the world\n- Splitting a vacation house for skiing or at the beach\n- Weddings and bachelor/bachelorette parties\n- Couples sharing relationship costs\n- Friends and co-workers who go out to lunch or dinner together frequently\n- Loans and IOUs between friends \n- And so much more\n\nSplitwise is simple to use:\n- Create groups or private friendships for any splitting situation\n- Add ex",
+    "icon": "/icons/com.Splitwise.SplitwiseMobile.png"
+  },
+  "com.mtv.sai": {
+    "title": "SAI: Split APKs Installer",
+    "package": "com.mtv.sai",
+    "description": "SAI \u2013 Fast Split APKs Installer for Android\nEasily install APK, XAPK, APKM, and split APKs on your Android device. Whether you need to install large games, APK bundles, or .apks files, SAI makes the process quick, secure, and effortless.\n\n\ud83d\ude80 Fast APK & XAPK Installer\nInstall APK, XAPK, and APKM formats without errors. Supports large apps, games, and APK bundles of any size.\n\n\ud83d\udce6 Split APK & APK Bundle Installer\nEasily install split APKs and APK bundles from any sources. Batch installation saves time.\n\n\ud83d\udcbe APK Backup & Restore\nUse the Backup Manager to save installed apps and restore them later without re-downloading.\n\n\ud83d\udee0 App Manager & Tools\nManage your applications with App Manager. Uninstall, organize, share apps and keep your device clean.\n\n\u26a1 Lightning-Fast & Secure\nEnjoy fast installation wit",
+    "icon": "/icons/com.mtv.sai.png"
+  },
+  "com.substack.app": {
+    "title": "Substack",
+    "package": "com.substack.app",
+    "description": "Substack is a new media app that connects you with the creators, ideas, and communities you care about most.\n\n+ Support the creators you love: Subscribe for free or upgrade to view original work and connect directly with your favorite writers, artists, and podcasters.\n\n+ Enjoy ad-free videos and podcasts: Access short-form clips, video episodes, and  read-aloud articles without interruptions.\n\n+ Connect in real time: Join livestreams and live group chats, where top creators bring their biggest supporters into their world. \n\n+ Explore independent ideas: Discover bold opinions and engaging views across food, sports, politics, fashion, comedy, finance, and more.\n\nHow it works:\n1. Download the Substack app.\n2. Claim your handle.\n3. Explore the feed to enjoy notes, videos, and clips from creato",
+    "icon": "/icons/com.substack.app.png"
+  },
+  "com.spotlightsix.zentimerlite2": {
+    "title": "Insight Timer - Meditation App",
+    "package": "com.spotlightsix.zentimerlite2",
+    "description": "* Apps of the Year Winner - TIME magazine and Women's Health *\n* Happiest App in the World - Tristan Harris *\n\nThe number 1 free meditation app. Guided meditations, sleep music tracks and talks led by the top meditation and mindfulness experts, neuroscientists, psychologists and teachers from Stanford, Harvard, the University of Oxford and more. Music tracks from world-renowned artists. Join millions learning to meditate on Insight Timer to help calm the mind, reduce anxiety, manage stress, and sleep deeply.\n\nWith 100+ new free guided meditations and sleep tracks added daily, more meditation is practiced on Insight Timer than anywhere else. Great for both beginners and experienced practitioners.\n\nFREE FEATURES:\n\n* 100,000+  guided meditations\n* Select by time for short meditations when on ",
+    "icon": "/icons/com.spotlightsix.zentimerlite2.png"
+  },
+  "com.nekki.shadowfight3": {
+    "title": "Shadow Fight 3 - RPG fighting",
+    "package": "com.nekki.shadowfight3",
+    "description": "Legend has it that a hero will come to end the fight for shadow energy. He will have to learn three fighting styles, collect the best weapons and challenge the strongest warriors.\n \nThe world is on the edge of an epic war. The mighty force unleashed by the Gates of Shadows many years ago has turned into a weapon, and now three war clans are fighting to decide the future of this force.\n \nThe Legion warriors want to destroy the dangerous energy. The people of the Dynasty want to use it for their own benefit. While the mysterious ninjas of the Heralds clan explore the darkest secrets of the shadow power.\n \nThree clans, three world views, and three fighting styles. Which side will you join? Fight back with rage and courage if you want to win!\n\nShadow Fight 3 is a cool fighting game that gives ",
+    "icon": "/icons/com.nekki.shadowfight3.webp"
+  },
+  "com.willna.vecdroid": {
+    "title": "VecDroid X",
+    "package": "com.willna.vecdroid",
+    "description": "VecDroid X is emulator for the good old Vectrex,  a vector display-based home video game console from 82'\n\nFeatures\n- .vec ROM game file\n- optional overlay\n- all in one archive file (game/overlay)\n- vector renderers\n\nInput\n- Touchscreen\n- Bluetooth Keyboard\n- USB Keyboard\n- Bluetooth Gamepad (HID)\n- USB Gamepad (not tested)\n\n\nDevices reported by user as working\n- Mocute 054\n- Mobility Lab Apple wireless keyboard\n\n\nContact me at support@willna.com to report any device tested working or not working \n\n\nPlease note VecDroid is based on VecX",
+    "icon": "/icons/com.willna.vecdroid.png"
+  },
+  "com.cooperlighting.trellix": {
+    "title": "WaveLinx",
+    "package": "com.cooperlighting.trellix",
+    "description": "* Powerful device management \n* Faster area configuration \n* Mobile-friendly design fits all screen sizes \n* Single app for standalone control AND networked control \n\nWhat you need to do: \n* Create Areas \n* Move devices into Areas and Zones \n\nWhat that gives you: \n* Automatic ON to 50% \n* Individual daylight zones to 500 lux \n* Automatic OFF of lights & plug load \n* Wallstation scene control \n   * Dominant button is 50% light level \n   * Other buttons are scenes \n* Demand Response ready",
+    "icon": "/icons/com.cooperlighting.trellix.png"
+  },
+  "org.emunix.unipatcher": {
+    "title": "UniPatcher",
+    "package": "org.emunix.unipatcher",
+    "description": "UniPatcher allows you to apply patches to game ROMs.\n\nWhat is a patch?\nA file with the modified data of the game. For example, a game translated from Japanese to English. You download the patch containing the translation. It must be applied to the Japanese version to make an English version of it.\n\nThis program will not help you hack native Android games, it was created for the old console games (SNES, PS1, GBA, N64, SMD\\Genesis etc.)\n\nFeatures:\n* Supported formats of patches: IPS, IPS32, UPS, BPS, APS (GBA), APS (N64), PPF, DPS, EBP, XDelta3\n* Create XDelta patches\n* Fix the checksum in SMD\\Genesis ROMs\n* Remove the SMC header from SNES ROMs\n\nHow to use?\nYou have to select a ROM file, a patch and choose which file to save, then click on the red round button. Files are selected through the",
+    "icon": "/icons/org.emunix.unipatcher.png"
+  },
+  "com.superking.parchisi.star": {
+    "title": "Parchisi STAR Online",
+    "package": "com.superking.parchisi.star",
+    "description": "Parchisi STAR, played by millions of players worldwide is an online multiplayer version of popular classic board game Parchis. Parchis board game is a popular in Spain as Parchis and known by different name in other countries. It is a board game of the Cross and Circle family. It is an adaptation of the Indian game Pachisi or Parchis or Ludo or Parchis Online It is the ultimate rollercoaster, taking you from laughs to shouts in one intense match! \n\nReady to chill\u2026 or maybe flip the table? On Parchisi Star, compete with players globally, spill secrets on live chat or real-time voice to \"\"bond\"\" with friends \ud83d\ude09. Warning: this game\u2019s the real test of friendship. It\u2019s not for sore losers, it\u2019s for all of us to have a blast!\n\n\nFeatures\n- It is totally FREE to play\n- Connect with Parchisi players",
+    "icon": "/icons/com.superking.parchisi.star.png"
+  },
+  "com.minimaa.minimal.detox.launcher": {
+    "title": "MINIMAA: Minimalist Launcher",
+    "package": "com.minimaa.minimal.detox.launcher",
+    "description": "Reclaim Your Focus. Simplify Your Life.\nDrowning in a sea of colorful icons and constant notifications? MINIMAA is a premium minimalist launcher designed to transform your smartphone into a tool for intentionality, not a source of distraction.\nInspired by the \"Dumbphone\" philosophy and digital minimalism, MINIMAA helps you break the habit of mindless scrolling and reclaim hours of your day.\n\n\ud83c\udf11 Why Choose MINIMAA?\nMost launchers are designed to keep you on your phone. MINIMAA is designed to get you off it. By removing the visual \"sugar\" of colorful icons and cluttered grids, we reduce the dopamine triggers that lead to phone addiction.\n\n\ud83d\ude80 Key Features:\n * Inky Black Aesthetic: Optimized for OLED screens to save battery and reduce eye strain.\n * Text-Based Interface: No icons, no distraction",
+    "icon": "/icons/com.minimaa.minimal.detox.launcher.jpg"
+  },
+  "com.feralinteractive.hitmanabsolution_android": {
+    "title": "Hitman: Absolution",
+    "package": "com.feralinteractive.hitmanabsolution_android",
+    "description": "Branded a traitor and hunted by the Agency he once served, Agent 47 returns to Android in Hitman: Absolution.\n\nStalk your targets through elaborate environments that reward both quick thinking and patient planning. Strike silently from the shadows, or let your silverballers do the talking \u2014 whatever your approach, each of Absolution\u2019s 20 missions is a contract killer\u2019s happy hunting ground.\n\nExpertly adapted for mobile play, Absolution\u2019s sleek touchscreen controls offer 47\u2019s hallmark precision, with gamepad and keyboard & mouse support included for the full AAA experience on the go.\n\nSIGNATURE STYLE\nBlend into the background, kill silently and disappear without trace, or go in all guns blazing! Absolution\u2019s missions invite you to experiment, improvise and perfect your technique.\n\nCOMPLETE ",
+    "icon": "/icons/com.feralinteractive.hitmanabsolution_android.png"
+  },
+  "com.feralinteractive.hitmanbloodmoney_android": {
+    "title": "Hitman: Blood Money \u2014 Reprisal",
+    "package": "com.feralinteractive.hitmanbloodmoney_android",
+    "description": "PLAY THE FIRST MISSION FOR FREE\nBegin your killer career with the first of Blood Money\u2019s massively replayable sandbox missions, then unlock the complete game with a single in-app purchase.\n\n===\n\nYou are Agent 47 \u2014 a trained killer caught in the crosshairs of a rival agency, \u201cThe Franchise\u201d.\n\nEmbark on a daring mission to take out the shadowy conspiracy\u2019s lethal architects, and employ every tool at your disposal to get the job done while keeping a low profile. Infiltrate, execute, and escape undetected.\n\nFeaturing gameplay improvements inspired by later games in the series, Reprisal is an artful redesign of a stealth-action classic \u2014 complete with a fully customisable touchscreen interface and full gamepad support.\n\nEXECUTION IS EVERYTHING\nBecome a master of disguise, ingenuity and improvis",
+    "icon": "/icons/com.feralinteractive.hitmanbloodmoney_android.png"
+  },
+  "com.squareenixmontreal.hitmango": {
+    "title": "Hitman GO",
+    "package": "com.squareenixmontreal.hitmango",
+    "description": "5/5 Slide to Play: \"\u2026this is one to check out.\" \n4/5 Joystiq: \"Hitman GO is an impressive debut for Square Enix Montreal.\u201d \n4/5 Pocket Gamer - SILVER AWARD: \"Hitman GO is a clever and refreshingly original puzzle game\" \n4/5 Polygon: \"Hitman GO is a great minimalist take on the series' big ideas\" \n5/5 Pocket-lint: \"Hitman GO is a clever and intelligent way of bringing a much-loved franchise to a mobile platform\" \n\nHitman GO is a turn-based puzzle game with beautifully rendered diorama-style set pieces. You will strategically navigate fixed spaces on a grid to avoid enemies and take out your target or infiltrate well-guarded locations. You really have to think about each move and all the Hitman tools of the trade you would expect are included; disguises, distractions, sniper rifles and even ",
+    "icon": "/icons/com.squareenixmontreal.hitmango.png"
+  },
+  "com.squareenixmontreal.hitmansniperandroid": {
+    "title": "Hitman Sniper",
+    "package": "com.squareenixmontreal.hitmansniperandroid",
+    "description": "Step into the shoes of Agent 47 in Hitman Sniper and play the best sniper shooting game on mobile.\n\nPLAY A TACTICAL SNIPER MISSION GAME\nStrike with strategic shooting skills, fulfilling your duty to orchestrate the perfect assassination kill shot.\n\n\nBATTLE ZOMBIES IN DEATH VALLEY\nCall on non-stop shooting action as a zombie hunter, in a true battle of your skills and speed of execution.\n\n150+ MISSIONS & 10 DIFFERENT CONTRACTS\nImprove your strike skills on mobile for the perfect assassination as you uncover secrets and subterfuges in this fun game.\n\nMOST BEAUTIFUL SNIPER GAME \nAwesome and smooth graphics that make for addictive gameplay on top of a thrilling story.\n\nPLAY WITH 16 UNIQUE GUNS\nEliminate targets, collect weapon parts and complete blueprints to unlock the most powerful guns.\n\nCO",
+    "icon": "/icons/com.squareenixmontreal.hitmansniperandroid.png"
+  },
+  "com.gnarlygamestudio.agenthunt": {
+    "title": "Agent Hunt \u2013 Hitman Shooter",
+    "package": "com.gnarlygamestudio.agenthunt",
+    "description": "Agent Hunt - Hitman Shooter \ud83d\udd2b\ud83d\udcbc \u2013 Step into the shoes of a deadly Hitman Agent. Master your sniper skills, land every headshot, and dominate the shooting games arena. Prove yourself as the ultimate assassin\u2014silent, precise, and lethal. \ud83c\udfaf\n\nIn Agent Hunt, you step into the shoes of a skilled and deadly assassin spy, trained as a sniper to take down high-profile targets with precision and action games finesse. Your experience in the world of shooting games and your expertise as a assassin shooter are put to the ultimate test as you take on the role of Mr Bullet, a legendary hitman sniper known for his unrivalled headshot marksmanship among action games.\n\nImmerse yourself in a gripping action games where you must navigate through challenging scenarios and utilize your shooting and sniper skills",
+    "icon": "/icons/com.gnarlygamestudio.agenthunt.png"
+  },
+  "com.Aldin.WotW": {
+    "title": "Waltz of the Wizard",
+    "package": "com.Aldin.WotW",
+    "description": "FREE TO TRY - NO ADS \n\nWaltz of the Wizard is a first-person magic simulator inspired by the wonders of classical fantasy. Your journey begins in a handcrafted magical tower, where you\u2019ll mix arcane ingredients into a bubbling cauldron with the help of your cynical assistant, Skully, fully voiced with thousands of unique reactions. Skully is a companion you can talk to, poke, tickle, dunk, and even\u2014once his sarcasm wears thin\u2014toss right out the window.\n\nONE-TIME IN-APP-PURCHASE FULL GAME UNLOCK FEATURES\nThe full game unlocks the path outside the tower where a huge magical world of chaotic magic, huge areas to explore and even more strange secrets!\n\nCOURTYARD\n* Explore a vast courtyard outside your tower\n* Uncover Skully\u2019s mysterious, fragmented past\n* Navigate the humming portal circle\n* F"
+  },
+  "info.wizzapp": {
+    "title": "Wizz App - chat now",
+    "package": "info.wizzapp",
+    "description": "Welcome to Wizz, the ultimate online platform for spontaneous and exciting conversations with people from around the world. \n\nExperience the thrill of the unexpected and let your guard down in a safe and inclusive environment. With over 10 million downloads, join the Wizz community today and find your people!\n\nReady to experience unlimited fun and make unexpected connections? \n\nHere are the top things you need to know about Wizz:\n\n1). EASY MATCHING: Swipe to find real people online and start chatting now. \n\n2). LIVE CHAT: One of the most exciting things about Wizz is that you can connect instantly with people from around the globe and make new friends. \n\n3). JOIN A GROUP: Meet friends who share your interests. \n\n4). AGE-MATCHED CHATTING: Engage in conversations with peers your own age, ens",
+    "icon": "/icons/info.wizzapp.png"
+  },
+  "com.guppir.swipr": {
+    "title": "BeFriend: make friends nearby",
+    "package": "com.guppir.swipr",
+    "description": "\"Welcome to BeFriend, formerly known as Swipr!\n\nWe've refreshed our name and visual identity to reflect our core value of making friends. Enjoy an improved user experience with our rebranded app. Join BeFriend - Where Meaningful Friendships Begin!\n\n\ud83d\udc6b\ud83d\udc6d\ud83d\udc6c Looking to meet new people, find like-minded souls, and make new friends wherever you are? Look no further! BeFriend is here to revolutionize the way you meet and bond with amazing people in your area.\n\n\nKEY FEATURES ON BEFRIEND:\n\n\ud83d\udd0d Find Friends Nearby\nSwipe through profiles, meet new people nearby, and make friends instantly! \ud83d\udcf2 Find friends who share your interests and passions, kickstarting your journey to meaningful friendships.\n\n\ud83d\udcac Chat & Video Call\nConnect instantly with your new friends through our seamless chat and video call features.",
+    "icon": "/icons/com.guppir.swipr.png"
+  },
+  "com.wizzair.WizzAirApp": {
+    "title": "Wizz Air - Book, Travel & Save",
+    "package": "com.wizzair.WizzAirApp",
+    "description": "SIMPLY SEARCH AND BOOK \nWhat could be better than low-cost flight deals? Select from 200+ destinations, choose your ideal travel date and get set for cheap flights the easy way with the WIZZ Air flight deal and travel app.\n\nFARE FINDER: \nSearch for the lowest available fare for your journey and book your ticket at the best price.\n\nORGANISE YOUR ENTIRE HOLIDAY  \n- Get flight deals via push notifications \n- Scan your documents for a faster booking and check-in process \n- Check in with your confirmation details and say goodbye to printing*  \n- Check out your flight schedule and track your plane in real-time \n- Share flight searches with friends and family or send travel companions their boarding pass  \n- Save your ticket to your Apple Wallet plus all your important travel documents to the app",
+    "icon": "/icons/com.wizzair.WizzAirApp.png"
+  },
+  "com.tech.downloader": {
+    "title": "Downloader",
+    "package": "com.tech.downloader",
+    "description": "Introducing our new Downloader app for retrieving various types of digital files from the internet. With our user-friendly interface, you can easily download desired files by copying and pasting the file's URL or by utilizing the browser plugin to navigate and download files directly from websites. \n\nOnce the downloads are complete, you can manage the files through the in-app file manager. Through the file manager you can access all downloaded files and assign each to a different folder. The APK installer feature allows you to install downloaded APK files directly from the app without having to leave and access the device's settings.\n\n\nGet now the Ultimate Downloader app for an easy way to retrieve your videos, music, APKs, and many other digital files from the internet onto your devices.",
+    "icon": "/icons/com.tech.downloader.png"
+  },
+  "org.linphone": {
+    "title": "Linphone",
+    "package": "org.linphone",
+    "description": "Linphone is an open source app offering free audio/video calls and text messaging. With Linphone, you can be reachable at any time, even if the app is closed, with a WiFi or 3G/4G internet connection.\n\nLinphone key features:\n* high definition audio and video calls\n* audio conference calls with various participants\n* pictures and file sharing\n* Linphone accounts reachable at any time, even if the app is closed (thanks to push notifications)\n* secure communication (encryption options)\n* compliant with a large number of SIP-compatible VoIP service providers allowing to reach everyone that has a \"classic\" phone line.\n\nLinphone is available on the main mobile and desktop operating systems and offers various specific features for advanced users (codecs, transport standard, encryption options, DT",
+    "icon": "/icons/org.linphone.webp"
+  },
+  "com.zoiper.android.app": {
+    "title": "Zoiper IAX SIP VOIP Softphone",
+    "package": "com.zoiper.android.app",
+    "description": "Zoiper is a reliable and battery-friendly VoIP softphone that lets you make high-quality voice calls over Wi-Fi, 3G, 4G/LTE, or 5G networks. Whether you\u2019re a remote worker, digital nomad, or VoIP enthusiast, Zoiper is the go-to SIP client for smooth and secure communication \u2014 without any ads.\n\n\ud83d\udd11 Core Features:\n\ud83d\udcde Supports both SIP and IAX protocols\n\n\ud83d\udd0b Low battery usage with excellent stability\n\n\ud83c\udfa7 Bluetooth, speakerphone, mute, hold\n\n\ud83c\udf99\ufe0f HD audio quality \u2014 even on older devices\n\n\ud83c\udf9a\ufe0f Wideband audio support (including G.711, GSM, iLBC, Speex)\n\n\ud83d\udcf9 Video calls (*with subscription)\n\n\ud83d\udd10 Secure calls with ZRTP and TLS (*with subscription)\n\n\ud83d\udd01 Call transfer & call waiting (*with subscription)\n\n\ud83c\udfbc G.729 and H.264 codecs (*with subscription)\n\n\ud83d\udd32 Multiple SIP accounts for flexibility (*with subscription)\n\n\ud83c\udfa4 C",
+    "icon": "/icons/com.zoiper.android.app.png"
+  },
+  "com.glip.mobile": {
+    "title": "RingCentral",
+    "package": "com.glip.mobile",
+    "description": "AI-Powered Business Communications App for Effortless Productivity\n\nBoost your business efficiency and personal productivity with RingCentral\u2019s AI-powered cloud communications, designed to streamline your connectivity anywhere, anytime.\n\nTHE WORLD\u2019S #1 BUSINESS PHONE SYSTEM, POWERED BY AI.\n-Unlimited US and Canada calling\n-SMS/MMS from your business number\n-Advanced call management with forwarding, auto-attendant, screening, and music\n-AI live transcription\n-AI closed captioning\n-RingSense AI real-time note-taking (in early access preview)\n-RingSense AI personal conversation intelligence (in early access preview)\n-Mobile faxing to send and receive faxes directly from your device\n-Integrations with HubSpot, Zapier, Salesforce, Slack, Google Contacts, and more\n-Record calls automatically or ",
+    "icon": "/icons/com.glip.mobile.png"
+  },
+  "com.ringcredible": {
+    "title": "International Calling\u30fbTalk360",
+    "package": "com.ringcredible",
+    "description": "Upgrade your international calling experience with Talk360! Join over 5 million happy users worldwide and enjoy affordable, crystal-clear calls with our easy-to-use app. Call landlines and mobile numbers using WiFi or cellular data, while showing your own phone number on caller ID. The person you call doesn\u2019t need internet, a smartphone, an app, or an eSIM. With Talk360, you can stay connected from anywhere while avoiding expensive roaming charges. Enjoy low-cost rates across 196 countries, including Nigeria, Mexico, India, China, South Africa, Colombia and the Philippines.\n\nTEST CALL\n\u2022 Try a free call using your own phone number.\n \u2022 Download Talk360 to experience the excellent voice quality.\n \u2022 Enjoy our 14-Day Money-Back Guarantee for peace of mind when trying the app abroad.\n\nWIFI CALL ",
+    "icon": "/icons/com.ringcredible.png"
   }
 }
