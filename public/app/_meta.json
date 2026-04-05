@@ -13795,5 +13795,195 @@
     "package": "digifit.android.virtuagym.pro.fitnessparksuperclub",
     "description": "*** Free app exclusively for Fitness Park members ***\n\nMyFitnessPark is the best fitness and health ally to guide you before, during and after your sports session. More than a simple training app, MyFitnessPark is the complete solution to your progress in your pocket, and much more!\n\n* Create personalized trainings *\nFind your custom-made workouts with a wide selection of workout programs and personalized planning of your activities.\nWhatever your goal is: lose weight, gain muscle mass, be in shape... you will find the training best suited to your needs directly in the app.\n\n* Keep the motivation going *\nAssess your progress over the days to achieve your goals.\nFollow your diet and discover the nutritional value of whats in your fridge.\nOptimize your tracking by connecting MyFitnessPark to",
     "icon": "/icons/digifit.android.virtuagym.pro.fitnessparksuperclub.png"
+  },
+  "com.google.android.aicore": {
+    "title": "Android AICore",
+    "package": "com.google.android.aicore",
+    "description": "AICore powers features across Android and provides apps with the latest AI models.",
+    "icon": "/icons/com.google.android.aicore.png"
+  },
+  "com.google.android.apps.labs.language.tailwind": {
+    "title": "Google NotebookLM",
+    "package": "com.google.android.apps.labs.language.tailwind",
+    "description": "Turn complexity into clarity with NotebookLM, your brain\u2019s new best friend. Join the millions of students, creators, researchers, professionals, CEOs, and more who are saving time, getting stuff done, and learning in new ways.\n\n\u201cNotebookLM Blew Our Mind\u201d \u2013 Hard Fork\n\u201cOne of the most compelling and completely flabbergasting demonstrations of AI\u2019s potential yet.\u201d \u2013 The Wall Street Journal\n\nNow, with the NotebookLM app, you can create and access notebooks, ask questions whenever you think of them, and listen to your podcast-style Audio Overviews on the go with background playback and offline support.\n\n\ud83d\udcda UPLOAD SOURCES\nUpload all your long and complex PDFs, websites, YouTube videos, or text into a notebook.\n\n\ud83d\udcac INSIGHTS YOU CAN TRUST\nNotebookLM becomes an expert on your sources, summarizing the",
+    "icon": "/icons/com.google.android.apps.labs.language.tailwind.png"
+  },
+  "com.spotify.s4a": {
+    "title": "Spotify for Artists",
+    "package": "com.spotify.s4a",
+    "description": "The official app from Spotify that helps artists like you to develop your fanbase, build your business, and create the world around your music.\n\nSpotify for Artists gives you free tools to reach your goals on Spotify. Built for artists and their teams, Spotify for Artists lets you understand your audience, manage your artist profile, upload videos & visuals, and celebrate new releases and milestones. With our app, you can make updates and see your stats from anywhere \u2013 in the studio, on tour, or when planning your next release.\n\nWith Spotify for Artists, you can:\n\n\u2022 Understand who\u2019s listening and where you\u2019re being heard through your song, playlist, and audience insights.\n\n\u2022 See a real-time count of how many listeners around the world are streaming your music at any moment.\n\n\u2022 Celebrate yo",
+    "icon": "/icons/com.spotify.s4a.png"
+  },
+  "com.spotify.tv.android": {
+    "title": "Spotify: Music & Podcasts",
+    "package": "com.spotify.tv.android",
+    "description": "Turn on the TV, turn up the moment and listen to music and podcasts for free.\nSpotify on Android TV unlocks your living room. Whether you're hosting friends, zoning out after work, or soundtracking your Saturday, we've got the songs, podcasts, and video podcasts to match the vibe.\nStream instantly from your TV, or use your phone to control the show without interrupting playback. With Premium you can host a Jam and let your friends queue up their favorites.\nWith Spotify on Android TV, you can:\n\u2022 Stream millions of songs and curated playlists\n\u2022 Enjoy podcasts and video podcasts\n\u2022 Sing along with on-screen lyrics (where available)\n\u2022 Host a Jam and let your friends queue music on your TV (Premium only)\n\u2022 Control playback with your TV remote or Spotify Connect\n\u2022 Enjoy ad-free music listening an",
+    "icon": "/icons/com.spotify.tv.android.png"
+  },
+  "com.spotify.kids": {
+    "title": "Spotify Kids",
+    "package": "com.spotify.kids",
+    "description": "Introduce your child to a playground of sound with Spotify Kids. Packed with singalongs, soundtracks and playlists made for young listeners, the app is an easy way for children of all ages to discover music in a fun environment. Included with a Spotify Premium Family subscription. Try Spotify Kids free for 1 month with a Premium Family trial. Cancel anytime, terms apply.\n\nSpotify Kids lets your child:\n- Listen to audio they love with their own account\n- Explore their tastes, without hearing explicit content - Discover music handpicked for kids by our experts - Hear playlists made just for young listeners\n- Play their favorite tracks offline\n\nImportant information about the app:\n- To use the app, you need to subscribe to Spotify Premium Family first.\n- A Kids profile counts as 1 account in ",
+    "icon": "/icons/com.spotify.kids.png"
+  },
+  "com.riotgames.league.teamfighttactics": {
+    "title": "TFT: Teamfight Tactics",
+    "package": "com.riotgames.league.teamfighttactics",
+    "description": "Put your team-building skills to the test in Teamfight Tactics, the multiplayer PvP auto battler from the studio behind League of Legends.\n\nBust out the big-brain strats as you draft, position, and fight your way to victory in an 8-way free-for-all battle. With hundreds of team combinations and an ever-evolving meta, any strategy goes\u2014but only one can win.\n\nMaster turn-based strategy and arena combat in epic auto battles. Queue up across a variety of chess-like social and competitive multiplayer modes, then outsmart and outlast your enemies to take your place at the top!\n\nLORE & LEGENDS\nSomewhere in the Convergence, a magical library holds a record of every moment that has shaped Runeterra\u2014and by discovering it, you have reawakened all the champions and conflicts within. It\u2019s up to you to ",
+    "icon": "/icons/com.riotgames.league.teamfighttactics.png"
+  },
+  "com.riotgames.league.teamfighttactics.pbe": {
+    "title": "Teamfight Tactics PBE",
+    "package": "com.riotgames.league.teamfighttactics.pbe",
+    "description": "Put your team-building skills to the test in Teamfight Tactics, the ultimate multiplayer PvP auto battler from the studio behind League of Legends.\n\nBust out the big-brain strats as you draft, position, and fight your way to victory in an 8-way free-for-all battle. With hundreds of team combinations and an ever-evolving meta, any strategy goes\u2014but only one can win.\n\nMaster turn based strategy and arena combat in epic auto battles. Queue up across a variety of chess-like social and competitive multiplayer modes, then outsmart and outlast your enemies to take your place at the top! \n\nA REIMAGINED RUNETERRA\nA tempest has thrown the Convergence into chaos, fracturing and fusing regions of Runeterra into a nonsensical new world. \nLead your favorite Runeterran champions to victory with new Tacti",
+    "icon": "/icons/com.riotgames.league.teamfighttactics.pbe.png"
+  },
+  "com.blizzard.wtcg.hearthstone": {
+    "title": "Hearthstone",
+    "package": "com.blizzard.wtcg.hearthstone",
+    "description": "Welcome to Hearthstone, the strategy card game that\u2019s easy to learn but impossible to put down! Play for FREE and complete quests to earn free rewards!* \n\nFrom the studio that brought you World of Warcraft\u00ae, Overwatch\u00ae and Diablo Immortal\u00ae, comes HEARTHSTONE\u00ae, Blizzard Entertainment\u2019s award-winning CCG - play on your phone, tablet or PC! \n\nCollect powerful battle cards and create a mighty deck! Summon minions and sling aoe spells to seize control of ever-shifting battle arenas. Wield a masterful strategy and outwit all players who dare challenge you. Each playable Hearthstone class has a unique hero power and their own set of special class cards.\n\nWhat\u2019s your deck builder  strategy? Do you play aggressive and rush your enemy with minions or do you take your time and build powerful cards? W",
+    "icon": "/icons/com.blizzard.wtcg.hearthstone.png"
+  },
+  "com.riotgames.league.teamfighttacticsvn": {
+    "title": "\u0110\u1ea5u Tr\u01b0\u1eddng Ch\u00e2n L\u00fd",
+    "package": "com.riotgames.league.teamfighttacticsvn",
+    "description": "Decision on approving the content of the G1 online video game script No. 2192/QD-BTTTT issued by the Ministry of Information and Communications on November 9, 2023\n\nPut your team-building skills to the test with Truth Arena, the multiplayer auto-battle tactical PvP game from the studio that created League of Legends.\n\nUse 100% of your brain to choose your champions, arrange their positions, and win a 1vs-all 8-player match. With hundreds of team combinations and ever-changing gameplay trends, every kind of strategy can be applied. But of course, there will always be only 1 winner.\n\nMaster turn-based tactics and compete in the ultimate auto-battle arena. Jump into a series of game modes that are somewhat similar to chess: from social to competitive, to outsmart your opponents and become the"
+  },
+  "co.yellw.yellowapp": {
+    "title": "Yubo: Make friends & chat now",
+    "package": "co.yellw.yellowapp",
+    "description": "Welcome to Yubo \u2013 the ultimate social platform for making new friends all over the world! With millions of users worldwide, we\u2019re all about connecting you with like-minded people in a fun and safe place! \n\nFEW THINGS YOU NEED TO KNOW ABOUT YUBO\n\n1) SWIPE TO MAKE NEW FRIENDS: Use our swipe feature to find new friends who are online and share the same interests! With just a swipe, you could meet your new bestie!\n\n2) CHAT WITH FRIENDS WORLDWIDE: One of the coolest things about Yubo is that you can chat with people from all over the world! Whether you're feeling silly, want to sing, dance, or chat about your day, Yubo has got you covered!\n\n3) FIND YOUR TRIBE: At Yubo, finding your tribe is key to making lasting connections! Thanks to the Tags, you can find other people into gaming, beauty, spo",
+    "icon": "/icons/co.yellw.yellowapp.png"
+  },
+  "com.evosoft_solutions.yubomarketplace": {
+    "title": "YuBo Market",
+    "package": "com.evosoft_solutions.yubomarketplace",
+    "description": "Yubo Marketplace \u2014 Everything you're looking for is here!\n\nYubo \u2014 is a convenient and secure online shopping platform built on the latest technologies. Find everything from your daily needs to home appliances, fashion, beauty, children's products and many more categories in one place.\n\nAdvantages of the application:\n\nEasy and fast product search\n\nSimple and intuitive shopping process\n\nReliable and fast delivery service\n\nSecure payment system (Payme, Click, Uzcard, Visa, Mastercard)\n\nDiscounts, promotions and bonuses\n\nConvenient for sellers too \u2014 open your own store, place your products and reach your customers.\n\nYubo \u2014 your reliable online marketplace companion.\n\nDownload today and take shopping to a new level!",
+    "icon": "/icons/com.evosoft_solutions.yubomarketplace.png"
+  },
+  "com.luach.colel_chabad": {
+    "title": "Luach Colel Chabad",
+    "package": "com.luach.colel_chabad",
+    "description": "Luach Colel Chabad \u2013 Mobile App:\nFor a century, the Luach Colel Chabad has been the Chabad Chassid\u2019s trusted daily guide \u2014 a handbook of minhagim (customs) and halachic practice arranged through the yearly cycle. First compiled in 5685 (1924\u20135) by Rabbi Avraham Chaim Naeh, one of the leading Chabad Rabbanim of Jerusalem, and later expanded by his son Rabbi Boruch Naeh, the Luach remains the authoritative reference for the laws and customs of Chabad.\nThe Rebbe himself reviewed the Luach, kept it on his desk, and urged Chassidim to consult it, often noting that actual practice should follow its rulings. He added handwritten corrections, spoke publicly of its importance, and thanked its publishers for making such guidance accessible.\nFor 100 years, the Luach has been published annually by Col",
+    "icon": "/icons/com.luach.colel_chabad.png"
+  },
+  "com.merkos.matchmaker": {
+    "title": "Met at Chabad",
+    "package": "com.merkos.matchmaker",
+    "description": "With a team of experienced dating coaches, marriage counsellors and a board of rabbinic advisors from across every spectrum and with months of extensive research we are Met at Chabad.\n\nMet at Chabad differs from traditional dating sites by noting the critical issues with the modern-day dating scene. With the widespread use of quick-fix dating apps, the world\u2019s view of dating has rapidly changed. We have been educated to \u2018swipe away\u2019 life\u2019s most important choices. Baseless robotic decisions have become the norm. Specifications dictate compatibility of objects, dismally failing to marry souls.\n\nOur two prong approach aims to tackle these issues.\n\nA newly-created matchmaking algorithm, based on Jewish, family and personal values, is being developed by a team at Yale University and will be pow",
+    "icon": "/icons/com.merkos.matchmaker.png"
+  },
+  "com.radioco.m7a0dc3e4d": {
+    "title": "Chabad.org Radio",
+    "package": "com.radioco.m7a0dc3e4d",
+    "description": "Chabad.org Radio - Torah Classes",
+    "icon": "/icons/com.radioco.m7a0dc3e4d.png"
+  },
+  "com.pichillilorenzo.flutter_browser": {
+    "title": "Flutter Browser",
+    "package": "com.pichillilorenzo.flutter_browser",
+    "description": "A Full-Featured Mobile Browser App created using Flutter and the features offered by the flutter_inappwebview plugin.\n\nFeatures:\n- WebView Tab, with custom on long-press link/image preview, and how to move from one tab to another without losing the WebView state;\n- Browser App Bar with the current URL and all popup menu actions such as opening a new tab, a new incognito tab, saving the current URL to the favorite list, saving a page to offline usage, viewing the SSL Certificate used by the website, enable Desktop Mode, etc;\n- Developer console, where you can execute JavaScript code, see some network info, manage the browser storage such as cookies, window.localStorage , etc;\n- Settings page, where you can update the browser general settings and enable/disable all the features offered by th",
+    "icon": "/icons/com.pichillilorenzo.flutter_browser.png"
+  },
+  "com.erudapro": {
+    "title": "Eruda - Browser Console Pro",
+    "package": "com.erudapro",
+    "description": "Presenting \"Eruda Pro\" the Browser Console, Bringing the web console to your mobile with additional features. Eruda provides you with the features like debugging, manipulating, injecting javascript, and monitoring the network, Now you can download HTML pages in a single Click, Edit any page without Inspecting Elements, and much more Inside the Websites through your mobile phone. You no longer need to rely on your Desktop to use the developer tools. Unveil the true Potential of the Mobile Browsers through Eruda Pro.",
+    "icon": "/icons/com.erudapro.png"
+  },
+  "com.apusapps.browser": {
+    "title": "APUS Browser-Private & Fast",
+    "package": "com.apusapps.browser",
+    "description": "\ud83d\udcaf \ud83c\udfc6Over 10 million users\u2019 choice!  FAST, SAFE, LIGHT & PRIVATE!  APUS Browser is one of the best web browser apps for android, one of the best private browser downloader apps, which allows you to private browsing webs & FAST download videos online, surf latest news freely & block ads from webpages in the incognito browser. \n\n\ud83c\udf3bThe free internet explorer browser downloader app is a full-featured private browser downloader & HD video downloader app, mainly featured in: \n\n\u2b50Fast Browser: NO frozen pages, fast web browser app \n\u2b50Incognito Browser: private browsing pages in the private browser downloader\n\u2b50HD Video Downloader: download videos 1080P, download video fast\n\u2b50Fast Download Browser: Private browsing online videos, fast online video downloader\n\u2b50Data Saving: private browsing pages with less",
+    "icon": "/icons/com.apusapps.browser.png"
+  },
+  "com.walodecole.quicklauncher": {
+    "title": "QuickLauncher: App Launcher",
+    "package": "com.walodecole.quicklauncher",
+    "description": "Access all your applications in milliseconds! \n\nQuickLauncher is the most lightweight and efficient launcher designed for those who value speed and simplicity. \nForget cluttered app drawers; type a couple of letters and find what you need instantly.\n\n\u26a1 MAIN FEATURES: \n\u2713 INSTANT SEARCH: Our optimized engine displays results in real-time as you type. Launch any app with just a couple of taps. \n\n\u2713 RECENT APPS: Quickly view and launch your last 5 used applications from the new quick access bar. \n\n\u2713 INTUITIVE GESTURES Swipe over an app to open its system settings. From there, you can uninstall it, and QuickLauncher will automatically update your list upon return.\n\n\u2713 CLEAN & MINIMALIST DESIGN: A distraction-free interface that consumes no battery or memory. Ideal for extending battery life and k",
+    "icon": "/icons/com.walodecole.quicklauncher.png"
+  },
+  "com.trimbletl.emmlauncher": {
+    "title": "AppLauncher For TAM",
+    "package": "com.trimbletl.emmlauncher",
+    "description": "This launcher is used for changing your home screen to only show the applications the device owner configured through Trimble Application Manager (TAM).\n\nIt automatically arranges deployed applications on the home screen. \nUndeployed or marked as hidden, applications are removed from the homescreen accordingly.\n\nThe launcher is purpose-built for fully managed devices controlled in the Trimble Application Manager.",
+    "icon": "/icons/com.trimbletl.emmlauncher.png"
+  },
+  "com.simplemobiletools.applauncher": {
+    "title": "Simple App Launcher",
+    "package": "com.simplemobiletools.applauncher",
+    "description": "A nice wrapper for your favorite app icons for quick launching. You can easily add any app launcher, so you won't ever again have to swipe through useless apps to find the one you need. You can also rename the launchers as you wish.\n\n\u2705 Simplify Your Screen!\nYou can customize the colors in different styles. This launcher also comes with a dark theme to give you a smoother feel while using your device.\n\nThere is an option to close the app itself and launch a different one for easy navigation. Discover the only app launcher for Android you'll ever need, which is simple to use and has great features!\n\nWe can not uninstall unwanted system apps; you can just remove and ignore their icons.\n\nSimple yet Powerful Launcher for Android!\nIt comes with a material design and dark theme by default, provid",
+    "icon": "/icons/com.simplemobiletools.applauncher.png"
+  },
+  "com.veetechnologies.virtualscribe": {
+    "title": "Virtual Scribe Services",
+    "package": "com.veetechnologies.virtualscribe",
+    "description": "Allow our scribe services to compile your patient notes every session! Use your unique template to add your own observations. Manage upcoming, pending and completed appointments all in one space. Approve notes and save them in your own EMR after completed.",
+    "icon": "/icons/com.veetechnologies.virtualscribe.png"
+  },
+  "com.huscribe.user": {
+    "title": "Huscribe",
+    "package": "com.huscribe.user",
+    "description": "Huscribe is the AI assistant for sales teams. Just speak to update deals, schedule emails, and log CRM activity instantly. No typing required.\n\nThe Problem\nTyping steals precious selling time and leaves CRMs half-empty.\n\nThe Huscribe Fix\nSpeak once and Huscribe turns your words into clean CRM data\u2014notes, tasks, follow-ups\u2014ready inside Salesforce, HubSpot, Dynamics 365, Zoho, Pipedrive, and more in seconds.\n\nWhat You\u2019ll Love\nZero manual entry: log calls, create contacts, update deals with one voice command.\n\nAutomatic AI summaries: instant, share-ready recaps and next steps after every conversation.\n\nOne-tap sync: connects to the CRMs you already use\u2014no new dashboards to learn.\n\nEnterprise-grade security: end-to-end encryption and no training on your raw conversations.\n\nGlobal accuracy: tun",
+    "icon": "/icons/com.huscribe.user.png"
+  },
+  "com.lionscribe.elist": {
+    "title": "Smartlist Phone",
+    "package": "com.lionscribe.elist",
+    "description": "Smartlist Phone is a full-fledged dialer app where you can receive incoming calls, dial outgoing calls, view recent calls, and more.  Smartlist Dialer is fully integrated with both your Contacts and with our extensive community lists, so that you have the most comprehensive data available at your fingertips to manage all your calls. It supports Android 6.0 and above.\n\nSmartlist Phone still includes all the legacy features available in Smartlist. With over 20 Frum community lists (and more coming!), you can stay connected with family and friends and easily search for residential and business listings.\n\nFeatures:\n\u2714Outgoing calls \u2013integrated with both your Contacts and Smartlist listings.  See who you are calling and easily search both Contacts and Smartlist listings when making a phone call.",
+    "icon": "/icons/com.lionscribe.elist.png"
+  },
+  "com.pkj.wow.describe": {
+    "title": "Describe",
+    "package": "com.pkj.wow.describe",
+    "description": "Looking for tough words?\nDon't want to open other apps to search meaning?\n\nWelcome to Describe - A Look Up Dictionary\nAds free | Battery free ( 0% battery drain a day for searching around 50 words )\n\n\u00bb An interface between dictionaries and user.\n\u00bb Copy Anywhere to view  , synonyms and definition of the word \n\u00bb It's work like \"Look up\" and \"Define\" application we often use on desktop.\n\u00bb Describe provide multiple dictionaries to define selected word ( Wordnet, Livio, Google, Wikitionary )\n\u00bb Offline word definition using Livio dictionary ( Recommended for quick response ) \n\u00bb Support for multiple language dictionary ( English, Italian, Spanish, French, German, Portuguese)\n\u00bb Simple way to handle settings from notification panel.\n\nMultiple notification modes for different type of users\n\u00bb Popup N",
+    "icon": "/icons/com.pkj.wow.describe.png"
+  },
+  "com.cadmiumcd.eventscribe": {
+    "title": "Eventscribe",
+    "package": "com.cadmiumcd.eventscribe",
+    "description": "Eventscribe is the preferred event assistant for conferences, summits, symposiums, business meetings and other association or corporate events.\u200b\n\u200b\nKick off your event by exploring the comprehensive event details provided within the Eventscribe Mobile app.  Browse the agenda for all available sessions, personalize your schedule to your interests and engage with presentation content prior to, during and after the session.\u200b\n\u200b\nEnhance your event:\u200b\n- Comprehensive Event Overview - Access detailed agendas for all sessions, workshops, keynotes and networking opportunities, assisting you in preparation for the event\u200b\n- Personalized Scheduling - Tailor your experience by selecting sessions that align with your interests and learning goals, creating a customized event schedule\u200b\n- Engage with Content",
+    "icon": "/icons/com.cadmiumcd.eventscribe.png"
+  },
+  "com.csc.flower.zombie.plant": {
+    "title": "Flower vs zombie: City Defense",
+    "package": "com.csc.flower.zombie.plant",
+    "description": "Are you a big fan of zombie defense games with flowers and zombies? If so, get ready to grow your strongest plants, strongest flowers because a swarm of zombies is about to invade your beautiful cities. \n\nRescue the world\u2019s cities: Tokyo, New York, London, Berlin, and Seoul are all under attack by zombies, each facing its own zombies threat. Every battle offers new challenges and the chance to unlock new heroes.\n\n Your mission is to merge plants, build your defense, and stop the hilarious zombie invasion.\n\n\ud83c\udf3b Merge your plants.\nTo fight off the greedy zombies, you can create a powerful squad of plants and flowers by merging them. Unlock new crops and don\u2019t forget to boost their power and reduce growing time before the zombies come knocking at your door.\n\n\ud83c\udf3b Defend your cities.\nPlan your defe",
+    "icon": "/icons/com.csc.flower.zombie.plant.png"
+  },
+  "com.tecarta.TecartaBible": {
+    "title": "Life Bible",
+    "package": "com.tecarta.TecartaBible",
+    "icon": "/icons/com.tecarta.TecartaBible.png"
+  },
+  "com.meditation.tracker.android": {
+    "title": "Sattva: Meditation and Mantras",
+    "package": "com.meditation.tracker.android",
+    "description": "Meditation has ancient roots \u2013 so does Sattva.\n\nAuthentic, deeply profound and drawing from Vedic principles of meditation that millions of people have benefitted from for thousands of years, the meditations, sacred sounds and music on Sattva are delivered by Sanskrit scholars who have mastered the subtle inner workings of the mind.\n\nOnce such person is renowned humanitarian and spiritual teacher Gurudev Sri Sri Ravi Shankar, a thought leader in yoga and meditation, who is fully established in the self. He is an expert in leading millions of people from around the world into effortless meditation.\n\nIf you\u2019re new to meditation you\u2019ll find simple, yet deep meditations starting from just six minutes and you can set goals and reminders to build your practice up.\n\nFor seasoned meditators there ",
+    "icon": "/icons/com.meditation.tracker.android.png"
+  },
+  "com.fizz.app.production": {
+    "title": "Mine (formerly Fizz): MoneyGPT",
+    "package": "com.fizz.app.production",
+    "description": "Mine is the #1 money app trusted by 1,000,000+ young adults. Mine is there for you in college and beyond.\n\nALL-IN-ONE FINANCIAL SOLUTION FOR YOUNG ADULTS Whether you want to manage your money or have no idea where to start, Mine is there to help you every step of the way. Mine is free to download, giving you all the tools you need to succeed.\n\nCHECK YOUR CREDIT SCORE FOR FREE WITH NO HARD PULLS Check your score and stay on top of any changes. Don't have a score yet? Mine will walk you step-by-step through the process of establishing your credit score.\n\nKNOW WHERE YOUR MONEY GOES Find out exactly where all of your cash goes every month. See your money trends, set category limits to stop you from spending too much and get a custom budget based on your personal history.\n\nLEARN THE THINGS THEY",
+    "icon": "/icons/com.fizz.app.production.png"
+  },
+  "com.fumbgames.minersofbitcoin": {
+    "title": "Idle Mine! Tycoon Mining Game",
+    "package": "com.fumbgames.minersofbitcoin",
+    "description": "Dig deep, build your mining empire, and earn real rewards.\n\nIn Idle Mine, you explore underground worlds, mine valuable resources, and grow a powerful mining operation. Upgrade your equipment, unlock new caves, and watch your tycoon empire expand as you discover valuable treasures... including real rewards!\n\n\u2e3b\nBUILD YOUR MINING EMPIRE\n\nStart small with basic tools and grow into a powerful mining tycoon. Upgrade your gear, unlock new zones, and increase your mining speed to uncover more valuable resources hidden underground.\n\n\u2e3b\nEXPLORE DEEPER WORLDS\n\nEvery layer of the mine reveals new environments, rare minerals, and hidden treasures. Expand your operations and see how far your mining empire can go.\n\n\u2e3b\nWEEKLY EVENTS & CHALLENGES\n\nParticipate in special events and challenges to boost your r",
+    "icon": "/icons/com.fumbgames.minersofbitcoin.png"
+  },
+  "com.playsaurus.mrmine": {
+    "title": "Mr. Mine: Idle Miner Town",
+    "package": "com.playsaurus.mrmine",
+    "description": "Welcome to Mr. Mine, the idle mining simulator tycoon, where you're a capitalist miner. With a tap of your finger, you manage a gold mine factory for generating cash money. Idle to unearth rare treasure. Gold, diamonds, and more! Earn more money and upgrade faster! This isn't just an idle clicker. It's a unique mining simulator. Become an Idle Hero and tap to kickstart your gold and digging tycoon now!\n\nUnveiled in 2012, Mr.Mine is unlike other simulator games, it is made by the creators of Clicker Heroes and has attracted over 20 million miners, tycoons and idle clicker enthusiasts. If tap and idle games are your gold mine, you won't be able to put down Mr. Mine, the ultimate miner's clicker experience. It's a money printing factory in your pocket!\n\nMr. Mine brings a novel twist to increm",
+    "icon": "/icons/com.playsaurus.mrmine.png"
+  },
+  "com.fluffyfairygames.idleminertycoon": {
+    "title": "Idle Miner Tycoon: Gold Games",
+    "package": "com.fluffyfairygames.idleminertycoon",
+    "description": "Are you a true gold miner? Join Business Empire in Idle Miner Tycoon, the leading business simulation trusted by millions. In this simulator, you take control as a top tycoon to build your mining empire. Unlike other tycoon games, this simulation game offers deep strategy. You can start your journey in this idle game even in offline games mode. Start as an idle miner and become an idle hero in this adventure - even as a clever goblin miner chasing hidden riches. This mine simulator is for anyone who wants to enjoy fun tycoon games. Build your business and dominate as a tycoon in our simulator games. Your mine is waiting for a manager to start this epic tycoon game adventure. This is the top choice among idle tycoon games for every fan of sims style progress. You can manage your mine tycoon",
+    "icon": "/icons/com.fluffyfairygames.idleminertycoon.png"
   }
 }
