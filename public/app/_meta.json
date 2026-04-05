@@ -13985,5 +13985,195 @@
     "package": "com.fluffyfairygames.idleminertycoon",
     "description": "Are you a true gold miner? Join Business Empire in Idle Miner Tycoon, the leading business simulation trusted by millions. In this simulator, you take control as a top tycoon to build your mining empire. Unlike other tycoon games, this simulation game offers deep strategy. You can start your journey in this idle game even in offline games mode. Start as an idle miner and become an idle hero in this adventure - even as a clever goblin miner chasing hidden riches. This mine simulator is for anyone who wants to enjoy fun tycoon games. Build your business and dominate as a tycoon in our simulator games. Your mine is waiting for a manager to start this epic tycoon game adventure. This is the top choice among idle tycoon games for every fan of sims style progress. You can manage your mine tycoon",
     "icon": "/icons/com.fluffyfairygames.idleminertycoon.png"
+  },
+  "com.insideinc.gcpu": {
+    "title": "G-CPU:Monitor CPU, RAM, Widget",
+    "package": "com.insideinc.gcpu",
+    "description": "G-CPU is a simple, powerful, and free application that gives you complete information about your mobile device and tablet with advanced user interfaces and widgets. G-CPU includes information about CPU, RAM, OS, Sensors, Storage, Battery, Network, System Apps, Display, Camera, etc. Also, G-CPU can benchmark your device with hardware tests.\n\nWhat's Inside :\n- Dashboard: RAM, Internal Storage, External Storage, Battery, CPU, Sensors Available, Tests, Network, and Settings App\n- Device: Device Name, Model, Manufacturer, Device, Board, Hardware, Brand, Build Fingerprint\n- System: OS, OS Type, OS State, Version, Build Number, Multitasking, Initial OS Version, Max Supported OS Version, Kernel Info, Boot Time, Up Time\n- CPU: Load Percent, Chipset Name, Launched, Design, Common manufacturer, Max C",
+    "icon": "/icons/com.insideinc.gcpu.png"
+  },
+  "com.mobile_infographics_tools.mydrive": {
+    "title": "Storage Analyzer & Disk Usage",
+    "package": "com.mobile_infographics_tools.mydrive",
+    "description": "Storage Analyzer & Disk Usage displays information on sdcard, usb devices, external and internal storage in a simple and clear graphical form (infographics).\n\nAccessing device storage and USB drives\nApplication reads from the device storage list of files and file-specific data (name, path, size, last modified date, file preview) in order to build device statistics and display it in a form of report and file usage diagram (pie chart, sunburst chart).\n\nAccessing cloud drives\nApplication allows users to connect cloud drives (Google Drive, Dropbox, Yandex.Disk). When the appropriate drive is connected Application reads a list of files and file-specific data (name, path, size, last modified date, file preview) in order to build cloud drive statistics and display it in a form of report and file ",
+    "icon": "/icons/com.mobile_infographics_tools.mydrive.png"
+  },
+  "com.mercadopago.wallet": {
+    "title": "Mercado Pago: cuenta digital",
+    "package": "com.mercadopago.wallet",
+    "description": "With a Mercado Pago digital account, you can keep your money safe, have a line of credit, and make instant online payments and transfers from your phone. Enjoy the benefits of a Mercado Pago digital account!\n\nGet a free card with no annual fee! Use the virtual card to shop online and in physical stores. If you'd also like a physical card, order it through the app, and we'll ship it to your home for free!\n\nWithdraw cash with your card at supermarkets and ATMs nationwide.\n\nYou can also get a line of credit to pay bills, top up your phone, and shop on Mercado Libre.\n\nDiscover the advantages of Mercado Pago:\n\nDaily Earnings: Generate daily earnings on your account. It's simple and you can activate it through the app. Transfer money with your debit card or use your account balance and cash in s",
+    "icon": "/icons/com.mercadopago.wallet.png"
+  },
+  "com.mosync.app_Banco_Galicia": {
+    "title": "Galicia - El banco en tu celu",
+    "package": "com.mosync.app_Banco_Galicia",
+    "description": "With our Galicia App you can:\n\n\u2022 Open a free account\nDownload the Galicia App and open your account online.\n\n\u2022 Pay with QR code, NFC, or contactless.\n\n\u2022 Find promotions based on your location\nUse our interactive map to see the promotions near you.\n\n\u2022 Buy and sell dollars.\nYou can also activate interest in dollars for your savings account.\n\n\u2022 Invest and track your money's performance\nUse FIMA Funds, buy stocks, bonds, and ADRs, and much more.\n\n\u2022 See all your savings with our promotions\nOur automatic savings counter does the math for you.\n\n\u2022 Transfer money from your other digital wallets or banks.\n\n\u2022 Pay your credit cards\nView your spending and statements, and check your available limits.\n\n\u2022 Review your card details\nYou don't need to have your cards on hand to make online purchases.\n\n\u2022 Chat ",
+    "icon": "/icons/com.mosync.app_Banco_Galicia.png"
+  },
+  "com.onefinance.one": {
+    "title": "OnePay \u2013 Mobile Banking",
+    "package": "com.onefinance.one",
+    "description": "OnePay Products\n\nWallet\nEarn OnePay Points when you shop at Walmart\n\nCash\nEarly pay\u200b\u200b, OnePay Rewards, no monthly fees\n\nCash+\nEarn interest with high-yield Savings\n\nCashRewards Card\nEarn unlimited 3% cash back at Walmart,\u2028or 5% cash back at Walmart with Walmart+.\u200b All with zero annual fee\n\nWireless\n$35 per month (plus taxes & fees, 30 day plan), includes unlimited talk & text, and unlimited 5G data on AT&T\u2019s nationwide network\n\nCredit Builder Loan\nBuild credit history with no fees for just $1/month\n\nOnePay Later\nBuy now, pay later at Walmart\n\n\n\nOnePay is a financial technology company, not a bank. Banking services provided by Coastal Community Bank or Lead Bank, Members FDIC. The OnePay CashRewards Mastercard is issued by Synchrony Bank pursuant to a license from Mastercard\u00ae International ",
+    "icon": "/icons/com.onefinance.one.png"
+  },
+  "com.bbva.bbvacontigo": {
+    "title": "BBVA Spain | Online Banking",
+    "package": "com.bbva.bbvacontigo",
+    "description": "Now, the market-leading app, trusted by more than 8 million customers, features Artificial Intelligence and is up to 6 times faster!\n\n\ud83d\ude80 MORE SPEED\n\nWe use AI to optimize every interaction, personalizing direct shortcuts so you can complete your payments and other operations in the blink of an eye.\n\nQuickly check your card details during an online purchase or make a regular transfer with a single click. The most used features will now automatically appear in the order you use them.\n\nForget about searching for the same contact over and over again to send a Bizum, or constantly checking the menu for the products that interest you most. We organize and show them to you right on the home menu!\n\n\ud83c\udf1f NEW FINANCIAL COACH\n\nAt BBVA, we have been working for nearly 10 years to help you improve your fin",
+    "icon": "/icons/com.bbva.bbvacontigo.png"
+  },
+  "com.astropaycard.android": {
+    "title": "AstroPay",
+    "package": "com.astropaycard.android",
+    "description": "AstroPay is your all-in-one global wallet that gives you ultimate control and flexibility over your money. Send and receive international transfers instantly and for free, make payments worldwide with a card accepted in over 200 countries, and exchange currencies directly in the app. All of this comes with no hidden fees and the security you deserve.\n\nDownload the app and enjoy the benefits:\n\n- Free international transfers\n- Send and receive money overseas\n- Convert 10+ currencies\n- Card accepted in 200+ countries\n- Work global, pay local\n\n\nFree international transfers\nSend and receive international transfers securely and at no cost, directly between AstroPay wallets, no matter where you are. It\u2019s as quick and simple!\n\nGlobal wallet with 10+ currencies\nForget the hassle of currency exchang",
+    "icon": "/icons/com.astropaycard.android.png"
+  },
+  "io.gonative.android.jbwbaw": {
+    "title": "CencoPay",
+    "package": "io.gonative.android.jbwbaw",
+    "description": "Cencosud Card is now CencoPay Cr\u00e9dito.\nA renewed, safer and more practical App so you can operate your credit card and your digital account.\n\u2022 Pay and recharge services.\n\u2022 Transfer money to any account.\n\u2022 Pay with QR at any establishment.\n\u2022 Take out insurance.\n\u2022 Buy online or in person and take advantage of exclusive benefits."
+  },
+  "com.revolut.revolut": {
+    "title": "Revolut: Spend, Save, Trade",
+    "package": "com.revolut.revolut",
+    "description": "Join the 70+ million customers worldwide who use our app to spend, send, and save smarter.\n\nMake your spend, well-spent\nPay any way, with physical cards, virtual cards, single-use virtual cards for extra protection, Google or Apple Pay\nSpend abroad with great exchange rates (fees additional to the rate provided may apply)\nAccess 55+ K in-network ATMs worldwide with no fees\nLink your external bank accounts to stay on top of all your spending\nDesign a physical card you vibe with (fees may apply).\n\nSet your kids up for financial success. Get them a Revolut \uff1c18 account, with their own card, so they can learn about money in a safe and fun way\n\nSend money near, far, wherever they are\nRequest or send 25+ currencies with a tap to anyone, anywhere\nChat, send, and receive money, in one place. Whatev",
+    "icon": "/icons/com.revolut.revolut.png"
+  },
+  "com.moneybookers.skrillpayments": {
+    "title": "Skrill - Fast, secure payments",
+    "package": "com.moneybookers.skrillpayments",
+    "description": "Join millions around the world who use Skrill for fast, secure online payments and money transfers.\n\nWith the Skrill digital wallet, you can pay at thousands of websites, send money abroad, and exchange currency. All without relying on your bank.\n\nPlus, you can earn points on your transactions and be rewarded with the Knect loyalty program.\n\n\ud83d\ude80 Download the app today and start transacting in minutes\n\nSECURE & FAST ONLINE PAYMENTS\n\u2714 Pay instantly on thousands of websites, including sports, gaming, and forex trading websites. There\u2019s no need to share your bank or card details \u2013 all you need is your Skrill login.\n\u2714 Quick withdrawals\u2014get your money when you need it, hassle-free.\n\u2714 Choose the payment option that suits you and fund your account by card, bank transfer, or a local payment methods.\n",
+    "icon": "/icons/com.moneybookers.skrillpayments.png"
+  },
+  "ar.com.bancar.uala": {
+    "title": "Ual\u00e1",
+    "package": "ar.com.bancar.uala",
+    "description": "Hi! \ud83d\udc4b Welcome to Ual\u00e1.\n\nDownload the app and take advantage of all the products and services we have for you. You won\u2019t believe everything you can do from a single app.\n\nWe make it easy: shop, transfer, and earn returns every day.\n100% secure. 100% digital. 100% Ual\u00e1.\n\n\ud83d\udcf2 Download the app and open your account\n\n* Loan products offered through this app are only available to Ual\u00e1 account holders in Argentina and Mexico, in accordance with the financial regulations of those countries. No loan products are offered, advertised, or accessible to users located in the United States. All loan-related features are fully restricted in the U.S. region.",
+    "icon": "/icons/ar.com.bancar.uala.png"
+  },
+  "com.themesonfire.iconpack.taco_loco.free": {
+    "title": "Taco Loco \ud83c\udf2e - Icon Pack",
+    "package": "com.themesonfire.iconpack.taco_loco.free",
+    "description": "Taco Loco is an icon pack with nearly 1000 icons and a new shapeless style. This app includes icons and wallpapers that give a clean and minimalistic look to your homescreen.\n\nSupported launchers: Action Launcher, ADW Launcher, Apex Launcher, Evie Launcher, Go Launcher, Hyperion Launcher, Lawnchair, Lean Launcher, L Launcher, Lucid Launcher, Nova Launcher, POCO launcher, Smart Launcher, Solo Launcher, generally, any launcher that supports 3rd party iconpack.",
+    "icon": "/icons/com.themesonfire.iconpack.taco_loco.free.png"
+  },
+  "com.themesonfire.iconpack.taco_taco.paid": {
+    "title": "Taco Taco \ud83c\udf2e - Icon Pack",
+    "package": "com.themesonfire.iconpack.taco_taco.paid",
+    "description": "I was hungry when designing these icons, hence this name.\n\nThis app includes icons and wallpapers that give a clean and minimalistic look to your homescreen.\n\nPreferred settings: Icon size set to 150%, grid 7x4, Icon normalizing turned off (to avoid inconsistencies in icon sizes). Icon shape can be changed through the launcher settings.\n\nSupported launchers: Action Launcher, ADW Launcher, Apex Launcher, Evie Launcher, Go Launcher, Hyperion Launcher, Lawnchair, Lean Launcher, L Launcher, Lucid Launcher, Nova Launcher, POCO launcher, Smart Launcher, Solo Launcher, generally, any launcher that supports 3rd party iconpack.",
+    "icon": "/icons/com.themesonfire.iconpack.taco_taco.paid.png"
+  },
+  "com.themesonfire.iconpack.taco_deluxe.paid": {
+    "title": "Taco Deluxe \ud83c\udf2e - Icon Pack",
+    "package": "com.themesonfire.iconpack.taco_deluxe.paid",
+    "description": "Renewed sequel of Taco Taco \ud83c\udf2e\n\nTaco Deluxe is an icon pack with 1000+ icons and a new shapeless style. This app includes icons and wallpapers that give a clean and minimalistic look to your homescreen.\n\nSupported launchers: Action Launcher, ADW Launcher, Apex Launcher, Evie Launcher, Go Launcher, Hyperion Launcher, Lawnchair, Lean Launcher, L Launcher, Lucid Launcher, Nova Launcher, POCO launcher, Smart Launcher, Solo Launcher, generally, any launcher that supports 3rd party iconpack.",
+    "icon": "/icons/com.themesonfire.iconpack.taco_deluxe.paid.png"
+  },
+  "com.edzondm.foxbit": {
+    "title": "Foxbit Icon Pack",
+    "package": "com.edzondm.foxbit",
+    "description": "Tired of the same old icons? Foxbit brings a fresh, colorful concept designed to illuminate your home screen with modern, clean, and vibrant icons.\n\nEach icon has been carefully crafted with smooth lines and balanced colors\n\nFeatures:\n\u2605 2400+ Icons\n\u2605 30 Wallpapers\n\u2605 Dynamic calendar icons\n\u2605 Support for many launchers\n\nHow to apply these icons?\n1. Install a compatible launcher\n2. Open Foxbit, go to the Apply section, and select your launcher\n\nCompatible Launchers:\nSmart Launcher, Nova Launcher, Lawnchair, Action Launcher, Apex Launcher, Flick Launcher, GO Launcher, Hyperion Launcher, Lucid Launcher, Microsoft Launcher, Mint Launcher, Niagara Launcher, Pie Launcher\n\n(These launchers have been tested and are fully compatible, may also work with other unlisted launchers)\n\nHow to apply on Samsu",
+    "icon": "/icons/com.edzondm.foxbit.png"
+  },
+  "com.bandot.alexis.pie.iconpack": {
+    "title": "Alexis Pie: Minimal Icon Pack",
+    "package": "com.bandot.alexis.pie.iconpack",
+    "description": "Transform Your Home Screen with Alexis Pie: Minimal Icon Pack\n\nSearching for the perfect icon pack to personalize your Android device? Alexis Pie delivers a fresh, minimal aesthetic with a sweet twist. Featuring thousands of meticulously crafted vector icons, crisp XXXHDPI resolution, and a growing library of cloud-based HD wallpapers, Alexis Pie offers a complete visual overhaul for your phone or tablet.\n\nKey Features for Icon Pack Enthusiasts:\n* Massive Icon Library\nOver 10.467 icons and constantly expanding, covering a vast range of popular and system apps, ensuring comprehensive coverage for your favorite apps.\n\n* Ultra-High Resolution\nXXXHDPI icons provide crisp, clear visuals on any display.\n\n* Vector-Based Perfection\nEvery icon is meticulously designed using vector graphics, guarant",
+    "icon": "/icons/com.bandot.alexis.pie.iconpack.png"
+  },
+  "com.team5r.iconpack.coco_icons.paid": {
+    "title": "Coco Icons \ud83e\udd65",
+    "package": "com.team5r.iconpack.coco_icons.paid",
+    "description": "Introducing Coco: A Vibrant Oasis for Your Device\n\nCoco Icons is not just an icon pack; it's a vibrant oasis that will transform your device's home screen into a work of art. With a focus on originality and creativity, Coco Icons offers endless customisation possibilities that will breathe new life into your device!\n\nKEY FEATURES\n\u2022 Unique Color Palette: Coco Icons features a unique color palette that is designed to be visually striking and attention-grabbing.\n\u2022 Customisation Options: Choose from a variety of colourful icons and wallpapers to match your device's theme.\n\u2022 Fusion Engine: Witness a seamless icon harmony with no more untamed apps.\n\u2022 Big Updates: Big updates will be provided to Coco Icons. Make sure you send all of your app requests so we can keep your home screen fresh and exci",
+    "icon": "/icons/com.team5r.iconpack.coco_icons.paid.png"
+  },
+  "com.akinon.madamecoco": {
+    "title": "Madame Coco",
+    "package": "com.akinon.madamecoco",
+    "description": "With Madame Coco Mobile Application, you can easily follow the most trending models in home & living, decoration, home textile, kitchen, tableware and cosmetics categories.\n\nThanks to the application, you can follow all the innovations and campaigns about Home & Life and be informed before anyone else.\n\nWhat's in the Madame Coco Application:\n- Ability to buy the products you like safely and easily,\n- Ability to create a favorite list by clicking the heart icon,\n- Listing the models most suitable for you and your home with advanced filtering options,\n- Ability to check the stock status of products before planning your store shopping,\n- Be informed about discounts and campaigns before anyone else with notifications,\n- Directing you to stores' contact information, transportation information a",
+    "icon": "/icons/com.akinon.madamecoco.jpg"
+  },
+  "com.jndapp.dove.dark.iconpack": {
+    "title": "Dove Dark : Icon Pack",
+    "package": "com.jndapp.dove.dark.iconpack",
+    "description": "Dove Icon Pack is a Dark Version of Dove Iconpack with High Quality icons and Shape styled Inspired by Apple Design. \n\nIn this Iconpack We are focusing on simplicity and perfect shapes with rounded corners, and applying our own creative touch! Every icon is a real masterpiece and crafted with lots of time and attention to smallest details. Dove Icon Pack have been designed with a Perfect blend of creativity with simplicity enhancing your mobile experience.\n\n\nThere's always something new:\nDove Icon pack is still new with 3250+ Icons . And I can assure you to add lot more icons in every update.\n\nWhy  Choose Dove Icon Pack over other Packs?\n\u2022 3250+ ICONS WITH TOP NOTCH QUALITY. \n\u2022 Frequent Updates with new icons and Updated activities\n\u2022 Work on any android device.\n\u2022 Lots of alternative icons ",
+    "icon": "/icons/com.jndapp.dove.dark.iconpack.png"
+  },
+  "com.metago.astro": {
+    "title": "ASTRO File Manager & Cleaner",
+    "package": "com.metago.astro",
+    "description": "ASTRO File Manager is the all-in-one app for easily organizing, moving, and backing up your files and cleaning your phone\u2019s storage. It comes with a user-friendly interface for easy navigation and simple management of your internal, external, and cloud storages. ASTRO is being used by 150M+ users worldwide since 2009, it\u2019s free to use and has no advertising!\n\nThese are the top ASTRO, by Sensor Tower, features that will help you to take control over all your digital files:\n\nFile Explorer\nIt doesn\u2019t have to be a hassle to organize your files. ASTRO File Manager allows you to:\n\u2022 Move, copy, share, rename, files on internal storage, SD card, and cloud space. \n\u2022 Sort and categorize files: Have fast access to all of your files on internal and external memory space. Manage your folders effectivel",
+    "icon": "/icons/com.metago.astro.webp"
+  },
+  "pl.solidexplorer2": {
+    "title": "Solid Explorer File Manager",
+    "package": "pl.solidexplorer2",
+    "description": "Solid Explorer is a file management app inspired by the old school file commander applications. It will help you:\n\ud83d\uddc4\ufe0f  Easily manage files in dual pane layout\n\ud83d\udd10 Protect files with strong encryption\n\ud83d\udda5\ufe0f Manage files on your cloud storage or NAS\n\u2601\ufe0f Backup apps and files to any desired destination\n\n\nExplore your device\nSolid Explorer lets you navigate to files stored on your device and automatically organizes them into collections. You can view, delete, move, rename or share any files. It also allows you to quickly find the files you need through indexed search with filters.\n\n\nKeep your files safe\nSolid Explorer can protect selected files with strong AES encryption and put them in a secure folder, which contents are unreadable for other apps. The file manager will ask for password or fingerprin",
+    "icon": "/icons/pl.solidexplorer2.png"
+  },
+  "files.fileexplorer.filemanager": {
+    "title": "File Manager",
+    "package": "files.fileexplorer.filemanager",
+    "description": "File Manager - XFolder, a powerful & easy-to-use file manager & file explorer with desktop-grade features, helps you handle ALL your files efficiently. With File Manager - XFolder, you can easily manage files on local device & SD card, quickly find files by browsing,  and zip & unzip files.\n\n\ud83d\udcc2 Manage Files All in One\n- Browse, Create, Multi-Select, Rename, Compress, Decompress, Copy & Paste, Move files and folders\n- Lock your files in private folder to keep safe\n\n\ud83d\udd0e Easily Find Files\n- Search and find your buried files fast with only a few taps\n- No longer waste much time looking for documents, videos, music or memes you\u2019ve downloaded before\n\n\u2601\ufe0fManage All Cloud Storage In One Place\n- Seamlessly integrate Google Drive, OneDrive, Dropbox, etc.\n- Access, organize, and sync your files effortles",
+    "icon": "/icons/files.fileexplorer.filemanager.png"
+  },
+  "com.speedsoftware.explorer": {
+    "title": "Explorer",
+    "package": "com.speedsoftware.explorer",
+    "description": "Explorer is perfect for organizing your internal storage and SD card contents. Simple, with a smooth intuitive interface. You can also easily access your cloud and network files.  \n\nFeatures include: \n\u2022 Multiple tabs - Easily navigate between different locations by swiping or clicking on a tab\n\u2022 Google Drive, Box, Dropbox and Network (SMB) support \n\u2022 Multiple themes (Light, dark and home wallpaper) \n\u2022 Built in Text Editor\n\u2022 Create and extract zip or tar files\n\u2022 Extract rar archives \n\u2022 Perform long running operations (e.g. copy, move) in the background  \n\u2022 Stream video and audio files from network and cloud to media player applications\n\u2022 Create home screen shortcuts to files and folders\n\u2022 Customisable icon sets \n\u2022 Send files (via email, bluetooth etc)\n\u2022 Built in SQLite database viewer\n\u2022 Boo",
+    "icon": "/icons/com.speedsoftware.explorer.png"
+  },
+  "com.tapease.my.flappywings": {
+    "title": "Flappy Wings - Bird Jump Game",
+    "package": "com.tapease.my.flappywings",
+    "description": "\ud83d\udd4a\ufe0f Flappy Wings \u2013 Tap to Fly!\n\nTake flight in Flappy Wings, a fast-paced and addictive arcade game that challenges your reflexes and timing! Tap to flap your wings, soar through endless pipes, and see how far you can go in this thrilling flying adventure. Perfect for fans of classic tap-to-fly games and anyone looking for a quick, fun challenge!\n\n\ud83c\udfae Game Features\n\n\ud83d\udc26 Easy Controls, Hard to Master \u2013 Tap to fly and navigate your way through challenging obstacles. Simple, intuitive gameplay that keeps you coming back for more!\n\n\ud83c\udf08 Endless Flying Challenge \u2013 How far can you go? Survive as long as possible and beat your own high score.\n\n\ud83c\udfc5 Medal Rewards System \u2013 Earn Bronze, Silver, Gold, and Platinum medals as you improve and reach new heights. Show off your skills and strive for the ultimate flyi",
+    "icon": "/icons/com.tapease.my.flappywings.png"
+  },
+  "com.flappybird.classic.game": {
+    "title": "Flappy Bird- Rockets Edition",
+    "package": "com.flappybird.classic.game",
+    "description": "Welcome to the most exciting flappy adventure on mobile!\n\nTake control of a determined little chicken on a mission to conquer the skies. Your goal is simple: tap to keep flying and dodge the dangerous floating rock gates standing in your way. But be warned\u2014this isn't just a leisurely flight!\n\nWhy you'll love it:\n\nIntense Action: The game evolves as you play! Scoring points increases the speed and density of obstacles, keeping you on the edge of your seat.\nSkill-Based Gameplay: Master the perfect rhythm to slip through tight gaps and set unbeatable high scores.\nStunning Visuals: Experience a vibrant world with polished graphics and smooth performance.\nShare Functionality: Just hit a new record? Share your score screenshot directly with friends and challenge them to do better!\nWhether you ha",
+    "icon": "/icons/com.flappybird.classic.game.jpg"
+  },
+  "com.rectfy.birdybird": {
+    "title": "Birdy bird - Game Original",
+    "package": "com.rectfy.birdybird",
+    "description": "It\u2019s a fun arcade game, and it is not that easy as it look. It has a simple but not rough pixel picture, a little bird.\n\nGameplay\nYou need to constantly control the frequency of clicking on the screen to adjust the flying height and landing speed of the bird, so that the bird can smoothly pass through the pipe gap on the right side of the screen. If the bird accidentally wipes and touches the tube, the game is over.\n\nHow to start\nAfter loading the game, tap on the play button\n\nHow to play\nIn this game you have to keep tapping the screen to control the bird and let it flap through the pipes",
+    "icon": "/icons/com.rectfy.birdybird.jpg"
+  },
+  "com.webtech.flappybirdarcade": {
+    "title": "Flappy Bird Arcade",
+    "package": "com.webtech.flappybirdarcade",
+    "description": "Flappy Bird Arcade is a fast, addictive arcade flying game inspired by some of the most popular mobile games ever made. Designed for quick sessions and endless retries, it challenges your reflexes, timing, and focus with simple one-tap gameplay that\u2019s easy to learn but hard to master.\n\nTap to flap, stay airborne, and dodge endless pipes as you guide your bird through a vertical obstacle course. Each run is intense, fast, and instantly replayable \u2014 perfect for fans of classic arcade games, hyper casual games, and competitive high score games.\n\nIf you enjoy simple mechanics and addictive challenges, Flappy Bird Arcade delivers the perfect pick-up-and-play experience.\n\n\ud83c\udfae How to Play\n\n\u2022 Tap the screen to make the bird fly\n\u2022 Avoid hitting pipes and obstacles\n\u2022 Stay in the air as long as possibl",
+    "icon": "/icons/com.webtech.flappybirdarcade.png"
+  },
+  "com.rhd.flappyangrybird": {
+    "title": "Endless Flappy Tap Bird",
+    "package": "com.rhd.flappyangrybird",
+    "description": "Endless Flappy Tap Bird is an addictive 2D flying arcade game designed for players who love tap to fly games, endless runner challenges, and simple one-touch controls.\n\nTap the screen to flap your wings, avoid obstacles, and survive as long as possible. This endless bird game is easy to play but hard to master \u2014 perfect for casual gamers and high-score competitors.\n\n\ud83d\udd4a\ufe0f Endless Flying Challenge\n\nTest your reflexes in this fast-paced endless arcade game. The longer you survive, the harder it gets. Dodge obstacles, fly through gaps, and beat your best score.\n\n\ud83c\udfae Simple Tap to Fly Controls\n\n\u2022 One tap control gameplay\n\u2022 Smooth 2D side-scrolling action\n\u2022 Lightweight and fast performance\n\u2022 Easy to learn, challenging to master\n\nPerfect for quick gaming sessions anytime.\n\n\ud83c\udf08 Classic 2D Arcade Style\n\n",
+    "icon": "/icons/com.rhd.flappyangrybird.png"
+  },
+  "com.flappybirdfoundation.flappybird": {
+    "title": "Flappy Bird",
+    "package": "com.flappybirdfoundation.flappybird",
+    "description": "It\u2019s official: Flappy Bird\u00ae is now live on Google Play! \n\nPut your tapping and timing to the test as you guide Flappy to new worlds through pipes and crazy obstacles.  \n\nMaster the skies in Classic Mode or explore exciting new worlds in Quest Mode...\n\n...And Flap on!"
+  },
+  "com.projectark.app": {
+    "title": "ARK Residents",
+    "package": "com.projectark.app",
+    "description": "Ark is an app dedicated to helping you to engage more fully with the community around you. Features are designed to provide you with a better way to communicate with your community or building manager, and your neighbours in you immediate building or community. \n\nFeatures include: \n- Newsfeed to keep up to date with community events and notices.\n- Surveys: Answer questions about your community.\n- Messages - Send instant messages to your community manager. \n- Payments - Pay your rent or service charge online, or pay for individual items (e.g. replacement keys)\n- Documents: Review key documents from your landlord or building manager. \n- Bookings: Save spaces at events or classes through the app.\n- Collect Packages: Securely collect packages from your manager or concierge.",
+    "icon": "/icons/com.projectark.app.png"
+  },
+  "com.strategy.pubgsurvivalbattleshipmmo": {
+    "title": "The Last Ark: Survive the Sea",
+    "package": "com.strategy.pubgsurvivalbattleshipmmo",
+    "description": "Become an admiral of invincible navy fleets in the best 3D interactive strategy game of naval warfare. Lead your powerful fleet through countless sea battles against pirates, sea monsters, and players from around the globe and rule the waves!\uff01\n\nFEATURES:\n\u272aReal-Time Strategy: Command your battleships at the same time in the battlefield, outflanking, feint attacking and intercepting... Adjust your strategy in real-time and send out the strongest naval power to the victory!\n\n\u272aReal-Time Ladder War: The cross-server competition function is available, fight with the enemy from another server in battlefield.\n \n\u272a Collection of hundreds realistic warships: Representative warships and warplanes of the modern naval system, destroyer, light cruiser, heavy cruiser, battleship, submarine, fighters. The ",
+    "icon": "/icons/com.strategy.pubgsurvivalbattleshipmmo.png"
+  },
+  "com.direwolfdigital.arknova": {
+    "title": "Ark Nova",
+    "package": "com.direwolfdigital.arknova",
+    "description": "In\u00a0Ark Nova, you will plan and design a modern, scientifically managed zoo. With the ultimate goal of owning the most successful zoological establishment, you will build enclosures, accommodate animals, and support conservation projects all over the world. Specialists and unique buildings will help you in achieving this goal.\n\nAt the heart of Ark Nova\u00a0are 255 cards featuring animals, specialists, unique enclosures, and conservation projects, each with a particular ability. Use them to increase the appeal and scientific reputation of your zoo and to collect conservation points. Each player has a set of action cards, which you will use and upgrade to carry out your plans.\n\nEach player has a set of five action cards to manage their gameplay, and the power of an action is determined by the slo",
+    "icon": "/icons/com.direwolfdigital.arknova.png"
   }
 }
