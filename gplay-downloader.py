@@ -2,20 +2,22 @@
 """
 Google Play APK Downloader
 
-A CLI tool to download APKs from Google Play Store using anonymous authentication.
+A CLI tool to download APKs from Google Play Store.
 Based on the same API that AuroraStore uses.
 
 Usage:
-    ./gplay-downloader.py auth                    # Authenticate (anonymous mode)
+    ./gplay-downloader.py auth-account --browser  # Sign in with your own Google account
+    ./gplay-downloader.py auth                    # Authenticate via dispenser (anonymous)
     ./gplay-downloader.py search "whatsapp"       # Search for apps
     ./gplay-downloader.py info com.whatsapp       # Get app info
     ./gplay-downloader.py download com.whatsapp   # Download APK
     ./gplay-downloader.py download com.app --merge --arch arm64  # Download merged APK
 
 Requirements:
-    pip install cloudscraper requests protobuf
+    pip install cloudscraper requests protobuf gpapi websocket-client
 
-Note: This uses anonymous authentication via AuroraOSS dispensers.
+Authentication: either a personal (burner) Google account (auth-account) or an
+anonymous token from a self-hosted AuroraOSS dispenser (auth).
 """
 
 import argparse
@@ -62,6 +64,7 @@ from device_profiles import (
 DEFAULT_DEVICE = DEFAULT_ARM64_PROFILE
 
 AUTH_FILE = Path.home() / ".gplay-auth.json"
+AUTH_FILE_ARMV7 = Path.home() / ".gplay-auth-armv7.json"  # same file the server uses
 SCRIPT_DIR = Path(__file__).parent
 
 # Blacklist: packages that cannot be downloaded
@@ -156,14 +159,19 @@ def format_size(size_bytes):
     return f"{size_bytes:.2f} TB"
 
 
-def get_dispenser_auth(dispenser_url=None):
-    """Get anonymous authentication from dispenser with profile fallback."""
+def get_dispenser_auth(dispenser_url=None, arch=None):
+    """Get anonymous authentication from dispenser with profile fallback.
+
+    arch: 'arm64' or 'armv7' restricts the device profiles tried, so the
+    returned token is registered for that architecture (Play delivers
+    splits for the profile the token was minted with - see issue #29).
+    """
     url = dispenser_url or (DISPENSER_URLS[0] if DISPENSER_URLS else None)
     if not url:
         print("Error: no dispenser URL configured. Pass --dispenser <url> or set DISPENSER_URL.")
         print("See https://github.com/alltechdev/gplay-apk-downloader/issues/22 — do not use auroraoss.com.")
         sys.exit(1)
-    print(f"Authenticating via dispenser: {url}")
+    print(f"Authenticating via dispenser: {url}" + (f" ({arch})" if arch else ""))
 
     # Use cloudscraper to bypass Cloudflare protection
     scraper = cloudscraper.create_scraper()
@@ -174,9 +182,12 @@ def get_dispenser_auth(dispenser_url=None):
     }
 
     # Try priority-ordered profiles (most reliable first)
-    priority_arm64 = get_priority_profiles('arm64')
-    priority_armv7 = get_priority_profiles('armv7')
-    all_profiles = priority_arm64 + priority_armv7
+    if arch == 'arm64':
+        all_profiles = get_priority_profiles('arm64')
+    elif arch == 'armv7':
+        all_profiles = get_priority_profiles('armv7')
+    else:
+        all_profiles = get_priority_profiles('arm64') + get_priority_profiles('armv7')
 
     for profile_name, profile in all_profiles:
         try:
@@ -201,15 +212,22 @@ def save_auth(auth_data):
     print(f"Auth saved to: {AUTH_FILE}")
 
 
-def load_auth():
-    """Load authentication data from file."""
-    if not AUTH_FILE.exists():
-        print(f"Error: Auth file not found: {AUTH_FILE}")
-        print("Run 'gplay-downloader.py auth' first.")
+def load_auth(arch='arm64-v8a'):
+    """Load authentication data for the given architecture.
+
+    Personal-account logins register one virtual device per architecture;
+    ARMv7 falls back to the default auth file if no ARMv7 auth exists.
+    """
+    auth_file = AUTH_FILE
+    if arch == 'armeabi-v7a' and AUTH_FILE_ARMV7.exists():
+        auth_file = AUTH_FILE_ARMV7
+    if not auth_file.exists():
+        print(f"Error: Auth file not found: {auth_file}")
+        print("Run 'gplay-downloader.py auth' or 'gplay-downloader.py auth-account --browser' first.")
         return None
 
     try:
-        return json.loads(AUTH_FILE.read_text())
+        return json.loads(auth_file.read_text())
     except json.JSONDecodeError as e:
         print(f"Error: Invalid auth file: {e}")
         return None
@@ -269,18 +287,80 @@ def api_request(auth, url, params=None, method='GET'):
 
 
 def cmd_auth(args):
-    """Authenticate with Google Play."""
-    auth_data = get_dispenser_auth(args.dispenser)
-
+    """Authenticate with Google Play via a dispenser (one token per architecture)."""
+    auth_data = get_dispenser_auth(args.dispenser, arch='arm64')
     if not auth_data:
         print("Authentication failed!")
         return 1
 
     email = auth_data.get('email', 'unknown')
-    print(f"Got auth token for: {email}")
+    print(f"Got ARM64 auth token for: {email}")
+    save_auth(auth_data)
+
+    # Second token minted with an ARMv7 profile, so -a armv7 downloads get
+    # armeabi-v7a splits instead of arm64 ones (issue #29)
+    auth_v7 = get_dispenser_auth(args.dispenser, arch='armv7')
+    if auth_v7:
+        AUTH_FILE_ARMV7.write_text(json.dumps(auth_v7, indent=2))
+        print(f"ARMv7 auth saved to: {AUTH_FILE_ARMV7}")
+    else:
+        print("Warning: could not get an ARMv7 token - armv7 downloads may receive arm64 splits")
+
+    print("Authentication successful!")
+    return 0
+
+
+def cmd_auth_account(args):
+    """Authenticate with a personal (burner) Google account — no dispenser needed."""
+    import account_auth
+
+    if not args.aas_token and not args.oauth_token and not args.browser:
+        print("Error: provide --browser, --aas-token or --oauth-token.\n")
+        print("Browser sign-in (opens a window, captures the token for you):")
+        print(f"  ./gplay-downloader.py auth-account --browser\n")
+        print("Manual:")
+        print(account_auth.OAUTH_TOKEN_HELP)
+        print("Then run:")
+        print(f"  ./gplay-downloader.py auth-account --email {args.email or 'you@gmail.com'} --oauth-token 'oauth2_4/...'")
+        return 1
+
+    try:
+        email = args.email
+        oauth_token = args.oauth_token
+        if args.browser and not args.aas_token and not oauth_token:
+            scraped_email, oauth_token = account_auth.capture_oauth_token_via_browser(log=print)
+            email = email or scraped_email
+            if not email:
+                print("Could not detect the account email automatically - re-run with --email.")
+                return 1
+
+        aas_token = args.aas_token
+        if not aas_token:
+            aas_token = account_auth.exchange_oauth_token(email, oauth_token, log=print)
+
+        auth_data = account_auth.build_auth_data(
+            email, aas_token,
+            device=args.device, log=print)
+
+        auth_armv7 = None
+        if not args.device:
+            from device_profiles import NEWEST_ARMV7_PROFILE as DEFAULT_ARMV7_PROFILE
+            print("Registering a second virtual device for ARMv7 downloads...")
+            try:
+                auth_armv7 = account_auth.build_auth_data(
+                    email, aas_token, device=DEFAULT_ARMV7_PROFILE, log=print)
+            except account_auth.AccountAuthError as e:
+                print(f"ARMv7 device registration failed ({e}) - ARM64 downloads still work")
+    except account_auth.AccountAuthError as e:
+        print(f"Authentication failed: {e}")
+        return 1
 
     save_auth(auth_data)
-    print("Authentication successful!")
+    if auth_armv7:
+        AUTH_FILE_ARMV7.write_text(json.dumps(auth_armv7, indent=2))
+        print(f"ARMv7 auth saved to: {AUTH_FILE_ARMV7}")
+    print(f"Authentication successful for {email} (personal account).")
+    print("The saved aasToken is long-lived; re-run this command with --aas-token to refresh.")
     return 0
 
 
@@ -468,10 +548,10 @@ def cmd_download(args):
         if not _check_adb_device():
             return 1
 
-    auth = load_auth()
+    arch = ARCH_MAP.get(args.arch, 'arm64-v8a') if args.arch else 'arm64-v8a'
+    auth = load_auth(arch)
     if not auth:
         return 1
-    arch = ARCH_MAP.get(args.arch, 'arm64-v8a') if args.arch else 'arm64-v8a'
     should_merge = args.merge
 
     print(f"Preparing to download: {package}")
@@ -510,6 +590,12 @@ def cmd_download(args):
         print(f"App: {app.title}")
         print(f"Version: {app.details.appDetails.versionString} ({version_code})")
         print()
+
+        if not version_code:
+            print(f"Error: no compatible version of {app.title or package} for the registered "
+                  "device (arch mismatch, app requires newer Android, or stale session).")
+            print("Re-run './gplay-downloader.py auth-account --aas-token <token> --email <email>' to refresh.")
+            return 1
 
         # Detect paid apps before attempting purchase/delivery
         for offer in app.offer:
@@ -772,6 +858,10 @@ def cmd_check_version(args):
                 result['version'] = app_details.versionString
                 result['version_code'] = app_details.versionCode
                 break
+            else:
+                result['error'] = (f'No compatible version of {app.title or package} for the '
+                                   'registered device (arch mismatch, app requires newer Android, '
+                                   'or stale session - re-run auth-account)')
 
     except ImportError:
         pass  # Fall through to HTML fallback
@@ -1415,7 +1505,8 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  %(prog)s auth                              # Authenticate (anonymous)
+  %(prog)s auth-account --browser            # Sign in with your own Google account
+  %(prog)s auth                              # Authenticate via dispenser (anonymous)
   %(prog)s search "whatsapp"                 # Search for apps
   %(prog)s info com.whatsapp                 # Get app details
   %(prog)s check-version com.whatsapp        # Check version without downloading
@@ -1440,6 +1531,18 @@ Examples:
     # Auth command
     auth_parser = subparsers.add_parser('auth', help='Authenticate with Google Play')
     auth_parser.add_argument('-d', '--dispenser', help='Dispenser URL for anonymous auth')
+
+    # Auth-account command (personal/burner Google account, no dispenser)
+    auth_account_parser = subparsers.add_parser(
+        'auth-account', help='Authenticate with your own (burner) Google account')
+    auth_account_parser.add_argument('--email', help='Google account email (auto-detected with --browser)')
+    auth_account_parser.add_argument('--browser', action='store_true',
+                                     help='Open a browser window and capture the sign-in token automatically')
+    auth_account_parser.add_argument('--aas-token', help='Long-lived AAS token (aas_et/...)')
+    auth_account_parser.add_argument('--oauth-token',
+                                     help='oauth_token cookie from accounts.google.com/EmbeddedSetup (oauth2_4/...)')
+    auth_account_parser.add_argument('--device', default=None,
+                                     help='Device profile for checkin: a profiles/*.properties name or gpapi codename (default: the repo ARM64 profile)')
 
     # Search command
     search_parser = subparsers.add_parser('search', help='Search for apps')
@@ -1504,6 +1607,7 @@ Examples:
 
     commands = {
         'auth': cmd_auth,
+        'auth-account': cmd_auth_account,
         'search': cmd_search,
         'info': cmd_info,
         'download': cmd_download,
